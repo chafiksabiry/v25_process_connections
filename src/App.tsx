@@ -7,11 +7,11 @@ const App = () => {
       
 
         <Routes>
-          <Route path="/app1" element={<div>Loading App 1...</div>} />
-          <Route path="/app2" element={<div>Loading App 2...</div>} />
-          <Route path="/app3" element={<div>Loading App 3...</div>} />
-          <Route path="/app4" element={<div>Loading App 4...</div>} />
-          <Route path="/app5" element={<div>Loading App 5...</div>} />
+          <Route path="/app1"/>
+          <Route path="/app2"/>
+          <Route path="/app3"/>
+          <Route path="/app4"/>
+          <Route path="/app5"/>
         </Routes>
       
     </Router>

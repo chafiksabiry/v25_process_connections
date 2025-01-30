@@ -34,7 +34,7 @@ const microApps = [
   },
   {
     name: "app5",
-    entry: "//localhost:5176",
+    entry: "//192.168.1.70:5176",
     container: "#container-app5",
     activeRule: "/app5",
   },

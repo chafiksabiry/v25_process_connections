@@ -7,7 +7,6 @@ const isQiankun = process.env.QIANKUN === 'true'; // Define the Qiankun environm
 export default defineConfig({
   plugins: [
     react({
-      fastRefresh: !isQiankun, // Disable React Fast Refresh for Qiankun mode
     }),
   ],
   optimizeDeps: {
