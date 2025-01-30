@@ -32,6 +32,12 @@ const microApps = [
     container: "#container-app4",
     activeRule: "/app4",
   },
+  {
+    name: "app5",
+    entry: "//localhost:5176",
+    container: "#container-app5",
+    activeRule: "/app5",
+  },
 ];
 
 // Register the apps with Qiankun
