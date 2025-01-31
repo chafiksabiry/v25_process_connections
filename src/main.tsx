@@ -9,7 +9,7 @@ console.log('Qiankun loaded');
 const microApps = [
   {
     name: 'app1', // Microfrontend 1
-    entry: 'http://38.242.208.242:5175/index.js', // URL of the micro frontend
+    entry: 'http://38.242.208.242:5157/index.js', // URL of the micro frontend
     container: '#container-app1', // Container where it will be mounted
     activeRule: '/app1', // Route that triggers the micro frontend
   },
@@ -21,7 +21,7 @@ const microApps = [
   },
   {
     name: 'app3', // Microfrontend 3
-    entry: 'http://38.242.208.242:5174',
+    entry: 'http://38.242.208.242:5177',
     container: '#container-app3',
     activeRule: '/app3',
     
@@ -32,12 +32,7 @@ const microApps = [
     container: "#container-app4",
     activeRule: "/app4",
   },
-  {
-    name: "app5",
-    entry: "http://38.242.208.242:5177",
-    container: "#container-app5",
-    activeRule: "/app5",
-  },
+ 
 ];
 
 // Register the apps with Qiankun
