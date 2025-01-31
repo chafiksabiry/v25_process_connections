@@ -9,32 +9,32 @@ console.log('Qiankun loaded');
 const microApps = [
   {
     name: 'app1', // Microfrontend 1
-    entry: '//localhost:5172/index.js', // URL of the micro frontend
+    entry: 'http://38.242.208.242:5175/index.js', // URL of the micro frontend
     container: '#container-app1', // Container where it will be mounted
     activeRule: '/app1', // Route that triggers the micro frontend
   },
   {
     name: 'app2', // Microfrontend 2
-    entry: '//localhost:5173',
+    entry: 'http://38.242.208.242:5173',
     container: '#container-app2',
     activeRule: '/app2',
   },
   {
     name: 'app3', // Microfrontend 3
-    entry: '//localhost:5174',
+    entry: 'http://38.242.208.242:5174',
     container: '#container-app3',
     activeRule: '/app3',
     
   },
   {
     name: "app4",
-    entry: "//localhost:5175",
+    entry: "http://38.242.208.242:5176",
     container: "#container-app4",
     activeRule: "/app4",
   },
   {
     name: "app5",
-    entry: "//192.168.1.70:5176",
+    entry: "http://38.242.208.242:5177",
     container: "#container-app5",
     activeRule: "/app5",
   },
