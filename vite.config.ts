@@ -31,7 +31,7 @@ export default defineConfig({
       output: {
         format: 'system', // Necessary for Qiankun integration
       },
-      external: isQiankun ? ['react', 'react-dom'] : [], // Exclude React and ReactDOM in Qiankun mode
+      external: isQiankun ? ['react', 'react-dom','systemjs'] : [], // Exclude React and ReactDOM in Qiankun mode
     },
   },
   resolve: {

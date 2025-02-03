@@ -2,6 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start } from 'qiankun';
+import "systemjs";
 
 console.log('Qiankun loaded');
 
