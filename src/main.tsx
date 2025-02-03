@@ -8,26 +8,26 @@ console.log('Qiankun loaded');
 // Register micro apps with their lifecycle methods
 const microApps = [
   {
-    name: 'app1', // Microfrontend 1
+    name: 'app1', // registration
     entry: 'http://38.242.208.242:5157/index.js', // URL of the micro frontend
     container: '#container-app1', // Container where it will be mounted
     activeRule: '/app1', // Route that triggers the micro frontend
   },
   {
-    name: 'app2', // Microfrontend 2
+    name: 'app2', // Choice Page
     entry: 'http://38.242.208.242:5173',
     container: '#container-app2',
     activeRule: '/app2',
   },
   {
-    name: 'app3', // Microfrontend 3
+    name: 'app3', // Profile-Wizard (rep part)
     entry: 'http://38.242.208.242:5177',
     container: '#container-app3',
     activeRule: '/app3',
     
   },
   {
-    name: "app4",
+    name: "app4", // Company Wizard
     entry: "http://38.242.208.242:5176",
     container: "#container-app4",
     activeRule: "/app4",
