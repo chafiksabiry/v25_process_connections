@@ -27,7 +27,7 @@ const microApps = [
     
   },
   {
-    name: "app4", // Company Wizard
+    name: "app4", // searchCompany Wizard
     entry: "http://38.242.208.242:5176",
     container: "#container-app4",
     activeRule: "/app4",
