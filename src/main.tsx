@@ -2,9 +2,23 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start } from 'qiankun';
-import "systemjs";
+const System = require("systemjs");
+
 
 console.log('Qiankun loaded');
+
+
+System.config({
+  baseURL: "./dist",
+  defaultExtension: "js",
+});
+
+System.import("./dist/myModule.js")
+  .then((module: any) => {
+    console.log("Loaded module:", module);
+  })
+  .catch((err: any) => console.error("Error loading module:", err));
+
 
 // Register micro apps with their lifecycle methods
 const microApps = [

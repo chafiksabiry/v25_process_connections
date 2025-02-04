@@ -1,10 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>main app</title>
+    <title>Main App</title>
+
+    <!-- Load SystemJS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.12.1/dist/system.js" defer></script>
   </head>
   <body>
     <div id="root"></div>
@@ -13,7 +16,23 @@
     <div id="container-app3"></div>
     <div id="container-app4"></div>
     <div id="container-app5"></div>
-    <script type="module" src="/src/main.tsx"></script>
-   <!-- Add this line -->
 
+    <script>
+      window.addEventListener('load', async function () {
+        if (window.System) {
+          console.log('✅ SystemJS Loaded:', window.System);
 
+          try {
+            // Ensure the correct path to the bundled file
+            await System.import('/index.js');
+            console.log('✅ App loaded successfully');
+          } catch (error) {
+            console.error('❌ Failed to load main app:', error);
+          }
+        } else {
+          console.error('❌ SystemJS failed to load');
+        }
+      });
+    </script>
+  </body>
+</html>

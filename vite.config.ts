@@ -2,7 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 
-const isQiankun = process.env.QIANKUN === 'true'; // Define the Qiankun environment
+const isQiankun = process.env.QIANKUN === 'true';
+
 
 export default defineConfig({
   plugins: [
@@ -13,6 +14,7 @@ export default defineConfig({
     exclude: ['src/main.jsx'], // Exclude problematic file
   },
   server: {
+    host: '0.0.0.0', // Allow access from Docker
     port: 3000,
     cors: {
       origin: '*', // Allow all origins for local development
@@ -30,6 +32,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         format: 'system', // Necessary for Qiankun integration
+        entryFileNames : '[name].js',
       },
       external: isQiankun ? ['react', 'react-dom','systemjs'] : [], // Exclude React and ReactDOM in Qiankun mode
       treeshake: false,
