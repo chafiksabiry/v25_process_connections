@@ -21,15 +21,13 @@ export default defineConfig({
       methods: ['GET', 'POST'],
       allowedHeaders: ['Content-Type', 'Authorization'],
     },
-    hmr: {
-      protocol: 'http',
-      host: 'localhost',
-    },
+    hmr: false
   },
-  base: isQiankun ? '/main-app/' : './', // Adjust the base path for Qiankun deployment
+  base: isQiankun ? './' : './', // Adjust the base path for Qiankun deployment
   build: {
     target: 'esnext',
     rollupOptions: {
+      
       output: {
         format: 'es', // Necessary for Qiankun integration
         entryFileNames : '[name].js',
