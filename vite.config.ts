@@ -31,7 +31,7 @@ export default defineConfig({
     target: 'esnext',
     rollupOptions: {
       output: {
-        format: 'system', // Necessary for Qiankun integration
+        format: 'es', // Necessary for Qiankun integration
         entryFileNames : '[name].js',
       },
       external: isQiankun ? ['react', 'react-dom','systemjs'] : [], // Exclude React and ReactDOM in Qiankun mode
