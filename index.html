@@ -17,22 +17,7 @@
     <div id="container-app4"></div>
     <div id="container-app5"></div>
 
-    <script>
-      window.addEventListener('load', async function () {
-        if (window.System) {
-          console.log('✅ SystemJS Loaded:', window.System);
-
-          try {
-            // Ensure the correct path to the bundled file
-            await System.import('/index.js');
-            console.log('✅ App loaded successfully');
-          } catch (error) {
-            console.error('❌ Failed to load main app:', error);
-          }
-        } else {
-          console.error('❌ SystemJS failed to load');
-        }
-      });
+    <script type="module" src="src/main.tsx">
     </script>
   </body>
 </html>
