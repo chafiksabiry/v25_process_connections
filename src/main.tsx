@@ -12,7 +12,7 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: '//38.242.208.242:5157',
+    entry: '//localhost:5157',
     container: '#container-app1',
     activeRule: '/app1',
     props: {
@@ -32,6 +32,29 @@ registerMicroApps([
       },
     },
   },
+  {
+    name: 'app3',
+    entry: '//localhost:5174',
+    container: '#container-app3',
+    activeRule: '/app4',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+    },
+  },
+  {
+    name: 'app4',
+    entry: '//localhost:5178',
+    container: '#container-app4',
+    activeRule: '/app4',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+    },
+  },
+
 ]);
 
 // Configure and start Qiankun
