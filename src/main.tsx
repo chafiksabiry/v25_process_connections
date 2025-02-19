@@ -1,16 +1,31 @@
-import React from 'react';
+//import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start } from 'qiankun';
 import './index.css';
+import 'systemjs';
+
+console.log("qiankun is here");
+
 
 // Register microfrontends
 registerMicroApps([
   {
-    name: 'micro-frontend-name',
-    entry: '//localhost:3001',
-    container: '#micro-frontend-container',
-    activeRule: '/micro-frontend',
+    name: 'app1',
+    entry: '//38.242.208.242:5157',
+    container: '#container-app1',
+    activeRule: '/app1',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+    },
+  },
+  {
+    name: 'app2',
+    entry: '//38.242.208.242:5173',
+    container: '#container-app2',
+    activeRule: '/app2',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
