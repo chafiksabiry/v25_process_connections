@@ -36,7 +36,7 @@ registerMicroApps([
     name: 'app3',
     entry: '//38.242.208.242:5177',
     container: '#container-app3',
-    activeRule: '/app',
+    activeRule: '/app3',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
