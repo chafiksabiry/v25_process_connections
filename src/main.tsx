@@ -34,7 +34,7 @@ registerMicroApps([
   },
   {
     name: 'app3',
-    entry: '//38.242.208.242:5174',
+    entry: '//38.242.208.242:5177',
     container: '#container-app3',
     activeRule: '/app',
     props: {
