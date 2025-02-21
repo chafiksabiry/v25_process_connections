@@ -12,7 +12,7 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: '//38.242.208.242:5157',
+    entry: 'https://registration.harx.ai',
     container: '#container-app1',
     activeRule: '/app1',
     props: {
@@ -23,7 +23,7 @@ registerMicroApps([
   },
   {
     name: 'app2',
-    entry: '//38.242.208.242:5173',
+    entry: 'https://choicepage.harx.ai/',
     container: '#container-app2',
     activeRule: '/app2',
     props: {
@@ -34,7 +34,7 @@ registerMicroApps([
   },
   {
     name: 'app3',
-    entry: '//38.242.208.242:5177',
+    entry: 'https://repcreationwizard.harx.ai ',
     container: '#container-app3',
     activeRule: '/app3',
     props: {
@@ -45,7 +45,7 @@ registerMicroApps([
   },
   {
     name: 'app4',
-    entry: '//38.242.208.242:5176',
+    entry: 'https://companysearchwizard.harx.ai',
     container: '#container-app4',
     activeRule: '/app4',
     props: {
@@ -56,7 +56,7 @@ registerMicroApps([
   },
   {
     name: 'app5',
-    entry: '//38.242.208.242:5178',
+    entry: 'https://gigsmanual.harx.ai',
     container: '#container-app5',
     activeRule: '/app5',
     props: {
@@ -67,7 +67,7 @@ registerMicroApps([
   },
   {
     name: 'app6',
-    entry: '//38.242.208.242:5179',
+    entry: 'https://gigsai.harx.ai',
     container: '#container-app6',
     activeRule: '/app6',
     props: {
@@ -78,7 +78,7 @@ registerMicroApps([
   },
   {
     name: 'app7',
-    entry: '//38.242.208.242:5180',
+    entry: 'https://dashboard.harx.ai',
     container: '#container-app7',
     activeRule: '/app7',
     props: {
