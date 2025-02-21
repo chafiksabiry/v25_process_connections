@@ -33,6 +33,43 @@ export default defineConfig(({ mode }) => {
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
         'Access-Control-Allow-Headers': 'Content-Type, Authorization',
       },
+      proxy: {
+        '/app1': {
+          target: 'https://registration.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app1/, ''),
+        },
+        '/app2': {
+          target: 'https://choicepage.harx.ai/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app2/, ''),
+        },
+        '/app3': {
+          target: 'https://repcreationwizard.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app3/, ''),
+        },
+        '/app4': {
+          target: 'https://companysearchwizard.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app4/, ''),
+        },
+        '/app5': {
+          target: 'https://gigsmanual.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app5/, ''),
+        },
+        '/app6': {
+          target: 'https://gigsai.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app6/, ''),
+        },
+        '/app7': {
+          target: 'https://dashboard.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app7/, ''),
+        },
+      },
     },
     optimizeDeps: {
       include: ['react', 'react-dom'], // Pre-bundle react and react-dom to ensure smooth behavior
