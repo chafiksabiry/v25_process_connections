@@ -76,7 +76,17 @@ registerMicroApps([
       },
     },
   },
-
+  {
+    name: 'app7',
+    entry: '//38.242.208.242:5180',
+    container: '#container-app7',
+    activeRule: '/app7',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+    },
+  },
 ]);
 
 // Configure and start Qiankun

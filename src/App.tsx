@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/app4" element={ <div id="container-app4"></div>}/>
         <Route path="/app5" element={ <div id="container-app5"></div>}/>
         <Route path="/app6" element={ <div id="container-app6"></div>}/>
+        <Route path="/app7" element={ <div id="container-app7"></div>}/>
       </Routes>
     </Router>
   );
