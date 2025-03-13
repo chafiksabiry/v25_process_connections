@@ -87,20 +87,25 @@ registerMicroApps([
   },
 ]);
 
-// Configure and start Qiankun
 const startQiankun = async () => {
   try {
     start({
-      prefetch: 'all', // Change to 'all' for eager loading
+      prefetch: 'all',
       sandbox: {
         strictStyleIsolation: true,
         experimentalStyleIsolation: true,
       },
-      singular: false, // Allow multiple micro apps
-      fetch: (input: RequestInfo | URL, init?: RequestInit) => {
-        return fetch(input, { ...init, mode: 'cors' }); // Ensures CORS support globally
+      singular: false,
+      fetch: (url, options) => {
+        console.log(`[Host] Fetching: ${url}`);
+        return fetch(url, {
+          ...options,
+          headers: {
+            ...options?.headers,
+            "Access-Control-Allow-Origin": "*", // Attempt to enforce CORS
+          },
+        });
       },
-      // timeoutMs: 10000, // Increase timeout to 10 seconds (if needed)
     });
     console.log('[Host] Qiankun started successfully');
   } catch (error) {
