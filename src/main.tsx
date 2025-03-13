@@ -1,4 +1,3 @@
-//import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start } from 'qiankun';
@@ -6,7 +5,6 @@ import './index.css';
 import 'systemjs';
 
 console.log("qiankun is here");
-
 
 // Register microfrontends
 registerMicroApps([
@@ -96,9 +94,13 @@ const startQiankun = async () => {
       prefetch: 'all', // Change to 'all' for eager loading
       sandbox: {
         strictStyleIsolation: true,
+        experimentalStyleIsolation: true,
       },
       singular: false, // Allow multiple micro apps
-      // timeoutMs: 10000, // Increase timeout to 10 seconds
+      fetch: (input: RequestInfo | URL, init?: RequestInit) => {
+        return fetch(input, { ...init, mode: 'cors' }); // Ensures CORS support globally
+      },
+      // timeoutMs: 10000, // Increase timeout to 10 seconds (if needed)
     });
     console.log('[Host] Qiankun started successfully');
   } catch (error) {
