@@ -93,7 +93,7 @@ registerMicroApps([
 const startQiankun = async () => {
   try {
     start({
-      prefetch: true,
+      prefetch: 'all',
       sandbox: {
         strictStyleIsolation: true,
         experimentalStyleIsolation: true,
