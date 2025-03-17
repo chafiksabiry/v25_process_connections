@@ -97,7 +97,7 @@ const startQiankun = async () => {
       },
       singular: false,
       fetch: (url, options) => {
-        console.log([Host] Fetching: ${url});
+        console.log(`[Host] Fetching: ${url}`);
         return fetch(url, {
           ...options,
           mode: "cors",
