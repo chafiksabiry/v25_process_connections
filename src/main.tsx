@@ -29,7 +29,6 @@ registerMicroApps([
         experimentalStyleIsolation: true,
       },
     },
-    
   },
   {
     name: 'app3',
