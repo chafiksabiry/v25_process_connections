@@ -88,12 +88,7 @@ registerMicroApps([
       },
     },
   },
-], {
-  // Increase the bootstrap timeout (e.g., to 10 seconds)
-  bootstrap: {
-    timeout: 10000, // 10 seconds
-  },
-});
+]);
 
 const startQiankun = async () => {
   try {
@@ -114,6 +109,9 @@ const startQiankun = async () => {
             "Access-Control-Allow-Origin": "https://v25.harx.ai", // Attempt to enforce CORS
           },
         });
+      },
+       bootstrap: {
+        timeout: 10000, // 10 seconds
       },
     });
     console.log('[Host] Qiankun started successfully');
