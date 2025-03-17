@@ -30,7 +30,7 @@ registerMicroApps([
       },
     },
     loader: (loading) => {
-      console.log(`[Host] Loading app2: ${loading}`);
+      console.log(`[Host] Loading app: ${loading}`);
     },
   },
   {
@@ -109,9 +109,6 @@ const startQiankun = async () => {
             "Access-Control-Allow-Origin": "https://v25.harx.ai", // Attempt to enforce CORS
           },
         });
-      },
-       bootstrap: {
-        timeout: 10000, // 10 seconds
       },
     });
     console.log('[Host] Qiankun started successfully');
