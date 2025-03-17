@@ -29,9 +29,7 @@ registerMicroApps([
         experimentalStyleIsolation: true,
       },
     },
-    loader: (loading) => {
-      console.log(`[Host] Loading app: ${loading}`);
-    },
+    
   },
   {
     name: 'app3',
