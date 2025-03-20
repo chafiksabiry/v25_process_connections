@@ -12,7 +12,7 @@ registerMicroApps([
     name: 'app1',
     entry: 'https://registration.harx.ai/',
     container: '#container-app1',
-    activeRule: '/app1',
+    activeRule: '/registration',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -23,7 +23,7 @@ registerMicroApps([
     name: 'app2',
     entry: 'https://choicepage.harx.ai/',
     container: '#container-app2',
-    activeRule: '/app2',
+    activeRule: '/choicepage',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -34,7 +34,7 @@ registerMicroApps([
     name: 'app3',
     entry: 'https://repcreationwizard.harx.ai/',
     container: '#container-app3',
-    activeRule: '/app3',
+    activeRule: '/repcreationwizard',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -45,7 +45,7 @@ registerMicroApps([
     name: 'app4',
     entry: 'https://companysearchwizard.harx.ai/',
     container: '#container-app4',
-    activeRule: '/app4',
+    activeRule: '/companysearchwizard',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -56,7 +56,7 @@ registerMicroApps([
     name: 'app5',
     entry: 'https://gigsmanual.harx.ai/',
     container: '#container-app5',
-    activeRule: '/app5',
+    activeRule: '/gigsmanuel',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -67,7 +67,7 @@ registerMicroApps([
     name: 'app6',
     entry: 'https://gigsai.harx.ai/',
     container: '#container-app6',
-    activeRule: '/app6',
+    activeRule: '/gigsai',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -78,7 +78,7 @@ registerMicroApps([
     name: 'app7',
     entry: 'https://dashboard.harx.ai/',
     container: '#container-app7',
-    activeRule: '/app7',
+    activeRule: '/dashboard',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
