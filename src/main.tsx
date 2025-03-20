@@ -10,9 +10,9 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: 'https://registration.harx.ai/',
+    entry: 'https://v25.harx.ai/registration',
     container: '#container-app1',
-    activeRule: '/registration',
+    activeRule: '/app1',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -21,9 +21,9 @@ registerMicroApps([
   },
   {
     name: 'app2',
-    entry: 'https://choicepage.harx.ai/',
+    entry: 'https://v25.harx.ai/choicepage',
     container: '#container-app2',
-    activeRule: '/choicepage',
+    activeRule: '/app2',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -32,9 +32,9 @@ registerMicroApps([
   },
   {
     name: 'app3',
-    entry: 'https://repcreationwizard.harx.ai/',
+    entry: 'https://v25.harx.ai/repcreationwizard',
     container: '#container-app3',
-    activeRule: '/repcreationwizard',
+    activeRule: '/app3',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -43,9 +43,9 @@ registerMicroApps([
   },
   {
     name: 'app4',
-    entry: 'https://companysearchwizard.harx.ai/',
+    entry: 'https://v25.harx.ai/companysearchwizard',
     container: '#container-app4',
-    activeRule: '/companysearchwizard',
+    activeRule: '/app4',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -54,9 +54,9 @@ registerMicroApps([
   },
   {
     name: 'app5',
-    entry: 'https://gigsmanual.harx.ai/',
+    entry: 'https://v25.harx.ai/gigsmanual',
     container: '#container-app5',
-    activeRule: '/gigsmanuel',
+    activeRule: '/app5',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -65,9 +65,9 @@ registerMicroApps([
   },
   {
     name: 'app6',
-    entry: 'https://gigsai.harx.ai/',
+    entry: 'https://v25.harx.ai/gigsai',
     container: '#container-app6',
-    activeRule: '/gigsai',
+    activeRule: '/app6',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -76,9 +76,9 @@ registerMicroApps([
   },
   {
     name: 'app7',
-    entry: 'https://dashboard.harx.ai/',
+    entry: 'https://v25.harx.ai/dashboard',
     container: '#container-app7',
-    activeRule: '/dashboard',
+    activeRule: '/app7',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
