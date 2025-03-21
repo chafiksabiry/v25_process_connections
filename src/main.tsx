@@ -101,10 +101,6 @@ const startQiankun = async () => {
         return fetch(url, {
           ...options,
           mode: "cors",
-          headers: {
-            ...options?.headers,
-            "Access-Control-Allow-Origin": "https://v25.harx.ai", // Attempt to enforce CORS
-          },
         });
       },
     });
