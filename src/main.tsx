@@ -1,8 +1,16 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { registerMicroApps, start } from 'qiankun';
+import { registerMicroApps, start, initGlobalState } from 'qiankun';
 import './index.css';
 import 'systemjs';
+const initialState = { userId: null };
+const actions = initGlobalState(initialState);
+
+// Listen for changes (for debugging)
+actions.onGlobalStateChange((state, prev) => {
+    console.log('[Main App] Global state changed:', state);
+});
+
 
 console.log("qiankun is here");
 
@@ -17,6 +25,7 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
+      actions,
     },
   },
   {
@@ -28,6 +37,7 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
+      actions,
     },
   },
   {
@@ -39,6 +49,7 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
+      actions,
     },
   },
   {
@@ -61,6 +72,7 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
+      actions,
     },
   },
   {
@@ -72,6 +84,7 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
+      actions,
     },
   },
   {
@@ -83,6 +96,19 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
+      actions,
+    },
+  },
+  {
+    name: 'gigs',
+    entry: 'https://dashboard.harx.ai/gigs',
+    container: '#container-gigs',
+    activeRule: '/gigs',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
     },
   },
 ]);

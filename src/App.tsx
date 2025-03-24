@@ -13,6 +13,7 @@ const App = () => {
         <Route path="/app5" element={ <div id="container-app5"></div>}/>
         <Route path="/app6" element={ <div id="container-app6"></div>}/>
         <Route path="/app7" element={ <div id="container-app7"></div>}/>
+        <Route path="/gigs" element={ <div id="container-gigs"></div>}/>
       </Routes>
     </Router>
   );
