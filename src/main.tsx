@@ -7,7 +7,7 @@ const initialState = { userId: null };
 const actions = initGlobalState(initialState);
 
 // Listen for changes (for debugging)
-actions.onGlobalStateChange((state, prev) => {
+actions.onGlobalStateChange((state, /*prev*/) => {
     console.log('[Main App] Global state changed:', state);
 });
 
