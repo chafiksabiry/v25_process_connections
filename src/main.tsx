@@ -111,6 +111,42 @@ registerMicroApps([
       actions,
     },
   },
+  {
+    name: 'app8',
+    entry: 'https://rep-dashboard.harx.ai/',
+    container: '#container-app8',
+    activeRule: '/app8',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
+    name: 'app9',
+    entry: 'https://knowledge-base.harx.ai/',
+    container: '#container-app9',
+    activeRule: '/app9',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
+    name: 'app10',
+    entry: 'https://dashboard.harx.ai/',
+    container: '#container-app10',
+    activeRule: '/app10',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
 ]);
 
 const startQiankun = async () => {
