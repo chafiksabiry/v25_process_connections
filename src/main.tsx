@@ -93,9 +93,7 @@ registerMicroApps([
     container: '#container-app7',
     activeRule: '/app7',
     props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
+      sandbox: { strictStyleIsolation: false, experimentalStyleIsolation: false },
       actions,
     },
   },
