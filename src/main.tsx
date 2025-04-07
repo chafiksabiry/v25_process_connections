@@ -54,7 +54,7 @@ registerMicroApps([
   },
   {
     name: 'app4',
-    entry: 'https://companysearchwizard.harx.ai/',
+    entry: 'http://localhost:5176/',
     container: '#container-app4',
     activeRule: '/app4',
     props: {
@@ -89,7 +89,7 @@ registerMicroApps([
   },
   {
     name: 'app7',
-    entry: 'https://dashboard.harx.ai/',
+    entry: 'http://localhost:5180/',
     container: '#container-app7',
     activeRule: '/app7',
     props: {
