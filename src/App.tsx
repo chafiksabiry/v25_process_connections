@@ -16,6 +16,7 @@ const App = () => {
         <Route path="/repdashboard" element={ <div id="container-app8"></div>}/>
         <Route path="/knowledgebase" element={ <div id="container-app9"></div>}/>
         <Route path="/gigs" element={ <div id="container-gigs"></div>}/>
+        <Route path="/company" element={ <div id="container-company"></div>}/>
       </Routes>
     </Router>
   );

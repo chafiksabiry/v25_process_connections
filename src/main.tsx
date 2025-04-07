@@ -109,6 +109,18 @@ registerMicroApps([
       actions,
     },
   },
+    {
+    name: 'company',
+    entry: 'https://dashboard.harx.ai/company',
+    container: '#container-company',
+    activeRule: '/company',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
   {
     name: 'app8',
     entry: 'https://rep-dashboard.harx.ai/',
