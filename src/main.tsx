@@ -19,6 +19,7 @@ registerMicroApps([
   {
     name: 'app1',
     entry: 'https://registration.harx.ai/',
+    //entry: 'http://localhost:5157/',
     container: '#container-app1',
     activeRule: '/app1',
     props: {
@@ -31,6 +32,7 @@ registerMicroApps([
   {
     name: 'app2',
     entry: 'https://choicepage.harx.ai/',
+    //entry: 'http://localhost:5173/',
     container: '#container-app2',
     activeRule: '/app2',
     props: {
@@ -43,6 +45,7 @@ registerMicroApps([
   {
     name: 'app3',
     entry: 'https://repcreationwizard.harx.ai/',
+    //entry: 'http://localhost:5177/',
     container: '#container-app3',
     activeRule: '/app3',
     props: {
