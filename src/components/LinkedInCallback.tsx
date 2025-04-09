@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { handleLinkedInCallback } from '../utils/Linkedin';
-
+void React;
 const LinkedInCallback = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();

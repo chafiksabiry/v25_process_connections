@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect } from "react";
 import { useSearchParams,useNavigate } from "react-router-dom";
-import axios from "axios";
+//import axios from "axios";
 import {handleLinkedInSignInCallback} from '../utils/Linkedin';
-
+void React;
 /* const LinkedInSignInCallback = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();

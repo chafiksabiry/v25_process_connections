@@ -1,4 +1,4 @@
-import { redirect } from 'react-router-dom';
+//import { redirect } from 'react-router-dom';
 import { auth } from '../lib/api';
 
 const LINKEDIN_SCOPE = 'openid profile email';
