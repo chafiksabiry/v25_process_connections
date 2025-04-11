@@ -149,10 +149,10 @@ registerMicroApps([
     },
   },
   {
-    name: 'app10',
-    entry: 'https://dashboard.harx.ai/',
-    container: '#container-app10',
-    activeRule: '/app10',
+    name: 'app11',
+    entry: 'https://comp-orchestrator.harx.ai/',
+    container: '#container-app11',
+    activeRule: '/app11',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
