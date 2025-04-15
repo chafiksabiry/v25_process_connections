@@ -35,37 +35,37 @@ export default defineConfig(({ mode }) => {
       },
       proxy: {
         '/app1': {
-          target: 'https://registration.harx.ai',
+          target: 'https://preprod-registration.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app1/, ''),
         },
         '/app2': {
-          target: 'https://choicepage.harx.ai/',
+          target: 'https://preprod-choicepage.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app2/, ''),
         },
         '/app3': {
-          target: 'https://repcreationwizard.harx.ai',
+          target: 'https://preprod-repcreationwizard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app3/, ''),
         },
         '/app4': {
-          target: 'https://companysearchwizard.harx.ai',
+          target: 'https://preprod-companysearchwizard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app4/, ''),
         },
         '/app5': {
-          target: 'https://gigsmanual.harx.ai',
+          target: 'https://preprod-gigsmanual.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app5/, ''),
         },
         '/app6': {
-          target: 'https://gigsai.harx.ai',
+          target: 'https://preprod-gigsai.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app6/, ''),
         },
         '/app7': {
-          target: 'https://dashboard.harx.ai',
+          target: 'https://preprod-dashboard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
         },
