@@ -44,7 +44,7 @@ registerMicroApps([
   },
 /*   {
     name: 'app3',
-    entry: 'https://repcreationwizard.harx.ai/',
+    entry: 'https://preprod-repcreationwizard.harx.ai/',
     //entry: 'http://localhost:5177/',
     container: '#container-app3',
     activeRule: '/app3',
