@@ -18,7 +18,7 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: 'https://preprod-registration.harx.ai/',
+    entry: 'https://v25-preprod.harx.ai/registration/',
     //entry: 'http://localhost:5157/',
     container: '#container-app1',
     activeRule: '/app1',
