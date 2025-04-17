@@ -35,7 +35,7 @@ export default defineConfig(({ mode }) => {
       },
       proxy: {
         '/app1': {
-          target: 'https://v25-preprod.harx.ai/registration',
+          target: 'https://preprod-registration.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app1/, ''),
         },
