@@ -14,7 +14,7 @@
     "cheerio": "^1.0.0-rc.10",
     "hostapp": "file:",
     "qiankun": "^2.10.16",
-    "react": "^18.0.0",
+    "react": "^18.3.1",
     "react-dom": "^18.0.0",
     "react-router-dom": "^7.1.5",
     "systemjs": "^6.15.1"
