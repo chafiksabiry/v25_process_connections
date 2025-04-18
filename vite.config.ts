@@ -74,6 +74,11 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app8/, ''),
         },
+        '/comporchestrator': {
+          target: 'https://preprod-rep-dashboard.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/comporchestrator/, ''),
+        },
       }
     },
     optimizeDeps: {
