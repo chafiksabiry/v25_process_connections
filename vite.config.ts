@@ -74,7 +74,7 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app8/, ''),
         },
-      },v
+      }
     },
     optimizeDeps: {
       include: ['react', 'react-dom'], // Pre-bundle react and react-dom to ensure smooth behavior
