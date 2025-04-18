@@ -125,10 +125,10 @@ registerMicroApps([
     },
   },
   {
-    name: 'app8',
+    name: 'repdashboard',
     entry: 'https://preprod-rep-dashboard.harx.ai/',
     container: '#container-app8',
-    activeRule: '/app8',
+    activeRule: '/repdashboard',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
