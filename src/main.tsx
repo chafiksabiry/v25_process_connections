@@ -188,10 +188,10 @@ registerMicroApps([
     },
   },
   {
-    name: 'app11',
+    name: 'comporchestrator',
     entry: 'https://preprod-comp-orchestrator.harx.ai/',
     container: '#container-app11',
-    activeRule: '/app11',
+    activeRule: '/comporchestrator',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
