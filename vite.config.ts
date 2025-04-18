@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => {
         jsxRuntime: 'automatic',
       }
       ), // React plugin
-      ...(isDev ? [htmlRemoveFreshPlugin()] : []),  // Only remove in production
+      ...(isDev ? [] : [htmlRemoveFreshPlugin()]),  // Only remove in production
     ],
     server: {
       port: 3000,
