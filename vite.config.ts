@@ -69,10 +69,15 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
         },
-        '/app8': {
+        '/repdashboard': {
           target: 'https://preprod-rep-dashboard.harx.ai',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/app8/, ''),
+          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
+        },
+        '/comporchestrator': {
+          target: 'https://preprod-comp-orchestrator.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/comporchestrator/, ''),
         },
       }
     },
