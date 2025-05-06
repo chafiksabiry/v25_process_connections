@@ -84,6 +84,11 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
         },
+        '/app11': {
+          target: 'https://comp-orchestrator.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app11/, ''),
+        },
       },
     },
     optimizeDeps: {
