@@ -56,6 +56,30 @@ registerMicroApps([
     },
   },
   {
+    name: 'repcreationprofile',
+    entry: 'https://rep-profile-creation.harx.ai/',
+    container: '#container-repcreationprofile',
+    activeRule: '/repcreationprofile',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
+    name: 'repassessments',
+    entry: 'https://rep-assessments.harx.ai/',
+    container: '#container-repassessments',
+    activeRule: '/repassessments',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
     name: 'app4',
     entry: 'https://companysearchwizard.harx.ai/',
     container: '#container-app4',
