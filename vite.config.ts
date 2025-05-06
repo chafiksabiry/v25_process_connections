@@ -27,7 +27,7 @@ export default defineConfig(({ mode }) => {
     ],
     server: {
       port: 3000,
-      cors: false, 
+      cors: false,
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
@@ -44,10 +44,25 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app2/, ''),
         },
-        '/app3': {
-          target: 'https://repcreationwizard.harx.ai',
+        /*         '/app3': {
+                  target: 'https://repcreationwizard.harx.ai',
+                  changeOrigin: true,
+                  rewrite: (path) => path.replace(/^\/app3/, ''),
+                }, */
+        '/repcreationprofile': {
+          target: 'https://rep-profile-creation.harx.ai/',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/app3/, ''),
+          rewrite: (path) => path.replace(/^\/repcreationprofile/, ''),
+        },
+        '/repassessments': {
+          target: 'https://rep-assessments.harx.ai/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/repassessments/, ''),
+        },
+        '/repdashboard': {
+          target: 'https://rep-dashboard.harx.ai/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
         },
         '/app4': {
           target: 'https://companysearchwizard.harx.ai',
@@ -68,6 +83,11 @@ export default defineConfig(({ mode }) => {
           target: 'https://dashboard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
+        },
+        '/app11': {
+          target: 'https://comp-orchestrator.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app11/, ''),
         },
       },
     },
