@@ -161,6 +161,18 @@ registerMicroApps([
     },
   },
   {
+    name: 'repdashboard-profile',
+    entry: 'https://rep-dashboard.harx.ai/profile',
+    container: '#container-app82',
+    activeRule: '/repdashboard/profile',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
     name: 'app9',
     entry: 'https://knowledge-base.harx.ai/',
     container: '#container-app9',
