@@ -160,7 +160,7 @@ registerMicroApps([
       actions,
     },
   },
-  {
+ /*  {
     name: 'repdashboard-profile',
     entry: 'https://rep-dashboard.harx.ai/profile',
     container: '#container-app82',
@@ -171,7 +171,7 @@ registerMicroApps([
       },
       actions,
     },
-  },
+  }, */
   {
     name: 'app9',
     entry: 'https://knowledge-base.harx.ai/',

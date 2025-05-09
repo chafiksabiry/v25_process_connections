@@ -89,11 +89,11 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app11/, ''),
         },
-        '/repdashboard/profile': {
+/*         '/repdashboard/profile': {
           target: 'https://rep-dashboard.harx.ai/profile',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repdashboard\/profile/, ''),
-        },
+        }, */
       },
     },
     optimizeDeps: {
