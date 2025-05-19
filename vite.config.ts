@@ -62,7 +62,11 @@ export default defineConfig(({ mode }) => {
         '/repdashboard': {
           target: 'https://rep-dashboard.harx.ai/',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
+        },
+        '/reporchestrator': {
+          target: 'https://rep-orchestrator.harx.ai/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/reporchestrator/, ''),
         },
         '/app4': {
           target: 'https://companysearchwizard.harx.ai',

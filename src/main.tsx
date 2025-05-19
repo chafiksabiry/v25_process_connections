@@ -42,7 +42,7 @@ registerMicroApps([
       actions,
     },
   },
-  {
+/*   {
     name: 'app3',
     entry: 'https://repcreationwizard.harx.ai/',
     //entry: 'http://localhost:5177/',
@@ -54,7 +54,7 @@ registerMicroApps([
       },
       actions,
     },
-  },
+  }, */
   {
     name: 'repcreationprofile',
     entry: 'https://rep-profile-creation.harx.ai/',
@@ -152,7 +152,19 @@ registerMicroApps([
     name: 'repdashboard',
     entry: 'https://rep-dashboard.harx.ai/',
     container: '#container-app8',
-    activeRule: '/repdashboard/*',
+    activeRule: '/repdashboard',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
+    name: 'reporchestrator',
+    entry: 'https://rep-orchestrator.harx.ai/',
+    container: '#container-reporchestrator',
+    activeRule: '/reporchestrator',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
