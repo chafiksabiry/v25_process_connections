@@ -54,14 +54,15 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repcreationprofile/, ''),
         },
-        '/repassessments': {
+        '/repassessments/*': {
           target: 'https://rep-assessments.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repassessments/, ''),
         },
-        '/repdashboard': {
+        '/repdashboard/*': {
           target: 'https://rep-dashboard.harx.ai/',
           changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
         },
         '/reporchestrator/*': {
           target: 'https://rep-orchestrator.harx.ai/',
