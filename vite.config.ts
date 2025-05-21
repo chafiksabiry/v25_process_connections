@@ -49,7 +49,7 @@ export default defineConfig(({ mode }) => {
                   changeOrigin: true,
                   rewrite: (path) => path.replace(/^\/app3/, ''),
                 }, */
-        '/repcreationprofile': {
+        '/repcreationprofile/*': {
           target: 'https://rep-profile-creation.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repcreationprofile/, ''),
