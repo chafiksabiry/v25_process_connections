@@ -236,6 +236,11 @@ const startQiankun = async () => {
         return fetch(url, {
           ...options,
           mode: "cors",
+          credentials: "include",
+          headers: {
+            ...options?.headers,
+            "Origin": "https://v25.harx.ai",
+          },
         });
       },
     });
