@@ -94,6 +94,12 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app11/, ''),
         },
+        '/app12': {
+          target: 'https://matching.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app12/, ''),
+        },
+
 /*         '/repdashboard/profile': {
           target: 'https://rep-dashboard.harx.ai/profile',
           changeOrigin: true,
