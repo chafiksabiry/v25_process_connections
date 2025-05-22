@@ -2,8 +2,38 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback'; // Import the LinkedIn callback component
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
+import { useEffect } from 'react';
+import Cookies from 'js-cookie';
 
 const App = () => {
+  useEffect(() => {
+    const handleMessage = (event: any) => {
+      console.log('📨 Received message:', event.data);
+
+      if (event.data.type === 'LOGOUT') {
+        console.log('🔑 Processing logout message');
+        // Clear storage and redirect
+        localStorage.clear();
+        Object.keys(Cookies.get()).forEach(cookie => Cookies.remove(cookie));
+
+        console.log('🚀 Redirecting to auth page');
+        // Clear the history stack and redirect to auth
+        window.history.pushState(null, '', '/auth');
+        window.history.go(-(window.history.length - 1));
+        setTimeout(() => {
+          window.location.replace('/auth');
+        }, 100);
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+
+    // Cleanup listener on component unmount
+    return () => {
+      window.removeEventListener('message', handleMessage);
+    };
+  }, []);
+
   return (
     <Router>
 
