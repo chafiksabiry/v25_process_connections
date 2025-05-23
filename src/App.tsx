@@ -2,10 +2,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
-import Cookies from 'js-cookie';
+//import Cookies from 'js-cookie';
 
 // Authentication check component
-const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
+/* const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
   const isAuthenticated = () => {
     const userId = Cookies.get('userId');
@@ -19,7 +19,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   }
 
   return <>{children}</>;
-};
+}; */
 
 const App = () => {
   return (
