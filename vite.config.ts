@@ -100,6 +100,11 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => path.replace(/^\/app12/, ''),
         },
 
+        '/knowledgebase/*': {
+          target: 'https://knowledge-base.harx.ai/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/knowledgebase/, ''),
+        },
 /*         '/repdashboard/profile': {
           target: 'https://rep-dashboard.harx.ai/profile',
           changeOrigin: true,
