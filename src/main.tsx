@@ -185,10 +185,10 @@ registerMicroApps([
     },
   }, */
   {
-    name: 'app9',
+    name: 'knowledgebase',
     entry: 'https://knowledge-base.harx.ai/',
     container: '#container-app9',
-    activeRule: '/app9',
+    activeRule: '/knowledgebase',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
