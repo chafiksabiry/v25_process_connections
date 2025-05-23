@@ -94,6 +94,12 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app11/, ''),
         },
+        '/app12': {
+          target: 'https://matching.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/app12/, ''),
+        },
+
         '/knowledgebase/*': {
           target: 'https://knowledge-base.harx.ai/',
           changeOrigin: true,

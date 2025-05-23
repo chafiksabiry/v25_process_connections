@@ -208,6 +208,18 @@ registerMicroApps([
       actions,
     },
   },
+  {
+    name: 'app12',
+    entry: 'https://matching.harx.ai/',
+    container: '#container-app12',
+    activeRule: '/app12',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
 ]);
 
 const startQiankun = async () => {
