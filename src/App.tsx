@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
+import './App.css';
 //import Cookies from 'js-cookie';
 
 // Authentication check component
