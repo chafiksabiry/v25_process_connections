@@ -120,9 +120,7 @@ registerMicroApps([
     container: '#container-app7',
     activeRule: '/app7',
     props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
+      sandbox: { strictStyleIsolation: false, experimentalStyleIsolation: false },
       actions,
     },
   },
@@ -229,7 +227,7 @@ const startQiankun = async () => {
     start({
       prefetch: true,
       sandbox: {
-        strictStyleIsolation: false,
+        strictStyleIsolation: true,
         experimentalStyleIsolation: true,
       },
       singular: false,
