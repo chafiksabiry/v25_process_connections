@@ -39,6 +39,20 @@ props: {
 - Les conteneurs de micro-frontends ont des styles dédiés
 - Les CSS globaux des micro-frontends ont été commentés dans `index.html`
 
+## Corrections apportées
+
+### ✅ Configuration cohérente
+- Tous les micro-frontends utilisent maintenant `experimentalStyleIsolation: true`
+- La configuration globale utilise `strictStyleIsolation: false` et `experimentalStyleIsolation: true`
+
+### ✅ Suppression des CSS globaux
+- Les liens CSS des micro-frontends dans `index.html` ont été commentés
+- Chaque micro-frontend charge ses propres styles individuellement
+
+### ✅ Styles de l'hôte préfixés
+- Ajout de la classe `.host-app` au composant principal
+- Styles CSS dédiés pour éviter les conflits
+
 ## Types d'isolation des styles dans qiankun
 
 ### `strictStyleIsolation: true`

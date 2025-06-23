@@ -1,0 +1,41 @@
+/* Styles de l'application hôte - préfixés pour éviter les conflits */
+.host-app {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Conteneurs des micro-frontends */
+#container-app1,
+#container-app2,
+#container-app4,
+#container-app5,
+#container-app6,
+#container-app7,
+#container-app8,
+#container-app9,
+#container-app11,
+#container-app12,
+#container-repcreationprofile,
+#container-repassessments,
+#container-reporchestrator,
+#container-gigs,
+#container-company {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Styles de base pour le body et html */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
