@@ -88,7 +88,6 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
-      actions,
     },
   },
   {
