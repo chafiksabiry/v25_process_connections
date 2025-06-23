@@ -227,7 +227,7 @@ const startQiankun = async () => {
     start({
       prefetch: true,
       sandbox: {
-        strictStyleIsolation: true,
+        // strictStyleIsolation: true,
         experimentalStyleIsolation: true,
       },
       singular: false,
