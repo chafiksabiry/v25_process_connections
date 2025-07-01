@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => {
   const isDev = mode === 'development';
 
   return {
+    base: isDev ? '/' : '/v25-process-connections/',
     plugins: [
       react({
         jsxRuntime: 'automatic',
