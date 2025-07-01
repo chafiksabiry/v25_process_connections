@@ -19,15 +19,15 @@ const cssModules: CSSModule[] = [
   },
   {
     url: 'https://companysearchwizard.harx.ai/index.css',
-    routes: ['/company']
+    routes: ['/app4']
   },
   {
     url: 'https://gigsmanual.harx.ai/index.css',
-    routes: ['/gigs']
+    routes: ['/app5']
   },
   {
     url: 'https://dashboard.harx.ai/index.css',
-    routes: ['/app4', '/app5', '/app6', '/app7']
+    routes: ['/company']
   },
   {
     url: 'https://gigsai.harx.ai/index.css',
@@ -43,11 +43,11 @@ const cssModules: CSSModule[] = [
   },
   {
     url: 'https://matching.harx.ai/index.css',
-    routes: ['/repassessments']
+    routes: ['/app12']
   },
   {
     url: 'https://comp-orchestrator.harx.ai/index.css',
-    routes: ['/reporchestrator']
+    routes: ['/app11']
   }
 ];
 
