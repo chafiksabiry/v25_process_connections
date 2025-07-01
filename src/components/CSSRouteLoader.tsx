@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { loadCSSForRoute, cleanupUnusedCSS } from '../utils/cssLoader';
+import { loadCSSForRoute } from '../utils/cssLoader';
 
 /**
  * Composant qui gère automatiquement le chargement des CSS
