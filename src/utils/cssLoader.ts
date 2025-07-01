@@ -31,7 +31,7 @@ const cssModules: CSSModule[] = [
   },
   {
     url: 'https://gigsai.harx.ai/index.css',
-    routes: ['/app11', '/app12']
+    routes: ['/app6']
   },
   {
     url: 'https://rep-dashboard.harx.ai/index.css',
