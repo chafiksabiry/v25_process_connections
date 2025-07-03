@@ -15,6 +15,8 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
+ENV VITE_ENVIRONMENT=preprod
+
 # Set default environment variable
 ENV VITE_ENVIRONMENT=sandbox
 
