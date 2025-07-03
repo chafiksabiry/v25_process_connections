@@ -2,6 +2,8 @@
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
+import CSSRouteLoader from './components/CSSRouteLoader';
+import './App.css';
 //import Cookies from 'js-cookie';
 
 // Authentication check component
@@ -24,6 +26,7 @@ import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 const App = () => {
   return (
     <Router>
+      <CSSRouteLoader />
       <Routes>
         {/* Public routes */}
         <Route path="/app1" element={<div id="container-app1"></div>} />
