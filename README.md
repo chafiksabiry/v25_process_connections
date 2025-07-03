@@ -1,8 +1,30 @@
-# React + TypeScript + Vite
+# Connection Manager - React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un gestionnaire de connexions qui permet de router vers différents services selon l'environnement (sandbox vs preprod).
 
-Currently, two official plugins are available:
+## Fonctionnalités
+
+- Gestion dynamique des URLs selon l'environnement
+- Chargement automatique des CSS selon les routes
+- Support des environnements sandbox et preprod
+- Configuration via variables d'environnement
+
+## Configuration des Variables d'Environnement
+
+Ce projet utilise des variables d'environnement pour gérer les URLs selon l'environnement. Voir [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md) pour plus de détails.
+
+### Configuration rapide
+
+1. Copiez le fichier d'exemple :
+```bash
+cp env.example .env
+```
+
+2. Modifiez `VITE_ENVIRONMENT` dans `.env` :
+   - `sandbox` pour l'environnement de développement
+   - `preprod` pour l'environnement de préproduction
+
+## Plugins Vite disponibles
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
