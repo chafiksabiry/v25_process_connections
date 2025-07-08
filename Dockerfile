@@ -17,9 +17,6 @@ COPY . .
 
 ENV VITE_ENVIRONMENT=preprod
 
-# Set default environment variable
-ENV VITE_ENVIRONMENT=sandbox
-
 # Build the app (make sure this outputs to 'dist')
 RUN npm run build
 
