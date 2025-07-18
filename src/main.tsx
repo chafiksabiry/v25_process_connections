@@ -18,7 +18,7 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: 'https://preprod-registration.harx.ai/',
+    entry: 'https://registration.harx.ai/',
     //entry: 'http://localhost:5157/',
     container: '#container-app1',
     activeRule: '/app1',
@@ -31,7 +31,7 @@ registerMicroApps([
   },
   {
     name: 'app2',
-    entry: 'https://preprod-choicepage.harx.ai/',
+    entry: 'https://choicepage.harx.ai/',
     //entry: 'http://localhost:5173/',
     container: '#container-app2',
     activeRule: '/app2',
@@ -57,7 +57,7 @@ registerMicroApps([
   }, */
   {
     name: 'repcreationprofile',
-    entry: 'https://preprod-rep-profile-creation.harx.ai/',
+    entry: 'https://rep-profile-creation.harx.ai/',
     container: '#container-repcreationprofile',
     activeRule: '/repcreationprofile',
     props: {
@@ -69,7 +69,7 @@ registerMicroApps([
   },
   {
     name: 'repassessments',
-    entry: 'https://preprod-rep-assessments.harx.ai/',
+    entry: 'https://rep-assessments.harx.ai/',
     container: '#container-repassessments',
     activeRule: '/repassessments',
     props: {
@@ -81,7 +81,7 @@ registerMicroApps([
   },
   {
     name: 'app4',
-    entry: 'https://preprod-companysearchwizard.harx.ai/',
+    entry: 'https://companysearchwizard.harx.ai/',
     container: '#container-app4',
     activeRule: '/app4',
     props: {
@@ -93,7 +93,7 @@ registerMicroApps([
   },
   {
     name: 'app5',
-    entry: 'https://preprod-gigsmanual.harx.ai/',
+    entry: 'https://gigsmanual.harx.ai/',
     container: '#container-app5',
     activeRule: '/app5',
     props: {
@@ -105,7 +105,7 @@ registerMicroApps([
   },
   {
     name: 'app6',
-    entry: 'https://preprod-gigsai.harx.ai/',
+    entry: 'https://gigsai.harx.ai/',
     container: '#container-app6',
     activeRule: '/app6',
     props: {
@@ -117,7 +117,7 @@ registerMicroApps([
   },
   {
     name: 'app7',
-    entry: 'https://preprod-dashboard.harx.ai/',
+    entry: 'https://dashboard.harx.ai/',
     container: '#container-app7',
     activeRule: '/app7',
     props: {
@@ -129,7 +129,7 @@ registerMicroApps([
   },
   {
     name: 'gigs',
-    entry: 'https://preprod-dashboard.harx.ai/gigs',
+    entry: 'https://dashboard.harx.ai/gigs',
     container: '#container-gigs',
     activeRule: '/gigs',
     props: {
@@ -141,7 +141,7 @@ registerMicroApps([
   },
     {
     name: 'company',
-    entry: 'https://preprod-dashboard.harx.ai/company',
+    entry: 'https://dashboard.harx.ai/company',
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -153,7 +153,7 @@ registerMicroApps([
   },
   {
     name: 'repdashboard',
-    entry: 'https://preprod-rep-dashboard.harx.ai/',
+    entry: 'https://rep-dashboard.harx.ai/',
     container: '#container-app8',
     activeRule: '/repdashboard',
     props: {
@@ -165,7 +165,7 @@ registerMicroApps([
   },
   {
     name: 'reporchestrator',
-    entry: 'https://preprod-rep-orchestrator.harx.ai/',
+    entry: 'https://rep-orchestrator.harx.ai/',
     container: '#container-reporchestrator',
     activeRule: '/reporchestrator',
     props: {
@@ -177,7 +177,7 @@ registerMicroApps([
   },
   {
     name: 'knowledgebase',
-    entry: 'https://preprod-knowledge-base.harx.ai/',
+    entry: 'https://knowledge-base.harx.ai/',
     container: '#container-app9',
     activeRule: '/knowledgebase',
     props: {
@@ -189,7 +189,7 @@ registerMicroApps([
   },
   {
     name: 'app11',
-    entry: 'https://preprod-comp-orchestrator.harx.ai/',
+    entry: 'https://comp-orchestrator.harx.ai/',
     container: '#container-app11',
     activeRule: '/app11',
     props: {
@@ -201,7 +201,7 @@ registerMicroApps([
   },
   {
     name: 'app12',
-    entry: 'https://preprod-matching.harx.ai/',
+    entry: 'https://matching.harx.ai/',
     container: '#container-app12',
     activeRule: '/app12',
     props: {
