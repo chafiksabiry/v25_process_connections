@@ -6,6 +6,29 @@ import CSSRouteLoader from './components/CSSRouteLoader';
 import './App.css';
 //import Cookies from 'js-cookie';
 
+// Global variable to store the last gig
+let lastGigGlobal: any = null;
+
+// Event listener to capture messages from gigsai.harx.ai
+window.addEventListener("message", (event) => {
+  if (event.origin !== "https://gigsai.harx.ai") return;
+
+  const { type, data } = event.data;
+  if (type === "LAST_GIG") {
+    lastGigGlobal = data;
+
+    // Save to localStorage
+    localStorage.setItem('lastGig', JSON.stringify(data));
+
+    // Dispatch custom event for other apps
+    window.dispatchEvent(
+      new CustomEvent("lastGigReady", { detail: lastGigGlobal })
+    );
+
+    console.log('Last gig captured and saved:', data);
+  }
+});
+
 // Authentication check component
 /* const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
