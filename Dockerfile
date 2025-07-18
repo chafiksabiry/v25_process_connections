@@ -15,9 +15,6 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-# Set default environment variable
-ENV VITE_ENVIRONMENT=sandbox
-
 # Build the app (make sure this outputs to 'dist')
 RUN npm run build
 

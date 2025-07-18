@@ -80,7 +80,7 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => path.replace(/^\/app5/, ''),
         },
         '/app6': {
-          target: 'https://gigsai.harx.ai/',
+          target: 'https://gigsai.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app6/, ''),
         },
