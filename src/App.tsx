@@ -49,6 +49,7 @@ const App = () => {
         <Route path="/gigs" element={<div id="container-gigs"></div>} />
         <Route path="/company" element={<div id="container-company"></div>} />
         <Route path="/app12" element={ <div id="container-app12"></div>}/>
+        <Route path="/copilot" element={ <div id="container-copilot"></div>}/>
       </Routes>
     </Router>
   );
