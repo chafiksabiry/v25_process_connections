@@ -105,6 +105,11 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/knowledgebase/, ''),
         },
+        '/copilot': {
+          target: 'https://preprod-copilot.harx.ai/',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/copilot/, ''),
+        },
 /*         '/repdashboard/profile': {
           target: 'https://rep-dashboard.harx.ai/profile',
           changeOrigin: true,
