@@ -80,78 +80,6 @@ registerMicroApps([
     },
   },
   {
-    name: 'app4',
-    entry: 'https://preprod-companysearchwizard.harx.ai/',
-    container: '#container-app4',
-    activeRule: '/app4',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app5',
-    entry: 'https://preprod-gigsmanual.harx.ai/',
-    container: '#container-app5',
-    activeRule: '/app5',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app6',
-    entry: 'https://preprod-gigsai.harx.ai/',
-    container: '#container-app6',
-    activeRule: '/app6',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app7',
-    entry: 'https://preprod-dashboard.harx.ai/',
-    container: '#container-app7',
-    activeRule: '/app7',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'gigs',
-    entry: 'https://preprod-dashboard.harx.ai/gigs',
-    container: '#container-gigs',
-    activeRule: '/gigs',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-    {
-    name: 'company',
-    entry: 'https://preprod-dashboard.harx.ai/company',
-    container: '#container-company',
-    activeRule: '/company',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
     name: 'repdashboard',
     entry: 'https://preprod-rep-dashboard.harx.ai/',
     container: '#container-app8',
@@ -168,42 +96,6 @@ registerMicroApps([
     entry: 'https://preprod-rep-orchestrator.harx.ai/',
     container: '#container-reporchestrator',
     activeRule: '/reporchestrator',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'knowledgebase',
-    entry: 'https://preprod-knowledge-base.harx.ai/',
-    container: '#container-app9',
-    activeRule: '/knowledgebase',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app11',
-    entry: 'https://preprod-comp-orchestrator.harx.ai/',
-    container: '#container-app11',
-    activeRule: '/app11',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app12',
-    entry: 'https://preprod-matching.harx.ai/',
-    container: '#container-app12',
-    activeRule: '/app12',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
