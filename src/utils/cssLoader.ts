@@ -14,48 +14,76 @@ interface CSSModule {
  */
 const cssModules: CSSModule[] = [
   {
-    url: 'https://registration.harx.ai/index.css',
-    routes: ['/app1', '/auth']  // CSS pour les pages d'authentification et app1
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-registration.harx.ai/index.css'
+      : 'https://registration.harx.ai/index.css',
+    routes: ['/app1', '/auth']
   },
   {
-    url: 'https://choicepage.harx.ai/index.css',
-    routes: ['/app2']  // CSS pour la page de choix (app2)
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-choicepage.harx.ai/index.css'
+      : 'https://choicepage.harx.ai/index.css',
+    routes: ['/app2']
   },
   {
-    url: 'https://repcreationwizard.harx.ai/index.css',
-    routes: ['/repcreationprofile']  // CSS pour l'assistant de création de profil
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-repcreationwizard.harx.ai/index.css'
+      : 'https://repcreationwizard.harx.ai/index.css',
+    routes: ['/repcreationprofile']
   },
   {
-    url: 'https://companysearchwizard.harx.ai/index.css',
-    routes: ['/app4']  // CSS pour l'assistant de recherche d'entreprise
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-companysearchwizard.harx.ai/index.css'
+      : 'https://companysearchwizard.harx.ai/index.css',
+    routes: ['/app4']
   },
   {
-    url: 'https://gigsmanual.harx.ai/index.css',
-    routes: ['/app5']  // CSS pour la gestion manuelle des gigs
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-gigsmanual.harx.ai/index.css'
+      : 'https://gigsmanual.harx.ai/index.css',
+    routes: ['/app5']
   },
   {
-    url: 'https://dashboard.harx.ai/index.css',
-    routes: ['/company']  // CSS pour le tableau de bord entreprise
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-dashboard.harx.ai/index.css'
+      : 'https://dashboard.harx.ai/index.css',
+    routes: ['/company']
   },
   {
-    url: 'https://gigsai.harx.ai/index.css',
-    routes: ['/app6']  // CSS pour l'interface AI des gigs
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-gigsai.harx.ai/index.css'
+      : 'https://gigsai.harx.ai/index.css',
+    routes: ['/app6']
   },
   {
-    url: 'https://rep-dashboard.harx.ai/index.css',
-    routes: ['/repdashboard']  // CSS pour le tableau de bord représentant
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-rep-dashboard.harx.ai/index.css'
+      : 'https://rep-dashboard.harx.ai/index.css',
+    routes: ['/repdashboard']
   },
   {
-    url: 'https://knowledge-base.harx.ai/index.css',
-    routes: ['/knowledgebase']  // CSS pour la base de connaissances
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-knowledge-base.harx.ai/index.css'
+      : 'https://knowledge-base.harx.ai/index.css',
+    routes: ['/knowledgebase']
   },
   {
-    url: 'https://matching.harx.ai/index.css',
-    routes: ['/app12']  // CSS pour le système de matching
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-matching.harx.ai/index.css'
+      : 'https://matching.harx.ai/index.css',
+    routes: ['/app12']
   },
   {
-    url: 'https://comp-orchestrator.harx.ai/index.css',
-    routes: ['/app11']  // CSS pour l'orchestrateur de composants
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-comp-orchestrator.harx.ai/index.css'
+      : 'https://comp-orchestrator.harx.ai/index.css',
+    routes: ['/app11']
+  },
+  {
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-copilot.harx.ai/index.css'
+      : 'https://copilot.harx.ai/index.css',
+    routes: ['/copilot']
   }
 ];
 
