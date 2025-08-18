@@ -213,7 +213,7 @@ registerMicroApps([
   },
   {
     name: 'copilot',
-    entry: 'https://preprod-copilot.harx.ai/',
+    entry: 'https:/copilot.harx.ai/',
     container: '#container-copilot',
     activeRule: '/copilot',
     props: {
