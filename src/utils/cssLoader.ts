@@ -70,6 +70,12 @@ const cssModules: CSSModule[] = [
       ? 'https://preprod-comp-orchestrator.harx.ai/index.css'
       : 'https://comp-orchestrator.harx.ai/index.css',
     routes: ['/app11']
+  },
+  {
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-copilot.harx.ai/index.css'
+      : 'https://copilot.harx.ai/index.css',
+    routes: ['/copilot']
   }
 ];
 
