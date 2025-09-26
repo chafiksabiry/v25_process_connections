@@ -6,76 +6,32 @@ interface CSSModule {
 // Configuration des modules CSS et leurs routes associées
 const cssModules: CSSModule[] = [
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-registration.harx.ai/index.css'
-      : 'https://registration.harx.ai/index.css',
+    url: 'https://prod-registration.harx.ai/index.css',
     routes: ['/app1', '/auth']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-choicepage.harx.ai/index.css'
-      : 'https://choicepage.harx.ai/index.css',
+    url: 'https://prod-choicepage.harx.ai/index.css',
     routes: ['/app2']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-repcreationwizard.harx.ai/index.css'
-      : 'https://repcreationwizard.harx.ai/index.css',
+    url:'https://prod-rep-profile-creation.harx.ai/index.css',
     routes: ['/repcreationprofile']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-companysearchwizard.harx.ai/index.css'
-      : 'https://companysearchwizard.harx.ai/index.css',
-    routes: ['/app4']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-gigsmanual.harx.ai/index.css'
-      : 'https://gigsmanual.harx.ai/index.css',
-    routes: ['/app5']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-dashboard.harx.ai/index.css'
-      : 'https://dashboard.harx.ai/index.css',
-    routes: ['/company']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-gigsai.harx.ai/index.css'
-      : 'https://gigsai.harx.ai/index.css',
-    routes: ['/app6']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-rep-dashboard.harx.ai/index.css'
-      : 'https://rep-dashboard.harx.ai/index.css',
+    url: 'https://prod-rep-dashboard.harx.ai/index.css',
     routes: ['/repdashboard']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-knowledge-base.harx.ai/index.css'
-      : 'https://knowledge-base.harx.ai/index.css',
-    routes: ['/knowledgebase']
+    url: 'https://prod-rep-assessments.harx.ai/index.css',
+    routes: ['/repassessments']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-matching.harx.ai/index.css'
-      : 'https://matching.harx.ai/index.css',
-    routes: ['/app12']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-comp-orchestrator.harx.ai/index.css'
-      : 'https://comp-orchestrator.harx.ai/index.css',
-    routes: ['/app11']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-copilot.harx.ai/index.css'
-      : 'https://copilot.harx.ai/index.css',
+    url: 'https://prod-copilot.harx.ai/index.css',
     routes: ['/copilot']
+  },
+  {
+    url: 'https://prod-rep-orchestrator.harx.ai/index.css',
+    routes: ['/reporchestrator']
   }
 ];
 

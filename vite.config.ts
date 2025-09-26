@@ -35,37 +35,37 @@ export default defineConfig(({ mode }) => {
       },
       proxy: {
         '/app1': {
-          target: 'https://preprod-registration.harx.ai',
+          target: 'https://prod-registration.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app1/, ''),
         },
         '/app2': {
-          target: 'https://preprod-choicepage.harx.ai/',
+          target: 'https://prod-choicepage.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app2/, ''),
         },
         '/repcreationprofile/*': {
-          target: 'https://preprod-rep-profile-creation.harx.ai/',
+          target: 'https://prod-rep-profile-creation.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repcreationprofile/, ''),
         },
         '/repassessments/*': {
-          target: 'https://preprod-rep-assessments.harx.ai/',
+          target: 'https://prod-rep-assessments.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repassessments/, ''),
         },
         '/repdashboard/*': {
-          target: 'https://preprod-rep-dashboard.harx.ai/',
+          target: 'https://prod-rep-dashboard.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/repdashboard/, ''),
         },
         '/reporchestrator/*': {
-          target: 'https://preprod-rep-orchestrator.harx.ai/',
+          target: 'https://prod-rep-orchestrator.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/reporchestrator/, ''),
         },
         '/copilot': {
-          target: 'https://preprod-copilot.harx.ai/',
+          target: 'https://prod-copilot.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/copilot/, ''),
         },

@@ -18,8 +18,7 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: 'https://preprod-registration.harx.ai/',
-    //entry: 'http://localhost:5157/',
+    entry: 'https://prod-registration.harx.ai/',
     container: '#container-app1',
     activeRule: '/app1',
     props: {
@@ -31,8 +30,7 @@ registerMicroApps([
   },
   {
     name: 'app2',
-    entry: 'https://preprod-choicepage.harx.ai/',
-    //entry: 'http://localhost:5173/',
+    entry: 'https://prod-choicepage.harx.ai/',
     container: '#container-app2',
     activeRule: '/app2',
     props: {
@@ -42,22 +40,9 @@ registerMicroApps([
       actions,
     },
   },
-/*   {
-    name: 'app3',
-    entry: 'https://repcreationwizard.harx.ai/',
-    //entry: 'http://localhost:5177/',
-    container: '#container-app3',
-    activeRule: '/app3',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  }, */
   {
     name: 'repcreationprofile',
-    entry: 'https://preprod-rep-profile-creation.harx.ai/',
+    entry: 'https://prod-rep-profile-creation.harx.ai/',
     container: '#container-repcreationprofile',
     activeRule: '/repcreationprofile',
     props: {
@@ -69,7 +54,7 @@ registerMicroApps([
   },
   {
     name: 'repassessments',
-    entry: 'https://preprod-rep-assessments.harx.ai/',
+    entry: 'https://prod-rep-assessments.harx.ai/',
     container: '#container-repassessments',
     activeRule: '/repassessments',
     props: {
@@ -81,7 +66,7 @@ registerMicroApps([
   },
   {
     name: 'repdashboard',
-    entry: 'https://preprod-rep-dashboard.harx.ai/',
+    entry: 'https://prod-rep-dashboard.harx.ai/',
     container: '#container-app8',
     activeRule: '/repdashboard',
     props: {
@@ -93,7 +78,7 @@ registerMicroApps([
   },
   {
     name: 'reporchestrator',
-    entry: 'https://preprod-rep-orchestrator.harx.ai/',
+    entry: 'https://prod-rep-orchestrator.harx.ai/',
     container: '#container-reporchestrator',
     activeRule: '/reporchestrator',
     props: {
@@ -105,7 +90,7 @@ registerMicroApps([
   },
   {
     name: 'copilot',
-    entry: 'https://preprod-copilot.harx.ai/',
+    entry: 'https://prod-copilot.harx.ai/',
     container: '#container-copilot',
     activeRule: '/copilot',
     props: {
