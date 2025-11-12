@@ -27,12 +27,8 @@ export default defineConfig(({ mode }) => {
     ],
     server: {
       port: 3000,
-      cors: false,
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
-        'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-      },
+      cors: true,
+      // CORS headers removed - handled by server-side configuration
       proxy: {
         '/app1': {
           target: 'https://registration.harx.ai',
