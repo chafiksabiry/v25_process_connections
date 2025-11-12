@@ -1,30 +1,10 @@
 //import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
 import './App.css';
 import Cookies from 'js-cookie';
-
-// Authentication check component
-const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
-  const location = useLocation();
-  const isAuthenticated = () => {
-    const userId = Cookies.get('userId');
-    const token = localStorage.getItem('token');
-    console.log('[ProtectedRoute] Checking authentication - userId:', userId, 'token:', token ? 'Present' : 'Not found');
-    return userId && token;
-  };
-
-  if (!isAuthenticated()) {
-    console.log('[ProtectedRoute] User not authenticated, redirecting to /app1 from:', location.pathname);
-    // Redirect to app1 if not authenticated
-    return <Navigate to="/app1" state={{ from: location }} replace />;
-  }
-
-  console.log('[ProtectedRoute] User authenticated, allowing access to:', location.pathname);
-  return <>{children}</>;
-};
 
 const App = () => {
   // Log userId in console
@@ -58,16 +38,7 @@ const App = () => {
         <Route path="/company" element={<div id="container-company"></div>} />
         <Route path="/app12" element={ <div id="container-app12"></div>}/>
         <Route path="/copilot" element={ <div id="container-copilot"></div>}/>
-        
-        {/* Protected route - requires authentication */}
-        <Route 
-          path="/training" 
-          element={
-            <ProtectedRoute>
-              <div id="container-training"></div>
-            </ProtectedRoute>
-          } 
-        />
+        <Route path="/training" element={<div id="container-training"></div>} />
       </Routes>
     </Router>
   );
