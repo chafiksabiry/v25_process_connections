@@ -84,6 +84,12 @@ const cssModules: CSSModule[] = [
       ? 'https://preprod-copilot.harx.ai/index.css'
       : 'https://copilot.harx.ai/index.css',
     routes: ['/copilot']
+  },
+  {
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://preprod-training.harx.ai/index.css'
+      : 'https://training.harx.ai/index.css',
+    routes: ['/training']
   }
 ];
 
