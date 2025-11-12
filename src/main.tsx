@@ -222,6 +222,18 @@ registerMicroApps([
       },
       actions,
     },
+  },
+  {
+    name: 'training',
+    entry: 'https://training.harx.ai/',
+    container: '#container-training',
+    activeRule: '/training',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
   }
 ]);
 
