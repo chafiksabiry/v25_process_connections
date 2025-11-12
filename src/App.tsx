@@ -50,7 +50,7 @@ const App = () => {
         <Route path="/company" element={<div id="container-company"></div>} />
         <Route path="/app12" element={ <div id="container-app12"></div>}/>
         <Route path="/copilot" element={ <div id="container-copilot"></div>}/>
-        <Route path="/training/*" element={<div id="container-training"></div>} />
+        <Route path="/training" element={<div id="container-training"></div>} />
       </Routes>
     </Router>
   );
