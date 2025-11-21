@@ -39,8 +39,8 @@ const App = () => {
         <Route path="/app12" element={ <div id="container-app12"></div>}/>
         <Route path="/copilot" element={ <div id="container-copilot"></div>}/>
         <Route path="/training" element={<div id="container-training"></div>} />
-        <Route path="/training/trainer/dashboard" element={<div id="container-training"></div>} />
-        <Route path="/training/trainee/dashboard" element={<div id="container-training"></div>} />
+        <Route path="/training/companydashboard/*" element={<div id="container-training"></div>} />
+        <Route path="/training/repdashboard/*" element={<div id="container-training"></div>} />
       </Routes>
     </Router>
   );
