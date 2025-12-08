@@ -35,12 +35,12 @@ export default defineConfig(({ mode }) => {
       },
       proxy: {
         '/app1': {
-          target: 'https://preprod-registration.harx.ai',
+          target: 'https://prod-registration.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app1/, ''),
         },
         '/app2': {
-          target: 'https://preprod-choicepage.harx.ai/',
+          target: 'https://prod-choicepage.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app2/, ''),
         },
@@ -70,12 +70,12 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => path.replace(/^\/reporchestrator/, ''),
         },
         '/app4': {
-          target: 'https://preprod-companysearchwizard.harx.ai',
+          target: 'https://prod-companysearchwizard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app4/, ''),
         },
         '/app5': {
-          target: 'https://preprod-gigsmanual.harx.ai',
+          target: 'https://prod-gigsmanual.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app5/, ''),
         },
@@ -85,7 +85,7 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => path.replace(/^\/app6/, ''),
         },
         '/app7': {
-          target: 'https://preprod-dashboard.harx.ai',
+          target: 'https://prod-dashboard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
         },
