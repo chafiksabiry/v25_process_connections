@@ -160,6 +160,30 @@ registerMicroApps([
       actions,
     },
   },
+  {
+    name: 'copilot',
+    entry: 'https://prod-copilot.harx.ai/',
+    container: '#container-app12',
+    activeRule: '/copilot',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
+    name: 'training',
+    entry: 'https://prod-training.harx.ai/',
+    container: '#container-app13',
+    activeRule: '/training',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
 ]);
 
 const startQiankun = async () => {
