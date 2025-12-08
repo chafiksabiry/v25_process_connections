@@ -27,7 +27,7 @@ export default defineConfig(({ mode }) => {
     ],
     server: {
       port: 3000,
-      cors: false,
+      cors: false, 
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
@@ -44,30 +44,10 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app2/, ''),
         },
-        /*         '/app3': {
-                  target: 'https://repcreationwizard.harx.ai',
-                  changeOrigin: true,
-                  rewrite: (path) => path.replace(/^\/app3/, ''),
-                }, */
-        '/repcreationprofile/*': {
-          target: 'https://prod-rep-profile-creation.harx.ai/',
+        '/app3': {
+          target: 'https://prod-repcreationwizard.harx.ai',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repcreationprofile/, ''),
-        },
-        '/repassessments/*': {
-          target: 'https://prod-rep-assessments.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repassessments/, ''),
-        },
-        '/repdashboard/*': {
-          target: 'https://prod-rep-dashboard.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
-        },
-        '/reporchestrator/*': {
-          target: 'https://prod-rep-orchestrator.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/reporchestrator/, ''),
+          rewrite: (path) => path.replace(/^\/app3/, ''),
         },
         '/app4': {
           target: 'https://prod-companysearchwizard.harx.ai',
@@ -80,7 +60,7 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => path.replace(/^\/app5/, ''),
         },
         '/app6': {
-          target: 'https://prod-gigsai.harx.ai/',
+          target: 'https://prod-gigsai.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app6/, ''),
         },
@@ -89,33 +69,17 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
         },
-        '/app11': {
+        '/repdashboard': {
+          target: 'https://prod-rep-dashboard.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
+        },
+        '/comporchestrator': {
           target: 'https://prod-comp-orchestrator.harx.ai',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/app11/, ''),
+          rewrite: (path) => path.replace(/^\/comporchestrator/, ''),
         },
-        '/app12': {
-          target: 'https://prod-matching.harx.ai',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/app12/, ''),
-        },
-
-        '/knowledgebase/*': {
-          target: 'https://prod-knowledge-base.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/knowledgebase/, ''),
-        },
-        '/copilot': {
-          target: 'https://prod-copilot.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/copilot/, ''),
-        },
-/*         '/repdashboard/profile': {
-          target: 'https://prod-rep-dashboard.harx.ai/profile',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repdashboard\/profile/, ''),
-        }, */
-      },
+      }
     },
     optimizeDeps: {
       include: ['react', 'react-dom'], // Pre-bundle react and react-dom to ensure smooth behavior

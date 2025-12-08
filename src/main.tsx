@@ -42,36 +42,12 @@ registerMicroApps([
       actions,
     },
   },
-/*   {
+  {
     name: 'app3',
     entry: 'https://prod-repcreationwizard.harx.ai/',
     //entry: 'http://localhost:5177/',
     container: '#container-app3',
     activeRule: '/app3',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  }, */
-  {
-    name: 'repcreationprofile',
-    entry: 'https://prod-rep-profile-creation.harx.ai/',
-    container: '#container-repcreationprofile',
-    activeRule: '/repcreationprofile',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'repassessments',
-    entry: 'https://prod-rep-assessments.harx.ai/',
-    container: '#container-repassessments',
-    activeRule: '/repassessments',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -88,7 +64,6 @@ registerMicroApps([
       sandbox: {
         experimentalStyleIsolation: true,
       },
-      actions,
     },
   },
   {
@@ -121,9 +96,7 @@ registerMicroApps([
     container: '#container-app7',
     activeRule: '/app7',
     props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
+      sandbox: { strictStyleIsolation: false, experimentalStyleIsolation: false },
       actions,
     },
   },
@@ -164,22 +137,10 @@ registerMicroApps([
     },
   },
   {
-    name: 'reporchestrator',
-    entry: 'https://prod-rep-orchestrator.harx.ai/',
-    container: '#container-reporchestrator',
-    activeRule: '/reporchestrator',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'knowledgebase',
+    name: 'app9',
     entry: 'https://prod-knowledge-base.harx.ai/',
     container: '#container-app9',
-    activeRule: '/knowledgebase',
+    activeRule: '/app9',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -199,30 +160,6 @@ registerMicroApps([
       actions,
     },
   },
-  {
-    name: 'app12',
-    entry: 'https://prod-matching.harx.ai/',
-    container: '#container-app12',
-    activeRule: '/app12',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'copilot',
-    entry: 'https://prod-copilot.harx.ai/',
-    container: '#container-copilot',
-    activeRule: '/copilot',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  }
 ]);
 
 const startQiankun = async () => {
@@ -230,7 +167,7 @@ const startQiankun = async () => {
     start({
       prefetch: true,
       sandbox: {
-        strictStyleIsolation: false,
+        strictStyleIsolation: true,
         experimentalStyleIsolation: true,
       },
       singular: false,
