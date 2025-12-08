@@ -1,12 +1,12 @@
 # Connection Manager - React + TypeScript + Vite
 
-Ce projet est un gestionnaire de connexions qui permet de router vers différents services selon l'environnement (sandbox vs preprod).
+Ce projet est un gestionnaire de connexions qui permet de router vers différents services selon l'environnement (sandbox vs prod).
 
 ## Fonctionnalités
 
 - Gestion dynamique des URLs selon l'environnement
 - Chargement automatique des CSS selon les routes
-- Support des environnements sandbox et preprod
+- Support des environnements sandbox et prod
 - Configuration via variables d'environnement
 
 ## Configuration des Variables d'Environnement
@@ -22,7 +22,7 @@ cp env.example .env
 
 2. Modifiez `VITE_ENVIRONMENT` dans `.env` :
    - `sandbox` pour l'environnement de développement
-   - `preprod` pour l'environnement de préproduction
+   - `prod` pour l'environnement de préproduction
 
 ## Plugins Vite disponibles
 

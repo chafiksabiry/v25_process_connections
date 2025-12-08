@@ -1,6 +1,6 @@
 # Configuration des Variables d'Environnement
 
-Ce projet utilise des variables d'environnement pour gérer les URLs selon l'environnement (sandbox vs preprod).
+Ce projet utilise des variables d'environnement pour gérer les URLs selon l'environnement (sandbox vs prod).
 
 ## Configuration
 
@@ -15,11 +15,11 @@ cp env.example .env
 ### 2. Variables d'environnement disponibles
 
 #### Environnement principal
-- `VITE_ENVIRONMENT`: Définit l'environnement (`sandbox` ou `preprod`)
+- `VITE_ENVIRONMENT`: Définit l'environnement (`sandbox` ou `prod`)
 
 #### URLs de base
 - `VITE_BASE_URL_SANDBOX`: URL de base pour l'environnement sandbox (défaut: `https://`)
-- `VITE_BASE_URL_PREPROD`: URL de base pour l'environnement preprod (défaut: `https://preprod-`)
+- `VITE_BASE_URL_PROD`: URL de base pour l'environnement prod (défaut: `https://prod-`)
 
 #### Domaines des services
 - `VITE_REGISTRATION_DOMAIN`: Domaine pour l'enregistrement
@@ -46,14 +46,14 @@ Les URLs seront générées comme :
 - `https://choicepage.harx.ai/index.css`
 - etc.
 
-### Environnement Preprod
+### Environnement Prod
 ```env
-VITE_ENVIRONMENT=preprod
+VITE_ENVIRONMENT=prod
 ```
 
 Les URLs seront générées comme :
-- `https://preprod-registration.harx.ai/index.css`
-- `https://preprod-choicepage.harx.ai/index.css`
+- `https://prod-registration.harx.ai/index.css`
+- `https://prod-choicepage.harx.ai/index.css`
 - etc.
 
 ## Docker
@@ -63,7 +63,7 @@ Les URLs seront générées comme :
 Les variables d'environnement sont définies dans le Dockerfile avec des valeurs par défaut. Pour les surcharger lors du déploiement :
 
 ```bash
-docker run -e VITE_ENVIRONMENT=preprod -e VITE_REGISTRATION_DOMAIN=preprod-registration.harx.ai your-image
+docker run -e VITE_ENVIRONMENT=prod -e VITE_REGISTRATION_DOMAIN=prod-registration.harx.ai your-image
 ```
 
 ### Docker Compose (optionnel)
@@ -78,8 +78,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - VITE_ENVIRONMENT=preprod
-      - VITE_REGISTRATION_DOMAIN=preprod-registration.harx.ai
+      - VITE_ENVIRONMENT=prod
+      - VITE_REGISTRATION_DOMAIN=prod-registration.harx.ai
       # Ajoutez d'autres variables selon vos besoins
 ```
 

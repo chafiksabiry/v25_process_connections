@@ -15,7 +15,7 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 
-ENV VITE_ENVIRONMENT=preprod
+ENV VITE_ENVIRONMENT=prod
 
 # Build the app (make sure this outputs to 'dist')
 RUN npm run build
