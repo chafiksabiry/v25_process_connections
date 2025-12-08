@@ -79,6 +79,11 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/comporchestrator/, ''),
         },
+        '/training': {
+          target: 'https://prod-training.harx.ai',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/training/, ''),
+        },
       }
     },
     optimizeDeps: {
