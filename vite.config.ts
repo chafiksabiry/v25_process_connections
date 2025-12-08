@@ -27,7 +27,7 @@ export default defineConfig(({ mode }) => {
     ],
     server: {
       port: 3000,
-      cors: false,
+      cors: false, 
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE',
@@ -35,87 +35,51 @@ export default defineConfig(({ mode }) => {
       },
       proxy: {
         '/app1': {
-          target: 'https://preprod-registration.harx.ai',
+          target: 'https://prod-registration.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app1/, ''),
         },
         '/app2': {
-          target: 'https://preprod-choicepage.harx.ai/',
+          target: 'https://prod-choicepage.harx.ai/',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app2/, ''),
         },
-        /*         '/app3': {
-                  target: 'https://repcreationwizard.harx.ai',
-                  changeOrigin: true,
-                  rewrite: (path) => path.replace(/^\/app3/, ''),
-                }, */
-        '/repcreationprofile/*': {
-          target: 'https://preprod-rep-profile-creation.harx.ai/',
+        '/app3': {
+          target: 'https://prod-repcreationwizard.harx.ai',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repcreationprofile/, ''),
-        },
-        '/repassessments/*': {
-          target: 'https://preprod-rep-assessments.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repassessments/, ''),
-        },
-        '/repdashboard/*': {
-          target: 'https://preprod-rep-dashboard.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
-        },
-        '/reporchestrator/*': {
-          target: 'https://preprod-rep-orchestrator.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/reporchestrator/, ''),
+          rewrite: (path) => path.replace(/^\/app3/, ''),
         },
         '/app4': {
-          target: 'https://preprod-companysearchwizard.harx.ai',
+          target: 'https://prod-companysearchwizard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app4/, ''),
         },
         '/app5': {
-          target: 'https://preprod-gigsmanual.harx.ai',
+          target: 'https://prod-gigsmanual.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app5/, ''),
         },
         '/app6': {
-          target: 'https://preprod-gigsai.harx.ai/',
+          target: 'https://prod-gigsai.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app6/, ''),
         },
         '/app7': {
-          target: 'https://preprod-dashboard.harx.ai',
+          target: 'https://prod-dashboard.harx.ai',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/app7/, ''),
         },
-        '/app11': {
-          target: 'https://preprod-comp-orchestrator.harx.ai',
+        '/repdashboard': {
+          target: 'https://prod-rep-dashboard.harx.ai',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/app11/, ''),
+          rewrite: (path) => path.replace(/^\/repdashboard/, ''),
         },
-        '/app12': {
-          target: 'https://preprod-matching.harx.ai',
+        '/comporchestrator': {
+          target: 'https://prod-comp-orchestrator.harx.ai',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/app12/, ''),
+          rewrite: (path) => path.replace(/^\/comporchestrator/, ''),
         },
-
-        '/knowledgebase/*': {
-          target: 'https://preprod-knowledge-base.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/knowledgebase/, ''),
-        },
-        '/copilot': {
-          target: 'https://preprod-copilot.harx.ai/',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/copilot/, ''),
-        },
-/*         '/repdashboard/profile': {
-          target: 'https://preprod-rep-dashboard.harx.ai/profile',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/repdashboard\/profile/, ''),
-        }, */
-      },
+      }
     },
     optimizeDeps: {
       include: ['react', 'react-dom'], // Pre-bundle react and react-dom to ensure smooth behavior
