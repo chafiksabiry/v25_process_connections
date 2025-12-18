@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { handleLinkedInSignInCallback } from '../../../../utils/Linkedin';
+import { handleLinkedInSignInCallback } from '@/utils/Linkedin';
 
 const LinkedInSignInCallback = () => {
   const router = useRouter();

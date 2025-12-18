@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { authenticate } from '../../../../lib/auth-middleware';
-import fileService from '../../../../services/fileService';
+import { authenticate } from '@/lib/auth-middleware';
+import fileService from '@/services/fileService';
 
 export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const user = authenticate(req);

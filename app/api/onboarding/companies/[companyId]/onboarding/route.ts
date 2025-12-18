@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import onboardingProgressService from '../../../../services/onboardingProgressService';
+import onboardingProgressService from '@/services/onboardingProgressService';
 
 export async function POST(req: NextRequest, { params }: { params: Promise<{ companyId: string }> }) {
   try {

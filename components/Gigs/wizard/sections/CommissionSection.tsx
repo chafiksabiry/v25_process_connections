@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { InfoText } from './InfoText';
 import { predefinedOptions } from '@/lib/guidance';
-import { fetchAllCurrencies, fetchCurrencyById, Currency } from "@/lib/api";
+import { fetchAllCurrencies, fetchCurrencyById, Currency } from "@/lib/gigs/api";
 import { 
   DollarSign, Target, AlertCircle, Coins, 
   Star, Calculator, ArrowLeft, ArrowRight, Loader2, Award, Gauge

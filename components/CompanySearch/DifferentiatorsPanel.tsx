@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import { ChevronLeft, Zap, DollarSign, HeadphonesIcon, ArrowUpRight, Shield, Check, XCircle } from 'lucide-react';
 
-import type { CompanyProfile } from '../api/openaiBackend';
-import { saveCompanyData } from '../api/companyApi';
+import type { CompanyProfile } from './api/openaiBackend';
+import { saveCompanyData } from './api/companyApi';
 import Cookies from 'js-cookie';
 
 interface Props {
