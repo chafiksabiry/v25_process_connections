@@ -53,7 +53,7 @@ interface BasicSectionProps {
   onSave?: () => void;
   onAIAssist?: () => void;
   onSectionChange?: (sectionId: string) => void;
-  currentSection: string;
+  currentSection?: string;
 }
 
 /**
