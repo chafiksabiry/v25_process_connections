@@ -29,10 +29,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: false, error: 'Failed to store call' }, { status: 500 });
     }
 
+    // Cast call to any to avoid complex type issues with Mongoose unions
+    const callDataResponse = call as any;
+
     return NextResponse.json({
       success: true,
-      _id: call._id,
-      data: call
+      _id: callDataResponse._id,
+      data: callDataResponse
     });
   } catch (error: any) {
     return NextResponse.json({
