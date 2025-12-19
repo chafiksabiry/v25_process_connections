@@ -29,25 +29,25 @@ export async function PUT(
     }
 
     // Mettre à jour le statut de l'étape
-    const phase = progress.phases.find(p => p.id === parseInt(phaseId));
+    const phase = progress.phases.find((p: any) => p.id === parseInt(phaseId));
     if (!phase) {
       return NextResponse.json({ message: 'Phase not found' }, { status: 404 });
     }
 
-    const step = phase.steps.find(s => s.id === parseInt(stepId));
+    const step = phase.steps.find((s: any) => s.id === parseInt(stepId));
     if (!step) {
       return NextResponse.json({ message: 'Step not found' }, { status: 404 });
     }
 
     // Validation: vérifier que toutes les phases précédentes sont complétées avant de modifier une étape
     if (parseInt(phaseId) > 1) {
-      const previousPhases = progress.phases.filter(p => p.id < parseInt(phaseId));
-      const incompletePreviousPhases = previousPhases.filter(p => p.status !== 'completed');
+      const previousPhases = progress.phases.filter((p: any) => p.id < parseInt(phaseId));
+      const incompletePreviousPhases = previousPhases.filter((p: any) => p.status !== 'completed');
       
       if (incompletePreviousPhases.length > 0) {
         return NextResponse.json({ 
           message: 'Cannot modify steps in phase ' + phaseId + ' because previous phases are not completed',
-          incompletePhases: incompletePreviousPhases.map(p => p.id)
+          incompletePhases: incompletePreviousPhases.map((p: any) => p.id)
         }, { status: 400 });
       }
     }
