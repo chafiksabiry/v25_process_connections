@@ -34,15 +34,6 @@ i18n.registerLocale(en);
 
 /**
  * Interface définissant les props du composant BasicSection
- * @property {GigData} data - Les données du gig
- * @property {Function} onChange - Callback pour mettre à jour les données
- * @property {Object} errors - Les erreurs de validation
- * @property {Function} onPrevious - Callback pour la navigation précédente
- * @property {Function} onNext - Callback pour la navigation suivante
- * @property {Function} onSave - Callback pour sauvegarder les données
- * @property {Function} onAIAssist - Callback pour l'assistance IA
- * @property {Function} onSectionChange - Callback pour changer de section
- * @property {string} currentSection - La section actuelle
  */
 interface BasicSectionProps {
   data: GigData;
@@ -117,9 +108,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
         setIsDataLoaded(true);
       } catch (error) {
         console.error('❌ Critical error loading data from API:', error);
-        // Show user-friendly error message but don't block the UI
-        console.error(`Error loading data: ${error instanceof Error ? error.message : 'Unknown error'}. Please check your internet connection and try again.`);
-        // Set empty arrays to allow the form to work even without external data
         setActivities([]);
         setIndustries([]);
         setIsDataLoaded(true);
@@ -153,13 +141,11 @@ const BasicSection: React.FC<BasicSectionProps> = ({
   }, []);
 
   useEffect(() => {
-    // Récupérer le nom du pays si destination_zone est un ObjectId MongoDB
     if (data.destination_zone && data.destination_zone.length === 24) {
       const fetchCountryName = async () => {
         try {
           const name = await getCountryNameById(data.destination_zone);
           setCountryName(name);
-          console.log(`🌍 BASIC SECTION - Fetched country name: ${name} for ID: ${data.destination_zone}`);
         } catch (error) {
           console.error('❌ BASIC SECTION - Error fetching country name:', error);
           setCountryName(data.destination_zone);
@@ -171,32 +157,16 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     }
   }, [data.destination_zone]);
 
-  /**
-   * Obtient le nom du pays à partir de l'ID de l'API ou du code alpha-2
-   * @param {string} countryId - L'ID du pays de l'API ou le code alpha-2
-   * @returns {string} - Le nom du pays
-   */
   const getCountryName = (countryId: string): string => {
-    // D'abord chercher par ID dans l'API
     const countryFromApi = countries.find(country => country._id === countryId);
     if (countryFromApi) {
-      console.log(`🌍 Found country in API: ${countryFromApi.name.common} for ID: ${countryId}`);
       return countryFromApi.name.common;
     }
-    
-    console.log(`⚠️ Country not found in API for ID: ${countryId}. Available countries: ${countries.length}`);
-    
-    // Sinon, essayer avec les méthodes existantes (pour la compatibilité)
     return i18n.getName(countryId, 'en') || alpha2ToCountry[countryId] || countryId;
   };
 
-  /**
-   * Gère la sélection d'un pays
-   * @param {string} countryId - L'ID du pays sélectionné
-   */
   const handleCountrySelect = (countryId: string) => {
     if (!countryId) {
-      // Si aucun pays n'est sélectionné, on met à jour uniquement destination_zone
       onChange({
         ...data,
         destination_zone: ''
@@ -211,12 +181,8 @@ const BasicSection: React.FC<BasicSectionProps> = ({
       return;
     }
     
-    console.log('Selected country:', country);
-    
-    // Mettre à jour destination_zone et s'assurer que le pays sélectionné est dans destinationZones
     const updatedDestinationZones = data.destinationZones || [];
     if (!updatedDestinationZones.includes(countryId)) {
-      // Ajouter le nouveau pays au début de la liste
       updatedDestinationZones.unshift(countryId);
     }
     
@@ -227,20 +193,11 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     });
   };
 
-
-  /**
-   * Effet pour initialiser destination_zone seulement si elle est vide
-   * Basé sur la logique de Suggestions.tsx et api.ts
-   * Gère aussi la compatibilité avec destinationZone (sans underscore)
-   */
   useEffect(() => {
-    // Gérer la compatibilité entre destination_zone et destinationZone
     const destinationZoneValue = (data as any).destinationZone || data.destination_zone;
     const destinationZonesArray = data.destinationZones || [];
     
-    // Si destination_zone est vide mais destinationZone (sans underscore) existe
     if (!data.destination_zone && destinationZoneValue) {
-      console.log('🔄 BASIC SECTION - Initializing destination_zone from destinationZone:', destinationZoneValue);
       onChange({ 
         ...data, 
         destination_zone: destinationZoneValue,
@@ -249,25 +206,18 @@ const BasicSection: React.FC<BasicSectionProps> = ({
       return;
     }
     
-    // Seulement initialiser si destination_zone est vide et destinationZones contient des données
     if (!data.destination_zone && destinationZonesArray.length > 0) {
       const firstDestination = destinationZonesArray[0];
       
-      console.log('🔄 BASIC SECTION - Initializing destination_zone from destinationZones[0]:', firstDestination);
-      
-      // Si c'est déjà un code de pays (2-3 caractères), l'utiliser directement
       if (firstDestination && firstDestination.length <= 3) {
-        // Valider que c'est un code de pays valide
         const countryName = i18n.getName(firstDestination, 'en');
         if (countryName) {
           onChange({ ...data, destination_zone: firstDestination });
         }
       } else {
-        // Si c'est un MongoDB ObjectId (24 caractères), l'utiliser directement
         if (firstDestination && firstDestination.length === 24) {
           onChange({ ...data, destination_zone: firstDestination });
         } else {
-          // Convertir les noms de pays en codes
           const countryCode = countryToAlpha2[firstDestination] || 
                              Object.entries(i18n.getNames('en'))
                                .find(([_, name]) => name === firstDestination)?.[0];
@@ -278,8 +228,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
         }
       }
     } else if (data.destination_zone && destinationZonesArray.length === 0) {
-      // Si destination_zone est défini mais destinationZones est vide, initialiser destinationZones
-      console.log('🔄 BASIC SECTION - Initializing destinationZones from destination_zone:', data.destination_zone);
       onChange({
         ...data,
         destinationZones: [data.destination_zone]
@@ -287,9 +235,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     }
   }, [data.destinationZones, data.destination_zone, (data as any).destinationZone]);
 
-  /**
-   * Effet pour ajouter les icônes Material Icons
-   */
   useEffect(() => {
     const link = document.createElement('link');
     link.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
@@ -300,10 +245,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     };
   }, []);
 
-  /**
-   * Récupère toutes les catégories disponibles
-   * Inclut les catégories prédéfinies et les nouvelles catégories
-   */
   const allCategories = useMemo(() => {
     const categories = new Set(predefinedOptions.basic.categories);
     if (data.category && !categories.has(data.category)) {
@@ -312,11 +253,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     return Array.from(categories);
   }, [data.category]);
 
-  /**
-   * Gère les changements dans la section séniorité
-   * @param {string} field - Le champ modifié (level, years, yearsExperience)
-   * @param {string} value - La nouvelle valeur
-   */
   const handleSeniorityChange = (field: 'level' | 'years' | 'yearsExperience', value: string) => {
     const newData = { ...data };
     
@@ -328,13 +264,11 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     }
 
     if (field === 'level') {
-      // Vérifier que le niveau est dans la liste prédéfinie
       if (!predefinedOptions.basic.seniorityLevels.includes(value)) {
-        return; // Ignorer les niveaux non prédéfinis
+        return;
       }
       newData.seniority.level = value;
     } else if (field === 'years' || field === 'yearsExperience') {
-      // Nettoyer la valeur pour n'avoir que des chiffres
       const cleanValue = value.replace(/[^0-9]/g, '');
       newData.seniority.yearsExperience = parseInt(cleanValue) || 0;
     }
@@ -342,27 +276,8 @@ const BasicSection: React.FC<BasicSectionProps> = ({
     onChange(newData);
   };
 
-  // Log Basic Section data
-  useEffect(() => {
-  }, [data, errors]);
-
-  // Le rendu du composant
-  console.log('🏠 BASIC SECTION - Rendering BasicSection component');
-  console.log('🏠 BASIC SECTION - data:', data);
-  console.log('🏠 BASIC SECTION - destinationZones:', data.destinationZones);
-  console.log('🏠 BASIC SECTION - destination_zone:', data.destination_zone);
-  console.log('🏠 BASIC SECTION - destinationZone (sans underscore):', (data as any).destinationZone);
-  console.log('🏠 BASIC SECTION - countries from API:', countries.length, 'countries loaded');
-  console.log('🏠 BASIC SECTION - isLoading:', isLoading);
-  console.log('🏠 BASIC SECTION - industries:', data.industries);
-  console.log('🏠 BASIC SECTION - activities:', data.activities);
-  console.log('🏠 BASIC SECTION - seniority:', data.seniority);
-  console.log('🏠 BASIC SECTION - errors:', errors);
-  
   return (
     <div className="w-full bg-white py-6">
-
-      
       <div className="space-y-8">
         <InfoText>
           Start by providing the basic information about the contact center role. Be specific and clear
@@ -425,46 +340,42 @@ const BasicSection: React.FC<BasicSectionProps> = ({
           </div>
           
           <div className="p-6">
-            {/* Affichage de la catégorie sélectionnée */}
-          {data.category && (
-            <div className="mb-4 p-3 bg-purple-50 border border-purple-200 rounded-lg">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-purple-600" />
-                <span className="text-sm font-medium text-purple-800">Selected Category:</span>
-                <span className="text-sm text-purple-700">{data.category}</span>
-                {!predefinedOptions.basic.categories.includes(data.category) && (
-                  <span className="text-xs text-purple-600 bg-purple-100 px-2 py-1 rounded-full">Custom</span>
+            {data.category && (
+              <div className="mb-4 p-3 bg-purple-50 border border-purple-200 rounded-lg">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-purple-600" />
+                  <span className="text-sm font-medium text-purple-800">Selected Category:</span>
+                  <span className="text-sm text-purple-700">{data.category}</span>
+                  {!predefinedOptions.basic.categories.includes(data.category) && (
+                    <span className="text-xs text-purple-600 bg-purple-100 px-2 py-1 rounded-full">Custom</span>
+                  )}
+                </div>
+              </div>
+            )}
+
+            <div className="mb-4">
+              <label className="block text-sm font-medium text-gray-700 mb-1">Category</label>
+              <div className="flex items-center gap-2 relative">
+                <span className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                  <Target className="w-5 h-5 text-purple-400" />
+                </span>
+                <select
+                  value={data.category || ''}
+                  onChange={e => onChange({ ...data, category: e.target.value })}
+                  className="block w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-purple-500 focus:border-purple-500 bg-white text-gray-800 appearance-none transition-all"
+                >
+                  <option value="" disabled className="text-gray-400">Select a category</option>
+                  {allCategories.map(category => (
+                    <option key={category} value={category} className="text-gray-800">{category}</option>
+                  ))}
+                </select>
+                {data.category && !predefinedOptions.basic.categories.includes(data.category) && (
+                  <span className="text-xs text-purple-600 bg-purple-100 px-2 py-1 rounded-full ml-2">Custom</span>
                 )}
               </div>
             </div>
-          )}
-
-          {/* Sélecteur de catégorie */}
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-1">Category</label>
-            <div className="flex items-center gap-2 relative">
-              <span className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none">
-                <Target className="w-5 h-5 text-purple-400" />
-              </span>
-              <select
-                value={data.category || ''}
-                onChange={e => onChange({ ...data, category: e.target.value })}
-                className="block w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-purple-500 focus:border-purple-500 bg-white text-gray-800 appearance-none transition-all"
-              >
-                <option value="" disabled className="text-gray-400">Select a category</option>
-                {allCategories.map(category => (
-                  <option key={category} value={category} className="text-gray-800">{category}</option>
-                ))}
-              </select>
-              {/* Badge Custom à côté du select si catégorie personnalisée */}
-              {data.category && !predefinedOptions.basic.categories.includes(data.category) && (
-                <span className="text-xs text-purple-600 bg-purple-100 px-2 py-1 rounded-full ml-2">Custom</span>
-              )}
-            </div>
+            {errors.category && <p className="mt-2 text-sm text-red-600">{errors.category.join(', ')}</p>}
           </div>
-
-          {/* Ancienne grille de boutons supprimée */}
-          {errors.category && <p className="mt-2 text-sm text-red-600">{errors.category.join(', ')}</p>}
         </div>
 
         {/* --- Industries --- */}
@@ -479,7 +390,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
             </div>
           </div>
           
-          {/* Affichage des industries sélectionnées */}
           {(data.industries || []).length > 0 && (
             <div className="mb-4 p-3 bg-indigo-50 border border-indigo-200 rounded-lg">
               <div className="flex items-center gap-2 mb-2">
@@ -509,7 +419,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
             </div>
           )}
 
-          {/* Sélecteur d'industrie */}
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Add Industry
@@ -531,7 +440,7 @@ const BasicSection: React.FC<BasicSectionProps> = ({
                       if (!currentIndustries.includes(value)) {
                         const updatedIndustries = [...currentIndustries, value];
                         onChange({ ...data, industries: updatedIndustries });
-                        setSelectedIndustry(''); // Reset after adding
+                        setSelectedIndustry('');
                       }
                     }
                   }}
@@ -581,7 +490,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
             </div>
           </div>
           
-          {/* Affichage des activités sélectionnées */}
           {(data.activities || []).length > 0 && (
             <div className="mb-4 p-3 bg-green-50 border border-green-200 rounded-lg">
               <div className="flex items-center gap-2 mb-2">
@@ -611,7 +519,6 @@ const BasicSection: React.FC<BasicSectionProps> = ({
             </div>
           )}
 
-          {/* Sélecteur d'activité */}
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Add Activity
@@ -633,7 +540,7 @@ const BasicSection: React.FC<BasicSectionProps> = ({
                       if (!currentActivities.includes(value)) {
                         const updatedActivities = [...currentActivities, value];
                         onChange({ ...data, activities: updatedActivities });
-                        setSelectedActivity(''); // Reset after adding
+                        setSelectedActivity('');
                       }
                     }
                   }}
@@ -783,4 +690,3 @@ const BasicSection: React.FC<BasicSectionProps> = ({
 };
 
 export default BasicSection;
-
