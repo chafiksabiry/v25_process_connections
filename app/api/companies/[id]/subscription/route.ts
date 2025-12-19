@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import companyService from '@/services/companyService';
 import { authenticate } from '@/lib/auth-middleware';
 
-export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const user = authenticate(req);
   if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -14,7 +15,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
         return NextResponse.json({ success: false, message: 'Invalid subscription plan' }, { status: 400 });
     }
 
-    const company = await companyService.updateSubscription(params.id, subscription);
+    const company = await companyService.updateSubscription(id, subscription);
     if (!company) {
       return NextResponse.json({ success: false, message: 'Company not found' }, { status: 404 });
     }

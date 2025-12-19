@@ -2,14 +2,15 @@ import { NextRequest, NextResponse } from 'next/server';
 import companyService from '@/services/companyService';
 import { authenticate } from '@/lib/auth-middleware';
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const user = authenticate(req);
   if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   try {
-    const company = await companyService.getCompanyDetails(params.id);
+    const company = await companyService.getCompanyDetails(id);
     if (!company) {
       return NextResponse.json({ success: false, message: 'Company details not found' }, { status: 404 });
     }
