@@ -25,6 +25,10 @@ export async function POST(req: NextRequest) {
 
     const call = await callService.storeCall(callData);
 
+    if (!call) {
+      return NextResponse.json({ success: false, error: 'Failed to store call' }, { status: 500 });
+    }
+
     return NextResponse.json({
       success: true,
       _id: call._id,
