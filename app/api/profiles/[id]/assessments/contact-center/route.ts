@@ -24,6 +24,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
         skill: result.skill,
         proficiency: result.proficiency,
         assessmentResults: {
+            category: result.category,
+            skill: result.skill,
             score: result.assessmentResults.score,
             strengths: result.assessmentResults.strengths,
             improvements: result.assessmentResults.improvements,
