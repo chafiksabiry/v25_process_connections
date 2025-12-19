@@ -6,11 +6,11 @@ import mongoose from 'mongoose';
 // PUT /api/companies/[id]/onboarding/phases/[phaseId]/steps/[stepId] - Update step progress
 export async function PUT(
   request: Request,
-  { params }: { params: { id: string; phaseId: string; stepId: string } }
+  { params }: { params: Promise<{ id: string; phaseId: string; stepId: string }> }
 ) {
   try {
     await dbConnect();
-    const { id: companyId, phaseId, stepId } = params;
+    const { id: companyId, phaseId, stepId } = await params;
     const { status } = await request.json();
 
     if (!mongoose.Types.ObjectId.isValid(companyId)) {
