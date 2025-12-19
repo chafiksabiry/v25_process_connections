@@ -5,7 +5,7 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     console.log("Registration attempt:", { email: body.email, fullName: body.fullName, phone: body.phone });
-    const result = await authService.register(body, req);
+    const result: any = await authService.register(body, req);
     
     return NextResponse.json({ 
       message: 'Registration successful', 
