@@ -31,7 +31,7 @@ interface SkillsSectionProps {
       level: number;
       details: string;
     }>;
-    certifications: Array<{
+    certifications?: Array<{
       name: string;
       required: boolean;
       provider?: string;

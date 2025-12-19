@@ -71,7 +71,10 @@ export default function CreateGigPage() {
           case 'skills':
             return (
               <SkillsSection
-                data={data.skills}
+                data={{
+                  ...data.skills,
+                  certifications: data.skills.certifications || []
+                }}
                 onChange={(skillsData) => onChange({ ...data, skills: skillsData })}
                 errors={errors}
                 onPrevious={onPrevious}
