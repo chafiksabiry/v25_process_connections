@@ -89,6 +89,11 @@ class AgentService {
     return agent;
   }
 
+  async deleteProfile(id: string) {
+    await dbConnect();
+    await Agent.findByIdAndDelete(id);
+  }
+
   // Simplified Onboarding Progress Update logic
   async updateOnboardingProgress(agent: IAgent) {
     // Ensure structure exists
