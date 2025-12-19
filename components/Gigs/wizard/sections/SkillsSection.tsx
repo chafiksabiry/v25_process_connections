@@ -17,19 +17,19 @@ interface SkillsSectionProps {
       iso639_1: string;
     }>;
     soft: Array<{
-      skill: { $oid: string };
+      skill: { $oid: string } | string;
       level: number;
-      details: string;
+      details?: string;
     }>;
     professional: Array<{
-      skill: { $oid: string };
+      skill: { $oid: string } | string;
       level: number;
-      details: string;
+      details?: string;
     }>;
     technical: Array<{
-      skill: { $oid: string };
+      skill: { $oid: string } | string;
       level: number;
-      details: string;
+      details?: string;
     }>;
     certifications?: Array<{
       name: string;
