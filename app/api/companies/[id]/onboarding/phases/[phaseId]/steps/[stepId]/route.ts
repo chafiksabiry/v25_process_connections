@@ -62,7 +62,7 @@ export async function PUT(
       }
 
       // Trouver le prochain step disponible dans la phase courante
-      const nextStep = phase.steps.find(s => 
+      const nextStep = phase.steps.find((s: any) => 
         s.id > parseInt(stepId) && 
         !s.disabled && 
         s.status !== 'completed'
@@ -73,9 +73,9 @@ export async function PUT(
         nextStep.status = 'in_progress';
       } else {
         // Si pas de prochain step dans la phase courante, chercher dans la phase suivante
-        const nextPhase = progress.phases.find(p => p.id > phase.id);
+        const nextPhase = progress.phases.find((p: any) => p.id > phase.id);
         if (nextPhase) {
-          const firstAvailableStep = nextPhase.steps.find(s => !s.disabled && s.status !== 'completed');
+          const firstAvailableStep = nextPhase.steps.find((s: any) => !s.disabled && s.status !== 'completed');
           if (firstAvailableStep) {
             firstAvailableStep.status = 'in_progress';
             nextPhase.status = 'in_progress';
@@ -92,40 +92,40 @@ export async function PUT(
     }
 
     // Mettre à jour le statut de la phase
-    const activeSteps = phase.steps.filter(s => !s.disabled);
+    const activeSteps = phase.steps.filter((s: any) => !s.disabled);
     
     // Logique spéciale pour la Phase 2
     if (phase.id === 2) {
-      const stepsWithoutStep9 = activeSteps.filter(s => s.id !== 9);
-      const allStepsExceptStep9Completed = stepsWithoutStep9.every(s => s.status === 'completed');
+      const stepsWithoutStep9 = activeSteps.filter((s: any) => s.id !== 9);
+      const allStepsExceptStep9Completed = stepsWithoutStep9.every((s: any) => s.status === 'completed');
       if (allStepsExceptStep9Completed) {
         phase.status = 'completed';
-      } else if (activeSteps.some(s => s.status === 'completed' || s.status === 'in_progress')) {
+      } else if (activeSteps.some((s: any) => s.status === 'completed' || s.status === 'in_progress')) {
         phase.status = 'in_progress';
       }
     }
     // Logique spéciale pour la Phase 3
     else if (phase.id === 3) {
-      const step10 = phase.steps.find(s => s.id === 10);
+      const step10 = phase.steps.find((s: any) => s.id === 10);
       if (step10 && step10.status === 'completed') {
         phase.status = 'completed';
-      } else if (activeSteps.some(s => s.status === 'completed' || s.status === 'in_progress')) {
+      } else if (activeSteps.some((s: any) => s.status === 'completed' || s.status === 'in_progress')) {
         phase.status = 'in_progress';
       }
     } else {
       // Logique normale
-      const allStepsCompleted = activeSteps.every(s => s.status === 'completed');
+      const allStepsCompleted = activeSteps.every((s: any) => s.status === 'completed');
       if (allStepsCompleted) {
         phase.status = 'completed';
-      } else if (activeSteps.some(s => s.status === 'completed' || s.status === 'in_progress')) {
+      } else if (activeSteps.some((s: any) => s.status === 'completed' || s.status === 'in_progress')) {
         phase.status = 'in_progress';
       }
     }
 
     // Calculer automatiquement la phase courante basée sur l'état réel
-    const currentActivePhase = progress.phases.find(p => 
+    const currentActivePhase = progress.phases.find((p: any) => 
       p.status === 'in_progress' || 
-      (p.status === 'pending' && p.steps.some(s => s.status === 'in_progress'))
+      (p.status === 'pending' && p.steps.some((s: any) => s.status === 'in_progress'))
     );
     
     if (currentActivePhase) {
