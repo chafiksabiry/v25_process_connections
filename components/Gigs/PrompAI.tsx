@@ -236,7 +236,7 @@ const PrompAI: React.FC = () => {
 
     // Map the generated data to the initialized structure
     const mappedData = mapGeneratedDataToGigData(suggestions);
-    console.log('🔄 PROMP AI - suggestions.destination_zone:', suggestions.destination_zone);
+    console.log('🔄 PROMP AI - suggestions.destinationZones:', suggestions.destinationZones);
     console.log('🔄 PROMP AI - mappedData.destination_zone:', mappedData.destination_zone);
     console.log('🔄 PROMP AI - selectedJobTitle:', suggestions.selectedJobTitle);
     
