@@ -391,7 +391,9 @@ export function GigCreator({ children }: GigCreatorProps) {
         },
         leads: {
           types: gigData.leads.types,
-          sources: gigData.leads.sources
+          sources: gigData.leads.sources,
+          distribution: gigData.leads.distribution || { method: "", rules: [] },
+          qualificationCriteria: gigData.leads.qualificationCriteria || []
         },
         team: {
           size: gigData.team?.size || 0,
