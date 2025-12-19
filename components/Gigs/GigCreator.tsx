@@ -398,7 +398,9 @@ export function GigCreator({ children }: GigCreatorProps) {
         team: {
           size: gigData.team?.size || 0,
           structure: gigData.team?.structure || [],
-          territories: gigData.team?.territories || []
+          territories: gigData.team?.territories || [],
+          reporting: gigData.team?.reporting || { to: "", frequency: "" },
+          collaboration: gigData.team?.collaboration || []
         },
         documentation: {
           training: gigData.documentation.training,
