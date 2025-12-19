@@ -3,6 +3,7 @@ import { IAgent } from './Agent';
 import { ILead } from './Lead';
 
 export interface ICall extends Document {
+  sid?: string;
   agent: Types.ObjectId | IAgent;
   lead?: Types.ObjectId | ILead;
   phone_number: string;
@@ -24,6 +25,11 @@ export interface ICall extends Document {
 }
 
 const callSchema = new Schema<ICall>({
+  sid: {
+    type: String,
+    unique: true,
+    sparse: true
+  },
   agent: {
     type: Schema.Types.ObjectId,
     ref: 'Agent',
