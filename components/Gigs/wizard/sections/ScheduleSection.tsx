@@ -31,6 +31,7 @@ interface ScheduleSectionProps {
       monthly?: number;
     };
     time_zone?: string;
+    timeZones?: string[]; // Added this to match GigData
     flexibility: string[];
   };
   destination_zone?: string;

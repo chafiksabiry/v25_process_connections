@@ -45,7 +45,14 @@ export default function CreateGigPage() {
             return (
               <ScheduleSection
                 data={data.schedule}
-                onChange={(scheduleData) => onChange({ ...data, schedule: scheduleData })}
+                onChange={(scheduleData) => onChange({ 
+                  ...data, 
+                  schedule: {
+                    ...scheduleData,
+                    // Ensure timeZones is always present if required by GigData
+                    timeZones: scheduleData.timeZones || [] 
+                  } 
+                })}
                 onPrevious={onPrevious}
                 onNext={onNext}
               />
