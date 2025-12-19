@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import connectDB from '@/lib/mongodb';
 import File from '@/models/File';
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   await connectDB();
-  const id = params.id;
+  const { id } = await params;
 
   try {
     await File.findByIdAndDelete(id);

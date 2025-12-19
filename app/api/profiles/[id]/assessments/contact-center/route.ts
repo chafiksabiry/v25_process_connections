@@ -2,11 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import Agent from '@/models/Agent';
 import dbConnect from '@/lib/db/mongodb';
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     await dbConnect();
     const result = await req.json(); // The assessment result object
-    const userId = params.id;
+    const { id: userId } = await params;
 
     // Find Agent profile
     let agent = await Agent.findOne({ userId });

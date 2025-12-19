@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import connectDB from '@/lib/mongodb';
 import GigAgent from '@/models/GigAgent';
 
-export async function GET(req: NextRequest, { params }: { params: { gigId: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ gigId: string }> }) {
   await connectDB();
-  const gigId = params.gigId;
+  const { gigId } = await params;
 
   try {
     const gigAgents = await GigAgent.find({ gigId })

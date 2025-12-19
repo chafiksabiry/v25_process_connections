@@ -6,11 +6,11 @@ import mongoose from 'mongoose';
 // POST /api/companies/[id]/onboarding - Initialize onboarding progress
 export async function POST(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     await dbConnect();
-    const { id: companyId } = params;
+    const { id: companyId } = await params;
 
     if (!mongoose.Types.ObjectId.isValid(companyId)) {
       return NextResponse.json(
@@ -68,11 +68,11 @@ export async function POST(
 // GET /api/companies/[id]/onboarding - Get onboarding progress
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     await dbConnect();
-    const { id: companyId } = params;
+    const { id: companyId } = await params;
 
     if (!mongoose.Types.ObjectId.isValid(companyId)) {
       return NextResponse.json(

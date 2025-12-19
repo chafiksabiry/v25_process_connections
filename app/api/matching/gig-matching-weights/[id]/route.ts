@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import connectDB from '@/lib/mongodb';
 import GigMatchingWeight from '@/models/GigMatchingWeight';
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   await connectDB();
-  const gigId = params.id;
+  const { id: gigId } = await params;
 
   try {
     const weights = await GigMatchingWeight.findOne({ gigId });
@@ -20,9 +20,9 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   }
 }
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   await connectDB();
-  const gigId = params.id;
+  const { id: gigId } = await params;
 
   try {
     const body = await req.json();
@@ -41,9 +41,9 @@ export async function POST(req: NextRequest, { params }: { params: { id: string 
   }
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   await connectDB();
-  const gigId = params.id;
+  const { id: gigId } = await params;
 
   try {
     await GigMatchingWeight.findOneAndDelete({ gigId });

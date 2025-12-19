@@ -4,9 +4,9 @@ import Agent from '@/models/Agent';
 import Gig from '@/models/Gig';
 import { MatchingEngine } from '@/lib/matching/engine';
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   await connectDB();
-  const gigId = params.id;
+  const { id: gigId } = await params;
 
   try {
     const { weights } = await req.json();

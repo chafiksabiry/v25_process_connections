@@ -3,11 +3,11 @@ import Agent from '@/models/Agent';
 import Language from '@/models/Language';
 import dbConnect from '@/lib/db/mongodb';
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     await dbConnect();
     const { language, proficiency, results } = await req.json();
-    const userId = params.id;
+    const { id: userId } = await params;
 
     // Find the Language document
     const languageDoc = await Language.findOne({ 
