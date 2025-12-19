@@ -69,11 +69,15 @@ export default function CreateGigPage() {
               />
             );
           case 'skills':
+            // Safely handle potentially missing certifications property
+            const skillsData = data.skills as any;
+            const certifications = skillsData.certifications || [];
+            
             return (
               <SkillsSection
                 data={{
                   ...data.skills,
-                  certifications: data.skills.certifications || []
+                  certifications
                 }}
                 onChange={(skillsData) => onChange({ ...data, skills: skillsData })}
                 errors={errors}
