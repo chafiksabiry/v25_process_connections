@@ -28,7 +28,8 @@ export async function GET(req: NextRequest) {
 
   try {
     // 1. Get language code
-    let langCode = ISO6391.getCode(language) || (ISO6391.validate(language) ? language : null);
+    // Cast to string to satisfy type checker, as we're handling the fallback logic
+    let langCode: string | null = ISO6391.getCode(language) || (ISO6391.validate(language) ? language : null);
 
     if (!langCode) {
         // Fallback to AI for code detection
