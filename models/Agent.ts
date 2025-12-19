@@ -105,6 +105,7 @@ interface IPersonalInfo {
   country?: Types.ObjectId | ITimezone; // Using Timezone as country ref as per schema? Or maybe Country model? Original schema says ref: 'Timezone' for country field? 
   // Wait, original schema says: country: { type: mongoose.Schema.Types.ObjectId, ref: 'Timezone' } in personalInfo.
   // That seems odd, usually country ref is Country. But I'll follow the schema.
+  city?: string;
   email?: string;
   phone?: string;
   photo?: {
@@ -342,6 +343,7 @@ const agentSchema = new Schema<IAgent>({
   personalInfo: {
     name: String,
     country: { type: Schema.Types.ObjectId, ref: 'Timezone' },
+    city: String,
     email: String,
     phone: String,
     photo: {
