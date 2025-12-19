@@ -586,20 +586,21 @@ export function SkillsSection({ data, onChange, onNext, onPrevious }: SkillsSect
                             background: (() => {
                               const hoveredLevel = hoveredExistingLevel[skillType][index];
                               const percentage = (hoveredLevel !== null && hoveredLevel !== undefined) ? hoveredLevel : currentPercentage;
+                              const safePercentage = typeof percentage === 'number' ? percentage : 0;
                               
                               // Use same gradient logic as Suggestions.tsx
                               if (skillType === 'professional') {
                                 // Green gradient to match green icon
-                                return `linear-gradient(90deg, #dcfce7 0%, #bbf7d0 ${percentage * 0.2}%, #86efac ${percentage * 0.4}%, #22c55e ${percentage * 0.6}%, #16a34a ${percentage * 0.8}%, #15803d ${percentage}%, #14532d 100%)`;
+                                return `linear-gradient(90deg, #dcfce7 0%, #bbf7d0 ${safePercentage * 0.2}%, #86efac ${safePercentage * 0.4}%, #22c55e ${safePercentage * 0.6}%, #16a34a ${safePercentage * 0.8}%, #15803d ${safePercentage}%, #14532d 100%)`;
                               } else if (skillType === 'technical') {
                                 // Purple gradient to match purple icon
-                                return `linear-gradient(90deg, #ddd6fe 0%, #c4b5fd ${percentage * 0.2}%, #a78bfa ${percentage * 0.4}%, #8b5cf6 ${percentage * 0.6}%, #7c3aed ${percentage * 0.8}%, #6d28d9 ${percentage}%, #4c1d95 100%)`;
+                                return `linear-gradient(90deg, #ddd6fe 0%, #c4b5fd ${safePercentage * 0.2}%, #a78bfa ${safePercentage * 0.4}%, #8b5cf6 ${safePercentage * 0.6}%, #7c3aed ${safePercentage * 0.8}%, #6d28d9 ${safePercentage}%, #4c1d95 100%)`;
                               } else if (skillType === 'languages') {
                                 // Blue gradient to match blue icon
-                                return `linear-gradient(90deg, #dbeafe 0%, #bfdbfe ${percentage * 0.2}%, #93c5fd ${percentage * 0.4}%, #60a5fa ${percentage * 0.6}%, #3b82f6 ${percentage * 0.8}%, #2563eb ${percentage}%, #1d4ed8 100%)`;
+                                return `linear-gradient(90deg, #dbeafe 0%, #bfdbfe ${safePercentage * 0.2}%, #93c5fd ${safePercentage * 0.4}%, #60a5fa ${safePercentage * 0.6}%, #3b82f6 ${safePercentage * 0.8}%, #2563eb ${safePercentage}%, #1d4ed8 100%)`;
                               } else {
                                 // Orange gradient for soft skills to match orange icon
-                                return `linear-gradient(90deg, #fed7aa 0%, #fdba74 ${percentage * 0.2}%, #fb923c ${percentage * 0.4}%, #f97316 ${percentage * 0.6}%, #ea580c ${percentage * 0.8}%, #dc2626 ${percentage}%, #b91c1c 100%)`;
+                                return `linear-gradient(90deg, #fed7aa 0%, #fdba74 ${safePercentage * 0.2}%, #fb923c ${safePercentage * 0.4}%, #f97316 ${safePercentage * 0.6}%, #ea580c ${safePercentage * 0.8}%, #dc2626 ${safePercentage}%, #b91c1c 100%)`;
                               }
                             })()
                           }}
@@ -732,11 +733,17 @@ export function SkillsSection({ data, onChange, onNext, onPrevious }: SkillsSect
                       <div 
                         className="h-2 rounded-full transition-all duration-300"
                         style={{ 
-                          width: `${hoveredLevel[skillType + '_add'] !== null ? hoveredLevel[skillType + '_add'] : 
-                            selectedExactPosition[skillType] || (skillType === 'languages' ? 83 : 80)}%`,
+                            width: `${(() => {
+                              const hoverVal = hoveredLevel[skillType + '_add'];
+                              return (hoverVal !== null && hoverVal !== undefined) 
+                                ? hoverVal 
+                                : (selectedExactPosition[skillType] || (skillType === 'languages' ? 83 : 80));
+                            })()}%`,
                           background: (() => {
-                            const percentage = hoveredLevel[skillType + '_add'] !== null ? hoveredLevel[skillType + '_add'] : 
-                              selectedExactPosition[skillType] || (skillType === 'languages' ? 83 : 80);
+                            const hoverVal = hoveredLevel[skillType + '_add'];
+                            const percentage = (hoverVal !== null && hoverVal !== undefined) 
+                              ? hoverVal 
+                              : (selectedExactPosition[skillType] || (skillType === 'languages' ? 83 : 80));
                             
                             // Use same gradient logic as Suggestions.tsx
                             if (skillType === 'professional') {
