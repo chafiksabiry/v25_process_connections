@@ -15,8 +15,8 @@ const LinkedInSignInCallbackContent = () => {
     if (code && state) {
       (async () => {
         try {
-          const redirectPath = await handleLinkedInSignInCallback(code, state);
-          router.push(redirectPath);
+          await handleLinkedInSignInCallback(code, state);
+          router.push("/app2");
         } catch (err) {
           console.error("LinkedIn sign-in failed:", err);
           router.push("/auth?error=linkedin_auth_failed");

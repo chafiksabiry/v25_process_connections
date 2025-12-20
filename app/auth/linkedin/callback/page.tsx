@@ -15,7 +15,7 @@ const LinkedInCallbackContent = () => {
 
     if (code && state) {
       handleLinkedInCallback(code, state)
-        .then((redirectPath) => router.push(redirectPath || '/onboarding/choice'))
+        .then(() => router.push('/app2')) // Redirect to dashboard on success
         .catch((err) => {
           console.error('LinkedIn authentication failed:', err);
           router.push('/auth?error=linkedin_auth_failed'); // Redirect to login on error

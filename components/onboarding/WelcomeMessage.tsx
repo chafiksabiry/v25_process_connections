@@ -37,11 +37,21 @@ export function WelcomeMessage({ type, onClose }: WelcomeMessageProps) {
       // Save new type in cookie
       Cookies.set('userType', type);
 
-      // Redirect based on type
+      // Redirect based on type - vers orchestrator approprié
       if (type === 'company') {
-          router.push('/onboarding/company');
+        const compOrchestratorUrl = process.env.NEXT_PUBLIC_COMP_ORCHESTRATOR_URL || '/comporchestrator';
+        if (compOrchestratorUrl.startsWith('http')) {
+          window.location.href = compOrchestratorUrl;
+        } else {
+          router.push(compOrchestratorUrl);
+        }
       } else {
-          router.push('/onboarding/rep');
+        const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
+        if (repOrchestratorUrl.startsWith('http')) {
+          window.location.href = repOrchestratorUrl;
+        } else {
+          router.push(repOrchestratorUrl);
+        }
       }
     } catch (err: any) {
       setError(err.response?.data?.message || err.message || 'Something went wrong');

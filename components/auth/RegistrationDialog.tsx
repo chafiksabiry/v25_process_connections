@@ -181,10 +181,49 @@ export default function RegistrationDialog({ onSignIn }: RegistrationDialogProps
                   setToken(emailVerificationResult.token);
                   setStep('success');
                   setShowProfilePrompt(true);
-  
-                  setTimeout(() => {
-                    router.push('/auth');
-                  }, 1500);
+
+                  // Vérifier le type d'utilisateur et rediriger en conséquence
+                  try {
+                    const checkFirstLogin = await auth.checkFirstLogin(storedUserId);
+                    console.log("checkFirstLogin", checkFirstLogin);
+                    const checkUserType = await auth.checkUserType(storedUserId);
+                    console.log("checkUserType", checkUserType);
+                    let redirectTo;
+                    
+                    // Si premier login OU pas de type → rediriger vers choice page
+                    if (checkFirstLogin.isFirstLogin || checkUserType.userType == null) {
+                      redirectTo = '/onboarding/choice';
+                    } else if (checkUserType.userType === 'company') {
+                      // Si type company → rediriger vers orchestrator company
+                      const compOrchestratorUrl = process.env.NEXT_PUBLIC_COMP_ORCHESTRATOR_URL || '/comporchestrator';
+                      redirectTo = compOrchestratorUrl;
+                      console.log("Redirecting company user to orchestrator:", redirectTo);
+                    } else if (checkUserType.userType === 'rep') {
+                      // Si type rep → rediriger vers orchestrator rep
+                      const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
+                      redirectTo = repOrchestratorUrl;
+                      console.log("Redirecting rep user to orchestrator:", redirectTo);
+                    } else {
+                      // Fallback vers choice si type inconnu
+                      redirectTo = '/onboarding/choice';
+                    }
+
+                    setTimeout(() => {
+                      if (redirectTo) {
+                        if (redirectTo.startsWith('http')) {
+                          window.location.href = redirectTo;
+                        } else {
+                          router.push(redirectTo);
+                        }
+                      }
+                    }, 1500);
+                  } catch (redirectError) {
+                    console.error('Error determining redirect path:', redirectError);
+                    // Fallback vers choice page en cas d'erreur
+                    setTimeout(() => {
+                      router.push('/onboarding/choice');
+                    }, 1500);
+                  }
                 } else {
                   newErrors.general = accountVerificationResult.message;
                 }
