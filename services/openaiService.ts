@@ -14,7 +14,7 @@ class OpenAIService {
     const openai = new OpenAI({ apiKey });
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini", // Updated to a more recent and available model
+      model: "gpt-3.5-turbo", // Using stable model
       messages: [
         {
           role: "system",
@@ -64,13 +64,13 @@ class OpenAIService {
 
     try {
       console.log('[OpenAI Service] Making OpenAI API call...', {
-        model: 'gpt-4o-mini',
+        model: 'gpt-3.5-turbo-1106',
         companyInfoLength: companyInfo.length,
         userId
       });
 
       const response = await openai.chat.completions.create({
-        model: "gpt-4o-mini", // Updated to a more recent and available model
+        model: "gpt-3.5-turbo-1106", // Model that supports JSON mode
         response_format: { type: "json_object" },
         messages: [
         {
@@ -268,7 +268,7 @@ class OpenAIService {
     try {
       const openai = new OpenAI({ apiKey });
       const response = await openai.chat.completions.create({
-        model: "gpt-4o-mini", // Updated to a more recent and available model
+        model: "gpt-3.5-turbo", // Using stable model
         messages: [{ role: "user", content: prompt }],
         max_tokens: 100,
         temperature: 0.7,
@@ -320,7 +320,7 @@ Make the categories relevant to the company's industry and strengths. Focus on w
     const openai = new OpenAI({ apiKey });
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini", // Updated to a more recent and available model
+      model: "gpt-3.5-turbo-1106", // Model that supports JSON mode
       response_format: { type: "json_object" },
       messages: [{ role: "user", content: prompt }],
       max_tokens: 800,
