@@ -6,7 +6,10 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ user
   const { userId } = await params;
   const user = authenticate(req);
   if (!user) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    return NextResponse.json({ 
+      error: 'Unauthorized',
+      message: 'Authentication failed. Please check your token or log in again.'
+    }, { status: 401 });
   }
 
   try {

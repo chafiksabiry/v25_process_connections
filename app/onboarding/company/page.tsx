@@ -25,21 +25,37 @@ export default function CompanyOnboardingPage() {
   useEffect(() => {
     const checkUserCompany = async () => {
       const userId = Cookies.get('userId');
-      if (userId) {
+      const token = localStorage.getItem('token');
+      
+      if (userId && token) {
         try {
-          const response = await fetch(`/api/companies/user/${userId}`);
+          const response = await fetch(`/api/companies/user/${userId}`, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json',
+            },
+          });
+          
           if (response.ok) {
             const data = await response.json();
-            if (data && data._id) {
+            if (data && data.data && data.data._id) {
                 setRedirectMessage('You already have a company profile. Redirecting...');
                 setTimeout(() => {
                   router.push('/dashboard');
                 }, 2000);
             }
+          } else if (response.status === 401) {
+            console.warn('Unauthorized: Token may be invalid or expired');
+            // Optionally redirect to login or clear token
+          } else if (response.status === 404) {
+            // No company found, which is fine - user can create one
+            console.log('No company found for user, proceeding with onboarding');
           }
         } catch (error) {
           console.error('Error checking user company:', error);
         }
+      } else if (userId && !token) {
+        console.warn('User ID found but no token available');
       }
     };
   

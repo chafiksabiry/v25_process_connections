@@ -21,15 +21,25 @@ export default function App4Page() {
   useEffect(() => {
     const checkUserCompany = async () => {
       const userId = Cookies.get('userId');
-      if (userId) {
+      const token = localStorage.getItem('token');
+      
+      if (userId && token) {
         try {
           const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
-          const response = await fetch(`${apiUrl}/companies/user/${userId}`);
+          const response = await fetch(`${apiUrl}/companies/user/${userId}`, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json',
+            },
+          });
+          
           if (response.ok) {
             setRedirectMessage('You already have a company profile. Redirecting...');
             setTimeout(() => {
               window.location.href = '/company'; // Assuming /company is dashboard/profile view
             }, 2000);
+          } else if (response.status === 401) {
+            console.warn('Unauthorized: Token may be invalid or expired');
           }
         } catch (error) {
           console.error('Error checking user company:', error);

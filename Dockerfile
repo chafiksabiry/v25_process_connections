@@ -48,6 +48,10 @@ ENV SMTP_SENDER_NAME=harx
 # Misc
 ENV IP_INFO_TOKEN=9150a0245fbc83
 
+# Google Custom Search API (needed for build)
+ENV NEXT_PUBLIC_GOOGLE_API_KEY=AIzaSyCHEKiraViKIrgvloZI-ZBIJqtDMeBuQD0
+ENV NEXT_PUBLIC_GOOGLE_SEARCH_ENGINE_ID=e1abd3780ba01461a
+
 RUN npm run build
 
 # Production image, copy all the files and run next
@@ -111,6 +115,10 @@ ENV SMTP_SENDER_NAME=harx
 
 # Misc
 ENV IP_INFO_TOKEN=9150a0245fbc83
+
+# Google Custom Search API
+ENV NEXT_PUBLIC_GOOGLE_API_KEY=AIzaSyCHEKiraViKIrgvloZI-ZBIJqtDMeBuQD0
+ENV NEXT_PUBLIC_GOOGLE_SEARCH_ENGINE_ID=e1abd3780ba01461a
 
 CMD ["node", "server.js"]
 
