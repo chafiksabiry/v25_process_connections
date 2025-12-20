@@ -38,6 +38,17 @@ const nextConfig: NextConfig = {
         destination: '/auth/register',
         permanent: true,
       },
+      // Redirection vers les orchestrators internes (micro-frontends)
+      {
+        source: '/comporchestrator',
+        destination: '/app11',
+        permanent: false,
+      },
+      {
+        source: '/comporchestrator/:path*',
+        destination: '/app11/:path*',
+        permanent: false,
+      },
     ];
   },
 };
