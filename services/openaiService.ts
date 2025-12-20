@@ -44,14 +44,18 @@ class OpenAIService {
   }
 
   async generateCompanyProfile(companyInfo: string, userId?: string) {
-    if (!apiKey) throw new Error('OpenAI API key is not configured');
+    if (!apiKey) {
+      console.error('[OpenAI Service] API key is not configured');
+      throw new Error('OpenAI API key is not configured');
+    }
 
     const openai = new OpenAI({ apiKey });
 
-    const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo-1106",
-      response_format: { type: "json_object" },
-      messages: [
+    try {
+      const response = await openai.chat.completions.create({
+        model: "gpt-3.5-turbo-1106",
+        response_format: { type: "json_object" },
+        messages: [
         {
           role: "system",
           content: `You are a professional company profiler. Create a detailed company profile in JSON format based on the provided information. 
@@ -111,18 +115,55 @@ class OpenAIService {
     });
 
     const content = response.choices[0]?.message?.content;
-    if (!content) throw new Error("No content received from OpenAI");
+    if (!content) {
+      console.error('[OpenAI Service] No content received from OpenAI');
+      throw new Error("No content received from OpenAI");
+    }
 
-    const parsedProfile = JSON.parse(content);
+    let parsedProfile;
+    try {
+      parsedProfile = JSON.parse(content);
+    } catch (parseError: any) {
+      console.error('[OpenAI Service] JSON parse error:', {
+        error: parseError.message,
+        contentPreview: content.substring(0, 200)
+      });
+      throw new Error(`Failed to parse OpenAI response: ${parseError.message}`);
+    }
 
     // Generate company intro
-    const companyIntroResponse = await this.generateCompanyIntro({ ...parsedProfile, userId: userId || '' });
+    let companyIntroResponse;
+    try {
+      companyIntroResponse = await this.generateCompanyIntro({ ...parsedProfile, userId: userId || '' });
+    } catch (introError: any) {
+      console.error('[OpenAI Service] Error generating company intro:', introError.message);
+      // Continue without intro if it fails
+      companyIntroResponse = "Welcome to our company!";
+    }
 
     return {
       userId: userId || '681a91212c1ca099fe2b17df',
       companyIntro: companyIntroResponse,
       ...parsedProfile
     };
+    } catch (openaiError: any) {
+      console.error('[OpenAI Service] OpenAI API error:', {
+        message: openaiError.message,
+        status: openaiError.status,
+        code: openaiError.code,
+        type: openaiError.type
+      });
+      
+      if (openaiError.status === 401) {
+        throw new Error('OpenAI API key is invalid or expired');
+      } else if (openaiError.status === 429) {
+        throw new Error('OpenAI API rate limit exceeded. Please try again later.');
+      } else if (openaiError.status === 500) {
+        throw new Error('OpenAI API service error. Please try again later.');
+      } else {
+        throw new Error(`OpenAI API error: ${openaiError.message || 'Unknown error'}`);
+      }
+    }
   }
 
   async generateCompanyIntro(profile: any): Promise<string> {
