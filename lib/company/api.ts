@@ -44,6 +44,7 @@ export interface CompanyProfile {
     facebook?: string;
     instagram?: string;
   };
+  differentiators?: string[];
 }
 
 export interface UniquenessCategory {

@@ -1,6 +1,13 @@
-import mongoose from 'mongoose';
+import mongoose, { Document } from 'mongoose';
 
-const ActivitySchema = new mongoose.Schema(
+export interface IActivity extends Document {
+  name: string;
+  description?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const ActivitySchema = new mongoose.Schema<IActivity>(
   {
     name: { type: String, required: true, unique: true },
     description: { type: String, required: false },
@@ -8,7 +15,7 @@ const ActivitySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.models.Activity || mongoose.model('Activity', ActivitySchema);
+export default mongoose.models.Activity || mongoose.model<IActivity>('Activity', ActivitySchema);
 
 
 

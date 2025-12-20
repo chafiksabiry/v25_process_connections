@@ -127,6 +127,8 @@ const initialGigData: GigData = {
      options: []
    },
    documentation: {
+     templates: null,
+     reference: null,
      training: [],
      product: [],
      process: []
@@ -403,9 +405,11 @@ export function GigCreator({ children }: GigCreatorProps) {
           collaboration: gigData.team?.collaboration || []
         },
         documentation: {
-          training: gigData.documentation.training,
-          product: gigData.documentation.product,
-          process: gigData.documentation.process
+          templates: gigData.documentation?.templates || null,
+          reference: gigData.documentation?.reference || null,
+          training: gigData.documentation?.training || [],
+          product: gigData.documentation?.product || [],
+          process: gigData.documentation?.process || []
         },
         createdAt: new Date(),
         updatedAt: new Date()

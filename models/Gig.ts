@@ -1,6 +1,118 @@
-import mongoose from 'mongoose';
+import mongoose, { Document, Types } from 'mongoose';
 
-const GigSchema = new mongoose.Schema(
+export interface IGig extends Document {
+  title?: string;
+  description?: string;
+  category?: string;
+  userId?: Types.ObjectId;
+  companyId?: Types.ObjectId;
+  destination_zone?: Types.ObjectId;
+  sectors?: Types.ObjectId[];
+  activities?: Types.ObjectId[];
+  industries?: Types.ObjectId[];
+  seniority?: {
+    level?: string;
+    yearsExperience?: string;
+  };
+  skills?: {
+    professional?: Array<{
+      skill?: Types.ObjectId;
+      level?: number;
+      details?: string;
+    }>;
+    technical?: Array<{
+      skill?: Types.ObjectId;
+      level?: number;
+      details?: string;
+    }>;
+    soft?: Array<{
+      skill?: Types.ObjectId;
+      level?: number;
+      details?: string;
+    }>;
+    languages?: Array<{
+      language?: Types.ObjectId;
+      proficiency?: string;
+      iso639_1?: string;
+    }>;
+  };
+  availability?: {
+    schedule?: Array<{
+      day?: string;
+      hours?: {
+        start?: string;
+        end?: string;
+      };
+    }>;
+    time_zone?: Types.ObjectId;
+    flexibility?: string[];
+    minimumHours?: {
+      daily?: number;
+      weekly?: number;
+      monthly?: number;
+    };
+  };
+  commission?: {
+    base?: string;
+    baseAmount?: string;
+    bonus?: string;
+    bonusAmount?: string;
+    structure?: string;
+    currency?: Types.ObjectId;
+    minimumVolume?: {
+      amount?: string;
+      period?: string;
+      unit?: string;
+    };
+    transactionCommission?: {
+      type?: string;
+      amount?: string;
+    };
+    additionalDetails?: string;
+  };
+  leads?: {
+    types?: Array<{
+      type?: 'hot' | 'warm' | 'cold';
+      percentage?: number;
+      description?: string;
+      conversionRate?: number;
+    }>;
+    sources?: string[];
+  };
+  team?: {
+    size?: string;
+    structure?: Array<{
+      roleId?: string;
+      count?: number;
+      seniority?: {
+        level?: string;
+        yearsExperience?: string;
+      };
+    }>;
+    territories?: Types.ObjectId[];
+  };
+  documentation?: {
+    product?: Array<{
+      name?: string;
+      url?: string;
+    }>;
+    process?: Array<{
+      name?: string;
+      url?: string;
+    }>;
+    training?: Array<{
+      name?: string;
+      url?: string;
+    }>;
+  };
+  highlights?: string[];
+  deliverables?: string[];
+  status: 'to_activate' | 'active' | 'inactive' | 'archived';
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const GigSchema = new mongoose.Schema<IGig>(
   {
     title: { type: String, required: false },
     description: { type: String, required: false },
@@ -132,7 +244,7 @@ const GigSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.models.Gig || mongoose.model('Gig', GigSchema);
+export default mongoose.models.Gig || mongoose.model<IGig>('Gig', GigSchema);
 
 
 

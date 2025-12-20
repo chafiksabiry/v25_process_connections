@@ -20,25 +20,53 @@ const BUCKET_NAME = process.env.GOOGLE_CLOUD_STORAGE_BUCKET || 'harx-audios-test
 class VertexService {
   private vertexAI: any;
   private generativeModel: any;
-  private storage: Storage;
+  private storage: Storage | null = null;
+
+  private initializeVertexAI() {
+    // Skip initialization during build time if PROJECT_ID is not set
+    // This prevents build failures when environment variables are not configured
+    if (!PROJECT_ID) {
+      // During build, Next.js may try to analyze routes
+      // Check if we're in a build context (Next.js sets this during build)
+      const isBuildTime = process.env.NEXT_PHASE === 'phase-production-build' || 
+                          process.env.NODE_ENV === 'production' && !process.env.VERCEL;
+      
+      if (isBuildTime) {
+        console.warn('VertexAI: GOOGLE_CLOUD_PROJECT_ID not set during build. Routes will fail at runtime if not configured.');
+        return;
+      }
+      throw new Error('GOOGLE_CLOUD_PROJECT_ID environment variable is not set');
+    }
+
+    if (!this.vertexAI) {
+      this.vertexAI = new VertexAI({
+        project: PROJECT_ID,
+        location: LOCATION,
+      });
+
+      this.generativeModel = this.vertexAI.getGenerativeModel({
+        model: 'gemini-1.5-flash-002',
+      });
+    }
+
+    if (!this.storage) {
+      this.storage = new Storage({
+        projectId: PROJECT_ID,
+        // keyFilename: ... (optional if using default env var credentials)
+      });
+    }
+  }
 
   constructor() {
-    this.vertexAI = new VertexAI({
-      project: PROJECT_ID,
-      location: LOCATION,
-    });
-
-    this.generativeModel = this.vertexAI.getGenerativeModel({
-      model: 'gemini-1.5-flash-002',
-    });
-
-    this.storage = new Storage({
-       projectId: PROJECT_ID,
-       // keyFilename: ... (optional if using default env var credentials)
-    });
+    // Lazy initialization - only initialize when actually needed
+    // This prevents build-time errors when PROJECT_ID is not set
   }
 
   async summarizeAudio(fileUri: string, prompt: string) {
+    this.initializeVertexAI();
+    if (!this.generativeModel) {
+      throw new Error('VertexAI not initialized. Please set GOOGLE_CLOUD_PROJECT_ID environment variable.');
+    }
     try {
        const request = {
         contents: [
@@ -68,6 +96,10 @@ class VertexService {
   }
 
   async transcribeAudio(fileUri: string, languageCode: string = 'en-US') {
+    this.initializeVertexAI();
+    if (!this.generativeModel) {
+      throw new Error('VertexAI not initialized. Please set GOOGLE_CLOUD_PROJECT_ID environment variable.');
+    }
     try {
       const prompt = `Transcribe the following audio file verbatim. output just the text.`;
       const request = {
@@ -99,6 +131,10 @@ class VertexService {
 
 
   async evaluateRepLanguage(fileUri: string, textToCompare: string) {
+    this.initializeVertexAI();
+    if (!this.generativeModel) {
+      throw new Error('VertexAI not initialized. Please set GOOGLE_CLOUD_PROJECT_ID environment variable.');
+    }
     try {
       const request = {
         contents: [{
@@ -127,6 +163,10 @@ class VertexService {
   }
 
   async evaluateRepCCSkills(fileUri: string, scenarioData: any) {
+    this.initializeVertexAI();
+    if (!this.generativeModel) {
+      throw new Error('VertexAI not initialized. Please set GOOGLE_CLOUD_PROJECT_ID environment variable.');
+    }
     try {
       const request = {
         contents: [{
@@ -156,7 +196,11 @@ class VertexService {
   }
 
   async uploadAudio(fileBuffer: Buffer, destinationName: string) {
+    this.initializeVertexAI();
     try {
+      if (!this.storage) {
+        throw new Error('Storage not initialized');
+      }
       const bucket = this.storage.bucket(BUCKET_NAME);
       const file = bucket.file(destinationName);
 

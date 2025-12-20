@@ -4,7 +4,7 @@ import React from 'react';
 import { Plus, Trash2, Globe, Users, Building2, Briefcase, GraduationCap, ArrowLeft, ArrowRight } from 'lucide-react';
 import { predefinedOptions } from '@/lib/guidance';
 import { GigData } from '@/types/gigs';
-import { fetchAllCountries, Country, getCountryNameById } from '@/lib/api';
+import { fetchAllCountries, Country, getCountryNameById } from '@/lib/gigs/api';
 
 interface TeamRoleOption {
   id: string;

@@ -1,6 +1,16 @@
-import mongoose from 'mongoose';
+import mongoose, { Document } from 'mongoose';
 
-const timezoneSchema = new mongoose.Schema({
+export interface ITimezone extends Document {
+  countryCode: string;
+  countryName: string;
+  zoneName: string;
+  gmtOffset: number;
+  lastUpdated: Date;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const timezoneSchema = new mongoose.Schema<ITimezone>({
   countryCode: {
     type: String,
     required: true,
@@ -34,7 +44,7 @@ const timezoneSchema = new mongoose.Schema({
 timezoneSchema.index({ countryCode: 1 });
 // Note: zoneName a déjà un index via 'unique: true'
 
-export default mongoose.models.Timezone || mongoose.model('Timezone', timezoneSchema);
+export default mongoose.models.Timezone || mongoose.model<ITimezone>('Timezone', timezoneSchema);
 
 
 

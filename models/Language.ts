@@ -1,6 +1,14 @@
-import mongoose from 'mongoose';
+import mongoose, { Document } from 'mongoose';
 
-const LanguageSchema = new mongoose.Schema(
+export interface ILanguage extends Document {
+  name: string;
+  iso639_1: string;
+  description?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const LanguageSchema = new mongoose.Schema<ILanguage>(
   {
     name: { type: String, required: true, unique: true },
     iso639_1: { type: String, required: true, unique: true },
@@ -9,7 +17,7 @@ const LanguageSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.models.Language || mongoose.model('Language', LanguageSchema);
+export default mongoose.models.Language || mongoose.model<ILanguage>('Language', LanguageSchema);
 
 
 

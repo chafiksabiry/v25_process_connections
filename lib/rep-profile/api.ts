@@ -158,6 +158,24 @@ export const addContactCenterAssessment = async (id: string, result: any) => {
   }
 };
 
+export const addAssessment = async (id: string, assessment: any) => {
+  try {
+    const { data } = await api.post(`/profiles/${id}/assessments`, assessment);
+    return data;
+  } catch (error: any) {
+    throw error.response?.data || error;
+  }
+};
+
+export const deleteProfile = async (id: string) => {
+  try {
+    await api.delete(`/profiles/${id}`);
+    return { success: true };
+  } catch (error: any) {
+    throw error.response?.data || error;
+  }
+};
+
 export const analyzeCV = async (text: string) => {
   try {
     const { data } = await api.post('/ai/cv-analysis', { text });

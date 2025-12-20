@@ -1,7 +1,5 @@
 'use client';
 
-'use client';
-
 import React, { useState, useEffect } from "react";
 import { 
   Clock, 
@@ -13,7 +11,7 @@ import {
   ArrowRight, 
   Loader2
 } from "lucide-react";
-import { fetchAllTimezones } from "@/lib/api";
+import { fetchAllTimezones } from "@/lib/gigs/api";
 
 interface DaySchedule {
   day: string;

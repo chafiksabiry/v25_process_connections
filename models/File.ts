@@ -41,7 +41,7 @@ const fileSchema = new mongoose.Schema({
   }
 });
 
-fileSchema.pre('save', function(next) {
+fileSchema.pre('save', function(this: any, next: any) {
   this.updatedAt = new Date();
   next();
 });

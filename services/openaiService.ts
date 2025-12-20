@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { CompanyProfile } from '../types/company'; // Define this type or use any
+import { CompanyProfile } from '@/lib/company/api';
 
 const apiKey = process.env.OPENAI_API_KEY;
 

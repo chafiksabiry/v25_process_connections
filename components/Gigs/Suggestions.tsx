@@ -53,7 +53,7 @@ export const Suggestions: React.FC<SuggestionsProps> = ({ input, onBack, onConfi
             <div>
               <label className="block text-sm font-medium text-gray-700">Description</label>
               <div className="mt-1 p-3 bg-gray-50 rounded-lg text-gray-700 text-sm">
-                {suggestions.description || suggestions.jobDescription}
+                {suggestions.description}
               </div>
             </div>
             <div>
@@ -75,7 +75,7 @@ export const Suggestions: React.FC<SuggestionsProps> = ({ input, onBack, onConfi
             <div>
               <label className="block text-sm font-medium text-gray-700">Target Region</label>
               <div className="mt-1 p-3 bg-emerald-50 rounded-lg text-emerald-900">
-                {suggestions.destination_zone || suggestions.destinationZones?.[0] || "Global"}
+                {suggestions.destinationZones?.[0] || "Global"}
               </div>
             </div>
             <div>

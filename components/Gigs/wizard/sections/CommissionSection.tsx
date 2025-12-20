@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { InfoText } from './InfoText';
-import { predefinedOptions } from '@/lib/guidance';
+import { predefinedOptions } from '@/lib/gigs/guidance';
 import { fetchAllCurrencies, fetchCurrencyById, Currency } from "@/lib/gigs/api";
 import { 
   DollarSign, Target, AlertCircle, Coins, 
   Star, Calculator, ArrowLeft, ArrowRight, Loader2, Award, Gauge
 } from 'lucide-react';
-import { GigData } from '../types';
+import { GigData } from '@/types/gigs';
 
 interface CommissionSectionProps {
   data: GigData;

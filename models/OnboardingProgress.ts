@@ -60,7 +60,7 @@ const OnboardingProgressSchema: Schema = new Schema({
 });
 
 // Middleware pour mettre à jour la date de modification
-OnboardingProgressSchema.pre('save', function(next) {
+OnboardingProgressSchema.pre('save', function(this: any, next: any) {
   this.updatedAt = new Date();
   next();
 });

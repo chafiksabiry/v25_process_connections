@@ -1,5 +1,5 @@
-import { fetchActivities, fetchIndustries, fetchLanguages, fetchSoftSkills, fetchTechnicalSkills, fetchProfessionalSkills } from './api';
-import type { Activity, Industry, Language } from '../types';
+import { fetchActivities, fetchIndustries, fetchLanguages, fetchSoftSkills, fetchTechnicalSkills, fetchProfessionalSkills } from '@/lib/gigs/api';
+import type { Activity, Industry, Language } from '@/types/gigs';
 
 let activitiesCache: Activity[] = [];
 let industriesCache: Industry[] = [];
@@ -164,7 +164,16 @@ export function getLanguageCodeById(id: string): string {
 export function convertLanguageNamesToIds(names: string[]): string[] {
   const ids: string[] = [];
   for (const name of names) {
-    const language = languagesCache.find(l => l.name.toLowerCase() === name.toLowerCase());
+    const language = languagesCache.find(l => {
+      // Handle case where name might be an object with common/official properties
+      let languageName: string;
+      if (typeof l.name === 'object' && l.name !== null) {
+        languageName = (l.name as any).common || (l.name as any).official || l.nativeName || '';
+      } else {
+        languageName = l.name;
+      }
+      return languageName.toLowerCase() === name.toLowerCase();
+    });
     if (language) {
       ids.push(language._id);
     } else {
@@ -177,10 +186,12 @@ export function convertLanguageNamesToIds(names: string[]): string[] {
 export function getLanguageOptions(): Array<{ value: string; label: string; code: string }> {
   const options = languagesCache.map(language => {
     // Handle case where name might be an object with common/official properties
-    let languageName = language.name;
+    let languageName: string;
     if (typeof language.name === 'object' && language.name !== null) {
       // If name is an object, try to get the common name first, then official, then fallback to nativeName
       languageName = (language.name as any).common || (language.name as any).official || language.nativeName || 'Unknown Language';
+    } else {
+      languageName = language.name;
     }
     
     return {

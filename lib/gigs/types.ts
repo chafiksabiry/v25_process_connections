@@ -18,4 +18,3 @@ export interface GigDataOld {
   callTypes?: string[];
 }
 
-export * from './gigs';

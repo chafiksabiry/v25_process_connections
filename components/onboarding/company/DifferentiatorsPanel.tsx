@@ -103,7 +103,7 @@ export function DifferentiatorsPanel({ profile, onBack }: Props) {
           return; // Don't redirect on error
         }
       } else {
-        console.error("No company ID found in response:", response);
+        console.error("No company ID found in response:", createdCompany);
         setError('Failed to create company profile. Please try again.');
       }
     } catch (error: any) {

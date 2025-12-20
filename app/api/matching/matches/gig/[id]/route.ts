@@ -3,6 +3,9 @@ import connectDB from '@/lib/mongodb';
 import Agent from '@/models/Agent';
 import Gig from '@/models/Gig';
 import { MatchingEngine } from '@/lib/matching/engine';
+import { IUser } from '@/models/User';
+import { ITimezone } from '@/models/Timezone';
+import { Types } from 'mongoose';
 
 export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   await connectDB();
@@ -39,14 +42,22 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
     const matches = agents.map((agent) => {
       const { totalMatchingScore, details } = MatchingEngine.calculateScore(agent, gig, weights);
       
+      // Type guard to check if userId is populated
+      const user = agent.userId instanceof Types.ObjectId ? null : agent.userId as IUser;
+      
+      // Type guard to check if country is populated
+      const country = agent.personalInfo?.country instanceof Types.ObjectId 
+        ? null 
+        : agent.personalInfo?.country as ITimezone;
+      
       return {
         agentId: agent._id,
         gigId: gig._id,
         totalMatchingScore,
         agentInfo: {
-            name: agent.userId?.personalInfo?.name || agent.userId?.email || 'Unknown',
-            email: agent.userId?.email,
-            location: agent.personalInfo?.city || agent.personalInfo?.country?.name,
+            name: (user as any)?.personalInfo?.name || user?.email || 'Unknown',
+            email: user?.email,
+            location: agent.personalInfo?.city || country?.countryName,
             languages: agent.personalInfo?.languages?.map((l: any) => ({
                 language: l.language?.name,
                 proficiency: l.proficiency

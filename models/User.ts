@@ -1,7 +1,39 @@
-import mongoose from 'mongoose';
+import mongoose, { Document } from 'mongoose';
 import bcrypt from 'bcryptjs';
 
-const userSchema = new mongoose.Schema({
+export interface IUser extends Document {
+  email: string;
+  fullName: string;
+  password?: string;
+  phone?: string;
+  linkedInId?: string;
+  isVerified: boolean;
+  verificationCode?: {
+    code?: string;
+    expiresAt?: Date;
+    otp?: number;
+    otpExpiresAt?: Date;
+  };
+  ipHistory?: Array<{
+    ip: string;
+    timestamp: Date;
+    action: 'register' | 'login';
+    locationInfo?: {
+      location?: mongoose.Types.ObjectId;
+      region?: string;
+      city?: string;
+      isp?: string;
+      postal?: string;
+      coordinates?: string;
+    };
+  }>;
+  createdAt: Date;
+  typeUser?: string;
+  firstTime: boolean;
+  comparePassword(candidatePassword: string): Promise<boolean>;
+}
+
+const userSchema = new mongoose.Schema<IUser>({
   email: {
     type: String,
     required: true,
@@ -96,4 +128,4 @@ userSchema.methods.comparePassword = async function(candidatePassword: string) {
   return bcrypt.compare(candidatePassword, this.password);
 };
 
-export default mongoose.models.User || mongoose.model('User', userSchema);
+export default mongoose.models.User || mongoose.model<IUser>('User', userSchema);

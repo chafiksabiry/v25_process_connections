@@ -129,11 +129,13 @@ const PrompAI: React.FC = () => {
       },
       collaboration: []
     },
-    documentation: {
-      training: [],
-      product: [],
-      process: []
-    },
+     documentation: {
+       templates: null,
+       reference: null,
+       training: [],
+       product: [],
+       process: []
+     },
     activity: {
       options: []
     }

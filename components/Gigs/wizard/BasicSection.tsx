@@ -3,7 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { InfoText } from './InfoText';
 import { predefinedOptions } from '@/lib/guidance';
-import { getCountryNameById, fetchAllCountries, Country } from '@/lib/api';
+import { getCountryNameById, fetchAllCountries, Country } from '@/lib/gigs/api';
 import { GigData } from '@/types/gigs';
 import { countryToAlpha2, alpha2ToCountry } from '@/lib/countryCodes';
 // import { GigStatusSelector } from './GigStatusSelector';
@@ -457,6 +457,7 @@ const BasicSection: React.FC<BasicSectionProps> = ({
 
           {/* Ancienne grille de boutons supprimée */}
           {errors.category && <p className="mt-2 text-sm text-red-600">{errors.category.join(', ')}</p>}
+        </div>
         </div>
 
         {/* --- Industries --- */}

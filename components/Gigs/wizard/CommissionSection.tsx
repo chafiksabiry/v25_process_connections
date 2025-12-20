@@ -1,11 +1,10 @@
 'use client';
 
-'use client';
-
 import React, { useState, useEffect } from "react";
+import { DollarSign, Star, Target, AlertCircle, ArrowLeft, ArrowRight, Loader2 } from 'lucide-react';
 import { InfoText } from './InfoText';
 import { predefinedOptions } from '@/lib/guidance';
-import { fetchAllCurrencies, fetchCurrencyById, Currency } from "@/lib/api";
+import { fetchAllCurrencies, fetchCurrencyById, Currency } from "@/lib/gigs/api";
 import { GigData } from '@/types/gigs';
 
 interface CommissionSectionProps {

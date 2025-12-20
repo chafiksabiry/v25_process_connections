@@ -73,43 +73,70 @@ export async function generateGigSuggestions(description: string): Promise<GigSu
       console.log('Cleaned:', cleanedTerritories);
     }
     
-    const transformedData = {
-      jobTitles: data.jobTitles || [],
-      jobDescription: data.jobDescription || '',
-      category: data.category || '',
-      destination_zone: data.destination_zone || '',
-      activities: data.activities || [],
-      industries: data.industries || [],
-      seniority: data.seniority || { level: '', yearsExperience: 0 },
-      skills: data.skills || { languages: [], soft: [], professional: [], technical: [] },
-      availability: data.availability || {},
-      commission: data.commission || {},
-      team: {
-        ...data.team,
-        size: data.team?.size || 1,
-        structure: data.team?.structure || [],
-        territories: cleanedTerritories
-      },
-      
-      // Additional fields that might be expected by the UI
+    const transformedData: GigSuggestion = {
+      title: data.jobTitles?.[0] || data.jobDescription || '',
       description: data.jobDescription || '',
-      sectors: data.category ? [data.category] : [],
-      scheduleFlexibility: data.availability?.flexibility || [],
-      destinationZones: data.destination_zone ? [data.destination_zone] : [],
+      category: data.category || '',
       highlights: data.highlights || [],
+      jobTitles: data.jobTitles || [],
       deliverables: data.deliverables || [],
-      requirements: { essential: [], preferred: [] }, // Backend doesn't provide this yet
-      
-      // Schedule mapping
-      schedule: {
-        schedules: data.availability?.schedule ? data.availability.schedule.map((sched: any) => ({
-          days: [sched.day],
-          hours: sched.hours
+      selectedJobTitle: data.jobTitles?.[0],
+      sectors: data.category ? [data.category] : [],
+      industries: data.industries || [],
+      activities: data.activities || [],
+      destinationZones: data.destination_zone ? [data.destination_zone] : [],
+      timeframes: data.timeframes || [],
+      availability: {
+        schedule: data.availability?.schedule ? data.availability.schedule.map((sched: any) => ({
+          days: Array.isArray(sched.days) ? sched.days : [sched.day],
+          hours: sched.hours || { start: '', end: '' }
         })) : [],
         timeZones: data.availability?.time_zone ? [data.availability.time_zone] : [],
         time_zone: data.availability?.time_zone || '',
         flexibility: data.availability?.flexibility || [],
         minimumHours: data.availability?.minimumHours || { daily: 0, weekly: 0, monthly: 0 }
+      },
+      schedule: {
+        schedules: data.availability?.schedule ? data.availability.schedule.map((sched: any) => ({
+          day: Array.isArray(sched.days) ? sched.days[0] : sched.day,
+          hours: sched.hours || { start: '', end: '' }
+        })) : [],
+        timeZones: data.availability?.time_zone ? [data.availability.time_zone] : [],
+        time_zone: data.availability?.time_zone || '',
+        flexibility: data.availability?.flexibility || [],
+        minimumHours: data.availability?.minimumHours || { daily: 0, weekly: 0, monthly: 0 }
+      },
+      requirements: { essential: [], preferred: [] },
+      benefits: data.benefits || [],
+      skills: data.skills || { languages: [], soft: [], professional: [], technical: [], certifications: [] },
+      seniority: data.seniority || { level: '', yearsExperience: 0 },
+      team: {
+        size: data.team?.size || 1,
+        structure: data.team?.structure || [],
+        territories: cleanedTerritories,
+        reporting: data.team?.reporting || { to: '', frequency: '' },
+        collaboration: data.team?.collaboration || []
+      },
+      commission: data.commission || {
+        base: '',
+        baseAmount: 0,
+        currency: '',
+        minimumVolume: { amount: 0, period: '', unit: '' },
+        transactionCommission: { type: '', amount: 0 }
+      },
+      activity: data.activity || { options: [] },
+      leads: data.leads || {
+        types: [],
+        sources: [],
+        distribution: { method: '', rules: [] },
+        qualificationCriteria: []
+      },
+      documentation: data.documentation || {
+        templates: null,
+        reference: null,
+        product: [],
+        process: [],
+        training: []
       }
     };
 
@@ -136,9 +163,12 @@ export function mapGigDataToSuggestions(gigData: GigData): any {
     industries: gigData.industries || [],
     seniority: gigData.seniority || { level: '', yearsExperience: 0 },
     skills: {
-      ...gigData.skills,
-      certifications: gigData.skills?.certifications || []
-    } || { languages: [], soft: [], professional: [], technical: [], certifications: [] },
+      languages: gigData.skills?.languages || [],
+      soft: gigData.skills?.soft || [],
+      professional: gigData.skills?.professional || [],
+      technical: gigData.skills?.technical || [],
+      certifications: [] // GigData doesn't have certifications in skills
+    },
     schedule: gigData.schedule || {
       schedules: [],
       time_zone: '',
@@ -147,10 +177,10 @@ export function mapGigDataToSuggestions(gigData: GigData): any {
       minimumHours: {}
     },
     availability: gigData.availability || {},
-    commission: {
+    commission: gigData.commission ? {
       ...gigData.commission,
       kpis: gigData.commission?.kpis || []
-    } || {},
+    } : {},
     team: gigData.team || { size: 1, structure: [], territories: [] },
     highlights: gigData.highlights || [],
     requirements: gigData.requirements || { essential: [], preferred: [] },

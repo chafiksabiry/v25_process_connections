@@ -1,6 +1,13 @@
-import mongoose from 'mongoose';
+import mongoose, { Document } from 'mongoose';
 
-const IndustrySchema = new mongoose.Schema(
+export interface IIndustry extends Document {
+  name: string;
+  description?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const IndustrySchema = new mongoose.Schema<IIndustry>(
   {
     name: { type: String, required: true, unique: true },
     description: { type: String, required: false },
@@ -8,7 +15,7 @@ const IndustrySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.models.Industry || mongoose.model('Industry', IndustrySchema);
+export default mongoose.models.Industry || mongoose.model<IIndustry>('Industry', IndustrySchema);
 
 
 

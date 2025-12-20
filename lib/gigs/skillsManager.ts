@@ -373,7 +373,7 @@ export async function convertSkillNamesToObjectIds(
     for (const skillName of skillNames) {
       // Search for the skill in the database
       const skills = await searchSkillsByName(skillName, category);
-      const skill = skills.data.find(s => 
+      const skill = skills.data.find((s: SkillData) => 
         s.name.toLowerCase() === skillName.toLowerCase()
       );
       

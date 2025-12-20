@@ -80,6 +80,15 @@ export function UniquenessPanel({ profile, onBack }: Props) {
   }) => {
     // Champs multi-lignes : description, details et companyIntro
     const isMultiline = field === 'companyIntro' || field.endsWith('.description') || field.includes('.details.');
+    
+    // Helper to render icon safely
+    const renderIcon = (IconComp: React.ComponentType<LucideProps> | undefined) => {
+      if (!IconComp) return null;
+      // Use any to bypass the prop type mismatch
+      const IconElement = IconComp as any;
+      return <IconElement size={18} className="text-gray-600" />;
+    };
+
     return (
       <div className={`group relative ${className}`}>
         {editingField === field ? (
@@ -117,7 +126,7 @@ export function UniquenessPanel({ profile, onBack }: Props) {
             onClick={() => handleEdit(field, value)}
             title="Click to edit"
           >
-            {Icon && <Icon size={18} className="text-gray-600" />}
+            {renderIcon(Icon)}
             <span className={!value ? 'text-gray-400 italic' : ''}>{value || 'Click to edit...'}</span>
           </div>
         )}
@@ -211,7 +220,10 @@ export function UniquenessPanel({ profile, onBack }: Props) {
                 >
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center flex-shrink-0">
-                      <category.icon className="text-indigo-600" size={24} />
+                      {(() => {
+                        const IconComponent = category.icon as any;
+                        return <IconComponent className="text-indigo-600" size={24} />;
+                      })()}
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center justify-between mb-2">
@@ -244,10 +256,10 @@ export function UniquenessPanel({ profile, onBack }: Props) {
                             key={i}
                             className="flex items-center gap-2 text-gray-700"
                           >
-                            <category.icon
-                              size={14}
-                              className="text-indigo-500 flex-shrink-0"
-                            />
+                            {(() => {
+                              const IconComponent = category.icon as any;
+                              return <IconComponent size={14} className="text-indigo-500 flex-shrink-0" />;
+                            })()}
                             <EditableField
                               value={detail}
                               field={`${index}.details.${i}`}

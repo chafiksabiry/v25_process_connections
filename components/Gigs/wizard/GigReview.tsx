@@ -103,9 +103,9 @@ export function GigReview({
       // Fetch timezones
       try {
         const tzRes = await fetchAllTimezones();
-        if (tzRes.data && Array.isArray(tzRes.data)) {
+        if (tzRes && Array.isArray(tzRes)) {
           const tzMap: { [key: string]: string } = {};
-          tzRes.data.forEach((tz: any) => {
+          tzRes.forEach((tz: any) => {
             tzMap[tz._id] = tz.name || tz.label || tz.tz || tz._id;
           });
           setTimezoneMap(tzMap);

@@ -32,9 +32,6 @@ export interface Language {
 }
 
 export interface GigData {
-  documentation: any;
-  documentation: any;
-  documentation: any;
   userId: string;
   companyId: string;
   title: string;
@@ -172,24 +169,6 @@ export interface GigData {
     };
     collaboration: string[];
   };
-  commission: {
-    base: string;
-    baseAmount: number;
-    bonus?: string;
-    bonusAmount?: number;
-    structure?: string;
-    currency: string;
-    minimumVolume: {
-      amount: number;
-      period: string;
-      unit: string;
-    };
-    transactionCommission: {
-      type: string;
-      amount: number;
-    };
-    additionalDetails?: string;
-  };
   activity: {
     options: Array<{
       type: string;
@@ -197,21 +176,13 @@ export interface GigData {
       requirements: string[];
     }>;
   };
-  leads: {
-    types: Array<{
-      type: 'hot' | 'warm' | 'cold';
-      percentage: number;
-      description: string;
-      conversionRate?: number;
-    }>;
-    sources: string[];
-    distribution: {
-      method: string;
-      rules: string[];
-    };
-    qualificationCriteria: string[];
+  documentation: {
+    templates: any;
+    reference: any;
+    product: Array<{ name: string; url: string }>;
+    process: Array<{ name: string; url: string }>;
+    training: Array<{ name: string; url: string }>;
   };
-
 }
 
 export interface GigSuggestion {

@@ -77,6 +77,15 @@ export function UniquenessPanel({ profile, onBack }: Props) {
   }) => {
     // Champs multi-lignes : description, details et companyIntro
     const isMultiline = field === 'companyIntro' || field.endsWith('.description') || field.includes('.details.');
+    
+    // Helper to render icon safely
+    const renderIcon = (IconComp: React.ComponentType<LucideProps> | undefined) => {
+      if (!IconComp) return null;
+      // Use any to bypass the prop type mismatch
+      const IconElement = IconComp as any;
+      return <IconElement size={18} className="text-gray-600" />;
+    };
+    
     return (
       <div className={`group relative ${className}`}>
         {editingField === field ? (
@@ -114,7 +123,7 @@ export function UniquenessPanel({ profile, onBack }: Props) {
             onClick={() => handleEdit(field, value)}
             title="Click to edit"
           >
-            {Icon && <Icon size={18} className="text-gray-600" />}
+            {renderIcon(Icon)}
             <span className={!value ? 'text-gray-400 italic' : ''}>{value || 'Click to edit...'}</span>
           </div>
         )}

@@ -1,6 +1,8 @@
 import type { GigSuggestion } from "@/types/gigs";
 
 export const MOCK_GIG_SUGGESTIONS: GigSuggestion = {
+  title: "Commercial pour Mutuelles Santé",
+  category: "Outbound Sales",
   jobTitles: [
     "Commercial pour Mutuelles Santé",
     "Vendeur de Mutuelles Santé",
@@ -21,6 +23,27 @@ export const MOCK_GIG_SUGGESTIONS: GigSuggestion = {
   industries: ["67890abcdef123456789012"], // Insurance ID example
   activities: ["12345abcdef678901234567"], // Sales activity ID example
   destinationZones: ["507f1f77bcf86cd799439011"], // France ID example
+  timeframes: ["Full-Time", "Part-Time"],
+  availability: {
+    schedule: [
+      {
+        days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        hours: { start: "09:00", end: "17:00" }
+      }
+    ],
+    timeZones: ["507f1f77bcf86cd79943901d"],
+    time_zone: "507f1f77bcf86cd79943901d",
+    flexibility: [
+      "Remote Work Available",
+      "Flexible Hours",
+      "Part-Time Options"
+    ],
+    minimumHours: {
+      daily: 8,
+      weekly: 40,
+      monthly: 160
+    }
+  },
   requirements: {
     essential: [
       "Expérience en vente",
@@ -170,6 +193,70 @@ export const MOCK_GIG_SUGGESTIONS: GigSuggestion = {
   seniority: {
     level: "Mid-Level",
     yearsExperience: 3
+  },
+  benefits: [
+    {
+      type: "Health Insurance",
+      description: "Comprehensive health coverage"
+    },
+    {
+      type: "Performance Bonus",
+      description: "Monthly and quarterly bonuses"
+    }
+  ],
+  activity: {
+    options: [
+      {
+        type: "Sales",
+        description: "Outbound sales activities",
+        requirements: ["Sales experience", "Communication skills"]
+      }
+    ]
+  },
+  leads: {
+    types: [
+      {
+        type: "hot",
+        percentage: 30,
+        description: "High-intent prospects",
+        conversionRate: 0.4
+      },
+      {
+        type: "warm",
+        percentage: 50,
+        description: "Interested prospects",
+        conversionRate: 0.2
+      },
+      {
+        type: "cold",
+        percentage: 20,
+        description: "New prospects",
+        conversionRate: 0.05
+      }
+    ],
+    sources: ["Website", "Referrals", "Cold Calling"],
+    distribution: {
+      method: "Round Robin",
+      rules: ["Equal distribution", "Territory-based"]
+    },
+    qualificationCriteria: [
+      "Budget availability",
+      "Decision-making authority",
+      "Timeline alignment"
+    ]
+  },
+  documentation: {
+    templates: null,
+    reference: null,
+    product: [
+      { name: "Product Catalog", url: "https://example.com/catalog" }
+    ],
+    process: [
+      { name: "Sales Process", url: "https://example.com/process" }
+    ],
+    training: [
+      { name: "Onboarding Guide", url: "https://example.com/training" }
+    ]
   }
 };
 

@@ -149,11 +149,10 @@ export const useProfile = (profileId?: string) => {
   const addAssessment = async (id: string, assessment: any) => {
     try {
       setLoading(true);
-      const updatedProfile = await ((profileApi as any).addAssessment ? (profileApi as any).addAssessment(id, assessment) : Promise.resolve(null)); 
-      // Note: addAssessment might not be in api.ts yet, check api.ts
+      const updatedProfile = await profileApi.addAssessment(id, assessment);
       if (updatedProfile) {
-          setProfile(updatedProfile);
-          setError(null);
+        setProfile(updatedProfile);
+        setError(null);
       }
       return updatedProfile;
     } catch (err: any) {
@@ -197,10 +196,7 @@ export const useProfile = (profileId?: string) => {
   const deleteProfile = async (id: string) => {
     try {
       setLoading(true);
-      // Check if deleteProfile exists in api.ts
-      // It does not seem to be exported in the snippet I wrote for api.ts. I should add it.
-      // Assuming I'll add it or it exists.
-      await (profileApi as any).deleteProfile?.(id);
+      await profileApi.deleteProfile(id);
       setProfile(null);
       setError(null);
     } catch (err: any) {

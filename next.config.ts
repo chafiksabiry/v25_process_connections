@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'standalone',
+  // Disable Turbopack for build to avoid font loading issues
+  turbopack: {},
   images: {
     remotePatterns: [
       {

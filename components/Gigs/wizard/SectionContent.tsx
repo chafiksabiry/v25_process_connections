@@ -6,22 +6,16 @@ import { ScheduleSection } from "./ScheduleSection";
 import { CommissionSection } from "./CommissionSection";
 import { SkillsSection } from "./SkillsSection";
 import { TeamStructure } from "./TeamStructure";
-import { ReviewPage } from "./GigReview";
-import { DaySchedule } from "@/lib/gigs/scheduleUtils";
-import { saveGigData } from '@/lib/api';
+import { GigReview as ReviewPage } from "./GigReview";
+import { saveGigData, updateGigData } from '@/lib/gigs/api';
 
-export function SectionContent({
-  section,
-  data,
-  onChange,
-  errors,
-  onSectionChange,
-  isAIMode = false,
-  isEditMode = false,
-  editGigId = null,
-}: any) {
-    // ... existing implementation ...
-
+interface DaySchedule {
+  day: string;
+  hours: {
+    start: string;
+    end: string;
+  };
+}
 
 interface SectionContentProps {
   section: string;

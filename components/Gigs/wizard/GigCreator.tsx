@@ -131,6 +131,8 @@ const initialGigData: GigData = {
     options: []
   },
   documentation: {
+    templates: null,
+    reference: null,
     training: [],
     product: [],
     process: []
@@ -386,17 +388,23 @@ export function GigCreator({ children }: GigCreatorProps) {
         },
         leads: {
           types: gigData.leads.types,
-          sources: gigData.leads.sources
+          sources: gigData.leads.sources,
+          distribution: gigData.leads.distribution || { method: "", rules: [] },
+          qualificationCriteria: gigData.leads.qualificationCriteria || []
         },
         team: {
           size: gigData.team?.size || 0,
           structure: gigData.team?.structure || [],
-          territories: gigData.team?.territories || []
+          territories: gigData.team?.territories || [],
+          reporting: gigData.team?.reporting || { to: "", frequency: "" },
+          collaboration: gigData.team?.collaboration || []
         },
         documentation: {
-          training: gigData.documentation.training,
-          product: gigData.documentation.product,
-          process: gigData.documentation.process
+          templates: gigData.documentation?.templates || null,
+          reference: gigData.documentation?.reference || null,
+          training: gigData.documentation?.training || [],
+          product: gigData.documentation?.product || [],
+          process: gigData.documentation?.process || []
         },
         createdAt: new Date(),
         updatedAt: new Date()

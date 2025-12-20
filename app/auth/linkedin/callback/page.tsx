@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { handleLinkedInCallback } from '../../../../utils/Linkedin';
 
-const LinkedInCallback = () => {
+const LinkedInCallbackContent = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -24,6 +24,14 @@ const LinkedInCallback = () => {
   }, [searchParams, router]);
 
   return <div>Authenticating with LinkedIn...</div>;
+};
+
+const LinkedInCallback = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LinkedInCallbackContent />
+    </Suspense>
+  );
 };
 
 export default LinkedInCallback;
