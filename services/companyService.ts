@@ -1,5 +1,6 @@
 import Company from '../models/Company';
 import dbConnect from '../lib/db/mongodb';
+import mongoose from 'mongoose';
 
 export interface ICompany {
   userId?: string;
@@ -47,7 +48,84 @@ export interface ICompany {
 class CompanyService {
   async createCompany(companyData: ICompany) {
     await dbConnect();
-    return Company.create(companyData);
+    
+    // Sanitize and prepare data for MongoDB
+    const dataToSave: any = {
+      name: companyData.name,
+      overview: companyData.overview,
+    };
+    
+    // Add optional fields only if they exist
+    if (companyData.userId) {
+      dataToSave.userId = new mongoose.Types.ObjectId(companyData.userId);
+    }
+    if (companyData.logo) dataToSave.logo = companyData.logo;
+    if (companyData.industry) dataToSave.industry = companyData.industry;
+    if (companyData.founded) dataToSave.founded = companyData.founded;
+    if (companyData.headquarters) dataToSave.headquarters = companyData.headquarters;
+    if (companyData.companyIntro) dataToSave.companyIntro = companyData.companyIntro;
+    if (companyData.mission) dataToSave.mission = companyData.mission;
+    if (companyData.subscription) dataToSave.subscription = companyData.subscription;
+    
+    // Handle nested objects - only include if they have valid data
+    if (companyData.culture) {
+      dataToSave.culture = {
+        ...(companyData.culture.values && { values: companyData.culture.values }),
+        ...(companyData.culture.benefits && { benefits: companyData.culture.benefits }),
+        ...(companyData.culture.workEnvironment && { workEnvironment: companyData.culture.workEnvironment })
+      };
+    }
+    
+    if (companyData.opportunities) {
+      dataToSave.opportunities = {
+        ...(companyData.opportunities.roles && { roles: companyData.opportunities.roles }),
+        ...(companyData.opportunities.growthPotential && { growthPotential: companyData.opportunities.growthPotential }),
+        ...(companyData.opportunities.training && { training: companyData.opportunities.training })
+      };
+    }
+    
+    if (companyData.technology) {
+      dataToSave.technology = {
+        ...(companyData.technology.stack && { stack: companyData.technology.stack }),
+        ...(companyData.technology.innovation && { innovation: companyData.technology.innovation })
+      };
+    }
+    
+    if (companyData.contact) {
+      dataToSave.contact = {};
+      if (companyData.contact.email) dataToSave.contact.email = companyData.contact.email;
+      if (companyData.contact.phone) dataToSave.contact.phone = companyData.contact.phone;
+      if (companyData.contact.address) dataToSave.contact.address = companyData.contact.address;
+      if (companyData.contact.website) dataToSave.contact.website = companyData.contact.website;
+      if (companyData.contact.coordinates) dataToSave.contact.coordinates = companyData.contact.coordinates;
+    }
+    
+    if (companyData.socialMedia) {
+      dataToSave.socialMedia = {};
+      if (companyData.socialMedia.linkedin) dataToSave.socialMedia.linkedin = companyData.socialMedia.linkedin;
+      if (companyData.socialMedia.twitter) dataToSave.socialMedia.twitter = companyData.socialMedia.twitter;
+      if (companyData.socialMedia.facebook) dataToSave.socialMedia.facebook = companyData.socialMedia.facebook;
+      if (companyData.socialMedia.instagram) dataToSave.socialMedia.instagram = companyData.socialMedia.instagram;
+    }
+    
+    console.log('[CompanyService] Data to save:', {
+      hasName: !!dataToSave.name,
+      hasOverview: !!dataToSave.overview,
+      hasUserId: !!dataToSave.userId,
+      keys: Object.keys(dataToSave)
+    });
+    
+    try {
+      return await Company.create(dataToSave);
+    } catch (error: any) {
+      console.error('[CompanyService] Error creating company:', {
+        error: error.message,
+        name: error.name,
+        errors: error.errors,
+        stack: error.stack?.substring(0, 500)
+      });
+      throw error;
+    }
   }
 
   async getAllCompanies() {
