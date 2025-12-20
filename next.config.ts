@@ -23,6 +23,7 @@ const nextConfig: NextConfig = {
   experimental: {
     serverActions: {
       bodySizeLimit: '10mb',
+      allowedOrigins: ['v25.harx.ai', 'localhost'],
     },
   },
   async redirects() {
