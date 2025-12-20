@@ -53,11 +53,17 @@ export async function POST(
       ]
     });
 
+    console.log('[Onboarding] Attempting to save progress...');
     const savedProgress = await initialProgress.save();
+    console.log('[Onboarding] Progress saved successfully:', savedProgress._id);
     
     return NextResponse.json(savedProgress, { status: 201 });
   } catch (error: any) {
-    console.error('Error initializing onboarding progress:', error);
+    console.error('[Onboarding] Error initializing onboarding progress:', {
+      message: error.message,
+      name: error.name,
+      stack: error.stack?.substring(0, 500)
+    });
     return NextResponse.json(
       { message: 'Error initializing onboarding progress', error: error.message },
       { status: 500 }

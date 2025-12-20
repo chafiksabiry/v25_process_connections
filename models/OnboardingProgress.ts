@@ -60,9 +60,8 @@ const OnboardingProgressSchema: Schema = new Schema({
 });
 
 // Middleware pour mettre à jour la date de modification
-OnboardingProgressSchema.pre('save', function(this: any, next: any) {
+OnboardingProgressSchema.pre('save', async function(this: any) {
   this.updatedAt = new Date();
-  next();
 });
 
 export default mongoose.models.OnboardingProgress || mongoose.model<IOnboardingProgress>('OnboardingProgress', OnboardingProgressSchema);
