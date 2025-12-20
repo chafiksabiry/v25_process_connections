@@ -14,7 +14,7 @@ class OpenAIService {
     const openai = new OpenAI({ apiKey });
 
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo-1106",
+      model: "gpt-4o-mini", // Updated to a more recent and available model
       messages: [
         {
           role: "system",
@@ -49,11 +49,28 @@ class OpenAIService {
       throw new Error('OpenAI API key is not configured');
     }
 
-    const openai = new OpenAI({ apiKey });
+    if (!companyInfo || typeof companyInfo !== 'string' || companyInfo.trim().length === 0) {
+      console.error('[OpenAI Service] Invalid companyInfo provided:', {
+        type: typeof companyInfo,
+        length: companyInfo?.length
+      });
+      throw new Error('Company info must be a non-empty string');
+    }
+
+    const openai = new OpenAI({ 
+      apiKey,
+      timeout: 60000, // 60 seconds timeout
+    });
 
     try {
+      console.log('[OpenAI Service] Making OpenAI API call...', {
+        model: 'gpt-4o-mini',
+        companyInfoLength: companyInfo.length,
+        userId
+      });
+
       const response = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo-1106",
+        model: "gpt-4o-mini", // Updated to a more recent and available model
         response_format: { type: "json_object" },
         messages: [
         {
@@ -114,51 +131,128 @@ class OpenAIService {
       max_tokens: 1500,
     });
 
-    const content = response.choices[0]?.message?.content;
-    if (!content) {
-      console.error('[OpenAI Service] No content received from OpenAI');
-      throw new Error("No content received from OpenAI");
-    }
+      console.log('[OpenAI Service] OpenAI API response received:', {
+        hasChoices: !!response.choices,
+        choicesLength: response.choices?.length,
+        finishReason: response.choices?.[0]?.finish_reason
+      });
 
-    let parsedProfile;
-    try {
-      parsedProfile = JSON.parse(content);
-    } catch (parseError: any) {
-      console.error('[OpenAI Service] JSON parse error:', {
-        error: parseError.message,
+      const content = response.choices[0]?.message?.content;
+      if (!content) {
+        console.error('[OpenAI Service] No content received from OpenAI', {
+          response: JSON.stringify(response, null, 2)
+        });
+        throw new Error("No content received from OpenAI");
+      }
+
+      console.log('[OpenAI Service] Parsing JSON response...', {
+        contentLength: content.length,
         contentPreview: content.substring(0, 200)
       });
-      throw new Error(`Failed to parse OpenAI response: ${parseError.message}`);
-    }
 
-    // Generate company intro
-    let companyIntroResponse;
-    try {
-      companyIntroResponse = await this.generateCompanyIntro({ ...parsedProfile, userId: userId || '' });
-    } catch (introError: any) {
-      console.error('[OpenAI Service] Error generating company intro:', introError.message);
-      // Continue without intro if it fails
-      companyIntroResponse = "Welcome to our company!";
-    }
+      let parsedProfile;
+      try {
+        parsedProfile = JSON.parse(content);
+        console.log('[OpenAI Service] JSON parsed successfully:', {
+          hasName: !!parsedProfile.name,
+          hasIndustry: !!parsedProfile.industry,
+          keys: Object.keys(parsedProfile)
+        });
+      } catch (parseError: any) {
+        console.error('[OpenAI Service] JSON parse error:', {
+          error: parseError.message,
+          contentPreview: content.substring(0, 500),
+          contentLength: content.length
+        });
+        throw new Error(`Failed to parse OpenAI response: ${parseError.message}`);
+      }
 
-    return {
-      userId: userId || '681a91212c1ca099fe2b17df',
-      companyIntro: companyIntroResponse,
-      ...parsedProfile
-    };
+      // Validate and ensure all required fields are present with defaults
+      const validatedProfile = {
+        name: parsedProfile.name || 'Unknown Company',
+        industry: parsedProfile.industry || 'General',
+        founded: parsedProfile.founded || '',
+        headquarters: parsedProfile.headquarters || '',
+        overview: parsedProfile.overview || 'A forward-thinking company.',
+        mission: parsedProfile.mission || '',
+        culture: {
+          values: Array.isArray(parsedProfile.culture?.values) ? parsedProfile.culture.values : ['Innovation', 'Excellence', 'Integrity'],
+          benefits: Array.isArray(parsedProfile.culture?.benefits) ? parsedProfile.culture.benefits : ['Competitive salary', 'Health insurance', 'Flexible work'],
+          workEnvironment: parsedProfile.culture?.workEnvironment || 'A collaborative and supportive work environment.'
+        },
+        opportunities: {
+          roles: Array.isArray(parsedProfile.opportunities?.roles) ? parsedProfile.opportunities.roles : ['Various positions available'],
+          growthPotential: parsedProfile.opportunities?.growthPotential || 'Strong growth opportunities for career development.',
+          training: parsedProfile.opportunities?.training || 'Comprehensive training and development programs.'
+        },
+        technology: {
+          stack: Array.isArray(parsedProfile.technology?.stack) ? parsedProfile.technology.stack : ['Modern technologies'],
+          innovation: parsedProfile.technology?.innovation || 'Focus on innovation and cutting-edge solutions.'
+        },
+        contact: {
+          website: parsedProfile.contact?.website || '',
+          email: parsedProfile.contact?.email || '',
+          phone: parsedProfile.contact?.phone || '',
+          address: parsedProfile.contact?.address || ''
+        },
+        socialMedia: {
+          linkedin: parsedProfile.socialMedia?.linkedin || '',
+          twitter: parsedProfile.socialMedia?.twitter || '',
+          facebook: parsedProfile.socialMedia?.facebook || '',
+          instagram: parsedProfile.socialMedia?.instagram || ''
+        }
+      };
+
+      console.log('[OpenAI Service] Profile validated:', {
+        companyName: validatedProfile.name,
+        hasAllRequiredFields: true
+      });
+
+      // Generate company intro
+      let companyIntroResponse;
+      try {
+        console.log('[OpenAI Service] Generating company intro...');
+        companyIntroResponse = await this.generateCompanyIntro({ ...validatedProfile, userId: userId || '' });
+        console.log('[OpenAI Service] Company intro generated successfully');
+      } catch (introError: any) {
+        console.error('[OpenAI Service] Error generating company intro:', {
+          error: introError.message,
+          stack: introError.stack
+        });
+        // Continue without intro if it fails
+        companyIntroResponse = "Welcome to our company!";
+      }
+
+      const result = {
+        userId: userId || '681a91212c1ca099fe2b17df',
+        companyIntro: companyIntroResponse,
+        ...validatedProfile
+      };
+
+      console.log('[OpenAI Service] Profile generation completed successfully:', {
+        companyName: result.name,
+        userId: result.userId
+      });
+
+      return result;
     } catch (openaiError: any) {
       console.error('[OpenAI Service] OpenAI API error:', {
         message: openaiError.message,
         status: openaiError.status,
         code: openaiError.code,
-        type: openaiError.type
+        type: openaiError.type,
+        stack: openaiError.stack,
+        name: openaiError.name
       });
       
-      if (openaiError.status === 401) {
+      // Preserve the status code if available
+      const errorWithStatus = openaiError as any;
+      
+      if (errorWithStatus.status === 401) {
         throw new Error('OpenAI API key is invalid or expired');
-      } else if (openaiError.status === 429) {
+      } else if (errorWithStatus.status === 429) {
         throw new Error('OpenAI API rate limit exceeded. Please try again later.');
-      } else if (openaiError.status === 500) {
+      } else if (errorWithStatus.status === 500) {
         throw new Error('OpenAI API service error. Please try again later.');
       } else {
         throw new Error(`OpenAI API error: ${openaiError.message || 'Unknown error'}`);
@@ -174,7 +268,7 @@ class OpenAIService {
     try {
       const openai = new OpenAI({ apiKey });
       const response = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo-1106",
+        model: "gpt-4o-mini", // Updated to a more recent and available model
         messages: [{ role: "user", content: prompt }],
         max_tokens: 100,
         temperature: 0.7,
@@ -226,7 +320,7 @@ Make the categories relevant to the company's industry and strengths. Focus on w
     const openai = new OpenAI({ apiKey });
 
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo-1106",
+      model: "gpt-4o-mini", // Updated to a more recent and available model
       response_format: { type: "json_object" },
       messages: [{ role: "user", content: prompt }],
       max_tokens: 800,
