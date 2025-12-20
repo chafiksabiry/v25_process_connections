@@ -9,7 +9,10 @@ export async function POST(req: NextRequest) {
     
     return NextResponse.json({ 
       message: 'Registration successful', 
-      data: { code: result.verificationCode , _id: result.result._id } 
+      verificationCode: result.verificationCode,
+      result: {
+        _id: result.result._id
+      }
     }, { status: 201 });
   } catch (error: any) {
     console.error("Registration error:", error);

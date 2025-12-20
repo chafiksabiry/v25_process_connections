@@ -47,52 +47,22 @@ export default function SignInDialog({ onRegister, onForgotPassword }: SignInDia
           const checkUserType = await auth.checkUserType(userId);
           let redirectTo;
 
+          // Si premier login OU pas de type → rediriger vers choice page
           if (checkFirstLogin.isFirstLogin || checkUserType.userType == null) {
             redirectTo = '/onboarding/choice';
           } else if (checkUserType.userType === 'company') {
-            const { data: onboardingProgress } = await axios.get(`/api/onboarding/users/${userId}/onboardingProgress`);
-            console.log("onboardingProgress", onboardingProgress);
-            if (onboardingProgress.currentPhase !== 4 || 
-                !onboardingProgress.phases.find((phase: any) => phase.id === 4)?.completed) {
-              console.log("Redirecting to company onboarding");
-              redirectTo = '/onboarding/company';
-            } else {
-              redirectTo = '/dashboard';
-            }
+            // Si type company → rediriger vers orchestrator company
+            const compOrchestratorUrl = process.env.NEXT_PUBLIC_COMP_ORCHESTRATOR_URL || '/comporchestrator';
+            redirectTo = compOrchestratorUrl;
+            console.log("Redirecting company user to orchestrator:", redirectTo);
+          } else if (checkUserType.userType === 'rep') {
+            // Si type rep → rediriger vers orchestrator rep
+            const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
+            redirectTo = repOrchestratorUrl;
+            console.log("Redirecting rep user to orchestrator:", redirectTo);
           } else {
-            // User type is rep
-            try {
-              const token = localStorage.getItem('token');
-              
-              const { data: profileData } = await axios.get(
-                `/api/profiles/${userId}`,
-                {
-                  headers: {
-                    Authorization: `Bearer ${token}`
-                  }
-                }
-              );
-              console.log('profileData', profileData);
-              Cookies.set('agentId', profileData._id);
-              
-              if (!profileData.isBasicProfileCompleted) {
-                redirectTo = '/rep-profile/create';
-              } else {
-                redirectTo = (
-                  profileData.onboardingProgress?.phases?.phase1?.status === "completed" &&
-                  profileData.onboardingProgress?.phases?.phase2?.status === "completed" &&
-                  profileData.onboardingProgress?.phases?.phase3?.status === "completed" &&
-                  profileData.onboardingProgress?.phases?.phase4?.status === "completed"
-                )
-                  ? '/dashboard'
-                  : '/onboarding/rep';
-              }
-              console.log('Selected redirect URL:', redirectTo);
-            } catch (error) {
-              console.error('Error fetching rep profile:', error);
-              // If there's an error fetching the profile, default to profile creation or onboarding
-              redirectTo = '/rep-profile/create';
-            }
+            // Fallback vers choice si type inconnu
+            redirectTo = '/onboarding/choice';
           }
 
           setIsAlreadyLoggedIn(true);
@@ -200,56 +170,23 @@ export default function SignInDialog({ onRegister, onForgotPassword }: SignInDia
           const checkUserType = await auth.checkUserType(userId);
           console.log("checkUserType", checkUserType);
           let redirectTo;
+          
+          // Si premier login OU pas de type → rediriger vers choice page
           if (checkFirstLogin.isFirstLogin || checkUserType.userType == null) {
-            redirectTo = '/app2';
+            redirectTo = '/onboarding/choice';
           } else if (checkUserType.userType === 'company') {
-            const companyApiUrl = process.env.NEXT_PUBLIC_COMPANY_API_URL || '/api/company';
-            const { data: onboardingProgress } = await axios.get(`/api/onboarding/users/${userId}/onboardingProgress`);
-            console.log("onboardingProgress", onboardingProgress);
-            if (onboardingProgress.currentPhase !== 4 || 
-                !onboardingProgress.phases.find((phase: any) => phase.id === 4)?.completed) {
-              console.log("we are here to redirect to orchestrator");
-              redirectTo = '/app11';
-            } else {
-              redirectTo = '/app7';
-            }
+            // Si type company → rediriger vers orchestrator company
+            const compOrchestratorUrl = process.env.NEXT_PUBLIC_COMP_ORCHESTRATOR_URL || '/comporchestrator';
+            redirectTo = compOrchestratorUrl;
+            console.log("Redirecting company user to orchestrator:", redirectTo);
+          } else if (checkUserType.userType === 'rep') {
+            // Si type rep → rediriger vers orchestrator rep
+            const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
+            redirectTo = repOrchestratorUrl;
+            console.log("Redirecting rep user to orchestrator:", redirectTo);
           } else {
-            // User type is rep
-            try {
-              const repApiUrl = process.env.NEXT_PUBLIC_REP_API_URL || '/api/rep';
-              const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
-              const repCreationProfileUrl = process.env.NEXT_PUBLIC_REP_CREATION_PROFILE_URL || '/repcreationprofile';
-              const repDashboardUrl = process.env.NEXT_PUBLIC_REP_DASHBOARD_URL || '/repdashboard';
-
-              const { data: profileData } = await axios.get(
-                `${repApiUrl}/profiles/${userId}`,
-                {
-                  headers: {
-                    Authorization: `Bearer ${resultverificationEmail.token}`
-                  }
-                }
-              );
-              console.log('profileData', profileData);
-              Cookies.set('agentId', profileData._id);
-              
-              if (!profileData.isBasicProfileCompleted) {
-                redirectTo = `${repCreationProfileUrl}`;
-              } else {
-                redirectTo = (
-                  profileData.onboardingProgress.phases.phase1.status === "completed" &&
-                  profileData.onboardingProgress.phases.phase2.status === "completed" &&
-                  profileData.onboardingProgress.phases.phase3.status === "completed" &&
-                  profileData.onboardingProgress.phases.phase4.status === "completed"
-                )
-                  ? `${repDashboardUrl}`
-                  : `${repOrchestratorUrl}`;
-              }
-              console.log('Selected redirect URL:', redirectTo);
-            } catch (error) {
-              console.error('Error fetching rep profile:', error);
-              // If there's an error fetching the profile, default to profile creation
-              redirectTo = process.env.NEXT_PUBLIC_REP_CREATION_PROFILE_URL || '/repcreationprofile';
-            }
+            // Fallback vers choice si type inconnu
+            redirectTo = '/onboarding/choice';
           }
           setTimeout(() => {
             if (redirectTo) {

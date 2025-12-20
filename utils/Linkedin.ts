@@ -1,6 +1,34 @@
 import { auth } from '../lib/api';
+import Cookies from 'js-cookie';
 
 const LINKEDIN_SCOPE = 'openid profile email';
+
+// Function to determine redirect path after authentication
+const getRedirectPath = async (userId: string): Promise<string> => {
+  try {
+    const checkFirstLogin = await auth.checkFirstLogin(userId);
+    const checkUserType = await auth.checkUserType(userId);
+    
+    // Si premier login OU pas de type → rediriger vers choice page
+    if (checkFirstLogin.isFirstLogin || checkUserType.userType == null) {
+      return '/onboarding/choice';
+    } else if (checkUserType.userType === 'company') {
+      // Si type company → rediriger vers orchestrator company
+      const compOrchestratorUrl = process.env.NEXT_PUBLIC_COMP_ORCHESTRATOR_URL || '/comporchestrator';
+      return compOrchestratorUrl;
+    } else if (checkUserType.userType === 'rep') {
+      // Si type rep → rediriger vers orchestrator rep
+      const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
+      return repOrchestratorUrl;
+    } else {
+      // Fallback vers choice si type inconnu
+      return '/onboarding/choice';
+    }
+  } catch (error) {
+    console.error('Error determining redirect path:', error);
+    return '/onboarding/choice';
+  }
+};
 
 export const handleLinkedInSignUp = () => {
   const clientId = process.env.NEXT_PUBLIC_LINKEDIN_CLIENT_ID;
@@ -30,7 +58,6 @@ export const handleLinkedInSignUp = () => {
 // Function to handle the OAuth callback
 export const handleLinkedInCallback = async (code: string, state: string) => {
   // Verify state matches what we stored before the redirect
-
   const storedState = localStorage.getItem('linkedin_oauth_state');
   if (state !== storedState) {
     throw new Error('Invalid OAuth state');
@@ -42,8 +69,26 @@ export const handleLinkedInCallback = async (code: string, state: string) => {
   const response = await auth.linkedInAuth(code);
   localStorage.setItem("auth_token", response.token);
   
-  // For now, we'll just log the code (in production, never log sensitive data)
-  console.log('Successfully received authorization code');
+  // Decode token to get userId
+  try {
+    const { jwtDecode } = await import('jwt-decode');
+    const decoded: any = jwtDecode(response.token);
+    const userId = decoded.userId;
+    
+    if (userId) {
+      localStorage.setItem("userId", userId);
+      Cookies.set('userId', userId);
+      
+      // Determine redirect path based on user type and first login status
+      const redirectPath = await getRedirectPath(userId);
+      return redirectPath;
+    }
+  } catch (error) {
+    console.error('Error decoding token:', error);
+  }
+  
+  // Fallback to choice page if we can't determine redirect
+  return '/onboarding/choice';
 };
 
 // Function to handle the OAuth callback
@@ -59,14 +104,20 @@ export const handleLinkedInSignInCallback = async (code: string, state: string) 
     const response = await auth.linkedinSignIn(code);
     localStorage.setItem("auth_token", response.token); 
     localStorage.setItem("userId", response.user._id);
+    Cookies.set('userId', response.user._id);
     
+    // Determine redirect path based on user type and first login status
+    const redirectPath = await getRedirectPath(response.user._id);
+    
+    // Clear stored state
+    localStorage.removeItem('linkedin_state');
+    
+    // Return redirect path so the caller can navigate
+    return redirectPath;
   } catch (error) {
     console.error("LinkedIn Sign-in Error", error);
     throw error;
   }
-
-  // Clear stored state
-  localStorage.removeItem('linkedin_state');
 };
 
 export const handleLinkedInSignIn = async () => {
