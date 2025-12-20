@@ -98,9 +98,8 @@ ENV NEXT_PUBLIC_APP_URL=http://localhost:3000
 ENV LINKEDIN_CLIENT_ID=78dci2o5ppds4v
 ENV LINKEDIN_CLIENT_SECRET=WPL_AP1.T45rXV4XwyxtS5pl.cTa72w==
 
-# OpenAI - Set at runtime via -e OPENAI_API_KEY=... when running container
-# This can be overridden when running: docker run -e OPENAI_API_KEY=your_key ...
-ENV OPENAI_API_KEY=""
+# OpenAI - Set the API key (can be overridden at runtime with -e OPENAI_API_KEY=...)
+ENV OPENAI_API_KEY=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
 
 # Supabase
 ENV NEXT_PUBLIC_SUPABASE_URL=https://ubmusernkksbnxhvsgox.supabase.co
