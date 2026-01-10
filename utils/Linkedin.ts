@@ -1,38 +1,14 @@
+//import { redirect } from 'react-router-dom';
 import { auth } from '../lib/api';
-import Cookies from 'js-cookie';
 
 const LINKEDIN_SCOPE = 'openid profile email';
-
-// Function to determine redirect path after authentication
-const getRedirectPath = async (userId: string): Promise<string> => {
-  try {
-    const checkFirstLogin = await auth.checkFirstLogin(userId);
-    const checkUserType = await auth.checkUserType(userId);
-    
-    // Si premier login OU pas de type → rediriger vers choice page
-    if (checkFirstLogin.isFirstLogin || checkUserType.userType == null) {
-      return '/onboarding/choice';
-    } else if (checkUserType.userType === 'company') {
-      // Si type company → rediriger vers orchestrator company
-      const compOrchestratorUrl = process.env.NEXT_PUBLIC_COMP_ORCHESTRATOR_URL || '/comporchestrator';
-      return compOrchestratorUrl;
-    } else if (checkUserType.userType === 'rep') {
-      // Si type rep → rediriger vers orchestrator rep
-      const repOrchestratorUrl = process.env.NEXT_PUBLIC_REP_ORCHESTRATOR_URL || '/reporchestrator';
-      return repOrchestratorUrl;
-    } else {
-      // Fallback vers choice si type inconnu
-      return '/onboarding/choice';
-    }
-  } catch (error) {
-    console.error('Error determining redirect path:', error);
-    return '/onboarding/choice';
-  }
-};
+console.log("REDIRECT_URI",window.location.origin);
+const REDIRECT_URI = window.location.origin + '/auth/linkedin/callback';
+console.log("REDIRECT_URI",REDIRECT_URI);
 
 export const handleLinkedInSignUp = () => {
-  const clientId = process.env.NEXT_PUBLIC_LINKEDIN_CLIENT_ID;
-  const redirectUri = typeof window !== 'undefined' ? window.location.origin + '/auth/linkedin/callback' : '';
+  console.log("we are in handlelinkedinsignup function");
+  const clientId = import.meta.env.VITE_LINKEDIN_CLIENT_ID;
   
   if (!clientId) {
     console.error('LinkedIn client ID is not configured');
@@ -41,24 +17,32 @@ export const handleLinkedInSignUp = () => {
 
   // Generate a random state value for security
   const state = Math.random().toString(36).substring(7);
+  console.log("state",state);
   // Store state in sessionStorage for validation when LinkedIn redirects back
   localStorage.setItem('linkedin_oauth_state', state);
-
+console.log('linkedin_oauth_state', state);
   // Construct the LinkedIn OAuth URL
   const linkedInAuthUrl = new URL('https://www.linkedin.com/oauth/v2/authorization');
   linkedInAuthUrl.searchParams.append('response_type', 'code');
   linkedInAuthUrl.searchParams.append('client_id', clientId);
-  linkedInAuthUrl.searchParams.append('redirect_uri', redirectUri);
+  linkedInAuthUrl.searchParams.append('redirect_uri', REDIRECT_URI);
   linkedInAuthUrl.searchParams.append('state', state);
   linkedInAuthUrl.searchParams.append('scope', LINKEDIN_SCOPE);
+console.log("linkedInAuthUrl",linkedInAuthUrl);
+  // Redirect to LinkedIn's authorization page
+  console.log("linkedInAuthUrl.toString()",linkedInAuthUrl.toString())
   
-  window.location.href = linkedInAuthUrl.toString();
+   window.location.href = linkedInAuthUrl.toString();
 };
 
 // Function to handle the OAuth callback
 export const handleLinkedInCallback = async (code: string, state: string) => {
   // Verify state matches what we stored before the redirect
+
   const storedState = localStorage.getItem('linkedin_oauth_state');
+  console.log("state in comparison", state);
+  console.log("storedState",storedState);
+  console.log(state !== storedState);
   if (state !== storedState) {
     throw new Error('Invalid OAuth state');
   }
@@ -66,70 +50,63 @@ export const handleLinkedInCallback = async (code: string, state: string) => {
   // Clear stored state
   localStorage.removeItem('linkedin_oauth_state');
 
-  const response = await auth.linkedInAuth(code);
+  // Here you would typically:
+  // 1. Send the code to your backend
+  // 2. Backend exchanges code for access token with LinkedIn
+  // 3. Backend retrieves user profile from LinkedIn
+  // 4. Backend creates/updates user account
+  // 5. Backend returns session token or user data
+  const response= await auth.linkedInAuth(code);
+  console.log("response",response);
   localStorage.setItem("auth_token", response.token);
-  
-  // Decode token to get userId
-  try {
-    const { jwtDecode } = await import('jwt-decode');
-    const decoded: any = jwtDecode(response.token);
-    const userId = decoded.userId;
-    
-    if (userId) {
-      localStorage.setItem("userId", userId);
-      Cookies.set('userId', userId);
-      
-      // Determine redirect path based on user type and first login status
-      const redirectPath = await getRedirectPath(userId);
-      return redirectPath;
-    }
-  } catch (error) {
-    console.error('Error decoding token:', error);
-  }
-  
-  // Fallback to choice page if we can't determine redirect
-  return '/onboarding/choice';
-};
 
+ 
+  // For now, we'll just log the code (in production, never log sensitive data)
+  console.log('Successfully received authorization code');
+  
+  // Redirect to appropriate page after successful sign-in
+ // return redirect('/dashboard');
+};
 // Function to handle the OAuth callback
 export const handleLinkedInSignInCallback = async (code: string, state: string) => {
   // Verify state matches what we stored before the redirect
   const storedState = localStorage.getItem('linkedin_state');
+  console.log("state in comparison", state);
+  console.log("storedState",storedState);
+  console.log(state !== storedState);
   if (state !== storedState) {
     throw new Error('Invalid OAuth state');
   }
-  
-  try {
-    // Send auth code to your backend for exchange
-    const response = await auth.linkedinSignIn(code);
-    localStorage.setItem("auth_token", response.token); 
-    localStorage.setItem("userId", response.user._id);
-    Cookies.set('userId', response.user._id);
-    
-    // Determine redirect path based on user type and first login status
-    const redirectPath = await getRedirectPath(response.user._id);
-    
-    // Clear stored state
-    localStorage.removeItem('linkedin_state');
-    
-    // Return redirect path so the caller can navigate
-    return redirectPath;
-  } catch (error) {
-    console.error("LinkedIn Sign-in Error", error);
-    throw error;
-  }
-};
+        try {
+          // Send auth code to your backend for exchange
+            const response= await auth.linkedinSignIn(code);
+            console.log("response",response);
+            localStorage.setItem("auth_token", response.token); 
+            localStorage.setItem("userId",response.user._id);
+          
+        } catch (error) {
+          console.error("LinkedIn Sign-in Error", error);
+        }
+      
 
-export const handleLinkedInSignIn = async () => {
-  const clientId = process.env.NEXT_PUBLIC_LINKEDIN_CLIENT_ID;
-  const redirectUri = typeof window !== 'undefined' ? `${window.location.origin}/auth/linkedin/signin/callback` : '';
-  const scope = 'openid profile email';
-  const state = Math.random().toString(36).substring(7);
-  
-  localStorage.setItem('linkedin_state', state);
-  
-  const authUrl = `https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&state=${state}&scope=${encodeURIComponent(scope)}`;
-  
-  window.location.href = authUrl;
-};
 
+  // Clear stored state
+  localStorage.removeItem('linkedin_state');
+  // For now, we'll just log the code (in production, never log sensitive data)
+ // console.log('Successfully received authorization code');
+  
+  // Redirect to appropriate page after successful sign-in
+  //return redirect('/dashboard');
+};
+export const handleLinkedInSignIn =async () => {
+    const clientId = import.meta.env.VITE_LINKEDIN_CLIENT_ID;
+    const redirectUri = `${window.location.origin}/auth/linkedin/signin/callback`;
+    const scope = 'openid profile email';
+    const state = Math.random().toString(36).substring(7);
+    
+    localStorage.setItem('linkedin_state', state);
+    
+    const authUrl = `https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&state=${state}&scope=${encodeURIComponent(scope)}`;
+    
+    window.location.href = authUrl;
+  };

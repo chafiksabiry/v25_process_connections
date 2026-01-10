@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || '/api';
+const API_URL = import.meta.env.VITE_API_URL;
 
 const api = axios.create({
   baseURL: API_URL,
@@ -11,11 +11,9 @@ const api = axios.create({
 
 // Add token to requests if it exists
 api.interceptors.request.use((config) => {
-  if (typeof window !== 'undefined') {
-    const token = localStorage.getItem('token');
-    if (token) {
-      config.headers.Authorization = `Bearer ${token}`;
-    }
+  const token = localStorage.getItem('token');
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
   }
   return config;
 });
@@ -80,10 +78,6 @@ export const auth = {
   checkFirstLogin: async (userId: string) => {
     const response = await api.post('/auth/check-first-login', { userId });
     return response.data;
-  },
-  checkUserType: async(userId: String) =>{
-    const response = await api.post('/auth/check-user-type', { userId });
-    return response.data;
   }
 };
 
@@ -119,4 +113,3 @@ export const files = {
   },
   
 };
-
