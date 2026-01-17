@@ -7,7 +7,7 @@ const initialState = { userId: null };
 const actions = initGlobalState(initialState);
 
 // Listen for changes (for debugging)
-actions.onGlobalStateChange((state, /*prev*/) => {
+actions.onGlobalStateChange((state: any, /*prev*/) => {
     console.log('[Main App] Global state changed:', state);
 });
 
@@ -18,7 +18,7 @@ console.log("qiankun is here");
 registerMicroApps([
   {
     name: 'app1',
-    entry: 'https://registration.harx.ai/',
+    entry: 'https://harx25register.netlify.app',
     //entry: 'http://localhost:5157/',
     container: '#container-app1',
     activeRule: '/app1',
