@@ -19,8 +19,8 @@ const cssModules: CSSModule[] = [
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-choicepage.harx.ai/index.css'
-      : 'https://choicepage.harx.ai/index.css',
+      ? 'https://harx25choicepage.netlify.app/index.css'
+      : 'https://harx25choicepage.netlify.app/index.css',
     routes: ['/app2']
   },
   {

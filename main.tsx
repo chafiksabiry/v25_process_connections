@@ -31,7 +31,7 @@ registerMicroApps([
   },
   {
     name: 'app2',
-    entry: 'https://choicepage.harx.ai/',
+    entry: 'https://harx25choicepage.netlify.app',
     //entry: 'http://localhost:5173/',
     container: '#container-app2',
     activeRule: '/app2',
