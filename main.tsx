@@ -81,7 +81,7 @@ registerMicroApps([
   },
   {
     name: 'app4',
-    entry: 'https://companysearchwizard.harx.ai/',
+    entry: 'https://harxv25searchcompanywizardfrontend.netlify.app',
     container: '#container-app4',
     activeRule: '/app4',
     props: {

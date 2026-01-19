@@ -31,8 +31,8 @@ const cssModules: CSSModule[] = [
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-companysearchwizard.harx.ai/index.css'
-      : 'https://companysearchwizard.harx.ai/index.css',
+      ? 'https://harxv25searchcompanywizardfrontend.netlify.app/index.css'
+      : 'https://harxv25searchcompanywizardfrontend.netlify.app/index.css',
     routes: ['/app4']
   },
   {
