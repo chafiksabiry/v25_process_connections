@@ -8,7 +8,7 @@ const actions = initGlobalState(initialState);
 
 // Listen for changes (for debugging)
 actions.onGlobalStateChange((state: any, /*prev*/) => {
-    console.log('[Main App] Global state changed:', state);
+  console.log('[Main App] Global state changed:', state);
 });
 
 
@@ -42,22 +42,9 @@ registerMicroApps([
       actions,
     },
   },
-/*   {
-    name: 'app3',
-    entry: 'https://repcreationwizard.harx.ai/',
-    //entry: 'http://localhost:5177/',
-    container: '#container-app3',
-    activeRule: '/app3',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  }, */
   {
     name: 'repcreationprofile',
-    entry: 'https://rep-profile-creation.harx.ai/',
+    entry: 'https://harxv25repcreationprofile.netlify.app/',
     container: '#container-repcreationprofile',
     activeRule: '/repcreationprofile',
     props: {
@@ -69,7 +56,7 @@ registerMicroApps([
   },
   {
     name: 'repassessments',
-    entry: 'https://rep-assessments.harx.ai/',
+    entry: 'https://harxv25assessmentsfront.netlify.app/',
     container: '#container-repassessments',
     activeRule: '/repassessments',
     props: {
@@ -86,7 +73,7 @@ registerMicroApps([
     activeRule: '/app4',
     props: {
       sandbox: {
-        experimentalStyleIsolation: true,
+        experimentalStyleIsolation: false,
       },
       actions,
     },
@@ -105,7 +92,7 @@ registerMicroApps([
   },
   {
     name: 'app6',
-    entry: 'https://gigsai.harx.ai/',
+    entry: 'https://harxv25gigcreationfrontend.netlify.app/',
     container: '#container-app6',
     activeRule: '/app6',
     props: {
@@ -117,7 +104,7 @@ registerMicroApps([
   },
   {
     name: 'app7',
-    entry: 'https://dashboard.harx.ai/',
+    entry: 'https://harxv25dashboardfrontend.netlify.app/',
     container: '#container-app7',
     activeRule: '/app7',
     props: {
@@ -129,7 +116,7 @@ registerMicroApps([
   },
   {
     name: 'gigs',
-    entry: 'https://dashboard.harx.ai/gigs',
+    entry: 'https://harxv25dashboardfrontend.netlify.app/gigs',
     container: '#container-gigs',
     activeRule: '/gigs',
     props: {
@@ -139,9 +126,9 @@ registerMicroApps([
       actions,
     },
   },
-    {
+  {
     name: 'company',
-    entry: 'https://dashboard.harx.ai/company',
+    entry: 'https://harxv25dashboardfrontend.netlify.app/',
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -153,7 +140,7 @@ registerMicroApps([
   },
   {
     name: 'repdashboard',
-    entry: 'https://rep-dashboard.harx.ai/',
+    entry: 'https://harxv25dashboardrepfront.netlify.app/',
     container: '#container-app8',
     activeRule: '/repdashboard',
     props: {
@@ -165,7 +152,7 @@ registerMicroApps([
   },
   {
     name: 'reporchestrator',
-    entry: 'https://rep-orchestrator.harx.ai/',
+    entry: 'https://harxv25reporchestratorfront.netlify.app/',
     container: '#container-reporchestrator',
     activeRule: '/reporchestrator',
     props: {
@@ -177,7 +164,7 @@ registerMicroApps([
   },
   {
     name: 'knowledgebase',
-    entry: 'https://knowledge-base.harx.ai/',
+    entry: 'https://harxv25knowledgebasefrontend.netlify.app/',
     container: '#container-app9',
     activeRule: '/knowledgebase',
     props: {
@@ -189,7 +176,7 @@ registerMicroApps([
   },
   {
     name: 'app11',
-    entry: 'https://comp-orchestrator.harx.ai/',
+    entry: 'https://harxv25comporchestratorfront.netlify.app/',
     container: '#container-app11',
     activeRule: '/app11',
     props: {
@@ -201,7 +188,7 @@ registerMicroApps([
   },
   {
     name: 'app12',
-    entry: 'https://matching.harx.ai/',
+    entry: 'https://harxv25matchingfrontend.netlify.app/',
     container: '#container-app12',
     activeRule: '/app12',
     props: {
@@ -213,7 +200,7 @@ registerMicroApps([
   },
   {
     name: 'copilot',
-    entry: 'https:/copilot.harx.ai/',
+    entry: 'https://harxv25copilotfrontend.netlify.app/',
     container: '#container-copilot',
     activeRule: '/copilot',
     props: {
@@ -225,7 +212,7 @@ registerMicroApps([
   },
   {
     name: 'training',
-    entry: 'https://training.harx.ai/',
+    entry: 'https://harxv25trainingplatformfrontend.netlify.app/',
     container: '#container-training',
     activeRule: '/training',
     props: {

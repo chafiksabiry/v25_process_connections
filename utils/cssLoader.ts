@@ -25,8 +25,8 @@ const cssModules: CSSModule[] = [
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-repcreationwizard.harx.ai/index.css'
-      : 'https://repcreationwizard.harx.ai/index.css',
+      ? 'https://harxv25repscreationwizardfrontend.netlify.app/index.css'
+      : 'https://harxv25repscreationwizardfrontend.netlify.app/index.css',
     routes: ['/repcreationprofile']
   },
   {
@@ -37,56 +37,56 @@ const cssModules: CSSModule[] = [
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-gigsmanual.harx.ai/index.css'
-      : 'https://gigsmanual.harx.ai/index.css',
+      ? 'https://harxv25gigcreationfrontend.netlify.app/index.css'
+      : 'https://harxv25gigcreationfrontend.netlify.app/index.css',
     routes: ['/app5']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-dashboard.harx.ai/index.css'
-      : 'https://dashboard.harx.ai/index.css',
+      ? 'https://harxv25dashboardfrontend.netlify.app/index.css'
+      : 'https://harxv25dashboardfrontend.netlify.app/index.css',
     routes: ['/company']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-gigsai.harx.ai/index.css'
-      : 'https://gigsai.harx.ai/index.css',
+      ? 'https://harxv25gigcreationfrontend.netlify.app/index.css'
+      : 'https://harxv25gigcreationfrontend.netlify.app/index.css',
     routes: ['/app6']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-rep-dashboard.harx.ai/index.css'
-      : 'https://rep-dashboard.harx.ai/index.css',
+      ? 'https://harxv25dashboardrepfront.netlify.app/index.css'
+      : 'https://harxv25dashboardrepfront.netlify.app/index.css',
     routes: ['/repdashboard']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-knowledge-base.harx.ai/index.css'
-      : 'https://knowledge-base.harx.ai/index.css',
+      ? 'https://harxv25knowledgebasefrontend.netlify.app/index.css'
+      : 'https://harxv25knowledgebasefrontend.netlify.app/index.css',
     routes: ['/knowledgebase']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-matching.harx.ai/index.css'
-      : 'https://matching.harx.ai/index.css',
+      ? 'https://harxv25matchingfrontend.netlify.app/index.css'
+      : 'https://harxv25matchingfrontend.netlify.app/index.css',
     routes: ['/app12']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-comp-orchestrator.harx.ai/index.css'
-      : 'https://comp-orchestrator.harx.ai/index.css',
+      ? 'https://harxv25comporchestratorfront.netlify.app/index.css'
+      : 'https://harxv25comporchestratorfront.netlify.app/index.css',
     routes: ['/app11']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-copilot.harx.ai/index.css'
-      : 'https://copilot.harx.ai/index.css',
+      ? 'https://harxv25copilotfrontend.netlify.app/index.css'
+      : 'https://harxv25copilotfrontend.netlify.app/index.css',
     routes: ['/copilot']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://preprod-training.harx.ai/index.css'
-      : 'https://training.harx.ai/index.css',
+      ? 'https://harxv25trainingplatformfrontend.netlify.app/index.css'
+      : 'https://harxv25trainingplatformfrontend.netlify.app/index.css',
     routes: ['/training']
   }
 ];
@@ -114,13 +114,13 @@ const loadCSS = (url: string): Promise<void> => {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = url;
-    
+
     // Gérer le succès du chargement
     link.onload = () => {
       loadedCSS.add(url);  // Ajouter l'URL au cache
       resolve();
     };
-    
+
     // Gérer les erreurs de chargement
     link.onerror = () => {
       console.warn(`Failed to load CSS: ${url}`);
@@ -155,8 +155,9 @@ export const loadCSSForRoute = async (pathname: string): Promise<void> => {
   try {
     // Trouver les modules CSS nécessaires pour cette route
     // Un module est requis si au moins une de ses routes correspond au pathname
+    const normalizedPath = pathname.toLowerCase();
     const requiredModules = cssModules.filter(module =>
-      module.routes.some(route => pathname.startsWith(route))
+      module.routes.some(route => normalizedPath.startsWith(route))
     );
 
     // Charger tous les CSS nécessaires en parallèle pour optimiser les performances
@@ -176,9 +177,10 @@ export const loadCSSForRoute = async (pathname: string): Promise<void> => {
  */
 export const cleanupUnusedCSS = (currentPathname: string): void => {
   // Déterminer quels CSS sont encore nécessaires pour la route actuelle
+  const normalizedPath = currentPathname.toLowerCase();
   const requiredURLs = new Set(
     cssModules
-      .filter(module => module.routes.some(route => currentPathname.startsWith(route)))
+      .filter(module => module.routes.some(route => normalizedPath.startsWith(route)))
       .map(module => module.url)
   );
 
