@@ -88,6 +88,12 @@ const cssModules: CSSModule[] = [
       ? 'https://harxv25trainingplatformfrontend.netlify.app/index.css'
       : 'https://harxv25trainingplatformfrontend.netlify.app/index.css',
     routes: ['/training']
+  },
+  {
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://harxv25reporchestratorfront.netlify.app/index.css'
+      : 'https://harxv25reporchestratorfront.netlify.app/index.css',
+    routes: ['/reporchestrator']
   }
 ];
 
