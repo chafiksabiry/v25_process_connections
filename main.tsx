@@ -3,6 +3,29 @@ import App from './App';
 import { registerMicroApps, start, initGlobalState } from 'qiankun';
 import './index.css';
 import 'systemjs';
+import Cookies from 'js-cookie';
+
+// Sync cookies to localStorage for cross-domain micro-frontend access
+const syncAuthToLocalStorage = () => {
+  const userId = Cookies.get('userId');
+  const companyId = Cookies.get('companyId');
+
+  if (userId) {
+    localStorage.setItem('userId', userId);
+    console.log('[Host] Synced userId to localStorage:', userId);
+  }
+  if (companyId) {
+    localStorage.setItem('companyId', companyId);
+    console.log('[Host] Synced companyId to localStorage:', companyId);
+  }
+};
+
+// Sync auth data on load
+syncAuthToLocalStorage();
+
+// Watch for cookie changes and sync to localStorage
+setInterval(syncAuthToLocalStorage, 1000);
+
 const initialState = { userId: null };
 const actions = initGlobalState(initialState);
 
