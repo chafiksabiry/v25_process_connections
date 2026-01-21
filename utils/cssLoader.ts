@@ -94,6 +94,12 @@ const cssModules: CSSModule[] = [
       ? 'https://harxv25reporchestratorfront.netlify.app/index.css'
       : 'https://harxv25reporchestratorfront.netlify.app/index.css',
     routes: ['/reporchestrator']
+  },
+  {
+    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
+      ? 'https://harxv25assessmentsfront.netlify.app/index.css'
+      : 'https://harxv25assessmentsfront.netlify.app/index.css',
+    routes: ['/repassessments']
   }
 ];
 
