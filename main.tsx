@@ -12,11 +12,11 @@ const syncAuthToLocalStorage = () => {
 
   if (userId) {
     localStorage.setItem('userId', userId);
-    console.log('[Host] Synced userId to localStorage:', userId);
+    // console.log('[Host] Synced userId to localStorage:', userId);
   }
   if (companyId) {
     localStorage.setItem('companyId', companyId);
-    console.log('[Host] Synced companyId to localStorage:', companyId);
+    // console.log('[Host] Synced companyId to localStorage:', companyId);
   }
 };
 
@@ -30,12 +30,12 @@ const initialState = { userId: null };
 const actions = initGlobalState(initialState);
 
 // Listen for changes (for debugging)
-actions.onGlobalStateChange((state: any, /*prev*/) => {
-  console.log('[Main App] Global state changed:', state);
-});
+// actions.onGlobalStateChange((state: any, /*prev*/) => {
+//   console.log('[Main App] Global state changed:', state);
+// });
 
 
-console.log("qiankun is here");
+// console.log("qiankun is here");
 
 // Register microfrontends
 registerMicroApps([
@@ -257,14 +257,14 @@ const startQiankun = async () => {
       },
       singular: false,
       fetch: (url, options) => {
-        console.log(`[Host] Fetching: ${url}`);
+        // console.log(`[Host] Fetching: ${url}`);
         return fetch(url, {
           ...options,
           mode: "cors",
         });
       },
     });
-    console.log('[Host] Qiankun started successfully');
+    // console.log('[Host] Qiankun started successfully');
   } catch (error) {
     console.error('[Host] Failed to start Qiankun:', error);
   }
