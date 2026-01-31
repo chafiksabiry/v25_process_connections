@@ -1,5 +1,5 @@
 //import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
@@ -36,8 +36,8 @@ const App = () => {
         <Route path="/knowledgebase/*" element={<div id="container-app9"></div>} />
         <Route path="/gigs" element={<div id="container-gigs"></div>} />
         <Route path="/company" element={<div id="container-company"></div>} />
-        <Route path="/app12" element={ <div id="container-app12"></div>}/>
-        <Route path="/copilot" element={ <div id="container-copilot"></div>}/>
+        <Route path="/app12/*" element={<div id="container-app12"></div>} />
+        <Route path="/copilot" element={<div id="container-copilot"></div>} />
         <Route path="/training" element={<div id="container-training"></div>} />
         <Route path="/training/companydashboard/*" element={<div id="container-training"></div>} />
         <Route path="/training/repdashboard/*" element={<div id="container-training"></div>} />
