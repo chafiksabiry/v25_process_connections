@@ -103,7 +103,7 @@ registerMicroApps([
   },
   {
     name: 'app5',
-    entry: 'https://gigsmanual.harx.ai/',
+    entry: 'https://harxv25gigcreationfrontend.netlify.app/',
     container: '#container-app5',
     activeRule: '/app5',
     props: {
