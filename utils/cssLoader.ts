@@ -14,6 +14,10 @@ interface CSSModule {
  */
 const cssModules: CSSModule[] = [
   {
+    url: 'https://websitev2026.netlify.app/index.css',
+    routes: ['/', '/home']
+  },
+  {
     url: 'https://harx25register.netlify.app/index.css',
     routes: ['/app1', '/auth']
   },
