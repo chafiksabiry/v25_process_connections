@@ -40,6 +40,19 @@ const actions = initGlobalState(initialState);
 // Register microfrontends
 registerMicroApps([
   {
+    name: 'home',
+    entry: 'https://websitev2026.netlify.app',
+    //entry: 'http://localhost:5173/',
+    container: '#container-home',
+    activeRule: (location) => location.pathname === '/' || location.pathname === '/home',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
+  {
     name: 'app1',
     entry: 'https://harx25register.netlify.app',
     //entry: 'http://localhost:5157/',

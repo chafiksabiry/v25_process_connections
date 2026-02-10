@@ -16,6 +16,10 @@ const App = () => {
     <Router>
       <CSSRouteLoader />
       <Routes>
+        {/* Home page routes */}
+        <Route path="/" element={<div id="container-home"></div>} />
+        <Route path="/home" element={<div id="container-home"></div>} />
+
         {/* Public routes */}
         <Route path="/app1" element={<div id="container-app1"></div>} />
         <Route path="/auth" element={<Navigate to="/app1" />} />
