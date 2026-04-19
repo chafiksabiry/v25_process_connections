@@ -79,7 +79,7 @@ const cssModules: CSSModule[] = [
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
       ? 'https://harxv25comporchestratorfront.netlify.app/index.css'
       : 'https://harxv25comporchestratorfront.netlify.app/index.css',
-    routes: ['/app11']
+    routes: ['/company']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'

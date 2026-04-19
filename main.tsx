@@ -164,7 +164,7 @@ registerMicroApps([
   },
   {
     name: 'company',
-    entry: 'https://harxv25dashboardfrontend.netlify.app/',
+    entry: 'https://harxv25comporchestratorfront.netlify.app/',
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -210,18 +210,7 @@ registerMicroApps([
       actions,
     },
   },
-  {
-    name: 'app11',
-    entry: 'https://harxv25comporchestratorfront.netlify.app/',
-    container: '#container-app11',
-    activeRule: '/app11',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
+
   {
     name: 'app12',
     entry: 'https://harxv25matchingfrontend.netlify.app/',
