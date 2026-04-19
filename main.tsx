@@ -162,7 +162,18 @@ registerMicroApps([
       actions,
     },
   },
-
+  {
+    name: 'company',
+    entry: 'https://harxv25comporchestratorfront.netlify.app/',
+    container: '#container-company',
+    activeRule: '/company',
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: true,
+      },
+      actions,
+    },
+  },
   {
     name: 'repdashboard',
     entry: 'https://harxv25dashboardrepfront.netlify.app/',
