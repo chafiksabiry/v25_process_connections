@@ -17,14 +17,14 @@ const App = () => {
       <CSSRouteLoader />
       <Routes>
         {/* Home page routes */}
-        <Route path="/" element={<div id="container-home"></div>} />
+        <Route path="/" element={<div id="container-app1"></div>} />
         <Route path="/home" element={<div id="container-home"></div>} />
 
         {/* Public routes */}
         <Route path="/app1" element={<div id="container-app1"></div>} />
-        <Route path="/auth" element={<Navigate to="/app1" />} />
-        <Route path="/auth/linkedin/callback" element={<LinkedInCallback />} />
-        <Route path="/auth/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
+        <Route path="/auth" element={<Navigate to="/" />} />
+        <Route path="/linkedin/callback" element={<LinkedInCallback />} />
+        <Route path="/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
         <Route path="/app2" element={<div id="container-app2"></div>} />
         {/*         <Route path="/profile-wizard" element={ <Navigate to="/app3"/>}/>
         <Route path="/app3" element={ <div id="container-app3"></div>}/> */}
