@@ -44,7 +44,7 @@ registerMicroApps([
     entry: 'https://websitev2026.netlify.app',
     //entry: 'http://localhost:5173/',
     container: '#container-home',
-    activeRule: (location) => location.pathname === '/home',
+    activeRule: (location: { pathname: string; }) => location.pathname === '/home',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -57,7 +57,7 @@ registerMicroApps([
     entry: 'https://harx25register.netlify.app',
     //entry: 'http://localhost:5157/',
     container: '#container-app1',
-    activeRule: (location) => location.pathname === '/' || location.pathname === '/app1',
+    activeRule: (location: { pathname: string; }) => location.pathname === '/' || location.pathname === '/app1',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -258,7 +258,7 @@ const startQiankun = async () => {
         experimentalStyleIsolation: true,
       },
       singular: false,
-      fetch: (url, options) => {
+      fetch: (url: RequestInfo | URL, options: RequestInit | undefined) => {
         // console.log(`[Host] Fetching: ${url}`);
         return fetch(url, {
           ...options,
