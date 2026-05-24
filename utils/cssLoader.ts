@@ -23,39 +23,9 @@ const cssModules: CSSModule[] = [
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harx25choicepage.netlify.app/index.css'
-      : 'https://harx25choicepage.netlify.app/index.css',
-    routes: ['/app2']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
       ? 'https://harxv25repscreationwizardfrontend.netlify.app/index.css'
       : 'https://harxv25repscreationwizardfrontend.netlify.app/index.css',
     routes: ['/repcreationprofile']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25searchcompanywizardfrontend.netlify.app/index.css'
-      : 'https://harxv25searchcompanywizardfrontend.netlify.app/index.css',
-    routes: ['/app4']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25gigcreationfrontend.netlify.app/index.css'
-      : 'https://harxv25gigcreationfrontend.netlify.app/index.css',
-    routes: ['/app5']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25dashboardfrontend.netlify.app/index.css'
-      : 'https://harxv25dashboardfrontend.netlify.app/index.css',
-    routes: ['/company']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25gigcreationfrontend.netlify.app/index.css'
-      : 'https://harxv25gigcreationfrontend.netlify.app/index.css',
-    routes: ['/app6']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
@@ -65,33 +35,9 @@ const cssModules: CSSModule[] = [
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25knowledgebasefrontend.netlify.app/index.css'
-      : 'https://harxv25knowledgebasefrontend.netlify.app/index.css',
-    routes: ['/knowledgebase']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25matchingfrontend.netlify.app/index.css'
-      : 'https://harxv25matchingfrontend.netlify.app/index.css',
-    routes: ['/app12']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
       ? 'https://harxv25comporchestratorfront.netlify.app/index.css'
       : 'https://harxv25comporchestratorfront.netlify.app/index.css',
     routes: ['/company']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25copilotfrontend.netlify.app/index.css'
-      : 'https://harxv25copilotfrontend.netlify.app/index.css',
-    routes: ['/copilot']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25trainingplatformfrontend.netlify.app/index.css'
-      : 'https://harxv25trainingplatformfrontend.netlify.app/index.css',
-    routes: ['/training']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'

@@ -66,19 +66,6 @@ registerMicroApps([
     },
   },
   {
-    name: 'app2',
-    entry: 'https://harx25choicepage.netlify.app',
-    //entry: 'http://localhost:5173/',
-    container: '#container-app2',
-    activeRule: '/app2',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
     name: 'repcreationprofile',
     entry: 'https://harxv25repcreationprofile.netlify.app/',
     container: '#container-repcreationprofile',
@@ -95,66 +82,6 @@ registerMicroApps([
     entry: 'https://harxv25assessmentsfront.netlify.app/',
     container: '#container-repassessments',
     activeRule: '/repassessments',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app4',
-    entry: 'https://harxv25searchcompanywizardfrontend.netlify.app',
-    container: '#container-app4',
-    activeRule: '/app4',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: false,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app5',
-    entry: 'https://harxv25gigcreationfrontend.netlify.app/',
-    container: '#container-app5',
-    activeRule: '/app5',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app6',
-    entry: 'https://harxv25gigcreationfrontend.netlify.app/',
-    container: '#container-app6',
-    activeRule: '/app6',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'app7',
-    entry: 'https://harxv25dashboardfrontend.netlify.app/',
-    container: '#container-app7',
-    activeRule: '/app7',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'gigs',
-    entry: 'https://harxv25dashboardfrontend.netlify.app/gigs',
-    container: '#container-gigs',
-    activeRule: '/gigs',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
@@ -191,55 +118,6 @@ registerMicroApps([
     entry: 'https://harxv25reporchestratorfront.netlify.app/',
     container: '#container-reporchestrator',
     activeRule: '/reporchestrator',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'knowledgebase',
-    entry: 'https://harxv25knowledgebasefrontend.netlify.app/',
-    container: '#container-app9',
-    activeRule: '/knowledgebase',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-
-  {
-    name: 'app12',
-    entry: 'https://harxv25matchingfrontend.netlify.app/',
-    container: '#container-app12',
-    activeRule: '/app12',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'copilot',
-    entry: 'https://harxv25copilotfrontend.netlify.app/',
-    container: '#container-copilot',
-    activeRule: '/copilot',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'training',
-    entry: 'https://harxv25trainingplatformfrontend.netlify.app/',
-    container: '#container-training',
-    activeRule: '/training',
     props: {
       sandbox: {
         experimentalStyleIsolation: true,
