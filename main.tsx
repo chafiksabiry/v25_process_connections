@@ -1,9 +1,22 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start, initGlobalState } from 'qiankun';
+import {
+  setBootstrapMaxTime,
+  setMountMaxTime,
+  setUnmountMaxTime,
+} from 'single-spa';
 import './index.css';
 import 'systemjs';
 import Cookies from 'js-cookie';
+
+// Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
+// lifecycle timeouts so we stop seeing "single-spa minified message #31"
+// warnings (default 4000 ms is too short for cross-domain micro-frontends).
+// Second arg `false` => log a warning instead of throwing on timeout.
+setBootstrapMaxTime(20000, false);
+setMountMaxTime(20000, false);
+setUnmountMaxTime(20000, false);
 
 // Sync cookies to localStorage for cross-domain micro-frontend access
 const syncAuthToLocalStorage = () => {
