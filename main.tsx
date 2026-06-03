@@ -9,6 +9,7 @@ import {
 import './index.css';
 import 'systemjs';
 import Cookies from 'js-cookie';
+import React from 'react';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
 // lifecycle timeouts so we stop seeing "single-spa minified message #31"
@@ -78,30 +79,24 @@ registerMicroApps([
       actions,
     },
   },
-  {
-    name: 'repcreationprofile',
-    entry: 'https://harxv25repcreationprofile.netlify.app/',
-    container: '#container-repcreationprofile',
-    activeRule: '/repcreationprofile',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
-    name: 'repassessments',
-    entry: 'https://harxv25assessmentsfront.netlify.app/',
-    container: '#container-repassessments',
-    activeRule: '/repassessments',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
+  // NOTE: repcreationprofile, repassessments and repdashboard have been merged
+  // into the unified `reporchestrator` micro-app. Their old prefixes now
+  // redirect to /reporchestrator/* (see App.tsx). Kept here commented for
+  // reference / rollback.
+  // {
+  //   name: 'repcreationprofile',
+  //   entry: 'https://harxv25repcreationprofile.netlify.app/',
+  //   container: '#container-repcreationprofile',
+  //   activeRule: '/repcreationprofile',
+  //   props: { sandbox: { experimentalStyleIsolation: true }, actions },
+  // },
+  // {
+  //   name: 'repassessments',
+  //   entry: 'https://harxv25assessmentsfront.netlify.app/',
+  //   container: '#container-repassessments',
+  //   activeRule: '/repassessments',
+  //   props: { sandbox: { experimentalStyleIsolation: true }, actions },
+  // },
   {
     name: 'company',
     entry: 'https://harxv25comporchestratorfront.netlify.app/',
@@ -114,19 +109,16 @@ registerMicroApps([
       actions,
     },
   },
+  // {
+  //   name: 'repdashboard',
+  //   entry: 'https://harxv25dashboardrepfront.netlify.app/',
+  //   container: '#container-app8',
+  //   activeRule: '/repdashboard',
+  //   props: { sandbox: { experimentalStyleIsolation: true }, actions },
+  // },
   {
-    name: 'repdashboard',
-    entry: 'https://harxv25dashboardrepfront.netlify.app/',
-    container: '#container-app8',
-    activeRule: '/repdashboard',
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: true,
-      },
-      actions,
-    },
-  },
-  {
+    // Unified rep app: onboarding orchestrator + dashboard + profile creation
+    // + wizard + assessments, all mounted under /reporchestrator.
     name: 'reporchestrator',
     entry: 'https://harxv25reporchestratorfront.netlify.app/',
     container: '#container-reporchestrator',
