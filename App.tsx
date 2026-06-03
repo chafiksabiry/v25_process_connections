@@ -28,13 +28,14 @@ const App = () => {
         <Route path="/app2" element={<div id="container-app2"></div>} />
         {/*         <Route path="/profile-wizard" element={ <Navigate to="/app3"/>}/>
         <Route path="/app3" element={ <div id="container-app3"></div>}/> */}
-        <Route path="/repcreationprofile/*" element={<div id="container-repcreationprofile"></div>} />
-        <Route path="/repassessments/*" element={<div id="container-repassessments"></div>} />
+        {/* Legacy rep prefixes consolidated into the unified reporchestrator app */}
+        <Route path="/repcreationprofile/*" element={<Navigate to="/reporchestrator/profile-import" replace />} />
+        <Route path="/repassessments/*" element={<Navigate to="/reporchestrator/assessment" replace />} />
+        <Route path="/repdashboard/*" element={<Navigate to="/reporchestrator/dashboard" replace />} />
         <Route path="/app4" element={<div id="container-app4"></div>} />
         <Route path="/app5" element={<div id="container-app5"></div>} />
         <Route path="/app6" element={<div id="container-app6"></div>} />
         <Route path="/app7" element={<div id="container-app7"></div>} />
-        <Route path="/repdashboard/*" element={<div id="container-app8"></div>} />
         <Route path="/reporchestrator/*" element={<div id="container-reporchestrator"></div>} />
 
         <Route path="/knowledgebase/*" element={<div id="container-app9"></div>} />
