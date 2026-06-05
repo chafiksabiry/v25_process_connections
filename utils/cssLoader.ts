@@ -14,24 +14,8 @@ interface CSSModule {
  */
 const cssModules: CSSModule[] = [
   {
-    url: 'https://websitev2026.netlify.app/index.css',
-    routes: ['/home']
-  },
-  {
     url: 'https://harx25register.netlify.app/index.css',
     routes: ['/app1', '/']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25repscreationwizardfrontend.netlify.app/index.css'
-      : 'https://harxv25repscreationwizardfrontend.netlify.app/index.css',
-    routes: ['/repcreationprofile']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25dashboardrepfront.netlify.app/index.css'
-      : 'https://harxv25dashboardrepfront.netlify.app/index.css',
-    routes: ['/repdashboard']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
@@ -44,12 +28,6 @@ const cssModules: CSSModule[] = [
       ? 'https://harxv25reporchestratorfront.netlify.app/index.css'
       : 'https://harxv25reporchestratorfront.netlify.app/index.css',
     routes: ['/reporchestrator']
-  },
-  {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25assessmentsfront.netlify.app/index.css'
-      : 'https://harxv25assessmentsfront.netlify.app/index.css',
-    routes: ['/repassessments']
   }
 ];
 
