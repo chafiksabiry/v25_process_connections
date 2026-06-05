@@ -5,6 +5,7 @@ import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
 import './App.css';
 import Cookies from 'js-cookie';
+import React from 'react';
 
 const App = () => {
   // Log userId in console
@@ -16,36 +17,18 @@ const App = () => {
     <Router>
       <CSSRouteLoader />
       <Routes>
-        {/* Home page routes */}
+        {/* Registration (app1) — landing + auth */}
         <Route path="/" element={<div id="container-app1"></div>} />
-        <Route path="/home" element={<div id="container-home"></div>} />
-
-        {/* Public routes */}
         <Route path="/app1" element={<div id="container-app1"></div>} />
         <Route path="/auth" element={<Navigate to="/" />} />
         <Route path="/linkedin/callback" element={<LinkedInCallback />} />
         <Route path="/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
-        <Route path="/app2" element={<div id="container-app2"></div>} />
-        {/*         <Route path="/profile-wizard" element={ <Navigate to="/app3"/>}/>
-        <Route path="/app3" element={ <div id="container-app3"></div>}/> */}
-        {/* Legacy rep prefixes consolidated into the unified reporchestrator app */}
-        <Route path="/repcreationprofile/*" element={<Navigate to="/reporchestrator/profile-import" replace />} />
-        <Route path="/repassessments/*" element={<Navigate to="/reporchestrator/assessment" replace />} />
-        <Route path="/repdashboard/*" element={<Navigate to="/reporchestrator/dashboard" replace />} />
-        <Route path="/app4" element={<div id="container-app4"></div>} />
-        <Route path="/app5" element={<div id="container-app5"></div>} />
-        <Route path="/app6" element={<div id="container-app6"></div>} />
-        <Route path="/app7" element={<div id="container-app7"></div>} />
+
+        {/* Reporchestrator (unified rep app) */}
         <Route path="/reporchestrator/*" element={<div id="container-reporchestrator"></div>} />
 
-        <Route path="/knowledgebase/*" element={<div id="container-app9"></div>} />
-        <Route path="/gigs" element={<div id="container-gigs"></div>} />
+        {/* Comporchestrator (company app) */}
         <Route path="/company/*" element={<div id="container-company"></div>} />
-        <Route path="/app12/*" element={<div id="container-app12"></div>} />
-        <Route path="/copilot" element={<div id="container-copilot"></div>} />
-        <Route path="/training" element={<div id="container-training"></div>} />
-        <Route path="/training/companydashboard/*" element={<div id="container-training"></div>} />
-        <Route path="/training/repdashboard/*" element={<div id="container-training"></div>} />
       </Routes>
     </Router>
   );
