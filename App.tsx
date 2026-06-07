@@ -24,8 +24,13 @@ const App = () => {
         <Route path="/linkedin/callback" element={<LinkedInCallback />} />
         <Route path="/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
 
-        {/* Reporchestrator (unified rep app) */}
-        <Route path="/reporchestrator/*" element={<div id="container-reporchestrator"></div>} />
+        {/* Reps unified app (onboarding orchestrator + dashboard).
+            Mounted under /reps. Old /reporchestrator/* links redirect here. */}
+        <Route path="/reps/*" element={<div id="container-reporchestrator"></div>} />
+        <Route
+          path="/reporchestrator/*"
+          element={<Navigate to={window.location.pathname.replace(/^\/reporchestrator/, '/reps') + window.location.search} replace />}
+        />
 
         {/* Comporchestrator (company app) */}
         <Route path="/company/*" element={<div id="container-company"></div>} />
