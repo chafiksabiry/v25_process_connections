@@ -27,9 +27,8 @@ const cssModules: CSSModule[] = [
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
       ? 'https://harxv25reporchestratorfront.netlify.app/index.css'
       : 'https://harxv25reporchestratorfront.netlify.app/index.css',
-    // The unified rep app is now mounted under /reps (was /reporchestrator).
-    // Keep the old prefix too so legacy links still get the stylesheet.
-    routes: ['/reps', '/reporchestrator']
+    // The unified rep app is now mounted under /reps.
+    routes: ['/reps']
   }
 ];
 

@@ -26,7 +26,7 @@ const App = () => {
 
         {/* Reps unified app (onboarding orchestrator + dashboard).
             Mounted under /reps. Old /reporchestrator/* links redirect here. */}
-        <Route path="/reps/*" element={<div id="container-reporchestrator"></div>} />
+        <Route path="/reps/*" element={<div id="container-reps"></div>} />
         <Route
           path="/reporchestrator/*"
           element={<Navigate to={window.location.pathname.replace(/^\/reporchestrator/, '/reps') + window.location.search} replace />}

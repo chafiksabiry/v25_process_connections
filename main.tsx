@@ -119,9 +119,9 @@ registerMicroApps([
   {
     // Unified rep app: onboarding orchestrator + dashboard + profile creation
     // + wizard + assessments, all mounted under /reps.
-    name: 'reporchestrator',
+    name: 'reps',
     entry: 'https://harxv25reporchestratorfront.netlify.app/',
-    container: '#container-reporchestrator',
+    container: '#container-reps',
     activeRule: '/reps',
     props: {
       sandbox: {
