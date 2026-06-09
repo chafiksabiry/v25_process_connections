@@ -67,11 +67,18 @@ registerMicroApps([
     },
   },
   {
-    name: 'app1',
+    name: 'auth',
     entry: 'https://harx25register.netlify.app',
     //entry: 'http://localhost:5157/',
-    container: '#container-app1',
-    activeRule: (location: { pathname: string; }) => location.pathname === '/' || location.pathname === '/app1',
+    container: '#container-auth',
+    activeRule: (location: { pathname: string }) => {
+      const p = location.pathname;
+      return (
+        p === '/' ||
+        p.startsWith('/auth') ||
+        p.startsWith('/linkedin')
+      );
+    },
     props: {
       sandbox: {
         experimentalStyleIsolation: true,

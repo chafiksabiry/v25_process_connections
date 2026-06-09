@@ -15,7 +15,7 @@ interface CSSModule {
 const cssModules: CSSModule[] = [
   {
     url: 'https://harx25register.netlify.app/index.css',
-    routes: ['/app1', '/']
+    routes: ['/auth', '/']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
