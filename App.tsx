@@ -7,6 +7,8 @@ import './App.css';
 import Cookies from 'js-cookie';
 import React from 'react';
 
+const RegistrationShell = () => <div id="container-auth"></div>;
+
 const App = () => {
   // Log userId in console
   const userId = Cookies.get('userId');
@@ -17,10 +19,10 @@ const App = () => {
     <Router>
       <CSSRouteLoader />
       <Routes>
-        {/* Registration (app1) — landing + auth */}
-        <Route path="/" element={<div id="container-app1"></div>} />
-        <Route path="/app1" element={<div id="container-app1"></div>} />
-        <Route path="/auth" element={<Navigate to="/" />} />
+        {/* Registration (auth) — landing + auth (signin, register, recovery…) */}
+        <Route path="/" element={<RegistrationShell />} />
+        <Route path="/auth" element={<Navigate to="/auth/signin" replace />} />
+        <Route path="/auth/*" element={<RegistrationShell />} />
         <Route path="/linkedin/callback" element={<LinkedInCallback />} />
         <Route path="/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
 
