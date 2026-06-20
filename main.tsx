@@ -19,26 +19,31 @@ setBootstrapMaxTime(20000, false);
 setMountMaxTime(20000, false);
 setUnmountMaxTime(20000, false);
 
-// Sync cookies to localStorage for cross-domain micro-frontend access
-const syncAuthToLocalStorage = () => {
-  const userId = Cookies.get('userId');
-  const companyId = Cookies.get('companyId');
+// Sync cookies ↔ localStorage for cross-domain micro-frontend access
+const syncAuthStorage = () => {
+  const cookieUserId = Cookies.get('userId');
+  const cookieCompanyId = Cookies.get('companyId');
+  const storedUserId = localStorage.getItem('userId');
+  const storedCompanyId = localStorage.getItem('companyId');
 
-  if (userId) {
-    localStorage.setItem('userId', userId);
-    // console.log('[Host] Synced userId to localStorage:', userId);
+  if (cookieUserId) {
+    localStorage.setItem('userId', cookieUserId);
+  } else if (storedUserId) {
+    Cookies.set('userId', storedUserId, { path: '/', sameSite: 'Lax' });
   }
-  if (companyId) {
-    localStorage.setItem('companyId', companyId);
-    // console.log('[Host] Synced companyId to localStorage:', companyId);
+
+  if (cookieCompanyId) {
+    localStorage.setItem('companyId', cookieCompanyId);
+  } else if (storedCompanyId) {
+    Cookies.set('companyId', storedCompanyId, { path: '/', sameSite: 'Lax' });
   }
 };
 
 // Sync auth data on load
-syncAuthToLocalStorage();
+syncAuthStorage();
 
-// Watch for cookie changes and sync to localStorage
-setInterval(syncAuthToLocalStorage, 1000);
+// Watch for cookie / storage changes and keep both in sync
+setInterval(syncAuthStorage, 1000);
 
 const initialState = { userId: null };
 const actions = initGlobalState(initialState);
@@ -142,7 +147,8 @@ registerMicroApps([
 const startQiankun = async () => {
   try {
     start({
-      prefetch: true,
+      // Do not prefetch the `home` app — websitev2026 often 404s and triggers CORS noise on /reps/*.
+      prefetch: ['auth', 'company', 'reps'],
       sandbox: {
         strictStyleIsolation: false,
         experimentalStyleIsolation: true,
