@@ -81,6 +81,7 @@ registerMicroApps([
       return (
         p === '/' ||
         p.startsWith('/auth') ||
+        p.startsWith('/admin') ||
         p.startsWith('/linkedin')
       );
     },
