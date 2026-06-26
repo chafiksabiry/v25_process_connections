@@ -25,6 +25,7 @@ const App = () => {
         <Route path="/" element={<RegistrationShell />} />
         <Route path="/auth" element={<Navigate to="/auth/signin" replace />} />
         <Route path="/auth/*" element={<RegistrationShell />} />
+        <Route path="/admin/*" element={<RegistrationShell />} />
         <Route path="/linkedin/callback" element={<LinkedInCallback />} />
         <Route path="/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
 
