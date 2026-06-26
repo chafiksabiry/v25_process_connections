@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
+import VisitorTracker from './VisitorTracker';
 import './App.css';
 import Cookies from 'js-cookie';
 import React from 'react';
@@ -17,6 +18,7 @@ const App = () => {
   console.log('[V25 Main App] token from localStorage:', token ? 'Present' : 'Not found');
   return (
     <Router>
+      <VisitorTracker />
       <CSSRouteLoader />
       <Routes>
         {/* Registration (auth) — landing + auth (signin, register, recovery…) */}
