@@ -10,6 +10,7 @@ import './index.css';
 import 'systemjs';
 import Cookies from 'js-cookie';
 import React from 'react';
+import { syncPageHead } from './lib/tracking/visitorTracking';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
 // lifecycle timeouts so we stop seeing "single-spa minified message #31"
@@ -177,6 +178,7 @@ if (!rootElement) {
 }
 
 const root = ReactDOM.createRoot(rootElement);
+syncPageHead();
 root.render(<App />);
 
 // Start Qiankun after host app is mounted

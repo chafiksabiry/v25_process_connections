@@ -10,7 +10,7 @@ declare global {
 
 /**
  * Mouseflow records the full session automatically on SPAs (History API).
- * Manual newPageView() fragments replays into 1–7s clips — do not call it.
+ * Manual newPageView() fragments replays into short clips — do not call it.
  */
 
 function upsertMeta(name: string, content: string, attribute: 'name' | 'property' = 'name') {
@@ -33,17 +33,6 @@ function upsertCanonical(href: string) {
   link.href = href;
 }
 
-export function trackPageView(path?: string): void {
-  const pagePath = path ?? buildTrackingPath();
-
-  if (typeof window.gtag === 'function') {
-    window.gtag('config', GA_MEASUREMENT_ID, {
-      page_path: pagePath,
-      page_title: document.title,
-    });
-  }
-}
-
 export function updatePageHead(meta: PageMeta): void {
   document.title = meta.title;
   upsertMeta('description', meta.description);
@@ -55,9 +44,24 @@ export function updatePageHead(meta: PageMeta): void {
   }
 }
 
-export function syncVisitorTracking(path?: string): void {
+/** Update document title + meta tags only (safe in qiankun child MFEs). */
+export function syncPageHead(path?: string): void {
   const pagePath = path ?? buildTrackingPath();
-  const meta = resolvePageMeta(pagePath);
-  updatePageHead(meta);
-  trackPageView(pagePath);
+  updatePageHead(resolvePageMeta(pagePath));
+}
+
+export function trackPageView(path?: string): void {
+  const pagePath = path ?? buildTrackingPath();
+
+  if (typeof window.gtag === 'function') {
+    window.gtag('config', GA_MEASUREMENT_ID, {
+      page_path: pagePath,
+      page_title: document.title,
+    });
+  }
+}
+
+export function syncVisitorTracking(path?: string): void {
+  syncPageHead(path);
+  trackPageView(path);
 }
