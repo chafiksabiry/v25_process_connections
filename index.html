@@ -24,18 +24,18 @@
       gtag('js', new Date());
       gtag('config', 'G-93ZHG8LNXL', { send_page_view: true });
     </script>
-    <!-- Mouseflow — session replay & heatmaps -->
-    <script type="text/javascript">
-      window._mfq = window._mfq || [];
-      (function () {
-        if (document.querySelector('script[src*="cdn.mouseflow.com/projects/da6228dd"]')) return;
-        var mf = document.createElement('script');
-        mf.type = 'text/javascript';
-        mf.async = true;
-        mf.src = 'https://cdn.mouseflow.com/projects/da6228dd-d4ca-437b-a84b-338ec23a3c34.js';
-        document.head.appendChild(mf);
-      })();
-    </script>
+<!-- Mouseflow — session replay (auto SPA; do not call newPageView manually) -->
+<script type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function () {
+    if (document.querySelector('script[src*="cdn.mouseflow.com/projects/da6228dd"]')) return;
+    var mf = document.createElement('script');
+    mf.type = 'text/javascript';
+    mf.async = true;
+    mf.src = 'https://cdn.mouseflow.com/projects/da6228dd-d4ca-437b-a84b-338ec23a3c34.js';
+    document.head.appendChild(mf);
+  })();
+</script>
     <!-- Zoho SalesIQ — visitor tracking & live chat (host shell only) -->
     <script>
       window.$zoho = window.$zoho || {};

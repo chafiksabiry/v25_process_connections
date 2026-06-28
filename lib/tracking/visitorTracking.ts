@@ -5,20 +5,13 @@ declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
-    _mfq?: Array<string | string[]>;
-    __harxMfPageTimer?: ReturnType<typeof setTimeout>;
   }
 }
 
-/** Qiankun mounts MFE DOM after route changes — delay so Mouseflow captures real UI. */
-function pushMouseflowPageView(pagePath: string, title: string) {
-  window._mfq = window._mfq || [];
-  if (window.__harxMfPageTimer) clearTimeout(window.__harxMfPageTimer);
-  window.__harxMfPageTimer = setTimeout(() => {
-    window._mfq?.push(['newPageView', pagePath, title]);
-    window.__harxMfPageTimer = undefined;
-  }, 700);
-}
+/**
+ * Mouseflow records the full session automatically on SPAs (History API).
+ * Manual newPageView() fragments replays into 1–7s clips — do not call it.
+ */
 
 function upsertMeta(name: string, content: string, attribute: 'name' | 'property' = 'name') {
   let tag = document.querySelector(`meta[${attribute}="${name}"]`);
@@ -49,8 +42,6 @@ export function trackPageView(path?: string): void {
       page_title: document.title,
     });
   }
-
-  pushMouseflowPageView(pagePath, document.title);
 }
 
 export function updatePageHead(meta: PageMeta): void {
