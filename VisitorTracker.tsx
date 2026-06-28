@@ -1,20 +1,18 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { buildTrackingPath } from './lib/tracking/pageMeta';
 import { syncVisitorTracking } from './lib/tracking/visitorTracking';
 
 export default function VisitorTracker() {
   const location = useLocation();
+  const lastPathRef = useRef('');
 
   useEffect(() => {
-    syncVisitorTracking(buildTrackingPath());
+    const path = buildTrackingPath();
+    if (path === lastPathRef.current) return;
+    lastPathRef.current = path;
+    syncVisitorTracking(path);
   }, [location.pathname, location.search, location.hash]);
-
-  useEffect(() => {
-    const onHashChange = () => syncVisitorTracking(buildTrackingPath());
-    window.addEventListener('hashchange', onHashChange);
-    return () => window.removeEventListener('hashchange', onHashChange);
-  }, []);
 
   return null;
 }
