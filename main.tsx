@@ -66,7 +66,7 @@ registerMicroApps([
     activeRule: (location: { pathname: string; }) => location.pathname === '/home',
     props: {
       sandbox: {
-        experimentalStyleIsolation: true,
+        experimentalStyleIsolation: false,
       },
       actions,
     },
@@ -87,7 +87,7 @@ registerMicroApps([
     },
     props: {
       sandbox: {
-        experimentalStyleIsolation: true,
+        experimentalStyleIsolation: false,
       },
       actions,
     },
@@ -117,7 +117,7 @@ registerMicroApps([
     activeRule: '/company',
     props: {
       sandbox: {
-        experimentalStyleIsolation: true,
+        experimentalStyleIsolation: false,
       },
       actions,
     },
@@ -138,7 +138,7 @@ registerMicroApps([
     activeRule: '/reps',
     props: {
       sandbox: {
-        experimentalStyleIsolation: true,
+        experimentalStyleIsolation: false,
       },
       actions,
     },
@@ -152,7 +152,8 @@ const startQiankun = async () => {
       prefetch: ['auth', 'company', 'reps'],
       sandbox: {
         strictStyleIsolation: false,
-        experimentalStyleIsolation: true,
+        // Shadow DOM blocks Mouseflow from recording clicks inside micro-apps.
+        experimentalStyleIsolation: false,
       },
       singular: false,
       fetch: (url: RequestInfo | URL, options: RequestInit | undefined) => {
