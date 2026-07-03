@@ -14,19 +14,15 @@ interface CSSModule {
  */
 const cssModules: CSSModule[] = [
   {
-    url: 'https://harx26register-recette.netlify.app/index.cssindex.css/index.css/index.css',
+    url: 'https://harx26register-recette.netlify.app/index.css',
     routes: ['/auth', '/']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harx26comporchestrator-recette.netlify.app/index.cssindex.css/index.css/index.css'
-      : 'https://harx26comporchestrator-recette.netlify.app/index.cssindex.css/index.css/index.css',
+    url: 'https://harx26comporchestrator-recette.netlify.app/index.css',
     routes: ['/company']
   },
   {
-    url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harx26reporchestrator-recette.netlify.app/index.cssindex.css/index.css/index.css'
-      : 'https://harx26reporchestrator-recette.netlify.app/index.cssindex.css/index.css/index.css',
+    url: 'https://harx26reporchestrator-recette.netlify.app/index.css',
     // The unified rep app is now mounted under /reps.
     routes: ['/reps']
   }
