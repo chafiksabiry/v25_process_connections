@@ -113,7 +113,7 @@ registerMicroApps([
   // },
   {
     name: 'company',
-    entry: 'https://harx26comporchestrator-rollback.netlify.app///',
+    entry: 'https://harx26comporchestrator-rollback.netlify.app/',
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -134,7 +134,7 @@ registerMicroApps([
     // Unified rep app: onboarding orchestrator + dashboard + profile creation
     // + wizard + assessments, all mounted under /reps.
     name: 'reps',
-    entry: 'https://harx26reporchestrator-rollback.netlify.app///',
+    entry: 'https://harx26reporchestrator-rollback.netlify.app/',
     container: '#container-reps',
     activeRule: '/reps',
     props: {
