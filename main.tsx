@@ -74,7 +74,7 @@ registerMicroApps([
   },
   {
     name: 'auth',
-    entry: 'https://harx25register.netlify.app',
+    entry: 'https://harx26register-recette.netlify.app',
     //entry: 'http://localhost:5157/',
     container: '#container-auth',
     activeRule: (location: { pathname: string }) => {
@@ -113,7 +113,7 @@ registerMicroApps([
   // },
   {
     name: 'company',
-    entry: 'https://harxv25comporchestratorfront.netlify.app/',
+    entry: 'https://harx26comporchestrator-recette.netlify.app///',
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -134,7 +134,7 @@ registerMicroApps([
     // Unified rep app: onboarding orchestrator + dashboard + profile creation
     // + wizard + assessments, all mounted under /reps.
     name: 'reps',
-    entry: 'https://harxv25reporchestratorfront.netlify.app/',
+    entry: 'https://harx26reporchestrator-recette.netlify.app///',
     container: '#container-reps',
     activeRule: '/reps',
     props: {
