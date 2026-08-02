@@ -11,6 +11,7 @@ import 'systemjs';
 import Cookies from 'js-cookie';
 import React from 'react';
 import { syncPageHead } from './lib/tracking/visitorTracking';
+import { MF_ENTRIES } from './lib/microfrontendEntries';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
 // lifecycle timeouts so we stop seeing "single-spa minified message #31"
@@ -61,7 +62,7 @@ const actions = initGlobalState(initialState);
 registerMicroApps([
   {
     name: 'home',
-    entry: 'https://websitev2026.netlify.app',
+    entry: MF_ENTRIES.home,
     //entry: 'http://localhost:5173/',
     container: '#container-home',
     activeRule: (location: { pathname: string; }) => location.pathname === '/home',
@@ -74,7 +75,7 @@ registerMicroApps([
   },
   {
     name: 'auth',
-    entry: 'https://harx26register-dev.netlify.app',
+    entry: MF_ENTRIES.auth,
     //entry: 'http://localhost:5157/',
     container: '#container-auth',
     activeRule: (location: { pathname: string }) => {
@@ -113,7 +114,7 @@ registerMicroApps([
   // },
   {
     name: 'company',
-    entry: 'https://harx26comporchestratorfront-dev.netlify.app/',
+    entry: MF_ENTRIES.company,
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -134,7 +135,7 @@ registerMicroApps([
     // Unified rep app: onboarding orchestrator + dashboard + profile creation
     // + wizard + assessments, all mounted under /reps.
     name: 'reps',
-    entry: 'https://harx26reporchestratorfront-dev.netlify.app/',
+    entry: MF_ENTRIES.reps,
     container: '#container-reps',
     activeRule: '/reps',
     props: {
