@@ -2,6 +2,18 @@
   publish = "dist"
   command = "npm ci && npm run build"
 
+[build.environment]
+  # Default: load *-dev microfrontends (current harx.ai shell behavior)
+  VITE_MF_AUTH_ENTRY = "https://harx26register-dev.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestratorfront-dev.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harx26reporchestratorfront-dev.netlify.app"
+  VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+
+# When the shell site production branch is ready to load production MFs,
+# set these Netlify env vars (Site settings) to the production Netlify hosts
+# for register / company / reps. Example:
+#   VITE_MF_REPS_ENTRY = https://<prod-reporchestrator>.netlify.app
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
