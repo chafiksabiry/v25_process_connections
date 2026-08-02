@@ -1,3 +1,5 @@
+import { MF_ENTRIES } from '../lib/microfrontendEntries';
+
 /**
  * Interface définissant la structure d'un module CSS
  * Un module CSS contient une URL vers le fichier CSS et les routes associées
@@ -14,15 +16,15 @@ interface CSSModule {
  */
 const cssModules: CSSModule[] = [
   {
-    url: 'https://harx26register-dev.netlify.app/index.css',
+    url: `${MF_ENTRIES.auth.replace(/\/$/, '')}/index.css`,
     routes: ['/auth', '/']
   },
   {
-    url: 'https://harx26comporchestratorfront-dev.netlify.app/index.css',
+    url: `${MF_ENTRIES.company.replace(/\/$/, '')}/index.css`,
     routes: ['/company']
   },
   {
-    url: 'https://harx26reporchestratorfront-dev.netlify.app/index.css',
+    url: `${MF_ENTRIES.reps.replace(/\/$/, '')}/index.css`,
     // The unified rep app is now mounted under /reps.
     routes: ['/reps']
   }
