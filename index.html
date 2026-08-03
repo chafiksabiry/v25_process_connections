@@ -51,6 +51,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Stable qiankun mounts (outside React) so they survive host re-renders -->
+    <div id="container-auth"></div>
+    <div id="container-reps"></div>
+    <div id="container-company"></div>
+    <div id="container-home"></div>
     <script type="module" src="/main.tsx"></script>
   </body>
 </html>
