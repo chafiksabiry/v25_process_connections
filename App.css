@@ -1,0 +1,55 @@
+/* Styles de base pour l'application hôte */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Host #root only mounts Router chrome (redirects / LinkedIn).
+ * MF UIs live in sibling #container-* nodes in index.html.
+ * A 100vh #root left a blank first viewport with the auth header fixed on top.
+ */
+#root {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+}
+
+#root:not(:has([data-host-page])) {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* Conteneurs des micro-frontends */
+[id^="container-"] {
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+/* Inactive MF shells must not stack extra viewports */
+#container-auth:not(.harx-mf-active),
+#container-reps:not(.harx-mf-active),
+#container-company:not(.harx-mf-active),
+#container-home:not(.harx-mf-active) {
+  display: none;
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+#container-auth.harx-mf-active,
+#container-reps.harx-mf-active,
+#container-company.harx-mf-active,
+#container-home.harx-mf-active {
+  display: block;
+  min-height: 100vh;
+}
