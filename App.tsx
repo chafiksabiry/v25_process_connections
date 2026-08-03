@@ -1,5 +1,5 @@
 //import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
@@ -8,10 +8,35 @@ import './App.css';
 import Cookies from 'js-cookie';
 import React from 'react';
 
-const RegistrationShell = () => <div id="container-auth"></div>;
+/**
+ * Keep qiankun containers mounted for the whole session.
+ * Route-switched containers get a new DOM node on each visit / host re-render,
+ * which triggers: "Target container … not existed after … mounted".
+ */
+const MicroAppContainers = () => {
+  const { pathname } = useLocation();
+  const showAuth =
+    pathname === '/' ||
+    pathname.startsWith('/auth') ||
+    pathname.startsWith('/admin');
+  const showReps = pathname.startsWith('/reps');
+  const showCompany = pathname.startsWith('/company');
+
+  const pane = (visible: boolean): React.CSSProperties => ({
+    display: visible ? 'block' : 'none',
+    minHeight: visible ? '100vh' : undefined,
+  });
+
+  return (
+    <>
+      <div id="container-auth" style={pane(showAuth)} />
+      <div id="container-reps" style={pane(showReps)} />
+      <div id="container-company" style={pane(showCompany)} />
+    </>
+  );
+};
 
 const App = () => {
-  // Log userId in console
   const userId = Cookies.get('userId');
   const token = localStorage.getItem('token');
   console.log('[V25 Main App] userId from cookie:', userId);
@@ -21,25 +46,25 @@ const App = () => {
       <VisitorTracker />
       <CSSRouteLoader />
       <Routes>
-        {/* Registration (auth) — landing + auth (signin, register, recovery…) */}
-        <Route path="/" element={<RegistrationShell />} />
         <Route path="/auth" element={<Navigate to="/auth/signin" replace />} />
-        <Route path="/auth/*" element={<RegistrationShell />} />
-        <Route path="/admin/*" element={<RegistrationShell />} />
         <Route path="/linkedin/callback" element={<LinkedInCallback />} />
         <Route path="/linkedin/signin/callback" element={<LinkedInSignInCallback />} />
-
-        {/* Reps unified app (onboarding orchestrator + dashboard).
-            Mounted under /reps. Old /reporchestrator/* links redirect here. */}
-        <Route path="/reps/*" element={<div id="container-reps"></div>} />
         <Route
           path="/reporchestrator/*"
-          element={<Navigate to={window.location.pathname.replace(/^\/reporchestrator/, '/reps') + window.location.search} replace />}
+          element={
+            <Navigate
+              to={
+                window.location.pathname.replace(/^\/reporchestrator/, '/reps') +
+                window.location.search
+              }
+              replace
+            />
+          }
         />
-
-        {/* Comporchestrator (company app) */}
-        <Route path="/company/*" element={<div id="container-company"></div>} />
+        {/* Catch-all keeps Router happy; real UI lives in permanent MF containers */}
+        <Route path="*" element={null} />
       </Routes>
+      <MicroAppContainers />
     </Router>
   );
 };
