@@ -12,6 +12,7 @@ import Cookies from 'js-cookie';
 import React from 'react';
 import { syncPageHead } from './lib/tracking/visitorTracking';
 import { MF_ENTRIES } from './lib/microfrontendEntries';
+import { subscribeAuthChanged } from './lib/authSync';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
 // lifecycle timeouts so we stop seeing "single-spa minified message #31"
@@ -47,8 +48,17 @@ syncAuthStorage();
 // Watch for cookie / storage changes and keep both in sync
 setInterval(syncAuthStorage, 1000);
 
-const initialState = { userId: null };
+const initialState = { userId: null as string | null, token: null as string | null };
 const actions = initGlobalState(initialState);
+
+// Keep qiankun global state aligned when any MF logs in / out
+subscribeAuthChanged((detail) => {
+  actions.setGlobalState({
+    userId: detail.userId,
+    token: detail.token,
+  });
+  syncAuthStorage();
+});
 
 // Listen for changes (for debugging)
 // actions.onGlobalStateChange((state: any, /*prev*/) => {
