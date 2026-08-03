@@ -51,8 +51,9 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Stable qiankun mounts (outside React) so they survive host re-renders -->
-    <div id="container-auth"></div>
+    <!-- Stable qiankun mounts (outside React) so they survive host re-renders.
+         harx-mf-active on auth by default for / cold start before React effect. -->
+    <div id="container-auth" class="harx-mf-active"></div>
     <div id="container-reps"></div>
     <div id="container-company"></div>
     <div id="container-home"></div>

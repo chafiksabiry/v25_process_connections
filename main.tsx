@@ -160,8 +160,9 @@ registerMicroApps([
 const startQiankun = async () => {
   try {
     start({
-      // Do not prefetch the `home` app — websitev2026 often 404s and triggers CORS noise on /reps/*.
-      prefetch: ['auth', 'company', 'reps'],
+      // Prefetch only the landing MF — company/reps cold-start during prefetch
+      // was contributing to single-spa #31 bootstrap timeouts on /.
+      prefetch: ['auth'],
       sandbox: {
         strictStyleIsolation: false,
         // Shadow DOM blocks Mouseflow from recording clicks inside micro-apps.
