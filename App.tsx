@@ -1,5 +1,4 @@
-//import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
@@ -9,33 +8,9 @@ import Cookies from 'js-cookie';
 import React from 'react';
 
 /**
- * Keep qiankun containers mounted for the whole session.
- * Route-switched containers get a new DOM node on each visit / host re-render,
- * which triggers: "Target container … not existed after … mounted".
+ * Qiankun containers live in index.html (outside React #root) so they are
+ * never recreated/destroyed by the host Router.
  */
-const MicroAppContainers = () => {
-  const { pathname } = useLocation();
-  const showAuth =
-    pathname === '/' ||
-    pathname.startsWith('/auth') ||
-    pathname.startsWith('/admin');
-  const showReps = pathname.startsWith('/reps');
-  const showCompany = pathname.startsWith('/company');
-
-  const pane = (visible: boolean): React.CSSProperties => ({
-    display: visible ? 'block' : 'none',
-    minHeight: visible ? '100vh' : undefined,
-  });
-
-  return (
-    <>
-      <div id="container-auth" style={pane(showAuth)} />
-      <div id="container-reps" style={pane(showReps)} />
-      <div id="container-company" style={pane(showCompany)} />
-    </>
-  );
-};
-
 const App = () => {
   const userId = Cookies.get('userId');
   const token = localStorage.getItem('token');
@@ -61,10 +36,9 @@ const App = () => {
             />
           }
         />
-        {/* Catch-all keeps Router happy; real UI lives in permanent MF containers */}
+        {/* Host chrome only; MF UIs mount into #container-* in index.html */}
         <Route path="*" element={null} />
       </Routes>
-      <MicroAppContainers />
     </Router>
   );
 };
