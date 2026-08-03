@@ -10,17 +10,17 @@ body {
 }
 
 /*
- * Host #root only mounts Router chrome (redirects / LinkedIn).
- * MF UIs live in sibling #container-* nodes in index.html.
- * A 100vh #root left a blank first viewport with the auth header fixed on top.
+ * ONLY the host shell #root (direct child of body).
+ * Do NOT use a bare `#root` selector — experimentalStyleIsolation is off,
+ * so it would also collapse each microfrontend's inner #root (blank page).
  */
-#root {
+body > #root {
   width: 100%;
   height: auto;
   min-height: 0;
 }
 
-#root:not(:has([data-host-page])) {
+body > #root:not(:has([data-host-page])) {
   position: absolute;
   width: 0;
   height: 0;
@@ -29,27 +29,27 @@ body {
 }
 
 /* Conteneurs des micro-frontends */
-[id^="container-"] {
+body > [id^="container-"] {
   width: 100%;
   min-height: 100vh;
   overflow: auto;
 }
 
 /* Inactive MF shells must not stack extra viewports */
-#container-auth:not(.harx-mf-active),
-#container-reps:not(.harx-mf-active),
-#container-company:not(.harx-mf-active),
-#container-home:not(.harx-mf-active) {
+body > #container-auth:not(.harx-mf-active),
+body > #container-reps:not(.harx-mf-active),
+body > #container-company:not(.harx-mf-active),
+body > #container-home:not(.harx-mf-active) {
   display: none;
   min-height: 0;
   height: 0;
   overflow: hidden;
 }
 
-#container-auth.harx-mf-active,
-#container-reps.harx-mf-active,
-#container-company.harx-mf-active,
-#container-home.harx-mf-active {
+body > #container-auth.harx-mf-active,
+body > #container-reps.harx-mf-active,
+body > #container-company.harx-mf-active,
+body > #container-home.harx-mf-active {
   display: block;
   min-height: 100vh;
 }
