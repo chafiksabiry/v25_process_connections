@@ -28,11 +28,14 @@ body > #root:not(:has([data-host-page])) {
   clip: rect(0, 0, 0, 0);
 }
 
-/* Conteneurs des micro-frontends */
+/* Conteneurs des micro-frontends.
+ * Prefer overflow-y scroll without forcing overflow-x:auto (which clips
+ * absolute/fixed dropdown menus that escape the MF content box). */
 body > [id^="container-"] {
   width: 100%;
   min-height: 100vh;
-  overflow: auto;
+  overflow-x: visible;
+  overflow-y: auto;
 }
 
 /* Inactive MF shells must not stack extra viewports */
