@@ -3,8 +3,8 @@
  * Override per env via Netlify / Vite:
  *   VITE_MF_AUTH_ENTRY, VITE_MF_COMPANY_ENTRY, VITE_MF_REPS_ENTRY, VITE_MF_HOME_ENTRY
  *
- * Default = *-dev Netlify sites (current harx.ai shell still points here until
- * production MF hosts are wired in Netlify context.production).
+ * Defaults = *-dev Netlify sites (local / branch builds).
+ * Production shell (harx.ai) overrides via netlify.toml [context.production].
  */
 const trimSlash = (url: string) => url.replace(/\/+$/, '') + '/';
 
