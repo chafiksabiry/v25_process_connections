@@ -126,7 +126,10 @@ registerMicroApps([
     name: 'company',
     entry: MF_ENTRIES.company,
     container: '#container-company',
-    activeRule: '/company',
+    // Dedicated call-center entry reuses the company orchestrator MF.
+    activeRule: (location: { pathname: string }) =>
+      location.pathname.startsWith('/company') ||
+      location.pathname.startsWith('/call-center'),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,
