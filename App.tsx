@@ -28,7 +28,9 @@ function MicroAppContainerVisibility() {
       active.add('container-auth');
     }
     if (pathname.startsWith('/reps')) active.add('container-reps');
-    if (pathname.startsWith('/company')) active.add('container-company');
+    if (pathname.startsWith('/company') || pathname.startsWith('/call-center')) {
+      active.add('container-company');
+    }
     if (pathname === '/home') active.add('container-home');
 
     for (const id of MF_CONTAINERS) {
