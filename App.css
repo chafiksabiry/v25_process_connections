@@ -9,14 +9,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
+/*
+ * ONLY the host shell #root (direct child of body).
+ * Do NOT use a bare `#root` selector — experimentalStyleIsolation is off,
+ * so it would also collapse each microfrontend's inner #root (blank page).
+ */
+body > #root {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 0;
 }
 
-/* Conteneurs des micro-frontends */
-[id^="container-"] {
+body > #root:not(:has([data-host-page])) {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* Conteneurs des micro-frontends.
+ * Prefer overflow-y scroll without forcing overflow-x:auto (which clips
+ * absolute/fixed dropdown menus that escape the MF content box). */
+body > [id^="container-"] {
   width: 100%;
-  height: 100vh;
-  overflow: auto;
+  min-height: 100vh;
+  overflow-x: visible;
+  overflow-y: auto;
+}
+
+/* Inactive MF shells must not stack extra viewports */
+body > #container-auth:not(.harx-mf-active),
+body > #container-reps:not(.harx-mf-active),
+body > #container-company:not(.harx-mf-active),
+body > #container-home:not(.harx-mf-active) {
+  display: none;
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+body > #container-auth.harx-mf-active,
+body > #container-reps.harx-mf-active,
+body > #container-company.harx-mf-active,
+body > #container-home.harx-mf-active {
+  display: block;
+  min-height: 100vh;
 }

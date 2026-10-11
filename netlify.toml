@@ -2,6 +2,27 @@
   publish = "dist"
   command = "npm ci && npm run build"
 
+[build.environment]
+  # recette branch: load the *-recette microfrontends in every context
+  VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
+  VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+
+# recette branch: every context points to the Recette backends and micro-frontends
+[context.production.environment]
+  VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
+  VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+
+# Alias used by some Netlify branch setups
+[context.prod.environment]
+  VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
+  VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

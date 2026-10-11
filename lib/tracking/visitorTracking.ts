@@ -34,9 +34,15 @@ function upsertCanonical(href: string) {
 }
 
 export function updatePageHead(meta: PageMeta): void {
-  document.title = meta.title;
+  // Host + child MFEs both stamp titles — collapse duplicated "HARX - HARX …"
+  let title = (meta.title || 'HARX').trim();
+  title = title.replace(/^(HARX\s*[—\-–|:]\s*)+/i, 'HARX — ');
+  if (/^HARX\s+HARX\b/i.test(title)) {
+    title = title.replace(/^HARX\s+/i, '');
+  }
+  document.title = title;
   upsertMeta('description', meta.description);
-  upsertMeta('og:title', meta.title, 'property');
+  upsertMeta('og:title', title, 'property');
   upsertMeta('og:description', meta.description, 'property');
   if (meta.canonical) {
     upsertMeta('og:url', meta.canonical, 'property');

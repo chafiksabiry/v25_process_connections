@@ -11,6 +11,8 @@ import 'systemjs';
 import Cookies from 'js-cookie';
 import React from 'react';
 import { syncPageHead } from './lib/tracking/visitorTracking';
+import { MF_ENTRIES } from './lib/microfrontendEntries';
+import { subscribeAuthChanged } from './lib/authSync';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
 // lifecycle timeouts so we stop seeing "single-spa minified message #31"
@@ -46,8 +48,17 @@ syncAuthStorage();
 // Watch for cookie / storage changes and keep both in sync
 setInterval(syncAuthStorage, 1000);
 
-const initialState = { userId: null };
+const initialState = { userId: null as string | null, token: null as string | null };
 const actions = initGlobalState(initialState);
+
+// Keep qiankun global state aligned when any MF logs in / out
+subscribeAuthChanged((detail) => {
+  actions.setGlobalState({
+    userId: detail.userId,
+    token: detail.token,
+  });
+  syncAuthStorage();
+});
 
 // Listen for changes (for debugging)
 // actions.onGlobalStateChange((state: any, /*prev*/) => {
@@ -61,7 +72,7 @@ const actions = initGlobalState(initialState);
 registerMicroApps([
   {
     name: 'home',
-    entry: 'https://websitev2026.netlify.app',
+    entry: MF_ENTRIES.home,
     //entry: 'http://localhost:5173/',
     container: '#container-home',
     activeRule: (location: { pathname: string; }) => location.pathname === '/home',
@@ -74,7 +85,7 @@ registerMicroApps([
   },
   {
     name: 'auth',
-    entry: 'https://harx26register-recette.netlify.app',
+    entry: MF_ENTRIES.auth,
     //entry: 'http://localhost:5157/',
     container: '#container-auth',
     activeRule: (location: { pathname: string }) => {
@@ -113,9 +124,12 @@ registerMicroApps([
   // },
   {
     name: 'company',
-    entry: 'https://harx26comporchestrator-recette.netlify.app/',
+    entry: MF_ENTRIES.company,
     container: '#container-company',
-    activeRule: '/company',
+    // Dedicated call-center entry reuses the company orchestrator MF.
+    activeRule: (location: { pathname: string }) =>
+      location.pathname.startsWith('/company') ||
+      location.pathname.startsWith('/call-center'),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,
@@ -134,7 +148,7 @@ registerMicroApps([
     // Unified rep app: onboarding orchestrator + dashboard + profile creation
     // + wizard + assessments, all mounted under /reps.
     name: 'reps',
-    entry: 'https://harx26reporchestrator-recette.netlify.app/',
+    entry: MF_ENTRIES.reps,
     container: '#container-reps',
     activeRule: '/reps',
     props: {
@@ -149,8 +163,9 @@ registerMicroApps([
 const startQiankun = async () => {
   try {
     start({
-      // Do not prefetch the `home` app — websitev2026 often 404s and triggers CORS noise on /reps/*.
-      prefetch: ['auth', 'company', 'reps'],
+      // Prefetch only the landing MF — company/reps cold-start during prefetch
+      // was contributing to single-spa #31 bootstrap timeouts on /.
+      prefetch: ['auth'],
       sandbox: {
         strictStyleIsolation: false,
         // Shadow DOM blocks Mouseflow from recording clicks inside micro-apps.
