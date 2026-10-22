@@ -42,7 +42,6 @@ body > [id^="container-"] {
 body > #container-auth:not(.harx-mf-active),
 body > #container-reps:not(.harx-mf-active),
 body > #container-company:not(.harx-mf-active),
-body > #container-callcenter:not(.harx-mf-active),
 body > #container-home:not(.harx-mf-active) {
   display: none;
   min-height: 0;
@@ -53,7 +52,6 @@ body > #container-home:not(.harx-mf-active) {
 body > #container-auth.harx-mf-active,
 body > #container-reps.harx-mf-active,
 body > #container-company.harx-mf-active,
-body > #container-callcenter.harx-mf-active,
 body > #container-home.harx-mf-active {
   display: block;
   min-height: 100vh;
