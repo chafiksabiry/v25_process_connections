@@ -11,6 +11,7 @@ const MF_CONTAINERS = [
   'container-auth',
   'container-reps',
   'container-company',
+  'container-callcenter',
   'container-home',
 ] as const;
 
@@ -30,6 +31,9 @@ function MicroAppContainerVisibility() {
     if (pathname.startsWith('/reps')) active.add('container-reps');
     if (pathname.startsWith('/company') || pathname.startsWith('/call-center')) {
       active.add('container-company');
+    }
+    if (pathname === '/callcentre' || pathname.startsWith('/callcentre/')) {
+      active.add('container-callcenter');
     }
     if (pathname === '/home') active.add('container-home');
 
