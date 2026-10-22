@@ -8,6 +8,7 @@
   VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+  VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
 
 # recette branch: every context points to the Recette backends and micro-frontends
 [context.production.environment]
@@ -15,6 +16,7 @@
   VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+  VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
 
 # Alias used by some Netlify branch setups
 [context.prod.environment]
@@ -22,6 +24,7 @@
   VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
+  VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
 
 [[redirects]]
   from = "/*"
