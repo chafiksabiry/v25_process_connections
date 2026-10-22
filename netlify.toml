@@ -8,7 +8,6 @@
   VITE_MF_COMPANY_ENTRY = "https://harx26comporchestratorfront-dev.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harx26reporchestratorfront-dev.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
-  VITE_MF_CALLCENTER_ENTRY = "https://harxv25callcenterfront.netlify.app"
 
 # Production (harx.ai) — production Netlify MF hosts (not *-dev)
 [context.production.environment]
@@ -16,7 +15,6 @@
   VITE_MF_COMPANY_ENTRY = "https://harxv25comporchestratorfront.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harxv25reporchestratorfront.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
-  VITE_MF_CALLCENTER_ENTRY = "https://harxv25callcenterfront.netlify.app"
 
 # Alias used by some Netlify branch setups
 [context.prod.environment]
@@ -24,7 +22,6 @@
   VITE_MF_COMPANY_ENTRY = "https://harxv25comporchestratorfront.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harxv25reporchestratorfront.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
-  VITE_MF_CALLCENTER_ENTRY = "https://harxv25callcenterfront.netlify.app"
 
 [[redirects]]
   from = "/*"

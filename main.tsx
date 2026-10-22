@@ -137,20 +137,6 @@ registerMicroApps([
       actions,
     },
   },
-  {
-    // Application dédiée aux centres d'appels (distincte de /call-center, qui reste servi par `company`).
-    name: 'callcenter',
-    entry: MF_ENTRIES.callcenter,
-    container: '#container-callcenter',
-    activeRule: (location: { pathname: string }) =>
-      location.pathname === '/callcentre' || location.pathname.startsWith('/callcentre/'),
-    props: {
-      sandbox: {
-        experimentalStyleIsolation: false,
-      },
-      actions,
-    },
-  },
   // {
   //   name: 'repdashboard',
   //   entry: 'https://harxv25dashboardrepfront.netlify.app/',
