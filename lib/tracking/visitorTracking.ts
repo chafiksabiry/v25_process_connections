@@ -1,5 +1,5 @@
 import { GA_MEASUREMENT_ID } from './constants';
-import { buildTrackingPath, resolvePageMeta, type PageMeta } from './pageMeta';
+import { buildTrackingPath, isNoindexPath, resolvePageMeta, type PageMeta } from './pageMeta';
 
 declare global {
   interface Window {
@@ -44,6 +44,7 @@ export function updatePageHead(meta: PageMeta): void {
   upsertMeta('description', meta.description);
   upsertMeta('og:title', title, 'property');
   upsertMeta('og:description', meta.description, 'property');
+  upsertMeta('robots', meta.noindex ? 'noindex,nofollow' : 'index,follow');
   if (meta.canonical) {
     upsertMeta('og:url', meta.canonical, 'property');
     upsertCanonical(meta.canonical);
@@ -53,7 +54,7 @@ export function updatePageHead(meta: PageMeta): void {
 /** Update document title + meta tags only (safe in qiankun child MFEs). */
 export function syncPageHead(path?: string): void {
   const pagePath = path ?? buildTrackingPath();
-  updatePageHead(resolvePageMeta(pagePath));
+  updatePageHead({ ...resolvePageMeta(pagePath), noindex: isNoindexPath(pagePath) });
 }
 
 export function trackPageView(path?: string): void {

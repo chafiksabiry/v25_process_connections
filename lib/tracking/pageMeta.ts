@@ -4,6 +4,8 @@ export type PageMeta = {
   title: string;
   description: string;
   canonical?: string;
+  /** Routes privées / sans valeur SEO : balise robots noindex posée à l'exécution. */
+  noindex?: boolean;
 };
 
 const BASE_TITLE = 'HARX';
@@ -150,6 +152,24 @@ export function normalizeTrackingPath(path: string): string {
   const withoutHash = path.split('#')[0] || '/';
   const pathname = withoutHash.startsWith('/') ? withoutHash : `/${withoutHash}`;
   return pathname.replace(/\/+$/, '') || '/';
+}
+
+const NOINDEX_PREFIXES = [
+  '/admin',
+  '/company',
+  '/call-center',
+  '/callcentre',
+  '/reps',
+  '/reporchestrator',
+  '/linkedin',
+  '/profile-completion',
+  '/auth/signin',
+  '/auth/recovery',
+];
+
+export function isNoindexPath(rawPath: string): boolean {
+  const pathname = normalizeTrackingPath(rawPath.split('?')[0]);
+  return NOINDEX_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
 }
 
 export function resolvePageMeta(rawPath: string): PageMeta {
