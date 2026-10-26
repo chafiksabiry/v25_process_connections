@@ -13,6 +13,7 @@
  *   window.dispatchEvent(new CustomEvent('harx:conversion', { detail: { name: 'sign_up', userType } }))
  */
 import { GA_MEASUREMENT_ID } from './constants';
+import { CONSENT_EVENT, readConsent, type ConsentChoice } from '../consent';
 
 type ConversionDetail = { name?: string; userType?: string };
 
@@ -95,9 +96,17 @@ function onConversion(event: Event): void {
   }
 }
 
-export function initConversionTracking(): void {
-  initGoogleAds();
+function initMarketingTags(): void {
   initMetaPixel();
   initLinkedIn();
+}
+
+export function initConversionTracking(): void {
+  initGoogleAds();
+  // Meta et LinkedIn déposent des cookies publicitaires : uniquement avec le consentement « publicité ».
+  if (readConsent()?.marketing) initMarketingTags();
+  window.addEventListener(CONSENT_EVENT, (event) => {
+    if ((event as CustomEvent<ConsentChoice>).detail?.marketing) initMarketingTags();
+  });
   window.addEventListener('harx:conversion', onConversion);
 }

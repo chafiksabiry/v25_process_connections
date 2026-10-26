@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'r
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
+import CookieBanner from './components/CookieBanner';
 import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
@@ -69,6 +70,7 @@ const App = () => {
   return (
     <Router>
       <VisitorTracker />
+      <CookieBanner />
       <CSSRouteLoader />
       <MicroAppContainerVisibility />
       <Routes>

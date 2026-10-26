@@ -12,6 +12,7 @@ import Cookies from 'js-cookie';
 import React from 'react';
 import { syncPageHead } from './lib/tracking/visitorTracking';
 import { MF_ENTRIES } from './lib/microfrontendEntries';
+import { initConsent } from './lib/consent';
 import { initConversionTracking } from './lib/tracking/conversions';
 import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
@@ -205,6 +206,7 @@ const startQiankun = async () => {
   }
 };
 
+initConsent();
 initConversionTracking();
 
 // Mount host app first
