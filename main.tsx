@@ -13,6 +13,7 @@ import React from 'react';
 import { syncPageHead } from './lib/tracking/visitorTracking';
 import { MF_ENTRIES } from './lib/microfrontendEntries';
 import { initConversionTracking } from './lib/tracking/conversions';
+import { isLegalPath } from './lib/legalRoutes';
 import { subscribeAuthChanged } from './lib/authSync';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
@@ -95,7 +96,8 @@ registerMicroApps([
         p === '/' ||
         p.startsWith('/auth') ||
         p.startsWith('/admin') ||
-        p.startsWith('/linkedin')
+        p.startsWith('/linkedin') ||
+        isLegalPath(p)
       );
     },
     props: {

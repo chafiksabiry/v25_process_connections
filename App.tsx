@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'r
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
+import { isLegalPath } from './lib/legalRoutes';
 import VisitorTracker from './VisitorTracker';
 import './App.css';
 import Cookies from 'js-cookie';
@@ -24,7 +25,8 @@ function MicroAppContainerVisibility() {
     if (
       pathname === '/' ||
       pathname.startsWith('/auth') ||
-      pathname.startsWith('/admin')
+      pathname.startsWith('/admin') ||
+      isLegalPath(pathname)
     ) {
       active.add('container-auth');
     }

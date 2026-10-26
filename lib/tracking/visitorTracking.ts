@@ -58,15 +58,26 @@ export function syncPageHead(path?: string): void {
   updatePageHead({ ...resolvePageMeta(pagePath), noindex: isNoindexPath(pagePath) });
 }
 
+/**
+ * Le shell est la seule source des page_view GA4 (les micro-apps ne les émettent plus
+ * quand elles tournent sous qiankun). Léger délai pour lire le titre posé par la micro-app.
+ */
+const PAGE_VIEW_DELAY_MS = 400;
+let pageViewTimer: ReturnType<typeof setTimeout> | undefined;
+
 export function trackPageView(path?: string): void {
   const pagePath = path ?? buildTrackingPath();
 
-  if (typeof window.gtag === 'function') {
-    window.gtag('config', GA_MEASUREMENT_ID, {
-      page_path: pagePath,
-      page_title: document.title,
-    });
-  }
+  if (pageViewTimer) clearTimeout(pageViewTimer);
+  pageViewTimer = setTimeout(() => {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'page_view', {
+        page_path: pagePath,
+        page_title: document.title,
+        send_to: GA_MEASUREMENT_ID,
+      });
+    }
+  }, PAGE_VIEW_DELAY_MS);
 }
 
 export function syncVisitorTracking(path?: string): void {
