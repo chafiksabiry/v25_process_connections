@@ -1,16 +1,22 @@
 /**
- * Balises publicitaires (Google Ads, Meta, LinkedIn) et évènement de conversion.
+ * Balises publicitaires (Google Ads, Meta, LinkedIn) et évènements de conversion.
  *
  * Chaque plateforme n'est chargée que si son identifiant est défini à la build
  * (variables Netlify) : sans identifiant, aucun script tiers n'est ajouté.
- *   VITE_GADS_ID                       ex. AW-XXXXXXXXX
- *   VITE_GADS_SIGNUP_LABEL             étiquette de conversion « inscription »
- *   VITE_META_PIXEL_ID                 identifiant du pixel Meta
- *   VITE_LINKEDIN_PARTNER_ID           identifiant partenaire de l'Insight Tag
- *   VITE_LINKEDIN_SIGNUP_CONVERSION_ID identifiant de conversion « inscription »
+ *
+ * Conversions distinctes par type de compte (rep, entreprise, call center) :
+ *   VITE_GADS_SEND_TO_REP / _COMPANY / _CALLCENTER   valeur `send_to` complète, ex. AW-123456789/AbCdEf
+ *   VITE_LINKEDIN_CONVERSION_ID_REP / _COMPANY / _CALLCENTER
+ * Repli (une seule conversion pour tous les profils), si la variable du type est absente :
+ *   VITE_GADS_ID + VITE_GADS_SIGNUP_LABEL, VITE_LINKEDIN_SIGNUP_CONVERSION_ID
+ * Identifiants communs :
+ *   VITE_GADS_ID (sinon déduit du premier send_to), VITE_META_PIXEL_ID, VITE_LINKEDIN_PARTNER_ID
+ * Meta : évènement standard CompleteRegistration + évènement personnalisé par type
+ *   (SignUpRep, SignUpCompany, SignUpCallCenter).
  *
  * Les micro-apps déclenchent la conversion par un évènement DOM :
  *   window.dispatchEvent(new CustomEvent('harx:conversion', { detail: { name: 'sign_up', userType } }))
+ *   avec userType = 'rep' | 'company' | 'call-center'.
  */
 import { GA_MEASUREMENT_ID } from './constants';
 import { CONSENT_EVENT, readConsent, type ConsentChoice } from '../consent';
@@ -26,11 +32,41 @@ type AdWindow = Window & {
 };
 
 const env = import.meta.env as Record<string, string | undefined>;
-const GADS_ID = env.VITE_GADS_ID;
-const GADS_SIGNUP_LABEL = env.VITE_GADS_SIGNUP_LABEL;
+
+type UserKind = 'rep' | 'company' | 'callcenter';
+
+const GADS_SEND_TO: Record<UserKind, string | undefined> = {
+  rep: env.VITE_GADS_SEND_TO_REP,
+  company: env.VITE_GADS_SEND_TO_COMPANY,
+  callcenter: env.VITE_GADS_SEND_TO_CALLCENTER,
+};
+const GADS_FALLBACK_SEND_TO =
+  env.VITE_GADS_ID && env.VITE_GADS_SIGNUP_LABEL ? `${env.VITE_GADS_ID}/${env.VITE_GADS_SIGNUP_LABEL}` : undefined;
+const GADS_ID =
+  env.VITE_GADS_ID || Object.values(GADS_SEND_TO).find((v) => v && v.includes('/'))?.split('/')[0];
+
+const LINKEDIN_CONVERSION_IDS: Record<UserKind, string | undefined> = {
+  rep: env.VITE_LINKEDIN_CONVERSION_ID_REP,
+  company: env.VITE_LINKEDIN_CONVERSION_ID_COMPANY,
+  callcenter: env.VITE_LINKEDIN_CONVERSION_ID_CALLCENTER,
+};
+const LINKEDIN_FALLBACK_CONVERSION_ID = env.VITE_LINKEDIN_SIGNUP_CONVERSION_ID;
+
 const META_PIXEL_ID = env.VITE_META_PIXEL_ID;
 const LINKEDIN_PARTNER_ID = env.VITE_LINKEDIN_PARTNER_ID;
-const LINKEDIN_SIGNUP_CONVERSION_ID = env.VITE_LINKEDIN_SIGNUP_CONVERSION_ID;
+
+const META_CUSTOM_EVENTS: Record<UserKind, string> = {
+  rep: 'SignUpRep',
+  company: 'SignUpCompany',
+  callcenter: 'SignUpCallCenter',
+};
+
+function toUserKind(userType: string): UserKind | null {
+  if (userType === 'rep') return 'rep';
+  if (userType === 'company') return 'company';
+  if (userType === 'call-center' || userType === 'callcenter') return 'callcenter';
+  return null;
+}
 
 const w = window as AdWindow;
 
@@ -81,18 +117,20 @@ function onConversion(event: Event): void {
   const detail = ((event as CustomEvent<ConversionDetail>).detail ?? {}) as ConversionDetail;
   if (detail.name !== 'sign_up') return;
   const userType = detail.userType ?? 'unknown';
+  const kind = toUserKind(userType);
 
   if (typeof w.gtag === 'function') {
     w.gtag('event', 'sign_up', { method: 'email', user_type: userType, send_to: GA_MEASUREMENT_ID });
-    if (GADS_ID && GADS_SIGNUP_LABEL) {
-      w.gtag('event', 'conversion', { send_to: `${GADS_ID}/${GADS_SIGNUP_LABEL}` });
-    }
+    const sendTo = (kind && GADS_SEND_TO[kind]) || GADS_FALLBACK_SEND_TO;
+    if (sendTo) w.gtag('event', 'conversion', { send_to: sendTo });
   }
   if (META_PIXEL_ID && typeof w.fbq === 'function') {
     w.fbq('track', 'CompleteRegistration', { content_name: userType });
+    if (kind) w.fbq('trackCustom', META_CUSTOM_EVENTS[kind]);
   }
-  if (LINKEDIN_PARTNER_ID && LINKEDIN_SIGNUP_CONVERSION_ID && typeof w.lintrk === 'function') {
-    w.lintrk('track', { conversion_id: Number(LINKEDIN_SIGNUP_CONVERSION_ID) });
+  if (LINKEDIN_PARTNER_ID && typeof w.lintrk === 'function') {
+    const conversionId = (kind && LINKEDIN_CONVERSION_IDS[kind]) || LINKEDIN_FALLBACK_CONVERSION_ID;
+    if (conversionId) w.lintrk('track', { conversion_id: Number(conversionId) });
   }
 }
 
