@@ -40,26 +40,21 @@
         ]
       }
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-93ZHG8LNXL"></script>
+    <!-- Google tag : chargé uniquement après consentement (lib/consent.ts) ; Consent Mode refusé par défaut -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+      });
       gtag('js', new Date());
       gtag('config', 'G-93ZHG8LNXL', { send_page_view: false });
     </script>
-<!-- Mouseflow — session replay (auto SPA; do not call newPageView manually) -->
-<script type="text/javascript">
-  window._mfq = window._mfq || [];
-  (function () {
-    if (document.querySelector('script[src*="cdn.mouseflow.com/projects/da6228dd"]')) return;
-    var mf = document.createElement('script');
-    mf.type = 'text/javascript';
-    mf.async = true;
-    mf.src = 'https://cdn.mouseflow.com/projects/da6228dd-d4ca-437b-a84b-338ec23a3c34.js';
-    document.head.appendChild(mf);
-  })();
-</script>
+    <!-- Mouseflow — session replay : chargé après consentement « mesure d'audience » (lib/consent.ts ; auto SPA, ne pas appeler newPageView) -->
+    <script>window._mfq = window._mfq || [];</script>
     <!-- Zoho SalesIQ — visitor tracking & live chat (host shell only) -->
     <script>
       window.$zoho = window.$zoho || {};
