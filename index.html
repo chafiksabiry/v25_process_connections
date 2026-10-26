@@ -80,19 +80,48 @@
     <div id="container-auth" class="harx-mf-active">
       <!-- Aperçu statique de la landing pour les robots sans JavaScript ; remplacé au montage du module auth (qiankun vide le conteneur). -->
       <div id="seo-snapshot" style="max-width:960px;margin:0 auto;padding:48px 24px;font-family:system-ui,sans-serif">
-        <h1>L'Engagement Client Propulsé par l'IA — Transaction-as-a-Service</h1>
-        <p>Arrêtez de payer pour des postes. Commencez à payer pour des résultats.</p>
-        <p>Harx vous connecte aux agents — et vous facture uniquement lorsqu'ils livrent un résultat.</p>
-        <p>Harx connecte votre entreprise à un réseau mondial d'agents certifiés — humains ou IA — qui gèrent votre engagement client de bout en bout. Chaque interaction est évaluée en temps réel. Vous ne payez que lorsque le résultat que vous avez défini est atteint.</p>
-        <nav aria-label="Accès">
-          <a href="/auth/choice">Démarrer</a> ·
-          <a href="/auth/register-company">Inscription entreprise</a> ·
-          <a href="/auth/register-rep">Inscription rep</a> ·
-          <a href="/privacy">Confidentialité</a> ·
-          <a href="/terms">Conditions</a>
-        </nav>
+        <div data-snap-lang="fr" lang="fr">
+          <h1>L'Engagement Client Propulsé par l'IA — Transaction-as-a-Service</h1>
+          <p>Arrêtez de payer pour des postes. Commencez à payer pour des résultats.</p>
+          <p>Harx vous connecte aux agents — et vous facture uniquement lorsqu'ils livrent un résultat.</p>
+          <p>Harx connecte votre entreprise à un réseau mondial d'agents certifiés — humains ou IA — qui gèrent votre engagement client de bout en bout. Chaque interaction est évaluée en temps réel. Vous ne payez que lorsque le résultat que vous avez défini est atteint.</p>
+          <nav aria-label="Accès">
+            <a href="/fr/auth/choice">Démarrer</a> ·
+            <a href="/fr/auth/register-company">Inscription entreprise</a> ·
+            <a href="/fr/auth/register-rep">Inscription rep</a> ·
+            <a href="/fr/privacy">Confidentialité</a> ·
+            <a href="/fr/terms">Conditions</a> ·
+            <a href="/en">English</a>
+          </nav>
+        </div>
+        <div data-snap-lang="en" lang="en">
+          <h1>AI-Powered Customer Engagement Meets Transaction-as-a-Service</h1>
+          <p>Stop paying for seats. Start paying for results.</p>
+          <p>Harx connects you to agents — and charges you only when they deliver.</p>
+          <p>Harx connects your business to a global network of certified agents — human or AI — who handle your customer engagement end to end. Every interaction is scored in real time. You only pay when the result you defined is delivered.</p>
+          <nav aria-label="Access">
+            <a href="/en/auth/choice">Get Started</a> ·
+            <a href="/en/auth/register-company">Company sign-up</a> ·
+            <a href="/en/auth/register-rep">Rep sign-up</a> ·
+            <a href="/en/privacy">Privacy</a> ·
+            <a href="/en/terms">Terms</a> ·
+            <a href="/fr">Français</a>
+          </nav>
+        </div>
       </div>
-      <script>if (location.pathname !== '/') { var s = document.getElementById('seo-snapshot'); if (s) s.remove(); }</script>
+      <script>
+        (function () {
+          var s = document.getElementById('seo-snapshot');
+          if (!s) return;
+          var p = location.pathname.replace(/\/+$/, '') || '/';
+          var lang = p === '/en' ? 'en' : p === '/' || p === '/fr' ? 'fr' : null;
+          if (!lang) { s.remove(); return; }
+          var blocks = s.querySelectorAll('[data-snap-lang]');
+          for (var i = 0; i < blocks.length; i++) {
+            if (blocks[i].getAttribute('data-snap-lang') !== lang) blocks[i].remove();
+          }
+        })();
+      </script>
     </div>
     <div id="container-reps"></div>
     <div id="container-company"></div>

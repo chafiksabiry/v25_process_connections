@@ -2,11 +2,20 @@
 
 > HARX — Transaction as a Service. Marketplace de reps certifiés par IA pour entreprises et indépendants.
 
-HARX met en relation des entreprises et des reps indépendants. Les entreprises pilotent leurs opérations, leurs reps et leurs campagnes depuis un portail dédié ; les reps gèrent leur activité, leurs gigs et leurs revenus depuis le portail rep.
+HARX met en relation des entreprises et des reps indépendants. Les entreprises pilotent leurs opérations, leurs reps et leurs campagnes depuis un portail dédié ; les reps gèrent leur activité, leurs gigs et leurs revenus depuis le portail rep. Le site est disponible en français (/fr) et en anglais (/en).
 
-## Pages publiques
+## Français
 
-- [Accueil](https://harx.ai/): présentation de HARX
-- [Choix du profil](https://harx.ai/auth/choice): rejoindre HARX en tant qu'entreprise ou rep indépendant
-- [Inscription entreprise](https://harx.ai/auth/register-company): créer un compte entreprise
-- [Inscription rep](https://harx.ai/auth/register-rep): créer un profil rep certifié HARX avec son CV
+- [Accueil](https://harx.ai/fr): présentation de HARX
+- [Choix du profil](https://harx.ai/fr/auth/choice): rejoindre HARX en tant qu'entreprise ou rep indépendant
+- [Inscription entreprise](https://harx.ai/fr/auth/register-company): créer un compte entreprise
+- [Inscription rep](https://harx.ai/fr/auth/register-rep): créer un profil rep certifié HARX avec son CV
+- [Confidentialité](https://harx.ai/fr/privacy), [Conditions](https://harx.ai/fr/terms), [Cookies](https://harx.ai/fr/cookies), [RGPD](https://harx.ai/fr/gdpr)
+
+## English
+
+- [Home](https://harx.ai/en): HARX overview
+- [Choose your profile](https://harx.ai/en/auth/choice): join HARX as a company or an independent rep
+- [Company sign-up](https://harx.ai/en/auth/register-company): create a company account
+- [Rep sign-up](https://harx.ai/en/auth/register-rep): create a certified HARX rep profile with your CV
+- [Privacy](https://harx.ai/en/privacy), [Terms](https://harx.ai/en/terms), [Cookies](https://harx.ai/en/cookies), [GDPR](https://harx.ai/en/gdpr)

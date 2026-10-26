@@ -1,4 +1,5 @@
 import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL } from './constants';
+import { getLangFromPath, stripLangPrefix, withLangPrefix, type SiteLang } from '../langRoutes';
 
 export type PageMeta = {
   title: string;
@@ -6,6 +7,10 @@ export type PageMeta = {
   canonical?: string;
   /** Routes privées / sans valeur SEO : balise robots noindex posée à l'exécution. */
   noindex?: boolean;
+  /** Langue de la page (attribut <html lang>). */
+  lang?: SiteLang;
+  /** Versions linguistiques (balises hreflang). */
+  alternates?: Array<{ hreflang: string; href: string }>;
 };
 
 const BASE_TITLE = 'HARX';
@@ -168,12 +173,69 @@ const NOINDEX_PREFIXES = [
 ];
 
 export function isNoindexPath(rawPath: string): boolean {
-  const pathname = normalizeTrackingPath(rawPath.split('?')[0]);
+  const pathname = normalizeTrackingPath(stripLangPrefix(rawPath.split('?')[0].split('#')[0]));
   return NOINDEX_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
 }
 
+const LOCALIZED_INDEXABLE_PATHS = [
+  '/',
+  '/auth/choice',
+  '/auth/register-company',
+  '/auth/register-rep',
+  '/privacy',
+  '/terms',
+  '/cookies',
+  '/gdpr',
+];
+
+const EN_META: Record<string, { title: string; description: string }> = {
+  '/': {
+    title: `${BASE_TITLE} — Home`,
+    description: 'HARX — Transaction as a Service. Marketplace of AI-certified reps for companies and independents.',
+  },
+  '/auth/choice': {
+    title: `${BASE_TITLE} — Choose your profile`,
+    description: 'Join HARX as a company or an independent rep.',
+  },
+  '/auth/register-company': {
+    title: `${BASE_TITLE} — Company sign-up`,
+    description: 'Create your HARX company account.',
+  },
+  '/auth/register-rep': {
+    title: `${BASE_TITLE} — Rep sign-up`,
+    description: 'Create your certified HARX rep profile with your CV.',
+  },
+};
+
+/** Métadonnées d'une route, avec gestion du préfixe de langue (/fr/…, /en/…). */
 export function resolvePageMeta(rawPath: string): PageMeta {
   const full = rawPath || '/';
+  const [pathOnly, ...rest] = full.split('?');
+  const barePath = pathOnly.split('#')[0] || '/';
+  const urlLang = getLangFromPath(barePath);
+  const stripped = stripLangPrefix(barePath);
+  const meta = resolveUnprefixedPageMeta(`${stripped}${rest.length ? `?${rest.join('?')}` : ''}`);
+  const pathname = normalizeTrackingPath(stripped);
+  const lang: SiteLang = urlLang ?? 'fr';
+
+  if (!LOCALIZED_INDEXABLE_PATHS.includes(pathname)) {
+    if (!urlLang) return meta;
+    return { ...meta, lang, canonical: meta.canonical ? `${HARX_SITE_URL}${normalizeTrackingPath(barePath)}` : undefined };
+  }
+  return {
+    ...meta,
+    ...(lang === 'en' ? EN_META[pathname] : undefined),
+    lang,
+    canonical: `${HARX_SITE_URL}${withLangPrefix(pathname, lang)}`,
+    alternates: [
+      { hreflang: 'fr', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'fr')}` },
+      { hreflang: 'en', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'en')}` },
+      ...(pathname === '/' ? [{ hreflang: 'x-default', href: `${HARX_SITE_URL}/fr` }] : []),
+    ],
+  };
+}
+
+function resolveUnprefixedPageMeta(full: string): PageMeta {
   const match = ROUTE_META.find(({ test }) => test(full) || test(normalizeTrackingPath(full)));
   return (
     match?.meta ?? {

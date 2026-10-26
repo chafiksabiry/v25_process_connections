@@ -3,6 +3,7 @@ import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
 import { isLegalPath } from './lib/legalRoutes';
+import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
 import './App.css';
 import Cookies from 'js-cookie';
@@ -26,7 +27,8 @@ function MicroAppContainerVisibility() {
       pathname === '/' ||
       pathname.startsWith('/auth') ||
       pathname.startsWith('/admin') ||
-      isLegalPath(pathname)
+      isLegalPath(pathname) ||
+      getLangFromPath(pathname) !== null
     ) {
       active.add('container-auth');
     }

@@ -8,6 +8,8 @@ Disallow: /callcentre
 Disallow: /reps
 Disallow: /reporchestrator
 Disallow: /linkedin
+Disallow: /fr/linkedin
+Disallow: /en/linkedin
 Disallow: /profile-completion
 
 Sitemap: https://harx.ai/sitemap.xml

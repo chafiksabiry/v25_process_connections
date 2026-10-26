@@ -1,11 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://harx.ai/</loc></url>
-  <url><loc>https://harx.ai/auth/choice</loc></url>
-  <url><loc>https://harx.ai/auth/register-company</loc></url>
-  <url><loc>https://harx.ai/auth/register-rep</loc></url>
-  <url><loc>https://harx.ai/privacy</loc></url>
-  <url><loc>https://harx.ai/terms</loc></url>
-  <url><loc>https://harx.ai/cookies</loc></url>
-  <url><loc>https://harx.ai/gdpr</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://harx.ai/fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://harx.ai/fr"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://harx.ai/fr"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/auth/choice</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/choice"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/choice"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/auth/choice</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/choice"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/choice"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/auth/register-company</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/register-company"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/register-company"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/auth/register-company</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/register-company"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/register-company"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/auth/register-rep</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/register-rep"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/register-rep"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/auth/register-rep</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/register-rep"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/register-rep"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/privacy"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/privacy"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/terms</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/terms"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/terms"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/cookies"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/cookies"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/gdpr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/gdpr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/gdpr"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/gdpr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/gdpr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/gdpr"/>
+  </url>
 </urlset>
