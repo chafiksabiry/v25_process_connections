@@ -1,0 +1,13 @@
+# harx.ai — les sections privées (back office, portails connectés) ne sont pas explorées.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /company
+Disallow: /call-center
+Disallow: /callcentre
+Disallow: /reps
+Disallow: /reporchestrator
+Disallow: /linkedin
+Disallow: /profile-completion
+
+Sitemap: https://harx.ai/sitemap.xml

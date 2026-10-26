@@ -1,0 +1,12 @@
+# HARX
+
+> HARX — Transaction as a Service. Marketplace de reps certifiés par IA pour entreprises et indépendants.
+
+HARX met en relation des entreprises et des reps indépendants. Les entreprises pilotent leurs opérations, leurs reps et leurs campagnes depuis un portail dédié ; les reps gèrent leur activité, leurs gigs et leurs revenus depuis le portail rep.
+
+## Pages publiques
+
+- [Accueil](https://harx.ai/): présentation de HARX
+- [Choix du profil](https://harx.ai/auth/choice): rejoindre HARX en tant qu'entreprise ou rep indépendant
+- [Inscription entreprise](https://harx.ai/auth/register-company): créer un compte entreprise
+- [Inscription rep](https://harx.ai/auth/register-rep): créer un profil rep certifié HARX avec son CV
