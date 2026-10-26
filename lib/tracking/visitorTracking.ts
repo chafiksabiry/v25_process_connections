@@ -1,4 +1,5 @@
 import { GA_MEASUREMENT_ID } from './constants';
+import { trackAdPlatformsPageView } from './conversions';
 import { buildTrackingPath, isNoindexPath, resolvePageMeta, type PageMeta } from './pageMeta';
 
 declare global {
@@ -82,4 +83,5 @@ export function trackPageView(path?: string): void {
 export function syncVisitorTracking(path?: string): void {
   syncPageHead(path);
   trackPageView(path);
+  trackAdPlatformsPageView();
 }

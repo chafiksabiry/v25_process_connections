@@ -77,7 +77,23 @@
     <div id="root"></div>
     <!-- Stable qiankun mounts (outside React) so they survive host re-renders.
          harx-mf-active on auth by default for / cold start before React effect. -->
-    <div id="container-auth" class="harx-mf-active"></div>
+    <div id="container-auth" class="harx-mf-active">
+      <!-- Aperçu statique de la landing pour les robots sans JavaScript ; remplacé au montage du module auth (qiankun vide le conteneur). -->
+      <div id="seo-snapshot" style="max-width:960px;margin:0 auto;padding:48px 24px;font-family:system-ui,sans-serif">
+        <h1>L'Engagement Client Propulsé par l'IA — Transaction-as-a-Service</h1>
+        <p>Arrêtez de payer pour des postes. Commencez à payer pour des résultats.</p>
+        <p>Harx vous connecte aux agents — et vous facture uniquement lorsqu'ils livrent un résultat.</p>
+        <p>Harx connecte votre entreprise à un réseau mondial d'agents certifiés — humains ou IA — qui gèrent votre engagement client de bout en bout. Chaque interaction est évaluée en temps réel. Vous ne payez que lorsque le résultat que vous avez défini est atteint.</p>
+        <nav aria-label="Accès">
+          <a href="/auth/choice">Démarrer</a> ·
+          <a href="/auth/register-company">Inscription entreprise</a> ·
+          <a href="/auth/register-rep">Inscription rep</a> ·
+          <a href="/privacy">Confidentialité</a> ·
+          <a href="/terms">Conditions</a>
+        </nav>
+      </div>
+      <script>if (location.pathname !== '/') { var s = document.getElementById('seo-snapshot'); if (s) s.remove(); }</script>
+    </div>
     <div id="container-reps"></div>
     <div id="container-company"></div>
     <div id="container-callcenter"></div>
