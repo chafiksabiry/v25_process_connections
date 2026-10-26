@@ -21,8 +21,6 @@ const TEXTS = {
     analytics: "Mesure d'audience (Google Analytics, enregistrement de sessions Mouseflow)",
     marketing: 'Publicité (Google Ads, Meta, LinkedIn)',
     more: 'En savoir plus',
-    manage: 'Cookies',
-    manageLabel: 'Gérer mes préférences de cookies',
   },
   en: {
     title: 'Your cookie preferences',
@@ -35,8 +33,6 @@ const TEXTS = {
     analytics: 'Audience measurement (Google Analytics, Mouseflow session recording)',
     marketing: 'Advertising (Google Ads, Meta, LinkedIn)',
     more: 'Learn more',
-    manage: 'Cookies',
-    manageLabel: 'Manage my cookie preferences',
   },
 } as const;
 
@@ -81,35 +77,8 @@ export default function CookieBanner() {
     saveConsent(choice);
   };
 
-  if (!open) {
-    return createPortal(
-      <button
-        type="button"
-        aria-label={t.manageLabel}
-        onClick={() => {
-          setDraft(readConsent() ?? { analytics: false, marketing: false });
-          setCustomizing(true);
-          setOpen(true);
-        }}
-        style={{
-          position: 'fixed',
-          left: 12,
-          bottom: 12,
-          zIndex: 2147483000,
-          padding: '6px 12px',
-          borderRadius: 999,
-          border: '1px solid rgba(255,255,255,0.4)',
-          background: '#111827',
-          color: '#ffffff',
-          fontSize: 12,
-          cursor: 'pointer',
-        }}
-      >
-        {t.manage}
-      </button>,
-      document.body
-    );
-  }
+  // Plus de bouton flottant : le panneau se rouvre depuis le lien « Gérer mes cookies » du pied de page.
+  if (!open) return null;
 
   return createPortal(
     <div
