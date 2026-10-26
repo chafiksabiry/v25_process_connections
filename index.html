@@ -2,6 +2,30 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <!-- Pages publiques sans préfixe de langue → version /fr ou /en (choix explicite, sinon langue du navigateur, sinon français).
+         Doit s'exécuter avant tout le reste ; la query et le hash sont conservés. -->
+    <script>
+      (function () {
+        try {
+          var path = location.pathname.replace(/\/+$/, '') || '/';
+          var PUBLIC = ['/', '/auth/choice', '/auth/register-company', '/auth/register-rep', '/privacy', '/terms', '/cookies', '/gdpr'];
+          if (PUBLIC.indexOf(path) < 0) return;
+          var stored = (localStorage.getItem('i18nextLng') || '').toLowerCase();
+          var explicit = localStorage.getItem('harxLangExplicit') === '1';
+          var lang = null;
+          if (explicit && (stored.indexOf('en') === 0 || stored.indexOf('fr') === 0)) lang = stored.slice(0, 2);
+          if (!lang) {
+            var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+            for (var i = 0; i < prefs.length; i++) {
+              var l = String(prefs[i]).toLowerCase();
+              if (l.indexOf('fr') === 0) { lang = 'fr'; break; }
+              if (l.indexOf('en') === 0) { lang = 'en'; break; }
+            }
+          }
+          location.replace('/' + (lang || 'fr') + (path === '/' ? '' : path) + location.search + location.hash);
+        } catch (e) { /* ignore */ }
+      })();
+    </script>
     <link rel="icon" type="image/png" href="/logo_harx.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HARX — We inspire growth</title>
