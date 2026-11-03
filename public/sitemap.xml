@@ -82,4 +82,7 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/gdpr"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/gdpr"/>
   </url>
+  <url>
+    <loc>https://harx.ai/callcentre</loc>
+  </url>
 </urlset>

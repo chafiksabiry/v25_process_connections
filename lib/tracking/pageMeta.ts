@@ -15,6 +15,11 @@ export type PageMeta = {
 
 const BASE_TITLE = 'HARX';
 
+export const CALLCENTRE_TITLE =
+  'HARX Téléphonie : numéro français, appels et répondeur IA pour freelances, TPE, PME et centres d’appels';
+export const CALLCENTRE_DESCRIPTION =
+  'Un numéro français, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
+
 const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   {
     test: (p) => p === '/' || p === '',
@@ -113,6 +118,15 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
     },
   },
   {
+    // Vitrine publique du micro-frontend téléphonie ; ses sous-parcours (/app, /start, /onboarding) restent en noindex.
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/callcentre',
+    meta: {
+      title: CALLCENTRE_TITLE,
+      description: CALLCENTRE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/callcentre`,
+    },
+  },
+  {
     test: (p) => p.startsWith('/company'),
     meta: {
       title: `${BASE_TITLE} — Portail entreprise`,
@@ -163,7 +177,9 @@ const NOINDEX_PREFIXES = [
   '/admin',
   '/company',
   '/call-center',
-  '/callcentre',
+  '/callcentre/app',
+  '/callcentre/onboarding',
+  '/callcentre/start',
   '/reps',
   '/reporchestrator',
   '/linkedin',
