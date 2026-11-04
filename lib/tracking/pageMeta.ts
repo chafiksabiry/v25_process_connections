@@ -119,11 +119,11 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   },
   {
     // Vitrine publique du micro-frontend téléphonie ; ses sous-parcours (/app, /start, /onboarding) restent en noindex.
-    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/callcentre',
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/telephony',
     meta: {
       title: CALLCENTRE_TITLE,
       description: CALLCENTRE_DESCRIPTION,
-      canonical: `${HARX_SITE_URL}/callcentre`,
+      canonical: `${HARX_SITE_URL}/telephony`,
     },
   },
   {
@@ -177,9 +177,9 @@ const NOINDEX_PREFIXES = [
   '/admin',
   '/company',
   '/call-center',
-  '/callcentre/app',
-  '/callcentre/onboarding',
-  '/callcentre/start',
+  '/telephony/app',
+  '/telephony/onboarding',
+  '/telephony/start',
   '/reps',
   '/reporchestrator',
   '/linkedin',

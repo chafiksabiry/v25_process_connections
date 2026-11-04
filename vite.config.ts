@@ -7,7 +7,7 @@ const CC_TITLE =
     'HARX Téléphonie : numéro français, appels et répondeur IA pour freelances, TPE, PME et centres d’appels';
 const CC_DESC =
     'Un numéro français, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
-const CC_URL = 'https://harx.ai/callcentre';
+const CC_URL = 'https://harx.ai/telephony';
 
 const CC_SNAPSHOT = `<div id="container-callcenter" class="harx-mf-active">
       <!-- Résumé statique pour les robots ; vidé par qiankun au montage du micro-frontend téléphonie. -->
@@ -57,7 +57,7 @@ const CC_JSONLD = JSON.stringify({
 const escAttr = (s: string) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
 /**
- * Pré-rendu minimal de /callcentre : dérive dist/callcentre/index.html du dist/index.html construit
+ * Pré-rendu minimal de /telephony : dérive dist/telephony/index.html du dist/index.html construit
  * (mêmes scripts hachés, mêmes conteneurs qiankun), avec méta SEO et résumé texte propres à la page.
  * Le build échoue si un gabarit attendu a changé, plutôt que de publier une page incohérente.
  */
@@ -85,8 +85,8 @@ function prerenderCallcentre(): Plugin {
             // Le conteneur auth ne doit pas être actif ni porter l'aperçu de l'accueil.
             sub(/<div id="container-auth" class="harx-mf-active">[\s\S]*?<\/script>\s*<\/div>/, '<div id="container-auth"></div>');
             sub(/<div id="container-callcenter"><\/div>/, CC_SNAPSHOT);
-            mkdirSync(resolve(outDir, 'callcentre'), { recursive: true });
-            writeFileSync(resolve(outDir, 'callcentre/index.html'), html);
+            mkdirSync(resolve(outDir, 'telephony'), { recursive: true });
+            writeFileSync(resolve(outDir, 'telephony/index.html'), html);
         },
     };
 }

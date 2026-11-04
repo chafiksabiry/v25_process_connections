@@ -4,9 +4,9 @@ Allow: /
 Disallow: /admin
 Disallow: /company
 Disallow: /call-center
-Disallow: /callcentre/app
-Disallow: /callcentre/start
-Disallow: /callcentre/onboarding
+Disallow: /telephony/app
+Disallow: /telephony/start
+Disallow: /telephony/onboarding
 Disallow: /reps
 Disallow: /reporchestrator
 Disallow: /linkedin

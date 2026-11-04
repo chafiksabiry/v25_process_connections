@@ -37,7 +37,7 @@ function MicroAppContainerVisibility() {
     if (pathname.startsWith('/company') || pathname.startsWith('/call-center')) {
       active.add('container-company');
     }
-    if (pathname === '/callcentre' || pathname.startsWith('/callcentre/')) {
+    if (pathname === '/telephony' || pathname.startsWith('/telephony/')) {
       active.add('container-callcenter');
     }
     if (pathname === '/home') active.add('container-home');
