@@ -10,7 +10,7 @@ HARX met en relation des entreprises et des reps indépendants. Les entreprises 
 - [Choix du profil](https://harx.ai/fr/auth/choice): rejoindre HARX en tant qu'entreprise ou rep indépendant
 - [Inscription entreprise](https://harx.ai/fr/auth/register-company): créer un compte entreprise
 - [Inscription rep](https://harx.ai/fr/auth/register-rep): créer un profil rep certifié HARX avec son CV
-- [HARX Téléphonie](https://harx.ai/callcentre): numéro français, appels entrants et sortants, répondeur et IA pour freelances, TPE, PME et centres d'appels
+- [HARX Téléphonie](https://harx.ai/telephony): numéro français, appels entrants et sortants, répondeur et IA pour freelances, TPE, PME et centres d'appels
 - [Confidentialité](https://harx.ai/fr/privacy), [Conditions](https://harx.ai/fr/terms), [Cookies](https://harx.ai/fr/cookies), [RGPD](https://harx.ai/fr/gdpr)
 
 ## English

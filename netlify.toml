@@ -26,10 +26,23 @@
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
   VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
 
-# Page vitrine pré-rendue (SEO) générée au build par vite.config.ts ; le conteneur qiankun y est conservé.
+# Ancienne adresse du produit : redirection permanente vers /telephony (liens, favoris, moteurs de recherche).
 [[redirects]]
   from = "/callcentre"
-  to = "/callcentre/index.html"
+  to = "/telephony"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/callcentre/*"
+  to = "/telephony/:splat"
+  status = 301
+  force = true
+
+# Page vitrine pré-rendue (SEO) générée au build par vite.config.ts ; le conteneur qiankun y est conservé.
+[[redirects]]
+  from = "/telephony"
+  to = "/telephony/index.html"
   status = 200
 
 [[redirects]]

@@ -149,7 +149,7 @@ registerMicroApps([
     entry: MF_ENTRIES.callcenter,
     container: '#container-callcenter',
     activeRule: (location: { pathname: string }) =>
-      location.pathname === '/callcentre' || location.pathname.startsWith('/callcentre/'),
+      location.pathname === '/telephony' || location.pathname.startsWith('/telephony/'),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,
