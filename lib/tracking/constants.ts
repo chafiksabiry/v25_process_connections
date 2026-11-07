@@ -13,3 +13,9 @@ export const HARX_SITE_URL = 'https://harx.ai';
 
 export const DEFAULT_PAGE_DESCRIPTION =
   'HARX — Transaction as a Service. Marketplace de reps certifiés par IA pour entreprises et indépendants.';
+
+/** Accueil de l'ensemble HARX (hub des offres : TAAS, Téléphonie, …). */
+export const HUB_DESCRIPTION_FR =
+  'HARX.ai réunit les offres HARX : TAAS (Transaction-as-a-Service, payez pour des résultats) et HARX Téléphonie (numéro de votre pays, appels entrants et sortants, accueil / secrétariat et IA).';
+export const HUB_DESCRIPTION_EN =
+  'HARX.ai brings together the HARX offers: TAAS (Transaction-as-a-Service, pay for results) and HARX Telephony (a number from your country, inbound and outbound calls, reception / secretarial and AI).';

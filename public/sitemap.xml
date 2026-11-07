@@ -13,6 +13,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://harx.ai/fr"/>
   </url>
   <url>
+    <loc>https://harx.ai/fr/taas</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/taas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/taas</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/taas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas"/>
+  </url>
+  <url>
     <loc>https://harx.ai/fr/auth/choice</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/choice"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/choice"/>

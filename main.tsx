@@ -96,6 +96,8 @@ registerMicroApps([
       const p = location.pathname;
       return (
         p === '/' ||
+        p === '/taas' ||
+        p === '/taas/' ||
         p.startsWith('/auth') ||
         p.startsWith('/admin') ||
         p.startsWith('/linkedin') ||

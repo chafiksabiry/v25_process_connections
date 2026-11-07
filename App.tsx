@@ -26,6 +26,8 @@ function MicroAppContainerVisibility() {
     const active = new Set<string>();
     if (
       pathname === '/' ||
+      pathname === '/taas' ||
+      pathname === '/taas/' ||
       pathname.startsWith('/auth') ||
       pathname.startsWith('/admin') ||
       isLegalPath(pathname) ||
