@@ -1,4 +1,4 @@
-import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL } from './constants';
+import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL, HUB_DESCRIPTION_EN, HUB_DESCRIPTION_FR } from './constants';
 import { getLangFromPath, stripLangPrefix, withLangPrefix, type SiteLang } from '../langRoutes';
 
 export type PageMeta = {
@@ -22,11 +22,21 @@ export const CALLCENTRE_DESCRIPTION =
 
 const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   {
+    // Accueil de l'ensemble HARX (hub des offres).
     test: (p) => p === '/' || p === '',
     meta: {
-      title: `${BASE_TITLE} — We inspire growth`,
-      description: DEFAULT_PAGE_DESCRIPTION,
+      title: `${BASE_TITLE} — Une plateforme, plusieurs offres`,
+      description: HUB_DESCRIPTION_FR,
       canonical: `${HARX_SITE_URL}/`,
+    },
+  },
+  {
+    // Offre TAAS : ancienne page d'accueil (marketplace Transaction-as-a-Service).
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/taas',
+    meta: {
+      title: `${BASE_TITLE} — TAAS : Transaction-as-a-Service`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/taas`,
     },
   },
   {
@@ -195,6 +205,7 @@ export function isNoindexPath(rawPath: string): boolean {
 
 const LOCALIZED_INDEXABLE_PATHS = [
   '/',
+  '/taas',
   '/auth/choice',
   '/auth/register-company',
   '/auth/register-rep',
@@ -206,8 +217,12 @@ const LOCALIZED_INDEXABLE_PATHS = [
 
 const EN_META: Record<string, { title: string; description: string }> = {
   '/': {
-    title: `${BASE_TITLE} — Home`,
-    description: 'HARX — Transaction as a Service. Marketplace of AI-certified reps for companies and independents.',
+    title: `${BASE_TITLE} — One platform, several offers`,
+    description: HUB_DESCRIPTION_EN,
+  },
+  '/taas': {
+    title: `${BASE_TITLE} — TAAS: Transaction-as-a-Service`,
+    description: 'HARX TAAS — Transaction as a Service. Marketplace of AI-certified reps for companies and independents.',
   },
   '/auth/choice': {
     title: `${BASE_TITLE} — Choose your profile`,

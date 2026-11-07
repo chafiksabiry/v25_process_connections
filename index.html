@@ -8,7 +8,7 @@
       (function () {
         try {
           var path = location.pathname.replace(/\/+$/, '') || '/';
-          var PUBLIC = ['/', '/auth/choice', '/auth/register-company', '/auth/register-rep', '/privacy', '/terms', '/cookies', '/gdpr'];
+          var PUBLIC = ['/', '/taas', '/auth/choice', '/auth/register-company', '/auth/register-rep', '/privacy', '/terms', '/cookies', '/gdpr'];
           if (PUBLIC.indexOf(path) < 0) return;
           var stored = (localStorage.getItem('i18nextLng') || '').toLowerCase();
           var explicit = localStorage.getItem('harxLangExplicit') === '1';
@@ -28,16 +28,16 @@
     </script>
     <link rel="icon" type="image/png" href="/logo_harx.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HARX — We inspire growth</title>
-    <meta name="description" content="HARX — Transaction as a Service. Marketplace de reps certifiés par IA pour entreprises et indépendants." />
+    <title>HARX — Une plateforme, plusieurs offres</title>
+    <meta name="description" content="HARX.ai réunit les offres HARX : TAAS (Transaction-as-a-Service, payez pour des résultats) et HARX Téléphonie (numéro de votre pays, appels entrants et sortants, accueil / secrétariat et IA)." />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#E91E8C" />
     <link rel="canonical" href="https://harx.ai/" />
     <meta property="og:site_name" content="HARX" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://harx.ai/" />
-    <meta property="og:title" content="HARX — We inspire growth" />
-    <meta property="og:description" content="HARX — Transaction as a Service. Marketplace de reps certifiés par IA." />
+    <meta property="og:title" content="HARX — Une plateforme, plusieurs offres" />
+    <meta property="og:description" content="HARX.ai réunit les offres HARX : TAAS (Transaction-as-a-Service) et HARX Téléphonie." />
     <meta property="og:image" content="https://res.cloudinary.com/dyqg8x26j/image/upload/w_1200,f_auto,q_auto/v1782247023/HARX-color_Plan_de_travail_1_-_copie.jpg_mbnsax.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <!-- Données structurées (Organization / WebSite) -->
@@ -106,34 +106,68 @@
     <!-- Stable qiankun mounts (outside React) so they survive host re-renders.
          harx-mf-active on auth by default for / cold start before React effect. -->
     <div id="container-auth" class="harx-mf-active">
-      <!-- Aperçu statique de la landing pour les robots sans JavaScript ; remplacé au montage du module auth (qiankun vide le conteneur). -->
+      <!-- Aperçu statique pour les robots sans JavaScript : accueil de l'ensemble (/) et offre TAAS (/taas) ; remplacé au montage du module auth (qiankun vide le conteneur). -->
       <div id="seo-snapshot" style="max-width:960px;margin:0 auto;padding:48px 24px;font-family:system-ui,sans-serif">
-        <div data-snap-lang="fr" lang="fr">
-          <h1>L'Engagement Client Propulsé par l'IA — Transaction-as-a-Service</h1>
-          <p>Arrêtez de payer pour des postes. Commencez à payer pour des résultats.</p>
-          <p>Harx vous connecte aux agents — et vous facture uniquement lorsqu'ils livrent un résultat.</p>
-          <p>Harx connecte votre entreprise à un réseau mondial d'agents certifiés — humains ou IA — qui gèrent votre engagement client de bout en bout. Chaque interaction est évaluée en temps réel. Vous ne payez que lorsque le résultat que vous avez défini est atteint.</p>
+        <div data-snap-page="hub" data-snap-lang="fr" lang="fr">
+          <h1>HARX : une plateforme, plusieurs offres</h1>
+          <p>HARX.ai réunit les offres HARX. Choisissez celle qui correspond à votre besoin.</p>
+          <ul>
+            <li><a href="/fr/taas">TAAS — Transaction-as-a-Service</a> : payez pour des résultats, pas pour des postes.</li>
+            <li><a href="/telephony">HARX Téléphonie</a> : un numéro de votre pays, vos appels entrants et sortants, accueil / secrétariat et IA.</li>
+          </ul>
+          <p>D'autres offres arrivent bientôt.</p>
           <nav aria-label="Accès">
-            <a href="/fr/auth/choice">Démarrer</a> ·
-            <a href="/fr/auth/register-company">Inscription entreprise</a> ·
-            <a href="/fr/auth/register-rep">Inscription rep</a> ·
+            <a href="/fr/taas">TAAS</a> ·
+            <a href="/telephony">Téléphonie</a> ·
             <a href="/fr/privacy">Confidentialité</a> ·
             <a href="/fr/terms">Conditions</a> ·
             <a href="/en">English</a>
           </nav>
         </div>
-        <div data-snap-lang="en" lang="en">
+        <div data-snap-page="hub" data-snap-lang="en" lang="en">
+          <h1>HARX: one platform, several offers</h1>
+          <p>HARX.ai brings together the HARX offers. Pick the one that fits your need.</p>
+          <ul>
+            <li><a href="/en/taas">TAAS — Transaction-as-a-Service</a>: pay for results, not for seats.</li>
+            <li><a href="/telephony">HARX Telephony</a>: a number from your country, inbound and outbound calls, reception / secretarial and AI.</li>
+          </ul>
+          <p>More offers are coming soon.</p>
+          <nav aria-label="Access">
+            <a href="/en/taas">TAAS</a> ·
+            <a href="/telephony">Telephony</a> ·
+            <a href="/en/privacy">Privacy</a> ·
+            <a href="/en/terms">Terms</a> ·
+            <a href="/fr">Français</a>
+          </nav>
+        </div>
+        <div data-snap-page="taas" data-snap-lang="fr" lang="fr">
+          <h1>L'Engagement Client Propulsé par l'IA — Transaction-as-a-Service</h1>
+          <p>Arrêtez de payer pour des postes. Commencez à payer pour des résultats.</p>
+          <p>Harx vous connecte aux agents — et vous facture uniquement lorsqu'ils livrent un résultat.</p>
+          <p>Harx connecte votre entreprise à un réseau mondial d'agents certifiés — humains ou IA — qui gèrent votre engagement client de bout en bout. Chaque interaction est évaluée en temps réel. Vous ne payez que lorsque le résultat que vous avez défini est atteint.</p>
+          <nav aria-label="Accès">
+            <a href="/fr">Toutes les offres HARX</a> ·
+            <a href="/fr/auth/choice">Démarrer</a> ·
+            <a href="/fr/auth/register-company">Inscription entreprise</a> ·
+            <a href="/fr/auth/register-rep">Inscription rep</a> ·
+            <a href="/fr/privacy">Confidentialité</a> ·
+            <a href="/fr/terms">Conditions</a> ·
+            <a href="/en/taas">English</a>
+          </nav>
+        </div>
+        <div data-snap-page="taas" data-snap-lang="en" lang="en">
           <h1>AI-Powered Customer Engagement Meets Transaction-as-a-Service</h1>
           <p>Stop paying for seats. Start paying for results.</p>
           <p>Harx connects you to agents — and charges you only when they deliver.</p>
           <p>Harx connects your business to a global network of certified agents — human or AI — who handle your customer engagement end to end. Every interaction is scored in real time. You only pay when the result you defined is delivered.</p>
           <nav aria-label="Access">
+            <a href="/en">All HARX offers</a> ·
             <a href="/en/auth/choice">Get Started</a> ·
             <a href="/en/auth/register-company">Company sign-up</a> ·
             <a href="/en/auth/register-rep">Rep sign-up</a> ·
             <a href="/en/privacy">Privacy</a> ·
             <a href="/en/terms">Terms</a> ·
-            <a href="/fr">Français</a>
+            <a href="/fr/taas">Français</a>
           </nav>
         </div>
       </div>
@@ -142,11 +176,15 @@
           var s = document.getElementById('seo-snapshot');
           if (!s) return;
           var p = location.pathname.replace(/\/+$/, '') || '/';
-          var lang = p === '/en' ? 'en' : p === '/' || p === '/fr' ? 'fr' : null;
-          if (!lang) { s.remove(); return; }
+          var m = /^\/(fr|en)(?=\/|$)/.exec(p);
+          var urlLang = m ? m[1] : null;
+          var page = p.replace(/^\/(fr|en)(?=\/|$)/, '') || '/';
+          var kind = page === '/' ? 'hub' : page === '/taas' ? 'taas' : null;
+          var lang = urlLang || (kind ? 'fr' : null);
+          if (!kind || !lang) { s.remove(); return; }
           var blocks = s.querySelectorAll('[data-snap-lang]');
           for (var i = 0; i < blocks.length; i++) {
-            if (blocks[i].getAttribute('data-snap-lang') !== lang) blocks[i].remove();
+            if (blocks[i].getAttribute('data-snap-lang') !== lang || blocks[i].getAttribute('data-snap-page') !== kind) blocks[i].remove();
           }
         })();
       </script>
