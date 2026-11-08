@@ -10,16 +10,16 @@
           var path = location.pathname.replace(/\/+$/, '') || '/';
           var PUBLIC = ['/', '/taas', '/taas/company', '/taas/reps', '/auth/choice', '/auth/register-company', '/auth/register-rep', '/privacy', '/terms', '/cookies', '/gdpr'];
           if (PUBLIC.indexOf(path) < 0) return;
-          var stored = (localStorage.getItem('i18nextLng') || '').toLowerCase();
+          var stored = (localStorage.getItem('harxSiteLang') || localStorage.getItem('i18nextLng') || '').toLowerCase();
           var explicit = localStorage.getItem('harxLangExplicit') === '1';
+          var SUPPORTED = ['fr', 'en', 'es', 'ar'];
           var lang = null;
-          if (explicit && (stored.indexOf('en') === 0 || stored.indexOf('fr') === 0)) lang = stored.slice(0, 2);
+          if (explicit && SUPPORTED.indexOf(stored.slice(0, 2)) >= 0) lang = stored.slice(0, 2);
           if (!lang) {
             var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
             for (var i = 0; i < prefs.length; i++) {
               var l = String(prefs[i]).toLowerCase();
-              if (l.indexOf('fr') === 0) { lang = 'fr'; break; }
-              if (l.indexOf('en') === 0) { lang = 'en'; break; }
+              if (SUPPORTED.indexOf(l.slice(0, 2)) >= 0) { lang = l.slice(0, 2); break; }
             }
           }
           location.replace('/' + (lang || 'fr') + (path === '/' ? '' : path) + location.search + location.hash);
@@ -176,9 +176,9 @@
           var s = document.getElementById('seo-snapshot');
           if (!s) return;
           var p = location.pathname.replace(/\/+$/, '') || '/';
-          var m = /^\/(fr|en)(?=\/|$)/.exec(p);
+          var m = /^\/(fr|en|es|ar)(?=\/|$)/.exec(p);
           var urlLang = m ? m[1] : null;
-          var page = p.replace(/^\/(fr|en)(?=\/|$)/, '') || '/';
+          var page = p.replace(/^\/(fr|en|es|ar)(?=\/|$)/, '') || '/';
           var kind = page === '/' ? 'hub' : page === '/taas' ? 'taas' : null;
           var lang = urlLang || (kind ? 'fr' : null);
           if (!kind || !lang) { s.remove(); return; }
