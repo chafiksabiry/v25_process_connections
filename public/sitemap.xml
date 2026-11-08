@@ -23,6 +23,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas"/>
   </url>
   <url>
+    <loc>https://harx.ai/fr/taas/company</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/taas/company"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas/company"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/taas/company</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/taas/company"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas/company"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/fr/taas/reps</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/taas/reps"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas/reps"/>
+  </url>
+  <url>
+    <loc>https://harx.ai/en/taas/reps</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/taas/reps"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/taas/reps"/>
+  </url>
+  <url>
     <loc>https://harx.ai/fr/auth/choice</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://harx.ai/fr/auth/choice"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://harx.ai/en/auth/choice"/>

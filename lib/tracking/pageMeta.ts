@@ -40,6 +40,22 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
     },
   },
   {
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/taas/company',
+    meta: {
+      title: `${BASE_TITLE} — TAAS · Company`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/taas/company`,
+    },
+  },
+  {
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/taas/reps',
+    meta: {
+      title: `${BASE_TITLE} — TAAS · REPS`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/taas/reps`,
+    },
+  },
+  {
     test: (p) => p.startsWith('/auth/choice'),
     meta: {
       title: `${BASE_TITLE} — Choix du profil`,
@@ -206,6 +222,8 @@ export function isNoindexPath(rawPath: string): boolean {
 const LOCALIZED_INDEXABLE_PATHS = [
   '/',
   '/taas',
+  '/taas/company',
+  '/taas/reps',
   '/auth/choice',
   '/auth/register-company',
   '/auth/register-rep',
@@ -223,6 +241,14 @@ const EN_META: Record<string, { title: string; description: string }> = {
   '/taas': {
     title: `${BASE_TITLE} — TAAS: Transaction-as-a-Service`,
     description: 'HARX TAAS — Transaction as a Service. Marketplace of AI-certified reps for companies and independents.',
+  },
+  '/taas/company': {
+    title: `${BASE_TITLE} — TAAS · Company`,
+    description: 'HARX TAAS for companies: define the result and its price, pay only for approved results.',
+  },
+  '/taas/reps': {
+    title: `${BASE_TITLE} — TAAS · REPS`,
+    description: 'HARX TAAS for customer service professionals: choose your missions and get paid for results.',
   },
   '/auth/choice': {
     title: `${BASE_TITLE} — Choose your profile`,

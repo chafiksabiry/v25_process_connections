@@ -8,7 +8,7 @@
       (function () {
         try {
           var path = location.pathname.replace(/\/+$/, '') || '/';
-          var PUBLIC = ['/', '/taas', '/auth/choice', '/auth/register-company', '/auth/register-rep', '/privacy', '/terms', '/cookies', '/gdpr'];
+          var PUBLIC = ['/', '/taas', '/taas/company', '/taas/reps', '/auth/choice', '/auth/register-company', '/auth/register-rep', '/privacy', '/terms', '/cookies', '/gdpr'];
           if (PUBLIC.indexOf(path) < 0) return;
           var stored = (localStorage.getItem('i18nextLng') || '').toLowerCase();
           var explicit = localStorage.getItem('harxLangExplicit') === '1';
