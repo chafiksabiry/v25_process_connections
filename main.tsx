@@ -97,7 +97,7 @@ registerMicroApps([
       return (
         p === '/' ||
         p === '/taas' ||
-        p === '/taas/' ||
+        p.startsWith('/taas/') ||
         p.startsWith('/auth') ||
         p.startsWith('/admin') ||
         p.startsWith('/linkedin') ||

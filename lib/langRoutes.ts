@@ -26,5 +26,5 @@ const LEGAL_PATHS = ['/privacy', '/terms', '/cookies', '/gdpr'];
 /** Pages publiques qui existent en version préfixée (accueil, TAAS, auth, légal). */
 export function isPrefixablePath(pathname: string): boolean {
   const path = stripLangPrefix(pathname).replace(/\/+$/, '') || '/';
-  return path === '/' || path === '/taas' || path.startsWith('/auth') || LEGAL_PATHS.includes(path);
+  return path === '/' || path === '/taas' || path === '/taas/company' || path === '/taas/reps' || path.startsWith('/auth') || LEGAL_PATHS.includes(path);
 }

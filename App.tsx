@@ -27,7 +27,7 @@ function MicroAppContainerVisibility() {
     if (
       pathname === '/' ||
       pathname === '/taas' ||
-      pathname === '/taas/' ||
+      pathname.startsWith('/taas/') ||
       pathname.startsWith('/auth') ||
       pathname.startsWith('/admin') ||
       isLegalPath(pathname) ||
