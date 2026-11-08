@@ -281,12 +281,15 @@ export function resolvePageMeta(rawPath: string): PageMeta {
   }
   return {
     ...meta,
-    ...(lang === 'en' ? EN_META[pathname] : undefined),
+    // Pas encore de méta propre à l'espagnol et à l'arabe : l'anglais sert de repli.
+    ...(lang !== 'fr' ? EN_META[pathname] : undefined),
     lang,
     canonical: `${HARX_SITE_URL}${withLangPrefix(pathname, lang)}`,
     alternates: [
       { hreflang: 'fr', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'fr')}` },
       { hreflang: 'en', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'en')}` },
+      { hreflang: 'es', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'es')}` },
+      { hreflang: 'ar', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'ar')}` },
       ...(pathname === '/' ? [{ hreflang: 'x-default', href: `${HARX_SITE_URL}/fr` }] : []),
     ],
   };
