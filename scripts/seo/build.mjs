@@ -11,13 +11,15 @@ const TYPES = { blog: 'blog', faq: 'faq', solution: 'solutions' }; // type -> se
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const words = (s) => String(s).split(/\s+/).filter(Boolean).length;
 
+const checkArg = process.argv.indexOf('--check');
+const checkSlugs = checkArg > -1 ? new Set(process.argv[checkArg + 1].split(',')) : null;
 // ---------- chargement + validation ----------
 const entries = [];
 const errors = [];
 for (const dir of ['blog', 'faq', 'solutions']) {
   const p = resolve(root, 'content', dir);
   if (!existsSync(p)) continue;
-  for (const f of readdirSync(p).filter((n) => n.endsWith('.json'))) {
+  for (const f of readdirSync(p).filter((n) => n.endsWith('.json') && (!checkSlugs || checkSlugs.has(n.replace(/\.json$/, ''))))) {
     const e = JSON.parse(readFileSync(resolve(p, f), 'utf8'));
     e.file = `content/${dir}/${f}`;
     e.segment = TYPES[e.type];
@@ -42,6 +44,7 @@ for (const e of entries) for (const l of LANGS) {
 }
 if (errors.length) { console.error('SEO build: contenu invalide\n - ' + errors.join('\n - ')); process.exit(1); }
 
+if (checkSlugs) { console.log(`SEO check OK: ${entries.length} contenus valides`); process.exit(0); }
 // ---------- rendu ----------
 const url = (lang, ...parts) => `${SITE}/${lang}/${parts.filter(Boolean).join('/')}${parts.length ? '/' : ''}`.replace(/\/\/$/, '/');
 const alternates = (build) => LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${build(l)}">`).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${build('fr')}">`;
