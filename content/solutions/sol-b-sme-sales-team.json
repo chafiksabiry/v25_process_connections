@@ -1,93 +1,273 @@
 {
-  "type": "solution",
-  "slug": "sol-b-sme-sales-team",
-  "date": "2026-11-11",
-  "langs": {
-    "fr": {
-      "title": "Téléphonie pour l'équipe commerciale d'une PME",
-      "description": "Appels entrants et sortants, numéro local et IA d'assistance : comment une PME structure sa téléphonie commerciale avec l'offre Company Full Scope In & Out de HARX.",
-      "blocks": [
-        {"h2": "Le problème : une équipe commerciale qui perd des appels et du temps"},
-        {"p": "Dans une PME, les commerciaux jonglent entre prospection, rendez-vous clients et suivi des devis. Le téléphone reste le canal où se joue souvent la première impression, mais il est rarement organisé comme un vrai outil de vente."},
-        {"ul": ["Des appels entrants qui tombent sur un mobile personnel et restent sans réponse.", "Des appels sortants passés depuis des numéros différents, sans historique commun.", "Aucune vision partagée de qui a appelé qui, ni de ce qui a été promis.", "Des commerciaux éparpillés entre plusieurs sites ou en télétravail, difficiles à coordonner.", "Des notes d'appel prises à la main, perdues ou jamais saisies dans le CRM."]},
-        {"h2": "Comment l'offre Company Full Scope In & Out répond à ce besoin"},
-        {"p": "HARX Téléphonie propose une offre pensée pour les PME et les équipes à distance : Company Full Scope In & Out. Elle couvre les appels entrants comme sortants, ce qui permet à toute l'équipe commerciale de travailler sur une même base téléphonique plutôt que sur des lignes dispersées."},
-        {"p": "L'entreprise dispose d'un numéro de son pays, d'un accueil et d'un répondeur pour ne pas laisser un prospect sans réponse, et d'une IA qui assiste les échanges. Le fonctionnement repose sur un abonnement mensuel, avec des minutes et de l'IA prépayées, et la ligne est opérationnelle en quelques minutes, sans chantier technique lourd."},
-        {"h2": "Bonnes pratiques pour une téléphonie commerciale efficace"},
-        {"ul": ["Définir qui répond aux appels entrants selon l'heure et le sujet, et prévoir un message de répondeur clair quand personne n'est disponible.", "Rappeler les appels manqués dans un délai court, car un prospect qui n'obtient pas de réponse contacte souvent un concurrent.", "Préparer chaque appel sortant : objectif, question d'ouverture, prochaine étape à proposer.", "Noter systématiquement le résultat de l'appel et la date de relance convenue.", "Séparer la prospection à froid du suivi des clients existants, car le ton et le rythme diffèrent.", "Faire des points d'équipe réguliers pour réécouter ou relire quelques échanges et partager ce qui fonctionne."]},
-        {"p": "Ces habitudes comptent plus que l'outil lui-même : une bonne téléphonie sert une organisation commerciale déjà claire, elle ne la remplace pas. Pour une PME qui veut tester une organisation plus rigoureuse sans investir dans une infrastructure lourde, Company Full Scope In & Out de HARX est l'offre à regarder en premier."},
-        {"h2": "Questions fréquentes"},
-        {"faq": [
-          {"q": "Cette solution convient-elle à une équipe commerciale répartie sur plusieurs villes ?", "a": "Oui, l'offre est destinée notamment aux équipes à distance. Chacun travaille avec la même ligne d'entreprise, quel que soit son lieu."},
-          {"q": "Peut-on passer des appels sortants et recevoir des appels sur le même numéro ?", "a": "Company Full Scope In & Out couvre les appels entrants et sortants, avec un numéro de votre pays."},
-          {"q": "Faut-il une installation technique complexe ?", "a": "Non, la ligne est présentée comme opérationnelle en quelques minutes, avec un abonnement mensuel."}
-        ]}
-      ]
+ "type": "solution",
+ "slug": "sol-b-sme-sales-team",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Téléphonie pour l'équipe commerciale d'une PME",
+   "description": "Appels entrants et sortants, numéro local et IA d'assistance : comment une PME structure sa téléphonie commerciale avec Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "Le problème : une équipe commerciale qui perd des appels et du temps"
     },
-    "en": {
-      "title": "Phone system for an SME sales team",
-      "description": "Inbound and outbound calls, a local number and AI assistance: how an SME can organise its sales telephony with HARX's Company Full Scope In & Out offer.",
-      "blocks": [
-        {"h2": "The problem: a sales team that loses calls and time"},
-        {"p": "In a small or mid-sized company, salespeople split their day between prospecting, client meetings and following up on quotes. The phone is often where the first impression is made, yet it is rarely set up as a proper sales tool."},
-        {"ul": ["Inbound calls land on a personal mobile and go unanswered.", "Outbound calls are placed from different numbers, with no shared history.", "Nobody has a common view of who called whom or what was promised.", "Reps spread across several sites or working remotely are hard to coordinate.", "Call notes are written by hand, lost, or never entered in the CRM."]},
-        {"h2": "How Company Full Scope In & Out addresses this"},
-        {"p": "HARX Telephony offers a plan designed for SMEs and remote teams: Company Full Scope In & Out. It covers both inbound and outbound calls, so the whole sales team can work from one telephone base instead of scattered lines."},
-        {"p": "The company gets a number from its own country, a reception service and voicemail so that no prospect is left without an answer, plus an AI that assists conversations. It runs on a monthly subscription with prepaid minutes and AI, and the line is operational within minutes, without heavy technical work."},
-        {"h2": "Good practices for effective sales calling"},
-        {"ul": ["Decide who picks up inbound calls depending on the time and the topic, and record a clear voicemail message for when nobody is free.", "Return missed calls quickly, because a prospect who gets no answer often contacts someone else.", "Prepare each outbound call: objective, opening question and the next step to propose.", "Always log the outcome of the call and the agreed follow-up date.", "Keep cold prospecting separate from existing-customer follow-up, since tone and pace differ.", "Hold regular team reviews to go over a few conversations and share what works."]},
-        {"p": "These habits matter more than the tool itself: good telephony supports a sales organisation that is already clear, it does not replace one. For an SME that wants a more rigorous setup without investing in heavy infrastructure, HARX's Company Full Scope In & Out is the offer to look at first."},
-        {"h2": "Frequently asked questions"},
-        {"faq": [
-          {"q": "Does this suit a sales team spread across several cities?", "a": "Yes, the offer is aimed in particular at remote teams. Everyone works with the same company line wherever they are."},
-          {"q": "Can we make outbound calls and receive calls on the same number?", "a": "Company Full Scope In & Out covers inbound and outbound calls, with a number from your country."},
-          {"q": "Is a complex technical installation required?", "a": "No, the line is described as operational within minutes, on a monthly subscription."}
-        ]}
-      ]
+    {
+     "p": "Dans une PME, les commerciaux jonglent entre prospection, rendez-vous clients et suivi des devis. Le téléphone reste le canal où se joue souvent la première impression, mais il est rarement organisé comme un vrai outil de vente."
     },
-    "es": {
-      "title": "Telefonía para el equipo comercial de una pyme",
-      "description": "Llamadas entrantes y salientes, número local e IA de apoyo: cómo una pyme organiza su telefonía comercial con la oferta Company Full Scope In & Out de HARX.",
-      "blocks": [
-        {"h2": "El problema: un equipo comercial que pierde llamadas y tiempo"},
-        {"p": "En una pyme, los comerciales reparten su jornada entre la prospección, las reuniones con clientes y el seguimiento de presupuestos. El teléfono suele ser el canal donde se forma la primera impresión, pero rara vez está organizado como una verdadera herramienta de venta."},
-        {"ul": ["Llamadas entrantes que llegan a un móvil personal y quedan sin respuesta.", "Llamadas salientes hechas desde números distintos, sin un historial común.", "Nadie tiene una visión compartida de quién llamó a quién ni de lo que se prometió.", "Comerciales repartidos en varias sedes o en teletrabajo, difíciles de coordinar.", "Notas de llamada escritas a mano, extraviadas o nunca incorporadas al CRM."]},
-        {"h2": "Cómo responde la oferta Company Full Scope In & Out"},
-        {"p": "HARX Telefonía propone una oferta pensada para pymes y equipos remotos: Company Full Scope In & Out. Cubre tanto las llamadas entrantes como las salientes, de modo que todo el equipo comercial trabaja sobre una misma base telefónica en lugar de líneas dispersas."},
-        {"p": "La empresa dispone de un número de su país, de recepción y contestador para no dejar a ningún cliente potencial sin respuesta, y de una IA que asiste las conversaciones. Funciona con una suscripción mensual, con minutos e IA prepagados, y la línea queda operativa en pocos minutos, sin obras técnicas pesadas."},
-        {"h2": "Buenas prácticas para una telefonía comercial eficaz"},
-        {"ul": ["Definir quién atiende las llamadas entrantes según la hora y el tema, y grabar un mensaje de contestador claro para cuando nadie esté disponible.", "Devolver las llamadas perdidas con rapidez, porque quien no recibe respuesta suele acudir a otro proveedor.", "Preparar cada llamada saliente: objetivo, pregunta de apertura y siguiente paso que se propondrá.", "Anotar siempre el resultado de la llamada y la fecha de seguimiento acordada.", "Separar la prospección en frío del seguimiento de clientes actuales, porque el tono y el ritmo son distintos.", "Hacer revisiones periódicas en equipo para repasar algunas conversaciones y compartir lo que funciona."]},
-        {"p": "Estos hábitos importan más que la herramienta: una buena telefonía apoya una organización comercial ya clara, no la sustituye. Para una pyme que quiere un funcionamiento más riguroso sin invertir en infraestructura pesada, Company Full Scope In & Out de HARX es la oferta que conviene mirar primero."},
-        {"h2": "Preguntas frecuentes"},
-        {"faq": [
-          {"q": "¿Sirve para un equipo comercial repartido en varias ciudades?", "a": "Sí, la oferta está pensada en particular para equipos remotos. Todos trabajan con la misma línea de empresa, estén donde estén."},
-          {"q": "¿Se pueden hacer llamadas salientes y recibir llamadas en el mismo número?", "a": "Company Full Scope In & Out cubre llamadas entrantes y salientes, con un número de su país."},
-          {"q": "¿Hace falta una instalación técnica compleja?", "a": "No, la línea se presenta como operativa en pocos minutos, con una suscripción mensual."}
-        ]}
-      ]
+    {
+     "ul": [
+      "Des appels entrants qui tombent sur un mobile personnel et restent sans réponse.",
+      "Des appels sortants passés depuis des numéros différents, sans historique commun.",
+      "Aucune vision partagée de qui a appelé qui, ni de ce qui a été promis.",
+      "Des commerciaux éparpillés entre plusieurs sites ou en télétravail, difficiles à coordonner.",
+      "Des notes d'appel prises à la main, perdues ou jamais saisies dans le CRM."
+     ]
     },
-    "ar": {
-      "title": "الاتصال الهاتفي للفريق التجاري في الشركات الصغيرة والمتوسطة",
-      "description": "مكالمات واردة وصادرة ورقم محلي ومساعدة بالذكاء الاصطناعي: كيف تنظّم الشركة الصغيرة اتصالاتها التجارية مع عرض Company Full Scope In & Out من HARX.",
-      "blocks": [
-        {"h2": "المشكلة: فريق مبيعات يخسر المكالمات والوقت"},
-        {"p": "في الشركات الصغيرة والمتوسطة يوزّع مندوبو المبيعات يومهم بين البحث عن عملاء جدد ولقاءات العملاء ومتابعة عروض الأسعار. والهاتف غالبًا هو القناة التي تتشكّل عبرها الانطباعات الأولى، لكنه نادرًا ما يُنظَّم كأداة بيع حقيقية."},
-        {"ul": ["مكالمات واردة تصل إلى هاتف شخصي ولا يُردّ عليها.", "مكالمات صادرة تُجرى من أرقام مختلفة دون سجلّ مشترك.", "لا توجد رؤية موحّدة لمن اتصل بمن وبما جرى الوعد به.", "مندوبون موزّعون على عدة مواقع أو يعملون عن بُعد، ويصعب تنسيق عملهم.", "ملاحظات المكالمات تُكتب يدويًا فتضيع أو لا تُسجَّل أبدًا في نظام إدارة العملاء."]},
-        {"p": "والنتيجة أن الفريق يعمل بجهد كبير لكنه لا يملك صورة واضحة عمّا يحدث فعليًا في علاقته بالعملاء، فتضيع فرص كان يمكن تحويلها إلى مبيعات بمجرد حسن تنظيم الرد والمتابعة."},
-        {"h2": "كيف يعالج عرض Company Full Scope In & Out هذه المشكلة"},
-        {"p": "تقدّم HARX للاتصالات الهاتفية عرضًا مصمَّمًا للشركات الصغيرة والمتوسطة والفرق التي تعمل عن بُعد، وهو Company Full Scope In & Out. يغطي المكالمات الواردة والصادرة معًا، فيعمل الفريق التجاري كله على قاعدة هاتفية واحدة بدل خطوط متفرقة."},
-        {"p": "تحصل الشركة على رقم من بلدها، وخدمة استقبال ومجيب آلي حتى لا يبقى أي عميل محتمل بلا ردّ، إضافة إلى ذكاء اصطناعي يساعد في المحادثات. ويقوم العمل على اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، ويصبح الخط جاهزًا خلال دقائق دون تجهيزات تقنية ثقيلة."},
-        {"h2": "ممارسات جيدة لاتصالات تجارية فعّالة"},
-        {"ul": ["تحديد من يردّ على المكالمات الواردة بحسب الوقت والموضوع، وتسجيل رسالة مجيب آلي واضحة عندما لا يتوفر أحد.", "معاودة الاتصال بالمكالمات الفائتة بسرعة، لأن العميل الذي لا يجد ردًّا يتجه غالبًا إلى جهة أخرى.", "تحضير كل مكالمة صادرة: الهدف، وسؤال الافتتاح، والخطوة التالية المقترحة.", "تدوين نتيجة المكالمة وموعد المتابعة المتفق عليه في كل مرة.", "الفصل بين البحث عن عملاء جدد ومتابعة العملاء الحاليين، لأن النبرة والإيقاع يختلفان.", "عقد اجتماعات دورية للفريق لمراجعة بعض المحادثات وتبادل ما ينجح."]},
-        {"p": "هذه العادات أهم من الأداة نفسها، فالاتصالات الجيدة تخدم تنظيمًا تجاريًا واضحًا ولا تحلّ محله. وللشركة الصغيرة التي تريد تنظيمًا أكثر صرامة دون الاستثمار في بنية تحتية ثقيلة، يكون عرض Company Full Scope In & Out من HARX أول ما ينبغي النظر فيه."},
-        {"p": "ومن المفيد أيضًا أن تُعرَّف مسبقًا قواعد بسيطة يلتزم بها الجميع، مثل طريقة تقديم الشركة عند الردّ وطريقة تسجيل المعلومات بعد كل مكالمة، حتى يجد أي زميل المعلومة نفسها إذا احتاج إلى متابعة ملف زميله."},
-        {"h2": "الأسئلة الشائعة"},
-        {"faq": [
-          {"q": "هل يناسب هذا الحل فريق مبيعات موزّعًا على عدة مدن؟", "a": "نعم، فالعرض موجّه خصوصًا إلى الفرق التي تعمل عن بُعد، ويعمل الجميع بخط الشركة نفسه أينما كانوا."},
-          {"q": "هل يمكن إجراء مكالمات صادرة واستقبال مكالمات على الرقم نفسه؟", "a": "يغطي Company Full Scope In & Out المكالمات الواردة والصادرة مع رقم من بلدكم."},
-          {"q": "هل يلزم تركيب تقني معقّد؟", "a": "لا، فالخط يُقدَّم على أنه جاهز خلال دقائق باشتراك شهري."}
-        ]}
-      ]
+    {
+     "h2": "Comment l'offre Company Full Scope In & Out répond à ce besoin"
+    },
+    {
+     "p": "HARX Téléphonie propose une offre pensée pour les PME et les équipes à distance : Company Full Scope In & Out. Elle couvre les appels entrants comme sortants, ce qui permet à toute l'équipe commerciale de travailler sur une même base téléphonique plutôt que sur des lignes dispersées."
+    },
+    {
+     "p": "L'entreprise dispose d'un numéro de son pays, d'un accueil et d'un répondeur pour ne pas laisser un prospect sans réponse, et d'une IA qui assiste les échanges. Le fonctionnement repose sur un abonnement mensuel, avec des minutes et de l'IA prépayées, et la ligne est opérationnelle en quelques minutes, sans chantier technique lourd."
+    },
+    {
+     "h2": "Bonnes pratiques pour une téléphonie commerciale efficace"
+    },
+    {
+     "ul": [
+      "Définir qui répond aux appels entrants selon l'heure et le sujet, et prévoir un message de répondeur clair quand personne n'est disponible.",
+      "Rappeler les appels manqués dans un délai court, car un prospect qui n'obtient pas de réponse contacte souvent un concurrent.",
+      "Préparer chaque appel sortant : objectif, question d'ouverture, prochaine étape à proposer.",
+      "Noter systématiquement le résultat de l'appel et la date de relance convenue.",
+      "Séparer la prospection à froid du suivi des clients existants, car le ton et le rythme diffèrent.",
+      "Faire des points d'équipe réguliers pour réécouter ou relire quelques échanges et partager ce qui fonctionne."
+     ]
+    },
+    {
+     "p": "Ces habitudes comptent plus que l'outil lui-même : une bonne téléphonie sert une organisation commerciale déjà claire, elle ne la remplace pas. Pour une PME qui veut tester une organisation plus rigoureuse sans investir dans une infrastructure lourde, Company Full Scope In & Out de HARX est l'offre à regarder en premier."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Cette solution convient-elle à une équipe commerciale répartie sur plusieurs villes ?",
+       "a": "Oui, l'offre est destinée notamment aux équipes à distance. Chacun travaille avec la même ligne d'entreprise, quel que soit son lieu."
+      },
+      {
+       "q": "Peut-on passer des appels sortants et recevoir des appels sur le même numéro ?",
+       "a": "Company Full Scope In & Out couvre les appels entrants et sortants, avec un numéro de votre pays."
+      },
+      {
+       "q": "Faut-il une installation technique complexe ?",
+       "a": "Non, la ligne est présentée comme opérationnelle en quelques minutes, avec un abonnement mensuel."
+      }
+     ]
     }
+   ]
+  },
+  "en": {
+   "title": "Phone system for an SME sales team",
+   "description": "Inbound and outbound calls, a local number and AI assistance: how an SME can organise its sales telephony with HARX's Company Full Scope In & Out offer.",
+   "blocks": [
+    {
+     "h2": "The problem: a sales team that loses calls and time"
+    },
+    {
+     "p": "In a small or mid-sized company, salespeople split their day between prospecting, client meetings and following up on quotes. The phone is often where the first impression is made, yet it is rarely set up as a proper sales tool."
+    },
+    {
+     "ul": [
+      "Inbound calls land on a personal mobile and go unanswered.",
+      "Outbound calls are placed from different numbers, with no shared history.",
+      "Nobody has a common view of who called whom or what was promised.",
+      "Reps spread across several sites or working remotely are hard to coordinate.",
+      "Call notes are written by hand, lost, or never entered in the CRM."
+     ]
+    },
+    {
+     "h2": "How Company Full Scope In & Out addresses this"
+    },
+    {
+     "p": "HARX Telephony offers a plan designed for SMEs and remote teams: Company Full Scope In & Out. It covers both inbound and outbound calls, so the whole sales team can work from one telephone base instead of scattered lines."
+    },
+    {
+     "p": "The company gets a number from its own country, a reception service and voicemail so that no prospect is left without an answer, plus an AI that assists conversations. It runs on a monthly subscription with prepaid minutes and AI, and the line is operational within minutes, without heavy technical work."
+    },
+    {
+     "h2": "Good practices for effective sales calling"
+    },
+    {
+     "ul": [
+      "Decide who picks up inbound calls depending on the time and the topic, and record a clear voicemail message for when nobody is free.",
+      "Return missed calls quickly, because a prospect who gets no answer often contacts someone else.",
+      "Prepare each outbound call: objective, opening question and the next step to propose.",
+      "Always log the outcome of the call and the agreed follow-up date.",
+      "Keep cold prospecting separate from existing-customer follow-up, since tone and pace differ.",
+      "Hold regular team reviews to go over a few conversations and share what works."
+     ]
+    },
+    {
+     "p": "These habits matter more than the tool itself: good telephony supports a sales organisation that is already clear, it does not replace one. For an SME that wants a more rigorous setup without investing in heavy infrastructure, HARX's Company Full Scope In & Out is the offer to look at first."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Does this suit a sales team spread across several cities?",
+       "a": "Yes, the offer is aimed in particular at remote teams. Everyone works with the same company line wherever they are."
+      },
+      {
+       "q": "Can we make outbound calls and receive calls on the same number?",
+       "a": "Company Full Scope In & Out covers inbound and outbound calls, with a number from your country."
+      },
+      {
+       "q": "Is a complex technical installation required?",
+       "a": "No, the line is described as operational within minutes, on a monthly subscription."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Telefonía para el equipo comercial de una pyme",
+   "description": "Llamadas entrantes y salientes, número local e IA de apoyo: cómo una pyme organiza su telefonía comercial con la oferta Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "El problema: un equipo comercial que pierde llamadas y tiempo"
+    },
+    {
+     "p": "En una pyme, los comerciales reparten su jornada entre la prospección, las reuniones con clientes y el seguimiento de presupuestos. El teléfono suele ser el canal donde se forma la primera impresión, pero rara vez está organizado como una verdadera herramienta de venta."
+    },
+    {
+     "ul": [
+      "Llamadas entrantes que llegan a un móvil personal y quedan sin respuesta.",
+      "Llamadas salientes hechas desde números distintos, sin un historial común.",
+      "Nadie tiene una visión compartida de quién llamó a quién ni de lo que se prometió.",
+      "Comerciales repartidos en varias sedes o en teletrabajo, difíciles de coordinar.",
+      "Notas de llamada escritas a mano, extraviadas o nunca incorporadas al CRM."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Company Full Scope In & Out"
+    },
+    {
+     "p": "HARX Telefonía propone una oferta pensada para pymes y equipos remotos: Company Full Scope In & Out. Cubre tanto las llamadas entrantes como las salientes, de modo que todo el equipo comercial trabaja sobre una misma base telefónica en lugar de líneas dispersas."
+    },
+    {
+     "p": "La empresa dispone de un número de su país, de recepción y contestador para no dejar a ningún cliente potencial sin respuesta, y de una IA que asiste las conversaciones. Funciona con una suscripción mensual, con minutos e IA prepagados, y la línea queda operativa en pocos minutos, sin obras técnicas pesadas."
+    },
+    {
+     "h2": "Buenas prácticas para una telefonía comercial eficaz"
+    },
+    {
+     "ul": [
+      "Definir quién atiende las llamadas entrantes según la hora y el tema, y grabar un mensaje de contestador claro para cuando nadie esté disponible.",
+      "Devolver las llamadas perdidas con rapidez, porque quien no recibe respuesta suele acudir a otro proveedor.",
+      "Preparar cada llamada saliente: objetivo, pregunta de apertura y siguiente paso que se propondrá.",
+      "Anotar siempre el resultado de la llamada y la fecha de seguimiento acordada.",
+      "Separar la prospección en frío del seguimiento de clientes actuales, porque el tono y el ritmo son distintos.",
+      "Hacer revisiones periódicas en equipo para repasar algunas conversaciones y compartir lo que funciona."
+     ]
+    },
+    {
+     "p": "Estos hábitos importan más que la herramienta: una buena telefonía apoya una organización comercial ya clara, no la sustituye. Para una pyme que quiere un funcionamiento más riguroso sin invertir en infraestructura pesada, Company Full Scope In & Out de HARX es la oferta que conviene mirar primero."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Sirve para un equipo comercial repartido en varias ciudades?",
+       "a": "Sí, la oferta está pensada en particular para equipos remotos. Todos trabajan con la misma línea de empresa, estén donde estén."
+      },
+      {
+       "q": "¿Se pueden hacer llamadas salientes y recibir llamadas en el mismo número?",
+       "a": "Company Full Scope In & Out cubre llamadas entrantes y salientes, con un número de su país."
+      },
+      {
+       "q": "¿Hace falta una instalación técnica compleja?",
+       "a": "No, la línea se presenta como operativa en pocos minutos, con una suscripción mensual."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "الاتصال الهاتفي للفريق التجاري في الشركات الصغيرة والمتوسطة",
+   "description": "مكالمات واردة وصادرة ورقم محلي ومساعدة بالذكاء الاصطناعي: كيف تنظّم الشركة الصغيرة اتصالاتها التجارية مع عرض Company Full Scope In & Out من HARX.",
+   "blocks": [
+    {
+     "h2": "المشكلة: فريق مبيعات يخسر المكالمات والوقت"
+    },
+    {
+     "p": "في الشركات الصغيرة والمتوسطة يوزّع مندوبو المبيعات يومهم بين البحث عن عملاء جدد ولقاءات العملاء ومتابعة عروض الأسعار. والهاتف غالبًا هو القناة التي تتشكّل عبرها الانطباعات الأولى، لكنه نادرًا ما يُنظَّم كأداة بيع حقيقية."
+    },
+    {
+     "ul": [
+      "مكالمات واردة تصل إلى هاتف شخصي ولا يُردّ عليها.",
+      "مكالمات صادرة تُجرى من أرقام مختلفة دون سجلّ مشترك.",
+      "لا توجد رؤية موحّدة لمن اتصل بمن وبما جرى الوعد به.",
+      "مندوبون موزّعون على عدة مواقع أو يعملون عن بُعد، ويصعب تنسيق عملهم.",
+      "ملاحظات المكالمات تُكتب يدويًا فتضيع أو لا تُسجَّل أبدًا في نظام إدارة العملاء."
+     ]
+    },
+    {
+     "p": "والنتيجة أن الفريق يعمل بجهد كبير لكنه لا يملك صورة واضحة عمّا يحدث فعليًا في علاقته بالعملاء، فتضيع فرص كان يمكن تحويلها إلى مبيعات بمجرد حسن تنظيم الرد والمتابعة."
+    },
+    {
+     "h2": "كيف يعالج عرض Company Full Scope In & Out هذه المشكلة"
+    },
+    {
+     "p": "تقدّم HARX للاتصالات الهاتفية عرضًا مصمَّمًا للشركات الصغيرة والمتوسطة والفرق التي تعمل عن بُعد، وهو Company Full Scope In & Out. يغطي المكالمات الواردة والصادرة معًا، فيعمل الفريق التجاري كله على قاعدة هاتفية واحدة بدل خطوط متفرقة."
+    },
+    {
+     "p": "تحصل الشركة على رقم من بلدها، وخدمة استقبال ومجيب آلي حتى لا يبقى أي عميل محتمل بلا ردّ، إضافة إلى ذكاء اصطناعي يساعد في المحادثات. ويقوم العمل على اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، ويصبح الخط جاهزًا خلال دقائق دون تجهيزات تقنية ثقيلة."
+    },
+    {
+     "h2": "ممارسات جيدة لاتصالات تجارية فعّالة"
+    },
+    {
+     "ul": [
+      "تحديد من يردّ على المكالمات الواردة بحسب الوقت والموضوع، وتسجيل رسالة مجيب آلي واضحة عندما لا يتوفر أحد.",
+      "معاودة الاتصال بالمكالمات الفائتة بسرعة، لأن العميل الذي لا يجد ردًّا يتجه غالبًا إلى جهة أخرى.",
+      "تحضير كل مكالمة صادرة: الهدف، وسؤال الافتتاح، والخطوة التالية المقترحة.",
+      "تدوين نتيجة المكالمة وموعد المتابعة المتفق عليه في كل مرة.",
+      "الفصل بين البحث عن عملاء جدد ومتابعة العملاء الحاليين، لأن النبرة والإيقاع يختلفان.",
+      "عقد اجتماعات دورية للفريق لمراجعة بعض المحادثات وتبادل ما ينجح."
+     ]
+    },
+    {
+     "p": "هذه العادات أهم من الأداة نفسها، فالاتصالات الجيدة تخدم تنظيمًا تجاريًا واضحًا ولا تحلّ محله. وللشركة الصغيرة التي تريد تنظيمًا أكثر صرامة دون الاستثمار في بنية تحتية ثقيلة، يكون عرض Company Full Scope In & Out من HARX أول ما ينبغي النظر فيه."
+    },
+    {
+     "p": "ومن المفيد أيضًا أن تُعرَّف مسبقًا قواعد بسيطة يلتزم بها الجميع، مثل طريقة تقديم الشركة عند الردّ وطريقة تسجيل المعلومات بعد كل مكالمة، حتى يجد أي زميل المعلومة نفسها إذا احتاج إلى متابعة ملف زميله."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يناسب هذا الحل فريق مبيعات موزّعًا على عدة مدن؟",
+       "a": "نعم، فالعرض موجّه خصوصًا إلى الفرق التي تعمل عن بُعد، ويعمل الجميع بخط الشركة نفسه أينما كانوا."
+      },
+      {
+       "q": "هل يمكن إجراء مكالمات صادرة واستقبال مكالمات على الرقم نفسه؟",
+       "a": "يغطي Company Full Scope In & Out المكالمات الواردة والصادرة مع رقم من بلدكم."
+      },
+      {
+       "q": "هل يلزم تركيب تقني معقّد؟",
+       "a": "لا، فالخط يُقدَّم على أنه جاهز خلال دقائق باشتراك شهري."
+      }
+     ]
+    }
+   ]
   }
+ }
 }

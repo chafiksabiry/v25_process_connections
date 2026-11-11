@@ -1,0 +1,317 @@
+{
+ "type": "blog",
+ "slug": "blog-a-ai-calls-can-and-cannot",
+ "date": "2026-10-25",
+ "langs": {
+  "fr": {
+   "title": "L'IA au service des appels : ce qu'elle peut et ne peut pas faire",
+   "description": "Assister, résumer, préparer : l'IA peut aider vos équipes au téléphone, mais elle a des limites. Un regard réaliste sur ses usages et sur la place de l'humain.",
+   "blocks": [
+    {
+     "p": "L'intelligence artificielle s'invite dans la téléphonie, avec des promesses parfois excessives. Entre l'enthousiasme et la méfiance, un regard calme s'impose : où l'IA apporte-t-elle une aide réelle, et où faut-il garder un humain aux commandes ? Voici quelques repères généraux pour s'y retrouver."
+    },
+    {
+     "h2": "Ce que l'IA peut raisonnablement faire"
+    },
+    {
+     "p": "L'IA est utile pour les tâches répétitives et structurées, où elle soulage les équipes sans prendre de décision à leur place. Utilisée comme assistante, elle peut accélérer le travail autour de l'appel."
+    },
+    {
+     "ul": [
+      "Aider à préparer un appel en rassemblant les informations disponibles sur un contact.",
+      "Proposer des formulations ou des réponses types que l'agent adapte.",
+      "Résumer un échange pour faciliter la prise de notes et le suivi.",
+      "Classer les demandes par thème pour repérer les sujets fréquents.",
+      "Rappeler des étapes d'un script pendant la conversation."
+     ]
+    },
+    {
+     "p": "Dans tous ces cas, l'IA fait gagner du temps, mais l'agent reste responsable de ce qui est dit et décidé."
+    },
+    {
+     "h2": "Ce qu'elle ne peut pas, ou pas encore, faire correctement"
+    },
+    {
+     "p": "Il faut être honnête sur les limites. Une IA peut se tromper, interpréter de travers ou inventer une réponse plausible mais fausse. Elle ne comprend pas toujours le contexte émotionnel d'un appel, ni l'enjeu réel pour la personne qui appelle."
+    },
+    {
+     "ul": [
+      "Prendre seule des décisions engageantes pour l'entreprise ou pour le client.",
+      "Gérer sans supervision des situations sensibles : réclamation vive, détresse, urgence.",
+      "Garantir l'exactitude de ses résumés sans relecture.",
+      "Remplacer l'empathie et le jugement d'un professionnel formé."
+     ]
+    },
+    {
+     "p": "Considérez donc toute sortie de l'IA comme une proposition à vérifier, surtout quand elle concerne un engagement, un montant ou une information importante."
+    },
+    {
+     "h2": "Bien répartir les rôles entre humain et IA"
+    },
+    {
+     "p": "La meilleure approche consiste à confier à l'IA ce qui est mécanique et à garder pour l'humain ce qui demande du discernement. Une règle simple : plus un appel est délicat, plus l'humain doit être au centre."
+    },
+    {
+     "ul": [
+      "Définissez à l'avance ce que l'IA peut proposer et ce qu'elle ne doit jamais décider seule.",
+      "Prévoyez un passage rapide vers une personne quand la situation l'exige.",
+      "Relisez régulièrement des exemples de sorties pour repérer les erreurs.",
+      "Informez les équipes et, selon les cas, les interlocuteurs de la place de l'IA."
+     ]
+    },
+    {
+     "p": "Cette transparence renforce la confiance. Un client préfère savoir qu'une aide automatisée existe, plutôt que de découvrir après coup qu'il parlait à un système."
+    },
+    {
+     "h2": "L'IA dans une offre de téléphonie"
+    },
+    {
+     "p": "HARX Téléphonie intègre une IA qui assiste, avec des minutes et une IA prépayées, au sein d'un abonnement mensuel. Elle s'ajoute aux appels entrants et sortants, au répondeur et à l'accueil, sans prétendre se substituer au professionnel. Le principe est celui d'un coup de main, pas d'un remplacement."
+    },
+    {
+     "p": "À l'échelle de la plateforme HARX.ai, l'offre TAAS évalue en temps réel chaque interaction de professionnels certifiés, humains ou IA, ce qui rappelle que la qualité se contrôle quel que soit celui qui répond."
+    },
+    {
+     "h2": "Conclusion : un assistant, pas un pilote automatique"
+    },
+    {
+     "p": "L'IA est une aide précieuse pour préparer, résumer et organiser, à condition de garder un humain responsable et de vérifier ce qu'elle produit. Commencez par un usage simple, observez ses effets sur la qualité des appels, puis élargissez prudemment. La confiance de vos clients dépend toujours de la fiabilité de ce que vous leur dites."
+    }
+   ]
+  },
+  "en": {
+   "title": "AI for Phone Calls: What It Can and Cannot Do",
+   "description": "Assist, summarise, prepare: AI can support your teams on the phone, but it has limits. A realistic look at its uses and at where humans must stay in charge.",
+   "blocks": [
+    {
+     "p": "Artificial intelligence is moving into telephony, sometimes with excessive promises. Between enthusiasm and mistrust, a calm view is needed: where does AI provide real help, and where should a human stay in charge? Here are a few general markers to find your way."
+    },
+    {
+     "h2": "What AI can reasonably do"
+    },
+    {
+     "p": "AI is useful for repetitive, structured tasks, where it relieves teams without making decisions for them. Used as an assistant, it can speed up the work around the call."
+    },
+    {
+     "ul": [
+      "Help prepare a call by gathering available information about a contact.",
+      "Suggest wording or model answers that the agent adapts.",
+      "Summarise an exchange to make note-taking and follow-up easier.",
+      "Sort requests by theme to spot frequent topics.",
+      "Remind the agent of script steps during the conversation."
+     ]
+    },
+    {
+     "p": "In all these cases, AI saves time, but the agent remains responsible for what is said and decided."
+    },
+    {
+     "h2": "What it cannot, or cannot yet, do properly"
+    },
+    {
+     "p": "We should be honest about the limits. An AI can be wrong, misread a situation or invent an answer that sounds plausible but is false. It does not always grasp the emotional context of a call, or what is truly at stake for the caller."
+    },
+    {
+     "ul": [
+      "Make binding decisions alone for the company or for the customer.",
+      "Handle sensitive situations unsupervised: a heated complaint, distress, an emergency.",
+      "Guarantee the accuracy of its summaries without review.",
+      "Replace the empathy and judgement of a trained professional."
+     ]
+    },
+    {
+     "p": "Treat every AI output as a proposal to check, especially when it concerns a commitment, an amount or important information."
+    },
+    {
+     "h2": "Dividing roles between humans and AI"
+    },
+    {
+     "p": "The best approach is to give AI what is mechanical and keep for humans what needs discernment. A simple rule: the more delicate a call, the more a human should be at its centre."
+    },
+    {
+     "ul": [
+      "Define in advance what AI may suggest and what it must never decide alone.",
+      "Plan a quick handover to a person when the situation requires it.",
+      "Regularly review sample outputs to spot errors.",
+      "Inform teams and, as appropriate, callers about the place of AI."
+     ]
+    },
+    {
+     "p": "This transparency builds trust. A customer prefers to know that automated help exists, rather than discovering afterwards that they were speaking to a system."
+    },
+    {
+     "h2": "AI inside a telephony offer"
+    },
+    {
+     "p": "HARX Telephony includes an AI that assists, with prepaid minutes and AI, within a monthly subscription. It adds to inbound and outbound calls, voicemail and reception, without claiming to replace the professional. The principle is a helping hand, not a replacement."
+    },
+    {
+     "p": "At the level of the HARX.ai platform, the TAAS offer evaluates every interaction by certified professionals, human or AI, in real time, which is a reminder that quality is checked whoever answers."
+    },
+    {
+     "h2": "Conclusion: an assistant, not an autopilot"
+    },
+    {
+     "p": "AI is a valuable aid for preparing, summarising and organising, provided a human stays responsible and you check what it produces. Start with a simple use, observe its effect on call quality, then widen cautiously. Your customers' trust always depends on the reliability of what you tell them."
+    }
+   ]
+  },
+  "es": {
+   "title": "La IA al servicio de las llamadas: qué puede y qué no puede hacer",
+   "description": "Asistir, resumir, preparar: la IA puede ayudar a tus equipos al teléfono, pero tiene límites. Una mirada realista a sus usos y al papel de las personas.",
+   "blocks": [
+    {
+     "p": "La inteligencia artificial se abre paso en la telefonía, a veces con promesas excesivas. Entre el entusiasmo y la desconfianza hace falta una mirada serena: ¿dónde aporta la IA una ayuda real y dónde conviene mantener a una persona al mando? Estas son algunas pautas generales para orientarse."
+    },
+    {
+     "h2": "Lo que la IA puede hacer razonablemente"
+    },
+    {
+     "p": "La IA es útil en tareas repetitivas y estructuradas, donde alivia a los equipos sin tomar decisiones por ellos. Usada como asistente, puede acelerar el trabajo en torno a la llamada."
+    },
+    {
+     "ul": [
+      "Ayudar a preparar una llamada reuniendo la información disponible sobre un contacto.",
+      "Proponer formulaciones o respuestas tipo que el agente adapta.",
+      "Resumir una conversación para facilitar las notas y el seguimiento.",
+      "Clasificar las peticiones por temas para detectar los asuntos frecuentes.",
+      "Recordar pasos de un guion durante la conversación."
+     ]
+    },
+    {
+     "p": "En todos estos casos la IA ahorra tiempo, pero el agente sigue siendo responsable de lo que se dice y se decide."
+    },
+    {
+     "h2": "Lo que no puede, o aún no puede, hacer bien"
+    },
+    {
+     "p": "Hay que ser honesto con los límites. Una IA puede equivocarse, interpretar mal o inventar una respuesta verosímil pero falsa. No siempre capta el contexto emocional de una llamada ni lo que realmente está en juego para quien llama."
+    },
+    {
+     "ul": [
+      "Tomar sola decisiones vinculantes para la empresa o para el cliente.",
+      "Gestionar sin supervisión situaciones delicadas: una queja fuerte, angustia, una urgencia.",
+      "Garantizar la exactitud de sus resúmenes sin revisión.",
+      "Sustituir la empatía y el criterio de un profesional formado."
+     ]
+    },
+    {
+     "p": "Considera, por tanto, cualquier resultado de la IA como una propuesta que verificar, sobre todo cuando afecta a un compromiso, una cantidad o una información importante."
+    },
+    {
+     "h2": "Repartir bien los papeles entre personas e IA"
+    },
+    {
+     "p": "El mejor enfoque consiste en confiar a la IA lo mecánico y reservar a las personas lo que requiere criterio. Una regla sencilla: cuanto más delicada es una llamada, más debe estar una persona en el centro."
+    },
+    {
+     "ul": [
+      "Define de antemano lo que la IA puede proponer y lo que nunca debe decidir sola.",
+      "Prevé un traspaso rápido a una persona cuando la situación lo exija.",
+      "Revisa con regularidad ejemplos de resultados para detectar errores.",
+      "Informa a los equipos y, según el caso, a quienes llaman sobre el papel de la IA."
+     ]
+    },
+    {
+     "p": "Esta transparencia refuerza la confianza. Un cliente prefiere saber que existe una ayuda automatizada a descubrir después que hablaba con un sistema."
+    },
+    {
+     "h2": "La IA dentro de una oferta de telefonía"
+    },
+    {
+     "p": "HARX Telefonía incluye una IA que asiste, con minutos e IA prepagados, dentro de una suscripción mensual. Se suma a las llamadas entrantes y salientes, al buzón de voz y a la atención, sin pretender sustituir al profesional. El principio es el de una ayuda, no el de un reemplazo."
+    },
+    {
+     "p": "A escala de la plataforma HARX.ai, la oferta TAAS evalúa en tiempo real cada interacción de profesionales certificados, humanos o IA, lo que recuerda que la calidad se controla sea quien sea el que responde."
+    },
+    {
+     "h2": "Conclusión: un asistente, no un piloto automático"
+    },
+    {
+     "p": "La IA es una ayuda valiosa para preparar, resumir y organizar, siempre que una persona siga siendo responsable y se verifique lo que produce. Empieza con un uso sencillo, observa su efecto en la calidad de las llamadas y amplía con prudencia. La confianza de tus clientes depende siempre de la fiabilidad de lo que les dices."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الذكاء الاصطناعي في خدمة المكالمات: ما يستطيعه وما لا يستطيعه",
+   "description": "المساعدة والتلخيص والتحضير: يستطيع الذكاء الاصطناعي دعم فرقك على الهاتف، لكن له حدودًا. نظرة واقعية إلى استخداماته ودور الإنسان.",
+   "blocks": [
+    {
+     "p": "يدخل الذكاء الاصطناعي عالم الاتصالات الهاتفية، وأحيانًا بوعود مبالغ فيها. وبين الحماسة والريبة تلزم نظرة هادئة: أين يقدم الذكاء الاصطناعي مساعدة حقيقية، وأين ينبغي أن يبقى الإنسان في موقع القرار؟ وإليك بعض المعالم العامة للاهتداء بها."
+    },
+    {
+     "h2": "ما يمكن للذكاء الاصطناعي فعله بشكل معقول"
+    },
+    {
+     "p": "يفيد الذكاء الاصطناعي في المهام المتكررة والمنظمة، حيث يخفف العبء عن الفرق دون أن يتخذ القرار نيابةً عنها. وحين يُستخدم مساعدًا فإنه يسرّع العمل المحيط بالمكالمة."
+    },
+    {
+     "ul": [
+      "المساعدة في تحضير مكالمة بجمع المعلومات المتاحة عن جهة اتصال.",
+      "اقتراح صيغ أو إجابات نموذجية يكيّفها الموظف.",
+      "تلخيص حديث لتسهيل تدوين الملاحظات والمتابعة.",
+      "تصنيف الطلبات بحسب الموضوع لرصد المواضيع الشائعة.",
+      "تذكير الموظف بخطوات النص أثناء المحادثة."
+     ]
+    },
+    {
+     "p": "في كل هذه الحالات يوفّر الذكاء الاصطناعي الوقت، لكن الموظف يبقى مسؤولًا عمّا يُقال ويُقرَّر."
+    },
+    {
+     "h2": "ما لا يستطيعه، أو لا يستطيعه بعد، بشكل صحيح"
+    },
+    {
+     "p": "ينبغي الصدق بشأن الحدود. فقد يخطئ الذكاء الاصطناعي أو يسيء التفسير أو يخترع جوابًا يبدو معقولًا لكنه خاطئ. وهو لا يدرك دائمًا السياق العاطفي للمكالمة ولا ما هو على المحك فعلًا بالنسبة للمتصل."
+    },
+    {
+     "ul": [
+      "اتخاذ قرارات ملزمة بمفرده للشركة أو للعميل.",
+      "التعامل دون إشراف مع المواقف الحساسة: شكوى حادة أو ضيق أو حالة طارئة.",
+      "ضمان دقة ملخصاته دون مراجعة.",
+      "الحلول محل تعاطف مهني مدرَّب وحسن تقديره."
+     ]
+    },
+    {
+     "p": "لذلك اعتبر كل ناتج منه اقتراحًا يستوجب التحقق، خصوصًا حين يتعلق بالتزام أو مبلغ أو معلومة مهمة."
+    },
+    {
+     "h2": "وزّع الأدوار جيدًا بين الإنسان والذكاء الاصطناعي"
+    },
+    {
+     "p": "أفضل نهج هو أن تعهد إلى الذكاء الاصطناعي بما هو آلي وتُبقي للإنسان ما يحتاج إلى تمييز. والقاعدة البسيطة: كلما كانت المكالمة أدق ازدادت الحاجة إلى أن يكون الإنسان في مركزها."
+    },
+    {
+     "ul": [
+      "حدّد مسبقًا ما يجوز للذكاء الاصطناعي اقتراحه وما لا يقرره بمفرده أبدًا.",
+      "خطّط لتحويل سريع إلى شخص حين يتطلب الموقف ذلك.",
+      "راجع بانتظام نماذج من مخرجاته لرصد الأخطاء.",
+      "أطلع الفرق، وعند الاقتضاء المتصلين، على دور الذكاء الاصطناعي."
+     ]
+    },
+    {
+     "p": "وهذه الشفافية تعزز الثقة. فالعميل يفضّل أن يعرف بوجود مساعدة آلية على أن يكتشف لاحقًا أنه كان يتحدث إلى نظام، وهو ما يحفظ سمعتك أيضًا."
+    },
+    {
+     "h2": "الذكاء الاصطناعي ضمن عرض اتصالات"
+    },
+    {
+     "p": "تتضمن HARX للاتصالات ذكاءً اصطناعيًا يساعد، مع دقائق وذكاء اصطناعي مدفوعين مسبقًا ضمن اشتراك شهري. وهو يضاف إلى المكالمات الواردة والصادرة والبريد الصوتي والاستقبال دون أن يدّعي الحلول محل المهني. فالمبدأ هو يد مساعدة لا بديل."
+    },
+    {
+     "p": "وعلى مستوى منصة HARX.ai يقيّم عرض TAAS كل تفاعل لمهنيين معتمدين، بشرًا كانوا أو ذكاءً اصطناعيًا، في الوقت الفعلي، وفي ذلك تذكير بأن الجودة تُراقب أيًّا كان من يجيب."
+    },
+    {
+     "p": "ومن الممارسات الجيدة أن تبدأ بتجربة محدودة على نوع واحد من المكالمات، كالتلخيص بعد المكالمة، وأن تقارن النتيجة بما يدوّنه موظف بشري. فمثل هذه المقارنة تكشف مواضع القوة والضعف دون مخاطرة بجودة الخدمة المقدمة للعملاء."
+    },
+    {
+     "p": "وفكّر أيضًا في كيفية التعامل مع المعلومات الشخصية في المكالمات حين تستعين بأي أداة آلية: ماذا تُدخل فيها وماذا تتجنب إدخاله. فالحذر في هذا الجانب جزء من الاستخدام المسؤول، ويحسن أن تتفق عليه الفرق قبل التجربة لا بعدها."
+    },
+    {
+     "h2": "الخلاصة: مساعد لا طيار آلي"
+    },
+    {
+     "p": "الذكاء الاصطناعي عون ثمين في التحضير والتلخيص والتنظيم، بشرط أن يبقى إنسان مسؤولًا وأن يُتحقق مما ينتجه. ابدأ باستخدام بسيط، ولاحظ أثره في جودة المكالمات، ثم وسّع بحذر. فثقة عملائك تعتمد دائمًا على موثوقية ما تقوله لهم."
+    }
+   ]
+  }
+ }
+}

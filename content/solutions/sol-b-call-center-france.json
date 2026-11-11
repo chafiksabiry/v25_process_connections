@@ -1,0 +1,276 @@
+{
+ "type": "solution",
+ "slug": "sol-b-call-center-france",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Centre d'appels en France : organiser plateau et télétravail",
+   "description": "Ouvrir ou faire évoluer un centre d'appels en France : organisation des agents, gestion de plusieurs clients et apport du Contact Centre Multi-clients de HARX.",
+   "blocks": [
+    {
+     "h2": "Le défi d'un centre d'appels basé en France"
+    },
+    {
+     "p": "Faire fonctionner un centre d'appels en France, c'est conjuguer exigence de qualité et organisation rigoureuse. Les responsables doivent répartir les agents entre plateau et télétravail, suivre plusieurs donneurs d'ordre en parallèle et garder une vision claire de ce qui se passe sur chaque ligne."
+    },
+    {
+     "ul": [
+      "Des campagnes de nature différente à conduire en même temps pour des clients distincts.",
+      "Des agents sur site et d'autres à domicile, qui doivent suivre les mêmes consignes.",
+      "Des numéros et des scripts propres à chaque client, à ne pas mélanger.",
+      "Un besoin de suivre l'activité et la qualité par client, et pas seulement globalement.",
+      "Des périodes de pic qu'il faut absorber sans dégrader l'accueil."
+     ]
+    },
+    {
+     "h2": "Le Contact Centre Multi-clients de HARX Téléphonie"
+    },
+    {
+     "p": "HARX Téléphonie propose une offre dédiée aux centres d'appels : Contact Centre Multi-clients. Elle s'adresse aux centres situés en Europe, aux États-Unis ou dans les pays d'externalisation, dont la France, le Maroc, la Tunisie et le Sénégal. Les agents peuvent travailler sur plateau ou à distance, et le centre peut servir plusieurs clients."
+    },
+    {
+     "p": "Pour un centre implanté en France, l'intérêt est de disposer d'une base téléphonique unique pour des activités variées, avec un numéro de son pays, des appels entrants et sortants et une IA qui assiste les échanges. Le fonctionnement repose sur un abonnement mensuel avec minutes et IA prépayées, et la mise en service est annoncée en quelques minutes."
+    },
+    {
+     "h2": "Bonnes pratiques pour piloter un centre d'appels"
+    },
+    {
+     "ul": [
+      "Séparer clairement les campagnes : une consigne, un script et un indicateur de suivi par client.",
+      "Former chaque agent aux spécificités de chaque donneur d'ordre avant de le mettre en ligne.",
+      "Écouter régulièrement un échantillon d'appels et en débriefer avec l'agent.",
+      "Définir des règles de fonctionnement identiques pour le plateau et le télétravail.",
+      "Prévoir un plan de montée en charge pour les périodes de pic, sans improviser.",
+      "Informer les agents de la réglementation applicable à leur activité, notamment pour la prospection téléphonique et les données personnelles, et faire valider les pratiques par un conseil compétent."
+     ]
+    },
+    {
+     "p": "Le métier de centre d'appels repose sur la constance : mêmes standards, quel que soit le client ou le lieu de travail de l'agent. Un outil adapté aide à tenir ce cap, et le Contact Centre Multi-clients de HARX a été conçu pour cet usage."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Les agents peuvent-ils travailler depuis chez eux ?",
+       "a": "Oui, l'offre prévoit des agents sur plateau ou à distance."
+      },
+      {
+       "q": "Un même centre peut-il servir plusieurs clients ?",
+       "a": "Oui, c'est précisément l'objet du Contact Centre Multi-clients."
+      },
+      {
+       "q": "HARX gère-t-il la conformité réglementaire du centre ?",
+       "a": "Non, HARX fournit la téléphonie ; la conformité reste de la responsabilité du centre d'appels."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Call centre in France: organising on-site and remote agents",
+   "description": "Opening or growing a call centre in France: organising agents, handling several clients and what HARX's Contact Centre Multi-clients offer brings.",
+   "blocks": [
+    {
+     "h2": "The challenge of a call centre based in France"
+    },
+    {
+     "p": "Running a call centre in France means combining high quality standards with rigorous organisation. Managers must split agents between the floor and remote work, follow several clients in parallel and keep a clear view of what is happening on each line."
+    },
+    {
+     "ul": [
+      "Different kinds of campaigns to run at the same time for separate clients.",
+      "Some agents on site and others at home, who must follow the same instructions.",
+      "Numbers and scripts specific to each client that must not be mixed up.",
+      "A need to track activity and quality per client, not only overall.",
+      "Peak periods that must be absorbed without degrading the welcome."
+     ]
+    },
+    {
+     "h2": "HARX Telephony's Contact Centre Multi-clients"
+    },
+    {
+     "p": "HARX Telephony offers a plan dedicated to call centres: Contact Centre Multi-clients. It is aimed at centres in Europe, the United States or outsourcing countries, including France, Morocco, Tunisia and Senegal. Agents can work on the floor or remotely, and the centre can serve several clients."
+    },
+    {
+     "p": "For a centre based in France, the benefit is a single telephone base for varied activities, with a number from its own country, inbound and outbound calls and an AI that assists conversations. It runs on a monthly subscription with prepaid minutes and AI, and activation is described as taking minutes."
+    },
+    {
+     "h2": "Good practices for running a call centre"
+    },
+    {
+     "ul": [
+      "Separate campaigns clearly: one instruction set, one script and one tracking indicator per client.",
+      "Train each agent on each client's specifics before putting them on the line.",
+      "Regularly listen to a sample of calls and debrief with the agent.",
+      "Define identical operating rules for the floor and remote work.",
+      "Plan how to scale up for peak periods rather than improvising.",
+      "Inform agents of the regulation that applies to their activity, notably for telephone prospecting and personal data, and have practices validated by a qualified adviser."
+     ]
+    },
+    {
+     "p": "The call centre trade rests on consistency: the same standards whatever the client or the agent's place of work. A suitable tool helps hold that course, and HARX's Contact Centre Multi-clients was designed for this use. A good habit is to review each client's campaign on a fixed rhythm, so small drifts are corrected before they become habits."
+    },
+    {
+     "p": "Finally, remember that agents working from home and agents on the floor should share the same rituals: a short start-of-shift briefing, a place to ask quick questions and a clear way to escalate a difficult call to a supervisor."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can agents work from home?",
+       "a": "Yes, the offer covers agents on the floor or working remotely."
+      },
+      {
+       "q": "Can one centre serve several clients?",
+       "a": "Yes, that is precisely the purpose of Contact Centre Multi-clients."
+      },
+      {
+       "q": "Does HARX handle the centre's regulatory compliance?",
+       "a": "No, HARX provides the telephony; compliance remains the call centre's responsibility."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Centro de llamadas en Francia: organizar plataforma y teletrabajo",
+   "description": "Abrir o ampliar un centro de llamadas en Francia: organización de agentes, gestión de varios clientes y aporte del Contact Centre Multi-clients de HARX.",
+   "blocks": [
+    {
+     "h2": "El desafío de un centro de llamadas con sede en Francia"
+    },
+    {
+     "p": "Hacer funcionar un centro de llamadas en Francia implica combinar exigencia de calidad y organización rigurosa. Los responsables deben repartir a los agentes entre plataforma y teletrabajo, atender a varios clientes en paralelo y mantener una visión clara de lo que ocurre en cada línea."
+    },
+    {
+     "ul": [
+      "Campañas de naturaleza distinta que llevar a la vez para clientes diferentes.",
+      "Agentes en las instalaciones y otros en casa, que deben seguir las mismas consignas.",
+      "Números y guiones propios de cada cliente, que no deben mezclarse.",
+      "La necesidad de seguir actividad y calidad por cliente y no solo en conjunto.",
+      "Periodos de pico que hay que absorber sin deteriorar la atención."
+     ]
+    },
+    {
+     "h2": "El Contact Centre Multi-clients de HARX Telefonía"
+    },
+    {
+     "p": "HARX Telefonía propone una oferta dedicada a los centros de llamadas: Contact Centre Multi-clients. Se dirige a centros situados en Europa, en Estados Unidos o en países de externalización, entre ellos Francia, Marruecos, Túnez y Senegal. Los agentes pueden trabajar en plataforma o a distancia, y el centro puede atender a varios clientes."
+    },
+    {
+     "p": "Para un centro con sede en Francia, la ventaja es contar con una base telefónica única para actividades variadas, con un número de su país, llamadas entrantes y salientes y una IA que asiste las conversaciones. Funciona con suscripción mensual, con minutos e IA prepagados, y la puesta en marcha se describe como cuestión de minutos."
+    },
+    {
+     "h2": "Buenas prácticas para dirigir un centro de llamadas"
+    },
+    {
+     "ul": [
+      "Separar claramente las campañas: una consigna, un guion y un indicador de seguimiento por cliente.",
+      "Formar a cada agente en las particularidades de cada cliente antes de ponerlo en línea.",
+      "Escuchar con regularidad una muestra de llamadas y comentarla con el agente.",
+      "Definir reglas de funcionamiento idénticas para la plataforma y el teletrabajo.",
+      "Prever cómo ampliar la capacidad en los picos en lugar de improvisar.",
+      "Informar a los agentes de la normativa aplicable a su actividad, en especial para la prospección telefónica y los datos personales, y validar las prácticas con un asesor competente."
+     ]
+    },
+    {
+     "p": "El oficio del centro de llamadas descansa en la constancia: los mismos estándares sin importar el cliente ni el lugar de trabajo del agente. Una herramienta adecuada ayuda a mantener ese rumbo, y el Contact Centre Multi-clients de HARX se ha concebido para este uso. Un buen hábito es revisar la campaña de cada cliente con un ritmo fijo, de modo que las pequeñas desviaciones se corrijan antes de convertirse en costumbre."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Pueden los agentes trabajar desde casa?",
+       "a": "Sí, la oferta contempla agentes en plataforma o a distancia."
+      },
+      {
+       "q": "¿Un mismo centro puede atender a varios clientes?",
+       "a": "Sí, ese es precisamente el objeto del Contact Centre Multi-clients."
+      },
+      {
+       "q": "¿HARX gestiona el cumplimiento normativo del centro?",
+       "a": "No, HARX aporta la telefonía; el cumplimiento sigue siendo responsabilidad del centro de llamadas."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "مركز اتصال في فرنسا: تنظيم العمل في الموقع وعن بُعد",
+   "description": "افتتاح مركز اتصال في فرنسا أو تطويره: تنظيم الوكلاء وإدارة عدة عملاء وما يقدّمه عرض Contact Centre Multi-clients من HARX.",
+   "blocks": [
+    {
+     "h2": "تحدّي مركز اتصال مقرّه فرنسا"
+    },
+    {
+     "p": "تشغيل مركز اتصال في فرنسا يعني الجمع بين معايير جودة عالية وتنظيم صارم. فعلى المسؤولين توزيع الوكلاء بين العمل في الموقع والعمل عن بُعد، ومتابعة عدة عملاء في آن واحد، والحفاظ على رؤية واضحة لما يجري على كل خط."
+    },
+    {
+     "ul": [
+      "حملات مختلفة الطبيعة تُدار في وقت واحد لصالح عملاء متعددين.",
+      "وكلاء في الموقع وآخرون في بيوتهم، وعليهم جميعًا اتباع التعليمات نفسها.",
+      "أرقام ونصوص مخصصة لكل عميل ينبغي ألا تختلط.",
+      "حاجة إلى متابعة النشاط والجودة لكل عميل على حدة لا بشكل إجمالي فقط.",
+      "فترات ذروة ينبغي استيعابها دون أن يتراجع مستوى الاستقبال."
+     ]
+    },
+    {
+     "p": "وكلما تنوّع العملاء زادت صعوبة الحفاظ على معيار واحد، فيحتاج المركز إلى قاعدة تشغيل مشتركة تسمح بالتمييز بين كل حملة وأخرى دون أن تتشتت الجهود."
+    },
+    {
+     "h2": "عرض Contact Centre Multi-clients من HARX للاتصالات الهاتفية"
+    },
+    {
+     "p": "تقدّم HARX للاتصالات الهاتفية عرضًا مخصصًا لمراكز الاتصال هو Contact Centre Multi-clients. وهو موجّه إلى المراكز الواقعة في أوروبا أو الولايات المتحدة أو بلدان الاستعانة بمصادر خارجية، ومنها فرنسا والمغرب وتونس والسنغال. ويمكن للوكلاء العمل في الموقع أو عن بُعد، ويمكن للمركز أن يخدم عدة عملاء."
+    },
+    {
+     "p": "وفائدة العرض لمركز مقرّه فرنسا هي توفّر قاعدة هاتفية واحدة لأنشطة متنوعة، برقم من بلده ومكالمات واردة وصادرة وذكاء اصطناعي يساعد في المحادثات. ويقوم على اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، ويُذكر أن التشغيل يستغرق دقائق."
+    },
+    {
+     "h2": "ممارسات جيدة لإدارة مركز اتصال"
+    },
+    {
+     "ul": [
+      "الفصل الواضح بين الحملات: تعليمات ونص ومؤشر متابعة لكل عميل.",
+      "تدريب كل وكيل على خصوصيات كل عميل قبل وضعه على الخط.",
+      "الاستماع دوريًا إلى عينة من المكالمات ومناقشتها مع الوكيل.",
+      "وضع قواعد تشغيل متطابقة للعمل في الموقع وعن بُعد.",
+      "التخطيط لكيفية رفع الطاقة في فترات الذروة بدل الارتجال.",
+      "إطلاع الوكلاء على اللوائح المطبقة على نشاطهم، لا سيما في الاتصال التسويقي والبيانات الشخصية، والتحقق من الممارسات مع مستشار مختص."
+     ]
+    },
+    {
+     "p": "تقوم مهنة مراكز الاتصال على الثبات: المعايير نفسها مهما كان العميل أو مكان عمل الوكيل. وتساعد الأداة المناسبة على الحفاظ على هذا المسار، وقد صُمّم عرض Contact Centre Multi-clients من HARX لهذا الاستخدام. ومن العادات الجيدة مراجعة حملة كل عميل بإيقاع ثابت، حتى تُصحَّح الانحرافات الصغيرة قبل أن تصير عادة."
+    },
+    {
+     "p": "ومن المفيد أيضًا أن يتشارك الوكلاء العاملون من منازلهم وزملاؤهم في المقر الطقوس اليومية نفسها، مثل اجتماع قصير في بداية المناوبة، ومكان لطرح الأسئلة السريعة، وطريقة واضحة لإحالة المكالمة الصعبة إلى مشرف. فهذه التفاصيل الصغيرة تمنع تشكّل فريقين بمستويين مختلفين، وتحافظ على إحساس الجميع بالانتماء إلى مركز واحد وبأن المعايير التي يُحاسَبون عليها واحدة مهما كان مكان عملهم."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يمكن للوكلاء العمل من منازلهم؟",
+       "a": "نعم، فالعرض يشمل وكلاء في الموقع أو عن بُعد."
+      },
+      {
+       "q": "هل يمكن لمركز واحد أن يخدم عدة عملاء؟",
+       "a": "نعم، وهذا هو الغرض من Contact Centre Multi-clients."
+      },
+      {
+       "q": "هل تتولى HARX الامتثال التنظيمي للمركز؟",
+       "a": "لا، فهي توفّر الاتصالات الهاتفية، ويظل الامتثال من مسؤولية مركز الاتصال."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

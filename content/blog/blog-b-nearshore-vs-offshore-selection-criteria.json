@@ -1,128 +1,288 @@
 {
-  "type": "blog",
-  "slug": "blog-b-nearshore-vs-offshore-selection-criteria",
-  "date": "2026-10-12",
-  "langs": {
-    "fr": {
-      "title": "Nearshore ou offshore : quels critères pour choisir ?",
-      "description": "Nearshore ou offshore pour votre service client ? Langue, fuseau horaire, culture, conformité, continuité : les critères utiles pour décider sans idées reçues.",
-      "blocks": [
-        {"h2": "Deux notions, une même question"},
-        {"p": "Le nearshore désigne l'externalisation vers un pays proche, par la géographie, le fuseau horaire ou la culture. L'offshore désigne l'externalisation vers un pays plus éloigné. Dans les deux cas, la question est la même : où se trouvent les personnes les mieux placées pour répondre à vos clients, dans de bonnes conditions ?"},
-        {"p": "Il n'existe pas de réponse universelle. Le bon choix dépend de votre clientèle, de vos horaires, de vos sujets et de vos exigences en matière de qualité et de conformité."},
-        {"h2": "La langue et la culture d'abord"},
-        {"p": "Parler une langue n'est pas la même chose que la maîtriser dans ses nuances. Un client perçoit vite un décalage de ton, d'expressions ou de références culturelles. Avant de comparer des destinations, interrogez-vous sur le niveau de maîtrise nécessaire pour vos échanges : un accent peut être sans importance, une incompréhension répétée ne l'est pas."},
-        {"ul": [
-          "Quelle maîtrise de la langue est requise pour vos sujets ?",
-          "Les références culturelles influencent-elles la relation ?",
-          "Les agents connaissent-ils le contexte de vos clients ?"
-        ]},
-        {"h2": "Fuseaux horaires et continuité de service"},
-        {"p": "Un horaire de couverture étendu peut justifier un site situé dans un autre fuseau, puisque certaines équipes travaillent alors en journée quand vos clients ont besoin d'aide en soirée. À l'inverse, si vos échanges exigent des allers-retours fréquents avec vos équipes internes, un décalage important peut compliquer la coordination."},
-        {"p": "Pensez aussi à la continuité : jours fériés locaux, infrastructures, solutions de secours en cas de coupure. Ces sujets paraissent secondaires jusqu'au jour où ils bloquent un service."},
-        {"h2": "Conformité, données et cadre juridique"},
-        {"p": "Le traitement de données personnelles obéit à des règles qui varient selon les pays. Avant de choisir un lieu, vérifiez avec vos conseils quelles obligations s'appliquent à vos clients et à vos flux de données. Ce point relève d'un avis juridique propre à votre situation, et n'est pas à trancher sur la seule base d'un guide général."},
-        {"h2": "Le critère souvent oublié : la qualité mesurable"},
-        {"p": "Quel que soit le lieu, ce qui compte est la qualité réelle des interactions. Plutôt que de débattre abstraitement du nearshore ou de l'offshore, exigez des moyens de mesurer la qualité : écoute d'échanges, évaluation de chaque interaction, retours clients. C'est d'ailleurs l'esprit du modèle TAAS de HARX.ai, où chaque interaction est évaluée en temps réel et où seul un résultat approuvé est payé."},
-        {"ul": [
-          "Définir le résultat attendu avant de choisir le lieu.",
-          "Tester sur un petit volume avec des critères clairs.",
-          "Comparer sur la qualité observée, pas sur des impressions."
-        ]},
-        {"h2": "Les pays d'externalisation côté HARX"},
-        {"p": "Pour les centres d'appels multi-clients, HARX Téléphonie cite parmi les contextes d'usage l'Europe, les États-Unis et des pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal, avec des agents sur plateau ou à distance. L'offre Contact Centre Multi-clients est le point de départ pour explorer ces configurations."}
-      ]
+ "type": "blog",
+ "slug": "blog-b-nearshore-vs-offshore-selection-criteria",
+ "date": "2026-10-12",
+ "langs": {
+  "fr": {
+   "title": "Nearshore ou offshore : quels critères pour choisir ?",
+   "description": "Nearshore ou offshore pour votre service client ? Langue, fuseau horaire, culture, conformité, continuité : les critères utiles pour décider sans idées reçues.",
+   "blocks": [
+    {
+     "h2": "Deux notions, une même question"
     },
-    "en": {
-      "title": "Nearshore or Offshore: Criteria for Choosing",
-      "description": "Nearshore or offshore for your customer service? Language, time zone, culture, compliance and continuity: useful criteria to decide without assumptions.",
-      "blocks": [
-        {"h2": "Two notions, one question"},
-        {"p": "Nearshore means outsourcing to a nearby country, close in geography, time zone or culture. Offshore means outsourcing to a more distant country. In both cases the question is the same: where are the people best placed to answer your customers, in good conditions?"},
-        {"p": "There is no universal answer. The right choice depends on your customers, your hours, your topics and your requirements for quality and compliance."},
-        {"h2": "Language and culture first"},
-        {"p": "Speaking a language is not the same as mastering its nuances. A customer quickly notices a mismatch in tone, expressions or cultural references. Before comparing destinations, ask what level of mastery your conversations require: an accent may be unimportant, repeated misunderstanding is not."},
-        {"ul": [
-          "What command of the language do your topics require?",
-          "Do cultural references influence the relationship?",
-          "Do agents know the context of your customers?"
-        ]},
-        {"h2": "Time zones and service continuity"},
-        {"p": "Extended coverage hours can justify a site in another time zone, since some teams then work in daytime while your customers need help in the evening. Conversely, if your conversations require frequent back-and-forth with internal teams, a big time difference can complicate coordination."},
-        {"p": "Think about continuity too: local public holidays, infrastructure, fallback solutions in case of an outage. These topics seem secondary until the day they block a service."},
-        {"h2": "Compliance, data and legal framework"},
-        {"p": "The handling of personal data follows rules that vary from country to country. Before choosing a location, check with your advisers which obligations apply to your customers and your data flows. This calls for legal advice specific to your situation and should not be settled on the basis of a general guide alone."},
-        {"h2": "The often-forgotten criterion: measurable quality"},
-        {"p": "Wherever the location, what counts is the real quality of interactions. Rather than debating nearshore versus offshore in the abstract, demand ways to measure quality: listening to exchanges, assessing each interaction, customer feedback. This is also the spirit of the TAAS model from HARX.ai, where every interaction is assessed in real time and only an approved result is paid."},
-        {"ul": [
-          "Define the expected result before choosing the location.",
-          "Test on a small volume with clear criteria.",
-          "Compare on observed quality, not on impressions."
-        ]},
-        {"h2": "Outsourcing countries on the HARX side"},
-        {"p": "For multi-client call centres, HARX Telephony cites among its usage contexts Europe, the United States and outsourcing countries such as France, Morocco, Tunisia and Senegal, with agents on site or remote. The Multi-client Contact Centre offer is the starting point to explore these setups."}
-      ]
+    {
+     "p": "Le nearshore désigne l'externalisation vers un pays proche, par la géographie, le fuseau horaire ou la culture. L'offshore désigne l'externalisation vers un pays plus éloigné. Dans les deux cas, la question est la même : où se trouvent les personnes les mieux placées pour répondre à vos clients, dans de bonnes conditions ?"
     },
-    "es": {
-      "title": "Nearshore u offshore: criterios para elegir",
-      "description": "¿Nearshore u offshore para su atención al cliente? Idioma, huso horario, cultura, cumplimiento y continuidad: criterios útiles para decidir sin prejuicios.",
-      "blocks": [
-        {"h2": "Dos nociones, una misma pregunta"},
-        {"p": "El nearshore designa la externalización hacia un país cercano, por geografía, huso horario o cultura. El offshore designa la externalización hacia un país más lejano. En ambos casos la pregunta es la misma: ¿dónde están las personas mejor situadas para atender a sus clientes en buenas condiciones?"},
-        {"p": "No existe una respuesta universal. La elección adecuada depende de su clientela, sus horarios, sus temas y sus exigencias de calidad y cumplimiento."},
-        {"h2": "Primero, el idioma y la cultura"},
-        {"p": "Hablar un idioma no es lo mismo que dominar sus matices. Un cliente percibe enseguida un desfase de tono, de expresiones o de referencias culturales. Antes de comparar destinos, pregúntese qué nivel de dominio requieren sus conversaciones: un acento puede ser irrelevante, un malentendido repetido no lo es."},
-        {"ul": [
-          "¿Qué dominio del idioma exigen sus temas?",
-          "¿Influyen las referencias culturales en la relación?",
-          "¿Conocen los agentes el contexto de sus clientes?"
-        ]},
-        {"h2": "Husos horarios y continuidad del servicio"},
-        {"p": "Un horario de cobertura amplio puede justificar un centro situado en otro huso horario, ya que algunos equipos trabajan entonces de día mientras sus clientes necesitan ayuda por la tarde-noche. A la inversa, si sus conversaciones exigen idas y venidas frecuentes con los equipos internos, una gran diferencia horaria puede complicar la coordinación."},
-        {"p": "Piense también en la continuidad: festivos locales, infraestructuras, soluciones de respaldo ante una caída. Estos asuntos parecen secundarios hasta el día en que bloquean un servicio."},
-        {"h2": "Cumplimiento, datos y marco jurídico"},
-        {"p": "El tratamiento de datos personales se rige por normas que varían según el país. Antes de elegir una ubicación, compruebe con sus asesores qué obligaciones se aplican a sus clientes y a sus flujos de datos. Es un asunto que requiere asesoramiento jurídico propio de su situación y no debe resolverse solo a partir de una guía general."},
-        {"h2": "El criterio que se olvida: la calidad medible"},
-        {"p": "Sea cual sea el lugar, lo que cuenta es la calidad real de las interacciones. En lugar de debatir en abstracto sobre nearshore u offshore, exija maneras de medir la calidad: escucha de conversaciones, evaluación de cada interacción, opiniones de los clientes. Es también el espíritu del modelo TAAS de HARX.ai, donde cada interacción se evalúa en tiempo real y solo se paga un resultado aprobado."},
-        {"ul": [
-          "Definir el resultado esperado antes de elegir el lugar.",
-          "Probar con un volumen pequeño y criterios claros.",
-          "Comparar según la calidad observada, no según impresiones."
-        ]},
-        {"h2": "Los países de externalización en el lado de HARX"},
-        {"p": "Para los centros de llamadas multicliente, HARX Telefonía menciona entre sus contextos de uso Europa, Estados Unidos y países de externalización como Francia, Marruecos, Túnez y Senegal, con agentes en plataforma o a distancia. La oferta Centro de Contacto Multicliente es el punto de partida para explorar estas configuraciones."}
-      ]
+    {
+     "p": "Il n'existe pas de réponse universelle. Le bon choix dépend de votre clientèle, de vos horaires, de vos sujets et de vos exigences en matière de qualité et de conformité."
     },
-    "ar": {
-      "title": "القرب الجغرافي أم البعد: معايير اختيار موقع خدمة العملاء",
-      "description": "هل تختار موقعًا قريبًا أم بعيدًا لخدمة عملائك؟ اللغة والتوقيت والثقافة والامتثال واستمرارية الخدمة: معايير مفيدة لاتخاذ قرار بلا أحكام مسبقة.",
-      "blocks": [
-        {"h2": "مفهومان وسؤال واحد"},
-        {"p": "يقصد بالنيرشور (nearshore) الاستعانة بجهة في بلد قريب جغرافيًا أو من حيث التوقيت أو الثقافة، أما الأوفشور (offshore) فهو الاستعانة بجهة في بلد أبعد. وفي الحالتين يبقى السؤال واحدًا: أين يوجد الأشخاص الأقدر على الإجابة عن عملائك في ظروف جيدة؟"},
-        {"p": "ليس هناك جواب عام صالح للجميع، فالاختيار المناسب يتوقف على عملائك وساعات عملك وموضوعاتك ومتطلباتك في الجودة والامتثال."},
-        {"h2": "اللغة والثقافة أولًا"},
-        {"p": "إتقان اللغة يختلف عن التحدث بها. فالعميل يلاحظ سريعًا أي خلل في النبرة أو التعبيرات أو الإشارات الثقافية. وقبل المقارنة بين الوجهات، اسأل نفسك عن مستوى الإتقان الذي تتطلبه محادثاتك: فاللكنة قد لا تهم، أما سوء الفهم المتكرر فيهم كثيرًا."},
-        {"ul": [
-          "ما درجة الإتقان اللغوي التي تتطلبها موضوعاتك؟",
-          "هل تؤثر الإشارات الثقافية في العلاقة مع العميل؟",
-          "هل يعرف الوكلاء سياق عملائك؟"
-        ]},
-        {"h2": "فروق التوقيت واستمرارية الخدمة"},
-        {"p": "قد تبرر ساعات التغطية الممتدة اختيار موقع في منطقة زمنية أخرى، إذ تعمل بعض الفرق نهارًا حين يحتاج عملاؤك إلى المساعدة مساءً. وفي المقابل، إذا كانت محادثاتك تتطلب تواصلًا متكررًا مع فرقك الداخلية، فقد يعقّد فارق التوقيت الكبير التنسيق بينها."},
-        {"p": "وفكّر أيضًا في الاستمرارية: العطل الرسمية المحلية، والبنية التحتية، وحلول الطوارئ عند حدوث انقطاع. تبدو هذه الأمور ثانوية إلى أن يأتي يوم تعطّل فيه الخدمة."},
-        {"h2": "الامتثال والبيانات والإطار القانوني"},
-        {"p": "تخضع معالجة البيانات الشخصية لقواعد تختلف من بلد إلى آخر. وقبل اختيار الموقع، تحقق مع مستشاريك من الالتزامات المطبقة على عملائك وتدفقات بياناتك. وهذا أمر يستدعي رأيًا قانونيًا خاصًا بحالتك، ولا ينبغي البت فيه بالاعتماد على دليل عام وحده."},
-        {"h2": "المعيار المنسي: جودة يمكن قياسها"},
-        {"p": "مهما كان الموقع، فإن ما يهم هو الجودة الفعلية للتفاعلات. وبدل الجدل النظري حول القرب والبعد، اطلب وسائل لقياس الجودة: الاستماع إلى المحادثات، وتقييم كل تفاعل، وآراء العملاء. وهذه هي روح نموذج TAAS من HARX.ai، حيث يُقيَّم كل تفاعل في الوقت الفعلي ولا تُدفع إلا النتيجة المعتمدة."},
-        {"ul": [
-          "حدد النتيجة المتوقعة قبل اختيار الموقع.",
-          "جرّب على حجم صغير بمعايير واضحة.",
-          "قارن بحسب الجودة الملاحظة لا بحسب الانطباعات."
-        ]},
-        {"h2": "بلدان الاستعانة بمصادر خارجية لدى HARX"},
-        {"p": "في مراكز الاتصال متعددة العملاء، تذكر HARX للاتصالات الهاتفية من سياقات الاستخدام أوروبا والولايات المتحدة وبلدان الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال، مع وكلاء في المقر أو عن بُعد. ويُعدّ عرض مركز الاتصال متعدد العملاء نقطة الانطلاق لاستكشاف هذه الترتيبات."},
-        {"p": "ويستحسن في كل الأحوال أن تقارن بين الخيارات على أساس تجربة فعلية قصيرة، فالانطباعات الأولى عن بلد أو موقع قد تخدع، بينما تكشف التجربة الميدانية بسرعة مدى ملاءمة الفريق للغة عملائك ونبرتهم وتوقعاتهم."}
-      ]
+    {
+     "h2": "La langue et la culture d'abord"
+    },
+    {
+     "p": "Parler une langue n'est pas la même chose que la maîtriser dans ses nuances. Un client perçoit vite un décalage de ton, d'expressions ou de références culturelles. Avant de comparer des destinations, interrogez-vous sur le niveau de maîtrise nécessaire pour vos échanges : un accent peut être sans importance, une incompréhension répétée ne l'est pas."
+    },
+    {
+     "ul": [
+      "Quelle maîtrise de la langue est requise pour vos sujets ?",
+      "Les références culturelles influencent-elles la relation ?",
+      "Les agents connaissent-ils le contexte de vos clients ?"
+     ]
+    },
+    {
+     "h2": "Fuseaux horaires et continuité de service"
+    },
+    {
+     "p": "Un horaire de couverture étendu peut justifier un site situé dans un autre fuseau, puisque certaines équipes travaillent alors en journée quand vos clients ont besoin d'aide en soirée. À l'inverse, si vos échanges exigent des allers-retours fréquents avec vos équipes internes, un décalage important peut compliquer la coordination."
+    },
+    {
+     "p": "Pensez aussi à la continuité : jours fériés locaux, infrastructures, solutions de secours en cas de coupure. Ces sujets paraissent secondaires jusqu'au jour où ils bloquent un service."
+    },
+    {
+     "h2": "Conformité, données et cadre juridique"
+    },
+    {
+     "p": "Le traitement de données personnelles obéit à des règles qui varient selon les pays. Avant de choisir un lieu, vérifiez avec vos conseils quelles obligations s'appliquent à vos clients et à vos flux de données. Ce point relève d'un avis juridique propre à votre situation, et n'est pas à trancher sur la seule base d'un guide général."
+    },
+    {
+     "h2": "Le critère souvent oublié : la qualité mesurable"
+    },
+    {
+     "p": "Quel que soit le lieu, ce qui compte est la qualité réelle des interactions. Plutôt que de débattre abstraitement du nearshore ou de l'offshore, exigez des moyens de mesurer la qualité : écoute d'échanges, évaluation de chaque interaction, retours clients. C'est d'ailleurs l'esprit du modèle TAAS de HARX.ai, où chaque interaction est évaluée en temps réel et où seul un résultat approuvé est payé."
+    },
+    {
+     "ul": [
+      "Définir le résultat attendu avant de choisir le lieu.",
+      "Tester sur un petit volume avec des critères clairs.",
+      "Comparer sur la qualité observée, pas sur des impressions."
+     ]
+    },
+    {
+     "h2": "Les pays d'externalisation côté HARX"
+    },
+    {
+     "p": "Pour les centres d'appels multi-clients, HARX Téléphonie cite parmi les contextes d'usage l'Europe, les États-Unis et des pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal, avec des agents sur plateau ou à distance. L'offre Contact Centre Multi-clients est le point de départ pour explorer ces configurations."
     }
+   ]
+  },
+  "en": {
+   "title": "Nearshore or Offshore: Criteria for Choosing",
+   "description": "Nearshore or offshore for your customer service? Language, time zone, culture, compliance and continuity: useful criteria to decide without assumptions.",
+   "blocks": [
+    {
+     "h2": "Two notions, one question"
+    },
+    {
+     "p": "Nearshore means outsourcing to a nearby country, close in geography, time zone or culture. Offshore means outsourcing to a more distant country. In both cases the question is the same: where are the people best placed to answer your customers, in good conditions?"
+    },
+    {
+     "p": "There is no universal answer. The right choice depends on your customers, your hours, your topics and your requirements for quality and compliance."
+    },
+    {
+     "h2": "Language and culture first"
+    },
+    {
+     "p": "Speaking a language is not the same as mastering its nuances. A customer quickly notices a mismatch in tone, expressions or cultural references. Before comparing destinations, ask what level of mastery your conversations require: an accent may be unimportant, repeated misunderstanding is not."
+    },
+    {
+     "ul": [
+      "What command of the language do your topics require?",
+      "Do cultural references influence the relationship?",
+      "Do agents know the context of your customers?"
+     ]
+    },
+    {
+     "h2": "Time zones and service continuity"
+    },
+    {
+     "p": "Extended coverage hours can justify a site in another time zone, since some teams then work in daytime while your customers need help in the evening. Conversely, if your conversations require frequent back-and-forth with internal teams, a big time difference can complicate coordination."
+    },
+    {
+     "p": "Think about continuity too: local public holidays, infrastructure, fallback solutions in case of an outage. These topics seem secondary until the day they block a service."
+    },
+    {
+     "h2": "Compliance, data and legal framework"
+    },
+    {
+     "p": "The handling of personal data follows rules that vary from country to country. Before choosing a location, check with your advisers which obligations apply to your customers and your data flows. This calls for legal advice specific to your situation and should not be settled on the basis of a general guide alone."
+    },
+    {
+     "h2": "The often-forgotten criterion: measurable quality"
+    },
+    {
+     "p": "Wherever the location, what counts is the real quality of interactions. Rather than debating nearshore versus offshore in the abstract, demand ways to measure quality: listening to exchanges, assessing each interaction, customer feedback. This is also the spirit of the TAAS model from HARX.ai, where every interaction is assessed in real time and only an approved result is paid."
+    },
+    {
+     "ul": [
+      "Define the expected result before choosing the location.",
+      "Test on a small volume with clear criteria.",
+      "Compare on observed quality, not on impressions."
+     ]
+    },
+    {
+     "h2": "Outsourcing countries on the HARX side"
+    },
+    {
+     "h2": "Cost is not the only lever"
+    },
+    {
+     "p": "It is tempting to reduce the choice to price. Yet a lower price per hour can be offset by repeated contacts, rework or customers who give up. Looking at the total effort needed to obtain a good result gives a fairer comparison than comparing rates alone."
+    },
+    {
+     "p": "Ask each candidate how they train agents, how they handle absences and how quickly they can adjust to a change in your rules. These practical answers tell you more than a general description of a destination."
+    },
+    {
+     "p": "For multi-client call centres, HARX Telephony cites among its usage contexts Europe, the United States and outsourcing countries such as France, Morocco, Tunisia and Senegal, with agents on site or remote. The Multi-client Contact Centre offer is the starting point to explore these setups."
+    }
+   ]
+  },
+  "es": {
+   "title": "Nearshore u offshore: criterios para elegir",
+   "description": "¿Nearshore u offshore para su atención al cliente? Idioma, huso horario, cultura, cumplimiento y continuidad: criterios útiles para decidir sin prejuicios.",
+   "blocks": [
+    {
+     "h2": "Dos nociones, una misma pregunta"
+    },
+    {
+     "p": "El nearshore designa la externalización hacia un país cercano, por geografía, huso horario o cultura. El offshore designa la externalización hacia un país más lejano. En ambos casos la pregunta es la misma: ¿dónde están las personas mejor situadas para atender a sus clientes en buenas condiciones?"
+    },
+    {
+     "p": "No existe una respuesta universal. La elección adecuada depende de su clientela, sus horarios, sus temas y sus exigencias de calidad y cumplimiento."
+    },
+    {
+     "h2": "Primero, el idioma y la cultura"
+    },
+    {
+     "p": "Hablar un idioma no es lo mismo que dominar sus matices. Un cliente percibe enseguida un desfase de tono, de expresiones o de referencias culturales. Antes de comparar destinos, pregúntese qué nivel de dominio requieren sus conversaciones: un acento puede ser irrelevante, un malentendido repetido no lo es."
+    },
+    {
+     "ul": [
+      "¿Qué dominio del idioma exigen sus temas?",
+      "¿Influyen las referencias culturales en la relación?",
+      "¿Conocen los agentes el contexto de sus clientes?"
+     ]
+    },
+    {
+     "h2": "Husos horarios y continuidad del servicio"
+    },
+    {
+     "p": "Un horario de cobertura amplio puede justificar un centro situado en otro huso horario, ya que algunos equipos trabajan entonces de día mientras sus clientes necesitan ayuda por la tarde-noche. A la inversa, si sus conversaciones exigen idas y venidas frecuentes con los equipos internos, una gran diferencia horaria puede complicar la coordinación."
+    },
+    {
+     "p": "Piense también en la continuidad: festivos locales, infraestructuras, soluciones de respaldo ante una caída. Estos asuntos parecen secundarios hasta el día en que bloquean un servicio."
+    },
+    {
+     "h2": "Cumplimiento, datos y marco jurídico"
+    },
+    {
+     "p": "El tratamiento de datos personales se rige por normas que varían según el país. Antes de elegir una ubicación, compruebe con sus asesores qué obligaciones se aplican a sus clientes y a sus flujos de datos. Es un asunto que requiere asesoramiento jurídico propio de su situación y no debe resolverse solo a partir de una guía general."
+    },
+    {
+     "h2": "El criterio que se olvida: la calidad medible"
+    },
+    {
+     "p": "Sea cual sea el lugar, lo que cuenta es la calidad real de las interacciones. En lugar de debatir en abstracto sobre nearshore u offshore, exija maneras de medir la calidad: escucha de conversaciones, evaluación de cada interacción, opiniones de los clientes. Es también el espíritu del modelo TAAS de HARX.ai, donde cada interacción se evalúa en tiempo real y solo se paga un resultado aprobado."
+    },
+    {
+     "ul": [
+      "Definir el resultado esperado antes de elegir el lugar.",
+      "Probar con un volumen pequeño y criterios claros.",
+      "Comparar según la calidad observada, no según impresiones."
+     ]
+    },
+    {
+     "h2": "Los países de externalización en el lado de HARX"
+    },
+    {
+     "h2": "El coste no es la única palanca"
+    },
+    {
+     "p": "Resulta tentador reducir la elección al precio. Sin embargo, un precio por hora más bajo puede compensarse con contactos repetidos, retrabajos o clientes que desisten. Mirar el esfuerzo total necesario para obtener un buen resultado da una comparación más justa que comparar solo tarifas."
+    },
+    {
+     "p": "Pregunte a cada candidato cómo forma a sus agentes, cómo gestiona las ausencias y con qué rapidez puede adaptarse a un cambio en sus reglas. Estas respuestas prácticas le dicen más que una descripción general de un destino."
+    },
+    {
+     "p": "Para los centros de llamadas multicliente, HARX Telefonía menciona entre sus contextos de uso Europa, Estados Unidos y países de externalización como Francia, Marruecos, Túnez y Senegal, con agentes en plataforma o a distancia. La oferta Centro de Contacto Multicliente es el punto de partida para explorar estas configuraciones."
+    }
+   ]
+  },
+  "ar": {
+   "title": "القرب الجغرافي أم البعد: معايير اختيار موقع خدمة العملاء",
+   "description": "هل تختار موقعًا قريبًا أم بعيدًا لخدمة عملائك؟ اللغة والتوقيت والثقافة والامتثال واستمرارية الخدمة: معايير مفيدة لاتخاذ قرار بلا أحكام مسبقة.",
+   "blocks": [
+    {
+     "h2": "مفهومان وسؤال واحد"
+    },
+    {
+     "p": "يقصد بالنيرشور (nearshore) الاستعانة بجهة في بلد قريب جغرافيًا أو من حيث التوقيت أو الثقافة، أما الأوفشور (offshore) فهو الاستعانة بجهة في بلد أبعد. وفي الحالتين يبقى السؤال واحدًا: أين يوجد الأشخاص الأقدر على الإجابة عن عملائك في ظروف جيدة؟"
+    },
+    {
+     "p": "ليس هناك جواب عام صالح للجميع، فالاختيار المناسب يتوقف على عملائك وساعات عملك وموضوعاتك ومتطلباتك في الجودة والامتثال."
+    },
+    {
+     "h2": "اللغة والثقافة أولًا"
+    },
+    {
+     "p": "إتقان اللغة يختلف عن التحدث بها. فالعميل يلاحظ سريعًا أي خلل في النبرة أو التعبيرات أو الإشارات الثقافية. وقبل المقارنة بين الوجهات، اسأل نفسك عن مستوى الإتقان الذي تتطلبه محادثاتك: فاللكنة قد لا تهم، أما سوء الفهم المتكرر فيهم كثيرًا."
+    },
+    {
+     "ul": [
+      "ما درجة الإتقان اللغوي التي تتطلبها موضوعاتك؟",
+      "هل تؤثر الإشارات الثقافية في العلاقة مع العميل؟",
+      "هل يعرف الوكلاء سياق عملائك؟"
+     ]
+    },
+    {
+     "h2": "فروق التوقيت واستمرارية الخدمة"
+    },
+    {
+     "p": "قد تبرر ساعات التغطية الممتدة اختيار موقع في منطقة زمنية أخرى، إذ تعمل بعض الفرق نهارًا حين يحتاج عملاؤك إلى المساعدة مساءً. وفي المقابل، إذا كانت محادثاتك تتطلب تواصلًا متكررًا مع فرقك الداخلية، فقد يعقّد فارق التوقيت الكبير التنسيق بينها."
+    },
+    {
+     "p": "وفكّر أيضًا في الاستمرارية: العطل الرسمية المحلية، والبنية التحتية، وحلول الطوارئ عند حدوث انقطاع. تبدو هذه الأمور ثانوية إلى أن يأتي يوم تعطّل فيه الخدمة."
+    },
+    {
+     "h2": "الامتثال والبيانات والإطار القانوني"
+    },
+    {
+     "p": "تخضع معالجة البيانات الشخصية لقواعد تختلف من بلد إلى آخر. وقبل اختيار الموقع، تحقق مع مستشاريك من الالتزامات المطبقة على عملائك وتدفقات بياناتك. وهذا أمر يستدعي رأيًا قانونيًا خاصًا بحالتك، ولا ينبغي البت فيه بالاعتماد على دليل عام وحده."
+    },
+    {
+     "h2": "المعيار المنسي: جودة يمكن قياسها"
+    },
+    {
+     "p": "مهما كان الموقع، فإن ما يهم هو الجودة الفعلية للتفاعلات. وبدل الجدل النظري حول القرب والبعد، اطلب وسائل لقياس الجودة: الاستماع إلى المحادثات، وتقييم كل تفاعل، وآراء العملاء. وهذه هي روح نموذج TAAS من HARX.ai، حيث يُقيَّم كل تفاعل في الوقت الفعلي ولا تُدفع إلا النتيجة المعتمدة."
+    },
+    {
+     "ul": [
+      "حدد النتيجة المتوقعة قبل اختيار الموقع.",
+      "جرّب على حجم صغير بمعايير واضحة.",
+      "قارن بحسب الجودة الملاحظة لا بحسب الانطباعات."
+     ]
+    },
+    {
+     "h2": "بلدان الاستعانة بمصادر خارجية لدى HARX"
+    },
+    {
+     "p": "في مراكز الاتصال متعددة العملاء، تذكر HARX للاتصالات الهاتفية من سياقات الاستخدام أوروبا والولايات المتحدة وبلدان الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال، مع وكلاء في المقر أو عن بُعد. ويُعدّ عرض مركز الاتصال متعدد العملاء نقطة الانطلاق لاستكشاف هذه الترتيبات."
+    },
+    {
+     "h2": "التكلفة ليست الرافعة الوحيدة"
+    },
+    {
+     "p": "يغري اختزال الاختيار في السعر. غير أن انخفاض سعر الساعة قد تعوّضه اتصالات متكررة أو إعادة عمل أو عملاء يتخلون عن طلبهم. والنظر إلى الجهد الكلي اللازم للحصول على نتيجة جيدة يعطي مقارنة أعدل من مقارنة التعرفات وحدها."
+    },
+    {
+     "p": "اسأل كل مرشح كيف يدرّب وكلاءه، وكيف يعالج الغيابات، وإلى أي مدى يستطيع التكيف سريعًا مع تغيّر في قواعدك. فهذه الإجابات العملية تخبرك أكثر من وصف عام لوجهة ما."
+    },
+    {
+     "p": "وإن أمكن، فاطلب تجربة قصيرة مدفوعة على نطاق محدود قبل أي التزام طويل، فهي أصدق وسيلة لرؤية جودة التواصل مع عملائك قبل أن تقرر نهائيًا."
+    },
+    {
+     "p": "ويستحسن في كل الأحوال أن تقارن بين الخيارات على أساس تجربة فعلية قصيرة، فالانطباعات الأولى عن بلد أو موقع قد تخدع، بينما تكشف التجربة الميدانية بسرعة مدى ملاءمة الفريق للغة عملائك ونبرتهم وتوقعاتهم."
+    }
+   ]
   }
+ }
 }

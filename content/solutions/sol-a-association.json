@@ -1,0 +1,304 @@
+{
+ "type": "solution",
+ "slug": "sol-a-association",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Association : tenir la permanence sans épuiser les bénévoles",
+   "description": "Association : organisez l’accueil téléphonique des adhérents et donateurs sans surcharger les bénévoles, avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Dans une association, le téléphone est souvent tenu par quelques bénévoles qui ont déjà mille autres choses à faire. Adhérents, donateurs, partenaires, public : tous attendent pourtant un interlocuteur quand ils appellent."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’une association"
+    },
+    {
+     "p": "Les permanences reposent sur la disponibilité de personnes qui ont leur propre emploi, leurs propres contraintes. Quand l’un d’eux est absent, la ligne reste muette. Et une association qui répond mal ou pas du tout donne l’impression de manquer de moyens, même quand son action est remarquable."
+    },
+    {
+     "ul": [
+      "La permanence dépend de bénévoles dont les disponibilités varient d’une semaine à l’autre.",
+      "Les appels de personnes qui souhaitent adhérer, donner ou proposer leur aide sont facilement manqués.",
+      "Les informations recueillies sont parfois notées sur un coin de papier et ne parviennent pas au bon responsable."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie vise les TPE de tous métiers, et peut intéresser une petite structure associative qui souhaite un accueil téléphonique à distance. Elle repose sur du personnel à distance ou un accueil délocalisé, un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. Abonnement mensuel, minutes et IA prépayées."
+    },
+    {
+     "ul": [
+      "Un accueil qui assure la continuité de la ligne même quand les bénévoles ne sont pas disponibles.",
+      "Un répondeur pour recueillir les messages en dehors des permanences.",
+      "Des appels sortants pour rappeler un adhérent ou un partenaire."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour une association"
+    },
+    {
+     "ul": [
+      "Rédigez une courte fiche d’accueil : présentation de l’association, activités, comment adhérer, comment donner, comment devenir bénévole.",
+      "Désignez un responsable chargé de traiter les messages et de rappeler dans un délai raisonnable.",
+      "Annoncez clairement vos jours et horaires de permanence dans le message d’accueil.",
+      "Respectez la confidentialité des coordonnées des adhérents et des donateurs.",
+      "Faites un point régulier en équipe sur les demandes reçues pour ajuster l’organisation."
+     ]
+    },
+    {
+     "p": "Un accueil fiable met en valeur l’action de l’association : il montre qu’on prend au sérieux chaque personne qui s’adresse à elle."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Une association peut-elle utiliser l’offre Accueil / Secrétariat ?",
+       "a": "L’offre vise les petites structures de tous métiers ; une petite association peut l’étudier selon ses besoins d’accueil."
+      },
+      {
+       "q": "Comment éviter de surcharger les bénévoles ?",
+       "a": "Un accueil à distance et un répondeur permettent de répartir la charge, les bénévoles traitant ensuite les messages quand ils sont disponibles."
+      },
+      {
+       "q": "Peut-on rappeler les adhérents depuis ce numéro ?",
+       "a": "HARX Téléphonie prévoit des appels entrants et sortants avec un numéro de votre pays, selon l’offre choisie."
+      }
+     ]
+    },
+    {
+     "p": "Pour soulager vos bénévoles tout en restant à l’écoute, découvrez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Associations: Running a Phone Line Without Exhausting Volunteers",
+   "description": "Association: organise phone reception for members and donors without overloading volunteers, with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "In an association, the telephone is often covered by a few volunteers who already have a thousand other things to do. Members, donors, partners and the public all expect someone to answer when they call."
+    },
+    {
+     "h2": "The typical phone problem for an association"
+    },
+    {
+     "p": "Phone duty rests on the availability of people who have their own jobs and constraints. When one of them is absent, the line goes silent. And an association that answers poorly or not at all gives the impression of lacking resources, even when its work is remarkable."
+    },
+    {
+     "ul": [
+      "Phone duty depends on volunteers whose availability changes from week to week.",
+      "Calls from people wanting to join, donate or offer help are easily missed.",
+      "Information collected is sometimes jotted on a scrap of paper and never reaches the right person."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony targets very small businesses of every trade, and may interest a small association wanting remote phone reception. It relies on remote staff or offshored reception, a number from your country, incoming and outgoing calls, an answering service and assisting AI. Monthly subscription, prepaid minutes and AI."
+    },
+    {
+     "ul": [
+      "Reception that keeps the line going even when volunteers are unavailable.",
+      "An answering service to collect messages outside duty hours.",
+      "Outgoing calls to get back to a member or partner."
+     ]
+    },
+    {
+     "h2": "General good practice for an association"
+    },
+    {
+     "ul": [
+      "Write a short reception sheet: presentation of the association, activities, how to join, how to donate, how to volunteer.",
+      "Name a person in charge of handling messages and calling back within a reasonable time.",
+      "State your phone-duty days and hours clearly in the greeting.",
+      "Respect the confidentiality of members’ and donors’ contact details.",
+      "Review the requests received regularly as a team to adjust the organisation."
+     ]
+    },
+    {
+     "p": "Reliable reception showcases the association’s work: it shows that every person who reaches out is taken seriously."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can an association use the Reception / Secretarial offer?",
+       "a": "The offer targets small organisations of every kind of activity; a small association can consider it according to its reception needs."
+      },
+      {
+       "q": "How can we avoid overloading volunteers?",
+       "a": "Remote reception and an answering service spread the load, with volunteers then handling messages when they are available."
+      },
+      {
+       "q": "Can we call members back from this number?",
+       "a": "HARX Telephony provides incoming and outgoing calls with a number from your country, depending on the offer chosen."
+      }
+     ]
+    },
+    {
+     "p": "To relieve your volunteers while staying attentive, discover the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Asociaciones: atender el teléfono sin agotar a los voluntarios",
+   "description": "Asociación: organice la atención telefónica a socios y donantes sin sobrecargar a los voluntarios, con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "En una asociación, el teléfono suele estar en manos de unos pocos voluntarios que ya tienen mil cosas que hacer. Socios, donantes, aliados y público esperan, sin embargo, un interlocutor cuando llaman."
+    },
+    {
+     "h2": "El problema telefónico típico de una asociación"
+    },
+    {
+     "p": "Los turnos de teléfono dependen de la disponibilidad de personas que tienen su propio empleo y sus propias obligaciones. Cuando una falta, la línea queda muda. Y una asociación que responde mal o no responde da la impresión de carecer de medios, aunque su labor sea notable."
+    },
+    {
+     "ul": [
+      "El turno de teléfono depende de voluntarios cuya disponibilidad cambia de una semana a otra.",
+      "Las llamadas de personas que quieren afiliarse, donar u ofrecer ayuda se pierden con facilidad.",
+      "La información recogida a veces se anota en un papel suelto y no llega a la persona responsable."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, y puede interesar a una pequeña asociación que desee una atención telefónica a distancia. Se basa en personal a distancia o recepción deslocalizada, un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. Suscripción mensual, minutos e IA prepagados."
+    },
+    {
+     "ul": [
+      "Una recepción que mantiene la línea activa incluso cuando los voluntarios no están disponibles.",
+      "Un contestador para recoger mensajes fuera de los turnos.",
+      "Llamadas salientes para volver a contactar con un socio o aliado."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para una asociación"
+    },
+    {
+     "ul": [
+      "Redacte una breve ficha de recepción: presentación de la asociación, actividades, cómo afiliarse, cómo donar y cómo ser voluntario.",
+      "Designe a una persona responsable de tratar los mensajes y devolver las llamadas en un plazo razonable.",
+      "Anuncie con claridad los días y horarios del turno de teléfono en el mensaje de bienvenida.",
+      "Respete la confidencialidad de los datos de contacto de socios y donantes.",
+      "Revise periódicamente en equipo las peticiones recibidas para ajustar la organización."
+     ]
+    },
+    {
+     "p": "Una recepción fiable realza la labor de la asociación: demuestra que se toma en serio a cada persona que se dirige a ella."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede una asociación usar la oferta Recepción / Secretaría?",
+       "a": "La oferta se dirige a pequeñas estructuras de cualquier actividad; una asociación pequeña puede estudiarla según sus necesidades de atención."
+      },
+      {
+       "q": "¿Cómo evitar sobrecargar a los voluntarios?",
+       "a": "Una recepción a distancia y un contestador reparten la carga, y los voluntarios tratan después los mensajes cuando están disponibles."
+      },
+      {
+       "q": "¿Se puede devolver la llamada a los socios desde este número?",
+       "a": "HARX Telefonía prevé llamadas entrantes y salientes con un número de su país, según la oferta elegida."
+      }
+     ]
+    },
+    {
+     "p": "Para aliviar a sus voluntarios sin dejar de escuchar, conozca la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الجمعيات: إدارة خط الهاتف دون إرهاق المتطوعين",
+   "description": "الجمعية: نظّموا استقبال المنخرطين والمتبرعين والشركاء هاتفيًا دون إثقال المتطوعين بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "في الجمعية يتولى الهاتف عادةً قلة من المتطوعين لديهم أصلًا ألف أمر آخر. ومع ذلك ينتظر المنخرطون والمتبرعون والشركاء والجمهور من يجيبهم حين يتصلون."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للجمعية"
+    },
+    {
+     "p": "تعتمد مناوبات الهاتف على توافر أشخاص لهم وظائفهم والتزاماتهم الخاصة. وحين يغيب أحدهم يصمت الخط. والجمعية التي ترد بشكل سيئ أو لا ترد إطلاقًا توحي بقلة الإمكانات، حتى لو كان عملها جديرًا بالتقدير."
+    },
+    {
+     "ul": [
+      "تعتمد المناوبة على متطوعين يتغير توافرهم من أسبوع إلى آخر.",
+      "تضيع بسهولة مكالمات من يرغبون في الانخراط أو التبرع أو عرض المساعدة.",
+      "تُدوَّن المعلومات أحيانًا على ورقة صغيرة ولا تصل إلى المسؤول المعني."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يستهدف عرض الاستقبال / السكرتارية من HARX Téléphonie المنشآت الصغيرة جدًا من كل المهن، وقد يهم جمعية صغيرة ترغب في استقبال هاتفي عن بُعد. يعتمد على موظفين عن بُعد أو استقبال مُنقول، ورقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاء اصطناعي مساعد. اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+    },
+    {
+     "ul": [
+      "استقبال يضمن استمرار الخط حتى حين لا يكون المتطوعون متاحين.",
+      "جهاز رد لتسجيل الرسائل خارج أوقات المناوبة.",
+      "مكالمات صادرة لمعاودة الاتصال بمنخرط أو شريك."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للجمعيات"
+    },
+    {
+     "ul": [
+      "اكتبوا ورقة استقبال قصيرة: تعريف بالجمعية وأنشطتها وكيفية الانخراط والتبرع والتطوع.",
+      "عيّنوا مسؤولًا عن معالجة الرسائل ومعاودة الاتصال في مهلة معقولة.",
+      "أعلنوا بوضوح أيام المناوبة الهاتفية وساعاتها في رسالة الترحيب.",
+      "احترموا سرية بيانات الاتصال الخاصة بالمنخرطين والمتبرعين.",
+      "راجعوا الطلبات الواردة بانتظام مع الفريق لتعديل التنظيم."
+     ]
+    },
+    {
+     "p": "الاستقبال الموثوق يُبرز عمل الجمعية، فهو يُظهر أن كل من يتواصل معها يُؤخذ على محمل الجد."
+    },
+    {
+     "p": "ومن المفيد أن تحدّدوا مسبقًا ما يُقال للمتصلين الجدد عن أنشطة الجمعية، وما يُحال إلى المسؤولين، وما يُؤجَّل إلى اجتماع الفريق، حتى يتصرف كل من يرد بالطريقة نفسها."
+    },
+    {
+     "p": "ولا تنسوا شكر المتطوعين على ما يبذلونه، فتخفيف عبء الهاتف عنهم يمنحهم وقتًا أكبر لما يحبون فعلًا في العمل الجمعوي: الميدان والناس والمشاريع، وتزداد قدرة الجمعية على الاستمرار وجذب متطوعين جدد يجدون تنظيمًا مريحًا."
+    },
+    {
+     "p": "ويمكن كذلك أن تُدرج الجمعية في رسالة الترحيب عنوان بريدها الإلكتروني أو موقعها، ليجد من يفضّل الكتابة على الاتصال طريقًا بديلًا واضحًا لطرح أسئلته."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل تستطيع جمعية استخدام عرض الاستقبال / السكرتارية؟",
+       "a": "يستهدف العرض المنشآت الصغيرة من كل الأنشطة، ويمكن لجمعية صغيرة دراسته بحسب حاجتها إلى الاستقبال."
+      },
+      {
+       "q": "كيف نتجنب إثقال المتطوعين؟",
+       "a": "الاستقبال عن بُعد وجهاز الرد يوزّعان العبء، ثم يعالج المتطوعون الرسائل حين يكونون متاحين."
+      },
+      {
+       "q": "هل يمكن معاودة الاتصال بالمنخرطين من هذا الرقم؟",
+       "a": "توفّر HARX Téléphonie مكالمات واردة وصادرة برقم من بلدكم، بحسب العرض المختار."
+      }
+     ]
+    },
+    {
+     "p": "لتخفيف العبء عن متطوعيكم مع البقاء منصتين للجميع، تعرّفوا على عرض الاستقبال / السكرتارية من HARX Téléphonie."
+    }
+   ]
+  }
+ }
+}

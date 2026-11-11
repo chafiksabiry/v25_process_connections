@@ -1,138 +1,273 @@
 {
-  "type": "blog",
-  "slug": "blog-b-define-measurable-outcome-customer-service",
-  "date": "2026-10-05",
-  "langs": {
-    "fr": {
-      "title": "Définir un résultat mesurable pour une mission de service client",
-      "description": "Comment formuler un résultat clair, vérifiable et équitable pour une mission de service client : critères d'approbation, périmètre, preuves et cas limites.",
-      "blocks": [
-        {"h2": "Pourquoi la définition du résultat est l'étape décisive"},
-        {"p": "Dans tout modèle où l'on paie un résultat, la qualité de la définition conditionne tout le reste. Un objectif flou conduit à des discussions sans fin sur ce qui a été fait ou non. Un objectif précis, au contraire, permet à chacun de savoir ce qu'il doit produire et à quel moment la mission est considérée comme terminée."},
-        {"p": "Prenons un exemple volontairement simple : « améliorer l'accueil téléphonique » n'est pas un résultat, c'est une intention. « Chaque appel entrant d'une certaine catégorie reçoit une réponse correcte ou une prise de contact documentée » se rapproche déjà d'un résultat vérifiable."},
-        {"h2": "Les ingrédients d'un bon résultat"},
-        {"ul": [
-          "Un événement observable : un ticket clos, un rendez-vous confirmé, un formulaire rempli.",
-          "Un périmètre précis : quels clients, quels sujets, quels canaux.",
-          "Une preuve : où et comment le résultat sera constaté.",
-          "Un approbateur identifié, avec un délai pour valider ou contester.",
-          "Des règles de conduite : ce qui est exclu, même si cela aiderait à atteindre le résultat."
-        ]},
-        {"p": "Chacun de ces éléments évite un malentendu classique. Sans preuve, on se dispute sur les faits. Sans approbateur, personne ne tranche. Sans règles de conduite, on risque d'obtenir le résultat au détriment de la relation avec le client final."},
-        {"h2": "Séparer le résultat de la qualité du parcours"},
-        {"p": "Un même résultat peut être atteint de manière très différente. Un problème résolu en une interaction courtoise n'a pas la même valeur qu'un problème résolu après des échanges confus. Il est donc utile de distinguer deux niveaux : le résultat lui-même, et la qualité de l'interaction qui y a mené."},
-        {"p": "C'est l'esprit de l'approche TAAS proposée par HARX.ai : le résultat attendu est défini par l'entreprise, et chaque interaction est évaluée en temps réel. Le premier détermine le paiement, la seconde permet de suivre la manière dont la mission est conduite."},
-        {"h2": "Anticiper les cas limites"},
-        {"p": "Les désaccords naissent presque toujours dans les situations non prévues. Avant de lancer une mission, il vaut la peine de les lister avec l'équipe concernée et de décider à l'avance de la règle applicable."},
-        {"ul": [
-          "Le client ne répond pas : combien de tentatives, sur quel intervalle ?",
-          "La demande sort du périmètre : qui la réoriente et comment ?",
-          "Le client revient sur sa décision : le résultat reste-t-il acquis ?",
-          "Les informations transmises sont incomplètes : à qui revient la relance ?"
-        ]},
-        {"h2": "Tester sur un petit volume"},
-        {"p": "Aucune définition n'est parfaite du premier coup. Le plus sage est de lancer la mission sur un petit nombre de cas, de relire ensemble ce qui a été approuvé ou refusé, puis d'ajuster la formulation. Cette boucle courte révèle rapidement les ambiguïtés cachées."},
-        {"p": "Pour une entreprise qui découvre ce fonctionnement, l'offre TAAS de HARX.ai est une manière de réfléchir à la façon de décrire un résultat, de fixer un prix et de suivre la qualité au fil des interactions. À noter : la publication de gigs côté entreprise est annoncée comme bientôt disponible."}
-      ]
+ "type": "blog",
+ "slug": "blog-b-define-measurable-outcome-customer-service",
+ "date": "2026-10-05",
+ "langs": {
+  "fr": {
+   "title": "Définir un résultat mesurable pour une mission de service client",
+   "description": "Comment formuler un résultat clair, vérifiable et équitable pour une mission de service client : critères d'approbation, périmètre, preuves et cas limites.",
+   "blocks": [
+    {
+     "h2": "Pourquoi la définition du résultat est l'étape décisive"
     },
-    "en": {
-      "title": "Defining a Measurable Outcome for a Customer Service Task",
-      "description": "How to word a clear, verifiable and fair outcome for a customer service task: approval criteria, scope, evidence and edge cases explained step by step.",
-      "blocks": [
-        {"h2": "Why defining the outcome is the decisive step"},
-        {"p": "In any model where you pay for a result, the quality of the definition conditions everything else. A vague objective leads to endless discussion about what was or was not done. A precise one lets everyone know what they must deliver and when the task is considered complete."},
-        {"p": "Take a deliberately simple example: improving telephone reception is not an outcome, it is an intention. Every incoming call in a given category receives a correct answer or a documented follow-up already comes closer to a verifiable outcome."},
-        {"h2": "The ingredients of a good outcome"},
-        {"ul": [
-          "An observable event: a closed ticket, a confirmed appointment, a completed form.",
-          "A precise scope: which customers, which topics, which channels.",
-          "Evidence: where and how the result will be confirmed.",
-          "A named approver, with a deadline to validate or contest.",
-          "Conduct rules: what is excluded, even if it would help reach the result."
-        ]},
-        {"p": "Each of these avoids a classic misunderstanding. Without evidence, people argue over facts. Without an approver, nobody decides. Without conduct rules, you may get the result at the expense of the relationship with the end customer."},
-        {"h2": "Separating the outcome from the quality of the journey"},
-        {"p": "The same result can be reached in very different ways. A problem solved in one courteous interaction is not worth the same as one solved after confusing exchanges. It is therefore useful to distinguish two levels: the result itself, and the quality of the interaction that led to it."},
-        {"p": "That is the spirit of the TAAS approach offered by HARX.ai: the expected result is defined by the company, and every interaction is assessed in real time. The first determines payment; the second lets you follow how the task is being carried out."},
-        {"h2": "Anticipating edge cases"},
-        {"p": "Disagreements almost always arise in situations nobody planned for. Before launching a task, it is worth listing them with the team involved and deciding in advance which rule applies."},
-        {"ul": [
-          "The customer does not answer: how many attempts, over what interval?",
-          "The request falls outside the scope: who redirects it and how?",
-          "The customer changes their mind: does the result still stand?",
-          "The information supplied is incomplete: who follows up?"
-        ]},
-        {"h2": "Testing on a small volume"},
-        {"p": "No definition is perfect the first time. The wise approach is to launch the task on a small number of cases, review together what was approved or refused, then adjust the wording. This short loop quickly reveals hidden ambiguities."},
-        {"p": "It also helps to write the final definition down and share it with everyone involved, so that people return to the text when in doubt rather than relying on memory or on verbal agreements."},
-        {"p": "For a company discovering this way of working, the TAAS offer from HARX.ai is a way to think about how to describe a result, set a price and follow quality across interactions. Note that publishing gigs on the company side is announced as coming soon."}
-      ]
+    {
+     "p": "Dans tout modèle où l'on paie un résultat, la qualité de la définition conditionne tout le reste. Un objectif flou conduit à des discussions sans fin sur ce qui a été fait ou non. Un objectif précis, au contraire, permet à chacun de savoir ce qu'il doit produire et à quel moment la mission est considérée comme terminée."
     },
-    "es": {
-      "title": "Definir un resultado medible para una tarea de atención al cliente",
-      "description": "Cómo formular un resultado claro, verificable y equitativo para una tarea de atención al cliente: criterios de aprobación, alcance, pruebas y casos límite.",
-      "blocks": [
-        {"h2": "Por qué definir el resultado es el paso decisivo"},
-        {"p": "En cualquier modelo en el que se paga un resultado, la calidad de la definición condiciona todo lo demás. Un objetivo difuso lleva a discusiones interminables sobre lo que se hizo o no se hizo. Uno preciso permite que cada cual sepa qué debe producir y en qué momento se considera terminada la tarea."},
-        {"p": "Tomemos un ejemplo deliberadamente sencillo: mejorar la atención telefónica no es un resultado, es una intención. Que cada llamada entrante de una categoría determinada reciba una respuesta correcta o un seguimiento documentado ya se acerca más a un resultado verificable."},
-        {"h2": "Los ingredientes de un buen resultado"},
-        {"ul": [
-          "Un hecho observable: un ticket cerrado, una cita confirmada, un formulario completado.",
-          "Un alcance preciso: qué clientes, qué temas, qué canales.",
-          "Una prueba: dónde y cómo se constatará el resultado.",
-          "Un aprobador identificado, con un plazo para validar o impugnar.",
-          "Reglas de conducta: qué queda excluido, aunque ayudara a lograr el resultado."
-        ]},
-        {"p": "Cada uno de estos elementos evita un malentendido clásico. Sin prueba, se discute sobre los hechos. Sin aprobador, nadie decide. Sin reglas de conducta, se puede obtener el resultado a costa de la relación con el cliente final."},
-        {"h2": "Separar el resultado de la calidad del recorrido"},
-        {"p": "Un mismo resultado puede alcanzarse de maneras muy distintas. Un problema resuelto en una interacción cortés no vale lo mismo que uno resuelto tras intercambios confusos. Por eso conviene distinguir dos niveles: el resultado en sí y la calidad de la interacción que condujo a él."},
-        {"p": "Es el espíritu del enfoque TAAS que propone HARX.ai: la empresa define el resultado esperado y cada interacción se evalúa en tiempo real. El primero determina el pago; la segunda permite seguir cómo se desarrolla la tarea."},
-        {"h2": "Anticipar los casos límite"},
-        {"p": "Los desacuerdos casi siempre nacen en situaciones que nadie previó. Antes de lanzar una tarea merece la pena enumerarlas con el equipo implicado y decidir de antemano qué regla se aplica."},
-        {"ul": [
-          "El cliente no responde: ¿cuántos intentos y con qué intervalo?",
-          "La solicitud queda fuera del alcance: ¿quién la reorienta y cómo?",
-          "El cliente cambia de opinión: ¿el resultado sigue siendo válido?",
-          "La información recibida es incompleta: ¿a quién le toca insistir?"
-        ]},
-        {"h2": "Probar con un volumen pequeño"},
-        {"p": "Ninguna definición es perfecta a la primera. Lo prudente es lanzar la tarea con pocos casos, revisar juntos lo que se aprobó o se rechazó y ajustar la redacción. Este ciclo corto saca a la luz rápidamente las ambigüedades ocultas."},
-        {"p": "Para una empresa que descubre este modo de trabajo, la oferta TAAS de HARX.ai es una forma de reflexionar sobre cómo describir un resultado, fijar un precio y seguir la calidad a lo largo de las interacciones. Cabe señalar que la publicación de gigs por parte de la empresa figura como próximamente disponible."}
-      ]
+    {
+     "p": "Prenons un exemple volontairement simple : « améliorer l'accueil téléphonique » n'est pas un résultat, c'est une intention. « Chaque appel entrant d'une certaine catégorie reçoit une réponse correcte ou une prise de contact documentée » se rapproche déjà d'un résultat vérifiable."
     },
-    "ar": {
-      "title": "تحديد نتيجة قابلة للقياس لمهمة في خدمة العملاء",
-      "description": "كيف تصوغ نتيجة واضحة يمكن التحقق منها وعادلة لمهمة في خدمة العملاء: معايير الاعتماد والنطاق والأدلة والحالات الحدّية بالتفصيل.",
-      "blocks": [
-        {"h2": "لماذا يُعدّ تعريف النتيجة الخطوة الحاسمة"},
-        {"p": "في أي نموذج يُدفع فيه مقابل النتيجة، تحدد جودة التعريف مصير كل ما بعده. فالهدف الغامض يقود إلى نقاشات لا تنتهي حول ما أُنجز وما لم يُنجز. أما الهدف الدقيق فيتيح لكل طرف أن يعرف ما عليه إنتاجه ومتى تُعتبر المهمة منتهية."},
-        {"p": "لنأخذ مثالًا بسيطًا عن قصد: عبارة «تحسين الاستقبال الهاتفي» ليست نتيجة، بل نيّة. أما عبارة «كل مكالمة واردة من فئة معينة تحصل على جواب صحيح أو متابعة موثّقة» فهي أقرب إلى نتيجة يمكن التحقق منها."},
-        {"h2": "مكوّنات النتيجة الجيدة"},
-        {"ul": [
-          "حدث يمكن ملاحظته: تذكرة أُغلقت، أو موعد تأكد، أو نموذج اكتمل.",
-          "نطاق دقيق: أي عملاء، وأي موضوعات، وأي قنوات.",
-          "دليل: أين وكيف ستُعاين النتيجة.",
-          "جهة اعتماد محددة، مع مهلة للتصديق أو الاعتراض.",
-          "قواعد سلوك: ما هو مستبعد حتى لو ساعد على بلوغ النتيجة."
-        ]},
-        {"p": "ويجنّب كل عنصر من هذه العناصر سوء فهم شائعًا. فبلا دليل يتجادل الناس حول الوقائع، وبلا جهة اعتماد لا يحسم أحد الأمر، وبلا قواعد سلوك قد تتحقق النتيجة على حساب العلاقة مع العميل النهائي."},
-        {"h2": "الفصل بين النتيجة وجودة المسار"},
-        {"p": "يمكن بلوغ النتيجة نفسها بطرق مختلفة جدًا. فمشكلة حُلّت في تفاعل واحد مهذب لا تساوي مشكلة حُلّت بعد تبادلات مربكة. ولذلك من المفيد التمييز بين مستويين: النتيجة نفسها، وجودة التفاعل الذي أدى إليها."},
-        {"p": "وهذه روح نهج TAAS الذي تقدمه HARX.ai: تحدد الشركة النتيجة المتوقعة، ويجري تقييم كل تفاعل في الوقت الفعلي. فالأولى تحدد الدفع، والثانية تتيح متابعة كيفية سير المهمة."},
-        {"h2": "استباق الحالات الحدّية"},
-        {"p": "تنشأ الخلافات في الغالب من مواقف لم يتوقعها أحد. وقبل إطلاق المهمة يستحسن حصر هذه المواقف مع الفريق المعني، والاتفاق مسبقًا على القاعدة التي تُطبَّق في كل منها."},
-        {"ul": [
-          "العميل لا يردّ: كم محاولة، وعلى أي فاصل زمني؟",
-          "الطلب خارج النطاق: من يعيد توجيهه وكيف؟",
-          "العميل يتراجع عن قراره: هل تبقى النتيجة محسوبة؟",
-          "المعلومات المقدَّمة ناقصة: على من تقع مسؤولية المتابعة؟"
-        ]},
-        {"h2": "التجربة على حجم صغير"},
-        {"p": "لا يوجد تعريف كامل من المحاولة الأولى. والحكمة أن تُطلق المهمة على عدد محدود من الحالات، ثم تُراجَع معًا الحالات المعتمدة والمرفوضة، ثم تُعدَّل الصياغة. وتكشف هذه الدورة القصيرة بسرعة عن الغموض المختبئ."},
-        {"p": "وبالنسبة إلى شركة تكتشف هذه الطريقة في العمل، يمثل عرض TAAS من HARX.ai وسيلة للتفكير في كيفية وصف النتيجة وتحديد السعر ومتابعة الجودة عبر التفاعلات. ويُشار إلى أن نشر المهام من جانب الشركة مُعلن عنه على أنه سيتوفر قريبًا."},
-        {"p": "ومن المفيد كذلك أن يشارك في صياغة التعريف من سيتولون التنفيذ فعليًا، لأنهم الأقدر على التنبيه إلى الصعوبات الميدانية التي قد لا تظهر على الورق. فإذا شعر المحترف أن النتيجة المطلوبة واقعية وعادلة، ارتفع التزامه وانخفضت احتمالات الخلاف عند الاعتماد."},
-        {"p": "وأخيرًا، احرص على توثيق التعريف النهائي كتابةً ومشاركته مع جميع المعنيين، حتى يعود إليه الجميع عند أي التباس بدل الاعتماد على الذاكرة أو على اتفاقات شفهية يصعب إثباتها لاحقًا."}
-      ]
+    {
+     "h2": "Les ingrédients d'un bon résultat"
+    },
+    {
+     "ul": [
+      "Un événement observable : un ticket clos, un rendez-vous confirmé, un formulaire rempli.",
+      "Un périmètre précis : quels clients, quels sujets, quels canaux.",
+      "Une preuve : où et comment le résultat sera constaté.",
+      "Un approbateur identifié, avec un délai pour valider ou contester.",
+      "Des règles de conduite : ce qui est exclu, même si cela aiderait à atteindre le résultat."
+     ]
+    },
+    {
+     "p": "Chacun de ces éléments évite un malentendu classique. Sans preuve, on se dispute sur les faits. Sans approbateur, personne ne tranche. Sans règles de conduite, on risque d'obtenir le résultat au détriment de la relation avec le client final."
+    },
+    {
+     "h2": "Séparer le résultat de la qualité du parcours"
+    },
+    {
+     "p": "Un même résultat peut être atteint de manière très différente. Un problème résolu en une interaction courtoise n'a pas la même valeur qu'un problème résolu après des échanges confus. Il est donc utile de distinguer deux niveaux : le résultat lui-même, et la qualité de l'interaction qui y a mené."
+    },
+    {
+     "p": "C'est l'esprit de l'approche TAAS proposée par HARX.ai : le résultat attendu est défini par l'entreprise, et chaque interaction est évaluée en temps réel. Le premier détermine le paiement, la seconde permet de suivre la manière dont la mission est conduite."
+    },
+    {
+     "h2": "Anticiper les cas limites"
+    },
+    {
+     "p": "Les désaccords naissent presque toujours dans les situations non prévues. Avant de lancer une mission, il vaut la peine de les lister avec l'équipe concernée et de décider à l'avance de la règle applicable."
+    },
+    {
+     "ul": [
+      "Le client ne répond pas : combien de tentatives, sur quel intervalle ?",
+      "La demande sort du périmètre : qui la réoriente et comment ?",
+      "Le client revient sur sa décision : le résultat reste-t-il acquis ?",
+      "Les informations transmises sont incomplètes : à qui revient la relance ?"
+     ]
+    },
+    {
+     "h2": "Tester sur un petit volume"
+    },
+    {
+     "p": "Aucune définition n'est parfaite du premier coup. Le plus sage est de lancer la mission sur un petit nombre de cas, de relire ensemble ce qui a été approuvé ou refusé, puis d'ajuster la formulation. Cette boucle courte révèle rapidement les ambiguïtés cachées."
+    },
+    {
+     "p": "Pour une entreprise qui découvre ce fonctionnement, l'offre TAAS de HARX.ai est une manière de réfléchir à la façon de décrire un résultat, de fixer un prix et de suivre la qualité au fil des interactions. À noter : la publication de gigs côté entreprise est annoncée comme bientôt disponible."
     }
+   ]
+  },
+  "en": {
+   "title": "Defining a Measurable Outcome for a Customer Service Task",
+   "description": "How to word a clear, verifiable and fair outcome for a customer service task: approval criteria, scope, evidence and edge cases explained step by step.",
+   "blocks": [
+    {
+     "h2": "Why defining the outcome is the decisive step"
+    },
+    {
+     "p": "In any model where you pay for a result, the quality of the definition conditions everything else. A vague objective leads to endless discussion about what was or was not done. A precise one lets everyone know what they must deliver and when the task is considered complete."
+    },
+    {
+     "p": "Take a deliberately simple example: improving telephone reception is not an outcome, it is an intention. Every incoming call in a given category receives a correct answer or a documented follow-up already comes closer to a verifiable outcome."
+    },
+    {
+     "h2": "The ingredients of a good outcome"
+    },
+    {
+     "ul": [
+      "An observable event: a closed ticket, a confirmed appointment, a completed form.",
+      "A precise scope: which customers, which topics, which channels.",
+      "Evidence: where and how the result will be confirmed.",
+      "A named approver, with a deadline to validate or contest.",
+      "Conduct rules: what is excluded, even if it would help reach the result."
+     ]
+    },
+    {
+     "p": "Each of these avoids a classic misunderstanding. Without evidence, people argue over facts. Without an approver, nobody decides. Without conduct rules, you may get the result at the expense of the relationship with the end customer."
+    },
+    {
+     "h2": "Separating the outcome from the quality of the journey"
+    },
+    {
+     "p": "The same result can be reached in very different ways. A problem solved in one courteous interaction is not worth the same as one solved after confusing exchanges. It is therefore useful to distinguish two levels: the result itself, and the quality of the interaction that led to it."
+    },
+    {
+     "p": "That is the spirit of the TAAS approach offered by HARX.ai: the expected result is defined by the company, and every interaction is assessed in real time. The first determines payment; the second lets you follow how the task is being carried out."
+    },
+    {
+     "h2": "Anticipating edge cases"
+    },
+    {
+     "p": "Disagreements almost always arise in situations nobody planned for. Before launching a task, it is worth listing them with the team involved and deciding in advance which rule applies."
+    },
+    {
+     "ul": [
+      "The customer does not answer: how many attempts, over what interval?",
+      "The request falls outside the scope: who redirects it and how?",
+      "The customer changes their mind: does the result still stand?",
+      "The information supplied is incomplete: who follows up?"
+     ]
+    },
+    {
+     "h2": "Testing on a small volume"
+    },
+    {
+     "p": "No definition is perfect the first time. The wise approach is to launch the task on a small number of cases, review together what was approved or refused, then adjust the wording. This short loop quickly reveals hidden ambiguities."
+    },
+    {
+     "p": "It also helps to write the final definition down and share it with everyone involved, so that people return to the text when in doubt rather than relying on memory or on verbal agreements."
+    },
+    {
+     "p": "For a company discovering this way of working, the TAAS offer from HARX.ai is a way to think about how to describe a result, set a price and follow quality across interactions. Note that publishing gigs on the company side is announced as coming soon."
+    }
+   ]
+  },
+  "es": {
+   "title": "Definir un resultado medible para una tarea de atención al cliente",
+   "description": "Cómo formular un resultado claro, verificable y equitativo para una tarea de atención al cliente: criterios de aprobación, alcance, pruebas y casos límite.",
+   "blocks": [
+    {
+     "h2": "Por qué definir el resultado es el paso decisivo"
+    },
+    {
+     "p": "En cualquier modelo en el que se paga un resultado, la calidad de la definición condiciona todo lo demás. Un objetivo difuso lleva a discusiones interminables sobre lo que se hizo o no se hizo. Uno preciso permite que cada cual sepa qué debe producir y en qué momento se considera terminada la tarea."
+    },
+    {
+     "p": "Tomemos un ejemplo deliberadamente sencillo: mejorar la atención telefónica no es un resultado, es una intención. Que cada llamada entrante de una categoría determinada reciba una respuesta correcta o un seguimiento documentado ya se acerca más a un resultado verificable."
+    },
+    {
+     "h2": "Los ingredientes de un buen resultado"
+    },
+    {
+     "ul": [
+      "Un hecho observable: un ticket cerrado, una cita confirmada, un formulario completado.",
+      "Un alcance preciso: qué clientes, qué temas, qué canales.",
+      "Una prueba: dónde y cómo se constatará el resultado.",
+      "Un aprobador identificado, con un plazo para validar o impugnar.",
+      "Reglas de conducta: qué queda excluido, aunque ayudara a lograr el resultado."
+     ]
+    },
+    {
+     "p": "Cada uno de estos elementos evita un malentendido clásico. Sin prueba, se discute sobre los hechos. Sin aprobador, nadie decide. Sin reglas de conducta, se puede obtener el resultado a costa de la relación con el cliente final."
+    },
+    {
+     "h2": "Separar el resultado de la calidad del recorrido"
+    },
+    {
+     "p": "Un mismo resultado puede alcanzarse de maneras muy distintas. Un problema resuelto en una interacción cortés no vale lo mismo que uno resuelto tras intercambios confusos. Por eso conviene distinguir dos niveles: el resultado en sí y la calidad de la interacción que condujo a él."
+    },
+    {
+     "p": "Es el espíritu del enfoque TAAS que propone HARX.ai: la empresa define el resultado esperado y cada interacción se evalúa en tiempo real. El primero determina el pago; la segunda permite seguir cómo se desarrolla la tarea."
+    },
+    {
+     "h2": "Anticipar los casos límite"
+    },
+    {
+     "p": "Los desacuerdos casi siempre nacen en situaciones que nadie previó. Antes de lanzar una tarea merece la pena enumerarlas con el equipo implicado y decidir de antemano qué regla se aplica."
+    },
+    {
+     "ul": [
+      "El cliente no responde: ¿cuántos intentos y con qué intervalo?",
+      "La solicitud queda fuera del alcance: ¿quién la reorienta y cómo?",
+      "El cliente cambia de opinión: ¿el resultado sigue siendo válido?",
+      "La información recibida es incompleta: ¿a quién le toca insistir?"
+     ]
+    },
+    {
+     "h2": "Probar con un volumen pequeño"
+    },
+    {
+     "p": "Ninguna definición es perfecta a la primera. Lo prudente es lanzar la tarea con pocos casos, revisar juntos lo que se aprobó o se rechazó y ajustar la redacción. Este ciclo corto saca a la luz rápidamente las ambigüedades ocultas."
+    },
+    {
+     "p": "Para una empresa que descubre este modo de trabajo, la oferta TAAS de HARX.ai es una forma de reflexionar sobre cómo describir un resultado, fijar un precio y seguir la calidad a lo largo de las interacciones. Cabe señalar que la publicación de gigs por parte de la empresa figura como próximamente disponible."
+    }
+   ]
+  },
+  "ar": {
+   "title": "تحديد نتيجة قابلة للقياس لمهمة في خدمة العملاء",
+   "description": "كيف تصوغ نتيجة واضحة يمكن التحقق منها وعادلة لمهمة في خدمة العملاء: معايير الاعتماد والنطاق والأدلة والحالات الحدّية بالتفصيل.",
+   "blocks": [
+    {
+     "h2": "لماذا يُعدّ تعريف النتيجة الخطوة الحاسمة"
+    },
+    {
+     "p": "في أي نموذج يُدفع فيه مقابل النتيجة، تحدد جودة التعريف مصير كل ما بعده. فالهدف الغامض يقود إلى نقاشات لا تنتهي حول ما أُنجز وما لم يُنجز. أما الهدف الدقيق فيتيح لكل طرف أن يعرف ما عليه إنتاجه ومتى تُعتبر المهمة منتهية."
+    },
+    {
+     "p": "لنأخذ مثالًا بسيطًا عن قصد: عبارة «تحسين الاستقبال الهاتفي» ليست نتيجة، بل نيّة. أما عبارة «كل مكالمة واردة من فئة معينة تحصل على جواب صحيح أو متابعة موثّقة» فهي أقرب إلى نتيجة يمكن التحقق منها."
+    },
+    {
+     "h2": "مكوّنات النتيجة الجيدة"
+    },
+    {
+     "ul": [
+      "حدث يمكن ملاحظته: تذكرة أُغلقت، أو موعد تأكد، أو نموذج اكتمل.",
+      "نطاق دقيق: أي عملاء، وأي موضوعات، وأي قنوات.",
+      "دليل: أين وكيف ستُعاين النتيجة.",
+      "جهة اعتماد محددة، مع مهلة للتصديق أو الاعتراض.",
+      "قواعد سلوك: ما هو مستبعد حتى لو ساعد على بلوغ النتيجة."
+     ]
+    },
+    {
+     "p": "ويجنّب كل عنصر من هذه العناصر سوء فهم شائعًا. فبلا دليل يتجادل الناس حول الوقائع، وبلا جهة اعتماد لا يحسم أحد الأمر، وبلا قواعد سلوك قد تتحقق النتيجة على حساب العلاقة مع العميل النهائي."
+    },
+    {
+     "h2": "الفصل بين النتيجة وجودة المسار"
+    },
+    {
+     "p": "يمكن بلوغ النتيجة نفسها بطرق مختلفة جدًا. فمشكلة حُلّت في تفاعل واحد مهذب لا تساوي مشكلة حُلّت بعد تبادلات مربكة. ولذلك من المفيد التمييز بين مستويين: النتيجة نفسها، وجودة التفاعل الذي أدى إليها."
+    },
+    {
+     "p": "وهذه روح نهج TAAS الذي تقدمه HARX.ai: تحدد الشركة النتيجة المتوقعة، ويجري تقييم كل تفاعل في الوقت الفعلي. فالأولى تحدد الدفع، والثانية تتيح متابعة كيفية سير المهمة."
+    },
+    {
+     "h2": "استباق الحالات الحدّية"
+    },
+    {
+     "p": "تنشأ الخلافات في الغالب من مواقف لم يتوقعها أحد. وقبل إطلاق المهمة يستحسن حصر هذه المواقف مع الفريق المعني، والاتفاق مسبقًا على القاعدة التي تُطبَّق في كل منها."
+    },
+    {
+     "ul": [
+      "العميل لا يردّ: كم محاولة، وعلى أي فاصل زمني؟",
+      "الطلب خارج النطاق: من يعيد توجيهه وكيف؟",
+      "العميل يتراجع عن قراره: هل تبقى النتيجة محسوبة؟",
+      "المعلومات المقدَّمة ناقصة: على من تقع مسؤولية المتابعة؟"
+     ]
+    },
+    {
+     "h2": "التجربة على حجم صغير"
+    },
+    {
+     "p": "لا يوجد تعريف كامل من المحاولة الأولى. والحكمة أن تُطلق المهمة على عدد محدود من الحالات، ثم تُراجَع معًا الحالات المعتمدة والمرفوضة، ثم تُعدَّل الصياغة. وتكشف هذه الدورة القصيرة بسرعة عن الغموض المختبئ."
+    },
+    {
+     "p": "وبالنسبة إلى شركة تكتشف هذه الطريقة في العمل، يمثل عرض TAAS من HARX.ai وسيلة للتفكير في كيفية وصف النتيجة وتحديد السعر ومتابعة الجودة عبر التفاعلات. ويُشار إلى أن نشر المهام من جانب الشركة مُعلن عنه على أنه سيتوفر قريبًا."
+    },
+    {
+     "p": "ومن المفيد كذلك أن يشارك في صياغة التعريف من سيتولون التنفيذ فعليًا، لأنهم الأقدر على التنبيه إلى الصعوبات الميدانية التي قد لا تظهر على الورق. فإذا شعر المحترف أن النتيجة المطلوبة واقعية وعادلة، ارتفع التزامه وانخفضت احتمالات الخلاف عند الاعتماد."
+    },
+    {
+     "h2": "مثال على صياغة قبل التحسين وبعده"
+    },
+    {
+     "p": "قبل التحسين قد نكتب: «معالجة طلبات العملاء بسرعة وبجودة». هذه العبارة تحتمل تفسيرات كثيرة. وبعد التحسين قد نكتب: «كل طلب من الفئة المحددة يُغلق وقد حصل العميل على جواب موثّق، مع تأكيد منه أو محاولتي اتصال موثقتين»."
+    },
+    {
+     "p": "لاحظ كيف أصبحت النتيجة قابلة للملاحظة، وكيف حُدد الدليل والنطاق، وكيف أُخذ في الحسبان العميل الذي لا يردّ. وهكذا يمكن لأي طرف أن يراجع المهمة بنفسه ويصل إلى الحكم نفسه."
+    },
+    {
+     "p": "وأخيرًا، احرص على توثيق التعريف النهائي كتابةً ومشاركته مع جميع المعنيين، حتى يعود إليه الجميع عند أي التباس بدل الاعتماد على الذاكرة أو على اتفاقات شفهية يصعب إثباتها لاحقًا."
+    }
+   ]
   }
+ }
 }

@@ -1,0 +1,296 @@
+{
+ "type": "blog",
+ "slug": "blog-b-managing-multi-client-call-center",
+ "date": "2026-10-18",
+ "langs": {
+  "fr": {
+   "title": "Piloter un centre d'appels multi-clients",
+   "description": "Gérer plusieurs clients dans un même centre d'appels exige organisation, séparation des consignes et suivi rigoureux. Les bases pour piloter sereinement.",
+   "blocks": [
+    {
+     "h2": "Ce qui rend le multi-clients particulier"
+    },
+    {
+     "p": "Un centre d'appels multi-clients traite, pour le compte de plusieurs entreprises, des demandes qui n'ont ni le même ton, ni les mêmes règles, ni les mêmes attentes. Un même agent peut parfois passer d'une marque à l'autre dans la même journée, voire dans la même heure. La difficulté n'est donc pas seulement d'avoir assez de monde : c'est de garantir que chaque client retrouve sa propre façon de travailler."
+    },
+    {
+     "p": "Le risque principal est la confusion : un script appliqué à la mauvaise campagne, un ton inadapté, une information donnée pour un autre client. Piloter, c'est organiser le travail pour que ces erreurs soient rares et vite repérées."
+    },
+    {
+     "h2": "Séparer clairement les univers"
+    },
+    {
+     "p": "Chaque client doit disposer de son propre cadre, aussi lisible que possible pour l'agent au moment où il décroche."
+    },
+    {
+     "ul": [
+      "Un guide propre à chaque client : produits, règles, ton, horaires, sujets exclus.",
+      "Un accueil identifiable : l'agent doit savoir immédiatement pour quelle marque il répond.",
+      "Des consignes d'escalade distinctes, avec le bon interlocuteur chez chaque client.",
+      "Une gestion séparée des données, avec des accès limités à ce qui est nécessaire."
+     ]
+    },
+    {
+     "p": "La confidentialité est un point d'attention constant. Les informations d'un client ne doivent pas être accessibles aux équipes d'un autre, et les règles de protection des données applicables doivent être comprises et respectées."
+    },
+    {
+     "h2": "Affecter et former les équipes"
+    },
+    {
+     "p": "Tous les agents n'ont pas le même profil. Certains excellent en support technique, d'autres en accueil chaleureux, d'autres encore en relances ou en prises de rendez-vous. Il est souvent plus efficace d'affecter les agents selon leurs points forts et de former progressivement des polyvalents que de tout mélanger dès le départ."
+    },
+    {
+     "p": "La formation doit être propre à chaque client et revue à chaque changement de consigne. Un court point d'équipe avant chaque prise de service permet de rappeler les évolutions du jour."
+    },
+    {
+     "h2": "Suivre la qualité par client"
+    },
+    {
+     "p": "Un indicateur global peut masquer des écarts importants entre clients. Il est préférable de suivre la qualité séparément, avec des critères adaptés à chaque contrat, et de partager avec chaque client des retours qui le concernent."
+    },
+    {
+     "ul": [
+      "Écoute régulière d'échanges, répartie entre les clients.",
+      "Évaluation de chaque interaction selon la grille convenue avec le client.",
+      "Compte rendu régulier, factuel et simple à lire.",
+      "Boucle de correction rapide quand un client signale un souci."
+     ]
+    },
+    {
+     "h2": "S'appuyer sur la bonne infrastructure téléphonique"
+    },
+    {
+     "p": "La téléphonie joue un rôle central. L'offre Contact Centre Multi-clients de HARX Téléphonie est pensée pour les centres d'appels en Europe, aux États-Unis ou dans des pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal, avec des agents sur plateau ou à distance, et plusieurs clients à servir."
+    },
+    {
+     "p": "Un bon outil ne remplace pas l'organisation, mais il la facilite. Définir à l'avance qui répond à quoi, comment les appels sont répartis et comment la qualité est contrôlée reste la meilleure garantie d'une exploitation sereine."
+    },
+    {
+     "h2": "Garder un équilibre humain"
+    },
+    {
+     "p": "Passer d'un univers à l'autre fatigue. Prévoir des temps de pause, limiter les changements trop fréquents et reconnaître la charge mentale des agents contribue à la qualité du service autant qu'à la fidélité des équipes."
+    }
+   ]
+  },
+  "en": {
+   "title": "Running a Multi-Client Call Centre",
+   "description": "Handling several clients in one call centre calls for organisation, separate instructions and rigorous follow-up. The basics for steady management.",
+   "blocks": [
+    {
+     "h2": "What makes multi-client work particular"
+    },
+    {
+     "p": "A multi-client call centre handles, on behalf of several companies, requests that share neither the same tone, nor the same rules, nor the same expectations. One agent may switch from one brand to another within a day, or even within an hour. The difficulty is therefore not only having enough people: it is making sure each client finds its own way of working."
+    },
+    {
+     "p": "The main risk is confusion: a script applied to the wrong campaign, an unsuitable tone, information given for another client. Managing means organising the work so that such errors are rare and quickly spotted."
+    },
+    {
+     "h2": "Keeping the worlds clearly separate"
+    },
+    {
+     "p": "Each client must have its own framework, as readable as possible for the agent at the moment they pick up."
+    },
+    {
+     "ul": [
+      "A guide specific to each client: products, rules, tone, hours, excluded topics.",
+      "An identifiable greeting: the agent must know immediately which brand they are answering for.",
+      "Distinct escalation instructions, with the right contact at each client.",
+      "Separate handling of data, with access limited to what is necessary."
+     ]
+    },
+    {
+     "p": "Confidentiality is a constant point of attention. One client's information must not be accessible to another's teams, and the applicable data protection rules must be understood and respected."
+    },
+    {
+     "h2": "Assigning and training teams"
+    },
+    {
+     "p": "Not all agents have the same profile. Some excel in technical support, others in warm reception, others in follow-ups or appointment setting. It is often more effective to assign agents according to their strengths and gradually train versatile ones than to mix everything from the start."
+    },
+    {
+     "p": "Training must be specific to each client and reviewed whenever instructions change. A short team briefing before each shift lets you recall the day's changes."
+    },
+    {
+     "h2": "Following quality client by client"
+    },
+    {
+     "p": "A global indicator can hide major differences between clients. It is preferable to follow quality separately, with criteria suited to each contract, and to share with each client the feedback that concerns them."
+    },
+    {
+     "ul": [
+      "Regular listening to exchanges, spread across clients.",
+      "Assessment of each interaction against the grid agreed with the client.",
+      "Regular reporting that is factual and easy to read.",
+      "A quick correction loop when a client flags an issue."
+     ]
+    },
+    {
+     "h2": "Relying on the right telephone infrastructure"
+    },
+    {
+     "p": "Telephony plays a central role. The Multi-client Contact Centre offer from HARX Telephony is designed for call centres in Europe, the United States or outsourcing countries such as France, Morocco, Tunisia and Senegal, with agents on site or remote, and several clients to serve."
+    },
+    {
+     "p": "A good tool does not replace organisation, but it makes it easier. Defining in advance who answers what, how calls are distributed and how quality is checked remains the best guarantee of steady operations."
+    },
+    {
+     "h2": "Keeping a human balance"
+    },
+    {
+     "p": "Switching from one world to another is tiring. Allowing time for breaks, limiting overly frequent changes and recognising agents' mental load contributes to service quality as much as to team loyalty."
+    }
+   ]
+  },
+  "es": {
+   "title": "Dirigir un centro de llamadas multicliente",
+   "description": "Gestionar a varios clientes en un mismo centro de llamadas exige organización, consignas separadas y seguimiento riguroso. Las bases para dirigirlo con calma.",
+   "blocks": [
+    {
+     "h2": "Qué hace especial el trabajo multicliente"
+    },
+    {
+     "p": "Un centro de llamadas multicliente atiende, por cuenta de varias empresas, solicitudes que no comparten el mismo tono, las mismas reglas ni las mismas expectativas. Un mismo agente puede pasar de una marca a otra en la misma jornada, incluso en la misma hora. La dificultad no es solo contar con suficiente personal: es garantizar que cada cliente encuentre su propia manera de trabajar."
+    },
+    {
+     "p": "El principal riesgo es la confusión: un guion aplicado a la campaña equivocada, un tono inadecuado, una información dada para otro cliente. Dirigir es organizar el trabajo para que estos errores sean raros y se detecten rápido."
+    },
+    {
+     "h2": "Separar con claridad los universos"
+    },
+    {
+     "p": "Cada cliente debe disponer de su propio marco, lo más legible posible para el agente en el momento de descolgar."
+    },
+    {
+     "ul": [
+      "Una guía propia de cada cliente: productos, reglas, tono, horarios, temas excluidos.",
+      "Un saludo identificable: el agente debe saber de inmediato por qué marca responde.",
+      "Instrucciones de escalado distintas, con el interlocutor adecuado en cada cliente.",
+      "Una gestión separada de los datos, con accesos limitados a lo necesario."
+     ]
+    },
+    {
+     "p": "La confidencialidad exige atención constante. La información de un cliente no debe ser accesible a los equipos de otro, y las normas de protección de datos aplicables deben comprenderse y respetarse."
+    },
+    {
+     "h2": "Asignar y formar a los equipos"
+    },
+    {
+     "p": "No todos los agentes tienen el mismo perfil. Algunos destacan en soporte técnico, otros en una acogida cálida, otros en seguimientos o en concertación de citas. Suele ser más eficaz asignar a los agentes según sus puntos fuertes y formar poco a poco a perfiles polivalentes que mezclarlo todo desde el principio."
+    },
+    {
+     "p": "La formación debe ser específica de cada cliente y revisarse con cada cambio de instrucciones. Una breve reunión de equipo antes de cada turno permite recordar las novedades del día."
+    },
+    {
+     "h2": "Seguir la calidad cliente por cliente"
+    },
+    {
+     "p": "Un indicador global puede ocultar diferencias importantes entre clientes. Es preferible seguir la calidad por separado, con criterios adaptados a cada contrato, y compartir con cada cliente los comentarios que le conciernen."
+    },
+    {
+     "ul": [
+      "Escucha regular de intercambios, repartida entre los clientes.",
+      "Evaluación de cada interacción según la plantilla acordada con el cliente.",
+      "Informe periódico, objetivo y fácil de leer.",
+      "Circuito rápido de corrección cuando un cliente señala un problema."
+     ]
+    },
+    {
+     "h2": "Apoyarse en la infraestructura telefónica adecuada"
+    },
+    {
+     "p": "La telefonía desempeña un papel central. La oferta Centro de Contacto Multicliente de HARX Telefonía está pensada para centros de llamadas en Europa, Estados Unidos o países de externalización como Francia, Marruecos, Túnez y Senegal, con agentes en plataforma o a distancia y varios clientes a los que atender."
+    },
+    {
+     "p": "Una buena herramienta no sustituye la organización, pero la facilita. Definir de antemano quién responde a qué, cómo se reparten las llamadas y cómo se controla la calidad sigue siendo la mejor garantía de una explotación tranquila."
+    },
+    {
+     "h2": "Mantener un equilibrio humano"
+    },
+    {
+     "p": "Pasar de un universo a otro cansa. Prever pausas, limitar los cambios demasiado frecuentes y reconocer la carga mental de los agentes contribuye a la calidad del servicio tanto como a la fidelidad de los equipos."
+    }
+   ]
+  },
+  "ar": {
+   "title": "إدارة مركز اتصال متعدد العملاء",
+   "description": "إدارة عدة عملاء في مركز اتصال واحد تتطلب تنظيمًا وتعليمات منفصلة ومتابعة صارمة. أساسيات تساعدك على الإدارة بهدوء وكفاءة.",
+   "blocks": [
+    {
+     "h2": "ما الذي يميّز العمل متعدد العملاء"
+    },
+    {
+     "p": "يعالج مركز الاتصال متعدد العملاء، لحساب عدة شركات، طلبات لا تتشابه في النبرة ولا في القواعد ولا في التوقعات. وقد ينتقل الوكيل الواحد من علامة تجارية إلى أخرى في اليوم نفسه، بل في الساعة نفسها. فالصعوبة لا تكمن في توفير عدد كافٍ من الأشخاص فحسب، بل في ضمان أن يجد كل عميل طريقته الخاصة في العمل."
+    },
+    {
+     "p": "والخطر الرئيس هو الخلط: نص طُبّق على حملة غير مقصودة، أو نبرة غير مناسبة، أو معلومة أُعطيت لعميل آخر. والإدارة هنا تعني تنظيم العمل بحيث تكون هذه الأخطاء نادرة وتُكتشف سريعًا."
+    },
+    {
+     "h2": "الفصل الواضح بين العوالم"
+    },
+    {
+     "p": "يجب أن يملك كل عميل إطاره الخاص، وأن يكون مقروءًا قدر الإمكان للوكيل لحظة رفعه السماعة."
+    },
+    {
+     "ul": [
+      "دليل خاص بكل عميل: المنتجات والقواعد والنبرة والساعات والموضوعات المستبعدة.",
+      "تحية قابلة للتمييز: على الوكيل أن يعرف فورًا عن أي علامة تجارية يجيب.",
+      "تعليمات تصعيد منفصلة، مع الجهة المناسبة لدى كل عميل.",
+      "إدارة منفصلة للبيانات، مع صلاحيات وصول مقصورة على الضروري."
+     ]
+    },
+    {
+     "p": "والسرية نقطة تستدعي انتباهًا دائمًا. فلا يجوز أن تكون معلومات عميل ما متاحة لفرق عميل آخر، ويجب فهم قواعد حماية البيانات المطبقة واحترامها."
+    },
+    {
+     "h2": "توزيع الفرق وتدريبها"
+    },
+    {
+     "p": "ليس للوكلاء جميعًا الملف نفسه. فبعضهم يتفوق في الدعم التقني، وبعضهم في الاستقبال الودود، وآخرون في المتابعة أو حجز المواعيد. وغالبًا ما يكون توزيع الوكلاء بحسب نقاط قوتهم وتكوين متعددي المهارات تدريجيًا أنجع من خلط كل شيء منذ البداية."
+    },
+    {
+     "p": "ويجب أن يكون التدريب خاصًا بكل عميل وأن يُراجَع عند كل تغيير في التعليمات. ولقاء قصير للفريق قبل كل مناوبة يتيح تذكيره بمستجدات اليوم."
+    },
+    {
+     "h2": "متابعة الجودة عميلًا بعد عميل"
+    },
+    {
+     "p": "قد يخفي المؤشر الإجمالي فروقًا كبيرة بين العملاء. ولذلك يُفضَّل متابعة الجودة بصورة منفصلة بمعايير تلائم كل عقد، ومشاركة كل عميل الملاحظات التي تخصه."
+    },
+    {
+     "ul": [
+      "إصغاء منتظم إلى المحادثات موزّع بين العملاء.",
+      "تقييم كل تفاعل بحسب الشبكة المتفق عليها مع العميل.",
+      "تقارير دورية واقعية وسهلة القراءة.",
+      "دورة تصحيح سريعة عندما يبلغ عميل عن مشكلة."
+     ]
+    },
+    {
+     "h2": "الاعتماد على بنية الاتصالات المناسبة"
+    },
+    {
+     "p": "تؤدي الاتصالات الهاتفية دورًا محوريًا. وقد صُمم عرض مركز الاتصال متعدد العملاء من HARX للاتصالات الهاتفية لمراكز الاتصال في أوروبا والولايات المتحدة أو في بلدان الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال، مع وكلاء في المقر أو عن بُعد وعدة عملاء يجب خدمتهم."
+    },
+    {
+     "p": "والأداة الجيدة لا تحل محل التنظيم لكنها تسهّله. فتحديد من يجيب عن ماذا، وكيف تُوزَّع المكالمات، وكيف تُراقب الجودة، يظل أفضل ضمانة لتشغيل هادئ."
+    },
+    {
+     "h2": "الحفاظ على توازن إنساني"
+    },
+    {
+     "p": "الانتقال من عالم إلى آخر مُتعب. ومراعاة فترات الراحة، والحد من التغييرات المتكررة، والاعتراف بالعبء الذهني على الوكلاء، تسهم في جودة الخدمة بقدر ما تسهم في ولاء الفرق."
+    },
+    {
+     "h2": "التواصل المنتظم مع كل عميل"
+    },
+    {
+     "p": "يقدّر العملاء أن يعرفوا كيف تسير أمورهم دون أن يضطروا إلى السؤال. ولذلك يُستحسن تحديد إيقاع واضح للتواصل مع كل عميل، وطريقة موحدة لعرض النتائج والملاحظات والاقتراحات، مع إشراكه في ضبط التعليمات كلما تغيرت منتجاته أو عروضه."
+    },
+    {
+     "p": "ومن الممارسات المفيدة أيضًا أن يُعيَّن مسؤول عن كل عميل داخل المركز، يكون نقطة الاتصال الأولى عند أي استفسار، فيعرف العميل إلى من يتوجه، ويعرف الفريق من يرجع إليه عند غموض التعليمات."
+    }
+   ]
+  }
+ }
+}

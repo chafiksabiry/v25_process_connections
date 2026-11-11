@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-law-firm",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Cabinet d’avocats : un accueil téléphonique irréprochable",
+   "description": "Cabinet d’avocats : accueillir les appels pendant les audiences et rendez-vous, avec l’offre Accueil / Secrétariat de HARX Téléphonie et de bonnes pratiques.",
+   "blocks": [
+    {
+     "p": "Pour un cabinet d’avocats, le premier appel est souvent le premier contact avec un futur client, parfois dans une situation de stress. L’impression laissée au téléphone compte autant que la qualité du conseil qui suivra."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’un cabinet d’avocats"
+    },
+    {
+     "p": "Les avocats passent une grande partie de leur temps hors du cabinet, en audience, en rendez-vous ou en déplacement. Pendant ce temps, les appels continuent d’arriver, et les structures de petite taille n’ont pas toujours une secrétaire présente en permanence. Un appelant qui tombe sur une sonnerie vide peut se tourner vers un autre cabinet."
+    },
+    {
+     "ul": [
+      "Les audiences et rendez-vous empêchent de décrocher pendant de longues plages de la journée.",
+      "Les appelants sont souvent dans l’urgence ou l’inquiétude, et attendent un accueil humain et attentif.",
+      "Les informations sur la demande, si elles sont mal notées, compliquent le travail de l’avocat au moment du rappel."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse aux TPE de tous métiers, ce qui inclut les petits cabinets. Elle repose sur du personnel à distance ou un accueil délocalisé, avec un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. L’abonnement est mensuel, les minutes et l’IA sont prépayées."
+    },
+    {
+     "ul": [
+      "Un accueil assuré pendant que l’équipe est en audience ou en rendez-vous.",
+      "Un répondeur qui garde la trace des demandes reçues hors des heures de présence.",
+      "Des appels sortants avec un numéro de votre pays pour rappeler clients et correspondants."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour l’accueil d’un cabinet"
+    },
+    {
+     "ul": [
+      "Définissez une trame d’accueil : nom de l’appelant, coordonnées, objet général de la demande, urgence éventuelle.",
+      "Rappelez à toute personne en charge de l’accueil que le secret professionnel exige de la discrétion, y compris au téléphone.",
+      "Évitez de recueillir par téléphone des détails inutiles sur le dossier : l’avocat les demandera lui-même.",
+      "Ne donnez jamais d’avis juridique à l’accueil : l’orientation vers le bon interlocuteur suffit.",
+      "Annoncez un délai de rappel réaliste et respectez-le."
+     ]
+    },
+    {
+     "p": "Un bon accueil ne promet aucun résultat juridique : il traduit le sérieux du cabinet et prépare le travail de l’avocat."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "L’accueil délocalisé peut-il répondre à des questions juridiques ?",
+       "a": "Non. L’accueil sert à recueillir la demande et à l’orienter ; tout avis juridique relève de l’avocat."
+      },
+      {
+       "q": "Comment protéger la confidentialité des échanges ?",
+       "a": "Définissez des consignes strictes sur les informations à recueillir et à ne pas recueillir, et rappelez-les à tous ceux qui prennent les appels."
+      },
+      {
+       "q": "L’offre convient-elle à un cabinet de deux ou trois personnes ?",
+       "a": "Oui, l’offre Accueil / Secrétariat est conçue pour les très petites entreprises de tous métiers."
+      }
+     ]
+    },
+    {
+     "p": "Pour assurer un premier contact soigné même pendant les audiences, étudiez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Law Firms: A Dependable Phone Reception",
+   "description": "Law firm: how to receive calls during hearings and meetings with the Reception / Secretarial offer from HARX Telephony, plus general good practice.",
+   "blocks": [
+    {
+     "p": "For a law firm, the first call is often the first contact with a future client, sometimes in a stressful situation. The impression left on the phone matters as much as the quality of the advice that follows."
+    },
+    {
+     "h2": "The typical phone problem for a law firm"
+    },
+    {
+     "p": "Lawyers spend much of their time away from the office, in court, in meetings or travelling. Meanwhile calls keep coming, and small firms do not always have a secretary present at all times. A caller who reaches an empty ring may turn to another firm."
+    },
+    {
+     "ul": [
+      "Hearings and meetings prevent answering for long stretches of the day.",
+      "Callers are often anxious or in a hurry and expect a human, attentive welcome.",
+      "Details about the request, if poorly noted, complicate the lawyer’s work at callback time."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is for very small businesses of every trade, which includes small firms. It relies on remote staff or offshored reception, with a number from your country, incoming and outgoing calls, an answering service and assisting AI. The subscription is monthly, with prepaid minutes and AI."
+    },
+    {
+     "ul": [
+      "Reception handled while the team is in court or in meetings.",
+      "An answering service that keeps a record of requests received outside presence hours.",
+      "Outgoing calls with a number from your country to call back clients and correspondents."
+     ]
+    },
+    {
+     "h2": "General good practice for firm reception"
+    },
+    {
+     "ul": [
+      "Define a reception outline: caller’s name, contact details, general subject of the request, any urgency.",
+      "Remind everyone who handles reception that professional secrecy demands discretion, including by phone.",
+      "Avoid collecting needless case details by phone: the lawyer will ask for them directly.",
+      "Never give legal advice at reception: directing the caller to the right person is enough.",
+      "Announce a realistic callback time and keep to it."
+     ]
+    },
+    {
+     "p": "Good reception promises no legal result: it reflects the firm’s seriousness and prepares the lawyer’s work."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can offshored reception answer legal questions?",
+       "a": "No. Reception collects the request and directs it; any legal advice is for the lawyer."
+      },
+      {
+       "q": "How can the confidentiality of exchanges be protected?",
+       "a": "Set strict instructions about what information to collect and what not to collect, and remind everyone who takes calls."
+      },
+      {
+       "q": "Is the offer suitable for a firm of two or three people?",
+       "a": "Yes, the Reception / Secretarial offer is designed for very small businesses of every trade."
+      }
+     ]
+    },
+    {
+     "p": "To ensure a careful first contact even during hearings, look into the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Despachos de abogados: una recepción telefónica impecable",
+   "description": "Despacho de abogados: cómo atender llamadas durante vistas y reuniones con la oferta Recepción / Secretaría de HARX Telefonía y buenas prácticas generales.",
+   "blocks": [
+    {
+     "p": "Para un despacho de abogados, la primera llamada suele ser el primer contacto con un futuro cliente, a veces en una situación de estrés. La impresión que se deja por teléfono cuenta tanto como la calidad del consejo que vendrá después."
+    },
+    {
+     "h2": "El problema telefónico típico de un despacho de abogados"
+    },
+    {
+     "p": "Los abogados pasan buena parte del tiempo fuera del despacho, en vistas, reuniones o desplazamientos. Mientras tanto las llamadas siguen llegando, y las estructuras pequeñas no siempre tienen una secretaria presente en todo momento. Quien llama y solo oye un timbre puede acudir a otro despacho."
+    },
+    {
+     "ul": [
+      "Las vistas y reuniones impiden contestar durante largos tramos del día.",
+      "Quienes llaman suelen estar inquietos o con prisa y esperan una acogida humana y atenta.",
+      "Los datos de la consulta, si se anotan mal, complican el trabajo del abogado al devolver la llamada."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, lo que incluye despachos pequeños. Se basa en personal a distancia o recepción deslocalizada, con un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. La suscripción es mensual, con minutos e IA prepagados."
+    },
+    {
+     "ul": [
+      "Una recepción atendida mientras el equipo está en vistas o reuniones.",
+      "Un contestador que conserva constancia de las peticiones recibidas fuera del horario de presencia.",
+      "Llamadas salientes con un número de su país para devolver llamadas a clientes y corresponsales."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para la recepción de un despacho"
+    },
+    {
+     "ul": [
+      "Defina un guion de recepción: nombre de quien llama, datos de contacto, asunto general y posible urgencia.",
+      "Recuerde a quien atienda que el secreto profesional exige discreción, también por teléfono.",
+      "Evite recoger por teléfono detalles innecesarios del caso: el abogado los pedirá directamente.",
+      "No dé nunca un dictamen jurídico en recepción: basta con orientar hacia la persona adecuada.",
+      "Anuncie un plazo de devolución realista y cúmplalo."
+     ]
+    },
+    {
+     "p": "Una buena recepción no promete ningún resultado jurídico: refleja la seriedad del despacho y prepara el trabajo del abogado."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede la recepción deslocalizada responder cuestiones jurídicas?",
+       "a": "No. La recepción recoge la petición y la orienta; cualquier consejo jurídico corresponde al abogado."
+      },
+      {
+       "q": "¿Cómo proteger la confidencialidad de las conversaciones?",
+       "a": "Fije instrucciones estrictas sobre qué datos recoger y cuáles no, y recuérdelas a todos los que atienden llamadas."
+      },
+      {
+       "q": "¿Sirve la oferta para un despacho de dos o tres personas?",
+       "a": "Sí, la oferta Recepción / Secretaría está concebida para microempresas de cualquier oficio."
+      }
+     ]
+    },
+    {
+     "p": "Para asegurar un primer contacto cuidado incluso durante las vistas, estudie la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "مكاتب المحاماة: استقبال هاتفي موثوق في كل الأوقات",
+   "description": "مكتب المحاماة: كيف تستقبلون المكالمات أثناء الجلسات والاجتماعات بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie مع ممارسات عامة جيدة.",
+   "blocks": [
+    {
+     "p": "بالنسبة لمكتب المحاماة، غالبًا ما تكون المكالمة الأولى هي أول اتصال بموكّل مستقبلي، وأحيانًا في ظرف مرهِق. والانطباع الذي يتركه الهاتف يوازي في أهميته جودة الاستشارة التي ستأتي بعده."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة لمكتب المحاماة"
+    },
+    {
+     "p": "يقضي المحامون جزءًا كبيرًا من وقتهم خارج المكتب، في الجلسات أو الاجتماعات أو التنقلات. وفي الأثناء تستمر المكالمات في الوصول، والمكاتب الصغيرة لا تملك دائمًا سكرتيرًا حاضرًا باستمرار. ومن لا يسمع سوى رنين فارغ قد يتجه إلى مكتب آخر."
+    },
+    {
+     "ul": [
+      "الجلسات والاجتماعات تمنع الرد خلال فترات طويلة من اليوم.",
+      "كثيرًا ما يكون المتصلون قلقين أو مستعجلين، ويتوقعون استقبالًا إنسانيًا متأنيًا.",
+      "المعلومات عن الطلب، إن دُوّنت بشكل سيئ، تُعقّد عمل المحامي عند معاودة الاتصال."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى المنشآت الصغيرة جدًا من كل المهن، ومنها المكاتب الصغيرة. يعتمد على موظفين عن بُعد أو استقبال مُنقول، مع رقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاء اصطناعي مساعد. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+    },
+    {
+     "ul": [
+      "استقبال يُدار بينما يكون الفريق في الجلسات أو الاجتماعات.",
+      "جهاز رد يحتفظ بأثر الطلبات الواردة خارج ساعات الحضور.",
+      "مكالمات صادرة برقم من بلدكم لمعاودة الاتصال بالموكّلين والمراسلين."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة لاستقبال المكتب"
+    },
+    {
+     "ul": [
+      "حدّدوا إطارًا للاستقبال: اسم المتصل ووسيلة الاتصال به والموضوع العام للطلب ودرجة الاستعجال.",
+      "ذكّروا كل من يتولى الاستقبال بأن السر المهني يقتضي التحفظ، بما في ذلك عبر الهاتف.",
+      "تجنّبوا جمع تفاصيل غير ضرورية عن القضية هاتفيًا، فالمحامي سيطلبها بنفسه.",
+      "لا تقدّموا رأيًا قانونيًا عند الاستقبال أبدًا، فتوجيه المتصل إلى الشخص المناسب يكفي.",
+      "أعلنوا مهلة واقعية لمعاودة الاتصال والتزموا بها."
+     ]
+    },
+    {
+     "p": "الاستقبال الجيد لا يَعِد بأي نتيجة قانونية، بل يعكس جدية المكتب ويمهّد لعمل المحامي ويحفظ هيبة المهنة."
+    },
+    {
+     "p": "ومن المفيد أن يجتمع الفريق من حين لآخر لمراجعة نص الاستقبال وتحديثه، فالمتصلون يطرحون أحيانًا أسئلة جديدة تستحق جوابًا جاهزًا يوجّههم دون أن يمسّ جوهر الاستشارة."
+    },
+    {
+     "p": "كما أن لهجة الصوت الهادئة والمصغية تطمئن المتصل المتوتر وتجعل بقية المحادثة أيسر، وهذا أثر لا يُستهان به في مهنة تقوم على الثقة والاحترام."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يستطيع الاستقبال المُنقول الإجابة عن أسئلة قانونية؟",
+       "a": "لا. يقتصر الاستقبال على جمع الطلب وتوجيهه، وأي استشارة قانونية من اختصاص المحامي."
+      },
+      {
+       "q": "كيف نحمي سرية المحادثات؟",
+       "a": "ضعوا تعليمات صارمة بشأن المعلومات الواجب جمعها وتلك التي لا يجوز جمعها، وذكّروا بها كل من يرد على المكالمات."
+      },
+      {
+       "q": "هل يناسب العرض مكتبًا من شخصين أو ثلاثة؟",
+       "a": "نعم، فعرض الاستقبال / السكرتارية مصمم للمنشآت الصغيرة جدًا من كل المهن."
+      }
+     ]
+    },
+    {
+     "p": "لضمان اتصال أول متأنٍّ حتى أثناء الجلسات، ادرسوا عرض الاستقبال / السكرتارية من HARX Téléphonie، وقارنوه بحاجات مكتبكم الفعلية قبل أي قرار."
+    }
+   ]
+  }
+ }
+}

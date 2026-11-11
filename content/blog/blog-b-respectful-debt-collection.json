@@ -1,0 +1,140 @@
+{
+  "type": "blog",
+  "slug": "blog-b-respectful-debt-collection",
+  "date": "2026-10-31",
+  "langs": {
+    "fr": {
+      "title": "Recouvrement amiable : une approche respectueuse",
+      "description": "Relancer un impayé sans brusquer : ton, écoute, solutions proposées, traçabilité et respect du cadre légal local pour un recouvrement amiable humain.",
+      "blocks": [
+        {"h2": "Le recouvrement amiable, une conversation avant tout"},
+        {"p": "Le recouvrement amiable désigne les démarches menées pour obtenir le règlement d'une somme due sans passer par une procédure judiciaire. Derrière un impayé, il y a souvent une situation humaine : un oubli, une difficulté passagère, un désaccord sur la facture, parfois un vrai souci financier. Aborder la conversation avec respect est à la fois plus juste et, très souvent, plus efficace."},
+        {"p": "Un client traité avec dignité est plus enclin à coopérer et à rester en relation avec l'entreprise, même si la situation est délicate."},
+        {"h2": "Un cadre légal à connaître"},
+        {"p": "Les pratiques de recouvrement sont strictement encadrées dans de nombreux pays : horaires d'appel, fréquence des relances, informations à fournir, interdiction de harcèlement ou de pression abusive, protection des données. Ces règles diffèrent d'un territoire à l'autre. Avant de lancer une activité de relance, renseignez-vous auprès des sources officielles ou d'un conseil juridique. Ce texte est informatif et ne constitue pas un avis juridique."},
+        {"h2": "Le ton qui fait la différence"},
+        {"ul": [
+          "Se présenter clairement et expliquer le motif de l'appel.",
+          "Vérifier l'identité de la personne avant d'évoquer le dossier, afin de protéger sa confidentialité.",
+          "Éviter tout vocabulaire accusateur ou menaçant.",
+          "Laisser la personne s'exprimer sans l'interrompre.",
+          "Rester calme, même face à l'agacement."
+        ]},
+        {"p": "Le but n'est pas de gagner une dispute mais de trouver une issue réaliste pour les deux parties."},
+        {"h2": "Écouter pour comprendre la situation"},
+        {"p": "Avant de proposer une solution, il faut comprendre. Le client conteste-t-il la facture ? A-t-il une difficulté momentanée ? A-t-il simplement oublié ? La réponse oriente la suite : correction d'une erreur, échéancier adapté, rappel à une autre date."},
+        {"p": "Il est important de rester dans le périmètre de ce que l'agent est autorisé à proposer. Si une demande dépasse ce cadre, mieux vaut la transmettre à la personne compétente que de faire une promesse que l'entreprise ne pourra pas tenir."},
+        {"h2": "Proposer des solutions concrètes"},
+        {"ul": [
+          "Confirmer le montant et la nature de la dette, avec clarté.",
+          "Proposer, lorsque l'entreprise l'autorise, des modalités de règlement adaptées.",
+          "Résumer l'accord à la fin de l'échange.",
+          "Envoyer une confirmation écrite lorsque c'est prévu."
+        ]},
+        {"h2": "Tracer, évaluer, s'améliorer"},
+        {"p": "Chaque contact doit être consigné de manière factuelle : date, interlocuteur, contenu, engagement pris. Cette traçabilité protège le client comme l'entreprise. Elle permet aussi d'évaluer la qualité des échanges, et pas seulement le montant récupéré."},
+        {"p": "Dans le modèle TAAS de HARX.ai, l'entreprise définit le résultat attendu et chaque interaction est évaluée en temps réel ; cette logique encourage à regarder la manière dont un résultat est obtenu. Pour les équipes qui mènent des relances, l'offre Company Full Scope In & Out de HARX Téléphonie couvre notamment le recouvrement parmi ses usages."}
+      ]
+    },
+    "en": {
+      "title": "Amicable Debt Collection: A Respectful Approach",
+      "description": "Following up on an unpaid bill without being heavy-handed: tone, listening, solutions offered, traceability and respect for local law in friendly collection.",
+      "blocks": [
+        {"h2": "Amicable collection is first of all a conversation"},
+        {"p": "Amicable debt collection means the steps taken to obtain payment of a sum owed without going through court proceedings. Behind an unpaid bill there is often a human situation: an oversight, a temporary difficulty, a disagreement about the invoice, sometimes a real financial worry. Approaching the conversation with respect is both fairer and, very often, more effective."},
+        {"p": "A customer treated with dignity is more willing to cooperate and to stay in a relationship with the company, even if the situation is delicate."},
+        {"h2": "A legal framework to know"},
+        {"p": "Collection practices are tightly regulated in many countries: call hours, frequency of reminders, information to provide, bans on harassment or undue pressure, data protection. These rules differ from one territory to another. Before launching a follow-up activity, find out from official sources or legal counsel. This text is informational and is not legal advice."},
+        {"h2": "The tone that makes the difference"},
+        {"ul": [
+          "Introduce yourself clearly and explain the reason for the call.",
+          "Verify the person's identity before mentioning the file, to protect their confidentiality.",
+          "Avoid any accusing or threatening vocabulary.",
+          "Let the person speak without interrupting.",
+          "Stay calm, even in the face of irritation."
+        ]},
+        {"p": "The aim is not to win an argument but to find a realistic outcome for both parties."},
+        {"h2": "Listening to understand the situation"},
+        {"p": "Before proposing a solution, you need to understand. Is the customer disputing the invoice? Do they have a temporary difficulty? Did they simply forget? The answer guides what follows: correcting an error, an adapted schedule, a reminder at another date."},
+        {"p": "It is important to stay within what the agent is authorised to offer. If a request goes beyond that, it is better to pass it to the competent person than to make a promise the company cannot keep."},
+        {"h2": "Offering concrete solutions"},
+        {"ul": [
+          "Confirm the amount and nature of the debt clearly.",
+          "Offer, where the company allows it, suitable payment arrangements.",
+          "Summarise the agreement at the end of the exchange.",
+          "Send written confirmation where provided for."
+        ]},
+        {"h2": "Tracing, assessing, improving"},
+        {"p": "Every contact must be recorded factually: date, contact person, content, commitment made. This traceability protects both the customer and the company. It also lets you assess the quality of exchanges, and not only the amount recovered."},
+        {"p": "In the TAAS model from HARX.ai, the company defines the expected result and each interaction is assessed in real time; this logic encourages looking at how a result is obtained. For teams running follow-ups, the Company Full Scope In & Out offer from HARX Telephony lists collection among its uses."}
+      ]
+    },
+    "es": {
+      "title": "Recobro amistoso: un enfoque respetuoso",
+      "description": "Reclamar un impago sin brusquedad: tono, escucha, soluciones propuestas, trazabilidad y respeto del marco legal local en un recobro amistoso humano.",
+      "blocks": [
+        {"h2": "El recobro amistoso es ante todo una conversación"},
+        {"p": "El recobro amistoso designa las gestiones realizadas para obtener el pago de una suma debida sin recurrir a un procedimiento judicial. Detrás de un impago suele haber una situación humana: un olvido, una dificultad pasajera, un desacuerdo con la factura, a veces una preocupación económica real. Abordar la conversación con respeto es más justo y, muy a menudo, más eficaz."},
+        {"p": "Un cliente tratado con dignidad está más dispuesto a cooperar y a seguir en relación con la empresa, incluso si la situación es delicada."},
+        {"h2": "Un marco legal que conocer"},
+        {"p": "Las prácticas de recobro están estrictamente reguladas en muchos países: horarios de llamada, frecuencia de los recordatorios, información que debe facilitarse, prohibición del acoso o de la presión abusiva, protección de datos. Estas normas difieren de un territorio a otro. Antes de iniciar una actividad de reclamación, infórmese en fuentes oficiales o con asesoría jurídica. Este texto es informativo y no constituye asesoramiento legal."},
+        {"h2": "El tono que marca la diferencia"},
+        {"ul": [
+          "Presentarse con claridad y explicar el motivo de la llamada.",
+          "Verificar la identidad de la persona antes de mencionar el expediente, para proteger su confidencialidad.",
+          "Evitar todo vocabulario acusador o amenazante.",
+          "Dejar que la persona se exprese sin interrumpirla.",
+          "Mantener la calma, incluso ante el enfado."
+        ]},
+        {"p": "El objetivo no es ganar una discusión, sino encontrar una salida realista para ambas partes."},
+        {"h2": "Escuchar para entender la situación"},
+        {"p": "Antes de proponer una solución hay que comprender. ¿Discute el cliente la factura? ¿Tiene una dificultad momentánea? ¿Simplemente se olvidó? La respuesta orienta lo que sigue: corrección de un error, calendario adaptado, recordatorio en otra fecha."},
+        {"p": "Es importante mantenerse dentro de lo que el agente está autorizado a ofrecer. Si una petición excede ese marco, es preferible trasladarla a la persona competente que hacer una promesa que la empresa no podrá cumplir."},
+        {"h2": "Proponer soluciones concretas"},
+        {"ul": [
+          "Confirmar con claridad el importe y la naturaleza de la deuda.",
+          "Proponer, cuando la empresa lo autorice, modalidades de pago adaptadas.",
+          "Resumir el acuerdo al final del intercambio.",
+          "Enviar una confirmación escrita cuando esté previsto."
+        ]},
+        {"h2": "Registrar, evaluar y mejorar"},
+        {"p": "Cada contacto debe consignarse de forma objetiva: fecha, interlocutor, contenido, compromiso asumido. Esta trazabilidad protege tanto al cliente como a la empresa. También permite evaluar la calidad de los intercambios, y no solo el importe recuperado."},
+        {"p": "En el modelo TAAS de HARX.ai, la empresa define el resultado esperado y cada interacción se evalúa en tiempo real; esta lógica invita a mirar cómo se obtiene un resultado. Para los equipos que realizan reclamaciones, la oferta Company Full Scope In & Out de HARX Telefonía menciona el recobro entre sus usos."}
+      ]
+    },
+    "ar": {
+      "title": "التحصيل الودي للديون: نهج يحترم الطرف الآخر",
+      "description": "متابعة المبالغ المتأخرة دون فظاظة: النبرة والإصغاء والحلول المقترحة والتوثيق واحترام الإطار القانوني المحلي في تحصيل ودي إنساني.",
+      "blocks": [
+        {"h2": "التحصيل الودي حوار قبل كل شيء"},
+        {"p": "يقصد بالتحصيل الودي الإجراءات المتخذة للحصول على سداد مبلغ مستحق دون اللجوء إلى القضاء. وخلف تأخر السداد غالبًا وضع إنساني: نسيان، أو صعوبة عابرة، أو خلاف حول الفاتورة، وأحيانًا هَمّ مالي حقيقي. والتعامل مع الحوار باحترام أعدل وهو في الغالب أكثر فاعلية."},
+        {"p": "والعميل الذي يُعامل بكرامة أكثر استعدادًا للتعاون والبقاء على علاقة بالشركة، حتى لو كان الوضع حساسًا."},
+        {"h2": "إطار قانوني ينبغي معرفته"},
+        {"p": "تخضع ممارسات التحصيل لضوابط صارمة في كثير من البلدان: ساعات الاتصال، وتكرار التذكيرات، والمعلومات الواجب تقديمها، ومنع المضايقة أو الضغط المفرط، وحماية البيانات. وتختلف هذه القواعد من إقليم إلى آخر. وقبل بدء نشاط متابعة، استعلم من مصادر رسمية أو من مستشار قانوني. وهذا النص للإعلام وليس رأيًا قانونيًا."},
+        {"h2": "النبرة التي تصنع الفرق"},
+        {"ul": [
+          "التعريف بالنفس بوضوح وشرح سبب الاتصال.",
+          "التحقق من هوية الشخص قبل ذكر الملف حفاظًا على سريته.",
+          "تجنب أي ألفاظ اتهام أو تهديد.",
+          "ترك الشخص يتحدث دون مقاطعة.",
+          "الحفاظ على الهدوء حتى عند انزعاج الطرف الآخر."
+        ]},
+        {"p": "والهدف ليس الفوز في جدال، بل إيجاد مخرج واقعي للطرفين."},
+        {"h2": "الإصغاء لفهم الوضع"},
+        {"p": "قبل اقتراح حل لا بد من الفهم. هل يعترض العميل على الفاتورة؟ أم يمر بصعوبة مؤقتة؟ أم نسي ببساطة؟ فالجواب يوجّه ما يلي: تصحيح خطأ، أو جدول مناسب، أو تذكير في موعد آخر."},
+        {"p": "ومن المهم البقاء ضمن ما يُسمح للوكيل بعرضه. فإذا تجاوز الطلب ذلك فالأفضل تحويله إلى المختص بدل قطع وعد لا تستطيع الشركة الوفاء به."},
+        {"h2": "اقتراح حلول ملموسة"},
+        {"ul": [
+          "تأكيد المبلغ وطبيعة الدين بوضوح.",
+          "اقتراح طرق سداد مناسبة حين تسمح الشركة بذلك.",
+          "تلخيص الاتفاق في ختام المحادثة.",
+          "إرسال تأكيد مكتوب إن كان ذلك مقررًا."
+        ]},
+        {"h2": "التوثيق والتقييم والتحسين"},
+        {"p": "يجب تسجيل كل اتصال بصورة موضوعية: التاريخ والمحاور والمضمون والالتزام المتخذ. وهذا التوثيق يحمي العميل والشركة معًا. كما يتيح تقييم جودة المحادثات وليس المبلغ المحصَّل وحده."},
+        {"p": "وفي نموذج TAAS من HARX.ai تحدد الشركة النتيجة المتوقعة ويُقيَّم كل تفاعل في الوقت الفعلي، وهذا المنطق يشجع على النظر في كيفية الوصول إلى النتيجة. وللفرق التي تتولى المتابعات، يذكر عرض Company Full Scope In & Out من HARX للاتصالات الهاتفية التحصيل ضمن استخداماته."},
+        {"p": "وفي كل الأحوال، درّب الفريق على التعامل مع المواقف الصعبة، كالعميل الغاضب أو الحزين، وعلى معرفة اللحظة التي ينبغي فيها إنهاء المكالمة بهدوء وإعادة المحاولة لاحقًا، فاحترام الإنسان لا يتعارض مع الجدية في المتابعة."}
+      ]
+    }
+  }
+}
