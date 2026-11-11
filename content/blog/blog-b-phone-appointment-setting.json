@@ -1,144 +1,307 @@
 {
-  "type": "blog",
-  "slug": "blog-b-phone-appointment-setting",
-  "date": "2026-11-02",
-  "langs": {
-    "fr": {
-      "title": "Prise de rendez-vous par téléphone : méthode simple",
-      "description": "Comment prendre des rendez-vous par téléphone de façon claire et efficace : préparation, structure de l'appel, gestion des objections et confirmation.",
-      "blocks": [
-        {"h2": "Un objectif simple, une conversation courte"},
-        {"p": "La prise de rendez-vous par téléphone a un objectif précis : convenir d'un moment pour une rencontre, un appel plus approfondi ou une démonstration. Il ne s'agit pas de tout vendre pendant l'appel, mais de donner une raison valable de réserver du temps. Cette simplicité est un atout : elle permet de rester bref et respectueux du temps de l'interlocuteur."},
-        {"p": "Le résultat attendu est lui aussi simple à décrire : un rendez-vous fixé, confirmé et noté. C'est un bon exemple de mission dont l'issue est facile à vérifier."},
-        {"h2": "Préparer avant d'appeler"},
-        {"ul": [
-          "Connaître l'objectif du rendez-vous et ce qu'il apporte à la personne appelée.",
-          "Disposer des disponibilités de la personne qui recevra le rendez-vous.",
-          "Préparer quelques phrases naturelles plutôt qu'un texte récité.",
-          "Savoir à qui transmettre les demandes qui sortent du cadre.",
-          "Vérifier que l'appel est autorisé selon les règles locales de démarchage."
-        ]},
-        {"p": "Le cadre juridique du démarchage varie selon les pays ; renseignez-vous auprès de sources officielles ou d'un conseiller avant de lancer des appels sortants."},
-        {"h2": "Structurer l'appel"},
-        {"p": "Un appel efficace suit un fil logique, que l'on adapte selon la personne."},
-        {"ul": [
-          "Se présenter clairement et indiquer le motif de l'appel.",
-          "Demander si le moment est opportun, sinon proposer de rappeler.",
-          "Expliquer en une ou deux phrases pourquoi un rendez-vous peut être utile.",
-          "Proposer deux créneaux plutôt qu'une question ouverte.",
-          "Répéter la date, l'heure et le lieu ou le canal convenus."
-        ]},
-        {"h2": "Répondre aux objections avec calme"},
-        {"p": "Les réponses « je n'ai pas le temps », « envoyez-moi un e-mail » ou « ça ne m'intéresse pas » sont normales. Elles ne sont pas des attaques. Écoutez, reformulez, et, si la personne confirme son refus, remerciez-la et terminez poliment. Insister au-delà ne crée pas de rendez-vous de qualité et abîme l'image de l'entreprise."},
-        {"p": "Lorsque la personne hésite, proposer une alternative légère peut aider : un échange plus court, l'envoi d'un document ou un nouvel appel à un autre moment."},
-        {"h2": "Confirmer et rappeler"},
-        {"p": "Un rendez-vous n'est vraiment acquis que s'il est confirmé. Envoyer un message récapitulatif et, si c'est prévu, un rappel avant la date réduit les oublis. Notez aussi les informations utiles pour la personne qui recevra le contact : besoin exprimé, contexte, préférences."},
-        {"h2": "Un outil pour les accueils et les cabinets"},
-        {"p": "Pour les petites structures, l'offre Accueil / Secrétariat de HARX Téléphonie est destinée aux TPE de tous métiers, aux cabinets médicaux et aux courtiers d'assurance, avec un accueil délocalisé ou du personnel à distance. Elle peut servir à répondre aux appels et à organiser les prises de contact. Pour les missions de rendez-vous au résultat, le modèle TAAS de HARX.ai montre comment un résultat clair peut être évalué et approuvé."}
-      ]
+ "type": "blog",
+ "slug": "blog-b-phone-appointment-setting",
+ "date": "2026-11-02",
+ "langs": {
+  "fr": {
+   "title": "Prise de rendez-vous par téléphone : méthode simple",
+   "description": "Comment prendre des rendez-vous par téléphone de façon claire et efficace : préparation, structure de l'appel, gestion des objections et confirmation.",
+   "blocks": [
+    {
+     "h2": "Un objectif simple, une conversation courte"
     },
-    "en": {
-      "title": "Booking Appointments by Phone: A Simple Method",
-      "description": "How to book appointments by phone clearly and effectively: preparation, call structure, handling objections and confirmation of the booking.",
-      "blocks": [
-        {"h2": "A simple goal, a short conversation"},
-        {"p": "Booking appointments by phone has a precise goal: agreeing a time for a meeting, a deeper call or a demonstration. The aim is not to sell everything during the call, but to give a valid reason to set time aside. This simplicity is an asset: it lets you stay brief and respectful of the other person's time."},
-        {"p": "The expected result is also simple to describe: an appointment set, confirmed and noted. It is a good example of a task whose outcome is easy to verify."},
-        {"h2": "Preparing before you call"},
-        {"ul": [
-          "Know the purpose of the appointment and what it brings to the person called.",
-          "Have the availability of the person who will receive the appointment.",
-          "Prepare a few natural phrases rather than a recited text.",
-          "Know whom to pass requests to that fall outside the scope.",
-          "Check that the call is allowed under local canvassing rules."
-        ]},
-        {"p": "The legal framework for canvassing varies from country to country; seek information from official sources or an adviser before launching outbound calls."},
-        {"h2": "Structuring the call"},
-        {"p": "An effective call follows a logical thread, which you adapt to the person."},
-        {"ul": [
-          "Introduce yourself clearly and state the reason for the call.",
-          "Ask whether the moment is convenient, otherwise offer to call back.",
-          "Explain in one or two sentences why an appointment may be useful.",
-          "Offer two time slots rather than an open question.",
-          "Repeat the agreed date, time and place or channel."
-        ]},
-        {"h2": "Answering objections calmly"},
-        {"p": "Replies such as I have no time, send me an email or I am not interested are normal. They are not attacks. Listen, rephrase and, if the person confirms their refusal, thank them and end politely. Insisting beyond that does not create quality appointments and damages the company's image."},
-        {"p": "When the person hesitates, offering a light alternative can help: a shorter exchange, sending a document or a new call at another time."},
-        {"h2": "Confirming and reminding"},
-        {"p": "An appointment is only really secured if it is confirmed. Sending a summary message and, where planned, a reminder before the date reduces no-shows. Also note information useful to the person who will receive the contact: need expressed, context, preferences."},
-        {"h2": "A tool for receptions and practices"},
-        {"p": "For small organisations, the Reception / Secretarial offer from HARX Telephony is intended for very small businesses of all trades, medical practices and insurance brokers, with outsourced reception or remote staff. It can serve to answer calls and organise contacts. For appointment tasks paid on results, the TAAS model from HARX.ai shows how a clear result can be assessed and approved."}
-      ]
+    {
+     "p": "La prise de rendez-vous par téléphone a un objectif précis : convenir d'un moment pour une rencontre, un appel plus approfondi ou une démonstration. Il ne s'agit pas de tout vendre pendant l'appel, mais de donner une raison valable de réserver du temps. Cette simplicité est un atout : elle permet de rester bref et respectueux du temps de l'interlocuteur."
     },
-    "es": {
-      "title": "Concertar citas por teléfono: un método sencillo",
-      "description": "Cómo concertar citas por teléfono de forma clara y eficaz: preparación, estructura de la llamada, gestión de objeciones y confirmación de la cita.",
-      "blocks": [
-        {"h2": "Un objetivo sencillo, una conversación corta"},
-        {"p": "Concertar citas por teléfono tiene un objetivo preciso: acordar un momento para una reunión, una llamada más a fondo o una demostración. No se trata de venderlo todo durante la llamada, sino de dar una razón válida para reservar tiempo. Esta sencillez es una ventaja: permite ser breve y respetuoso con el tiempo del interlocutor."},
-        {"p": "El resultado esperado también es fácil de describir: una cita fijada, confirmada y anotada. Es un buen ejemplo de tarea cuyo desenlace resulta fácil de verificar."},
-        {"h2": "Preparar antes de llamar"},
-        {"ul": [
-          "Conocer el objetivo de la cita y lo que aporta a la persona llamada.",
-          "Disponer de la disponibilidad de quien recibirá la cita.",
-          "Preparar unas frases naturales en lugar de un texto recitado.",
-          "Saber a quién trasladar las peticiones que se salgan del alcance.",
-          "Comprobar que la llamada está permitida según las normas locales de prospección."
-        ]},
-        {"p": "El marco jurídico de la prospección varía según el país; infórmese en fuentes oficiales o con un asesor antes de lanzar llamadas salientes."},
-        {"h2": "Estructurar la llamada"},
-        {"p": "Una llamada eficaz sigue un hilo lógico que se adapta a cada persona."},
-        {"ul": [
-          "Presentarse con claridad e indicar el motivo de la llamada.",
-          "Preguntar si es buen momento; si no, ofrecer volver a llamar.",
-          "Explicar en una o dos frases por qué puede ser útil una cita.",
-          "Proponer dos franjas horarias en lugar de una pregunta abierta.",
-          "Repetir la fecha, la hora y el lugar o el canal acordados."
-        ]},
-        {"h2": "Responder a las objeciones con calma"},
-        {"p": "Respuestas como no tengo tiempo, envíeme un correo o no me interesa son normales. No son ataques. Escuche, reformule y, si la persona confirma su negativa, agradézcale y termine con cortesía. Insistir más allá no genera citas de calidad y daña la imagen de la empresa."},
-        {"p": "Cuando la persona duda, proponer una alternativa ligera puede ayudar: un intercambio más corto, el envío de un documento o una nueva llamada en otro momento."},
-        {"h2": "Confirmar y recordar"},
-        {"p": "Una cita solo está realmente asegurada si se confirma. Enviar un mensaje resumen y, si está previsto, un recordatorio antes de la fecha reduce los olvidos. Anote también la información útil para quien recibirá el contacto: necesidad expresada, contexto, preferencias."},
-        {"h2": "Una herramienta para recepciones y consultas"},
-        {"p": "Para las estructuras pequeñas, la oferta Recepción / Secretaría de HARX Telefonía está destinada a microempresas de todos los oficios, consultas médicas y corredores de seguros, con recepción deslocalizada o personal a distancia. Puede servir para atender llamadas y organizar contactos. Para las tareas de citas pagadas por resultado, el modelo TAAS de HARX.ai muestra cómo un resultado claro puede evaluarse y aprobarse."}
-      ]
+    {
+     "p": "Le résultat attendu est lui aussi simple à décrire : un rendez-vous fixé, confirmé et noté. C'est un bon exemple de mission dont l'issue est facile à vérifier."
     },
-    "ar": {
-      "title": "حجز المواعيد عبر الهاتف: طريقة بسيطة وفعّالة",
-      "description": "كيف تحجز المواعيد عبر الهاتف بوضوح وفاعلية: التحضير وهيكلة المكالمة والتعامل مع الاعتراضات وتأكيد الحجز لتفادي الغياب والنسيان.",
-      "blocks": [
-        {"h2": "هدف بسيط ومحادثة قصيرة"},
-        {"p": "لحجز المواعيد عبر الهاتف هدف محدد: الاتفاق على وقت للقاء أو لمكالمة أعمق أو لعرض توضيحي. وليس المقصود بيع كل شيء أثناء المكالمة، بل إعطاء سبب وجيه لتخصيص وقت. وهذه البساطة ميزة، فهي تتيح الإيجاز واحترام وقت المحاوِر."},
-        {"p": "والنتيجة المتوقعة بدورها سهلة الوصف: موعد حُدد وتأكد ودُوّن. وهي مثال جيد على مهمة يسهل التحقق من نتيجتها."},
-        {"h2": "التحضير قبل الاتصال"},
-        {"ul": [
-          "معرفة هدف الموعد وما يقدمه للشخص المتصل به.",
-          "الاطلاع على أوقات توافر من سيستقبل الموعد.",
-          "تحضير عبارات طبيعية بدل نص محفوظ.",
-          "معرفة الجهة التي تُحال إليها الطلبات الخارجة عن النطاق.",
-          "التأكد من أن الاتصال مسموح وفق القواعد المحلية للتسويق المباشر."
-        ]},
-        {"p": "ويختلف الإطار القانوني للتسويق المباشر من بلد إلى آخر، فاستعلم من مصادر رسمية أو من مستشار قبل إطلاق مكالمات صادرة."},
-        {"h2": "هيكلة المكالمة"},
-        {"p": "تتبع المكالمة الفعّالة خيطًا منطقيًا يُكيَّف بحسب الشخص."},
-        {"ul": [
-          "التعريف بالنفس بوضوح وذكر سبب الاتصال.",
-          "السؤال عمّا إذا كان الوقت مناسبًا، وإلا عرض معاودة الاتصال.",
-          "شرح سبب فائدة الموعد في جملة أو جملتين.",
-          "اقتراح موعدين محتملين بدل سؤال مفتوح.",
-          "ترديد التاريخ والساعة والمكان أو القناة المتفق عليها."
-        ]},
-        {"h2": "الردّ على الاعتراضات بهدوء"},
-        {"p": "عبارات مثل «ليس لدي وقت» أو «أرسل لي بريدًا إلكترونيًا» أو «لا يهمني الأمر» عبارات عادية وليست هجومًا. فاستمع وأعد الصياغة، وإذا أكد الشخص رفضه فاشكره وأنهِ المكالمة بلباقة. والإلحاح بعد ذلك لا يصنع مواعيد جيدة ويضر بصورة الشركة."},
-        {"p": "وحين يتردد الشخص قد يفيد اقتراح بديل خفيف: محادثة أقصر، أو إرسال وثيقة، أو مكالمة جديدة في وقت آخر."},
-        {"h2": "التأكيد والتذكير"},
-        {"p": "لا يكون الموعد مضمونًا فعلًا إلا إذا تأكد. ويقلل إرسال رسالة تلخيصية، وتذكير قبل الموعد إن كان مقررًا، من حالات النسيان. ودوّن كذلك المعلومات المفيدة لمن سيستقبل الاتصال: الحاجة المعبَّر عنها والسياق والتفضيلات."},
-        {"h2": "أداة للاستقبال والعيادات"},
-        {"p": "وللمؤسسات الصغيرة، فإن عرض الاستقبال / السكرتارية من HARX للاتصالات الهاتفية موجّه للمنشآت الصغيرة جدًا في مختلف المهن، والعيادات الطبية، ووسطاء التأمين، مع استقبال منقول أو موظفين عن بُعد. ويمكن أن يخدم الرد على المكالمات وتنظيم الاتصالات. وبالنسبة إلى مهام المواعيد المدفوعة بحسب النتيجة، يوضح نموذج TAAS من HARX.ai كيف يمكن تقييم نتيجة واضحة واعتمادها."},
-        {"p": "وتذكّر أن جودة الموعد أهم من عدده، فموعد واحد مع شخص مهتم فعلًا يساوي أكثر من عدة مواعيد انتُزعت بالإلحاح ثم أُلغيت، لذلك اجعل هدفك أن يغادر الشخص المكالمة وهو يعرف بالضبط ما ينتظره."}
-      ]
+    {
+     "h2": "Préparer avant d'appeler"
+    },
+    {
+     "ul": [
+      "Connaître l'objectif du rendez-vous et ce qu'il apporte à la personne appelée.",
+      "Disposer des disponibilités de la personne qui recevra le rendez-vous.",
+      "Préparer quelques phrases naturelles plutôt qu'un texte récité.",
+      "Savoir à qui transmettre les demandes qui sortent du cadre.",
+      "Vérifier que l'appel est autorisé selon les règles locales de démarchage."
+     ]
+    },
+    {
+     "p": "Le cadre juridique du démarchage varie selon les pays ; renseignez-vous auprès de sources officielles ou d'un conseiller avant de lancer des appels sortants."
+    },
+    {
+     "h2": "Structurer l'appel"
+    },
+    {
+     "p": "Un appel efficace suit un fil logique, que l'on adapte selon la personne."
+    },
+    {
+     "ul": [
+      "Se présenter clairement et indiquer le motif de l'appel.",
+      "Demander si le moment est opportun, sinon proposer de rappeler.",
+      "Expliquer en une ou deux phrases pourquoi un rendez-vous peut être utile.",
+      "Proposer deux créneaux plutôt qu'une question ouverte.",
+      "Répéter la date, l'heure et le lieu ou le canal convenus."
+     ]
+    },
+    {
+     "h2": "Répondre aux objections avec calme"
+    },
+    {
+     "p": "Les réponses « je n'ai pas le temps », « envoyez-moi un e-mail » ou « ça ne m'intéresse pas » sont normales. Elles ne sont pas des attaques. Écoutez, reformulez, et, si la personne confirme son refus, remerciez-la et terminez poliment. Insister au-delà ne crée pas de rendez-vous de qualité et abîme l'image de l'entreprise."
+    },
+    {
+     "p": "Lorsque la personne hésite, proposer une alternative légère peut aider : un échange plus court, l'envoi d'un document ou un nouvel appel à un autre moment."
+    },
+    {
+     "h2": "Confirmer et rappeler"
+    },
+    {
+     "p": "Un rendez-vous n'est vraiment acquis que s'il est confirmé. Envoyer un message récapitulatif et, si c'est prévu, un rappel avant la date réduit les oublis. Notez aussi les informations utiles pour la personne qui recevra le contact : besoin exprimé, contexte, préférences."
+    },
+    {
+     "h2": "Un outil pour les accueils et les cabinets"
+    },
+    {
+     "h2": "Mesurer la qualité des rendez-vous, pas seulement leur nombre"
+    },
+    {
+     "p": "Un rendez-vous obtenu à tout prix mais jamais honoré n'a aucune valeur. Suivez aussi la part de rendez-vous effectivement tenus et le retour de ceux qui les ont reçus. Cela permet de corriger la façon de présenter l'intérêt de la rencontre et d'éviter de pousser des personnes qui ne sont pas réellement concernées."
+    },
+    {
+     "p": "Pour les petites structures, l'offre Accueil / Secrétariat de HARX Téléphonie est destinée aux TPE de tous métiers, aux cabinets médicaux et aux courtiers d'assurance, avec un accueil délocalisé ou du personnel à distance. Elle peut servir à répondre aux appels et à organiser les prises de contact. Pour les missions de rendez-vous au résultat, le modèle TAAS de HARX.ai montre comment un résultat clair peut être évalué et approuvé."
     }
+   ]
+  },
+  "en": {
+   "title": "Booking Appointments by Phone: A Simple Method",
+   "description": "How to book appointments by phone clearly and effectively: preparation, call structure, handling objections and confirmation of the booking.",
+   "blocks": [
+    {
+     "h2": "A simple goal, a short conversation"
+    },
+    {
+     "p": "Booking appointments by phone has a precise goal: agreeing a time for a meeting, a deeper call or a demonstration. The aim is not to sell everything during the call, but to give a valid reason to set time aside. This simplicity is an asset: it lets you stay brief and respectful of the other person's time."
+    },
+    {
+     "p": "The expected result is also simple to describe: an appointment set, confirmed and noted. It is a good example of a task whose outcome is easy to verify."
+    },
+    {
+     "h2": "Preparing before you call"
+    },
+    {
+     "ul": [
+      "Know the purpose of the appointment and what it brings to the person called.",
+      "Have the availability of the person who will receive the appointment.",
+      "Prepare a few natural phrases rather than a recited text.",
+      "Know whom to pass requests to that fall outside the scope.",
+      "Check that the call is allowed under local canvassing rules."
+     ]
+    },
+    {
+     "p": "The legal framework for canvassing varies from country to country; seek information from official sources or an adviser before launching outbound calls."
+    },
+    {
+     "h2": "Structuring the call"
+    },
+    {
+     "p": "An effective call follows a logical thread, which you adapt to the person."
+    },
+    {
+     "ul": [
+      "Introduce yourself clearly and state the reason for the call.",
+      "Ask whether the moment is convenient, otherwise offer to call back.",
+      "Explain in one or two sentences why an appointment may be useful.",
+      "Offer two time slots rather than an open question.",
+      "Repeat the agreed date, time and place or channel."
+     ]
+    },
+    {
+     "h2": "Answering objections calmly"
+    },
+    {
+     "p": "Replies such as I have no time, send me an email or I am not interested are normal. They are not attacks. Listen, rephrase and, if the person confirms their refusal, thank them and end politely. Insisting beyond that does not create quality appointments and damages the company's image."
+    },
+    {
+     "p": "When the person hesitates, offering a light alternative can help: a shorter exchange, sending a document or a new call at another time."
+    },
+    {
+     "h2": "Confirming and reminding"
+    },
+    {
+     "p": "An appointment is only really secured if it is confirmed. Sending a summary message and, where planned, a reminder before the date reduces no-shows. Also note information useful to the person who will receive the contact: need expressed, context, preferences."
+    },
+    {
+     "h2": "A tool for receptions and practices"
+    },
+    {
+     "h2": "Measuring the quality of appointments, not just their number"
+    },
+    {
+     "p": "An appointment obtained at any price but never honoured has no value. Also track the share of appointments actually held and the feedback from those who received them. This lets you correct how the interest of the meeting is presented and avoid pushing people who are not really concerned."
+    },
+    {
+     "p": "For small organisations, the Reception / Secretarial offer from HARX Telephony is intended for very small businesses of all trades, medical practices and insurance brokers, with outsourced reception or remote staff. It can serve to answer calls and organise contacts. For appointment tasks paid on results, the TAAS model from HARX.ai shows how a clear result can be assessed and approved."
+    }
+   ]
+  },
+  "es": {
+   "title": "Concertar citas por teléfono: un método sencillo",
+   "description": "Cómo concertar citas por teléfono de forma clara y eficaz: preparación, estructura de la llamada, gestión de objeciones y confirmación de la cita.",
+   "blocks": [
+    {
+     "h2": "Un objetivo sencillo, una conversación corta"
+    },
+    {
+     "p": "Concertar citas por teléfono tiene un objetivo preciso: acordar un momento para una reunión, una llamada más a fondo o una demostración. No se trata de venderlo todo durante la llamada, sino de dar una razón válida para reservar tiempo. Esta sencillez es una ventaja: permite ser breve y respetuoso con el tiempo del interlocutor."
+    },
+    {
+     "p": "El resultado esperado también es fácil de describir: una cita fijada, confirmada y anotada. Es un buen ejemplo de tarea cuyo desenlace resulta fácil de verificar."
+    },
+    {
+     "h2": "Preparar antes de llamar"
+    },
+    {
+     "ul": [
+      "Conocer el objetivo de la cita y lo que aporta a la persona llamada.",
+      "Disponer de la disponibilidad de quien recibirá la cita.",
+      "Preparar unas frases naturales en lugar de un texto recitado.",
+      "Saber a quién trasladar las peticiones que se salgan del alcance.",
+      "Comprobar que la llamada está permitida según las normas locales de prospección."
+     ]
+    },
+    {
+     "p": "El marco jurídico de la prospección varía según el país; infórmese en fuentes oficiales o con un asesor antes de lanzar llamadas salientes."
+    },
+    {
+     "h2": "Estructurar la llamada"
+    },
+    {
+     "p": "Una llamada eficaz sigue un hilo lógico que se adapta a cada persona."
+    },
+    {
+     "ul": [
+      "Presentarse con claridad e indicar el motivo de la llamada.",
+      "Preguntar si es buen momento; si no, ofrecer volver a llamar.",
+      "Explicar en una o dos frases por qué puede ser útil una cita.",
+      "Proponer dos franjas horarias en lugar de una pregunta abierta.",
+      "Repetir la fecha, la hora y el lugar o el canal acordados."
+     ]
+    },
+    {
+     "h2": "Responder a las objeciones con calma"
+    },
+    {
+     "p": "Respuestas como no tengo tiempo, envíeme un correo o no me interesa son normales. No son ataques. Escuche, reformule y, si la persona confirma su negativa, agradézcale y termine con cortesía. Insistir más allá no genera citas de calidad y daña la imagen de la empresa."
+    },
+    {
+     "p": "Cuando la persona duda, proponer una alternativa ligera puede ayudar: un intercambio más corto, el envío de un documento o una nueva llamada en otro momento."
+    },
+    {
+     "h2": "Confirmar y recordar"
+    },
+    {
+     "p": "Una cita solo está realmente asegurada si se confirma. Enviar un mensaje resumen y, si está previsto, un recordatorio antes de la fecha reduce los olvidos. Anote también la información útil para quien recibirá el contacto: necesidad expresada, contexto, preferencias."
+    },
+    {
+     "h2": "Una herramienta para recepciones y consultas"
+    },
+    {
+     "h2": "Medir la calidad de las citas, no solo su número"
+    },
+    {
+     "p": "Una cita obtenida a cualquier precio pero nunca cumplida no tiene ningún valor. Siga también la proporción de citas realmente celebradas y los comentarios de quienes las recibieron. Esto permite corregir la forma de presentar el interés del encuentro y evitar presionar a personas que no están realmente interesadas."
+    },
+    {
+     "p": "Para las estructuras pequeñas, la oferta Recepción / Secretaría de HARX Telefonía está destinada a microempresas de todos los oficios, consultas médicas y corredores de seguros, con recepción deslocalizada o personal a distancia. Puede servir para atender llamadas y organizar contactos. Para las tareas de citas pagadas por resultado, el modelo TAAS de HARX.ai muestra cómo un resultado claro puede evaluarse y aprobarse."
+    }
+   ]
+  },
+  "ar": {
+   "title": "حجز المواعيد عبر الهاتف: طريقة بسيطة وفعّالة",
+   "description": "كيف تحجز المواعيد عبر الهاتف بوضوح وفاعلية: التحضير وهيكلة المكالمة والتعامل مع الاعتراضات وتأكيد الحجز لتفادي الغياب والنسيان.",
+   "blocks": [
+    {
+     "h2": "هدف بسيط ومحادثة قصيرة"
+    },
+    {
+     "p": "لحجز المواعيد عبر الهاتف هدف محدد: الاتفاق على وقت للقاء أو لمكالمة أعمق أو لعرض توضيحي. وليس المقصود بيع كل شيء أثناء المكالمة، بل إعطاء سبب وجيه لتخصيص وقت. وهذه البساطة ميزة، فهي تتيح الإيجاز واحترام وقت المحاوِر."
+    },
+    {
+     "p": "والنتيجة المتوقعة بدورها سهلة الوصف: موعد حُدد وتأكد ودُوّن. وهي مثال جيد على مهمة يسهل التحقق من نتيجتها."
+    },
+    {
+     "h2": "التحضير قبل الاتصال"
+    },
+    {
+     "ul": [
+      "معرفة هدف الموعد وما يقدمه للشخص المتصل به.",
+      "الاطلاع على أوقات توافر من سيستقبل الموعد.",
+      "تحضير عبارات طبيعية بدل نص محفوظ.",
+      "معرفة الجهة التي تُحال إليها الطلبات الخارجة عن النطاق.",
+      "التأكد من أن الاتصال مسموح وفق القواعد المحلية للتسويق المباشر."
+     ]
+    },
+    {
+     "p": "ويختلف الإطار القانوني للتسويق المباشر من بلد إلى آخر، فاستعلم من مصادر رسمية أو من مستشار قبل إطلاق مكالمات صادرة."
+    },
+    {
+     "h2": "هيكلة المكالمة"
+    },
+    {
+     "p": "تتبع المكالمة الفعّالة خيطًا منطقيًا يُكيَّف بحسب الشخص."
+    },
+    {
+     "ul": [
+      "التعريف بالنفس بوضوح وذكر سبب الاتصال.",
+      "السؤال عمّا إذا كان الوقت مناسبًا، وإلا عرض معاودة الاتصال.",
+      "شرح سبب فائدة الموعد في جملة أو جملتين.",
+      "اقتراح موعدين محتملين بدل سؤال مفتوح.",
+      "ترديد التاريخ والساعة والمكان أو القناة المتفق عليها."
+     ]
+    },
+    {
+     "h2": "الردّ على الاعتراضات بهدوء"
+    },
+    {
+     "p": "عبارات مثل «ليس لدي وقت» أو «أرسل لي بريدًا إلكترونيًا» أو «لا يهمني الأمر» عبارات عادية وليست هجومًا. فاستمع وأعد الصياغة، وإذا أكد الشخص رفضه فاشكره وأنهِ المكالمة بلباقة. والإلحاح بعد ذلك لا يصنع مواعيد جيدة ويضر بصورة الشركة."
+    },
+    {
+     "p": "وحين يتردد الشخص قد يفيد اقتراح بديل خفيف: محادثة أقصر، أو إرسال وثيقة، أو مكالمة جديدة في وقت آخر."
+    },
+    {
+     "h2": "التأكيد والتذكير"
+    },
+    {
+     "p": "لا يكون الموعد مضمونًا فعلًا إلا إذا تأكد. ويقلل إرسال رسالة تلخيصية، وتذكير قبل الموعد إن كان مقررًا، من حالات النسيان. ودوّن كذلك المعلومات المفيدة لمن سيستقبل الاتصال: الحاجة المعبَّر عنها والسياق والتفضيلات."
+    },
+    {
+     "h2": "أداة للاستقبال والعيادات"
+    },
+    {
+     "p": "وللمؤسسات الصغيرة، فإن عرض الاستقبال / السكرتارية من HARX للاتصالات الهاتفية موجّه للمنشآت الصغيرة جدًا في مختلف المهن، والعيادات الطبية، ووسطاء التأمين، مع استقبال منقول أو موظفين عن بُعد. ويمكن أن يخدم الرد على المكالمات وتنظيم الاتصالات. وبالنسبة إلى مهام المواعيد المدفوعة بحسب النتيجة، يوضح نموذج TAAS من HARX.ai كيف يمكن تقييم نتيجة واضحة واعتمادها."
+    },
+    {
+     "h2": "قياس جودة المواعيد لا عددها فقط"
+    },
+    {
+     "p": "الموعد الذي يُنتزع بأي ثمن ثم لا يُحترم لا قيمة له. فتابع أيضًا نسبة المواعيد التي عُقدت فعلًا وملاحظات من استقبلوها. وهذا يتيح تصحيح طريقة عرض فائدة اللقاء وتجنّب الإلحاح على أشخاص غير معنيين حقًا."
+    },
+    {
+     "p": "ودوّن أسباب الإلغاء أو الغياب كلما أمكن، فقد تكشف أنماطًا مفيدة، كأن تكون الأوقات المقترحة غير مناسبة، أو أن يكون الموعد قد حُدد بسرعة دون شرح كافٍ لغايته."
+    },
+    {
+     "p": "ويمكن للشركة أن تحدد معيارًا بسيطًا لاعتماد الموعد، مثل أن يكون مؤكدًا ومسجلًا مع بيانات الاتصال الصحيحة، فيصبح مقياس النتيجة واضحًا لدى جميع الأطراف."
+    },
+    {
+     "p": "وأخيرًا، لا تُهمل شكر الشخص عند نهاية المكالمة وتذكيره بأنه يستطيع تعديل الموعد إن تغيرت ظروفه، فالمرونة تقلل من الإلغاءات المفاجئة وتحسّن الصورة العامة للمؤسسة."
+    },
+    {
+     "p": "وتذكّر أن جودة الموعد أهم من عدده، فموعد واحد مع شخص مهتم فعلًا يساوي أكثر من عدة مواعيد انتُزعت بالإلحاح ثم أُلغيت، لذلك اجعل هدفك أن يغادر الشخص المكالمة وهو يعرف بالضبط ما ينتظره."
+    }
+   ]
   }
+ }
 }
