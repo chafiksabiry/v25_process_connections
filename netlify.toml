@@ -12,6 +12,7 @@
 
 # Production (harx.ai) — production Netlify MF hosts (not *-dev)
 [context.production.environment]
+  VITE_META_PIXEL_ID = "340901355517689"
   VITE_MF_AUTH_ENTRY = "https://harx25register.netlify.app"
   VITE_MF_COMPANY_ENTRY = "https://harxv25comporchestratorfront.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harxv25reporchestratorfront.netlify.app"
@@ -20,6 +21,7 @@
 
 # Alias used by some Netlify branch setups
 [context.prod.environment]
+  VITE_META_PIXEL_ID = "340901355517689"
   VITE_MF_AUTH_ENTRY = "https://harx25register.netlify.app"
   VITE_MF_COMPANY_ENTRY = "https://harxv25comporchestratorfront.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harxv25reporchestratorfront.netlify.app"
