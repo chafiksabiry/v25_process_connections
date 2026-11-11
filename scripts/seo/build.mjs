@@ -4,6 +4,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { LANGS, SITE, UI } from './ui.mjs';
+import { CORE } from './core.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const dist = resolve(root, 'dist');
@@ -49,6 +50,10 @@ if (checkSlugs) { console.log(`SEO check OK: ${entries.length} contenus valides`
 const url = (lang, ...parts) => `${SITE}/${lang}/${parts.filter(Boolean).join('/')}${parts.length ? '/' : ''}`.replace(/\/\/$/, '/');
 const alternates = (build) => LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${build(l)}">`).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${build('fr')}">`;
 
+const GA_ID = 'G-93ZHG8LNXL';
+const CONSENT_KEY = 'harx_cookie_consent';
+const gaSnippet = `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});gtag('js',new Date());gtag('config','${GA_ID}',{send_page_view:false});(function(){function load(c){gtag('consent','update',{analytics_storage:c.analytics?'granted':'denied',ad_storage:c.marketing?'granted':'denied',ad_user_data:c.marketing?'granted':'denied',ad_personalization:c.marketing?'granted':'denied'});if(c.analytics||c.marketing){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';document.head.appendChild(s);}if(c.analytics){gtag('event','page_view',{page_location:location.href,page_path:location.pathname,page_title:document.title});}}window.harxApplyConsent=load;try{var raw=localStorage.getItem('${CONSENT_KEY}');if(raw){var c=JSON.parse(raw);if(c&&c.v===1)load({analytics:c.analytics===true,marketing:c.marketing===true});}}catch(e){}})();</script>`;
+const consentBar = (u, lang) => `<div id="harx-consent" hidden style="position:fixed;inset:auto 0 0 0;background:#1e0f33;border-top:1px solid #3a2257;padding:14px 20px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;z-index:50"><span style="flex:1;min-width:220px;font-size:.9rem">${esc(u.consent)} <a href="/${lang}/cookies">${esc(u.cookies)}</a></span><button id="harx-consent-no" style="padding:8px 16px;border-radius:10px;border:1px solid #3a2257;background:transparent;color:#fff;cursor:pointer">${esc(u.refuse)}</button><button id="harx-consent-yes" style="padding:8px 16px;border-radius:10px;border:0;background:#e91e8c;color:#fff;font-weight:700;cursor:pointer">${esc(u.accept)}</button></div><script>(function(){var k='${CONSENT_KEY}',b=document.getElementById('harx-consent');try{if(localStorage.getItem(k))return;}catch(e){}b.hidden=false;function save(a){var c={v:1,analytics:a,marketing:a,ts:new Date().toISOString()};try{localStorage.setItem(k,JSON.stringify(c));}catch(e){}b.hidden=true;if(window.harxApplyConsent)window.harxApplyConsent(c);}document.getElementById('harx-consent-yes').onclick=function(){save(true);};document.getElementById('harx-consent-no').onclick=function(){save(false);};})();</script>`;
 const CSS = `*{box-sizing:border-box}body{margin:0;background:#12071f;color:#f4eefb;font:17px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}a{color:#ff7ab8}a:hover{color:#fff}header{background:linear-gradient(90deg,#e11d48,#e91e8c);padding:14px 24px;display:flex;gap:20px;align-items:center;flex-wrap:wrap}header a{color:#fff;text-decoration:none;font-weight:600}header img{height:30px;display:block}nav{display:flex;gap:18px;flex-wrap:wrap;flex:1}.lang{display:flex;gap:10px}main{max-width:820px;margin:0 auto;padding:40px 24px 64px}h1{font-size:2.1rem;line-height:1.2;margin:.2em 0 .4em}h2{font-size:1.45rem;margin:1.8em 0 .5em;color:#fff}.crumbs{font-size:.9rem;opacity:.8}.meta{opacity:.7;font-size:.9rem}ul{padding-inline-start:1.3em}li{margin:.35em 0}.card{background:#1e0f33;border:1px solid #3a2257;border-radius:14px;padding:18px 20px;margin:14px 0}.card a{font-weight:700;text-decoration:none}.cta{margin:40px 0;padding:24px;border-radius:16px;background:linear-gradient(135deg,#e11d48,#e91e8c);color:#fff}.cta a.btn{display:inline-block;margin-top:10px;padding:12px 22px;border-radius:12px;background:#fff;color:#c2185b;font-weight:700;text-decoration:none}details{background:#1e0f33;border:1px solid #3a2257;border-radius:12px;padding:12px 16px;margin:10px 0}summary{cursor:pointer;font-weight:700}footer{border-top:1px solid #3a2257;padding:24px;text-align:center;font-size:.9rem;opacity:.8}footer a{margin:0 10px}`;
 
 function header(lang) {
@@ -95,6 +100,7 @@ function page({ lang, path, title, description, bodyHtml, jsonld, alt, ogType = 
   <link rel="icon" href="/logo_harx.png">
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': jsonld })}</script>
   <style>${CSS}</style>
+  ${gaSnippet}
 </head>
 <body>
 ${header(lang)}
@@ -103,6 +109,7 @@ ${bodyHtml}
 <section class="cta"><strong>${esc(u.cta)}</strong><p>${esc(u.ctaText)}</p><a class="btn" href="/telephony/">${esc(u.telephony)}</a> <a class="btn" href="/${lang}/auth/choice">${esc(u.start)}</a></section>
 </main>
 ${footer(lang)}
+${consentBar(u, lang)}
 </body>
 </html>`;
 }
@@ -150,6 +157,47 @@ ${related.length ? `<h2>${esc(u.related)}</h2>${related.map((r) => `<div class="
   }
 }
 
+
+// ---------- pages principales pré-rendues (accueil, TAAS, COMPANY, REPS) ----------
+const baseHtml = readFileSync(resolve(dist, 'index.html'), 'utf8');
+const rewrites = [];
+const coreKeys = ['home', 'taas', 'company', 'reps'];
+const corePath = (lang, key) => `${SITE}/${lang}${CORE[lang][key].path ? '/' + CORE[lang][key].path : ''}`;
+for (const lang of LANGS) {
+  for (const key of coreKeys) {
+    const c = CORE[lang][key];
+    const url = corePath(lang, key);
+    let html = baseHtml;
+    const sub = (re, to) => {
+      if (!re.test(html)) throw new Error(`prerender core: motif introuvable ${re}`);
+      html = html.replace(re, () => to);
+    };
+    sub(/<html lang="fr">/, `<html lang="${lang}">`);
+    sub(/<title>[\s\S]*?<\/title>/, `<title>${esc(c.title)}</title>`);
+    sub(/<meta name="description"[^>]*>/, `<meta name="description" content="${esc(c.description)}" />`);
+    sub(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${url}" />\n    ${alternates((l) => corePath(l, key))}`);
+    sub(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${url}" />`);
+    sub(/<meta property="og:title"[^>]*>/, `<meta property="og:title" content="${esc(c.title)}" />`);
+    sub(/<meta property="og:description"[^>]*>/, `<meta property="og:description" content="${esc(c.description)}" />`);
+    const open = html.indexOf('<div id="seo-snapshot"');
+    const innerStart = html.indexOf('>', open) + 1;
+    const marker = '\n      </div>\n      <script>';
+    const innerEnd = html.indexOf(marker, innerStart);
+    if (open < 0 || innerEnd < 0) throw new Error('prerender core: aperçu #seo-snapshot introuvable');
+    const attrs = key === 'home' ? ` data-snap-page="hub" data-snap-lang="${lang}"` : key === 'taas' ? ` data-snap-page="taas" data-snap-lang="${lang}"` : '';
+    const links = `<nav><a href="/${lang}">${esc(UI[lang].home)}</a> · <a href="/${lang}/taas">TAAS</a> · <a href="/telephony/">${esc(UI[lang].telephony)}</a> · <a href="/${lang}/faq/">${esc(UI[lang].faq)}</a> · <a href="/${lang}/blog/">${esc(UI[lang].blog)}</a> · <a href="/${lang}/solutions/">${esc(UI[lang].solutions)}</a></nav>`;
+    const snap = `\n        <div${attrs} lang="${lang}" dir="${UI[lang].dir}">\n          <h1>${esc(c.h1)}</h1>\n${c.p.map((t) => `          <p>${esc(t)}</p>`).join('\n')}\n          ${links}\n        </div>`;
+    html = html.slice(0, innerStart) + snap + html.slice(innerEnd);
+    const file = `_pre/${lang}-${key}.html`;
+    mkdirSync(resolve(dist, '_pre'), { recursive: true });
+    writeFileSync(resolve(dist, file), html);
+    const route = `/${lang}${c.path ? '/' + c.path : ''}`;
+    rewrites.push(`${route} /${file} 200!`);
+    if (!c.path) rewrites.push(`${route}/ /${file} 200!`);
+  }
+}
+writeFileSync(resolve(dist, '_redirects'), rewrites.join('\n') + '\n');
+
 // ---------- sitemaps ----------
 const today = new Date().toISOString().slice(0, 10);
 const altXml = (build) => LANGS.map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${build(l)}"/>`).join('\n') + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${build('fr')}"/>`;
@@ -165,4 +213,4 @@ const xml = (items) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="h
 writeFileSync(resolve(dist, 'sitemap-content.xml'), xml(entryUrls));
 const index = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap><loc>${SITE}/sitemap-core.xml</loc><lastmod>${today}</lastmod></sitemap>\n  <sitemap><loc>${SITE}/sitemap-content.xml</loc><lastmod>${today}</lastmod></sitemap>\n</sitemapindex>\n`;
 writeFileSync(resolve(dist, 'sitemap.xml'), index);
-console.log(`SEO build: ${entries.length} contenus × ${LANGS.length} langues = ${entries.length * LANGS.length} pages + hubs ; ${entryUrls.length} URLs dans sitemap-content.xml`);
+console.log(`SEO build: ${LANGS.length * coreKeys.length} pages principales pré-rendues ; ${entries.length} contenus × ${LANGS.length} langues = ${entries.length * LANGS.length} pages + hubs ; ${entryUrls.length} URLs dans sitemap-content.xml`);
