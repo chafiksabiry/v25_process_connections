@@ -12,6 +12,10 @@ import Cookies from 'js-cookie';
 import React from 'react';
 import { syncPageHead } from './lib/tracking/visitorTracking';
 import { MF_ENTRIES } from './lib/microfrontendEntries';
+import { initConsent } from './lib/consent';
+import { initConversionTracking } from './lib/tracking/conversions';
+import { isLegalPath } from './lib/legalRoutes';
+import { getLangFromPath } from './lib/langRoutes';
 import { subscribeAuthChanged } from './lib/authSync';
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
@@ -92,9 +96,13 @@ registerMicroApps([
       const p = location.pathname;
       return (
         p === '/' ||
+        p === '/taas' ||
+        p.startsWith('/taas/') ||
         p.startsWith('/auth') ||
         p.startsWith('/admin') ||
-        p.startsWith('/linkedin')
+        p.startsWith('/linkedin') ||
+        isLegalPath(p) ||
+        getLangFromPath(p) !== null
       );
     },
     props: {
@@ -130,6 +138,20 @@ registerMicroApps([
     activeRule: (location: { pathname: string }) =>
       location.pathname.startsWith('/company') ||
       location.pathname.startsWith('/call-center'),
+    props: {
+      sandbox: {
+        experimentalStyleIsolation: false,
+      },
+      actions,
+    },
+  },
+  {
+    // Application dédiée aux centres d'appels (distincte de /call-center, qui reste servi par `company`).
+    name: 'callcenter',
+    entry: MF_ENTRIES.callcenter,
+    container: '#container-callcenter',
+    activeRule: (location: { pathname: string }) =>
+      location.pathname === '/telephony' || location.pathname.startsWith('/telephony/'),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,
@@ -185,6 +207,9 @@ const startQiankun = async () => {
     console.error('[Host] Failed to start Qiankun:', error);
   }
 };
+
+initConsent();
+initConversionTracking();
 
 // Mount host app first
 const rootElement = document.getElementById('root');

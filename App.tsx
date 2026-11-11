@@ -2,6 +2,9 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'r
 import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
+import CookieBanner from './components/CookieBanner';
+import { isLegalPath } from './lib/legalRoutes';
+import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
 import './App.css';
 import Cookies from 'js-cookie';
@@ -11,6 +14,7 @@ const MF_CONTAINERS = [
   'container-auth',
   'container-reps',
   'container-company',
+  'container-callcenter',
   'container-home',
 ] as const;
 
@@ -22,14 +26,21 @@ function MicroAppContainerVisibility() {
     const active = new Set<string>();
     if (
       pathname === '/' ||
+      pathname === '/taas' ||
+      pathname.startsWith('/taas/') ||
       pathname.startsWith('/auth') ||
-      pathname.startsWith('/admin')
+      pathname.startsWith('/admin') ||
+      isLegalPath(pathname) ||
+      getLangFromPath(pathname) !== null
     ) {
       active.add('container-auth');
     }
     if (pathname.startsWith('/reps')) active.add('container-reps');
     if (pathname.startsWith('/company') || pathname.startsWith('/call-center')) {
       active.add('container-company');
+    }
+    if (pathname === '/telephony' || pathname.startsWith('/telephony/')) {
+      active.add('container-callcenter');
     }
     if (pathname === '/home') active.add('container-home');
 
@@ -61,6 +72,7 @@ const App = () => {
   return (
     <Router>
       <VisitorTracker />
+      <CookieBanner />
       <CSSRouteLoader />
       <MicroAppContainerVisibility />
       <Routes>

@@ -1,20 +1,58 @@
-import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL } from './constants';
+import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL, HUB_DESCRIPTION_EN, HUB_DESCRIPTION_FR } from './constants';
+import { getLangFromPath, stripLangPrefix, withLangPrefix, type SiteLang } from '../langRoutes';
 
 export type PageMeta = {
   title: string;
   description: string;
   canonical?: string;
+  /** Routes privées / sans valeur SEO : balise robots noindex posée à l'exécution. */
+  noindex?: boolean;
+  /** Langue de la page (attribut <html lang>). */
+  lang?: SiteLang;
+  /** Versions linguistiques (balises hreflang). */
+  alternates?: Array<{ hreflang: string; href: string }>;
 };
 
 const BASE_TITLE = 'HARX';
 
+export const CALLCENTRE_TITLE =
+  'HARX Téléphonie : numéro français, appels et répondeur IA pour freelances, TPE, PME et centres d’appels';
+export const CALLCENTRE_DESCRIPTION =
+  'Un numéro français, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
+
 const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   {
+    // Accueil de l'ensemble HARX (hub des offres).
     test: (p) => p === '/' || p === '',
     meta: {
-      title: `${BASE_TITLE} — We inspire growth`,
-      description: DEFAULT_PAGE_DESCRIPTION,
+      title: `${BASE_TITLE} — Une plateforme, plusieurs offres`,
+      description: HUB_DESCRIPTION_FR,
       canonical: `${HARX_SITE_URL}/`,
+    },
+  },
+  {
+    // Offre TAAS : ancienne page d'accueil (marketplace Transaction-as-a-Service).
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/taas',
+    meta: {
+      title: `${BASE_TITLE} — TAAS : Transaction-as-a-Service`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/taas`,
+    },
+  },
+  {
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/taas/company',
+    meta: {
+      title: `${BASE_TITLE} — TAAS · Company`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/taas/company`,
+    },
+  },
+  {
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/taas/reps',
+    meta: {
+      title: `${BASE_TITLE} — TAAS · REPS`,
+      description: DEFAULT_PAGE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/taas/reps`,
     },
   },
   {
@@ -106,6 +144,15 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
     },
   },
   {
+    // Vitrine publique du micro-frontend téléphonie ; ses sous-parcours (/app, /start, /onboarding) restent en noindex.
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === '/telephony',
+    meta: {
+      title: CALLCENTRE_TITLE,
+      description: CALLCENTRE_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}/telephony`,
+    },
+  },
+  {
     test: (p) => p.startsWith('/company'),
     meta: {
       title: `${BASE_TITLE} — Portail entreprise`,
@@ -152,8 +199,103 @@ export function normalizeTrackingPath(path: string): string {
   return pathname.replace(/\/+$/, '') || '/';
 }
 
+const NOINDEX_PREFIXES = [
+  '/admin',
+  '/company',
+  '/call-center',
+  '/telephony/app',
+  '/telephony/onboarding',
+  '/telephony/start',
+  '/reps',
+  '/reporchestrator',
+  '/linkedin',
+  '/profile-completion',
+  '/auth/signin',
+  '/auth/recovery',
+];
+
+export function isNoindexPath(rawPath: string): boolean {
+  const pathname = normalizeTrackingPath(stripLangPrefix(rawPath.split('?')[0].split('#')[0]));
+  return NOINDEX_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
+}
+
+const LOCALIZED_INDEXABLE_PATHS = [
+  '/',
+  '/taas',
+  '/taas/company',
+  '/taas/reps',
+  '/auth/choice',
+  '/auth/register-company',
+  '/auth/register-rep',
+  '/privacy',
+  '/terms',
+  '/cookies',
+  '/gdpr',
+];
+
+const EN_META: Record<string, { title: string; description: string }> = {
+  '/': {
+    title: `${BASE_TITLE} — One platform, several offers`,
+    description: HUB_DESCRIPTION_EN,
+  },
+  '/taas': {
+    title: `${BASE_TITLE} — TAAS: Transaction-as-a-Service`,
+    description: 'HARX TAAS — Transaction as a Service. Marketplace of AI-certified reps for companies and independents.',
+  },
+  '/taas/company': {
+    title: `${BASE_TITLE} — TAAS · Company`,
+    description: 'HARX TAAS for companies: define the result and its price, pay only for approved results.',
+  },
+  '/taas/reps': {
+    title: `${BASE_TITLE} — TAAS · REPS`,
+    description: 'HARX TAAS for customer service professionals: choose your missions and get paid for results.',
+  },
+  '/auth/choice': {
+    title: `${BASE_TITLE} — Choose your profile`,
+    description: 'Join HARX as a company or an independent rep.',
+  },
+  '/auth/register-company': {
+    title: `${BASE_TITLE} — Company sign-up`,
+    description: 'Create your HARX company account.',
+  },
+  '/auth/register-rep': {
+    title: `${BASE_TITLE} — Rep sign-up`,
+    description: 'Create your certified HARX rep profile with your CV.',
+  },
+};
+
+/** Métadonnées d'une route, avec gestion du préfixe de langue (/fr/…, /en/…). */
 export function resolvePageMeta(rawPath: string): PageMeta {
   const full = rawPath || '/';
+  const [pathOnly, ...rest] = full.split('?');
+  const barePath = pathOnly.split('#')[0] || '/';
+  const urlLang = getLangFromPath(barePath);
+  const stripped = stripLangPrefix(barePath);
+  const meta = resolveUnprefixedPageMeta(`${stripped}${rest.length ? `?${rest.join('?')}` : ''}`);
+  const pathname = normalizeTrackingPath(stripped);
+  const lang: SiteLang = urlLang ?? 'fr';
+
+  if (!LOCALIZED_INDEXABLE_PATHS.includes(pathname)) {
+    if (!urlLang) return meta;
+    return { ...meta, lang, canonical: meta.canonical ? `${HARX_SITE_URL}${normalizeTrackingPath(barePath)}` : undefined };
+  }
+  return {
+    ...meta,
+    // Pas encore de méta propre à l'espagnol et à l'arabe : l'anglais sert de repli.
+    ...(lang !== 'fr' ? EN_META[pathname] : undefined),
+    lang,
+    canonical: `${HARX_SITE_URL}${withLangPrefix(pathname, lang)}`,
+    alternates: [
+      { hreflang: 'fr', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'fr')}` },
+      { hreflang: 'en', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'en')}` },
+      { hreflang: 'es', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'es')}` },
+      { hreflang: 'ar', href: `${HARX_SITE_URL}${withLangPrefix(pathname, 'ar')}` },
+      ...(pathname === '/' ? [{ hreflang: 'x-default', href: `${HARX_SITE_URL}/fr` }] : []),
+    ],
+  };
+}
+
+function resolveUnprefixedPageMeta(full: string): PageMeta {
   const match = ROUTE_META.find(({ test }) => test(full) || test(normalizeTrackingPath(full)));
   return (
     match?.meta ?? {
