@@ -23,3 +23,10 @@ HARX.ai est l'accueil de l'ensemble des offres HARX. L'offre TAAS met en relatio
 - [Company sign-up](https://harx.ai/en/auth/register-company): create a company account
 - [Rep sign-up](https://harx.ai/en/auth/register-rep): create a certified HARX rep profile with your CV
 - [Privacy](https://harx.ai/en/privacy), [Terms](https://harx.ai/en/terms), [Cookies](https://harx.ai/en/cookies), [GDPR](https://harx.ai/en/gdpr)
+
+## Guides, FAQ et solutions / Guides, FAQ and solutions
+
+- [Blog FR](https://harx.ai/fr/blog/), [FAQ FR](https://harx.ai/fr/faq/), [Solutions FR](https://harx.ai/fr/solutions/)
+- [Blog EN](https://harx.ai/en/blog/), [FAQ EN](https://harx.ai/en/faq/), [Solutions EN](https://harx.ai/en/solutions/)
+- [Blog ES](https://harx.ai/es/blog/), [FAQ ES](https://harx.ai/es/faq/), [Soluciones ES](https://harx.ai/es/solutions/)
+- [Blog AR](https://harx.ai/ar/blog/), [FAQ AR](https://harx.ai/ar/faq/), [Solutions AR](https://harx.ai/ar/solutions/)
