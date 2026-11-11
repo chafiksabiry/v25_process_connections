@@ -1,0 +1,99 @@
+{
+  "type": "blog",
+  "slug": "blog-a-voicemail-greeting-best-practices",
+  "date": "2026-10-07",
+  "langs": {
+    "fr": {
+      "title": "Répondeur professionnel : 8 bonnes pratiques de message d'accueil",
+      "description": "Un message d'accueil clair rassure l'appelant et lui donne envie de laisser un message. Huit bonnes pratiques simples pour rédiger et enregistrer le vôtre.",
+      "blocks": [
+        {"p": "Quand personne ne décroche, le répondeur devient votre voix. En quelques secondes, il dit à l'appelant s'il est au bon endroit, s'il sera rappelé et quand. Un message bâclé fait raccrocher ; un message soigné transforme une absence en promesse de service. Voici huit bonnes pratiques à appliquer."},
+        {"h2": "Les quatre bases : identité, ton, durée, clarté"},
+        {"p": "Ces quatre points suffisent à écarter la plupart des messages ratés."},
+        {"ul": ["Annoncez d'emblée votre nom ou celui de votre entreprise, pour que l'appelant sache qu'il a composé le bon numéro.", "Adoptez un ton chaleureux et posé, comme si vous parliez à quelqu'un en face de vous. Souriez en enregistrant : cela s'entend.", "Restez bref. Un message d'accueil trop long agace, surtout quand l'appelant l'entend à chaque fois.", "Parlez lentement et articulez, en particulier pour les noms, les horaires et les consignes."]},
+        {"p": "Relisez votre texte à voix haute avant d'enregistrer. Si vous butez sur une phrase, elle est trop compliquée : simplifiez-la."},
+        {"h2": "Les quatre ajouts qui font la différence"},
+        {"ul": ["Indiquez quand vous rappelez : « nous vous rappelons dans la journée » est utile seulement si vous le tenez. Promettez ce que vous pouvez réellement faire.", "Demandez les informations utiles : nom, numéro, motif de l'appel. Une consigne précise donne des messages exploitables.", "Proposez une alternative : une adresse e-mail ou une autre voie de contact aide ceux qui ont une urgence ou qui préfèrent écrire.", "Mettez-le à jour : congés, changement d'horaires, nouvelle adresse. Un message périmé fait plus de tort qu'un silence."]},
+        {"p": "Ces ajouts transforment le répondeur en véritable premier niveau d'accueil. Votre interlocuteur sait ce qui va se passer, il n'a pas à deviner."},
+        {"h2": "Un exemple de structure à adapter"},
+        {"p": "Pas besoin de réciter un texte figé. Une structure en quatre temps suffit : une salutation, l'identité de la structure, la consigne pour laisser un message, puis la promesse de rappel. En quelques phrases courtes, tout est dit."},
+        {"p": "Adaptez-la à votre métier. Un cabinet n'annoncera pas les mêmes choses qu'un indépendant en déplacement ou qu'un service commercial. Gardez toujours à l'esprit la question principale de l'appelant : « Ai-je bien joint la bonne personne, et vais-je être rappelé ? »"},
+        {"p": "Pensez aussi à la qualité d'enregistrement. Un lieu calme, une voix posée et un micro correct valent mieux qu'un texte brillant enregistré dans le bruit."},
+        {"h2": "Ce qu'un bon répondeur change au quotidien"},
+        {"p": "Un message bien construit réduit les messages vides, les rappels inutiles et les malentendus. L'appelant laisse les informations dont vous avez besoin, et vous gagnez du temps à la réécoute. À l'inverse, un message vague produit des enregistrements flous qu'il faut décoder."},
+        {"p": "HARX Téléphonie inclut un répondeur dans ses offres, par exemple un répondeur personnel pour Nomad Solo, ainsi qu'un accueil ou un secrétariat pour les structures qui veulent plus qu'un message enregistré. Vous pouvez ainsi choisir le niveau d'accueil qui correspond à votre activité, sans équipement à installer."},
+        {"h2": "Conclusion : dire l'essentiel, tenir sa promesse"},
+        {"p": "Un bon message d'accueil se résume à peu de choses : se présenter, rester bref, guider l'appelant et tenir ce que l'on annonce. Écoutez le vôtre en vous mettant à la place d'un client pressé, puis corrigez ce qui accroche. Réenregistrer un message prend quelques minutes, et ce petit effort améliore chaque appel manqué pour toute la période à venir."}
+      ]
+    },
+    "en": {
+      "title": "Professional Voicemail: 8 Best Practices for Your Greeting",
+      "description": "A clear greeting reassures callers and makes them want to leave a message. Eight simple best practices for writing and recording your own business voicemail.",
+      "blocks": [
+        {"p": "When nobody picks up, your voicemail becomes your voice. In a few seconds it tells the caller whether they reached the right place, whether they will be called back and when. A careless greeting makes people hang up; a careful one turns an absence into a promise of service. Here are eight best practices to apply."},
+        {"h2": "The four basics: identity, tone, length, clarity"},
+        {"p": "These four points are enough to avoid most failed greetings."},
+        {"ul": ["State your name or your company's name right away, so callers know they dialled the right number.", "Use a warm, calm tone, as if speaking to someone in front of you. Smile while recording: it can be heard.", "Keep it short. A greeting that runs too long irritates, especially when the caller hears it every time.", "Speak slowly and articulate, especially names, opening hours and instructions."]},
+        {"p": "Read your script aloud before recording. If you stumble over a sentence, it is too complicated, so simplify it."},
+        {"h2": "The four additions that make a difference"},
+        {"ul": ["Say when you call back: “we will return your call today” is useful only if you keep to it. Promise what you can actually do.", "Ask for the useful details: name, number, reason for calling. A precise instruction produces usable messages.", "Offer an alternative: an email address or another contact route helps those with an urgent issue or who prefer writing.", "Keep it updated: holidays, changed hours, a new address. An outdated greeting does more harm than silence."]},
+        {"p": "These additions turn voicemail into a genuine first level of reception. Your caller knows what happens next and does not have to guess."},
+        {"h2": "An example structure to adapt"},
+        {"p": "There is no need to recite a rigid script. A four-step structure is enough: a greeting, the identity of the business, the instruction to leave a message, then the promise of a callback. A few short sentences say it all."},
+        {"p": "Adapt it to your trade. A medical practice will not announce the same things as a freelancer on the road or a sales department. Always keep the caller's main question in mind: “Did I reach the right person, and will I be called back?”"},
+        {"p": "Think about recording quality too. A quiet room, a steady voice and a decent microphone are worth more than a brilliant text recorded amid noise."},
+        {"h2": "What a good voicemail changes day to day"},
+        {"p": "A well-built greeting cuts down on empty messages, pointless callbacks and misunderstandings. Callers leave the information you need, and you save time when you listen back. A vague greeting, on the other hand, produces fuzzy recordings you have to decode."},
+        {"p": "HARX Telephony includes voicemail in its offers, for example a personal voicemail for Nomad Solo, as well as reception or secretarial services for organisations that want more than a recorded message. You can choose the level of reception that fits your activity, with no equipment to install."},
+        {"h2": "Conclusion: say what matters, keep your promise"},
+        {"p": "A good greeting comes down to a few things: introduce yourself, stay brief, guide the caller and keep what you announce. Listen to yours as a hurried customer would, then fix whatever grates. Re-recording a message takes a few minutes, and that small effort improves every missed call for the whole period ahead."}
+      ]
+    },
+    "es": {
+      "title": "Buzón de voz profesional: 8 buenas prácticas para tu mensaje",
+      "description": "Un mensaje de bienvenida claro tranquiliza a quien llama y le invita a dejar un recado. Ocho buenas prácticas sencillas para redactar y grabar el tuyo.",
+      "blocks": [
+        {"p": "Cuando nadie contesta, el buzón de voz se convierte en tu voz. En pocos segundos le dice a quien llama si ha marcado el número correcto, si le devolverán la llamada y cuándo. Un mensaje descuidado hace colgar; uno cuidado convierte una ausencia en una promesa de servicio. Estas son ocho buenas prácticas."},
+        {"h2": "Las cuatro bases: identidad, tono, duración y claridad"},
+        {"p": "Estos cuatro puntos bastan para evitar la mayoría de los mensajes fallidos."},
+        {"ul": ["Indica desde el principio tu nombre o el de tu empresa, para que quien llama sepa que ha marcado bien.", "Usa un tono cálido y sereno, como si hablaras con alguien delante de ti. Sonríe al grabar: se nota.", "Sé breve. Un mensaje demasiado largo irrita, sobre todo si quien llama lo oye cada vez.", "Habla despacio y vocaliza, en especial los nombres, los horarios y las indicaciones."]},
+        {"p": "Lee el texto en voz alta antes de grabar. Si te trabas en una frase, es demasiado complicada: simplifícala."},
+        {"h2": "Los cuatro añadidos que marcan la diferencia"},
+        {"ul": ["Di cuándo devuelves la llamada: «le llamaremos a lo largo del día» solo sirve si lo cumples. Promete lo que realmente puedes hacer.", "Pide los datos útiles: nombre, número y motivo de la llamada. Una indicación precisa genera mensajes aprovechables.", "Ofrece una alternativa: una dirección de correo u otra vía de contacto ayuda a quien tiene una urgencia o prefiere escribir.", "Mantenlo actualizado: vacaciones, cambios de horario, nueva dirección. Un mensaje desfasado perjudica más que el silencio."]},
+        {"p": "Estos añadidos convierten el buzón de voz en un verdadero primer nivel de atención. Quien llama sabe qué va a pasar y no tiene que adivinarlo."},
+        {"h2": "Un ejemplo de estructura para adaptar"},
+        {"p": "No hace falta recitar un texto rígido. Basta una estructura en cuatro tiempos: un saludo, la identidad de la empresa, la indicación para dejar un mensaje y la promesa de devolver la llamada. En pocas frases cortas queda todo dicho."},
+        {"p": "Adáptala a tu oficio. Una consulta no anunciará lo mismo que un autónomo en desplazamiento o un departamento comercial. Ten siempre presente la pregunta principal de quien llama: «¿He hablado con la persona correcta y me van a devolver la llamada?»"},
+        {"p": "Piensa también en la calidad de la grabación. Un lugar tranquilo, una voz serena y un micrófono correcto valen más que un texto brillante grabado con ruido."},
+        {"h2": "Lo que cambia un buen buzón de voz en el día a día"},
+        {"p": "Un mensaje bien construido reduce los mensajes vacíos, las devoluciones inútiles y los malentendidos. Quien llama deja la información que necesitas y tú ganas tiempo al escuchar. En cambio, un mensaje vago produce grabaciones confusas que hay que descifrar."},
+        {"p": "HARX Telefonía incluye buzón de voz en sus ofertas, por ejemplo un buzón personal en Nomad Solo, además de atención o secretaría para las estructuras que quieren algo más que un mensaje grabado. Así puedes elegir el nivel de atención que encaja con tu actividad, sin instalar equipos."},
+        {"h2": "Conclusión: decir lo esencial y cumplir lo prometido"},
+        {"p": "Un buen mensaje de bienvenida se resume en pocas cosas: presentarse, ser breve, guiar a quien llama y cumplir lo anunciado. Escucha el tuyo poniéndote en el lugar de un cliente con prisa y corrige lo que chirríe. Volver a grabar un mensaje lleva unos minutos, y ese pequeño esfuerzo mejora cada llamada perdida durante todo el periodo siguiente."}
+      ]
+    },
+    "ar": {
+      "title": "البريد الصوتي المهني: 8 ممارسات جيدة لرسالة الترحيب",
+      "description": "رسالة ترحيب واضحة تطمئن المتصل وتشجعه على ترك رسالة. ثماني ممارسات بسيطة لكتابة رسالتك وتسجيلها بشكل مهني ومنظم.",
+      "blocks": [
+        {"p": "حين لا يرد أحد يصبح البريد الصوتي صوتك. ففي ثوانٍ قليلة يخبر المتصل إن كان قد وصل إلى المكان الصحيح، وهل سيُعاد الاتصال به ومتى. والرسالة المهملة تدفع إلى إنهاء المكالمة، أما الرسالة المتقنة فتحوّل الغياب إلى وعد بالخدمة. وإليك ثماني ممارسات جيدة."},
+        {"h2": "الأسس الأربعة: الهوية والنبرة والمدة والوضوح"},
+        {"p": "هذه النقاط الأربع تكفي لتجنّب معظم الرسائل الفاشلة."},
+        {"ul": ["اذكر اسمك أو اسم شركتك منذ البداية ليعرف المتصل أنه طلب الرقم الصحيح.", "استخدم نبرة دافئة وهادئة كأنك تخاطب شخصًا أمامك. وابتسم أثناء التسجيل فالابتسامة تُسمع.", "اختصر. فالرسالة الطويلة تزعج، خاصة إذا سمعها المتصل في كل مرة.", "تكلّم ببطء وبوضوح، لا سيما عند ذكر الأسماء وأوقات العمل والتعليمات."]},
+        {"p": "اقرأ النص بصوت عالٍ قبل التسجيل. فإذا تعثرت في جملة فهي معقدة أكثر من اللازم، فبسّطها."},
+        {"h2": "الإضافات الأربع التي تصنع الفرق"},
+        {"ul": ["قل متى ستعاود الاتصال: عبارة «سنعاود الاتصال بك خلال اليوم» مفيدة فقط إذا التزمت بها. فلا تَعِد إلا بما تستطيع فعله.", "اطلب المعلومات المفيدة: الاسم والرقم وسبب الاتصال. فالتعليمة الدقيقة تعطي رسائل يمكن الاستفادة منها.", "اقترح بديلًا: عنوان بريد إلكتروني أو وسيلة اتصال أخرى يفيدان من لديه أمر عاجل أو من يفضّل الكتابة.", "حدّثها باستمرار: الإجازات وتغيير الأوقات والعنوان الجديد. فالرسالة القديمة تضر أكثر من الصمت."]},
+        {"p": "تحوّل هذه الإضافات البريد الصوتي إلى مستوى أول حقيقي من الاستقبال. فالمتصل يعرف ما سيحدث ولا يحتاج إلى التخمين."},
+        {"h2": "مثال على بنية يمكنك تكييفها"},
+        {"p": "لا حاجة إلى ترديد نص جامد. تكفي بنية من أربع خطوات: تحية، ثم تعريف بالجهة، ثم تعليمة ترك الرسالة، ثم وعد بمعاودة الاتصال. وبضع جمل قصيرة تقول كل شيء."},
+        {"p": "كيّفها مع مهنتك. فالعيادة لن تعلن ما يعلنه مستقل في تنقل أو قسم مبيعات. واجعل في ذهنك دائمًا السؤال الرئيسي للمتصل: «هل وصلت إلى الشخص المناسب، وهل سيُعاد الاتصال بي؟»"},
+        {"p": "وانتبه أيضًا إلى جودة التسجيل. فمكان هادئ وصوت متزن وميكروفون مقبول تساوي أكثر من نص بديع سُجّل وسط الضجيج."},
+        {"h2": "ما الذي يتغير في العمل اليومي مع بريد صوتي جيد"},
+        {"p": "الرسالة المحكمة تقلل الرسائل الفارغة والاتصالات المعادة بلا فائدة وسوء الفهم. فيترك المتصل المعلومات التي تحتاجها، وتوفّر وقتك عند الاستماع. أما الرسالة الغامضة فتنتج تسجيلات مبهمة يلزم فك رموزها."},
+        {"p": "تتضمن HARX للاتصالات بريدًا صوتيًا في عروضها، مثل البريد الصوتي الشخصي في Nomad Solo، إضافة إلى الاستقبال أو السكرتارية للجهات التي تريد أكثر من رسالة مسجلة. وهكذا تختار مستوى الاستقبال الذي يناسب نشاطك دون تركيب أي جهاز."},
+        {"h2": "الخلاصة: قل الأهم والتزم بما وعدت"},
+        {"p": "تُختصر رسالة الترحيب الجيدة في أمور قليلة: عرّف بنفسك، واختصر، وأرشد المتصل، والتزم بما تعلنه. استمع إلى رسالتك كما يفعل عميل مستعجل، ثم صحّح ما يزعج. وإعادة التسجيل لا تستغرق سوى دقائق، وهذا الجهد الصغير يحسّن كل مكالمة فائتة طوال الفترة القادمة."}
+      ]
+    }
+  }
+}
