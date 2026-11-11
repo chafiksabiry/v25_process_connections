@@ -1,0 +1,143 @@
+{
+  "type": "blog",
+  "slug": "blog-b-satisfaction-surveys-right-questions",
+  "date": "2026-11-04",
+  "langs": {
+    "fr": {
+      "title": "Enquêtes de satisfaction : poser les bonnes questions",
+      "description": "Comment concevoir une enquête de satisfaction courte, neutre et utile : choix des questions, formulation, moment d'envoi, canaux et exploitation des réponses.",
+      "blocks": [
+        {"h2": "Une enquête sert à agir, pas à collectionner"},
+        {"p": "Une enquête de satisfaction n'a de valeur que si elle débouche sur des décisions. Avant de rédiger la moindre question, demandez-vous ce que vous ferez des réponses : améliorer un parcours, former une équipe, corriger une information. Chaque question qui ne sert aucune décision peut être supprimée."},
+        {"p": "Respecter le temps des personnes interrogées est tout aussi important. Une enquête courte obtient généralement des réponses plus réfléchies qu'un long questionnaire que l'on abandonne à mi-chemin."},
+        {"h2": "Choisir des questions utiles"},
+        {"ul": [
+          "Une question de satisfaction globale sur l'interaction ou le service.",
+          "Une question sur le résultat : le besoin a-t-il été résolu ?",
+          "Une ou deux questions sur des aspects précis : clarté, rapidité perçue, courtoisie.",
+          "Une question ouverte facultative pour laisser la personne s'exprimer librement."
+        ]},
+        {"p": "Mélanger questions fermées, faciles à comparer, et question ouverte, riche en nuances, donne une vision plus complète."},
+        {"h2": "Formuler sans orienter"},
+        {"p": "La manière de poser une question influence la réponse. Une formulation comme « Vous avez apprécié notre excellent service, n'est-ce pas ? » pousse vers l'approbation. Préférez des phrases neutres et symétriques."},
+        {"ul": [
+          "Éviter les termes qui suggèrent la bonne réponse.",
+          "Ne poser qu'une idée par question.",
+          "Utiliser un vocabulaire simple, sans jargon interne.",
+          "Proposer des échelles cohérentes d'une question à l'autre, avec des libellés clairs."
+        ]},
+        {"h2": "Le bon moment et le bon canal"},
+        {"p": "Plus l'enquête est proche de l'interaction, plus les souvenirs sont précis. Selon le contexte, elle peut être proposée à la fin d'un appel, par message après un échange écrit ou par un rappel court. Le canal doit correspondre à celui que la personne utilise déjà."},
+        {"p": "Les enquêtes téléphoniques demandent une attention particulière : annoncer clairement l'objet, demander si le moment convient, accepter un refus sans insister. Le cadre juridique du contact et du traitement des données varie selon les pays ; vérifiez les règles applicables avant de lancer une campagne."},
+        {"h2": "Exploiter les réponses honnêtement"},
+        {"p": "Lire les réponses ne suffit pas. Regroupez-les par thème, repérez les motifs récurrents et distinguez ce qui relève d'un incident isolé de ce qui révèle un défaut de fond. Partagez les résultats avec les équipes concernées, y compris les retours positifs."},
+        {"p": "Pensez aussi à boucler la boucle : lorsque c'est possible, informez les personnes que leur avis a conduit à un changement. Elles seront plus enclines à répondre la prochaine fois."},
+        {"h2": "Enquêtes et évaluation en continu"},
+        {"p": "Les enquêtes complètent d'autres formes d'évaluation, comme l'écoute d'échanges ou l'analyse interne. Dans le modèle TAAS de HARX.ai, chaque interaction est évaluée en temps réel ; une mission peut précisément consister à réaliser des enquêtes avec un résultat défini, par exemple un nombre de questionnaires complétés selon les critères fixés par l'entreprise."},
+        {"p": "Quel que soit le format choisi, gardez à l'esprit la personne qui répond : une question claire, un ton aimable et un merci sincère font déjà beaucoup pour la qualité des réponses."}
+      ]
+    },
+    "en": {
+      "title": "Satisfaction Surveys: Asking the Right Questions",
+      "description": "How to design a short, neutral and useful satisfaction survey: choosing questions, wording, timing, channels and making use of the answers collected.",
+      "blocks": [
+        {"h2": "A survey is for acting, not for collecting"},
+        {"p": "A satisfaction survey is only worth something if it leads to decisions. Before writing a single question, ask yourself what you will do with the answers: improve a journey, train a team, correct a piece of information. Any question that serves no decision can be deleted."},
+        {"p": "Respecting respondents' time is just as important. A short survey generally gets more thoughtful answers than a long questionnaire abandoned halfway."},
+        {"h2": "Choosing useful questions"},
+        {"ul": [
+          "An overall satisfaction question about the interaction or service.",
+          "A question about the result: was the need resolved?",
+          "One or two questions on specific aspects: clarity, perceived speed, courtesy.",
+          "An optional open question to let the person speak freely."
+        ]},
+        {"p": "Mixing closed questions, easy to compare, with an open question, rich in nuance, gives a fuller picture."},
+        {"h2": "Wording without steering"},
+        {"p": "The way a question is asked influences the answer. A phrasing such as you enjoyed our excellent service, did you not? pushes towards approval. Prefer neutral, symmetrical sentences."},
+        {"ul": [
+          "Avoid terms that suggest the right answer.",
+          "Ask only one idea per question.",
+          "Use simple vocabulary, free of internal jargon.",
+          "Offer consistent scales from one question to the next, with clear labels."
+        ]},
+        {"h2": "The right moment and the right channel"},
+        {"p": "The closer the survey is to the interaction, the more precise the memories. Depending on context, it can be offered at the end of a call, by message after a written exchange or through a short follow-up. The channel should match the one the person already uses."},
+        {"p": "Telephone surveys need particular care: state the purpose clearly, ask whether the moment suits, accept a refusal without insisting. The legal framework for contact and data processing varies from country to country; check the applicable rules before launching a campaign."},
+        {"h2": "Using the answers honestly"},
+        {"p": "Reading the answers is not enough. Group them by theme, spot recurring patterns and distinguish what is an isolated incident from what reveals a deeper flaw. Share the results with the teams concerned, positive feedback included."},
+        {"p": "Think also of closing the loop: where possible, tell people that their opinion led to a change. They will be more willing to respond next time."},
+        {"h2": "Surveys and continuous assessment"},
+        {"p": "Surveys complement other forms of assessment, such as listening to exchanges or internal analysis. In the TAAS model from HARX.ai, each interaction is assessed in real time; a task may well consist of carrying out surveys with a defined result, for example a number of questionnaires completed according to criteria set by the company."},
+        {"p": "Whatever format you choose, keep the respondent in mind: a clear question, a friendly tone and a sincere thank you already do a lot for the quality of answers."}
+      ]
+    },
+    "es": {
+      "title": "Encuestas de satisfacción: hacer las preguntas adecuadas",
+      "description": "Cómo diseñar una encuesta de satisfacción breve, neutral y útil: elección de preguntas, redacción, momento de envío, canales y uso de las respuestas.",
+      "blocks": [
+        {"h2": "Una encuesta sirve para actuar, no para coleccionar"},
+        {"p": "Una encuesta de satisfacción solo tiene valor si desemboca en decisiones. Antes de redactar la primera pregunta, pregúntese qué hará con las respuestas: mejorar un recorrido, formar a un equipo, corregir una información. Toda pregunta que no sirva a ninguna decisión puede eliminarse."},
+        {"p": "Respetar el tiempo de los encuestados es igual de importante. Una encuesta breve suele obtener respuestas más meditadas que un cuestionario largo que se abandona a medias."},
+        {"h2": "Elegir preguntas útiles"},
+        {"ul": [
+          "Una pregunta de satisfacción global sobre la interacción o el servicio.",
+          "Una pregunta sobre el resultado: ¿quedó resuelta la necesidad?",
+          "Una o dos preguntas sobre aspectos concretos: claridad, rapidez percibida, cortesía.",
+          "Una pregunta abierta opcional para que la persona se exprese libremente."
+        ]},
+        {"p": "Combinar preguntas cerradas, fáciles de comparar, con una pregunta abierta, rica en matices, ofrece una visión más completa."},
+        {"h2": "Formular sin orientar"},
+        {"p": "La manera de plantear una pregunta influye en la respuesta. Una fórmula como usted valoró nuestro excelente servicio, ¿verdad? empuja hacia la aprobación. Prefiera frases neutras y simétricas."},
+        {"ul": [
+          "Evitar los términos que sugieren la respuesta correcta.",
+          "Plantear una sola idea por pregunta.",
+          "Usar un vocabulario sencillo, sin jerga interna.",
+          "Ofrecer escalas coherentes de una pregunta a otra, con etiquetas claras."
+        ]},
+        {"h2": "El momento y el canal adecuados"},
+        {"p": "Cuanto más cerca esté la encuesta de la interacción, más precisos son los recuerdos. Según el contexto, puede ofrecerse al final de una llamada, por mensaje tras un intercambio escrito o mediante un breve seguimiento. El canal debe coincidir con el que la persona ya utiliza."},
+        {"p": "Las encuestas telefónicas requieren una atención especial: anunciar con claridad el objeto, preguntar si es buen momento y aceptar una negativa sin insistir. El marco jurídico del contacto y del tratamiento de datos varía según el país; compruebe las normas aplicables antes de lanzar una campaña."},
+        {"h2": "Aprovechar las respuestas con honestidad"},
+        {"p": "Leer las respuestas no basta. Agrúpelas por temas, detecte los patrones recurrentes y distinga lo que es un incidente aislado de lo que revela un fallo de fondo. Comparta los resultados con los equipos implicados, incluidos los comentarios positivos."},
+        {"p": "Piense también en cerrar el círculo: cuando sea posible, informe a las personas de que su opinión condujo a un cambio. Estarán más dispuestas a responder la próxima vez."},
+        {"h2": "Encuestas y evaluación continua"},
+        {"p": "Las encuestas complementan otras formas de evaluación, como la escucha de intercambios o el análisis interno. En el modelo TAAS de HARX.ai, cada interacción se evalúa en tiempo real; una tarea puede consistir precisamente en realizar encuestas con un resultado definido, por ejemplo un número de cuestionarios completados según los criterios fijados por la empresa."},
+        {"p": "Sea cual sea el formato elegido, tenga presente a quien responde: una pregunta clara, un tono amable y un agradecimiento sincero hacen ya mucho por la calidad de las respuestas."}
+      ]
+    },
+    "ar": {
+      "title": "استبيانات الرضا: كيف تطرح الأسئلة الصحيحة",
+      "description": "كيف تصمم استبيان رضا قصيرًا ومحايدًا ومفيدًا: اختيار الأسئلة وصياغتها وتوقيت الإرسال والقنوات والاستفادة من الإجابات التي تجمعها.",
+      "blocks": [
+        {"h2": "الاستبيان للعمل لا للجمع"},
+        {"p": "لا قيمة لاستبيان الرضا إلا إذا أفضى إلى قرارات. وقبل كتابة أي سؤال، اسأل نفسك ماذا ستفعل بالإجابات: تحسين مسار، أو تدريب فريق، أو تصحيح معلومة. وكل سؤال لا يخدم قرارًا يمكن حذفه."},
+        {"p": "واحترام وقت المستجيبين لا يقل أهمية. فالاستبيان القصير يحصل عادةً على إجابات أكثر تأنيًا من استبيان طويل يُترك في منتصفه."},
+        {"h2": "اختيار أسئلة مفيدة"},
+        {"ul": [
+          "سؤال عن الرضا العام عن التفاعل أو الخدمة.",
+          "سؤال عن النتيجة: هل حُلّت الحاجة؟",
+          "سؤال أو سؤالان عن جوانب محددة: الوضوح والسرعة المدركة واللباقة.",
+          "سؤال مفتوح اختياري يتيح للشخص التعبير بحرية."
+        ]},
+        {"p": "والجمع بين أسئلة مغلقة يسهل مقارنتها وسؤال مفتوح غني بالفروق الدقيقة يعطي صورة أكمل."},
+        {"h2": "الصياغة دون توجيه"},
+        {"p": "تؤثر طريقة طرح السؤال في الجواب. فصيغة مثل «لقد أعجبتك خدمتنا الممتازة، أليس كذلك؟» تدفع نحو الموافقة. والأفضل جمل محايدة متماثلة."},
+        {"ul": [
+          "تجنب العبارات التي توحي بالإجابة الصحيحة.",
+          "اطرح فكرة واحدة في كل سؤال.",
+          "استعمل مفردات بسيطة خالية من المصطلحات الداخلية.",
+          "قدّم مقاييس متسقة من سؤال إلى آخر مع تسميات واضحة."
+        ]},
+        {"h2": "التوقيت المناسب والقناة المناسبة"},
+        {"p": "كلما اقترب الاستبيان من التفاعل كانت الذكريات أدق. وبحسب السياق يمكن عرضه في نهاية مكالمة، أو برسالة بعد محادثة مكتوبة، أو عبر متابعة قصيرة. ويجب أن تطابق القناة ما يستخدمه الشخص أصلًا."},
+        {"p": "وتتطلب الاستبيانات الهاتفية عناية خاصة: أعلن الغرض بوضوح، واسأل عمّا إذا كان الوقت مناسبًا، وتقبّل الرفض دون إلحاح. ويختلف الإطار القانوني للاتصال ومعالجة البيانات من بلد إلى آخر، فتحقق من القواعد المطبقة قبل إطلاق حملة."},
+        {"h2": "الاستفادة من الإجابات بأمانة"},
+        {"p": "لا تكفي قراءة الإجابات. صنّفها بحسب المواضيع، وارصد الأنماط المتكررة، وميّز بين الحادثة المعزولة وما يكشف خللًا أعمق. وشارك النتائج مع الفرق المعنية، بما فيها الملاحظات الإيجابية."},
+        {"p": "وفكّر أيضًا في إغلاق الدائرة: فحين يكون ذلك ممكنًا أخبر الناس أن رأيهم أدى إلى تغيير، فيكونون أكثر استعدادًا للإجابة في المرة القادمة."},
+        {"h2": "الاستبيانات والتقييم المستمر"},
+        {"p": "تكمّل الاستبيانات أشكال التقييم الأخرى كالاستماع إلى المحادثات والتحليل الداخلي. وفي نموذج TAAS من HARX.ai يُقيَّم كل تفاعل في الوقت الفعلي، وقد تتمثل المهمة نفسها في إجراء استبيانات بنتيجة محددة، كعدد استبيانات مكتملة وفق معايير تضعها الشركة."},
+        {"p": "ومهما كان الشكل المختار، ضع في ذهنك من يجيب: فسؤال واضح ونبرة ودودة وشكر صادق تفعل الكثير لجودة الإجابات."}
+      ]
+    }
+  }
+}

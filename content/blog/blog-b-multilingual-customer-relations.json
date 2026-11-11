@@ -1,0 +1,140 @@
+{
+  "type": "blog",
+  "slug": "blog-b-multilingual-customer-relations",
+  "date": "2026-11-07",
+  "langs": {
+    "fr": {
+      "title": "Relation client multilingue : français, anglais, espagnol, arabe",
+      "description": "Servir des clients en français, anglais, espagnol et arabe : organisation, qualité de la langue, adaptation culturelle, outils et suivi pour bien faire.",
+      "blocks": [
+        {"h2": "Parler la langue du client, c'est lui parler à lui"},
+        {"p": "Répondre à un client dans sa langue change la nature de la relation. Il se sent compris, il explique plus facilement son problème et il accorde plus aisément sa confiance. Pour une entreprise qui s'adresse à des publics francophones, anglophones, hispanophones et arabophones, le multilinguisme n'est pas un détail : c'est une manière d'être accessible."},
+        {"p": "Mais proposer plusieurs langues ne se résume pas à traduire. Il s'agit de maintenir une même qualité de service dans chacune, avec ses nuances et ses usages."},
+        {"h2": "Distinguer maîtrise orale, écrite et culturelle"},
+        {"p": "On peut être à l'aise à l'oral sans l'être à l'écrit, et inversement. Selon les canaux que vous proposez, les besoins diffèrent : le téléphone exige une bonne compréhension à l'oreille et une élocution claire, l'e-mail une rédaction soignée, le chat une réactivité écrite."},
+        {"ul": [
+          "Évaluer chaque langue pour chaque canal, pas globalement.",
+          "Tester la compréhension de situations réelles, pas seulement du vocabulaire.",
+          "Prêter attention aux registres : formel, courant, familier.",
+          "Vérifier la connaissance des usages de politesse propres à chaque public."
+        ]},
+        {"h2": "Adapter le ton et les références"},
+        {"p": "Chaque langue porte ses codes de politesse. Le niveau de formalité, la manière de saluer, la place accordée aux formules de courtoisie varient. En arabe, par exemple, on peut rencontrer un registre standard dans l'écrit et des variantes régionales à l'oral ; il est utile de savoir à quel public l'on s'adresse. En espagnol, des différences existent entre régions."},
+        {"p": "Évitez les expressions trop imagées ou les références locales qui ne passeront pas dans une autre culture. Une phrase simple et claire est préférable à un trait d'esprit mal compris."},
+        {"h2": "Soigner les contenus de support"},
+        {"ul": [
+          "Des réponses types rédigées par des personnes qui maîtrisent la langue, pas seulement traduites.",
+          "Des consignes qui indiquent ce qui doit rester identique et ce qui peut s'adapter.",
+          "Un lexique commun pour les termes propres à l'entreprise.",
+          "Une relecture régulière pour corriger les formulations qui sonnent artificielles."
+        ]},
+        {"p": "Les outils d'assistance, y compris l'IA, peuvent aider à traduire ou à proposer des formulations. Ils doivent rester sous contrôle humain pour les sujets sensibles, car une erreur de nuance peut changer le sens d'une réponse."},
+        {"h2": "Organiser la couverture et le suivi"},
+        {"p": "Il faut décider comment les demandes sont orientées vers la bonne langue, quels horaires sont couverts, et comment les cas de débordement sont gérés. Un client qui attend parce que personne ne parle sa langue en ce moment vivra mal l'expérience."},
+        {"p": "L'évaluation de la qualité doit se faire langue par langue, avec des évaluateurs qui les comprennent. Dans le modèle TAAS de HARX.ai, le réseau de professionnels du service client comprend des agents certifiés, humains ou IA, évalués interaction par interaction. Le site de HARX.ai lui-même est proposé en français, anglais, espagnol et arabe."},
+        {"h2": "Une téléphonie pensée pour la distance"},
+        {"p": "Pour recevoir des appels depuis plusieurs pays, HARX Téléphonie propose un numéro de votre pays, des appels entrants et sortants et une IA qui assiste. L'offre Company Full Scope In & Out s'adresse aux PME et aux équipes à distance qui mènent des ventes, de la relation client, du recouvrement ou du recrutement."}
+      ]
+    },
+    "en": {
+      "title": "Multilingual Customer Service: French, English, Spanish, Arabic",
+      "description": "Serving customers in French, English, Spanish and Arabic: organisation, language quality, cultural adaptation, tools and follow-up to get it right.",
+      "blocks": [
+        {"h2": "Speaking the customer's language means speaking to them"},
+        {"p": "Answering a customer in their language changes the nature of the relationship. They feel understood, explain their problem more easily and give their trust more readily. For a company addressing French-, English-, Spanish- and Arabic-speaking audiences, multilingualism is not a detail: it is a way of being accessible."},
+        {"p": "But offering several languages is more than translating. It means maintaining the same quality of service in each, with its nuances and customs."},
+        {"h2": "Distinguishing spoken, written and cultural mastery"},
+        {"p": "A person can be at ease speaking without being so in writing, and vice versa. Depending on the channels you offer, needs differ: the phone demands good listening comprehension and clear speech, email careful writing, chat written responsiveness."},
+        {"ul": [
+          "Assess each language for each channel, not globally.",
+          "Test understanding of real situations, not just vocabulary.",
+          "Pay attention to registers: formal, standard, informal.",
+          "Check knowledge of the politeness customs specific to each audience."
+        ]},
+        {"h2": "Adapting tone and references"},
+        {"p": "Each language carries its own politeness codes. The level of formality, the way of greeting and the place given to courtesy phrases vary. In Arabic, for example, you may meet a standard register in writing and regional variants in speech; it helps to know which audience you are addressing. In Spanish, differences exist between regions."},
+        {"p": "Avoid overly figurative expressions or local references that will not carry over to another culture. A simple, clear sentence is better than a witticism that is misunderstood."},
+        {"h2": "Looking after support content"},
+        {"ul": [
+          "Model answers written by people who master the language, not merely translated.",
+          "Instructions that indicate what must stay identical and what may be adapted.",
+          "A shared glossary for terms specific to the company.",
+          "Regular proofreading to fix wording that sounds artificial."
+        ]},
+        {"p": "Assistance tools, including AI, can help translate or suggest wording. They should remain under human control for sensitive topics, since an error of nuance can change the meaning of an answer."},
+        {"h2": "Organising coverage and follow-up"},
+        {"p": "You must decide how requests are routed to the right language, which hours are covered, and how overflow is handled. A customer who waits because nobody speaks their language at that moment will have a poor experience."},
+        {"p": "Quality assessment must be done language by language, with assessors who understand them. In the TAAS model from HARX.ai, the network of customer service professionals includes certified agents, human or AI, assessed interaction by interaction. The HARX.ai site itself is offered in French, English, Spanish and Arabic."},
+        {"h2": "Telephony designed for distance"},
+        {"p": "To receive calls from several countries, HARX Telephony offers a number from your country, inbound and outbound calls and an AI that assists. The Company Full Scope In & Out offer is aimed at small and mid-sized businesses and remote teams that run sales, customer relations, collection or recruitment."}
+      ]
+    },
+    "es": {
+      "title": "Atención multilingüe: francés, inglés, español y árabe",
+      "description": "Atender a clientes en francés, inglés, español y árabe: organización, calidad del idioma, adaptación cultural, herramientas y seguimiento para hacerlo bien.",
+      "blocks": [
+        {"h2": "Hablar el idioma del cliente es hablarle a él"},
+        {"p": "Responder a un cliente en su idioma cambia la naturaleza de la relación. Se siente comprendido, explica su problema con más facilidad y otorga su confianza con más naturalidad. Para una empresa que se dirige a públicos francófonos, anglófonos, hispanohablantes y arabófonos, el multilingüismo no es un detalle: es una forma de ser accesible."},
+        {"p": "Pero ofrecer varios idiomas no se reduce a traducir. Se trata de mantener la misma calidad de servicio en cada uno, con sus matices y sus usos."},
+        {"h2": "Distinguir el dominio oral, escrito y cultural"},
+        {"p": "Se puede estar cómodo hablando sin estarlo escribiendo, y al revés. Según los canales que ofrezca, las necesidades difieren: el teléfono exige buena comprensión auditiva y una dicción clara, el correo una redacción cuidada y el chat una reactividad escrita."},
+        {"ul": [
+          "Evaluar cada idioma para cada canal, no de forma global.",
+          "Probar la comprensión de situaciones reales, no solo del vocabulario.",
+          "Prestar atención a los registros: formal, corriente, coloquial.",
+          "Comprobar el conocimiento de los usos de cortesía propios de cada público."
+        ]},
+        {"h2": "Adaptar el tono y las referencias"},
+        {"p": "Cada idioma tiene sus códigos de cortesía. El grado de formalidad, la manera de saludar y el lugar que ocupan las fórmulas de cortesía varían. En árabe, por ejemplo, puede encontrarse un registro estándar en la escritura y variantes regionales en el habla; conviene saber a qué público se dirige. En español existen diferencias entre regiones."},
+        {"p": "Evite las expresiones demasiado figuradas o las referencias locales que no se entenderán en otra cultura. Una frase simple y clara es preferible a una ocurrencia mal comprendida."},
+        {"h2": "Cuidar los contenidos de soporte"},
+        {"ul": [
+          "Respuestas modelo redactadas por personas que dominan el idioma, no simplemente traducidas.",
+          "Instrucciones que indiquen qué debe mantenerse idéntico y qué puede adaptarse.",
+          "Un glosario común para los términos propios de la empresa.",
+          "Una revisión regular para corregir las formulaciones que suenan artificiales."
+        ]},
+        {"p": "Las herramientas de asistencia, incluida la IA, pueden ayudar a traducir o a proponer formulaciones. Deben seguir bajo control humano en los temas delicados, ya que un error de matiz puede cambiar el sentido de una respuesta."},
+        {"h2": "Organizar la cobertura y el seguimiento"},
+        {"p": "Hay que decidir cómo se dirigen las solicitudes al idioma adecuado, qué horarios se cubren y cómo se gestionan los desbordamientos. Un cliente que espera porque nadie habla su idioma en ese momento vivirá mal la experiencia."},
+        {"p": "La evaluación de la calidad debe hacerse idioma por idioma, con evaluadores que los entiendan. En el modelo TAAS de HARX.ai, la red de profesionales de atención al cliente comprende agentes certificados, humanos o de IA, evaluados interacción por interacción. El propio sitio de HARX.ai se ofrece en francés, inglés, español y árabe."},
+        {"h2": "Una telefonía pensada para la distancia"},
+        {"p": "Para recibir llamadas desde varios países, HARX Telefonía ofrece un número de su país, llamadas entrantes y salientes y una IA que asiste. La oferta Company Full Scope In & Out se dirige a pymes y equipos a distancia que realizan ventas, relación con el cliente, recobro o reclutamiento."}
+      ]
+    },
+    "ar": {
+      "title": "خدمة العملاء متعددة اللغات: الفرنسية والإنجليزية والإسبانية والعربية",
+      "description": "خدمة العملاء بالفرنسية والإنجليزية والإسبانية والعربية: التنظيم وجودة اللغة والتكيف الثقافي والأدوات والمتابعة لتقديم خدمة متقنة.",
+      "blocks": [
+        {"h2": "مخاطبة العميل بلغته مخاطبة له هو"},
+        {"p": "الردّ على العميل بلغته يغيّر طبيعة العلاقة. فهو يشعر بأنه مفهوم، ويشرح مشكلته بسهولة أكبر، ويمنح ثقته بسرعة أكبر. وبالنسبة إلى شركة تخاطب جمهورًا ناطقًا بالفرنسية والإنجليزية والإسبانية والعربية، فإن تعدد اللغات ليس تفصيلًا، بل هو وسيلة لتكون الشركة في المتناول."},
+        {"p": "لكن توفير عدة لغات لا يقتصر على الترجمة، بل يعني الحفاظ على جودة الخدمة نفسها في كل لغة بفروقها الدقيقة وأعرافها."},
+        {"h2": "التمييز بين الإتقان الشفهي والكتابي والثقافي"},
+        {"p": "قد يكون الشخص مرتاحًا في الكلام دون أن يكون كذلك في الكتابة، والعكس صحيح. وبحسب القنوات التي تقدمها تختلف الاحتياجات: فالهاتف يتطلب فهمًا سمعيًا جيدًا ونطقًا واضحًا، والبريد الإلكتروني يتطلب صياغة متقنة، والدردشة تتطلب سرعة استجابة كتابية."},
+        {"ul": [
+          "قيّم كل لغة لكل قناة على حدة وليس بصورة إجمالية.",
+          "اختبر فهم مواقف حقيقية لا المفردات وحدها.",
+          "انتبه إلى المستويات اللغوية: الرسمي والعادي والعامي.",
+          "تحقق من معرفة أعراف اللباقة الخاصة بكل جمهور."
+        ]},
+        {"h2": "تكييف النبرة والمراجع"},
+        {"p": "لكل لغة قواعدها في اللباقة. فدرجة الرسمية وطريقة التحية ومكانة عبارات المجاملة تختلف. ففي العربية مثلًا قد نجد مستوى فصيحًا في الكتابة ولهجات إقليمية في الحديث، ومن المفيد أن تعرف أي جمهور تخاطب. وفي الإسبانية توجد فروق بين المناطق."},
+        {"p": "وتجنّب العبارات المجازية المفرطة أو الإشارات المحلية التي لا تنتقل إلى ثقافة أخرى. فالجملة البسيطة الواضحة أفضل من نكتة يُساء فهمها."},
+        {"h2": "العناية بمحتويات الدعم"},
+        {"ul": [
+          "نماذج إجابات كتبها من يتقنون اللغة وليست مجرد ترجمة.",
+          "تعليمات تحدد ما يجب أن يبقى ثابتًا وما يمكن تكييفه.",
+          "معجم مشترك للمصطلحات الخاصة بالشركة.",
+          "مراجعة منتظمة لتصحيح الصياغات التي تبدو مصطنعة."
+        ]},
+        {"p": "ويمكن لأدوات المساعدة، ومنها الذكاء الاصطناعي، أن تعين على الترجمة أو اقتراح الصياغات. لكن ينبغي أن تبقى تحت رقابة بشرية في الموضوعات الحساسة، فخطأ في الفروق الدقيقة قد يغيّر معنى الجواب."},
+        {"h2": "تنظيم التغطية والمتابعة"},
+        {"p": "يجب أن تقرر كيف تُوجَّه الطلبات إلى اللغة المناسبة، وما الساعات المغطاة، وكيف تُعالج حالات الازدحام. فالعميل الذي ينتظر لأن لا أحد يتحدث لغته في تلك اللحظة ستكون تجربته سيئة."},
+        {"p": "ويجب أن يجري تقييم الجودة لغةً لغة، بمقيّمين يفهمونها. وفي نموذج TAAS من HARX.ai تضم شبكة محترفي خدمة العملاء وكلاء معتمدين، بشرًا أو ذكاءً اصطناعيًا، يُقيَّمون تفاعلًا بعد تفاعل. وموقع HARX.ai نفسه متاح بالفرنسية والإنجليزية والإسبانية والعربية."},
+        {"h2": "اتصالات هاتفية مصممة للعمل عن بُعد"},
+        {"p": "ولتلقي المكالمات من عدة بلدان، تقدم HARX للاتصالات الهاتفية رقمًا من بلدك ومكالمات واردة وصادرة وذكاءً اصطناعيًا يساعد. ويستهدف عرض Company Full Scope In & Out الشركات الصغيرة والمتوسطة والفرق عن بُعد التي تمارس المبيعات وعلاقة العملاء والتحصيل أو التوظيف."},
+        {"p": "ويستحسن في النهاية أن تبدأ بلغة واحدة أو لغتين تتقنهما فعلًا، ثم تضيف لغات أخرى تدريجيًا بعد التأكد من أن الجودة محفوظة، فتوسيع اللغات قبل اكتمال الاستعداد يضر بالتجربة أكثر مما ينفع."}
+      ]
+    }
+  }
+}

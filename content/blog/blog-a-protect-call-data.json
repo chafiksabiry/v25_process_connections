@@ -1,103 +1,320 @@
 {
-  "type": "blog",
-  "slug": "blog-a-protect-call-data",
-  "date": "2026-10-27",
-  "langs": {
-    "fr": {
-      "title": "Protéger les données de vos appels : conseils de bon sens",
-      "description": "Accès, mots de passe, enregistrements, partage d'informations : des conseils généraux pour mieux protéger les données issues de vos appels professionnels.",
-      "blocks": [
-        {"p": "Chaque appel professionnel laisse des traces : un nom, un numéro, un motif, parfois des informations sensibles. Ces données méritent des précautions simples. Cet article donne des conseils généraux de bonne pratique. Il ne constitue pas un avis juridique : pour vos obligations précises, rapprochez-vous d'un conseil compétent."},
-        {"h2": "Savoir quelles données vous détenez"},
-        {"p": "On protège mieux ce que l'on connaît. Faites un inventaire simple des informations qui circulent autour de vos appels, et de l'endroit où elles se trouvent."},
-        {"ul": ["Journaux d'appels : numéros, dates, durées, notes.", "Messages laissés sur le répondeur.", "Notes manuscrites, tableurs, carnets personnels.", "Comptes rendus partagés avec des collègues ou des prestataires.", "Enregistrements éventuels d'appels, lorsque vous en réalisez."]},
-        {"p": "Posez-vous ensuite une question franche : ai-je vraiment besoin de garder tout cela, et pendant combien de temps ? Moins on conserve d'informations inutiles, moins on a de choses à protéger."},
-        {"h2": "Les gestes de base : accès, mots de passe, appareils"},
-        {"p": "La plupart des incidents viennent de failles très ordinaires. Quelques habitudes réduisent déjà beaucoup les risques."},
-        {"ul": ["Utilisez des mots de passe longs et différents pour chaque outil, idéalement avec un gestionnaire de mots de passe.", "Activez une vérification en deux étapes quand elle est proposée.", "Limitez l'accès aux journaux d'appels aux personnes qui en ont besoin.", "Verrouillez vos écrans et vos téléphones, et mettez-les à jour.", "Retirez les accès d'une personne qui quitte l'équipe, dès son départ."]},
-        {"p": "Méfiez-vous aussi des réseaux inconnus. Depuis un lieu public, évitez d'ouvrir des informations sensibles sans connexion de confiance."},
-        {"h2": "Enregistrements et partage d'informations : la prudence d'abord"},
-        {"p": "Enregistrer un appel est un sujet à part, soumis à des règles qui varient selon les pays et les situations. Avant d'enregistrer, renseignez-vous sur ce qui s'applique chez vous et sur la nécessité d'informer l'interlocuteur. En cas de doute, ne le faites pas sans avis qualifié."},
-        {"p": "Pour le partage, appliquez un principe de proportion : ne transmettez que ce qui est utile à la personne qui le reçoit. Évitez de copier des données de clients dans des messageries personnelles ou des conversations informelles."},
-        {"ul": ["Évitez de dicter des informations sensibles à voix haute dans un lieu public.", "Ne transférez pas de données d'appels vers des outils non validés.", "Supprimez régulièrement ce qui n'a plus d'utilité."]},
-        {"h2": "Choisir des outils sérieux et former l'équipe"},
-        {"p": "Un bon outil ne remplace pas de bonnes habitudes, mais il aide. Regardez comment une solution gère les accès, l'historique et le stockage, et lisez attentivement les informations fournies par l'éditeur. Ne tenez pas pour acquis ce qui n'est pas écrit."},
-        {"p": "HARX Téléphonie propose un journal d'appels et des appels entrants et sortants sur un numéro dédié, ce qui permet de centraliser l'historique plutôt que de le disperser sur des téléphones personnels. Cela ne dispense pas de bonnes pratiques internes, ni de vérifier les informations officielles du site HARX sur la confidentialité, accessibles depuis ses pages légales."},
-        {"h2": "Conclusion : peu de règles, appliquées régulièrement"},
-        {"p": "Protéger les données de vos appels repose sur des gestes simples : savoir ce que l'on détient, limiter les accès, rester prudent avec les enregistrements, partager avec mesure. Écrivez ces règles en une page, expliquez-les à l'équipe et revoyez-les de temps en temps. Pour toute question légale, adressez-vous à un professionnel du droit."}
-      ]
+ "type": "blog",
+ "slug": "blog-a-protect-call-data",
+ "date": "2026-10-27",
+ "langs": {
+  "fr": {
+   "title": "Protéger les données de vos appels : conseils de bon sens",
+   "description": "Accès, mots de passe, enregistrements, partage d'informations : des conseils généraux pour mieux protéger les données issues de vos appels professionnels.",
+   "blocks": [
+    {
+     "p": "Chaque appel professionnel laisse des traces : un nom, un numéro, un motif, parfois des informations sensibles. Ces données méritent des précautions simples. Cet article donne des conseils généraux de bonne pratique. Il ne constitue pas un avis juridique : pour vos obligations précises, rapprochez-vous d'un conseil compétent."
     },
-    "en": {
-      "title": "Protecting Your Call Data: Common-Sense Advice",
-      "description": "Access, passwords, recordings, information sharing: general tips to better protect the data that comes from your business phone calls in everyday work.",
-      "blocks": [
-        {"p": "Every business call leaves traces: a name, a number, a reason, sometimes sensitive information. This data deserves simple precautions. This article gives general good-practice advice. It is not legal advice: for your precise obligations, consult a qualified adviser."},
-        {"h2": "Know what data you hold"},
-        {"p": "You protect better what you know about. Make a simple inventory of the information circulating around your calls, and where it sits."},
-        {"ul": ["Call logs: numbers, dates, durations, notes.", "Messages left on voicemail.", "Handwritten notes, spreadsheets, personal notebooks.", "Summaries shared with colleagues or providers.", "Call recordings, if you make any."]},
-        {"p": "Then ask yourself a frank question: do I really need to keep all this, and for how long? The less unnecessary information you keep, the less you have to protect."},
-        {"h2": "The basics: access, passwords, devices"},
-        {"p": "Most incidents come from very ordinary weaknesses. A few habits already cut the risks considerably."},
-        {"ul": ["Use long, different passwords for each tool, ideally with a password manager.", "Turn on two-step verification when offered.", "Limit access to call logs to people who need it.", "Lock your screens and phones, and keep them updated.", "Remove a person's access as soon as they leave the team."]},
-        {"p": "Be wary of unknown networks too. From a public place, avoid opening sensitive information without a trusted connection."},
-        {"h2": "Recordings and sharing information: caution first"},
-        {"p": "Recording a call is a topic of its own, subject to rules that vary by country and situation. Before recording, find out what applies where you are and whether the other person must be told. If in doubt, do not do it without qualified advice."},
-        {"p": "For sharing, apply a principle of proportion: pass on only what is useful to the person receiving it. Avoid copying customer data into personal messaging apps or informal chats."},
-        {"ul": ["Avoid dictating sensitive information aloud in a public place.", "Do not forward call data to unapproved tools.", "Regularly delete what is no longer useful."]},
-        {"h2": "Choose serious tools and train the team"},
-        {"p": "A good tool does not replace good habits, but it helps. Look at how a solution handles access, history and storage, and read the information provided by the vendor carefully. Do not take for granted what is not written down."},
-        {"p": "HARX Telephony offers a call log and inbound and outbound calls on a dedicated number, which lets you centralise history instead of scattering it across personal phones. That does not remove the need for good internal practices, nor for checking the official information on the HARX site about privacy, available from its legal pages."},
-        {"h2": "Conclusion: few rules, applied regularly"},
-        {"p": "Protecting your call data rests on simple gestures: know what you hold, limit access, stay cautious with recordings, share in proportion. Write these rules on one page, explain them to the team and review them from time to time. For any legal question, turn to a legal professional."}
-      ]
+    {
+     "h2": "Savoir quelles données vous détenez"
     },
-    "es": {
-      "title": "Proteger los datos de tus llamadas: consejos de sentido común",
-      "description": "Accesos, contraseñas, grabaciones, intercambio de información: consejos generales para proteger mejor los datos que generan tus llamadas profesionales.",
-      "blocks": [
-        {"p": "Cada llamada profesional deja huellas: un nombre, un número, un motivo y, a veces, información sensible. Estos datos merecen precauciones sencillas. Este artículo ofrece consejos generales de buena práctica. No constituye asesoramiento jurídico: para tus obligaciones concretas, consulta con un profesional competente."},
-        {"h2": "Saber qué datos tienes"},
-        {"p": "Se protege mejor lo que se conoce. Haz un inventario sencillo de la información que circula en torno a tus llamadas y de dónde se encuentra."},
-        {"ul": ["Registros de llamadas: números, fechas, duraciones, notas.", "Mensajes dejados en el buzón de voz.", "Notas manuscritas, hojas de cálculo, libretas personales.", "Resúmenes compartidos con compañeros o proveedores.", "Grabaciones de llamadas, si las haces."]},
-        {"p": "Hazte después una pregunta franca: ¿realmente necesito conservar todo esto y durante cuánto tiempo? Cuanta menos información innecesaria conserves, menos tendrás que proteger."},
-        {"h2": "Lo básico: accesos, contraseñas y dispositivos"},
-        {"p": "La mayoría de los incidentes proceden de fallos muy corrientes. Unos pocos hábitos ya reducen mucho los riesgos."},
-        {"ul": ["Usa contraseñas largas y distintas para cada herramienta, idealmente con un gestor de contraseñas.", "Activa la verificación en dos pasos cuando se ofrezca.", "Limita el acceso a los registros de llamadas a quienes lo necesitan.", "Bloquea pantallas y teléfonos y mantenlos actualizados.", "Retira los accesos de quien deja el equipo en cuanto se marcha."]},
-        {"p": "Desconfía también de las redes desconocidas. Desde un lugar público, evita abrir información sensible sin una conexión de confianza."},
-        {"h2": "Grabaciones e intercambio de información: primero, prudencia"},
-        {"p": "Grabar una llamada es un asunto aparte, sujeto a normas que varían según el país y la situación. Antes de grabar, infórmate de lo que se aplica donde estás y de si hay que avisar al interlocutor. Si tienes dudas, no lo hagas sin asesoramiento cualificado."},
-        {"p": "Al compartir, aplica un principio de proporción: transmite solo lo que sea útil para quien lo recibe. Evita copiar datos de clientes en mensajería personal o en conversaciones informales."},
-        {"ul": ["Evita dictar información sensible en voz alta en un lugar público.", "No reenvíes datos de llamadas a herramientas no validadas.", "Elimina con regularidad lo que ya no sirve."]},
-        {"h2": "Elegir herramientas serias y formar al equipo"},
-        {"p": "Una buena herramienta no sustituye a los buenos hábitos, pero ayuda. Mira cómo gestiona una solución los accesos, el historial y el almacenamiento, y lee con atención la información que ofrece el proveedor. No des por supuesto lo que no está escrito."},
-        {"p": "HARX Telefonía ofrece un registro de llamadas y llamadas entrantes y salientes sobre un número dedicado, lo que permite centralizar el historial en lugar de dispersarlo en teléfonos personales. Eso no exime de buenas prácticas internas ni de consultar la información oficial del sitio de HARX sobre privacidad, disponible en sus páginas legales."},
-        {"h2": "Conclusión: pocas reglas, aplicadas con regularidad"},
-        {"p": "Proteger los datos de tus llamadas se basa en gestos sencillos: saber qué se tiene, limitar los accesos, ser prudente con las grabaciones y compartir con mesura. Escribe estas reglas en una página, explícalas al equipo y revísalas de vez en cuando. Para cualquier duda legal, acude a un profesional del derecho."}
-      ]
+    {
+     "p": "On protège mieux ce que l'on connaît. Faites un inventaire simple des informations qui circulent autour de vos appels, et de l'endroit où elles se trouvent."
     },
-    "ar": {
-      "title": "حماية بيانات مكالماتك: نصائح من واقع الحس السليم",
-      "description": "الوصول وكلمات المرور والتسجيلات وتبادل المعلومات: نصائح عامة لحماية أفضل للبيانات الناتجة عن مكالماتك المهنية في العمل اليومي.",
-      "blocks": [
-        {"p": "تترك كل مكالمة مهنية آثارًا: اسمًا ورقمًا وسببًا، وأحيانًا معلومات حساسة. وهذه البيانات تستحق احتياطات بسيطة. يقدم هذا المقال نصائح عامة في الممارسة الجيدة، وهو ليس استشارة قانونية. ولمعرفة التزاماتك الدقيقة استعن بمختص مؤهل."},
-        {"h2": "اعرف ما تحتفظ به من بيانات"},
-        {"p": "نحمي بصورة أفضل ما نعرفه. أنشئ جردًا بسيطًا للمعلومات المتداولة حول مكالماتك ولأماكن وجودها."},
-        {"ul": ["سجلات المكالمات: الأرقام والتواريخ والمدد والملاحظات.", "الرسائل المتروكة في البريد الصوتي.", "الملاحظات المكتوبة بخط اليد وجداول البيانات والدفاتر الشخصية.", "الملخصات المشاركة مع الزملاء أو مقدمي الخدمات.", "تسجيلات المكالمات، إن كنت تجريها."]},
-        {"p": "ثم اسأل نفسك سؤالًا صريحًا: هل أحتاج فعلًا إلى الاحتفاظ بكل هذا، ولكم من الوقت؟ فكلما قلّت المعلومات غير الضرورية التي تحتفظ بها قلّ ما عليك حمايته."},
-        {"h2": "الأساسيات: الوصول وكلمات المرور والأجهزة"},
-        {"p": "تنشأ معظم الحوادث من ثغرات عادية جدًا. وبضع عادات تقلل المخاطر كثيرًا بالفعل."},
-        {"ul": ["استخدم كلمات مرور طويلة ومختلفة لكل أداة، ويُفضَّل مع مدير كلمات مرور.", "فعّل التحقق بخطوتين حين يُتاح.", "قصر الوصول إلى سجلات المكالمات على من يحتاج إليها.", "اقفل شاشاتك وهواتفك وحدّثها باستمرار.", "ألغِ صلاحيات من يغادر الفريق فور مغادرته."]},
-        {"p": "وتوخَّ الحذر من الشبكات المجهولة أيضًا. ففي مكان عام تجنّب فتح معلومات حساسة دون اتصال موثوق."},
-        {"h2": "التسجيلات وتبادل المعلومات: الحذر أولًا"},
-        {"p": "تسجيل المكالمة موضوع قائم بذاته تحكمه قواعد تختلف بحسب البلد والحالة. فقبل التسجيل استعلم عمّا ينطبق في مكانك وعمّا إذا كان يجب إبلاغ المحاور. وإذا ساورك شك فلا تفعل ذلك دون مشورة مؤهلة."},
-        {"p": "وعند المشاركة طبّق مبدأ التناسب: لا تنقل إلا ما يفيد من يستقبله. وتجنّب نسخ بيانات العملاء إلى تطبيقات مراسلة شخصية أو محادثات غير رسمية."},
-        {"ul": ["تجنّب إملاء معلومات حساسة بصوت مرتفع في مكان عام.", "لا تحوّل بيانات المكالمات إلى أدوات غير معتمدة.", "احذف بانتظام ما لم يعد مفيدًا."]},
-        {"h2": "اختر أدوات جادة ودرّب الفريق"},
-        {"p": "الأداة الجيدة لا تغني عن العادات الجيدة لكنها تساعد. انظر كيف يدير الحل الوصول والسجل والتخزين، واقرأ بعناية المعلومات التي يقدمها المزوّد. ولا تفترض صحة ما ليس مكتوبًا."},
-        {"p": "تقدّم HARX للاتصالات سجل مكالمات ومكالمات واردة وصادرة على رقم مخصص، مما يتيح تجميع السجل بدل بعثرته في هواتف شخصية. وهذا لا يغني عن ممارسات داخلية جيدة ولا عن الاطلاع على المعلومات الرسمية في موقع HARX بشأن الخصوصية، وهي متاحة في صفحاته القانونية."},
-        {"h2": "الخلاصة: قواعد قليلة تُطبَّق بانتظام"},
-        {"p": "تقوم حماية بيانات مكالماتك على إجراءات بسيطة: معرفة ما تحتفظ به وتقييد الوصول والحذر في التسجيلات والمشاركة بتناسب. اكتب هذه القواعد في صفحة واحدة واشرحها للفريق وراجعها من حين لآخر. ولأي مسألة قانونية توجّه إلى مختص في القانون."}
-      ]
+    {
+     "ul": [
+      "Journaux d'appels : numéros, dates, durées, notes.",
+      "Messages laissés sur le répondeur.",
+      "Notes manuscrites, tableurs, carnets personnels.",
+      "Comptes rendus partagés avec des collègues ou des prestataires.",
+      "Enregistrements éventuels d'appels, lorsque vous en réalisez."
+     ]
+    },
+    {
+     "p": "Posez-vous ensuite une question franche : ai-je vraiment besoin de garder tout cela, et pendant combien de temps ? Moins on conserve d'informations inutiles, moins on a de choses à protéger."
+    },
+    {
+     "h2": "Les gestes de base : accès, mots de passe, appareils"
+    },
+    {
+     "p": "La plupart des incidents viennent de failles très ordinaires. Quelques habitudes réduisent déjà beaucoup les risques."
+    },
+    {
+     "ul": [
+      "Utilisez des mots de passe longs et différents pour chaque outil, idéalement avec un gestionnaire de mots de passe.",
+      "Activez une vérification en deux étapes quand elle est proposée.",
+      "Limitez l'accès aux journaux d'appels aux personnes qui en ont besoin.",
+      "Verrouillez vos écrans et vos téléphones, et mettez-les à jour.",
+      "Retirez les accès d'une personne qui quitte l'équipe, dès son départ."
+     ]
+    },
+    {
+     "p": "Méfiez-vous aussi des réseaux inconnus. Depuis un lieu public, évitez d'ouvrir des informations sensibles sans connexion de confiance."
+    },
+    {
+     "h2": "Enregistrements et partage d'informations : la prudence d'abord"
+    },
+    {
+     "p": "Enregistrer un appel est un sujet à part, soumis à des règles qui varient selon les pays et les situations. Avant d'enregistrer, renseignez-vous sur ce qui s'applique chez vous et sur la nécessité d'informer l'interlocuteur. En cas de doute, ne le faites pas sans avis qualifié."
+    },
+    {
+     "p": "Pour le partage, appliquez un principe de proportion : ne transmettez que ce qui est utile à la personne qui le reçoit. Évitez de copier des données de clients dans des messageries personnelles ou des conversations informelles."
+    },
+    {
+     "ul": [
+      "Évitez de dicter des informations sensibles à voix haute dans un lieu public.",
+      "Ne transférez pas de données d'appels vers des outils non validés.",
+      "Supprimez régulièrement ce qui n'a plus d'utilité."
+     ]
+    },
+    {
+     "h2": "Choisir des outils sérieux et former l'équipe"
+    },
+    {
+     "p": "Un bon outil ne remplace pas de bonnes habitudes, mais il aide. Regardez comment une solution gère les accès, l'historique et le stockage, et lisez attentivement les informations fournies par l'éditeur. Ne tenez pas pour acquis ce qui n'est pas écrit."
+    },
+    {
+     "p": "HARX Téléphonie propose un journal d'appels et des appels entrants et sortants sur un numéro dédié, ce qui permet de centraliser l'historique plutôt que de le disperser sur des téléphones personnels. Cela ne dispense pas de bonnes pratiques internes, ni de vérifier les informations officielles du site HARX sur la confidentialité, accessibles depuis ses pages légales."
+    },
+    {
+     "h2": "Conclusion : peu de règles, appliquées régulièrement"
+    },
+    {
+     "p": "Protéger les données de vos appels repose sur des gestes simples : savoir ce que l'on détient, limiter les accès, rester prudent avec les enregistrements, partager avec mesure. Écrivez ces règles en une page, expliquez-les à l'équipe et revoyez-les de temps en temps. Pour toute question légale, adressez-vous à un professionnel du droit."
     }
+   ]
+  },
+  "en": {
+   "title": "Protecting Your Call Data: Common-Sense Advice",
+   "description": "Access, passwords, recordings, information sharing: general tips to better protect the data that comes from your business phone calls in everyday work.",
+   "blocks": [
+    {
+     "p": "Every business call leaves traces: a name, a number, a reason, sometimes sensitive information. This data deserves simple precautions. This article gives general good-practice advice. It is not legal advice: for your precise obligations, consult a qualified adviser."
+    },
+    {
+     "h2": "Know what data you hold"
+    },
+    {
+     "p": "You protect better what you know about. Make a simple inventory of the information circulating around your calls, and where it sits."
+    },
+    {
+     "ul": [
+      "Call logs: numbers, dates, durations, notes.",
+      "Messages left on voicemail.",
+      "Handwritten notes, spreadsheets, personal notebooks.",
+      "Summaries shared with colleagues or providers.",
+      "Call recordings, if you make any."
+     ]
+    },
+    {
+     "p": "Then ask yourself a frank question: do I really need to keep all this, and for how long? The less unnecessary information you keep, the less you have to protect."
+    },
+    {
+     "h2": "The basics: access, passwords, devices"
+    },
+    {
+     "p": "Most incidents come from very ordinary weaknesses. A few habits already cut the risks considerably."
+    },
+    {
+     "ul": [
+      "Use long, different passwords for each tool, ideally with a password manager.",
+      "Turn on two-step verification when offered.",
+      "Limit access to call logs to people who need it.",
+      "Lock your screens and phones, and keep them updated.",
+      "Remove a person's access as soon as they leave the team."
+     ]
+    },
+    {
+     "p": "Be wary of unknown networks too. From a public place, avoid opening sensitive information without a trusted connection."
+    },
+    {
+     "h2": "Recordings and sharing information: caution first"
+    },
+    {
+     "p": "Recording a call is a topic of its own, subject to rules that vary by country and situation. Before recording, find out what applies where you are and whether the other person must be told. If in doubt, do not do it without qualified advice."
+    },
+    {
+     "p": "For sharing, apply a principle of proportion: pass on only what is useful to the person receiving it. Avoid copying customer data into personal messaging apps or informal chats."
+    },
+    {
+     "ul": [
+      "Avoid dictating sensitive information aloud in a public place.",
+      "Do not forward call data to unapproved tools.",
+      "Regularly delete what is no longer useful."
+     ]
+    },
+    {
+     "h2": "Choose serious tools and train the team"
+    },
+    {
+     "p": "A good tool does not replace good habits, but it helps. Look at how a solution handles access, history and storage, and read the information provided by the vendor carefully. Do not take for granted what is not written down."
+    },
+    {
+     "p": "HARX Telephony offers a call log and inbound and outbound calls on a dedicated number, which lets you centralise history instead of scattering it across personal phones. That does not remove the need for good internal practices, nor for checking the official information on the HARX site about privacy, available from its legal pages."
+    },
+    {
+     "h2": "Conclusion: few rules, applied regularly"
+    },
+    {
+     "p": "Protecting your call data rests on simple gestures: know what you hold, limit access, stay cautious with recordings, share in proportion. Write these rules on one page, explain them to the team and review them from time to time. For any legal question, turn to a legal professional."
+    }
+   ]
+  },
+  "es": {
+   "title": "Proteger los datos de tus llamadas: consejos de sentido común",
+   "description": "Accesos, contraseñas, grabaciones, intercambio de información: consejos generales para proteger mejor los datos que generan tus llamadas profesionales.",
+   "blocks": [
+    {
+     "p": "Cada llamada profesional deja huellas: un nombre, un número, un motivo y, a veces, información sensible. Estos datos merecen precauciones sencillas. Este artículo ofrece consejos generales de buena práctica. No constituye asesoramiento jurídico: para tus obligaciones concretas, consulta con un profesional competente."
+    },
+    {
+     "h2": "Saber qué datos tienes"
+    },
+    {
+     "p": "Se protege mejor lo que se conoce. Haz un inventario sencillo de la información que circula en torno a tus llamadas y de dónde se encuentra."
+    },
+    {
+     "ul": [
+      "Registros de llamadas: números, fechas, duraciones, notas.",
+      "Mensajes dejados en el buzón de voz.",
+      "Notas manuscritas, hojas de cálculo, libretas personales.",
+      "Resúmenes compartidos con compañeros o proveedores.",
+      "Grabaciones de llamadas, si las haces."
+     ]
+    },
+    {
+     "p": "Hazte después una pregunta franca: ¿realmente necesito conservar todo esto y durante cuánto tiempo? Cuanta menos información innecesaria conserves, menos tendrás que proteger."
+    },
+    {
+     "h2": "Lo básico: accesos, contraseñas y dispositivos"
+    },
+    {
+     "p": "La mayoría de los incidentes proceden de fallos muy corrientes. Unos pocos hábitos ya reducen mucho los riesgos."
+    },
+    {
+     "ul": [
+      "Usa contraseñas largas y distintas para cada herramienta, idealmente con un gestor de contraseñas.",
+      "Activa la verificación en dos pasos cuando se ofrezca.",
+      "Limita el acceso a los registros de llamadas a quienes lo necesitan.",
+      "Bloquea pantallas y teléfonos y mantenlos actualizados.",
+      "Retira los accesos de quien deja el equipo en cuanto se marcha."
+     ]
+    },
+    {
+     "p": "Desconfía también de las redes desconocidas. Desde un lugar público, evita abrir información sensible sin una conexión de confianza."
+    },
+    {
+     "h2": "Grabaciones e intercambio de información: primero, prudencia"
+    },
+    {
+     "p": "Grabar una llamada es un asunto aparte, sujeto a normas que varían según el país y la situación. Antes de grabar, infórmate de lo que se aplica donde estás y de si hay que avisar al interlocutor. Si tienes dudas, no lo hagas sin asesoramiento cualificado."
+    },
+    {
+     "p": "Al compartir, aplica un principio de proporción: transmite solo lo que sea útil para quien lo recibe. Evita copiar datos de clientes en mensajería personal o en conversaciones informales."
+    },
+    {
+     "ul": [
+      "Evita dictar información sensible en voz alta en un lugar público.",
+      "No reenvíes datos de llamadas a herramientas no validadas.",
+      "Elimina con regularidad lo que ya no sirve."
+     ]
+    },
+    {
+     "h2": "Elegir herramientas serias y formar al equipo"
+    },
+    {
+     "p": "Una buena herramienta no sustituye a los buenos hábitos, pero ayuda. Mira cómo gestiona una solución los accesos, el historial y el almacenamiento, y lee con atención la información que ofrece el proveedor. No des por supuesto lo que no está escrito."
+    },
+    {
+     "p": "HARX Telefonía ofrece un registro de llamadas y llamadas entrantes y salientes sobre un número dedicado, lo que permite centralizar el historial en lugar de dispersarlo en teléfonos personales. Eso no exime de buenas prácticas internas ni de consultar la información oficial del sitio de HARX sobre privacidad, disponible en sus páginas legales."
+    },
+    {
+     "h2": "Conclusión: pocas reglas, aplicadas con regularidad"
+    },
+    {
+     "p": "Proteger los datos de tus llamadas se basa en gestos sencillos: saber qué se tiene, limitar los accesos, ser prudente con las grabaciones y compartir con mesura. Escribe estas reglas en una página, explícalas al equipo y revísalas de vez en cuando. Para cualquier duda legal, acude a un profesional del derecho."
+    }
+   ]
+  },
+  "ar": {
+   "title": "حماية بيانات مكالماتك: نصائح من واقع الحس السليم",
+   "description": "الوصول وكلمات المرور والتسجيلات وتبادل المعلومات: نصائح عامة لحماية أفضل للبيانات الناتجة عن مكالماتك المهنية في العمل اليومي.",
+   "blocks": [
+    {
+     "p": "تترك كل مكالمة مهنية آثارًا: اسمًا ورقمًا وسببًا، وأحيانًا معلومات حساسة. وهذه البيانات تستحق احتياطات بسيطة. يقدم هذا المقال نصائح عامة في الممارسة الجيدة، وهو ليس استشارة قانونية. ولمعرفة التزاماتك الدقيقة استعن بمختص مؤهل."
+    },
+    {
+     "h2": "اعرف ما تحتفظ به من بيانات"
+    },
+    {
+     "p": "نحمي بصورة أفضل ما نعرفه. أنشئ جردًا بسيطًا للمعلومات المتداولة حول مكالماتك ولأماكن وجودها."
+    },
+    {
+     "ul": [
+      "سجلات المكالمات: الأرقام والتواريخ والمدد والملاحظات.",
+      "الرسائل المتروكة في البريد الصوتي.",
+      "الملاحظات المكتوبة بخط اليد وجداول البيانات والدفاتر الشخصية.",
+      "الملخصات المشاركة مع الزملاء أو مقدمي الخدمات.",
+      "تسجيلات المكالمات، إن كنت تجريها."
+     ]
+    },
+    {
+     "p": "ثم اسأل نفسك سؤالًا صريحًا: هل أحتاج فعلًا إلى الاحتفاظ بكل هذا، ولكم من الوقت؟ فكلما قلّت المعلومات غير الضرورية التي تحتفظ بها قلّ ما عليك حمايته."
+    },
+    {
+     "h2": "الأساسيات: الوصول وكلمات المرور والأجهزة"
+    },
+    {
+     "p": "تنشأ معظم الحوادث من ثغرات عادية جدًا. وبضع عادات تقلل المخاطر كثيرًا بالفعل."
+    },
+    {
+     "ul": [
+      "استخدم كلمات مرور طويلة ومختلفة لكل أداة، ويُفضَّل مع مدير كلمات مرور.",
+      "فعّل التحقق بخطوتين حين يُتاح.",
+      "قصر الوصول إلى سجلات المكالمات على من يحتاج إليها.",
+      "اقفل شاشاتك وهواتفك وحدّثها باستمرار.",
+      "ألغِ صلاحيات من يغادر الفريق فور مغادرته."
+     ]
+    },
+    {
+     "p": "وتوخَّ الحذر من الشبكات المجهولة أيضًا. ففي مكان عام تجنّب فتح معلومات حساسة دون اتصال موثوق."
+    },
+    {
+     "h2": "التسجيلات وتبادل المعلومات: الحذر أولًا"
+    },
+    {
+     "p": "تسجيل المكالمة موضوع قائم بذاته تحكمه قواعد تختلف بحسب البلد والحالة. فقبل التسجيل استعلم عمّا ينطبق في مكانك وعمّا إذا كان يجب إبلاغ المحاور. وإذا ساورك شك فلا تفعل ذلك دون مشورة مؤهلة."
+    },
+    {
+     "p": "وعند المشاركة طبّق مبدأ التناسب: لا تنقل إلا ما يفيد من يستقبله. وتجنّب نسخ بيانات العملاء إلى تطبيقات مراسلة شخصية أو محادثات غير رسمية."
+    },
+    {
+     "ul": [
+      "تجنّب إملاء معلومات حساسة بصوت مرتفع في مكان عام.",
+      "لا تحوّل بيانات المكالمات إلى أدوات غير معتمدة.",
+      "احذف بانتظام ما لم يعد مفيدًا."
+     ]
+    },
+    {
+     "h2": "اختر أدوات جادة ودرّب الفريق"
+    },
+    {
+     "p": "الأداة الجيدة لا تغني عن العادات الجيدة لكنها تساعد. انظر كيف يدير الحل الوصول والسجل والتخزين، واقرأ بعناية المعلومات التي يقدمها المزوّد. ولا تفترض صحة ما ليس مكتوبًا."
+    },
+    {
+     "p": "تقدّم HARX للاتصالات سجل مكالمات ومكالمات واردة وصادرة على رقم مخصص، مما يتيح تجميع السجل بدل بعثرته في هواتف شخصية. وهذا لا يغني عن ممارسات داخلية جيدة ولا عن الاطلاع على المعلومات الرسمية في موقع HARX بشأن الخصوصية، وهي متاحة في صفحاته القانونية."
+    },
+    {
+     "p": "ومن العادات الجيدة أيضًا أن تعتمد سياسة بسيطة لمدة الاحتفاظ بالبيانات: تحدد مثلًا متى تُراجع السجلات القديمة ومن يقرر حذفها. فالاحتفاظ بكل شيء إلى الأبد يزيد المخاطر دون أن يضيف فائدة حقيقية."
+    },
+    {
+     "p": "وفي حالة حدوث أي شك، كفقدان هاتف أو إرسال رسالة إلى شخص خطأ، فلا تتجاهل الأمر. أبلغ المسؤول في فريقك سريعًا، وغيّر كلمات المرور المعنية، ودوّن ما حدث. فالتصرف السريع والصادق يحدّ كثيرًا من الضرر."
+    },
+    {
+     "p": "وأخيرًا تذكّر أن الأمان ثقافة قبل أن يكون أدوات. فحين يرى الجميع أن الحذر أمر طبيعي ومقبول، وأن السؤال قبل المشاركة أفضل من الندم بعدها، تصبح الحماية جزءًا من العمل اليومي."
+    },
+    {
+     "h2": "الخلاصة: قواعد قليلة تُطبَّق بانتظام"
+    },
+    {
+     "p": "تقوم حماية بيانات مكالماتك على إجراءات بسيطة: معرفة ما تحتفظ به وتقييد الوصول والحذر في التسجيلات والمشاركة بتناسب. اكتب هذه القواعد في صفحة واحدة واشرحها للفريق وراجعها من حين لآخر. ولأي مسألة قانونية توجّه إلى مختص في القانون."
+    }
+   ]
   }
+ }
 }
