@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-certified-agents-reps",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Agents et reps certifiés, humains ou IA : questions fréquentes",
+   "description": "Qui sont les agents et reps certifiés du réseau TAAS de HARX ? Humains ou IA, rôle dans les gigs et place de l’évaluation en temps réel.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Qui sont les agents et reps du réseau ?",
+       "a": "Ce sont des professionnels du service client, certifiés, qui réalisent les gigs publiés dans TAAS. Le réseau réunit des profils variés."
+      },
+      {
+       "q": "Les agents sont-ils tous humains ?",
+       "a": "Non. Le réseau compte des agents et reps humains ainsi que des IA. L’entreprise s’intéresse avant tout au résultat approuvé."
+      },
+      {
+       "q": "Que signifie « certifié » ?",
+       "a": "Cela indique que les professionnels du réseau sont certifiés. Le détail des critères n’est pas décrit ici : référez-vous aux informations présentées sur HARX.ai."
+      },
+      {
+       "q": "Quelle différence entre agent et rep ?",
+       "a": "Le terme rep désigne un représentant du service client côté réseau, qui trouve des gigs depuis l’espace REPS. Dans les deux cas, il s’agit de personnes ou d’IA qui réalisent des missions."
+      },
+      {
+       "q": "Comment le travail des reps est-il suivi ?",
+       "a": "Chaque interaction est évaluée en temps réel, quel que soit le type de rep. Le suivi porte donc sur le travail effectué."
+      },
+      {
+       "q": "Une entreprise peut-elle choisir entre humain et IA ?",
+       "a": "Le principe de TAAS est de définir un résultat et son prix. Les modalités de choix ne sont pas détaillées ici ; HARX.ai présente l’offre pour en savoir plus."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Certified Agents and Reps, Human or AI: Common Questions",
+   "description": "Who are the certified agents and reps in HARX’s TAAS network? Human or AI, their role in gigs and the place of real-time evaluation.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Who are the agents and reps in the network?",
+       "a": "They are certified customer service professionals who carry out the gigs published in TAAS. The network brings together a range of profiles."
+      },
+      {
+       "q": "Are all agents human?",
+       "a": "No. The network includes human agents and reps as well as AI ones. What matters most to the company is the approved result."
+      },
+      {
+       "q": "What does “certified” mean?",
+       "a": "It indicates that the network’s professionals are certified. The detailed criteria are not described here, so please refer to the information presented on HARX.ai."
+      },
+      {
+       "q": "What is the difference between an agent and a rep?",
+       "a": "A rep is a customer service representative on the network side who finds gigs from the REPS space. In both cases, these are people or AI carrying out missions."
+      },
+      {
+       "q": "How is reps’ work followed?",
+       "a": "Every interaction is evaluated in real time, whatever type of rep is involved. Follow-up therefore concerns the work actually done."
+      },
+      {
+       "q": "Can a company choose between human and AI?",
+       "a": "The principle of TAAS is to define a result and its price. Selection details are not covered here; HARX.ai presents the offer if you want to know more."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Agentes y reps certificados, humanos o IA: preguntas frecuentes",
+   "description": "¿Quiénes son los agentes y reps certificados de la red TAAS de HARX? Personas o IA, su papel en los gigs y la evaluación de cada interacción en tiempo real.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Quiénes son los agentes y reps de la red?",
+       "a": "Son profesionales de atención al cliente, certificados, que realizan los gigs publicados en TAAS. La red reúne perfiles variados."
+      },
+      {
+       "q": "¿Todos los agentes son personas?",
+       "a": "No. La red incluye agentes y reps humanos y también IA. A la empresa le interesa sobre todo el resultado aprobado."
+      },
+      {
+       "q": "¿Qué significa «certificado»?",
+       "a": "Indica que los profesionales de la red están certificados. Aquí no se detallan los criterios; consulte la información presentada en HARX.ai."
+      },
+      {
+       "q": "¿Qué diferencia hay entre agente y rep?",
+       "a": "El rep es un representante de atención al cliente del lado de la red que encuentra gigs desde el espacio REPS. En ambos casos son personas o IA que realizan misiones."
+      },
+      {
+       "q": "¿Cómo se sigue el trabajo de los reps?",
+       "a": "Cada interacción se evalúa en tiempo real, sea cual sea el tipo de rep. El seguimiento se centra, por tanto, en el trabajo realizado."
+      },
+      {
+       "q": "¿Puede la empresa elegir entre humano e IA?",
+       "a": "El principio de TAAS es definir un resultado y su precio. Aquí no se detallan las modalidades de elección; HARX.ai presenta la oferta para ampliar la información."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "الوكلاء والمندوبون المعتمدون، بشر أو ذكاء اصطناعي: أسئلة شائعة",
+   "description": "من هم الوكلاء والمندوبون المعتمدون في شبكة TAAS من HARX؟ بشر أو ذكاء اصطناعي، ودورهم في الـ gigs وموقع التقييم الفوري للتفاعلات.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "من هم الوكلاء والمندوبون في الشبكة؟",
+       "a": "هم محترفو خدمة عملاء معتمدون ينفّذون الـ gigs المنشورة في TAAS. وتضم الشبكة ملفات متنوعة."
+      },
+      {
+       "q": "هل جميع الوكلاء بشر؟",
+       "a": "لا. تضم الشبكة وكلاء ومندوبين من البشر وكذلك من الذكاء الاصطناعي. وما يهم الشركة أولاً هو النتيجة المعتمدة."
+      },
+      {
+       "q": "ماذا تعني كلمة «معتمد»؟",
+       "a": "تفيد بأن محترفي الشبكة معتمدون. ولا نفصّل المعايير هنا، فيُرجى الاطلاع على المعلومات المعروضة في HARX.ai."
+      },
+      {
+       "q": "ما الفرق بين الوكيل والمندوب؟",
+       "a": "المندوب (rep) ممثل لخدمة العملاء من جهة الشبكة، ويجد الـ gigs من مساحة REPS. وفي الحالتين هم أشخاص أو ذكاء اصطناعي ينفّذون المهام."
+      },
+      {
+       "q": "كيف يُتابَع عمل المندوبين؟",
+       "a": "يُقيَّم كل تفاعل في الوقت الفعلي أياً كان نوع المندوب، فتنصبّ المتابعة على العمل المنجز فعلاً."
+      },
+      {
+       "q": "هل تستطيع الشركة الاختيار بين البشري والذكاء الاصطناعي؟",
+       "a": "مبدأ TAAS هو تحديد نتيجة وسعرها. ولا نفصّل هنا طريقة الاختيار؛ وتعرض HARX.ai العرض لمن أراد المزيد."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

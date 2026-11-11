@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-harx-site-languages",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Langues du site HARX.ai : français, anglais, espagnol, arabe",
+   "description": "HARX.ai est disponible en français, anglais, espagnol et arabe. Comment changer de langue, et ce que cela implique pour la lecture du site.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Dans quelles langues le site est-il disponible ?",
+       "a": "HARX.ai existe en quatre langues : français (fr), anglais (en), espagnol (es) et arabe (ar)."
+      },
+      {
+       "q": "Comment changer de langue ?",
+       "a": "Le sélecteur de langue, en haut de page, propose les codes FR, EN, ES et AR. Un clic suffit pour afficher la page dans la langue choisie."
+      },
+      {
+       "q": "Le site s’affiche-t-il de droite à gauche en arabe ?",
+       "a": "L’arabe se lit de droite à gauche, et les pages en arabe sont affichées avec cette direction de lecture."
+      },
+      {
+       "q": "Les contenus sont-ils les mêmes dans chaque langue ?",
+       "a": "Les pages sont proposées dans les quatre langues, avec des textes rédigés pour chacune plutôt que de simples traductions mot à mot."
+      },
+      {
+       "q": "Les offres sont-elles identiques selon la langue ?",
+       "a": "Oui, les offres HARX présentées, TAAS et HARX Téléphonie, sont les mêmes quelle que soit la langue choisie."
+      },
+      {
+       "q": "Une autre langue est-elle prévue ?",
+       "a": "Aucune autre langue n’est annoncée. Le site existe pour l’instant en fr, en, es et ar."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "HARX.ai Site Languages: French, English, Spanish, Arabic",
+   "description": "HARX.ai is available in French, English, Spanish and Arabic. How to switch language and what it means for reading the site.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Which languages is the site available in?",
+       "a": "HARX.ai exists in four languages: French (fr), English (en), Spanish (es) and Arabic (ar)."
+      },
+      {
+       "q": "How do I switch language?",
+       "a": "The language selector at the top of the page offers the codes FR, EN, ES and AR. One click displays the page in the chosen language."
+      },
+      {
+       "q": "Is the site displayed right to left in Arabic?",
+       "a": "Arabic reads from right to left, and the Arabic pages are displayed in that reading direction."
+      },
+      {
+       "q": "Is the content the same in every language?",
+       "a": "Pages are offered in all four languages, with texts written for each rather than simple word-for-word translations."
+      },
+      {
+       "q": "Are the offers the same in every language?",
+       "a": "Yes. The HARX offers presented, TAAS and HARX Telephony, are the same whichever language you choose."
+      },
+      {
+       "q": "Are other languages planned?",
+       "a": "No other language has been announced. For now the site exists in fr, en, es and ar."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Idiomas del sitio HARX.ai: francés, inglés, español y árabe",
+   "description": "HARX.ai está disponible en francés, inglés, español y árabe. Cómo cambiar de idioma y qué implica para la lectura del sitio.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿En qué idiomas está disponible el sitio?",
+       "a": "HARX.ai existe en cuatro idiomas: francés (fr), inglés (en), español (es) y árabe (ar)."
+      },
+      {
+       "q": "¿Cómo cambio de idioma?",
+       "a": "El selector de idioma, en la parte superior, ofrece los códigos FR, EN, ES y AR. Basta un clic para ver la página en el idioma elegido."
+      },
+      {
+       "q": "¿Se muestra de derecha a izquierda en árabe?",
+       "a": "El árabe se lee de derecha a izquierda, y las páginas en árabe se muestran con esa dirección de lectura."
+      },
+      {
+       "q": "¿Los contenidos son iguales en cada idioma?",
+       "a": "Las páginas se ofrecen en los cuatro idiomas, con textos redactados para cada uno y no simples traducciones palabra por palabra."
+      },
+      {
+       "q": "¿Las ofertas son las mismas según el idioma?",
+       "a": "Sí. Las ofertas de HARX presentadas, TAAS y HARX Telefonía, son las mismas sea cual sea el idioma elegido."
+      },
+      {
+       "q": "¿Se prevé otro idioma?",
+       "a": "No se ha anunciado ningún otro idioma. Por ahora el sitio existe en fr, en, es y ar."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "لغات موقع HARX.ai: الفرنسية والإنجليزية والإسبانية والعربية",
+   "description": "يتوفر HARX.ai بالفرنسية والإنجليزية والإسبانية والعربية. كيف تغيّر اللغة وماذا يعني ذلك لقراءة الموقع وفهم عروضه.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "بأي لغات يتوفر الموقع؟",
+       "a": "يتوفر HARX.ai بأربع لغات: الفرنسية (fr) والإنجليزية (en) والإسبانية (es) والعربية (ar)."
+      },
+      {
+       "q": "كيف أغيّر اللغة؟",
+       "a": "يعرض محدد اللغة في أعلى الصفحة الرموز FR وEN وES وAR. وتكفي نقرة واحدة لعرض الصفحة باللغة المختارة."
+      },
+      {
+       "q": "هل يُعرض الموقع من اليمين إلى اليسار بالعربية؟",
+       "a": "تُقرأ العربية من اليمين إلى اليسار، وتُعرض الصفحات العربية بهذا الاتجاه."
+      },
+      {
+       "q": "هل المحتوى نفسه في كل لغة؟",
+       "a": "تتوفر الصفحات بجميع اللغات الأربع، بنصوص كُتبت لكل لغة وليست مجرد ترجمة حرفية."
+      },
+      {
+       "q": "هل العروض نفسها في كل اللغات؟",
+       "a": "نعم. عروض HARX المعروضة، وهي TAAS وHARX Telephony، هي نفسها أياً كانت اللغة المختارة."
+      },
+      {
+       "q": "هل هناك لغات أخرى مخططة؟",
+       "a": "لم تُعلن أي لغة أخرى. ويتوفر الموقع حالياً بـ fr وen وes وar."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

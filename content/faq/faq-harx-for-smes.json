@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-harx-for-smes",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "HARX pour les PME : téléphonie d’équipe, entrant et sortant",
+   "description": "PME et équipes à distance : comment organiser ventes, relation client, recouvrement et recrutement au téléphone ? Questions sur l’offre Company Full Scope In & Out.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Quelle offre HARX vise les PME ?",
+       "a": "Company Full Scope In & Out, dans HARX Téléphonie. Elle s’adresse aux PME et aux équipes à distance qui téléphonent dans plusieurs services."
+      },
+      {
+       "q": "Quels usages sont couverts ?",
+       "a": "Les ventes, la relation client, le recouvrement et le recrutement, en appels entrants comme sortants."
+      },
+      {
+       "q": "Pourquoi parler d’entrant et de sortant ?",
+       "a": "Une PME reçoit des appels de clients et en passe elle-même, par exemple pour prospecter ou relancer. Les deux flux demandent une organisation."
+      },
+      {
+       "q": "Comment organiser des équipes à distance ?",
+       "a": "Définissez qui répond à quoi, un message d’accueil clair et un suivi des appels partagé. Un numéro de votre pays rassure vos interlocuteurs."
+      },
+      {
+       "q": "Y a-t-il une IA ?",
+       "a": "HARX Téléphonie inclut une IA qui assiste. Elle sert à accompagner les appels ; l’offre précise ses modalités."
+      },
+      {
+       "q": "Comment démarrer ?",
+       "a": "L’abonnement est mensuel, avec minutes et IA prépayées, et la téléphonie est annoncée opérationnelle en quelques minutes."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "HARX for SMEs: Team Telephony, Inbound and Outbound",
+   "description": "SMEs and remote teams: how to organise sales, customer relations, collections and recruitment by phone? Questions on the Company Full Scope In & Out offer.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Which HARX offer is aimed at SMEs?",
+       "a": "Company Full Scope In & Out, within HARX Telephony. It is for SMEs and remote teams that make calls across several departments."
+      },
+      {
+       "q": "Which uses does it cover?",
+       "a": "Sales, customer relations, collections and recruitment, for both inbound and outbound calls."
+      },
+      {
+       "q": "Why talk about inbound and outbound?",
+       "a": "An SME receives customer calls and also places its own, for example to prospect or follow up. Both flows need organising."
+      },
+      {
+       "q": "How do I organise remote teams?",
+       "a": "Define who answers what, set a clear greeting and keep shared call tracking. A number from your country reassures callers."
+      },
+      {
+       "q": "Is there an AI?",
+       "a": "HARX Telephony includes an AI that assists. It supports calls; the offer spells out how."
+      },
+      {
+       "q": "How do I get started?",
+       "a": "The subscription is monthly, with prepaid minutes and AI, and the telephony is announced as operational within minutes."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "HARX para pymes: telefonía de equipo, entrante y saliente",
+   "description": "Pymes y equipos remotos: ¿cómo organizar ventas, relación con clientes, recobro y reclutamiento por teléfono? Preguntas sobre la oferta Company Full Scope In & Out.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué oferta de HARX se dirige a las pymes?",
+       "a": "Company Full Scope In & Out, dentro de HARX Telefonía. Está pensada para pymes y equipos remotos que llaman desde varios departamentos."
+      },
+      {
+       "q": "¿Qué usos cubre?",
+       "a": "Ventas, relación con clientes, recobro y reclutamiento, tanto en llamadas entrantes como salientes."
+      },
+      {
+       "q": "¿Por qué hablar de entrante y saliente?",
+       "a": "Una pyme recibe llamadas de clientes y también las realiza, por ejemplo para prospectar o hacer seguimiento. Ambos flujos requieren organización."
+      },
+      {
+       "q": "¿Cómo organizo equipos remotos?",
+       "a": "Defina quién atiende cada tema, un saludo claro y un seguimiento de llamadas compartido. Un número de su país tranquiliza a quien llama."
+      },
+      {
+       "q": "¿Hay IA?",
+       "a": "HARX Telefonía incluye una IA que asiste. Acompaña las llamadas; la oferta precisa cómo."
+      },
+      {
+       "q": "¿Cómo empiezo?",
+       "a": "La suscripción es mensual, con minutos e IA prepagados, y la telefonía se anuncia como operativa en pocos minutos."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "HARX للشركات المتوسطة: هاتف الفريق للمكالمات الواردة والصادرة",
+   "description": "الشركات المتوسطة والفرق عن بُعد: كيف تنظّم المبيعات وعلاقة العملاء والتحصيل والتوظيف هاتفياً؟ أسئلة حول عرض Company Full Scope In & Out.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "أي عرض من HARX يستهدف الشركات المتوسطة؟",
+       "a": "عرض Company Full Scope In & Out ضمن HARX Telephony، وهو موجه للشركات المتوسطة والفرق عن بُعد التي تجري مكالمات في عدة أقسام."
+      },
+      {
+       "q": "ما الاستخدامات التي يغطيها؟",
+       "a": "المبيعات وعلاقة العملاء والتحصيل والتوظيف، في المكالمات الواردة والصادرة معاً."
+      },
+      {
+       "q": "لماذا نتحدث عن الوارد والصادر؟",
+       "a": "تتلقى الشركة المتوسطة مكالمات العملاء وتجري مكالماتها أيضاً، كالتسويق أو المتابعة. ويحتاج التدفقان إلى تنظيم."
+      },
+      {
+       "q": "كيف أنظّم الفرق عن بُعد؟",
+       "a": "حدّد من يجيب عن ماذا، وضع ترحيباً واضحاً، واحتفظ بمتابعة مشتركة للمكالمات. ورقم من بلدك يطمئن من يتصلون بك."
+      },
+      {
+       "q": "هل هناك ذكاء اصطناعي؟",
+       "a": "يتضمن HARX Telephony ذكاءً اصطناعياً مساعداً يواكب المكالمات، ويوضح العرض آلية ذلك."
+      },
+      {
+       "q": "كيف أبدأ؟",
+       "a": "الاشتراك شهري، مع دقائق وذكاء اصطناعي مدفوعة مسبقاً، ويُعلن أن الهاتف جاهز للعمل في دقائق."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

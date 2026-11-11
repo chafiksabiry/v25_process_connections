@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-what-is-a-gig",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Qu’est-ce qu’un gig ? Définition et utilité dans TAAS",
+   "description": "Un gig est une mission dans l’univers TAAS de HARX. Découvrez ce qu’il contient, qui le réalise et pourquoi il est lié à un résultat approuvé.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Qu’est-ce qu’un gig ?",
+       "a": "Un gig est une mission. Dans TAAS, c’est l’unité de travail confiée à un professionnel du service client pour atteindre un résultat précis."
+      },
+      {
+       "q": "Que contient un gig ?",
+       "a": "Il repose sur le résultat attendu et son prix, définis par l’entreprise. Ces deux éléments cadrent la mission et servent de référence au moment de l’approuver."
+      },
+      {
+       "q": "Qui peut réaliser un gig ?",
+       "a": "Les agents et reps certifiés du réseau, qu’il s’agisse d’humains ou d’IA. Les reps trouvent les gigs depuis leur espace dédié."
+      },
+      {
+       "q": "Un gig est-il payé dès qu’il est terminé ?",
+       "a": "Non, il est payé lorsque son résultat est approuvé. Terminer la mission ne suffit pas : c’est l’approbation du résultat qui compte."
+      },
+      {
+       "q": "Comment la qualité d’un gig est-elle suivie ?",
+       "a": "Chaque interaction est évaluée en temps réel. L’entreprise et le rep disposent ainsi d’un suivi pendant la réalisation de la mission."
+      },
+      {
+       "q": "Puis-je déjà publier un gig ?",
+       "a": "La fonction « Publier un gig » de l’espace COMPANY est annoncée comme bientôt disponible. Elle n’est pas ouverte à ce jour sur HARX.ai."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "What Is a Gig? Definition and Role in TAAS",
+   "description": "A gig is a mission in HARX’s TAAS world. Learn what it contains, who carries it out and why it is tied to an approved result.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What is a gig?",
+       "a": "A gig is a mission. In TAAS, it is the unit of work entrusted to a customer service professional to reach a specific result."
+      },
+      {
+       "q": "What does a gig contain?",
+       "a": "It is built on the expected result and its price, both defined by the company. These two elements frame the mission and serve as the reference when approving it."
+      },
+      {
+       "q": "Who can carry out a gig?",
+       "a": "The network’s certified agents and reps, whether human or AI. Reps find gigs from their dedicated space."
+      },
+      {
+       "q": "Is a gig paid as soon as it is finished?",
+       "a": "No, it is paid when its result is approved. Finishing the mission is not enough; approval of the result is what counts."
+      },
+      {
+       "q": "How is a gig’s quality followed?",
+       "a": "Every interaction is evaluated in real time, so the company and the rep have visibility while the mission is being carried out."
+      },
+      {
+       "q": "Can I publish a gig yet?",
+       "a": "The “Publish a gig” feature in the COMPANY space is announced as coming soon. It is not open on HARX.ai at this time."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "¿Qué es un gig? Definición y papel dentro de TAAS",
+   "description": "Un gig es una misión dentro del universo TAAS de HARX. Descubra qué contiene, quién lo realiza y por qué está ligado a un resultado aprobado.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué es un gig?",
+       "a": "Un gig es una misión. En TAAS es la unidad de trabajo que se encomienda a un profesional de atención al cliente para lograr un resultado concreto."
+      },
+      {
+       "q": "¿Qué contiene un gig?",
+       "a": "Se basa en el resultado esperado y su precio, definidos por la empresa. Ambos elementos enmarcan la misión y sirven de referencia a la hora de aprobarla."
+      },
+      {
+       "q": "¿Quién puede realizar un gig?",
+       "a": "Los agentes y reps certificados de la red, sean personas o IA. Los reps encuentran los gigs desde su espacio dedicado."
+      },
+      {
+       "q": "¿Un gig se paga en cuanto termina?",
+       "a": "No, se paga cuando su resultado queda aprobado. Terminar la misión no basta: lo que cuenta es la aprobación del resultado."
+      },
+      {
+       "q": "¿Cómo se sigue la calidad de un gig?",
+       "a": "Cada interacción se evalúa en tiempo real, de modo que la empresa y el rep tienen seguimiento mientras se realiza la misión."
+      },
+      {
+       "q": "¿Ya puedo publicar un gig?",
+       "a": "La función «Publicar un gig» del espacio COMPANY está anunciada como próximamente disponible. Por ahora no está abierta en HARX.ai."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "ما هو الـ gig؟ التعريف ودوره في TAAS",
+   "description": "الـ gig هو مهمة في عالم TAAS من HARX. تعرّف على ما يتضمنه ومن ينفّذه ولماذا يرتبط بنتيجة معتمدة قبل الدفع.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ما هو الـ gig؟",
+       "a": "الـ gig هو مهمة. وفي TAAS هو وحدة العمل التي تُسند إلى أحد محترفي خدمة العملاء لتحقيق نتيجة محددة."
+      },
+      {
+       "q": "ماذا يتضمن الـ gig؟",
+       "a": "يقوم على النتيجة المنتظرة وسعرها اللذين تحددهما الشركة. ويؤطر هذان العنصران المهمة ويشكّلان المرجع عند الموافقة عليها."
+      },
+      {
+       "q": "من يستطيع تنفيذ gig؟",
+       "a": "الوكلاء والمندوبون المعتمدون في الشبكة، سواء كانوا بشراً أو ذكاءً اصطناعياً. ويجد المندوبون الـ gigs من مساحتهم المخصصة."
+      },
+      {
+       "q": "هل يُدفع مقابل الـ gig فور انتهائه؟",
+       "a": "لا، بل عند الموافقة على نتيجته. فإنهاء المهمة وحده لا يكفي، والمعتبر هو اعتماد النتيجة."
+      },
+      {
+       "q": "كيف تُتابَع جودة الـ gig؟",
+       "a": "يُقيَّم كل تفاعل في الوقت الفعلي، فتتوفر للشركة وللمندوب متابعة أثناء تنفيذ المهمة."
+      },
+      {
+       "q": "هل يمكنني نشر gig الآن؟",
+       "a": "ميزة «نشر gig» في مساحة COMPANY معلنة على أنها قريباً. وهي غير متاحة حالياً على HARX.ai."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

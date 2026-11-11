@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-harx-for-freelancers",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "HARX pour les freelances : numéro, répondeur et journal d’appels",
+   "description": "Freelance ou nomade, comment gérer vos appels professionnels ? Questions sur l’offre Nomad Solo de HARX Téléphonie : numéro français, répondeur, journal.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Pourquoi un freelance a-t-il besoin d’un numéro dédié ?",
+       "a": "Un numéro professionnel distinct de votre numéro personnel aide à séparer vie privée et activité, et donne une image plus claire à vos clients."
+      },
+      {
+       "q": "Quelle offre HARX vise les freelances ?",
+       "a": "Nomad Solo, dans HARX Téléphonie. Elle s’adresse aux freelances, aux nomades et aux travailleurs en France qui vivent à l’étranger."
+      },
+      {
+       "q": "Puis-je avoir un numéro français depuis l’étranger ?",
+       "a": "Oui, Nomad Solo propose un numéro français. C’est utile si vos clients sont en France alors que vous voyagez ou résidez ailleurs."
+      },
+      {
+       "q": "Que se passe-t-il si je ne peux pas répondre ?",
+       "a": "Un répondeur personnel prend le relais. Vos interlocuteurs peuvent laisser un message, ce qui évite de perdre une opportunité."
+      },
+      {
+       "q": "Comment suivre mes appels ?",
+       "a": "Un journal d’appels permet de retrouver qui a appelé et quand, pratique pour rappeler ses clients et organiser sa journée."
+      },
+      {
+       "q": "Quelques bons réflexes pour un indépendant ?",
+       "a": "Enregistrez un message d’accueil clair avec votre nom et votre activité, rappelez rapidement et notez les demandes. HARX Téléphonie vous aide à structurer tout cela."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "HARX for Freelancers: Number, Voicemail and Call Log",
+   "description": "Freelancer or nomad, how do you handle business calls? Questions on HARX Telephony’s Nomad Solo offer: French number, personal voicemail, call log.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Why does a freelancer need a dedicated number?",
+       "a": "A business number separate from your personal one helps keep private life and work apart, and gives your clients a clearer picture of your activity."
+      },
+      {
+       "q": "Which HARX offer is aimed at freelancers?",
+       "a": "Nomad Solo, within HARX Telephony. It is for freelancers, nomads and people working in France while living abroad."
+      },
+      {
+       "q": "Can I have a French number while abroad?",
+       "a": "Yes, Nomad Solo provides a French number. This is handy if your clients are in France while you travel or live elsewhere."
+      },
+      {
+       "q": "What happens if I cannot answer?",
+       "a": "A personal voicemail takes over. Callers can leave a message, so you do not lose an opportunity."
+      },
+      {
+       "q": "How do I keep track of my calls?",
+       "a": "A call log lets you see who called and when, useful for calling clients back and organising your day."
+      },
+      {
+       "q": "Any good habits for independents?",
+       "a": "Record a clear greeting with your name and activity, call back promptly and note down requests. HARX Telephony helps you structure all of this."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "HARX para freelances: número, buzón de voz y registro de llamadas",
+   "description": "Freelance o nómada, ¿cómo gestionar las llamadas profesionales? Preguntas sobre la oferta Nomad Solo de HARX Telefonía: número francés, buzón y registro.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Por qué necesita un freelance un número propio?",
+       "a": "Un número profesional distinto del personal ayuda a separar la vida privada de la actividad y da a sus clientes una imagen más clara."
+      },
+      {
+       "q": "¿Qué oferta de HARX se dirige a los freelances?",
+       "a": "Nomad Solo, dentro de HARX Telefonía. Está pensada para freelances, nómadas y personas que trabajan en Francia pero viven en el extranjero."
+      },
+      {
+       "q": "¿Puedo tener un número francés desde el extranjero?",
+       "a": "Sí, Nomad Solo ofrece un número francés. Es útil si sus clientes están en Francia mientras usted viaja o reside en otro lugar."
+      },
+      {
+       "q": "¿Qué pasa si no puedo contestar?",
+       "a": "Un buzón de voz personal toma el relevo. Quien llama puede dejar un mensaje, y así no se pierde una oportunidad."
+      },
+      {
+       "q": "¿Cómo hago el seguimiento de mis llamadas?",
+       "a": "Un registro de llamadas permite ver quién llamó y cuándo, útil para devolver llamadas y organizar la jornada."
+      },
+      {
+       "q": "¿Buenas prácticas para un autónomo?",
+       "a": "Grabe un saludo claro con su nombre y actividad, devuelva las llamadas con rapidez y anote las peticiones. HARX Telefonía le ayuda a estructurar todo esto."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "HARX للمستقلين: رقم مهني وبريد صوتي وسجل مكالمات",
+   "description": "مستقل أو متنقل، كيف تدير مكالماتك المهنية؟ أسئلة حول عرض Nomad Solo ضمن HARX Telephony: رقم فرنسي وبريد صوتي شخصي وسجل مكالمات.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "لماذا يحتاج المستقل إلى رقم مخصص؟",
+       "a": "الرقم المهني المنفصل عن رقمك الشخصي يساعد على الفصل بين حياتك الخاصة وعملك، ويمنح عملاءك صورة أوضح عن نشاطك."
+      },
+      {
+       "q": "أي عرض من HARX يستهدف المستقلين؟",
+       "a": "عرض Nomad Solo ضمن HARX Telephony. وهو موجه للمستقلين والمتنقلين والعاملين في فرنسا وهم يقيمون في الخارج."
+      },
+      {
+       "q": "هل أستطيع الحصول على رقم فرنسي وأنا في الخارج؟",
+       "a": "نعم، يوفر Nomad Solo رقماً فرنسياً. وهذا مفيد إن كان عملاؤك في فرنسا بينما تسافر أو تقيم في مكان آخر."
+      },
+      {
+       "q": "ماذا يحدث إن لم أستطع الرد؟",
+       "a": "يتولى بريد صوتي شخصي الأمر، فيستطيع المتصل ترك رسالة فلا تضيع عليك فرصة."
+      },
+      {
+       "q": "كيف أتابع مكالماتي؟",
+       "a": "يتيح سجل المكالمات معرفة من اتصل ومتى، وهو مفيد لإعادة الاتصال بالعملاء وتنظيم يومك."
+      },
+      {
+       "q": "ما العادات الجيدة للمستقل؟",
+       "a": "سجّل ترحيباً واضحاً بذكر اسمك ونشاطك، وأعد الاتصال بسرعة، ودوّن الطلبات. ويساعدك HARX Telephony على تنظيم ذلك كله."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

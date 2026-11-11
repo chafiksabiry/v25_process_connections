@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-measurable-service-outcome",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Qualité de service client : définir un résultat mesurable",
+   "description": "Comment définir un résultat de service client clair et mesurable ? Méthode simple pour formuler un objectif, le vérifier et décider quand l’approuver.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Qu’est-ce qu’un résultat mesurable ?",
+       "a": "C’est un résultat que l’on peut constater sans débat : il s’est produit ou non. Par exemple, une demande traitée selon des critères convenus à l’avance."
+      },
+      {
+       "q": "Pourquoi éviter les objectifs vagues ?",
+       "a": "« Bien répondre aux clients » se prête à des lectures différentes. Un objectif précis permet à chacun de savoir ce qui est attendu et quand c’est atteint."
+      },
+      {
+       "q": "Comment formuler un bon résultat ?",
+       "a": "Décrivez la situation de départ, ce qui doit être obtenu, les conditions à respecter et la manière de le vérifier. Gardez une phrase simple par critère."
+      },
+      {
+       "q": "Faut-il se limiter à des chiffres ?",
+       "a": "Non. Un résultat mesurable peut être qualitatif, tant que les critères sont explicites et partagés. L’essentiel est qu’il soit vérifiable."
+      },
+      {
+       "q": "Comment cela s’applique-t-il à TAAS ?",
+       "a": "Dans TAAS, l’entreprise définit le résultat attendu et son prix, puis ne paie qu’à l’approbation. Un résultat bien défini rend cette approbation plus simple."
+      },
+      {
+       "q": "Comment suivre la qualité pendant la mission ?",
+       "a": "En observant les interactions. TAAS évalue chaque interaction en temps réel, ce qui aide à vérifier que le travail va dans la bonne direction."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Customer Service Quality: Defining a Measurable Outcome",
+   "description": "How do you define a clear, measurable customer service outcome? A simple method to word an objective, verify it and decide when to approve it.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What is a measurable outcome?",
+       "a": "It is a result you can establish without debate: it either happened or it did not. For example, a request handled according to criteria agreed in advance."
+      },
+      {
+       "q": "Why avoid vague objectives?",
+       "a": "“Answer customers well” invites different readings. A precise objective lets everyone know what is expected and when it has been reached."
+      },
+      {
+       "q": "How do I word a good outcome?",
+       "a": "Describe the starting situation, what must be obtained, the conditions to respect and how it will be checked. Keep one simple sentence per criterion."
+      },
+      {
+       "q": "Must it be limited to numbers?",
+       "a": "No. A measurable outcome can be qualitative as long as the criteria are explicit and shared. What matters is that it can be verified."
+      },
+      {
+       "q": "How does this apply to TAAS?",
+       "a": "In TAAS, the company defines the expected result and its price, then pays only on approval. A well-defined result makes that approval simpler."
+      },
+      {
+       "q": "How do I follow quality during the mission?",
+       "a": "By observing interactions. TAAS evaluates every interaction in real time, which helps check that the work is heading the right way."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Calidad en atención al cliente: definir un resultado medible",
+   "description": "¿Cómo definir un resultado de atención al cliente claro y medible? Un método sencillo para formular un objetivo, verificarlo y decidir cuándo aprobarlo.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué es un resultado medible?",
+       "a": "Es un resultado que se puede constatar sin debate: ocurrió o no. Por ejemplo, una solicitud tramitada según criterios acordados de antemano."
+      },
+      {
+       "q": "¿Por qué evitar objetivos vagos?",
+       "a": "«Atender bien a los clientes» admite lecturas distintas. Un objetivo preciso permite saber qué se espera y cuándo se ha logrado."
+      },
+      {
+       "q": "¿Cómo formular un buen resultado?",
+       "a": "Describa la situación de partida, lo que debe obtenerse, las condiciones que respetar y cómo se comprobará. Una frase simple por criterio."
+      },
+      {
+       "q": "¿Hay que limitarse a cifras?",
+       "a": "No. Un resultado medible puede ser cualitativo si los criterios son explícitos y compartidos. Lo esencial es que sea verificable."
+      },
+      {
+       "q": "¿Cómo se aplica a TAAS?",
+       "a": "En TAAS, la empresa define el resultado esperado y su precio, y solo paga al aprobarlo. Un resultado bien definido facilita esa aprobación."
+      },
+      {
+       "q": "¿Cómo seguir la calidad durante la misión?",
+       "a": "Observando las interacciones. TAAS evalúa cada interacción en tiempo real, lo que ayuda a comprobar que el trabajo va en la buena dirección."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "جودة خدمة العملاء: كيف تحدد نتيجة قابلة للقياس",
+   "description": "كيف تحدد نتيجة واضحة وقابلة للقياس في خدمة العملاء؟ طريقة بسيطة لصياغة الهدف والتحقق منه وتقرير متى تعتمده.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ما النتيجة القابلة للقياس؟",
+       "a": "هي نتيجة يمكن التثبت منها دون جدال: إما حدثت أو لم تحدث. مثل طلب عولج وفق معايير اتُّفق عليها مسبقاً."
+      },
+      {
+       "q": "لماذا نتجنب الأهداف الغامضة؟",
+       "a": "عبارة «الرد الجيد على العملاء» تحتمل قراءات مختلفة، أما الهدف الدقيق فيتيح للجميع معرفة المطلوب ومتى تحقق."
+      },
+      {
+       "q": "كيف أصوغ نتيجة جيدة؟",
+       "a": "صِف الوضع الابتدائي وما يجب تحقيقه والشروط الواجب احترامها وطريقة التحقق. واجعل لكل معيار جملة بسيطة واحدة."
+      },
+      {
+       "q": "هل يجب الاقتصار على الأرقام؟",
+       "a": "لا. قد تكون النتيجة القابلة للقياس نوعية ما دامت المعايير صريحة ومشتركة. والأهم أن تكون قابلة للتحقق."
+      },
+      {
+       "q": "كيف ينطبق ذلك على TAAS؟",
+       "a": "في TAAS تحدد الشركة النتيجة المنتظرة وسعرها، ثم لا تدفع إلا عند الموافقة. وتحديد النتيجة جيداً يسهّل هذه الموافقة."
+      },
+      {
+       "q": "كيف أتابع الجودة أثناء المهمة؟",
+       "a": "بملاحظة التفاعلات. يقيّم TAAS كل تفاعل في الوقت الفعلي، مما يساعد على التأكد من أن العمل يسير في الاتجاه الصحيح."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
