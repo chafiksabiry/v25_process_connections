@@ -1,0 +1,289 @@
+{
+ "type": "blog",
+ "slug": "blog-a-train-new-phone-agent",
+ "date": "2026-10-23",
+ "langs": {
+  "fr": {
+   "title": "Comment former un nouvel agent au téléphone, étape par étape",
+   "description": "Observation, simulations, premiers appels accompagnés et retours réguliers : un parcours simple pour former un nouvel agent téléphonique en confiance.",
+   "blocks": [
+    {
+     "p": "Décrocher un téléphone paraît naturel, jusqu'au jour où l'on doit le faire face à un client mécontent, avec un outil que l'on découvre. Former un nouvel agent ne se résume pas à lui remettre un script. C'est un parcours progressif, où l'on apprend en observant, en s'exerçant puis en échangeant sur ce qui s'est passé."
+    },
+    {
+     "h2": "Poser les bases avant le premier appel"
+    },
+    {
+     "p": "Le premier temps est celui de la compréhension. L'agent doit savoir ce que fait l'entreprise, à qui elle s'adresse et ce qu'elle promet à ses clients. Sans ce socle, il répondra de façon approximative ou hésitante."
+    },
+    {
+     "ul": [
+      "Présentation de l'activité, des offres et des questions fréquentes.",
+      "Ton et formules d'accueil attendus.",
+      "Limites de ce qu'il peut dire et décider seul.",
+      "Marche à suivre quand il ne connaît pas la réponse : à qui transmettre, comment noter."
+     ]
+    },
+    {
+     "p": "Prévoyez un document court, consultable pendant l'appel, plutôt qu'un manuel qu'on ne rouvre jamais. Une liste de questions fréquentes avec des réponses types rassure beaucoup les débutants."
+    },
+    {
+     "h2": "Apprendre en observant, puis en simulant"
+    },
+    {
+     "p": "Avant de répondre seul, le nouvel agent gagne à écouter des appels réels, en direct ou enregistrés, lorsque l'organisation le permet et que chacun en est informé. Il repère ainsi les bons réflexes : comment on se présente, comment on reformule, comment on clôt."
+    },
+    {
+     "p": "Viennent ensuite les mises en situation. Un formateur ou un collègue joue le client, avec des scénarios variés : demande simple, client pressé, réclamation, question hors périmètre. Le jeu de rôle permet de se tromper sans conséquence."
+    },
+    {
+     "ul": [
+      "Commencez par des cas simples, puis augmentez la difficulté.",
+      "Variez les profils d'appelants.",
+      "Terminez chaque simulation par un bref retour : ce qui était bien, ce qui peut progresser."
+     ]
+    },
+    {
+     "h2": "Des premiers appels accompagnés"
+    },
+    {
+     "p": "Le passage au réel doit se faire avec un filet de sécurité. Au début, un collègue expérimenté peut écouter ou rester disponible pour aider si l'agent est bloqué. Le but n'est pas de surveiller, mais de rassurer et d'apprendre ensemble."
+    },
+    {
+     "p": "Après chaque appel important, prenez quelques minutes pour échanger. Demandez d'abord à l'agent comment il a vécu l'appel, puis complétez. Une personne qui s'analyse elle-même progresse plus vite que celle à qui l'on ne fait que des reproches."
+    },
+    {
+     "p": "Augmentez progressivement l'autonomie : d'abord les appels simples, puis les cas plus délicats. Un agent mis trop tôt devant des situations difficiles perd confiance, et cela se ressent dans sa voix."
+    },
+    {
+     "h2": "Suivre dans la durée et outiller l'équipe"
+    },
+    {
+     "p": "La formation ne s'arrête pas après la première semaine. Des points réguliers, une écoute de quelques appels choisis et la mise à jour des réponses types maintiennent la qualité. Un journal d'appels partagé aide à repérer les situations qui reviennent et qui méritent une consigne claire."
+    },
+    {
+     "p": "HARX Téléphonie, avec ses appels entrants et sortants et son journal d'appels, peut servir de support à ce suivi pour une équipe à distance ou une petite structure. Pour des centres d'appels, l'offre Contact Centre Multi-clients s'adresse à des agents sur plateau ou à distance, ce qui rend la question de la formation encore plus structurante."
+    },
+    {
+     "h2": "Conclusion : former, c'est accompagner dans la durée"
+    },
+    {
+     "p": "Un nouvel agent formé en confiance rend le service plus agréable pour tous. Posez les bases, faites observer, simulez, accompagnez les premiers appels et gardez un rythme de retours. Ce parcours demande du temps au départ, mais il évite des erreurs coûteuses en image et construit une équipe qui progresse ensemble. HARX Téléphonie peut ainsi accompagner l'équipe dès les premiers jours."
+    }
+   ]
+  },
+  "en": {
+   "title": "How to Train a New Phone Agent, Step by Step",
+   "description": "Observation, simulations, supported first calls and regular feedback: a simple path to train a new phone agent with confidence and a lasting result.",
+   "blocks": [
+    {
+     "p": "Picking up a phone seems natural, until the day you have to do it facing an unhappy customer with a tool you are only just discovering. Training a new agent is not just handing over a script. It is a gradual path where people learn by watching, practising and then talking through what happened."
+    },
+    {
+     "h2": "Lay the foundations before the first call"
+    },
+    {
+     "p": "The first stage is understanding. The agent must know what the company does, who it serves and what it promises customers. Without that base, answers will be approximate or hesitant."
+    },
+    {
+     "ul": [
+      "A presentation of the activity, the offers and frequent questions.",
+      "The tone and greeting formulas expected.",
+      "The limits of what they can say and decide alone.",
+      "What to do when they do not know the answer: whom to pass it to, how to note it."
+     ]
+    },
+    {
+     "p": "Provide a short document that can be consulted during the call rather than a manual nobody reopens. A list of frequent questions with model answers reassures beginners enormously."
+    },
+    {
+     "h2": "Learn by watching, then by simulating"
+    },
+    {
+     "p": "Before answering alone, the new agent benefits from listening to real calls, live or recorded, where the organisation allows it and everyone is informed. They pick up good reflexes: how to introduce yourself, how to rephrase, how to close."
+    },
+    {
+     "p": "Role-play comes next. A trainer or colleague plays the customer, with varied scenarios: a simple request, a hurried customer, a complaint, a question outside scope. Role-play lets people make mistakes without consequences."
+    },
+    {
+     "ul": [
+      "Start with simple cases, then increase the difficulty.",
+      "Vary the caller profiles.",
+      "End each simulation with brief feedback: what was good, what can improve."
+     ]
+    },
+    {
+     "h2": "Supported first calls"
+    },
+    {
+     "p": "Moving to real calls should come with a safety net. At the start, an experienced colleague can listen or stay available to help if the agent gets stuck. The goal is not to police, but to reassure and learn together."
+    },
+    {
+     "p": "After each important call, take a few minutes to talk. Ask the agent first how they experienced the call, then add your own view. People who analyse themselves improve faster than those who only receive criticism."
+    },
+    {
+     "p": "Increase autonomy gradually: simple calls first, then more delicate cases. An agent put in front of difficult situations too early loses confidence, and it shows in their voice."
+    },
+    {
+     "h2": "Follow up over time and equip the team"
+    },
+    {
+     "p": "Training does not stop after the first week. Regular check-ins, listening to a few chosen calls and updating the model answers maintain quality. A shared call log helps spot recurring situations that deserve a clear instruction."
+    },
+    {
+     "p": "HARX Telephony, with its inbound and outbound calls and call log, can support this follow-up for a remote team or a small organisation. For call centres, the Multi-client Contact Centre offer is aimed at agents on site or remote, which makes training an even more structuring question."
+    },
+    {
+     "h2": "Conclusion: training means supporting over time"
+    },
+    {
+     "p": "A new agent trained with confidence makes the service better for everyone. Lay the foundations, let them observe, simulate, support the first calls and keep a rhythm of feedback. This path takes time at the start, but it avoids mistakes that are costly to your image and builds a team that progresses together. HARX Telephony can thus accompany the team from the very first days."
+    }
+   ]
+  },
+  "es": {
+   "title": "Cómo formar a un nuevo agente telefónico, paso a paso",
+   "description": "Observación, simulaciones, primeras llamadas acompañadas y revisiones periódicas: un recorrido sencillo para formar con confianza a un nuevo agente telefónico.",
+   "blocks": [
+    {
+     "p": "Descolgar un teléfono parece natural, hasta el día en que hay que hacerlo ante un cliente enfadado y con una herramienta que se acaba de descubrir. Formar a un nuevo agente no consiste solo en entregarle un guion. Es un recorrido progresivo en el que se aprende observando, practicando y comentando después lo ocurrido."
+    },
+    {
+     "h2": "Sentar las bases antes de la primera llamada"
+    },
+    {
+     "p": "La primera etapa es la comprensión. El agente debe saber qué hace la empresa, a quién se dirige y qué promete a sus clientes. Sin esa base, responderá de forma aproximada o dubitativa."
+    },
+    {
+     "ul": [
+      "Presentación de la actividad, las ofertas y las preguntas frecuentes.",
+      "Tono y fórmulas de bienvenida esperados.",
+      "Límites de lo que puede decir y decidir por sí solo.",
+      "Qué hacer cuando no conoce la respuesta: a quién transmitirla y cómo anotarla."
+     ]
+    },
+    {
+     "p": "Prepara un documento breve, consultable durante la llamada, en lugar de un manual que nadie vuelve a abrir. Una lista de preguntas frecuentes con respuestas tipo tranquiliza mucho a los principiantes."
+    },
+    {
+     "h2": "Aprender observando y luego simulando"
+    },
+    {
+     "p": "Antes de contestar solo, al nuevo agente le conviene escuchar llamadas reales, en directo o grabadas, cuando la organización lo permita y todos estén informados. Así detecta los buenos reflejos: cómo presentarse, cómo reformular, cómo cerrar."
+    },
+    {
+     "p": "Después vienen las simulaciones. Un formador o un compañero hace de cliente, con escenarios variados: petición sencilla, cliente con prisa, reclamación, pregunta fuera de su ámbito. El juego de roles permite equivocarse sin consecuencias."
+    },
+    {
+     "ul": [
+      "Empieza con casos sencillos y aumenta después la dificultad.",
+      "Varía los perfiles de quienes llaman.",
+      "Termina cada simulación con un breve comentario: qué estuvo bien y qué puede mejorar."
+     ]
+    },
+    {
+     "h2": "Primeras llamadas acompañadas"
+    },
+    {
+     "p": "El paso a lo real debe hacerse con una red de seguridad. Al principio, un compañero con experiencia puede escuchar o estar disponible para ayudar si el agente se bloquea. El objetivo no es vigilar, sino tranquilizar y aprender juntos."
+    },
+    {
+     "p": "Tras cada llamada importante, dedica unos minutos a conversar. Pregunta primero al agente cómo vivió la llamada y complétalo después. Quien se analiza a sí mismo progresa más rápido que quien solo recibe reproches."
+    },
+    {
+     "p": "Aumenta la autonomía de forma gradual: primero las llamadas sencillas y luego los casos delicados. Un agente puesto demasiado pronto ante situaciones difíciles pierde confianza, y se nota en su voz."
+    },
+    {
+     "h2": "Seguimiento a largo plazo y equipamiento del equipo"
+    },
+    {
+     "p": "La formación no termina tras la primera semana. Reuniones periódicas, escucha de algunas llamadas elegidas y actualización de las respuestas tipo mantienen la calidad. Un registro de llamadas compartido ayuda a detectar las situaciones que se repiten y merecen una instrucción clara."
+    },
+    {
+     "p": "HARX Telefonía, con sus llamadas entrantes y salientes y su registro de llamadas, puede servir de apoyo a este seguimiento para un equipo en remoto o una pequeña estructura. Para los centros de llamadas, la oferta Contact Centre Multi-clientes se dirige a agentes en plató o a distancia, lo que hace de la formación una cuestión aún más estructurante."
+    },
+    {
+     "h2": "Conclusión: formar es acompañar en el tiempo"
+    },
+    {
+     "p": "Un nuevo agente formado con confianza mejora el servicio para todos. Sienta las bases, deja que observe, simula, acompaña las primeras llamadas y mantén un ritmo de comentarios. Este recorrido requiere tiempo al principio, pero evita errores costosos para tu imagen y construye un equipo que progresa unido. HARX Telefonía puede así acompañar al equipo desde los primeros días."
+    }
+   ]
+  },
+  "ar": {
+   "title": "كيف تدرّب موظف اتصال جديدًا خطوة بخطوة",
+   "description": "المراقبة والمحاكاة والمكالمات الأولى بمرافقة وملاحظات منتظمة: مسار بسيط لتدريب موظف اتصال جديد بثقة وبنتيجة تدوم طويلًا.",
+   "blocks": [
+    {
+     "p": "يبدو رفع سماعة الهاتف أمرًا طبيعيًا حتى اليوم الذي يجب فيه فعل ذلك أمام عميل غاضب وبأداة لم تُكتشف بعد. وتدريب موظف جديد لا يقتصر على تسليمه نصًا. إنه مسار تدريجي يتعلم فيه الشخص بالمراقبة ثم بالممارسة ثم بالحديث عمّا جرى."
+    },
+    {
+     "h2": "ضع الأسس قبل المكالمة الأولى"
+    },
+    {
+     "p": "المرحلة الأولى هي الفهم. فعلى الموظف أن يعرف ماذا تفعل الشركة ولمن تتوجه وما الذي تعد به عملاءها. ودون هذه القاعدة ستكون إجاباته تقريبية أو مترددة."
+    },
+    {
+     "ul": [
+      "عرض النشاط والعروض والأسئلة المتكررة.",
+      "النبرة وصيغ الترحيب المتوقعة.",
+      "حدود ما يمكنه قوله وما يقرره بمفرده.",
+      "ما يفعله حين لا يعرف الجواب: إلى من يحيل وكيف يدوّن."
+     ]
+    },
+    {
+     "p": "أعدّ وثيقة قصيرة يمكن الرجوع إليها أثناء المكالمة بدل دليل لا يفتحه أحد. فقائمة بالأسئلة المتكررة مع إجابات نموذجية تطمئن المبتدئين كثيرًا."
+    },
+    {
+     "h2": "التعلم بالمراقبة ثم بالمحاكاة"
+    },
+    {
+     "p": "قبل أن يرد الموظف بمفرده يستفيد من الاستماع إلى مكالمات حقيقية، مباشرة أو مسجلة، متى سمحت المؤسسة بذلك وكان الجميع على علم. وهكذا يلتقط الأساليب الجيدة: كيف يُعرَّف بالنفس وكيف تُعاد الصياغة وكيف تُختتم المكالمة."
+    },
+    {
+     "p": "ثم تأتي المحاكاة. يؤدي مدرّب أو زميل دور العميل بسيناريوهات متنوعة: طلب بسيط وعميل مستعجل وشكوى وسؤال خارج الاختصاص. ولعب الأدوار يتيح الخطأ دون عواقب."
+    },
+    {
+     "ul": [
+      "ابدأ بحالات بسيطة ثم ارفع الصعوبة تدريجيًا.",
+      "نوّع ملفات المتصلين.",
+      "اختم كل محاكاة بملاحظات موجزة: ما كان جيدًا وما يمكن تحسينه."
+     ]
+    },
+    {
+     "h2": "مكالمات أولى بمرافقة"
+    },
+    {
+     "p": "ينبغي أن يتم الانتقال إلى الواقع مع شبكة أمان. ففي البداية يستطيع زميل ذو خبرة أن يستمع أو يبقى متاحًا للمساعدة إذا تعثر الموظف. والغاية ليست المراقبة بل الطمأنة والتعلم معًا."
+    },
+    {
+     "p": "وبعد كل مكالمة مهمة خصّص دقائق للحديث. اسأل الموظف أولًا كيف عاش المكالمة ثم أكمل أنت. فمن يحلل نفسه يتقدم أسرع ممن لا يتلقى إلا اللوم."
+    },
+    {
+     "p": "وزِد الاستقلالية تدريجيًا: المكالمات البسيطة أولًا ثم الحالات الدقيقة. فالموظف الذي يوضع مبكرًا أمام مواقف صعبة يفقد ثقته، وهذا يظهر في صوته."
+    },
+    {
+     "h2": "المتابعة على المدى الطويل وتجهيز الفريق"
+    },
+    {
+     "p": "لا ينتهي التدريب بعد الأسبوع الأول. فاللقاءات الدورية والاستماع إلى بعض المكالمات المختارة وتحديث الإجابات النموذجية تحافظ على الجودة. ويساعد سجل مكالمات مشترك على رصد المواقف المتكررة التي تستحق تعليمة واضحة."
+    },
+    {
+     "p": "ويمكن لـ HARX للاتصالات، بمكالماتها الواردة والصادرة وسجل مكالماتها، أن تدعم هذه المتابعة لفريق عن بُعد أو لجهة صغيرة. أما لمراكز الاتصال فيتوجه عرض Contact Centre Multi-clients إلى موظفين في المقر أو عن بُعد، مما يجعل التدريب مسألة أكثر أهمية في بنية العمل."
+    },
+    {
+     "p": "ومن الأمور المفيدة أن تُعدّ قائمة قصيرة بعبارات ينبغي تجنبها وبدائل لها، مثل استبدال «هذا ليس من اختصاصي» بعبارة «سأحيلك إلى الشخص المناسب وأوضح لك ما سيحدث بعد ذلك». فهذه التفاصيل اللغوية الصغيرة هي ما يصنع الانطباع الأول لدى العميل."
+    },
+    {
+     "p": "كما ينبغي تعليم الموظف الجديد كيف يتعامل مع الصمت والتوتر: أن يتنفس قبل الرد وأن يخفض نبرته وأن يعيد صياغة غضب العميل بهدوء. فالمهارات العاطفية تُكتسب بالتكرار والتشجيع أكثر مما تُكتسب بالتعليمات المكتوبة."
+    },
+    {
+     "h2": "الخلاصة: التدريب مرافقة مستمرة"
+    },
+    {
+     "p": "الموظف الجديد الذي دُرّب بثقة يجعل الخدمة أفضل للجميع. ضع الأسس ودعه يراقب ثم حاكِ وارافق مكالماته الأولى وحافظ على إيقاع من الملاحظات. يتطلب هذا المسار وقتًا في البداية، لكنه يجنّبك أخطاء مكلفة لصورتك ويبني فريقًا يتقدم معًا. ويمكن لـ HARX للاتصالات أن ترافق الفريق منذ الأيام الأولى."
+    }
+   ]
+  }
+ }
+}

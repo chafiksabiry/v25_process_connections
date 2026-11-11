@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-harx-privacy-gdpr-cookies",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Confidentialité, RGPD et cookies sur HARX.ai : où trouver l’information",
+   "description": "Où trouver les informations sur la confidentialité, le RGPD et les cookies de HARX.ai ? Repères généraux et renvoi vers les pages légales du site.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Où lire la politique de confidentialité ?",
+       "a": "Sur HARX.ai, les pages légales sont accessibles depuis le pied de page : Conditions d’utilisation, Confidentialité et RGPD. Ce sont elles qui font foi."
+      },
+      {
+       "q": "Que signifie RGPD ?",
+       "a": "RGPD désigne le Règlement général sur la protection des données, un cadre européen sur le traitement des données personnelles. Pour la position de HARX, consultez la page RGPD du site."
+      },
+      {
+       "q": "Qu’est-ce qu’un cookie ?",
+       "a": "Un cookie est un petit fichier enregistré dans votre navigateur par un site web. Il peut servir à mémoriser des préférences ou à mesurer l’usage. Les détails propres à HARX.ai figurent dans ses pages légales."
+      },
+      {
+       "q": "Puis-je gérer mes cookies ?",
+       "a": "En règle générale, les navigateurs permettent de consulter et de supprimer les cookies dans leurs réglages. Pour les choix proposés par le site, référez-vous à ses pages légales."
+      },
+      {
+       "q": "Cette page est-elle un avis juridique ?",
+       "a": "Non. Il s’agit d’une information générale. Elle ne remplace ni les pages légales de HARX.ai ni un conseil juridique adapté à votre situation."
+      },
+      {
+       "q": "À qui poser une question précise ?",
+       "a": "Commencez par lire les pages Confidentialité et RGPD de HARX.ai. Pour une situation particulière, appuyez-vous sur ces textes et, si besoin, sur un professionnel du droit."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Privacy, GDPR and Cookies on HARX.ai: Where to Find the Details",
+   "description": "Where can you find information on privacy, GDPR and cookies on HARX.ai? General pointers and a pointer to the site’s legal pages.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Where can I read the privacy policy?",
+       "a": "On HARX.ai, the legal pages are reachable from the footer: Terms, Privacy and GDPR. Those pages are the authoritative source."
+      },
+      {
+       "q": "What does GDPR mean?",
+       "a": "GDPR stands for General Data Protection Regulation, a European framework on the processing of personal data. For HARX’s position, see the site’s GDPR page."
+      },
+      {
+       "q": "What is a cookie?",
+       "a": "A cookie is a small file a website stores in your browser. It may be used to remember preferences or to measure usage. Details specific to HARX.ai are in its legal pages."
+      },
+      {
+       "q": "Can I manage my cookies?",
+       "a": "In general, browsers let you view and delete cookies in their settings. For any choices the site offers, refer to its legal pages."
+      },
+      {
+       "q": "Is this page legal advice?",
+       "a": "No. It is general information. It replaces neither HARX.ai’s legal pages nor legal advice suited to your situation."
+      },
+      {
+       "q": "Whom do I ask a specific question?",
+       "a": "Start by reading the Privacy and GDPR pages of HARX.ai. For a particular situation, rely on those texts and, if needed, on a legal professional."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Privacidad, RGPD y cookies en HARX.ai: dónde encontrar la información",
+   "description": "¿Dónde encontrar la información sobre privacidad, RGPD y cookies de HARX.ai? Nociones generales y remisión a las páginas legales del sitio.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Dónde leo la política de privacidad?",
+       "a": "En HARX.ai, las páginas legales están accesibles desde el pie de página: Condiciones, Privacidad y RGPD. Son ellas las que tienen validez."
+      },
+      {
+       "q": "¿Qué significa RGPD?",
+       "a": "RGPD es el Reglamento General de Protección de Datos, un marco europeo sobre el tratamiento de datos personales. Para la postura de HARX, consulte la página RGPD del sitio."
+      },
+      {
+       "q": "¿Qué es una cookie?",
+       "a": "Una cookie es un pequeño archivo que un sitio web guarda en su navegador. Puede servir para recordar preferencias o medir el uso. Los detalles propios de HARX.ai están en sus páginas legales."
+      },
+      {
+       "q": "¿Puedo gestionar mis cookies?",
+       "a": "Por lo general, los navegadores permiten ver y borrar las cookies desde sus ajustes. Para las opciones que ofrezca el sitio, consulte sus páginas legales."
+      },
+      {
+       "q": "¿Esta página es asesoramiento jurídico?",
+       "a": "No. Es información general. No sustituye a las páginas legales de HARX.ai ni a un asesoramiento jurídico adaptado a su situación."
+      },
+      {
+       "q": "¿A quién hago una pregunta concreta?",
+       "a": "Empiece por leer las páginas de Privacidad y RGPD de HARX.ai. Para un caso particular, apóyese en esos textos y, si hace falta, en un profesional del derecho."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "الخصوصية وRGPD وملفات تعريف الارتباط في HARX.ai: أين تجد التفاصيل",
+   "description": "أين تجد معلومات الخصوصية واللائحة العامة لحماية البيانات وملفات تعريف الارتباط في HARX.ai؟ إرشادات عامة وإحالة إلى الصفحات القانونية للموقع.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "أين أقرأ سياسة الخصوصية؟",
+       "a": "في HARX.ai يمكن الوصول إلى الصفحات القانونية من أسفل الصفحة: الشروط والخصوصية وRGPD. وهي المرجع المعتمد."
+      },
+      {
+       "q": "ماذا يعني RGPD؟",
+       "a": "هو اللائحة العامة لحماية البيانات، وهي إطار أوروبي لمعالجة البيانات الشخصية. وللاطلاع على موقف HARX راجع صفحة RGPD في الموقع."
+      },
+      {
+       "q": "ما هو ملف تعريف الارتباط (cookie)؟",
+       "a": "ملف صغير يخزّنه الموقع في متصفحك، وقد يُستخدم لتذكّر التفضيلات أو قياس الاستخدام. وتفاصيل HARX.ai الخاصة موجودة في صفحاتها القانونية."
+      },
+      {
+       "q": "هل أستطيع إدارة ملفات تعريف الارتباط؟",
+       "a": "عموماً تتيح المتصفحات عرضها وحذفها من إعداداتها. أما الخيارات التي يقدّمها الموقع فارجع إليها في صفحاته القانونية."
+      },
+      {
+       "q": "هل هذه الصفحة استشارة قانونية؟",
+       "a": "لا. هي معلومات عامة، ولا تغني عن الصفحات القانونية في HARX.ai ولا عن استشارة قانونية تناسب حالتك."
+      },
+      {
+       "q": "إلى من أوجّه سؤالاً محدداً؟",
+       "a": "ابدأ بقراءة صفحتي الخصوصية وRGPD في HARX.ai. وفي الحالات الخاصة اعتمد على هذه النصوص، وعند الحاجة استشر مختصاً قانونياً."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

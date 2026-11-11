@@ -1,0 +1,300 @@
+{
+ "type": "blog",
+ "slug": "blog-b-what-is-a-gig",
+ "date": "2026-10-07",
+ "langs": {
+  "fr": {
+   "title": "Qu'est-ce qu'un gig ? Comprendre la mission à la tâche",
+   "description": "Un gig est une mission clairement délimitée, avec un résultat attendu et une évaluation. Définition, exemples, déroulement et bonnes pratiques à connaître.",
+   "blocks": [
+    {
+     "h2": "Une définition simple"
+    },
+    {
+     "p": "Un gig est une mission délimitée : une tâche avec un début, une fin, un résultat attendu et un prix connu à l'avance. Le mot vient de l'univers de la musique, où l'on parlait d'un engagement ponctuel, avant de s'étendre au travail indépendant en général. Dans le service client, il désigne un travail précis confié à un professionnel plutôt qu'un poste permanent."
+    },
+    {
+     "p": "Dans l'offre TAAS de HARX.ai, un gig correspond à une mission que l'entreprise définit et que des agents certifiés, humains ou IA, peuvent réaliser. Le paiement n'est dû que lorsque le résultat est approuvé."
+    },
+    {
+     "h2": "Ce que contient un gig bien rédigé"
+    },
+    {
+     "ul": [
+      "Un objectif décrit en termes observables.",
+      "Le périmètre : types de demandes, langues, canaux concernés.",
+      "Le prix associé au résultat.",
+      "Les règles de conduite à respecter avec les clients finaux.",
+      "Les critères et le processus d'approbation."
+     ]
+    },
+    {
+     "p": "Plus ces éléments sont précis, plus le professionnel peut décider en connaissance de cause s'il est bien placé pour accepter la mission. Pour l'entreprise, c'est aussi une manière de s'obliger à clarifier ses attentes avant de démarrer."
+    },
+    {
+     "h2": "Exemples de gigs dans le service client"
+    },
+    {
+     "p": "Les missions possibles sont variées. On peut imaginer la gestion de demandes de support dans une langue donnée, la prise de rendez-vous pour une équipe commerciale, la réalisation d'une enquête de satisfaction ou le suivi amiable de dossiers en attente. Ce qui les réunit, c'est la possibilité de dire clairement quand la mission est accomplie."
+    },
+    {
+     "p": "À l'inverse, une mission du type « être disponible au cas où » correspond davantage à un poste qu'à un gig, car aucun résultat ne peut être constaté."
+    },
+    {
+     "h2": "Le déroulement type d'une mission"
+    },
+    {
+     "p": "Le déroulement dépend de la plateforme et du cadre fixé, mais le schéma général reste le même. L'entreprise décrit sa mission, un professionnel la prend en charge, les interactions sont évaluées au fil de l'eau, puis le résultat est soumis à approbation. C'est à ce moment que le paiement devient exigible."
+    },
+    {
+     "ul": [
+      "Définition de la mission et de son prix par l'entreprise.",
+      "Prise en charge par un agent certifié, humain ou IA.",
+      "Évaluation de chaque interaction en temps réel.",
+      "Approbation du résultat, puis règlement."
+     ]
+    },
+    {
+     "h2": "Deux espaces, deux points de vue"
+    },
+    {
+     "p": "HARX.ai distingue un espace COMPANY, destiné aux entreprises qui définissent leurs missions, et un espace REPS, destiné aux professionnels qui cherchent des gigs. La fonction « Publier un gig » côté entreprise est annoncée comme bientôt disponible : il ne faut donc pas la considérer comme ouverte aujourd'hui."
+    },
+    {
+     "h2": "Pourquoi cette notion compte"
+    },
+    {
+     "p": "Pour les entreprises, penser en gigs permet de découper un besoin en unités compréhensibles et de relier le coût au résultat. Pour les professionnels, c'est une façon de choisir des missions qui correspondent à leurs compétences, à leurs langues et à leur disponibilité, tout en sachant dès le départ comment leur travail sera jugé."
+    },
+    {
+     "p": "Comprendre ce qu'est un gig, c'est comprendre l'unité de base du modèle TAAS : une promesse claire, un résultat vérifiable, une évaluation transparente."
+    }
+   ]
+  },
+  "en": {
+   "title": "What Is a Gig? Understanding Task-Based Missions",
+   "description": "A gig is a clearly bounded task with an expected result and an assessment. Definition, examples, how it unfolds and good practice worth knowing.",
+   "blocks": [
+    {
+     "h2": "A simple definition"
+    },
+    {
+     "p": "A gig is a bounded task: a piece of work with a start, an end, an expected result and a price known in advance. The word comes from the music world, where it meant a one-off engagement, before spreading to independent work in general. In customer service, it means a specific job entrusted to a professional rather than a permanent position."
+    },
+    {
+     "p": "In the TAAS offer from HARX.ai, a gig is a task that the company defines and that certified agents, human or AI, can carry out. Payment is due only when the result is approved."
+    },
+    {
+     "h2": "What a well-written gig contains"
+    },
+    {
+     "ul": [
+      "An objective described in observable terms.",
+      "The scope: types of requests, languages, channels involved.",
+      "The price attached to the result.",
+      "Conduct rules to follow with end customers.",
+      "The criteria and process for approval."
+     ]
+    },
+    {
+     "p": "The more precise these elements are, the better a professional can decide whether they are well placed to accept the task. For the company, it is also a way of forcing itself to clarify its expectations before starting."
+    },
+    {
+     "h2": "Examples of gigs in customer service"
+    },
+    {
+     "p": "Possible tasks are varied. You can picture handling support requests in a given language, booking appointments for a sales team, running a satisfaction survey or following up pending files in a friendly way. What they share is that you can say clearly when the task has been accomplished."
+    },
+    {
+     "p": "By contrast, a task such as being available just in case is closer to a position than a gig, because no result can be observed."
+    },
+    {
+     "h2": "How a task typically unfolds"
+    },
+    {
+     "p": "The details depend on the platform and the framework set, but the general pattern stays the same. The company describes its task, a professional takes it on, interactions are assessed as they happen, and then the result is submitted for approval. That is the moment payment becomes due."
+    },
+    {
+     "ul": [
+      "The company defines the task and its price.",
+      "A certified agent, human or AI, takes it on.",
+      "Each interaction is assessed in real time.",
+      "The result is approved, then settled."
+     ]
+    },
+    {
+     "h2": "Two spaces, two points of view"
+    },
+    {
+     "p": "HARX.ai distinguishes a COMPANY space, for businesses that define their tasks, from a REPS space, for professionals looking for gigs. The company-side feature to publish a gig is announced as coming soon, so it should not be considered open today."
+    },
+    {
+     "h2": "Why the notion matters"
+    },
+    {
+     "p": "For companies, thinking in gigs makes it possible to break a need into understandable units and tie cost to result. For professionals, it is a way to choose tasks that match their skills, languages and availability, while knowing from the outset how their work will be judged."
+    },
+    {
+     "h2": "Questions to ask before accepting or publishing a gig"
+    },
+    {
+     "p": "Whichever side you are on, a few simple questions help avoid misunderstandings: is the result clear, is the price fair for the effort, who approves, and what happens if the customer cannot be reached? Taking a minute to answer them saves a lot of discussion later."
+    },
+    {
+     "p": "Understanding what a gig is means understanding the basic unit of the TAAS model: a clear promise, a verifiable result and a transparent assessment."
+    }
+   ]
+  },
+  "es": {
+   "title": "Qué es un gig: entender la misión por tarea",
+   "description": "Un gig es una tarea claramente delimitada, con un resultado esperado y una evaluación. Definición, ejemplos, desarrollo y buenas prácticas que conviene conocer.",
+   "blocks": [
+    {
+     "h2": "Una definición sencilla"
+    },
+    {
+     "p": "Un gig es una tarea delimitada: un trabajo con principio, fin, resultado esperado y un precio conocido de antemano. La palabra procede del mundo de la música, donde designaba un compromiso puntual, antes de extenderse al trabajo independiente en general. En atención al cliente, se refiere a un trabajo concreto encomendado a un profesional en lugar de a un puesto permanente."
+    },
+    {
+     "p": "En la oferta TAAS de HARX.ai, un gig es una tarea que define la empresa y que pueden realizar agentes certificados, humanos o de IA. El pago solo es exigible cuando el resultado se aprueba."
+    },
+    {
+     "h2": "Qué contiene un gig bien redactado"
+    },
+    {
+     "ul": [
+      "Un objetivo descrito en términos observables.",
+      "El alcance: tipos de solicitudes, idiomas, canales implicados.",
+      "El precio asociado al resultado.",
+      "Las reglas de conducta que seguir con los clientes finales.",
+      "Los criterios y el proceso de aprobación."
+     ]
+    },
+    {
+     "p": "Cuanto más precisos sean estos elementos, mejor podrá decidir el profesional si está en condiciones de aceptar la tarea. Para la empresa, también es una manera de obligarse a aclarar sus expectativas antes de empezar."
+    },
+    {
+     "h2": "Ejemplos de gigs en atención al cliente"
+    },
+    {
+     "p": "Las tareas posibles son variadas. Cabe imaginar la gestión de solicitudes de soporte en un idioma determinado, la concertación de citas para un equipo comercial, la realización de una encuesta de satisfacción o el seguimiento amistoso de expedientes pendientes. Lo que tienen en común es que se puede decir con claridad cuándo la tarea está cumplida."
+    },
+    {
+     "p": "En cambio, una tarea del tipo estar disponible por si acaso se parece más a un puesto que a un gig, porque no puede constatarse ningún resultado."
+    },
+    {
+     "h2": "Cómo se desarrolla una tarea típica"
+    },
+    {
+     "p": "Los detalles dependen de la plataforma y del marco fijado, pero el esquema general es el mismo. La empresa describe su tarea, un profesional la asume, las interacciones se evalúan sobre la marcha y después el resultado se somete a aprobación. En ese momento el pago pasa a ser exigible."
+    },
+    {
+     "ul": [
+      "La empresa define la tarea y su precio.",
+      "Un agente certificado, humano o de IA, la asume.",
+      "Cada interacción se evalúa en tiempo real.",
+      "Se aprueba el resultado y luego se liquida."
+     ]
+    },
+    {
+     "h2": "Dos espacios, dos puntos de vista"
+    },
+    {
+     "p": "HARX.ai distingue un espacio COMPANY, para las empresas que definen sus tareas, y un espacio REPS, para los profesionales que buscan gigs. La función de publicar un gig por parte de la empresa figura como próximamente disponible, de modo que no debe considerarse abierta hoy."
+    },
+    {
+     "h2": "Por qué importa esta noción"
+    },
+    {
+     "p": "Para las empresas, pensar en gigs permite dividir una necesidad en unidades comprensibles y vincular el coste con el resultado. Para los profesionales, es una forma de elegir tareas que se ajusten a sus competencias, idiomas y disponibilidad, sabiendo desde el principio cómo se juzgará su trabajo."
+    },
+    {
+     "p": "Entender qué es un gig es entender la unidad básica del modelo TAAS: una promesa clara, un resultado verificable y una evaluación transparente."
+    }
+   ]
+  },
+  "ar": {
+   "title": "ما هو الغيغ؟ فهم العمل بنظام المهمة",
+   "description": "الغيغ مهمة محددة بوضوح لها نتيجة متوقعة وتقييم. تعريفه وأمثلة عليه وكيف يجري تنفيذه وأفضل الممارسات التي ينبغي معرفتها.",
+   "blocks": [
+    {
+     "h2": "تعريف بسيط"
+    },
+    {
+     "p": "الغيغ (gig) مهمة محددة النطاق: عمل له بداية ونهاية ونتيجة متوقعة وسعر معروف مسبقًا. وتعود الكلمة إلى عالم الموسيقى حيث كانت تعني ارتباطًا عابرًا بعرض واحد، ثم امتد استعمالها إلى العمل المستقل عمومًا. وفي خدمة العملاء تعني عملًا بعينه يُسند إلى محترف بدل وظيفة دائمة."
+    },
+    {
+     "p": "وفي عرض TAAS من HARX.ai، الغيغ هو مهمة تحددها الشركة ويمكن أن ينفذها وكلاء معتمدون، بشرًا كانوا أو وكلاء ذكاء اصطناعي. ولا يستحق الدفع إلا عند اعتماد النتيجة."
+    },
+    {
+     "h2": "ما الذي يتضمنه الغيغ الجيد الصياغة"
+    },
+    {
+     "ul": [
+      "هدف موصوف بعبارات يمكن ملاحظتها.",
+      "النطاق: أنواع الطلبات واللغات والقنوات المعنية.",
+      "السعر المرتبط بالنتيجة.",
+      "قواعد السلوك الواجب اتباعها مع العملاء النهائيين.",
+      "معايير الاعتماد وإجراءاته."
+     ]
+    },
+    {
+     "p": "وكلما كانت هذه العناصر أدق، استطاع المحترف أن يقرر عن بيّنة ما إذا كان مناسبًا لقبول المهمة. وبالنسبة إلى الشركة فهو أيضًا وسيلة لإلزام نفسها بتوضيح توقعاتها قبل البدء."
+    },
+    {
+     "h2": "أمثلة على الغيغ في خدمة العملاء"
+    },
+    {
+     "p": "تتنوع المهام الممكنة. فيمكن تخيّل معالجة طلبات الدعم بلغة معينة، أو حجز مواعيد لفريق المبيعات، أو إجراء استبيان رضا، أو متابعة ملفات معلّقة بأسلوب ودّي. وما يجمع بينها هو إمكان القول بوضوح متى أُنجزت المهمة."
+    },
+    {
+     "p": "وعلى العكس، فإن مهمة من قبيل «كن متاحًا تحسبًا لأي طارئ» أقرب إلى الوظيفة منها إلى الغيغ، لأنه لا يمكن معاينة أي نتيجة محددة."
+    },
+    {
+     "h2": "كيف تجري المهمة عادةً"
+    },
+    {
+     "p": "تتوقف التفاصيل على المنصة والإطار المتفق عليه، لكن النمط العام ثابت. تصف الشركة مهمتها، ويتولاها محترف، ويجري تقييم التفاعلات أولًا بأول، ثم تُعرض النتيجة للاعتماد. وعندها فقط يصبح الدفع مستحقًا."
+    },
+    {
+     "ul": [
+      "تحدد الشركة المهمة وسعرها.",
+      "يتولاها وكيل معتمد، بشري أو ذكاء اصطناعي.",
+      "يُقيَّم كل تفاعل في الوقت الفعلي.",
+      "تُعتمد النتيجة ثم تُسوّى المستحقات."
+     ]
+    },
+    {
+     "h2": "مساحتان ووجهتا نظر"
+    },
+    {
+     "p": "تميّز HARX.ai بين مساحة COMPANY الموجهة للشركات التي تحدد مهامها، ومساحة REPS الموجهة للمحترفين الباحثين عن مهام. أما ميزة نشر المهمة من جانب الشركة فمُعلن أنها ستتوفر قريبًا، ولذلك لا ينبغي اعتبارها متاحة اليوم."
+    },
+    {
+     "h2": "لماذا يهم هذا المفهوم"
+    },
+    {
+     "p": "بالنسبة إلى الشركات، يتيح التفكير بمنطق الغيغ تقسيم الحاجة إلى وحدات مفهومة وربط التكلفة بالنتيجة. وبالنسبة إلى المحترفين فهو طريقة لاختيار مهام تناسب مهاراتهم ولغاتهم وأوقات توافرهم، مع معرفة كيفية الحكم على عملهم منذ البداية."
+    },
+    {
+     "p": "ولذلك يُعدّ فهم الغيغ فهمًا للوحدة الأساسية في نموذج TAAS: وعد واضح، ونتيجة يمكن التحقق منها، وتقييم شفاف."
+    },
+    {
+     "h2": "أسئلة تُطرح قبل قبول المهمة أو تحديدها"
+    },
+    {
+     "p": "سواء كنت في جانب الشركة أو في جانب المحترف، تساعد بضعة أسئلة بسيطة على تفادي سوء الفهم: هل النتيجة واضحة؟ وهل السعر عادل بالنسبة إلى الجهد؟ ومن يعتمد النتيجة؟ وماذا يحدث إذا تعذر الوصول إلى العميل؟ وتخصيص دقيقة للإجابة عنها يوفّر نقاشًا طويلًا لاحقًا."
+    },
+    {
+     "p": "ومن المفيد أيضًا أن يقرأ المحترف قواعد السلوك المرتبطة بالمهمة بعناية، لأنها تحدد كيف يُتوقع منه أن يخاطب العملاء، وما الذي يُستبعد حتى لو بدا أنه يسرّع الوصول إلى النتيجة."
+    },
+    {
+     "p": "ويمكن للشركة بدورها أن تبدأ بمهام قصيرة ومحددة تتعلم منها كيف تصوغ الوصف على نحو أفضل في كل مرة، فكل مهمة منجزة تكشف عن عبارة غامضة أو معيار ناقص يمكن تحسينه في المهمة التالية."
+    },
+    {
+     "p": "وإذا كنت محترفًا فابدأ بقراءة وصف المهمة بعناية قبل قبولها، وتأكد من أنك تفهم نتيجتها المتوقعة ومعايير اعتمادها وقواعد السلوك المطلوبة، فهذه القراءة الأولى توفّر عليك كثيرًا من سوء الفهم لاحقًا."
+    }
+   ]
+  }
+ }
+}

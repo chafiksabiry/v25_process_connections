@@ -1,0 +1,133 @@
+{
+  "type": "blog",
+  "slug": "blog-b-pay-for-results-not-positions",
+  "date": "2026-10-03",
+  "langs": {
+    "fr": {
+      "title": "Payer pour des résultats plutôt que pour des postes",
+      "description": "Pourquoi rémunérer un résultat approuvé plutôt qu'un poste ? Avantages, limites et conditions pour que ce changement de logique fonctionne vraiment.",
+      "blocks": [
+        {"h2": "Le coût d'un poste n'est pas celui d'un résultat"},
+        {"p": "Quand une entreprise recrute ou externalise un poste, elle paie une disponibilité : quelqu'un est là, formé, équipé, et il traite ce qui arrive. Que la journée soit chargée ou calme, que les clients soient satisfaits ou non, la facture suit la présence. C'est confortable pour la planification, mais cela masque une question simple : qu'obtient-on réellement pour cet argent ?"},
+        {"p": "Payer pour un résultat déplace l'attention. On ne finance plus l'activité, on finance ce qu'elle produit : un problème résolu, un rendez-vous tenu, une réponse validée. La dépense devient lisible parce qu'elle est directement reliée à ce qui compte pour l'entreprise."},
+        {"h2": "Ce que ce modèle change concrètement"},
+        {"ul": [
+          "La conversation avec le prestataire porte sur l'objectif, plus sur le nombre de personnes.",
+          "Les périodes creuses ne génèrent pas de coût de présence inutile.",
+          "La qualité devient un sujet central, puisque seul un résultat approuvé est payé.",
+          "Les deux parties ont un intérêt commun à une définition claire de ce qui est attendu."
+        ]},
+        {"p": "C'est la logique du Transaction-as-a-Service : l'entreprise décrit le résultat et son prix, et ne règle que lorsque ce résultat est approuvé. HARX.ai a construit son offre TAAS autour de cette idée, avec un réseau d'agents certifiés, humains ou IA, qui réalisent des missions appelées gigs."},
+        {"h2": "Les limites à connaître"},
+        {"p": "Le paiement au résultat n'est pas une solution universelle. Certaines activités ont une valeur difficile à isoler : une relation de long terme, un conseil, une veille. Dans ces cas, forcer une mesure binaire peut produire des effets pervers, comme la recherche du chiffre plutôt que de la satisfaction."},
+        {"p": "Il existe aussi un risque de contournement. Si seul le résultat compte, certains peuvent être tentés de choisir les dossiers faciles ou d'employer des méthodes peu respectueuses du client. Il faut donc des règles de conduite explicites et une évaluation de la manière dont le résultat est obtenu, pas seulement de son existence."},
+        {"h2": "Conditions pour que cela fonctionne"},
+        {"p": "Trois éléments reviennent dans les projets bien conduits. D'abord, un résultat défini en termes observables. Ensuite, un prix qui reflète l'effort réaliste de la mission et pas un simple vœu. Enfin, un processus d'approbation connu de tous, avec un responsable identifié et un délai de réponse."},
+        {"ul": [
+          "Décrire le résultat avec des mots que personne ne peut interpréter autrement.",
+          "Prévoir les cas limites : client injoignable, dossier incomplet, demande hors périmètre.",
+          "Garder une évaluation de la qualité de chaque échange, pas seulement du dénouement.",
+          "Commencer petit, mesurer, puis élargir."
+        ]},
+        {"h2": "Un changement de culture autant que de contrat"},
+        {"p": "Passer des postes aux résultats suppose que les équipes internes acceptent de parler en objectifs. Le manager ne demande plus combien de personnes sont affectées, mais ce qui doit être obtenu et comment on le vérifiera. Cette discipline est utile même si l'on conserve des équipes classiques en parallèle."},
+        {"p": "Pour explorer cette approche dans le service client, l'offre TAAS de HARX.ai montre comment un résultat, un prix et une évaluation en temps réel peuvent s'articuler dans une même mission."}
+      ]
+    },
+    "en": {
+      "title": "Paying for Results Instead of Positions",
+      "description": "Why reward an approved result rather than a headcount slot? Benefits, limits and the conditions that make this shift in logic actually work.",
+      "blocks": [
+        {"h2": "The cost of a position is not the cost of a result"},
+        {"p": "When a company hires or outsources a position, it pays for availability: someone is there, trained and equipped, handling whatever arrives. Whether the day is busy or quiet, whether customers are happy or not, the bill follows presence. That is comfortable for planning, but it hides a simple question: what do you really get for the money?"},
+        {"p": "Paying for a result moves the focus. You stop funding activity and start funding what it produces: a problem solved, an appointment held, an answer validated. Spending becomes readable because it is tied directly to what matters to the business."},
+        {"h2": "What this model changes in practice"},
+        {"ul": [
+          "The conversation with the provider is about the objective, not the number of people.",
+          "Quiet periods do not generate pointless presence costs.",
+          "Quality becomes a central subject, since only an approved result is paid.",
+          "Both parties share an interest in a clear definition of what is expected."
+        ]},
+        {"p": "This is the logic of Transaction-as-a-Service: the company describes the result and its price, and pays only when the result is approved. HARX.ai built its TAAS offer around this idea, with a network of certified agents, human or AI, who carry out tasks called gigs."},
+        {"h2": "Limits worth knowing"},
+        {"p": "Paying per result is not a universal answer. Some activities have a value that is hard to isolate: a long-term relationship, advice, monitoring. In those cases, forcing a binary measure can produce perverse effects, such as chasing the number instead of satisfaction."},
+        {"p": "There is also a risk of gaming. If only the result counts, some people may be tempted to pick easy cases or use methods that are not respectful of the customer. You therefore need explicit conduct rules and an assessment of how the result is obtained, not just whether it exists."},
+        {"h2": "Conditions for it to work"},
+        {"p": "Three elements recur in well-run projects. First, a result defined in observable terms. Second, a price that reflects the realistic effort of the task rather than a wish. Third, an approval process known to everyone, with a named owner and a response time."},
+        {"ul": [
+          "Describe the result in words nobody can read another way.",
+          "Plan for edge cases: unreachable customer, incomplete file, out-of-scope request.",
+          "Keep assessing the quality of each exchange, not only the outcome.",
+          "Start small, measure, then widen."
+        ]},
+        {"h2": "A cultural shift as much as a contractual one"},
+        {"p": "Moving from positions to results means internal teams must accept speaking in objectives. The manager no longer asks how many people are assigned, but what must be achieved and how it will be verified. That discipline is useful even if you keep traditional teams alongside."},
+        {"p": "To explore this approach in customer service, the TAAS offer from HARX.ai shows how a result, a price and real-time assessment can fit together within a single task."}
+      ]
+    },
+    "es": {
+      "title": "Pagar por resultados en lugar de por puestos",
+      "description": "¿Por qué remunerar un resultado aprobado y no un puesto? Ventajas, límites y condiciones para que este cambio de lógica funcione de verdad.",
+      "blocks": [
+        {"h2": "El coste de un puesto no es el coste de un resultado"},
+        {"p": "Cuando una empresa contrata o externaliza un puesto, paga una disponibilidad: alguien está allí, formado y equipado, atendiendo lo que llegue. Tanto si la jornada es intensa como si es tranquila, y tanto si los clientes quedan satisfechos como si no, la factura sigue a la presencia. Es cómodo para planificar, pero oculta una pregunta sencilla: ¿qué se obtiene realmente a cambio de ese dinero?"},
+        {"p": "Pagar por un resultado desplaza la atención. Ya no se financia la actividad, sino lo que produce: un problema resuelto, una cita celebrada, una respuesta validada. El gasto se vuelve legible porque está ligado directamente a lo que importa para el negocio."},
+        {"h2": "Qué cambia en la práctica"},
+        {"ul": [
+          "La conversación con el proveedor gira en torno al objetivo, no al número de personas.",
+          "Los periodos de poca actividad no generan costes de presencia innecesarios.",
+          "La calidad pasa a ser un tema central, porque solo se paga un resultado aprobado.",
+          "Ambas partes tienen interés en definir con claridad lo que se espera."
+        ]},
+        {"p": "Es la lógica del Transaction-as-a-Service: la empresa describe el resultado y su precio, y solo paga cuando ese resultado se aprueba. HARX.ai ha construido su oferta TAAS en torno a esta idea, con una red de agentes certificados, humanos o de IA, que realizan tareas llamadas gigs."},
+        {"h2": "Límites que conviene conocer"},
+        {"p": "El pago por resultado no es una solución universal. Algunas actividades tienen un valor difícil de aislar: una relación a largo plazo, un asesoramiento, una labor de vigilancia. En esos casos, forzar una medida binaria puede producir efectos perversos, como perseguir la cifra en lugar de la satisfacción."},
+        {"p": "También existe el riesgo de manipulación. Si solo cuenta el resultado, algunos pueden verse tentados a escoger los casos fáciles o a emplear métodos poco respetuosos con el cliente. Hacen falta reglas de conducta explícitas y una evaluación de cómo se obtiene el resultado, no solo de si existe."},
+        {"h2": "Condiciones para que funcione"},
+        {"p": "En los proyectos bien llevados se repiten tres elementos. Primero, un resultado definido en términos observables. Segundo, un precio que refleje el esfuerzo realista de la tarea y no un simple deseo. Tercero, un proceso de aprobación conocido por todos, con un responsable identificado y un plazo de respuesta."},
+        {"ul": [
+          "Describir el resultado con palabras que nadie pueda interpretar de otra manera.",
+          "Prever los casos límite: cliente ilocalizable, expediente incompleto, petición fuera del alcance.",
+          "Seguir evaluando la calidad de cada intercambio, no solo el desenlace.",
+          "Empezar poco a poco, medir y después ampliar."
+        ]},
+        {"h2": "Un cambio cultural tanto como contractual"},
+        {"p": "Pasar de puestos a resultados supone que los equipos internos acepten hablar en objetivos. El responsable ya no pregunta cuántas personas hay asignadas, sino qué debe lograrse y cómo se comprobará. Esa disciplina resulta útil aunque se mantengan equipos tradicionales en paralelo."},
+        {"p": "Para explorar este enfoque en atención al cliente, la oferta TAAS de HARX.ai muestra cómo un resultado, un precio y una evaluación en tiempo real pueden encajar en una misma tarea."}
+      ]
+    },
+    "ar": {
+      "title": "الدفع مقابل النتائج بدل الدفع مقابل الوظائف",
+      "description": "لماذا نكافئ نتيجة معتمدة بدل وظيفة شاغرة؟ المزايا والحدود والشروط التي تجعل هذا التحول في المنطق ناجحًا فعلًا في خدمة العملاء.",
+      "blocks": [
+        {"h2": "تكلفة الوظيفة ليست تكلفة النتيجة"},
+        {"p": "عندما توظّف الشركة شخصًا أو تستعين بمصدر خارجي لشغل وظيفة، فإنها تدفع مقابل التوافر: هناك شخص حاضر ومدرَّب ومجهَّز يعالج ما يصله. وسواء كان اليوم مزدحمًا أم هادئًا، وسواء رضي العملاء أم لم يرضوا، تتبع الفاتورة الحضور. هذا مريح للتخطيط، لكنه يخفي سؤالًا بسيطًا: ماذا نحصل عليه فعلًا مقابل هذا المال؟"},
+        {"p": "أما الدفع مقابل النتيجة فيغيّر زاوية النظر. فلا نموّل النشاط، بل نموّل ما ينتجه: مشكلة حُلّت، أو موعدًا عُقد، أو إجابة جرى اعتمادها. ويصبح الإنفاق مقروءًا لأنه مرتبط مباشرة بما يهم المؤسسة."},
+        {"h2": "ما الذي يتغير عمليًا"},
+        {"ul": [
+          "يدور الحوار مع المزوّد حول الهدف لا حول عدد الأشخاص.",
+          "لا تولّد فترات الهدوء تكلفة حضور لا فائدة منها.",
+          "تصبح الجودة موضوعًا مركزيًا لأن النتيجة المعتمدة وحدها هي التي تُدفع.",
+          "يشترك الطرفان في مصلحة واحدة هي تعريف واضح لما هو متوقع."
+        ]},
+        {"p": "هذا هو منطق خدمة المعاملة (TAAS): تصف الشركة النتيجة وسعرها ولا تدفع إلا عند اعتماد النتيجة. وقد بنت HARX.ai عرضها TAAS حول هذه الفكرة، مع شبكة من الوكلاء المعتمدين، بشرًا أو ذكاءً اصطناعيًا، ينفذون مهامًا تُسمّى «غيغ»."},
+        {"h2": "حدود ينبغي معرفتها"},
+        {"p": "الدفع مقابل النتيجة ليس حلًا شاملًا. فبعض الأنشطة يصعب عزل قيمتها: علاقة طويلة الأمد، أو استشارة، أو متابعة مستمرة. وفي هذه الحالات قد يؤدي فرض مقياس ثنائي إلى آثار عكسية، كالسعي وراء الرقم بدل السعي وراء رضا العميل."},
+        {"p": "وهناك أيضًا خطر الالتفاف على القواعد. فإذا كانت النتيجة وحدها ما يُحتسب، فقد يميل بعضهم إلى اختيار الحالات السهلة أو استعمال أساليب لا تحترم العميل. ولذلك لا بد من قواعد سلوك صريحة وتقييم لطريقة الوصول إلى النتيجة، لا لوجودها فقط."},
+        {"h2": "شروط النجاح"},
+        {"p": "تتكرر ثلاثة عناصر في المشاريع الجيدة الإدارة. أولها نتيجة معرّفة بعبارات يمكن ملاحظتها. وثانيها سعر يعكس الجهد الواقعي للمهمة لا مجرد أمنية. وثالثها عملية اعتماد يعرفها الجميع، يتولاها مسؤول محدد وتُنجز ضمن مهلة معلومة."},
+        {"ul": [
+          "صف النتيجة بكلمات لا تحتمل تفسيرًا آخر.",
+          "فكّر في الحالات الحدّية: عميل لا يمكن الوصول إليه، أو ملف ناقص، أو طلب خارج النطاق.",
+          "واصل تقييم جودة كل تبادل وليس النتيجة النهائية فقط.",
+          "ابدأ صغيرًا، ثم قِس، ثم وسّع."
+        ]},
+        {"h2": "تغيير في الثقافة قبل أن يكون تغييرًا في العقد"},
+        {"p": "الانتقال من الوظائف إلى النتائج يقتضي أن تقبل الفرق الداخلية الحديث بلغة الأهداف. فلا يسأل المدير كم شخصًا مُسنَد إلى المهمة، بل ما الذي يجب تحقيقه وكيف سيجري التحقق منه. وهذا الانضباط مفيد حتى لو بقيت الفرق التقليدية تعمل بالتوازي."},
+        {"p": "ولا بأس من تجربة الفكرة على نطاق ضيق أولًا، لمعرفة ما إذا كانت معايير الاعتماد واضحة للجميع قبل تعميمها على مهام أخرى أكثر تعقيدًا أو أكبر حجمًا."},
+        {"p": "ويستفيد المحترفون أنفسهم من هذا الوضوح، إذ يعرف كل واحد منهم ما يُنتظر منه بالضبط وكيف سيُحكم على عمله، فيتمكن من تنظيم وقته وتطوير مهاراته نحو ما يطلبه السوق فعلًا بدل الاكتفاء بملء ساعات محددة."},
+        {"p": "ولاستكشاف هذا النهج في خدمة العملاء، يوضح عرض TAAS من HARX.ai كيف يمكن أن تجتمع النتيجة والسعر والتقييم في الوقت الفعلي داخل مهمة واحدة."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "local-phone-number-basics",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Numéro de téléphone de votre pays : les notions de base",
+      "description": "Qu'est-ce qu'un numéro local, pourquoi inspire-t-il confiance et comment HARX Téléphonie vous en attribue un : les bases en questions.",
+      "blocks": [
+        {
+          "h2": "Comprendre le numéro de votre pays"
+        },
+        {
+          "faq": [
+            {
+              "q": "Qu'est-ce qu'un numéro de votre pays ?",
+              "a": "C'est un numéro dont l'indicatif correspond à votre pays. Vos interlocuteurs l'identifient comme un appel national, ce qui rassure souvent davantage qu'un numéro étranger."
+            },
+            {
+              "q": "Pourquoi un numéro local peut-il aider ?",
+              "a": "Un numéro familier est plus facilement décroché et rappelé. Il donne aussi l'image d'une entreprise installée près de ses clients, ce qui facilite la prise de contact."
+            },
+            {
+              "q": "HARX Téléphonie fournit-elle un numéro de mon pays ?",
+              "a": "Oui, l'offre repose sur un numéro de votre pays pour recevoir et passer des appels. Les modalités précises se confirment lors du choix de l'offre."
+            },
+            {
+              "q": "Le numéro est-il lié à un appareil précis ?",
+              "a": "Un numéro de téléphonie en ligne n'est pas attaché à une carte SIM. Il s'utilise depuis votre espace, sur les appareils connectés à votre compte."
+            },
+            {
+              "q": "À quoi sert l'indicatif au début du numéro ?",
+              "a": "L'indicatif désigne le pays, et parfois une zone. Il permet au réseau d'acheminer l'appel et à l'appelant de repérer l'origine du numéro."
+            },
+            {
+              "q": "Peut-on séparer vie privée et vie professionnelle ?",
+              "a": "Oui, c'est un usage courant : un numéro dédié à l'activité évite de donner son numéro personnel. HARX Téléphonie permet de garder cette frontière nette."
+            },
+            {
+              "q": "Que faire si mon besoin concerne plusieurs pays ?",
+              "a": "Précisez d'abord pour quels interlocuteurs vous travaillez. Selon votre situation, l'offre Nomad Solo ou l'offre Company peut convenir ; l'équipe HARX vous aidera à trancher."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "A Phone Number From Your Country: The Basics",
+      "description": "What is a local number, why does it build trust and how HARX Telephony gives you one: the basics explained in simple questions.",
+      "blocks": [
+        {
+          "h2": "Understanding your country's number"
+        },
+        {
+          "faq": [
+            {
+              "q": "What is a number from your country?",
+              "a": "It is a number whose dialling code matches your country. People recognise it as a domestic call, which is often more reassuring than a foreign number."
+            },
+            {
+              "q": "Why can a local number help?",
+              "a": "A familiar number is more likely to be answered and called back. It also suggests a business rooted close to its customers, which eases first contact."
+            },
+            {
+              "q": "Does HARX Telephony provide a number from my country?",
+              "a": "Yes, the offer is built around a number from your country for receiving and making calls. Exact terms are confirmed when you choose your plan."
+            },
+            {
+              "q": "Is the number tied to a specific device?",
+              "a": "An online telephony number is not attached to a SIM card. It is used from your workspace, on the devices connected to your account."
+            },
+            {
+              "q": "What does the dialling code at the start mean?",
+              "a": "The code identifies the country and sometimes an area. It lets the network route the call and lets the caller see where the number comes from."
+            },
+            {
+              "q": "Can I keep private and professional life apart?",
+              "a": "Yes, it is a common use: a dedicated number for your activity avoids giving out your personal one. HARX Telephony helps keep that boundary clear."
+            },
+            {
+              "q": "What if I need to reach several countries?",
+              "a": "First define which contacts you work with. Depending on your situation, the Nomad Solo or Company plan may fit, and the HARX team can help you decide."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Número de teléfono de su país: las nociones básicas",
+      "description": "Qué es un número local, por qué genera confianza y cómo HARX Telefonía le asigna uno: las bases explicadas en preguntas sencillas.",
+      "blocks": [
+        {
+          "h2": "Entender el número de su país"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Qué es un número de su país?",
+              "a": "Es un número cuyo prefijo corresponde a su país. Sus interlocutores lo identifican como una llamada nacional, lo que suele generar más confianza que un número extranjero."
+            },
+            {
+              "q": "¿Por qué puede ayudar un número local?",
+              "a": "Un número familiar se contesta y se devuelve con más facilidad. Además transmite la imagen de una empresa cercana a sus clientes, lo que facilita el primer contacto."
+            },
+            {
+              "q": "¿HARX Telefonía proporciona un número de mi país?",
+              "a": "Sí, la oferta se basa en un número de su país para recibir y hacer llamadas. Las condiciones exactas se confirman al elegir su plan."
+            },
+            {
+              "q": "¿El número está ligado a un dispositivo concreto?",
+              "a": "Un número de telefonía en línea no depende de una tarjeta SIM. Se usa desde su espacio, en los dispositivos conectados a su cuenta."
+            },
+            {
+              "q": "¿Para qué sirve el prefijo al inicio del número?",
+              "a": "El prefijo indica el país y a veces una zona. Permite a la red encaminar la llamada y a quien llama identificar el origen del número."
+            },
+            {
+              "q": "¿Se puede separar vida privada y profesional?",
+              "a": "Sí, es un uso habitual: un número dedicado a la actividad evita dar el personal. HARX Telefonía ayuda a mantener esa frontera clara."
+            },
+            {
+              "q": "¿Y si necesito llegar a varios países?",
+              "a": "Defina primero con qué interlocutores trabaja. Según su situación puede encajar Nomad Solo o la oferta Company, y el equipo de HARX le ayudará a decidir."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "رقم هاتف من بلدك: المفاهيم الأساسية",
+      "description": "ما هو الرقم المحلي ولماذا يبني الثقة، وكيف تمنحك HARX للهاتف رقمًا منه: الأساسيات في أسئلة مبسطة.",
+      "blocks": [
+        {
+          "h2": "فهم رقم بلدك"
+        },
+        {
+          "faq": [
+            {
+              "q": "ما المقصود برقم من بلدك؟",
+              "a": "هو رقم يطابق رمزه الدولي بلدك. يتعرف عليه المتصلون كمكالمة محلية، وهذا يبعث على الطمأنينة أكثر من الرقم الأجنبي."
+            },
+            {
+              "q": "لماذا قد يفيد الرقم المحلي؟",
+              "a": "الرقم المألوف يُجاب عليه ويُعاد الاتصال به بسهولة أكبر، كما يعطي صورة شركة قريبة من عملائها، مما يسهّل التواصل الأول."
+            },
+            {
+              "q": "هل توفر HARX للهاتف رقمًا من بلدي؟",
+              "a": "نعم، يقوم العرض على رقم من بلدك لاستقبال المكالمات وإجرائها. تُؤكَّد التفاصيل الدقيقة عند اختيار عرضك."
+            },
+            {
+              "q": "هل الرقم مرتبط بجهاز محدد؟",
+              "a": "رقم الاتصالات عبر الإنترنت غير مرتبط ببطاقة SIM، بل يُستخدم من مساحتك على الأجهزة المتصلة بحسابك."
+            },
+            {
+              "q": "ما فائدة الرمز الدولي في بداية الرقم؟",
+              "a": "يدل الرمز على البلد وأحيانًا على المنطقة، فيساعد الشبكة على توجيه المكالمة ويتيح للمتصل معرفة مصدر الرقم."
+            },
+            {
+              "q": "هل يمكن الفصل بين الحياة الشخصية والمهنية؟",
+              "a": "نعم، وهو استخدام شائع: رقم مخصص للنشاط يجنّبك إعطاء رقمك الشخصي. وتساعدك HARX للهاتف على إبقاء هذا الحد واضحًا."
+            },
+            {
+              "q": "ماذا لو كنت أحتاج إلى التواصل مع عدة بلدان؟",
+              "a": "حدد أولًا من تتعامل معهم. بحسب وضعك قد يناسبك عرض Nomad Solo أو عرض الشركات، وسيساعدك فريق HARX على الحسم."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

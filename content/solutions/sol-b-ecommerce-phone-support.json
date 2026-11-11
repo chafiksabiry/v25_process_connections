@@ -1,0 +1,276 @@
+{
+ "type": "solution",
+ "slug": "sol-b-ecommerce-phone-support",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "E-commerce : mettre en place un service client téléphonique",
+   "description": "Suivi de commande, retours, questions avant achat : pourquoi le téléphone compte en e-commerce et comment l'offre Company Full Scope In & Out de HARX aide.",
+   "blocks": [
+    {
+     "h2": "Le problème : des clients en ligne qui veulent parfois une vraie voix"
+    },
+    {
+     "p": "Un site marchand fonctionne sans contact humain, jusqu'au moment où quelque chose ne se passe pas comme prévu : un colis en retard, une taille inadaptée, un doute avant de payer. À cet instant, beaucoup de clients cherchent un numéro, et l'absence de réponse peut coûter une vente ou une relation."
+    },
+    {
+     "ul": [
+      "Des questions avant achat qui restent sans réponse et font abandonner le panier.",
+      "Des demandes de suivi de livraison qui saturent la messagerie.",
+      "Des retours et échanges difficiles à expliquer par écrit.",
+      "Des pics d'appels autour des promotions et des périodes de fêtes.",
+      "Une équipe réduite qui gère à la fois la logistique, le marketing et le support."
+     ]
+    },
+    {
+     "h2": "Comment Company Full Scope In & Out s'intègre au service client d'une boutique en ligne"
+    },
+    {
+     "p": "Company Full Scope In & Out, l'offre de HARX Téléphonie pour les PME et les équipes à distance, couvre les appels entrants et sortants. Une boutique peut afficher un numéro de son pays sur son site, ce qui rassure l'acheteur hésitant, et disposer d'un accueil et d'un répondeur lorsque l'équipe est occupée."
+    },
+    {
+     "p": "L'appel sortant est utile pour rappeler un client dont la commande pose problème avant qu'il ne se plaigne, ou pour confirmer un retour. Une IA d'assistance accompagne les échanges. L'abonnement mensuel, avec minutes et IA prépayées, permet de démarrer simplement, la ligne étant annoncée opérationnelle en quelques minutes."
+    },
+    {
+     "h2": "Bonnes pratiques pour le support téléphonique d'un site marchand"
+    },
+    {
+     "ul": [
+      "Afficher le numéro et les horaires de réponse de façon visible sur le site, avec la politique de retour.",
+      "Préparer des réponses types sur les motifs fréquents : livraison, retour, paiement, garantie.",
+      "Demander le numéro de commande dès le début pour aller droit au but.",
+      "Proposer une solution concrète plutôt qu'une simple excuse en cas de problème.",
+      "Anticiper les périodes de forte demande en prévenant l'équipe et en préparant des consignes.",
+      "Relever les causes d'appels répétées pour corriger les fiches produits ou les messages de livraison."
+     ]
+    },
+    {
+     "p": "Un service client téléphonique bien tenu réduit les abandons et renforce la confiance. Pour un commerçant en ligne qui souhaite ajouter ce canal sans bâtir un centre d'appels, Company Full Scope In & Out de HARX est une piste à explorer."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Peut-on afficher un numéro local sur une boutique en ligne ?",
+       "a": "L'offre fournit un numéro de votre pays pour les appels entrants et sortants."
+      },
+      {
+       "q": "Peut-on rappeler un client au sujet d'une commande ?",
+       "a": "Oui, l'offre couvre les appels sortants."
+      },
+      {
+       "q": "Que faire si l'équipe est indisponible ?",
+       "a": "L'accueil et le répondeur permettent de prendre le message pour rappeler ensuite."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "E-commerce: setting up phone-based customer support",
+   "description": "Order tracking, returns, pre-purchase questions: why the phone still matters in e-commerce and how HARX's Company Full Scope In & Out offer can help.",
+   "blocks": [
+    {
+     "h2": "The problem: online shoppers who sometimes want a real voice"
+    },
+    {
+     "p": "An online shop works without human contact until something does not go as planned: a late parcel, the wrong size, a doubt before paying. At that moment many customers look for a phone number, and the lack of an answer can cost a sale or a relationship."
+    },
+    {
+     "ul": [
+      "Pre-purchase questions left unanswered, causing cart abandonment.",
+      "Delivery tracking requests that overload the inbox.",
+      "Returns and exchanges that are hard to explain in writing.",
+      "Call peaks around promotions and holiday periods.",
+      "A small team handling logistics, marketing and support at once."
+     ]
+    },
+    {
+     "h2": "How Company Full Scope In & Out fits an online shop's customer service"
+    },
+    {
+     "p": "Company Full Scope In & Out, the HARX Telephony offer for SMEs and remote teams, covers inbound and outbound calls. A shop can display a number from its own country on its site, which reassures a hesitant buyer, and have reception and voicemail when the team is busy."
+    },
+    {
+     "p": "Outbound calling is useful for phoning a customer whose order has a problem before they complain, or for confirming a return. An assisting AI supports the conversations. The monthly subscription, with prepaid minutes and AI, makes it simple to start, as the line is described as operational within minutes."
+    },
+    {
+     "h2": "Good practices for an online shop's phone support"
+    },
+    {
+     "ul": [
+      "Show the number and answering hours clearly on the site, next to the returns policy.",
+      "Prepare model answers for frequent reasons: delivery, returns, payment, warranty.",
+      "Ask for the order number at the start to get straight to the point.",
+      "Offer a concrete solution rather than a mere apology when something goes wrong.",
+      "Anticipate busy periods by briefing the team and preparing guidelines.",
+      "Note repeated causes of calls to fix product pages or delivery messages."
+     ]
+    },
+    {
+     "p": "A well-run phone service reduces abandonment and strengthens trust. For an online merchant who wants to add this channel without building a call centre, HARX's Company Full Scope In & Out is a route to explore. Over time, the calls themselves become a useful source of feedback about what the shop could explain better."
+    },
+    {
+     "p": "It is also wise to keep the information given by phone consistent with what the website says about prices, delivery times and return conditions, so that a customer never receives two different answers to the same question. A short internal sheet, updated whenever the shop changes a policy, is usually enough."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can we display a local number on an online shop?",
+       "a": "The offer provides a number from your country for inbound and outbound calls."
+      },
+      {
+       "q": "Can we call a customer back about an order?",
+       "a": "Yes, the offer covers outbound calls."
+      },
+      {
+       "q": "What if the team is unavailable?",
+       "a": "Reception and voicemail let you take the message and call back afterwards."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Comercio electrónico: montar un servicio de atención telefónica",
+   "description": "Seguimiento de pedidos, devoluciones y dudas previas a la compra: por qué el teléfono sigue importando en e-commerce y cómo ayuda Company Full Scope In & Out.",
+   "blocks": [
+    {
+     "h2": "El problema: compradores en línea que a veces quieren una voz real"
+    },
+    {
+     "p": "Una tienda en línea funciona sin contacto humano hasta que algo no sale como estaba previsto: un paquete retrasado, una talla equivocada, una duda antes de pagar. En ese momento muchos clientes buscan un número de teléfono, y la falta de respuesta puede costar una venta o una relación."
+    },
+    {
+     "ul": [
+      "Dudas previas a la compra sin respuesta que provocan el abandono del carrito.",
+      "Solicitudes de seguimiento de envío que saturan el correo.",
+      "Devoluciones y cambios difíciles de explicar por escrito.",
+      "Picos de llamadas en torno a promociones y fechas señaladas.",
+      "Un equipo reducido que atiende a la vez logística, marketing y soporte."
+     ]
+    },
+    {
+     "h2": "Cómo encaja Company Full Scope In & Out en la atención de una tienda en línea"
+    },
+    {
+     "p": "Company Full Scope In & Out, la oferta de HARX Telefonía para pymes y equipos remotos, cubre las llamadas entrantes y salientes. Una tienda puede mostrar en su web un número de su país, lo que tranquiliza al comprador indeciso, y contar con recepción y contestador cuando el equipo está ocupado."
+    },
+    {
+     "p": "La llamada saliente sirve para llamar a un cliente cuyo pedido tiene un problema antes de que se queje, o para confirmar una devolución. Una IA de apoyo acompaña las conversaciones. La suscripción mensual, con minutos e IA prepagados, facilita empezar, ya que la línea se describe como operativa en pocos minutos."
+    },
+    {
+     "h2": "Buenas prácticas para el soporte telefónico de una tienda en línea"
+    },
+    {
+     "ul": [
+      "Mostrar de forma visible el número y el horario de atención, junto a la política de devoluciones.",
+      "Preparar respuestas modelo para los motivos frecuentes: envío, devolución, pago, garantía.",
+      "Pedir el número de pedido al principio para ir directo al grano.",
+      "Ofrecer una solución concreta y no solo una disculpa cuando algo falla.",
+      "Anticipar los periodos de alta demanda informando al equipo y preparando pautas.",
+      "Anotar las causas de llamada repetidas para corregir fichas de producto o mensajes de envío."
+     ]
+    },
+    {
+     "p": "Un servicio telefónico bien llevado reduce los abandonos y refuerza la confianza. Para un comerciante en línea que desea añadir este canal sin montar un centro de llamadas, Company Full Scope In & Out de HARX es una vía que explorar. Con el tiempo, las propias llamadas se convierten en una fuente útil de información sobre lo que la tienda podría explicar mejor."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Se puede mostrar un número local en una tienda en línea?",
+       "a": "La oferta proporciona un número de su país para llamadas entrantes y salientes."
+      },
+      {
+       "q": "¿Se puede devolver la llamada a un cliente por un pedido?",
+       "a": "Sí, la oferta cubre las llamadas salientes."
+      },
+      {
+       "q": "¿Qué hacer si el equipo no está disponible?",
+       "a": "La recepción y el contestador permiten tomar el mensaje y devolver la llamada después."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "التجارة الإلكترونية: إعداد خدمة عملاء هاتفية",
+   "description": "تتبّع الطلبات والإرجاع وأسئلة ما قبل الشراء: لماذا يظل الهاتف مهمًا في التجارة الإلكترونية وكيف يساعد عرض Company Full Scope In & Out من HARX.",
+   "blocks": [
+    {
+     "h2": "المشكلة: متسوقون عبر الإنترنت يريدون أحيانًا صوتًا حقيقيًا"
+    },
+    {
+     "p": "يعمل المتجر الإلكتروني دون تواصل بشري إلى أن يحدث ما لم يكن في الحسبان: طرد متأخر، أو مقاس غير مناسب، أو تردد قبل الدفع. وفي تلك اللحظة يبحث كثير من العملاء عن رقم هاتف، وقد يكلّف غياب الجواب بيعة أو علاقة كاملة."
+    },
+    {
+     "ul": [
+      "أسئلة ما قبل الشراء تبقى بلا جواب فيُهجَر سلّة المشتريات.",
+      "طلبات تتبّع الشحن التي تُغرق صندوق الرسائل.",
+      "عمليات إرجاع واستبدال يصعب شرحها كتابةً.",
+      "ذروات في المكالمات حول العروض والمواسم.",
+      "فريق صغير يتولى اللوجستيات والتسويق والدعم في آن واحد."
+     ]
+    },
+    {
+     "h2": "كيف ينسجم Company Full Scope In & Out مع خدمة عملاء المتجر الإلكتروني"
+    },
+    {
+     "p": "يغطي Company Full Scope In & Out، وهو عرض HARX للاتصالات الهاتفية الموجّه إلى الشركات الصغيرة والمتوسطة والفرق عن بُعد، المكالمات الواردة والصادرة. ويمكن للمتجر عرض رقم من بلده على موقعه، وهذا يطمئن المشتري المتردد، مع استقبال ومجيب آلي حين ينشغل الفريق."
+    },
+    {
+     "p": "وتفيد المكالمة الصادرة في الاتصال بعميل يواجه طلبه مشكلة قبل أن يشتكي، أو في تأكيد عملية إرجاع. ويرافق المحادثات ذكاء اصطناعي مساعد. ويسهّل الاشتراك الشهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا البدء، إذ يُذكر أن الخط جاهز خلال دقائق."
+    },
+    {
+     "h2": "ممارسات جيدة للدعم الهاتفي في المتجر الإلكتروني"
+    },
+    {
+     "ul": [
+      "عرض الرقم وساعات الردّ بوضوح على الموقع بجوار سياسة الإرجاع.",
+      "إعداد إجابات نموذجية عن الأسباب المتكررة: التوصيل والإرجاع والدفع والضمان.",
+      "طلب رقم الطلب في بداية المكالمة للدخول في الموضوع مباشرة.",
+      "تقديم حل ملموس بدل مجرد الاعتذار عند حدوث مشكلة.",
+      "الاستعداد لفترات الطلب المرتفع بإطلاع الفريق وإعداد تعليمات.",
+      "تسجيل أسباب الاتصال المتكررة لتصحيح صفحات المنتجات أو رسائل التوصيل."
+     ]
+    },
+    {
+     "p": "تقلّل خدمة الهاتف الجيدة حالات الهجر وتعزز الثقة. وللتاجر عبر الإنترنت الذي يريد إضافة هذه القناة دون بناء مركز اتصال، يُعدّ Company Full Scope In & Out من HARX سبيلًا جديرًا بالاستكشاف. ومع الوقت تصبح المكالمات نفسها مصدرًا مفيدًا للملاحظات حول ما يمكن للمتجر أن يشرحه بصورة أفضل، سواء في وصف المنتجات أو في شروط الشحن والإرجاع."
+    },
+    {
+     "p": "ومن المفيد كذلك التفكير في موسم الذروة قبل حلوله: فالعروض الكبرى وفترات الأعياد ترفع عدد المكالمات فجأة، ويكون الاستعداد المسبق بإعداد قائمة بالأسئلة المتوقعة، وبتحديد من يُستدعى عند الضغط، أنفع بكثير من الارتجال أثناء الازدحام. ولا يقل عن ذلك أهمية أن تتطابق المعلومات التي يقدّمها الهاتف مع تلك المنشورة على الموقع في ما يخص الأسعار وآجال التوصيل وشروط الإرجاع، حتى لا يجد العميل جوابين مختلفين لسؤال واحد."
+    },
+    {
+     "p": "ومن المفيد أن تُحدَّث قائمة الأسئلة والأجوبة كلما غيّر المتجر سياسته، وأن يطّلع عليها كل من يردّ على المكالمات، حتى لا يسمع العميل جوابين مختلفين عن السؤال نفسه."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يمكن عرض رقم محلي على متجر إلكتروني؟",
+       "a": "يوفّر العرض رقمًا من بلدكم للمكالمات الواردة والصادرة."
+      },
+      {
+       "q": "هل يمكن معاودة الاتصال بعميل بشأن طلب؟",
+       "a": "نعم، فالعرض يغطي المكالمات الصادرة."
+      },
+      {
+       "q": "ماذا لو لم يكن الفريق متاحًا؟",
+       "a": "يتيح الاستقبال والمجيب الآلي تسجيل الرسالة ثم معاودة الاتصال لاحقًا."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

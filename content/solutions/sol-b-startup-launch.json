@@ -1,0 +1,282 @@
+{
+ "type": "solution",
+ "slug": "sol-b-startup-launch",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Start-up en lancement : gérer les appels clients sans gros budget",
+   "description": "Lancer un produit sans équipe de service client : comment une jeune entreprise peut couvrir ses appels et payer au résultat avec TAAS de HARX.",
+   "blocks": [
+    {
+     "h2": "Le problème : des appels à traiter avant même d'avoir une équipe"
+    },
+    {
+     "p": "Au lancement, une start-up a peu de moyens et beaucoup d'incertitudes. Les premiers clients appellent pour comprendre, se plaindre, demander une démonstration. Les fondateurs décrochent eux-mêmes, au détriment du produit, ou bien les appels restent sans réponse et les premiers utilisateurs s'éloignent."
+    },
+    {
+     "ul": [
+      "Un volume d'appels impossible à prévoir avant d'avoir un historique.",
+      "Un budget qui ne permet pas encore d'embaucher et de former une équipe.",
+      "Des fondateurs interrompus en permanence par des demandes de support.",
+      "Un besoin d'apprendre vite ce que disent les premiers clients.",
+      "La crainte de s'engager sur des coûts fixes alors que la demande est incertaine."
+     ]
+    },
+    {
+     "h2": "TAAS : ne payer que lorsque le résultat est approuvé"
+    },
+    {
+     "p": "TAAS, pour Transaction-as-a-Service, est l'une des deux offres réunies sur HARX.ai. Le principe : l'entreprise définit le résultat attendu et son prix, et ne paie que lorsque ce résultat est approuvé. Une mission s'appelle un « gig », et elle est confiée à un réseau de professionnels du service client certifiés, humains ou IA."
+    },
+    {
+     "p": "Pour une start-up, cette logique convient bien à l'incertitude du lancement : au lieu d'un coût fixe, on rémunère un résultat précis. Chaque interaction est évaluée en temps réel, ce qui donne de la visibilité sur la qualité. L'espace COMPANY, où l'on publie un gig, est annoncé comme bientôt disponible ; il ne faut donc pas encore compter dessus aujourd'hui."
+    },
+    {
+     "p": "En parallèle, la start-up peut s'appuyer sur la téléphonie HARX, par exemple Company Full Scope In & Out, pour disposer d'un numéro de son pays, d'un accueil et d'un répondeur sans attendre de constituer une équipe."
+    },
+    {
+     "h2": "Bonnes pratiques pour le support d'un produit naissant"
+    },
+    {
+     "ul": [
+      "Définir ce qu'est un bon résultat avant de confier quoi que ce soit : question résolue, rendez-vous pris, information transmise.",
+      "Rédiger une base de réponses aux dix premières questions des clients et la faire évoluer.",
+      "Écouter les appels pour repérer ce qui bloque dans le produit, pas seulement pour répondre.",
+      "Garder le contact direct avec les premiers clients, source d'enseignements précieux.",
+      "Éviter de promettre des fonctionnalités ou des délais incertains.",
+      "Revoir régulièrement le dispositif à mesure que la demande se précise."
+     ]
+    },
+    {
+     "p": "Un lancement réussi combine apprentissage rapide et dépenses maîtrisées. L'approche TAAS de HARX répond à cette logique en reliant le paiement au résultat obtenu."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Qu'est-ce qu'un gig dans TAAS ?",
+       "a": "Un gig est une mission : l'entreprise décrit le résultat attendu et son prix, et ne paie que si le résultat est approuvé."
+      },
+      {
+       "q": "Puis-je publier un gig dès maintenant ?",
+       "a": "La fonction « Publier un gig » de l'espace COMPANY est annoncée comme bientôt disponible."
+      },
+      {
+       "q": "Qui réalise les missions ?",
+       "a": "Un réseau de professionnels du service client certifiés, humains ou IA."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Start-up launch phase: handling customer calls on a tight budget",
+   "description": "Launching a product without a customer service team: how a young company can cover its calls and pay for results with HARX's TAAS model.",
+   "blocks": [
+    {
+     "h2": "The problem: calls to handle before there is even a team"
+    },
+    {
+     "p": "At launch, a start-up has few resources and many unknowns. The first customers call to understand, to complain, to ask for a demo. Founders either answer themselves at the expense of the product, or calls go unanswered and early users drift away."
+    },
+    {
+     "ul": [
+      "A call volume impossible to predict before there is any history.",
+      "A budget that does not yet allow hiring and training a team.",
+      "Founders constantly interrupted by support requests.",
+      "A need to learn quickly what the first customers are saying.",
+      "Reluctance to commit to fixed costs while demand is uncertain."
+     ]
+    },
+    {
+     "h2": "TAAS: pay only when the result is approved"
+    },
+    {
+     "p": "TAAS, short for Transaction-as-a-Service, is one of the two offers brought together on HARX.ai. The principle: the company defines the expected result and its price, and only pays when that result is approved. A mission is called a gig, and it is carried out by a network of certified customer service professionals, human or AI."
+    },
+    {
+     "p": "For a start-up, this logic suits the uncertainty of a launch: instead of a fixed cost, you pay for a specific result. Each interaction is evaluated in real time, which gives visibility on quality. The COMPANY space, where a gig is published, is announced as coming soon, so it should not yet be counted on today."
+    },
+    {
+     "p": "Meanwhile, the start-up can rely on HARX Telephony, for example Company Full Scope In & Out, to have a number from its own country, reception and voicemail without waiting to build a team."
+    },
+    {
+     "h2": "Good practices for supporting a new product"
+    },
+    {
+     "ul": [
+      "Define what a good result is before delegating anything: a resolved question, a booked appointment, information passed on.",
+      "Write a bank of answers to the first ten customer questions and keep it evolving.",
+      "Listen to calls to spot what blocks users in the product, not only to answer them.",
+      "Keep direct contact with the first customers, a source of valuable lessons.",
+      "Avoid promising features or deadlines that are uncertain.",
+      "Review the setup regularly as demand becomes clearer."
+     ]
+    },
+    {
+     "p": "A successful launch combines fast learning with controlled spending. HARX's TAAS approach fits that logic by tying payment to the result obtained. Start small, measure what each interaction actually delivers, and expand only once the pattern is clear."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "What is a gig in TAAS?",
+       "a": "A gig is a mission: the company describes the expected result and its price, and only pays if the result is approved."
+      },
+      {
+       "q": "Can I publish a gig right now?",
+       "a": "The Publish a gig function in the COMPANY space is announced as coming soon."
+      },
+      {
+       "q": "Who carries out the missions?",
+       "a": "A network of certified customer service professionals, human or AI."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Startup en fase de lanzamiento: atender llamadas sin gran presupuesto",
+   "description": "Lanzar un producto sin equipo de atención al cliente: cómo una empresa joven cubre sus llamadas y paga por resultados con el modelo TAAS de HARX.",
+   "blocks": [
+    {
+     "h2": "El problema: llamadas que atender antes de tener un equipo"
+    },
+    {
+     "p": "En el lanzamiento, una startup dispone de pocos medios y muchas incógnitas. Los primeros clientes llaman para entender, para quejarse, para pedir una demostración. Los fundadores contestan ellos mismos en detrimento del producto, o las llamadas quedan sin respuesta y los primeros usuarios se alejan."
+    },
+    {
+     "ul": [
+      "Un volumen de llamadas imposible de prever sin historial.",
+      "Un presupuesto que aún no permite contratar y formar un equipo.",
+      "Fundadores interrumpidos continuamente por solicitudes de soporte.",
+      "La necesidad de aprender rápido lo que dicen los primeros clientes.",
+      "Reticencia a asumir costes fijos cuando la demanda es incierta."
+     ]
+    },
+    {
+     "h2": "TAAS: pagar solo cuando el resultado está aprobado"
+    },
+    {
+     "p": "TAAS, siglas de Transaction-as-a-Service, es una de las dos ofertas reunidas en HARX.ai. El principio: la empresa define el resultado esperado y su precio, y solo paga cuando ese resultado se aprueba. Una misión se llama gig y la realiza una red de profesionales certificados de atención al cliente, humanos o IA."
+    },
+    {
+     "p": "Para una startup, esta lógica encaja con la incertidumbre del lanzamiento: en vez de un coste fijo, se remunera un resultado concreto. Cada interacción se evalúa en tiempo real, lo que da visibilidad sobre la calidad. El espacio COMPANY, donde se publica un gig, se anuncia como próximamente disponible, así que todavía no se debe contar con él."
+    },
+    {
+     "p": "Mientras tanto, la startup puede apoyarse en HARX Telefonía, por ejemplo Company Full Scope In & Out, para tener un número de su país, recepción y contestador sin esperar a formar un equipo."
+    },
+    {
+     "h2": "Buenas prácticas para dar soporte a un producto nuevo"
+    },
+    {
+     "ul": [
+      "Definir qué es un buen resultado antes de delegar nada: una duda resuelta, una cita concertada, una información transmitida.",
+      "Redactar un banco de respuestas a las diez primeras preguntas de los clientes y hacerlo evolucionar.",
+      "Escuchar las llamadas para detectar qué bloquea a los usuarios en el producto, y no solo para responder.",
+      "Mantener contacto directo con los primeros clientes, fuente de aprendizajes valiosos.",
+      "Evitar prometer funciones o plazos inciertos.",
+      "Revisar el dispositivo con regularidad a medida que la demanda se aclara."
+     ]
+    },
+    {
+     "p": "Un lanzamiento exitoso combina aprendizaje rápido y gasto controlado. El enfoque TAAS de HARX responde a esa lógica al vincular el pago con el resultado obtenido. Conviene empezar poco a poco, medir lo que aporta cada interacción y ampliar solo cuando el patrón esté claro."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Qué es un gig en TAAS?",
+       "a": "Un gig es una misión: la empresa describe el resultado esperado y su precio, y solo paga si el resultado se aprueba."
+      },
+      {
+       "q": "¿Puedo publicar un gig ahora mismo?",
+       "a": "La función Publicar un gig del espacio COMPANY se anuncia como próximamente disponible."
+      },
+      {
+       "q": "¿Quién realiza las misiones?",
+       "a": "Una red de profesionales certificados de atención al cliente, humanos o IA."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "شركة ناشئة في الإطلاق: التعامل مع مكالمات العملاء بميزانية محدودة",
+   "description": "إطلاق منتج دون فريق لخدمة العملاء: كيف تغطي شركة ناشئة مكالماتها وتدفع مقابل النتائج مع نموذج TAAS من HARX.",
+   "blocks": [
+    {
+     "h2": "المشكلة: مكالمات ينبغي معالجتها قبل أن يوجد فريق"
+    },
+    {
+     "p": "تملك الشركة الناشئة عند الإطلاق موارد قليلة وكثيرًا من المجهولات. فيتصل أوائل العملاء ليفهموا أو يشتكوا أو يطلبوا عرضًا تجريبيًا. ويردّ المؤسسون بأنفسهم على حساب المنتج، أو تبقى المكالمات بلا جواب فيبتعد المستخدمون الأوائل."
+    },
+    {
+     "ul": [
+      "حجم مكالمات يستحيل توقعه قبل وجود سجلّ سابق.",
+      "ميزانية لا تسمح بعدُ بتوظيف فريق وتدريبه.",
+      "مؤسسون تقاطعهم طلبات الدعم باستمرار.",
+      "حاجة إلى معرفة سريعة بما يقوله أوائل العملاء.",
+      "تردد في الالتزام بتكاليف ثابتة بينما الطلب غير مؤكد."
+     ]
+    },
+    {
+     "h2": "نموذج TAAS: لا تدفع إلا عند اعتماد النتيجة"
+    },
+    {
+     "p": "TAAS اختصار Transaction-as-a-Service، وهو أحد العرضين المجتمعين في HARX.ai. والمبدأ أن تحدد الشركة النتيجة المنتظرة وسعرها، ولا تدفع إلا عندما تُعتمد هذه النتيجة. وتسمى المهمة «gig»، ويتولاها شبكة من مختصي خدمة العملاء المعتمدين، من البشر أو الذكاء الاصطناعي."
+    },
+    {
+     "p": "وهذا المنطق مناسب لعدم اليقين في مرحلة الإطلاق، فبدل تكلفة ثابتة تُدفع مكافأة عن نتيجة محددة. وتُقيَّم كل مراسلة أو مكالمة في الوقت الفعلي، مما يمنح رؤية واضحة للجودة. أما فضاء COMPANY الذي يُنشر فيه الـ gig فيُعلَن أنه سيتوفر قريبًا، ولذلك لا ينبغي الاعتماد عليه اليوم."
+    },
+    {
+     "p": "وفي الأثناء يمكن للشركة الناشئة الاستعانة باتصالات HARX الهاتفية، مثل Company Full Scope In & Out، لتحصل على رقم من بلدها واستقبال ومجيب آلي دون انتظار تكوين فريق."
+    },
+    {
+     "h2": "ممارسات جيدة لدعم منتج وليد"
+    },
+    {
+     "ul": [
+      "تحديد معنى النتيجة الجيدة قبل تفويض أي شيء: سؤال حُلّ، أو موعد حُجز، أو معلومة نُقلت.",
+      "كتابة مجموعة إجابات عن أول عشرة أسئلة للعملاء وتطويرها باستمرار.",
+      "الاستماع إلى المكالمات لاكتشاف ما يعيق المستخدمين في المنتج، لا لمجرد الرد عليهم.",
+      "الحفاظ على تواصل مباشر مع أوائل العملاء لأنه مصدر دروس ثمينة.",
+      "تجنب الوعد بميزات أو مواعيد غير مؤكدة.",
+      "مراجعة المنظومة دوريًا كلما اتضح الطلب أكثر."
+     ]
+    },
+    {
+     "p": "ينجح الإطلاق حين يجمع بين التعلم السريع والإنفاق المنضبط، ويستجيب نهج TAAS من HARX لهذا المنطق إذ يربط الدفع بالنتيجة المحققة. ويُستحسن البدء بخطوات صغيرة وقياس ما تحققه كل مراسلة فعلًا، ثم التوسع عندما يتضح النمط. ويفيد كذلك تدوين ما يُستخلص من كل أسبوع من العمل حتى تتحول التجربة المبكرة إلى معرفة يمكن البناء عليها."
+    },
+    {
+     "p": "ومن المفيد كذلك أن يحتفظ المؤسسون بعادة الاستماع إلى عينة من المحادثات كل أسبوع، فهي تكشف أسئلة لم يتوقعوها وصعوبات في المنتج لا تظهر في لوحات المتابعة. ويمكن تحويل هذه الملاحظات إلى قائمة أولويات بسيطة لفريق المنتج، فيتحول كل اتصال من عبء إلى مصدر معرفة. كما يُستحسن تدوين الصيغ التي أرضت العملاء، لتصبح مع الوقت أساس دليل داخلي يسهّل انضمام أي شخص جديد إلى الفريق لاحقًا دون إضاعة وقت في إعادة اكتشاف ما سبق تعلّمه."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "ما هو الـ gig في TAAS؟",
+       "a": "هو مهمة: تصف الشركة النتيجة المنتظرة وسعرها، ولا تدفع إلا إذا اعتُمدت النتيجة."
+      },
+      {
+       "q": "هل يمكنني نشر gig الآن؟",
+       "a": "تُعلَن وظيفة «نشر gig» في فضاء COMPANY على أنها ستتوفر قريبًا."
+      },
+      {
+       "q": "من ينفّذ المهام؟",
+       "a": "شبكة من مختصي خدمة العملاء المعتمدين، من البشر أو الذكاء الاصطناعي."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

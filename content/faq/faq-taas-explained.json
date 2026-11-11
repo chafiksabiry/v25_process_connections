@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-explained",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "TAAS expliqué simplement : FAQ Transaction-as-a-Service",
+   "description": "Qu’est-ce que TAAS, la Transaction-as-a-Service de HARX ? Définition simple, principe du paiement au résultat et rôle des professionnels du service client.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Que signifie TAAS ?",
+       "a": "TAAS signifie Transaction-as-a-Service. C’est une façon de confier une mission de service client en se concentrant sur le résultat attendu plutôt que sur le temps passé à le produire."
+      },
+      {
+       "q": "Comment fonctionne TAAS en une phrase ?",
+       "a": "L’entreprise décrit le résultat qu’elle attend et fixe son prix. Un professionnel du réseau réalise la mission, et l’entreprise ne règle que si le résultat est approuvé."
+      },
+      {
+       "q": "Qui réalise le travail ?",
+       "a": "Un réseau de professionnels du service client : des agents et reps certifiés, qui peuvent être des humains ou des IA. Chacun intervient sur les missions qui correspondent à son profil."
+      },
+      {
+       "q": "En quoi est-ce différent d’un prestataire classique ?",
+       "a": "Dans un modèle classique, on achète souvent du temps ou un volume d’activité. Avec TAAS, on part du résultat visé : c’est lui qui déclenche le paiement, pas la simple réalisation de la tâche."
+      },
+      {
+       "q": "Que dois-je définir avant de commencer ?",
+       "a": "Le résultat attendu, la manière de reconnaître qu’il est atteint, et le prix que vous êtes prêt à payer pour l’obtenir. Plus ces éléments sont clairs, plus la mission est facile à réaliser et à évaluer."
+      },
+      {
+       "q": "TAAS est-il une offre de HARX ?",
+       "a": "Oui. HARX.ai réunit deux offres, TAAS et HARX Téléphonie, et d’autres arrivent. TAAS s’adresse à celles et ceux qui veulent payer un résultat de service client approuvé."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "TAAS Explained Simply: Transaction-as-a-Service FAQ",
+   "description": "What is TAAS, HARX’s Transaction-as-a-Service? A plain-language definition, how outcome-based payment works and who does the customer service work.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What does TAAS stand for?",
+       "a": "TAAS stands for Transaction-as-a-Service. It is a way of handing off a customer service task by focusing on the outcome you expect rather than the time spent producing it."
+      },
+      {
+       "q": "How does TAAS work in one sentence?",
+       "a": "The company describes the result it wants and sets its price. A professional from the network does the work, and the company pays only once the result is approved."
+      },
+      {
+       "q": "Who actually does the work?",
+       "a": "A network of customer service professionals: certified agents and reps, who can be humans or AI. Each takes on the missions that fit their profile."
+      },
+      {
+       "q": "How is this different from a traditional provider?",
+       "a": "Traditional models often sell time or activity volume. With TAAS you start from the target outcome, and that outcome, not the mere completion of a task, triggers payment."
+      },
+      {
+       "q": "What should I define before starting?",
+       "a": "The expected result, how you will recognise that it has been achieved, and the price you are willing to pay for it. The clearer these are, the easier the mission is to carry out and to evaluate."
+      },
+      {
+       "q": "Is TAAS a HARX offer?",
+       "a": "Yes. HARX.ai brings together two offers, TAAS and HARX Telephony, with more on the way. TAAS is for those who want to pay for an approved customer service result."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "TAAS explicado fácil: preguntas sobre Transaction-as-a-Service",
+   "description": "¿Qué es TAAS, la Transaction-as-a-Service de HARX? Definición sencilla, cómo funciona el pago por resultado y quién realiza el trabajo de atención al cliente.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué significa TAAS?",
+       "a": "TAAS significa Transaction-as-a-Service. Es una forma de encargar una tarea de atención al cliente centrándose en el resultado esperado y no en el tiempo empleado para lograrlo."
+      },
+      {
+       "q": "¿Cómo funciona TAAS en una frase?",
+       "a": "La empresa describe el resultado que quiere y fija su precio. Un profesional de la red realiza la misión y la empresa solo paga cuando el resultado queda aprobado."
+      },
+      {
+       "q": "¿Quién hace realmente el trabajo?",
+       "a": "Una red de profesionales de atención al cliente: agentes y reps certificados, que pueden ser personas o IA. Cada uno asume las misiones que encajan con su perfil."
+      },
+      {
+       "q": "¿En qué se diferencia de un proveedor tradicional?",
+       "a": "Los modelos tradicionales suelen vender tiempo o volumen de actividad. Con TAAS se parte del resultado buscado, y es ese resultado, no la simple ejecución de una tarea, lo que activa el pago."
+      },
+      {
+       "q": "¿Qué debo definir antes de empezar?",
+       "a": "El resultado esperado, cómo sabrá que se ha conseguido y el precio que está dispuesto a pagar por él. Cuanto más claros sean estos puntos, más fácil será ejecutar y evaluar la misión."
+      },
+      {
+       "q": "¿TAAS es una oferta de HARX?",
+       "a": "Sí. HARX.ai reúne dos ofertas, TAAS y HARX Telefonía, y vendrán más. TAAS está pensada para quien quiere pagar por un resultado de atención al cliente aprobado."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "TAAS ببساطة: أسئلة حول المعاملة كخدمة",
+   "description": "ما هو TAAS، خدمة «المعاملة كخدمة» من HARX؟ تعريف مبسّط، وكيف يعمل الدفع مقابل النتيجة، ومن ينفّذ عمل خدمة العملاء.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ماذا يعني TAAS؟",
+       "a": "TAAS اختصار Transaction-as-a-Service أي «المعاملة كخدمة». هو أسلوب لإسناد مهمة في خدمة العملاء بالتركيز على النتيجة المتوقعة، لا على الوقت المستغرق لتحقيقها."
+      },
+      {
+       "q": "كيف يعمل TAAS في جملة واحدة؟",
+       "a": "تصف الشركة النتيجة التي تريدها وتحدد سعرها، ثم ينفّذ أحد محترفي الشبكة المهمة، ولا تدفع الشركة إلا بعد الموافقة على النتيجة."
+      },
+      {
+       "q": "من الذي ينفّذ العمل فعلياً؟",
+       "a": "شبكة من محترفي خدمة العملاء: وكلاء ومندوبون معتمدون، قد يكونون بشراً أو ذكاءً اصطناعياً. ويتولّى كلٌّ منهم المهام التي تناسب ملفه."
+      },
+      {
+       "q": "ما الفرق بينه وبين مزوّد الخدمة التقليدي؟",
+       "a": "النماذج التقليدية تبيع غالباً الوقت أو حجم النشاط. أما في TAAS فننطلق من النتيجة المستهدفة، وهي التي تستوجب الدفع، لا مجرد إنجاز المهمة."
+      },
+      {
+       "q": "ماذا يجب أن أحدد قبل البدء؟",
+       "a": "النتيجة المنتظرة، وطريقة التأكد من تحققها، والسعر الذي ترغب في دفعه مقابلها. وكلما كانت هذه العناصر أوضح، سهل تنفيذ المهمة وتقييمها."
+      },
+      {
+       "q": "هل TAAS عرض من HARX؟",
+       "a": "نعم. تجمع HARX.ai عرضين هما TAAS وHARX Telephony، وستأتي عروض أخرى. ويناسب TAAS من يريد الدفع مقابل نتيجة معتمدة في خدمة العملاء."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

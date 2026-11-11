@@ -1,0 +1,269 @@
+{
+ "type": "blog",
+ "slug": "blog-b-customer-service-trends",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Tendances du service client : ce qui change et ce qui reste",
+   "description": "IA qui assiste, résultats mesurés, travail à distance, multilinguisme : les grandes tendances du service client, observées avec recul et sans chiffres.",
+   "blocks": [
+    {
+     "h2": "Observer sans s'emballer"
+    },
+    {
+     "p": "Le service client évolue vite, et il est tentant de courir derrière chaque nouveauté. Les tendances les plus utiles à suivre sont celles qui répondent à des besoins durables : être compris, obtenir une réponse juste, gagner du temps. Cet article en présente quelques-unes, sans chiffres ni prédictions, car l'essentiel est de comprendre les mouvements de fond."
+    },
+    {
+     "h2": "L'IA comme assistante des équipes"
+    },
+    {
+     "p": "L'intelligence artificielle s'installe progressivement dans les centres de contact : aide à la rédaction, suggestions pendant un appel, tri des demandes, traitement de cas simples. Les organisations les plus réfléchies l'utilisent comme un appui aux agents plutôt que comme un remplacement, et gardent l'humain pour les situations sensibles."
+    },
+    {
+     "ul": [
+      "Des outils qui aident l'agent à retrouver une information plus vite.",
+      "Des règles claires de passage de l'IA à un humain.",
+      "Une supervision de la qualité des deux types d'agents."
+     ]
+    },
+    {
+     "h2": "Payer pour des résultats"
+    },
+    {
+     "p": "De plus en plus d'entreprises s'interrogent sur le lien entre ce qu'elles dépensent et ce qu'elles obtiennent. Des modèles où l'on définit un résultat attendu, un prix, puis où l'on ne règle que lorsque le résultat est approuvé gagnent en attention. C'est la logique du Transaction-as-a-Service, que propose HARX.ai avec un réseau d'agents certifiés, humains ou IA, qui réalisent des missions appelées gigs."
+    },
+    {
+     "p": "Cette évolution oblige à mieux définir les objectifs et à évaluer la qualité de chaque interaction, ce qui profite aussi aux modèles plus classiques."
+    },
+    {
+     "h2": "Le travail à distance s'installe"
+    },
+    {
+     "p": "Les équipes réparties, les agents à domicile et les accueils délocalisés se sont banalisés. Cela élargit le vivier de talents et permet d'adapter les horaires, mais demande de repenser l'intégration, le suivi et le lien d'équipe. La téléphonie en ligne facilite cette organisation : HARX Téléphonie permet par exemple d'avoir un numéro de son pays et de gérer appels entrants et sortants à distance."
+    },
+    {
+     "h2": "Le multilinguisme devient un standard"
+    },
+    {
+     "p": "Les clients attendent de plus en plus d'être servis dans leur langue. Les entreprises qui s'adressent à des publics variés cherchent des équipes capables de passer d'une langue à l'autre sans perte de qualité. La difficulté est de maintenir la justesse des nuances, ce qui suppose des évaluateurs qui comprennent chaque langue."
+    },
+    {
+     "h2": "Plus de personnalisation, plus de vigilance"
+    },
+    {
+     "p": "Les clients apprécient qu'on se souvienne de leur historique, mais ils sont aussi attentifs à l'usage de leurs données. Les entreprises doivent trouver l'équilibre entre une relation personnalisée et un traitement respectueux de la vie privée, dans le cadre des règles applicables à chaque pays."
+    },
+    {
+     "h2": "Ce qui ne change pas"
+    },
+    {
+     "p": "Derrière les outils et les modèles, l'essentiel reste humain : une écoute attentive, des réponses claires, du respect, une vraie volonté de résoudre. Les entreprises qui progressent le mieux sont souvent celles qui mesurent honnêtement la qualité de leurs échanges et qui apprennent de chaque retour."
+    },
+    {
+     "p": "Pour suivre ces évolutions concrètement, vous pouvez explorer l'offre TAAS de HARX.ai pour la logique de résultats évalués, et HARX Téléphonie pour la dimension téléphonique. D'autres offres sont annoncées à venir."
+    }
+   ]
+  },
+  "en": {
+   "title": "Customer Service Trends: What Changes and What Stays",
+   "description": "AI that assists, measured results, remote work, multilingual service: the main customer service trends, observed with perspective and without statistics.",
+   "blocks": [
+    {
+     "h2": "Observing without getting carried away"
+    },
+    {
+     "p": "Customer service is changing fast, and it is tempting to chase every novelty. The most useful trends to follow are those that answer lasting needs: being understood, getting a correct answer, saving time. This article presents a few, with no figures or predictions, because the essential thing is to grasp the underlying movements."
+    },
+    {
+     "h2": "AI as the teams' assistant"
+    },
+    {
+     "p": "Artificial intelligence is gradually settling into contact centres: writing help, suggestions during a call, sorting of requests, handling of simple cases. The most thoughtful organisations use it as a support for agents rather than a replacement, and keep humans for sensitive situations."
+    },
+    {
+     "ul": [
+      "Tools that help the agent find information faster.",
+      "Clear rules for passing from AI to a human.",
+      "Quality supervision of both kinds of agents."
+     ]
+    },
+    {
+     "h2": "Paying for results"
+    },
+    {
+     "p": "More and more companies are questioning the link between what they spend and what they get. Models where you define an expected result and a price, then pay only when the result is approved, are gaining attention. This is the logic of Transaction-as-a-Service, which HARX.ai offers with a network of certified agents, human or AI, who carry out tasks called gigs."
+    },
+    {
+     "p": "This shift forces better definition of objectives and assessment of the quality of each interaction, which also benefits more traditional models."
+    },
+    {
+     "h2": "Remote work takes root"
+    },
+    {
+     "p": "Distributed teams, home-based agents and outsourced receptions have become commonplace. This widens the talent pool and allows hours to be adapted, but it requires rethinking onboarding, follow-up and team connection. Online telephony eases this organisation: HARX Telephony, for example, lets you have a number from your country and manage inbound and outbound calls remotely."
+    },
+    {
+     "h2": "Multilingual service becomes a standard"
+    },
+    {
+     "p": "Customers increasingly expect to be served in their own language. Companies addressing varied audiences look for teams able to switch between languages without loss of quality. The difficulty is to maintain accuracy of nuance, which requires assessors who understand each language."
+    },
+    {
+     "h2": "More personalisation, more vigilance"
+    },
+    {
+     "p": "Customers appreciate being remembered, but they are also attentive to how their data is used. Companies must find the balance between a personalised relationship and respectful handling of privacy, within the rules applicable in each country."
+    },
+    {
+     "h2": "What does not change"
+    },
+    {
+     "p": "Behind the tools and models, the essentials remain human: attentive listening, clear answers, respect, a genuine will to resolve. The companies that progress best are often those that honestly measure the quality of their exchanges and learn from each piece of feedback."
+    },
+    {
+     "p": "A practical way to use trends is to pick one, test it on a small scale and observe the effect on customers and on the team before deciding whether to extend it."
+    },
+    {
+     "p": "To follow these developments in practice, you can explore the TAAS offer from HARX.ai for the logic of assessed results, and HARX Telephony for the telephone dimension. Other offers are announced as coming."
+    }
+   ]
+  },
+  "es": {
+   "title": "Tendencias en atención al cliente: lo que cambia y lo que permanece",
+   "description": "IA que asiste, resultados medidos, trabajo a distancia y atención multilingüe: las grandes tendencias del servicio al cliente, con perspectiva y sin cifras.",
+   "blocks": [
+    {
+     "h2": "Observar sin dejarse llevar"
+    },
+    {
+     "p": "La atención al cliente evoluciona rápido y es tentador correr tras cada novedad. Las tendencias más útiles de seguir son las que responden a necesidades duraderas: ser comprendido, obtener una respuesta correcta, ganar tiempo. Este artículo presenta algunas, sin cifras ni predicciones, porque lo esencial es entender los movimientos de fondo."
+    },
+    {
+     "h2": "La IA como asistente de los equipos"
+    },
+    {
+     "p": "La inteligencia artificial se instala poco a poco en los centros de contacto: ayuda a la redacción, sugerencias durante una llamada, clasificación de solicitudes, tramitación de casos sencillos. Las organizaciones más reflexivas la utilizan como apoyo a los agentes y no como sustitución, y reservan a las personas las situaciones delicadas."
+    },
+    {
+     "ul": [
+      "Herramientas que ayudan al agente a encontrar información más rápido.",
+      "Reglas claras de paso de la IA a una persona.",
+      "Supervisión de la calidad de ambos tipos de agentes."
+     ]
+    },
+    {
+     "h2": "Pagar por resultados"
+    },
+    {
+     "p": "Cada vez más empresas se cuestionan la relación entre lo que gastan y lo que obtienen. Los modelos en los que se define un resultado esperado y un precio, y solo se paga cuando el resultado se aprueba, ganan atención. Es la lógica del Transaction-as-a-Service, que HARX.ai propone con una red de agentes certificados, humanos o de IA, que realizan tareas llamadas gigs."
+    },
+    {
+     "p": "Esta evolución obliga a definir mejor los objetivos y a evaluar la calidad de cada interacción, lo que también beneficia a los modelos más clásicos."
+    },
+    {
+     "h2": "El trabajo a distancia se consolida"
+    },
+    {
+     "p": "Los equipos distribuidos, los agentes en casa y las recepciones deslocalizadas se han vuelto habituales. Esto amplía el abanico de talento y permite adaptar los horarios, pero obliga a replantear la incorporación, el seguimiento y el vínculo de equipo. La telefonía en línea facilita esta organización: HARX Telefonía permite, por ejemplo, tener un número de su país y gestionar llamadas entrantes y salientes a distancia."
+    },
+    {
+     "h2": "El multilingüismo se convierte en estándar"
+    },
+    {
+     "p": "Los clientes esperan cada vez más ser atendidos en su idioma. Las empresas que se dirigen a públicos variados buscan equipos capaces de pasar de un idioma a otro sin pérdida de calidad. La dificultad es mantener la exactitud de los matices, lo que exige evaluadores que entiendan cada idioma."
+    },
+    {
+     "h2": "Más personalización, más vigilancia"
+    },
+    {
+     "p": "A los clientes les gusta que se recuerde su historial, pero también están atentos al uso de sus datos. Las empresas deben encontrar el equilibrio entre una relación personalizada y un tratamiento respetuoso de la privacidad, dentro de las normas aplicables en cada país."
+    },
+    {
+     "h2": "Lo que no cambia"
+    },
+    {
+     "p": "Detrás de las herramientas y los modelos, lo esencial sigue siendo humano: una escucha atenta, respuestas claras, respeto y una auténtica voluntad de resolver. Las empresas que mejor progresan suelen ser las que miden con honestidad la calidad de sus intercambios y aprenden de cada comentario."
+    },
+    {
+     "p": "Para seguir estas evoluciones en la práctica, puede explorar la oferta TAAS de HARX.ai por su lógica de resultados evaluados, y HARX Telefonía por la dimensión telefónica. Se anuncian otras ofertas próximamente."
+    }
+   ]
+  },
+  "ar": {
+   "title": "اتجاهات خدمة العملاء: ما يتغير وما يبقى",
+   "description": "ذكاء اصطناعي مساعد ونتائج مقيسة وعمل عن بُعد وخدمة متعددة اللغات: أبرز اتجاهات خدمة العملاء بنظرة متأنية ودون أي إحصاءات.",
+   "blocks": [
+    {
+     "h2": "المراقبة دون انجراف"
+    },
+    {
+     "p": "تتغير خدمة العملاء بسرعة، ومن المغري اللحاق بكل جديد. وأنفع الاتجاهات للمتابعة هي التي تجيب عن حاجات دائمة: أن يُفهَم العميل، وأن يحصل على جواب صحيح، وأن يوفّر وقته. ويعرض هذا المقال بعضها دون أرقام أو توقعات، لأن المهم هو فهم الحركات العميقة."
+    },
+    {
+     "h2": "الذكاء الاصطناعي مساعدًا للفرق"
+    },
+    {
+     "p": "يستقر الذكاء الاصطناعي تدريجيًا في مراكز الاتصال: مساعدة في الكتابة، واقتراحات أثناء المكالمة، وفرز الطلبات، ومعالجة الحالات البسيطة. وتستخدمه المؤسسات الأكثر تبصرًا دعمًا للوكلاء لا بديلًا عنهم، وتُبقي المواقف الحساسة للإنسان."
+    },
+    {
+     "ul": [
+      "أدوات تساعد الوكيل على العثور على المعلومة بسرعة أكبر.",
+      "قواعد واضحة للانتقال من الذكاء الاصطناعي إلى إنسان.",
+      "إشراف على جودة النوعين من الوكلاء."
+     ]
+    },
+    {
+     "h2": "الدفع مقابل النتائج"
+    },
+    {
+     "p": "تتساءل شركات كثيرة أكثر فأكثر عن الصلة بين ما تنفقه وما تحصل عليه. وتحظى النماذج التي تحدد نتيجة متوقعة وسعرًا ثم لا تدفع إلا عند اعتماد النتيجة باهتمام متزايد. وهذا هو منطق خدمة المعاملة (TAAS) التي تقدمها HARX.ai بشبكة من الوكلاء المعتمدين، بشرًا أو ذكاءً اصطناعيًا، ينفذون مهامَّ تُسمّى غيغ."
+    },
+    {
+     "p": "ويفرض هذا التحول تعريفًا أفضل للأهداف وتقييمًا لجودة كل تفاعل، وهو ما يفيد النماذج التقليدية أيضًا."
+    },
+    {
+     "h2": "ترسّخ العمل عن بُعد"
+    },
+    {
+     "p": "أصبحت الفرق الموزعة والوكلاء العاملون من المنزل والاستقبال المنقول أمورًا مألوفة. وهذا يوسّع دائرة المواهب ويتيح تكييف الساعات، لكنه يستدعي إعادة التفكير في الإدماج والمتابعة والرابطة بين أعضاء الفريق. وتسهّل الاتصالات الهاتفية عبر الإنترنت هذا التنظيم: فمثلًا تتيح HARX للاتصالات الهاتفية الحصول على رقم من بلدك وإدارة المكالمات الواردة والصادرة عن بُعد."
+    },
+    {
+     "h2": "تعدد اللغات يصبح معيارًا"
+    },
+    {
+     "p": "يتوقع العملاء أكثر فأكثر أن يُخدموا بلغتهم. وتبحث الشركات التي تخاطب جماهير متنوعة عن فرق قادرة على التنقل بين اللغات دون فقدان الجودة. والصعوبة في الحفاظ على دقة الفروق الدقيقة، وهذا يتطلب مقيّمين يفهمون كل لغة."
+    },
+    {
+     "h2": "مزيد من التخصيص ومزيد من اليقظة"
+    },
+    {
+     "p": "يقدّر العملاء أن يُتذكَّر سجلهم، لكنهم ينتبهون أيضًا إلى طريقة استخدام بياناتهم. وعلى الشركات أن تجد التوازن بين علاقة مخصصة ومعالجة تحترم الخصوصية، ضمن القواعد المطبقة في كل بلد."
+    },
+    {
+     "h2": "ما لا يتغير"
+    },
+    {
+     "p": "خلف الأدوات والنماذج يبقى الجوهر إنسانيًا: إصغاء منتبه وإجابات واضحة واحترام ورغبة حقيقية في الحل. والشركات التي تتقدم أكثر هي غالبًا التي تقيس بصدق جودة محادثاتها وتتعلم من كل ملاحظة."
+    },
+    {
+     "p": "ولمتابعة هذه التطورات عمليًا، يمكنك استكشاف عرض TAAS من HARX.ai لمنطق النتائج المقيَّمة، وHARX للاتصالات الهاتفية للجانب الهاتفي. وقد أُعلن عن عروض أخرى قادمة."
+    },
+    {
+     "h2": "كيف نتعامل مع الاتجاهات عمليًا"
+    },
+    {
+     "p": "من الطرق العملية للاستفادة من الاتجاهات أن تختار اتجاهًا واحدًا، وتجربه على نطاق صغير، وتلاحظ أثره في العملاء والفريق قبل أن تقرر تعميمه. وتجنّب تبنّي أداة لمجرد أنها رائجة دون أن تعرف المشكلة التي تحلها لديك."
+    },
+    {
+     "p": "واجعل الفريق شريكًا في التجربة، فهو الأقدر على ملاحظة ما يخفف عنه العبء وما يضيف تعقيدًا. واحتفظ بملاحظات مكتوبة عن كل تجربة حتى تتعلم المؤسسة من تراكم الخبرة، لا من الانطباعات الأولى وحدها."
+    },
+    {
+     "p": "وأخيرًا تذكّر أن الاتجاهات تتبدل، أما حاجة العميل إلى الاحترام والوضوح فتبقى. فاجعل هذه الحاجة بوصلتك عند كل قرار."
+    },
+    {
+     "p": "وفي كل الأحوال، لا تجعل الاتجاهات هدفًا بحد ذاتها، بل اسأل دائمًا: هل يحسّن هذا التغيير تجربة عميلي وظروف عمل فريقي؟ فإن كان الجواب نعم فتبنَّه تدريجيًا، وإلا فلا حاجة إلى الاستعجال."
+    }
+   ]
+  }
+ }
+}

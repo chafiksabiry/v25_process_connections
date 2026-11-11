@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "french-number-abroad-nomads",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Numéro français depuis l'étranger : la FAQ des nomades",
+      "description": "Vivre à l'étranger tout en gardant un numéro français pour vos clients : les réponses aux questions des nomades et des freelances.",
+      "blocks": [
+        {
+          "h2": "Garder un numéro français en voyageant"
+        },
+        {
+          "faq": [
+            {
+              "q": "Peut-on avoir un numéro français en vivant à l'étranger ?",
+              "a": "Oui. L'offre Nomad Solo de HARX Téléphonie donne un numéro français à ceux qui travaillent pour la France depuis un autre pays."
+            },
+            {
+              "q": "À qui s'adresse Nomad Solo ?",
+              "a": "Aux freelances, aux nomades numériques et aux travailleurs en France vivant à l'étranger, qui veulent rester joignables par leurs interlocuteurs français."
+            },
+            {
+              "q": "Pourquoi garder un numéro français ?",
+              "a": "Vos clients composent un numéro qu'ils connaissent, sans se soucier de votre lieu de résidence. Cela rassure et simplifie la relation commerciale."
+            },
+            {
+              "q": "Que comprend l'offre Nomad Solo ?",
+              "a": "Un numéro français, un répondeur personnel et un journal d'appels. Ce sont les trois éléments utiles pour suivre son activité en déplacement."
+            },
+            {
+              "q": "Que se passe-t-il si je ne peux pas répondre à cause du décalage horaire ?",
+              "a": "Le répondeur personnel enregistre le message de l'appelant. Vous le rappelez à votre retour en ligne, en vous aidant du journal d'appels."
+            },
+            {
+              "q": "Ai-je besoin d'une carte SIM locale ?",
+              "a": "Le service s'utilise via internet depuis votre espace. Une bonne connexion et un casque suffisent pour téléphoner depuis n'importe quel pays où vous êtes."
+            },
+            {
+              "q": "Comment bien présenter mon activité aux appelants ?",
+              "a": "Enregistrez un message d'accueil court, avec votre nom, votre activité et un moment pour vous rappeler. HARX Téléphonie vous donne les outils, la clarté dépend de vous."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "A French Number From Abroad: The Nomad FAQ",
+      "description": "Living abroad while keeping a French number for your clients: answers to the questions nomads and freelancers ask most often.",
+      "blocks": [
+        {
+          "h2": "Keeping a French number while you travel"
+        },
+        {
+          "faq": [
+            {
+              "q": "Can I have a French number while living abroad?",
+              "a": "Yes. The Nomad Solo plan from HARX Telephony gives a French number to people who work for France from another country."
+            },
+            {
+              "q": "Who is Nomad Solo for?",
+              "a": "Freelancers, digital nomads and people working for France while living abroad who want to stay reachable by their French contacts."
+            },
+            {
+              "q": "Why keep a French number?",
+              "a": "Your clients dial a number they know, without worrying about where you live. It reassures them and simplifies the business relationship."
+            },
+            {
+              "q": "What does the Nomad Solo plan include?",
+              "a": "A French number, a personal voicemail and a call log: the three elements that help you follow your activity while on the move."
+            },
+            {
+              "q": "What if I cannot answer because of the time difference?",
+              "a": "Your personal voicemail records the caller's message. You call back once you are online, using the call log as your guide."
+            },
+            {
+              "q": "Do I need a local SIM card?",
+              "a": "The service runs over the internet from your workspace. A good connection and a headset are enough to phone from whichever country you are in."
+            },
+            {
+              "q": "How do I present my activity well to callers?",
+              "a": "Record a short greeting with your name, your activity and a time when you will call back. HARX Telephony provides the tools; the clarity is up to you."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Número francés desde el extranjero: FAQ para nómadas",
+      "description": "Vivir fuera de Francia y conservar un número francés para sus clientes: respuestas a las dudas de nómadas y freelances.",
+      "blocks": [
+        {
+          "h2": "Conservar un número francés mientras viaja"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Se puede tener un número francés viviendo en el extranjero?",
+              "a": "Sí. La oferta Nomad Solo de HARX Telefonía da un número francés a quienes trabajan para Francia desde otro país."
+            },
+            {
+              "q": "¿A quién se dirige Nomad Solo?",
+              "a": "A freelances, nómadas digitales y trabajadores para Francia que viven en el extranjero y quieren seguir localizables para sus contactos franceses."
+            },
+            {
+              "q": "¿Por qué conservar un número francés?",
+              "a": "Sus clientes marcan un número que conocen, sin preocuparse de dónde vive usted. Eso tranquiliza y simplifica la relación comercial."
+            },
+            {
+              "q": "¿Qué incluye la oferta Nomad Solo?",
+              "a": "Un número francés, un buzón de voz personal y un registro de llamadas: los tres elementos útiles para seguir su actividad en movimiento."
+            },
+            {
+              "q": "¿Qué pasa si no puedo contestar por la diferencia horaria?",
+              "a": "El buzón de voz personal graba el mensaje de quien llama. Usted devuelve la llamada al volver a estar en línea, guiándose por el registro de llamadas."
+            },
+            {
+              "q": "¿Necesito una tarjeta SIM local?",
+              "a": "El servicio funciona por internet desde su espacio. Una buena conexión y unos auriculares bastan para llamar desde el país en el que esté."
+            },
+            {
+              "q": "¿Cómo presento bien mi actividad a quien llama?",
+              "a": "Grabe un saludo breve con su nombre, su actividad y un momento para devolver la llamada. HARX Telefonía aporta las herramientas; la claridad depende de usted."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "رقم فرنسي من الخارج: أسئلة المتنقلين الشائعة",
+      "description": "العيش في الخارج مع الاحتفاظ برقم فرنسي لعملائك: إجابات عن أسئلة المتنقلين والمستقلين الأكثر تكرارًا.",
+      "blocks": [
+        {
+          "h2": "الاحتفاظ برقم فرنسي أثناء السفر"
+        },
+        {
+          "faq": [
+            {
+              "q": "هل يمكن امتلاك رقم فرنسي أثناء العيش في الخارج؟",
+              "a": "نعم، يمنح عرض Nomad Solo من HARX للهاتف رقمًا فرنسيًا لمن يعملون لصالح فرنسا من بلد آخر."
+            },
+            {
+              "q": "لمن يتوجه عرض Nomad Solo؟",
+              "a": "للمستقلين والمتنقلين الرقميين والعاملين لصالح فرنسا المقيمين في الخارج، ممن يريدون البقاء في متناول جهات اتصالهم الفرنسية."
+            },
+            {
+              "q": "لماذا الاحتفاظ برقم فرنسي؟",
+              "a": "يتصل عملاؤك برقم يعرفونه دون الانشغال بمكان إقامتك، مما يطمئنهم ويبسّط العلاقة التجارية."
+            },
+            {
+              "q": "ماذا يتضمن عرض Nomad Solo؟",
+              "a": "رقم فرنسي وبريد صوتي شخصي وسجل مكالمات، وهي العناصر الثلاثة المفيدة لمتابعة نشاطك أثناء التنقل."
+            },
+            {
+              "q": "ماذا لو لم أستطع الرد بسبب فارق التوقيت؟",
+              "a": "يسجّل البريد الصوتي الشخصي رسالة المتصل، وتعاود الاتصال عند عودتك إلى الإنترنت مستعينًا بسجل المكالمات."
+            },
+            {
+              "q": "هل أحتاج إلى بطاقة SIM محلية؟",
+              "a": "تعمل الخدمة عبر الإنترنت من مساحتك. يكفي اتصال جيد وسماعة رأس للاتصال من أي بلد تتواجد فيه."
+            },
+            {
+              "q": "كيف أقدّم نشاطي بشكل جيد للمتصلين؟",
+              "a": "سجّل ترحيبًا قصيرًا يتضمن اسمك ونشاطك ووقتًا تعاود فيه الاتصال. توفر HARX للهاتف الأدوات، أما الوضوح فيعود إليك."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

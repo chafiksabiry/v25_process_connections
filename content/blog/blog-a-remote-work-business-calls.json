@@ -1,0 +1,97 @@
+{
+  "type": "blog",
+  "slug": "blog-a-remote-work-business-calls",
+  "date": "2026-10-05",
+  "langs": {
+    "fr": {
+      "title": "Téléphoner pour son entreprise en télétravail : l'essentiel",
+      "description": "Séparer vie privée et vie pro, rester joignable, garder une image soignée : les bases pour passer ses appels professionnels depuis chez soi sans stress.",
+      "blocks": [
+        {"p": "Le télétravail a rapproché la cuisine, le salon et le bureau. Pour les appels, cette proximité pose des questions très concrètes : comment ne pas mélanger numéro personnel et numéro professionnel ? Comment rester disponible sans être dérangé à toute heure ? Voici les bases à mettre en place."},
+        {"h2": "Séparer clairement le numéro pro du numéro personnel"},
+        {"p": "Utiliser son mobile personnel pour tout est tentant, mais cela brouille vite les frontières. Un client qui a votre numéro personnel peut vous appeler un dimanche soir, et vous ne saurez pas si l'appel concerne un proche ou un dossier. Un numéro dédié à l'activité permet de décider, d'un coup d'œil, comment répondre."},
+        {"p": "Cette séparation a aussi un effet sur votre image. Un message d'accueil professionnel, une présentation claire de votre société et des horaires annoncés donnent le sentiment d'une structure organisée, même lorsque vous travaillez seul depuis votre domicile."},
+        {"ul": ["Un numéro réservé aux appels de travail.", "Un répondeur qui annonce votre nom ou celui de votre entreprise.", "Des plages horaires de disponibilité communiquées à vos clients."]},
+        {"h2": "Aménager un coin d'appel calme et fiable"},
+        {"p": "La qualité d'un appel dépend beaucoup de l'environnement. Un fond sonore (télévision, aspirateur, voisinage) fatigue l'interlocuteur et laisse une impression de désordre. Choisissez un endroit où vous pouvez parler sans être interrompu, et prévenez les personnes qui vivent avec vous de vos créneaux d'appels importants."},
+        {"p": "Côté matériel, un casque confortable avec micro suffit souvent. Testez-le avec un proche avant un rendez-vous clé : on entend rarement ses propres défauts de son. Vérifiez aussi la stabilité de votre connexion internet, car une voix hachée gâche un bon argumentaire."},
+        {"h2": "Gérer sa disponibilité sans s'épuiser"},
+        {"p": "Le risque du télétravail est d'être joignable tout le temps, donc jamais vraiment en pause. Annoncer des horaires et s'y tenir est une protection pour vous comme une information utile pour vos clients. En dehors de ces plages, un répondeur bien configuré prend le relais et vous rappelez au moment prévu."},
+        {"p": "Pour ne perdre aucune demande, notez systématiquement les appels reçus et les rappels à faire. Un simple journal, même sommaire, évite les oublis et montre aux clients qu'on suit leur dossier."},
+        {"ul": ["Rappelez dans le délai que vous avez annoncé.", "Regroupez vos rappels sur un ou deux créneaux dans la journée.", "Gardez vos pauses : un répondeur existe pour cela."]},
+        {"h2": "Un numéro et un accueil dédiés avec HARX Téléphonie"},
+        {"p": "Pour ceux qui veulent un numéro séparé sans acheter de matériel, HARX Téléphonie propose un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui peut assister. L'abonnement est mensuel, minutes et IA sont prépayées, et la mise en route se fait en quelques minutes. Selon votre taille, l'offre Nomad Solo vise les indépendants, tandis que Company Full Scope In & Out s'adresse aux équipes à distance."},
+        {"h2": "Conclusion : professionnaliser sans compliquer"},
+        {"p": "Téléphoner depuis chez soi n'a rien d'amateur à condition de soigner trois points : un numéro dédié, un cadre d'appel calme et des horaires clairs. Ces choix simples protègent votre vie privée et rassurent vos clients. Commencez par un seul changement, par exemple le message d'accueil, puis ajoutez le reste au fil du temps. L'important est que chaque appel reçoive une réponse cohérente, que vous soyez au bureau ou dans votre salon."}
+      ]
+    },
+    "en": {
+      "title": "Making Business Calls While Working From Home: The Basics",
+      "description": "Separating private and professional life, staying reachable, keeping a polished image: the basics for handling business calls from home without stress.",
+      "blocks": [
+        {"p": "Remote work has brought the kitchen, the living room and the office closer together. For calls, that closeness raises very practical questions: how do you avoid mixing personal and business numbers? How do you stay available without being disturbed at all hours? Here are the basics to put in place."},
+        {"h2": "Keep your business number separate from your personal one"},
+        {"p": "Using your personal mobile for everything is tempting, but it quickly blurs boundaries. A client who has your personal number may ring on a Sunday evening, and you will not know whether the call is from a relative or about a file. A number dedicated to your activity lets you decide at a glance how to answer."},
+        {"p": "This separation also affects your image. A professional greeting, a clear introduction of your company and stated opening hours give the impression of an organised business, even when you work alone from home."},
+        {"ul": ["A number reserved for work calls.", "A voicemail that states your name or your company's name.", "Availability hours shared with your clients."]},
+        {"h2": "Set up a calm, reliable calling corner"},
+        {"p": "Call quality depends a lot on the environment. Background noise such as a television, a vacuum cleaner or neighbours tires the listener and gives an impression of disorder. Choose a spot where you can talk without interruption, and tell the people you live with when you have important calls."},
+        {"p": "As for equipment, a comfortable headset with a microphone is often enough. Try it with a friend before a key meeting, because we rarely notice our own sound problems. Check your internet connection too: a choppy voice can spoil a strong pitch."},
+        {"h2": "Manage your availability without burning out"},
+        {"p": "The risk of remote work is being reachable all the time and therefore never truly off. Announcing hours and sticking to them protects you and informs your clients. Outside those windows, a well-set voicemail takes over and you call back at the promised time."},
+        {"p": "To lose no request, systematically note incoming calls and callbacks to make. A simple log, even a basic one, prevents oversights and shows clients that their file is being followed."},
+        {"ul": ["Call back within the time you announced.", "Group your callbacks into one or two slots a day.", "Keep your breaks: that is what voicemail is for."]},
+        {"h2": "A dedicated number and reception with HARX Telephony"},
+        {"p": "For those who want a separate number without buying equipment, HARX Telephony offers a number from your country, inbound and outbound calls, voicemail and an AI that can assist. The subscription is monthly, minutes and AI are prepaid, and setup takes a few minutes. Depending on your size, the Nomad Solo offer targets freelancers, while Company Full Scope In & Out is aimed at remote teams."},
+        {"h2": "Conclusion: look professional without complicating things"},
+        {"p": "Calling from home is perfectly professional as long as you take care of three things: a dedicated number, a calm place to call and clear hours. These simple choices protect your private life and reassure your clients. Start with a single change, such as your greeting message, then add the rest over time. What matters is that every call gets a consistent response, whether you are at the office or in your living room."}
+      ]
+    },
+    "es": {
+      "title": "Llamar por tu empresa en teletrabajo: lo esencial",
+      "description": "Separar vida privada y profesional, seguir localizable y cuidar tu imagen: las bases para gestionar llamadas de trabajo desde casa sin estrés.",
+      "blocks": [
+        {"p": "El teletrabajo ha acercado la cocina, el salón y la oficina. En las llamadas, esa cercanía plantea cuestiones muy concretas: ¿cómo evitar mezclar el número personal y el profesional? ¿Cómo estar disponible sin que te molesten a cualquier hora? Estas son las bases que conviene establecer."},
+        {"h2": "Separar con claridad el número profesional del personal"},
+        {"p": "Usar el móvil personal para todo es tentador, pero difumina enseguida las fronteras. Un cliente que tiene tu número personal puede llamarte un domingo por la noche y no sabrás si la llamada es de un familiar o de un asunto de trabajo. Un número dedicado a la actividad permite decidir de un vistazo cómo responder."},
+        {"p": "Esta separación también influye en tu imagen. Un saludo profesional, una presentación clara de tu empresa y un horario anunciado transmiten la sensación de una estructura organizada, incluso cuando trabajas solo desde casa."},
+        {"ul": ["Un número reservado a las llamadas de trabajo.", "Un buzón de voz que indique tu nombre o el de tu empresa.", "Franjas de disponibilidad comunicadas a tus clientes."]},
+        {"h2": "Preparar un rincón de llamadas tranquilo y fiable"},
+        {"p": "La calidad de una llamada depende mucho del entorno. El ruido de fondo, como la televisión, la aspiradora o los vecinos, cansa al interlocutor y deja una impresión de desorden. Elige un lugar donde puedas hablar sin interrupciones y avisa a las personas con las que vives de tus llamadas importantes."},
+        {"p": "En cuanto al equipo, unos auriculares cómodos con micrófono suelen bastar. Pruébalos con alguien cercano antes de una reunión clave, porque casi nunca notamos nuestros propios fallos de sonido. Comprueba también la estabilidad de tu conexión a internet: una voz entrecortada estropea un buen argumento."},
+        {"h2": "Gestionar tu disponibilidad sin agotarte"},
+        {"p": "El riesgo del teletrabajo es estar localizable todo el tiempo y, por tanto, no desconectar nunca del todo. Anunciar un horario y respetarlo te protege a ti y informa a tus clientes. Fuera de esas franjas, un buzón de voz bien configurado toma el relevo y tú devuelves la llamada en el momento previsto."},
+        {"p": "Para no perder ninguna petición, anota de forma sistemática las llamadas recibidas y las devoluciones pendientes. Un registro sencillo, aunque sea básico, evita olvidos y demuestra a los clientes que se hace seguimiento de su caso."},
+        {"ul": ["Devuelve la llamada en el plazo que anunciaste.", "Agrupa tus devoluciones en una o dos franjas al día.", "Respeta tus pausas: para eso existe el buzón de voz."]},
+        {"h2": "Un número y una atención dedicados con HARX Telefonía"},
+        {"p": "Para quien quiere un número aparte sin comprar equipos, HARX Telefonía ofrece un número de tu país, llamadas entrantes y salientes, buzón de voz y una IA que puede asistir. La suscripción es mensual, los minutos y la IA se prepagan y la puesta en marcha lleva unos minutos. Según tu tamaño, la oferta Nomad Solo se dirige a freelances, mientras que Company Full Scope In & Out se orienta a equipos en remoto."},
+        {"h2": "Conclusión: profesionalizar sin complicar"},
+        {"p": "Llamar desde casa es totalmente profesional si cuidas tres cosas: un número dedicado, un lugar tranquilo y un horario claro. Estas decisiones sencillas protegen tu vida privada y dan confianza a tus clientes. Empieza por un solo cambio, por ejemplo el mensaje de bienvenida, y ve añadiendo el resto con el tiempo. Lo importante es que cada llamada reciba una respuesta coherente, estés en la oficina o en el salón."}
+      ]
+    },
+    "ar": {
+      "title": "إجراء مكالمات العمل أثناء العمل من المنزل: الأساسيات",
+      "description": "الفصل بين الحياة الخاصة والمهنية، والبقاء متاحًا، والحفاظ على صورة مرتبة: أساسيات إدارة مكالمات العمل من المنزل دون توتر.",
+      "blocks": [
+        {"p": "قرّب العمل عن بُعد بين المطبخ وغرفة الجلوس والمكتب. وفي المكالمات يطرح هذا القرب أسئلة عملية جدًا: كيف تتجنب الخلط بين الرقم الشخصي والرقم المهني؟ وكيف تبقى متاحًا دون أن يزعجك أحد في أي ساعة؟ إليك الأسس التي ينبغي وضعها."},
+        {"h2": "افصل الرقم المهني فصلًا واضحًا عن الرقم الشخصي"},
+        {"p": "قد يغريك استخدام هاتفك الشخصي لكل شيء، لكنه يطمس الحدود سريعًا. فالعميل الذي يملك رقمك الشخصي قد يتصل بك مساء الأحد ولن تعرف أهي مكالمة من قريب أم تتعلق بملف عمل. أما الرقم المخصص للنشاط فيتيح لك أن تقرر بنظرة واحدة كيف ترد."},
+        {"p": "ولهذا الفصل أثر في صورتك أيضًا. فالترحيب المهني والتعريف الواضح بشركتك وإعلان ساعات العمل تعطي انطباعًا بوجود جهة منظمة، حتى لو كنت تعمل وحدك من بيتك."},
+        {"ul": ["رقم مخصص لمكالمات العمل.", "بريد صوتي يذكر اسمك أو اسم شركتك.", "ساعات توافر تُبلَّغ للعملاء."]},
+        {"h2": "هيّئ ركنًا هادئًا وموثوقًا للمكالمات"},
+        {"p": "تعتمد جودة المكالمة كثيرًا على المكان. فالضجيج الخلفي، كصوت التلفاز أو المكنسة أو الجيران، يرهق المحاور ويترك انطباعًا بالفوضى. اختر مكانًا تتحدث فيه دون مقاطعة، وأخبر من يعيشون معك بمواعيد مكالماتك المهمة."},
+        {"p": "وأما التجهيزات فسماعة رأس مريحة مع ميكروفون تكفي غالبًا. جرّبها مع شخص قريب قبل اجتماع مهم، فنادرًا ما نلاحظ عيوب صوتنا بأنفسنا. وتحقق كذلك من استقرار اتصالك بالإنترنت، لأن الصوت المتقطع يفسد عرضًا جيدًا."},
+        {"h2": "أدر توافرك دون أن تستنزف نفسك"},
+        {"p": "خطر العمل عن بُعد هو أن تكون متاحًا طوال الوقت، أي ألا تنقطع عن العمل حقًا. وإعلان ساعات محددة والالتزام بها يحميك ويفيد عملاءك. وخارج هذه الأوقات يتولى بريد صوتي مضبوط جيدًا المهمة وتعاود أنت الاتصال في الموعد المحدد."},
+        {"p": "ولكي لا يضيع أي طلب دوّن المكالمات الواردة وما يجب معاودته بانتظام. فسجل بسيط، ولو كان متواضعًا، يمنع النسيان ويُظهر للعملاء أن ملفاتهم تتم متابعتها."},
+        {"ul": ["عاود الاتصال خلال المدة التي أعلنتها.", "اجمع مكالماتك المعاودة في فترة أو فترتين يوميًا.", "حافظ على فترات راحتك، فهذا ما وُجد البريد الصوتي من أجله."]},
+        {"p": "ومن العادات المفيدة أيضًا أن تحضّر قبل كل مكالمة مهمة ورقة قصيرة تتضمن اسم المتصل وموضوع الملف وما تريد الوصول إليه. فالتحضير القصير يمنحك ثقة في الحديث ويوفّر على محدثك تكرار المعلومات، ويُظهر أن العمل من المنزل لا يعني ارتجالًا في التعامل مع العملاء."},
+        {"p": "وإذا كان بيتك مشتركًا مع آخرين فاتفق معهم على إشارة بسيطة، كباب مغلق أو لافتة صغيرة، تعني أنك في مكالمة. فمثل هذه القواعد الصغيرة تمنع المقاطعات المحرجة وتحمي جودة الحوار."},
+        {"h2": "رقم واستقبال مخصصان مع HARX للاتصالات"},
+        {"p": "لمن يريد رقمًا منفصلًا دون شراء أجهزة تقدّم HARX للاتصالات رقمًا من بلدك ومكالمات واردة وصادرة وبريدًا صوتيًا وذكاءً اصطناعيًا يمكنه المساعدة. والاشتراك شهري والدقائق والذكاء الاصطناعي مدفوعة مسبقًا، ويستغرق التشغيل بضع دقائق. وبحسب حجمك يستهدف عرض Nomad Solo المستقلين، بينما يتوجه Company Full Scope In & Out إلى الفرق العاملة عن بُعد."},
+        {"h2": "الخلاصة: احتراف دون تعقيد"},
+        {"p": "الاتصال من المنزل لا يقل احترافًا ما دمت تعتني بثلاثة أمور: رقم مخصص ومكان هادئ وساعات واضحة. وهذه الخيارات البسيطة تحمي حياتك الخاصة وتطمئن عملاءك. ابدأ بتغيير واحد، كرسالة الترحيب مثلًا، ثم أضف الباقي مع الوقت. والمهم أن تلقى كل مكالمة ردًا متسقًا، سواء كنت في المكتب أو في غرفة الجلوس."}
+      ]
+    }
+  }
+}

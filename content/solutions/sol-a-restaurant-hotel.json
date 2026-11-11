@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-restaurant-hotel",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Restaurant et hôtel : un accueil téléphonique toujours disponible",
+   "description": "Restaurant ou hôtel : répondez aux appels même en plein service avec l’offre Accueil / Secrétariat de HARX Téléphonie et de bonnes pratiques d’accueil.",
+   "blocks": [
+    {
+     "p": "Pour un restaurant ou un petit hôtel, le téléphone est souvent la première vitrine : un futur client appelle pour réserver, s’informer d’un menu ou demander une disponibilité. La qualité de la réponse donne le ton de toute la visite."
+    },
+    {
+     "h2": "Le problème téléphonique typique de la restauration et de l’hôtellerie"
+    },
+    {
+     "p": "Les appels arrivent au pire moment : en plein service, quand toute l’équipe est mobilisée en salle ou en cuisine, ou tard le soir quand la réception est fermée. Un client qui n’obtient pas de réponse choisit un autre établissement, et l’on ne le saura jamais."
+    },
+    {
+     "ul": [
+      "Le coup de feu du service rend impossible de décrocher sans pénaliser les clients présents.",
+      "Les petits établissements n’ont pas toujours de réceptionniste dédié, surtout en dehors des heures de journée.",
+      "Les clients étrangers peuvent appeler à des heures décalées et attendre une réponse dans leur langue ou à tout le moins une information claire."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse aux TPE de tous métiers, restauration et hôtellerie compris. Elle repose sur du personnel à distance ou un accueil délocalisé, avec un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. L’abonnement est mensuel, avec minutes et IA prépayées."
+    },
+    {
+     "ul": [
+      "Un accueil qui répond pendant que l’équipe assure le service.",
+      "Un répondeur pour les appels tardifs ou en dehors des horaires d’ouverture.",
+      "Des appels sortants pour recontacter un client au sujet de sa demande."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour l’accueil téléphonique"
+    },
+    {
+     "ul": [
+      "Précisez dans le message d’accueil vos horaires, votre adresse et la manière de vous joindre en dehors du service.",
+      "Mettez à disposition de la personne qui répond une fiche à jour : menu, formules, informations pratiques, particularités de l’établissement.",
+      "Notez avec soin le nom, la date et le nombre de personnes pour toute demande de réservation.",
+      "Recontactez rapidement les personnes qui ont laissé un message.",
+      "Informez les clients des allergènes à signaler au moment de la réservation, sans jamais improviser une réponse sur ce sujet."
+     ]
+    },
+    {
+     "p": "Une réponse aimable au téléphone prépare déjà l’accueil à table ou à la réception : elle annonce l’état d’esprit de la maison."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "L’accueil délocalisé peut-il remplacer ma réceptionniste ?",
+       "a": "Il peut compléter ou relayer votre équipe sur les appels ; l’organisation exacte dépend de vos besoins et de vos consignes."
+      },
+      {
+       "q": "Que faire des appels en dehors des horaires ?",
+       "a": "Le répondeur peut annoncer vos horaires et inviter l’appelant à laisser un message que vous traiterez à la réouverture."
+      },
+      {
+       "q": "L’offre convient-elle à un petit établissement familial ?",
+       "a": "L’offre Accueil / Secrétariat est conçue pour les très petites entreprises de tous métiers."
+      }
+     ]
+    },
+    {
+     "p": "Pour qu’aucun appel de réservation ne reste sans réponse, regardez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Restaurants and Hotels: Phone Reception That Is Always There",
+   "description": "Restaurant or hotel: answer calls even mid-service with the Reception / Secretarial offer from HARX Telephony, plus a few good reception practices.",
+   "blocks": [
+    {
+     "p": "For a restaurant or small hotel, the telephone is often the first shop window: a future guest calls to book, ask about a menu or check availability. The quality of the answer sets the tone for the whole visit."
+    },
+    {
+     "h2": "The typical phone problem in food service and hospitality"
+    },
+    {
+     "p": "Calls come at the worst moment: in the middle of service, when the whole team is busy in the dining room or kitchen, or late in the evening when reception is closed. A customer who gets no answer picks another establishment, and you will never know."
+    },
+    {
+     "ul": [
+      "The service rush makes it impossible to answer without penalising the guests present.",
+      "Small establishments do not always have a dedicated receptionist, especially outside daytime hours.",
+      "Foreign guests may call at odd hours and expect an answer in their language, or at least clear information."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is for very small businesses of every trade, food service and hospitality included. It relies on remote staff or offshored reception, with a number from your country, incoming and outgoing calls, an answering service and assisting AI. The subscription is monthly, with prepaid minutes and AI."
+    },
+    {
+     "ul": [
+      "Reception that answers while the team runs the service.",
+      "An answering service for late calls or calls outside opening hours.",
+      "Outgoing calls to get back to a guest about their request."
+     ]
+    },
+    {
+     "h2": "General good practice for phone reception"
+    },
+    {
+     "ul": [
+      "State your hours, address and how to reach you outside service in the greeting.",
+      "Give whoever answers an up-to-date sheet: menu, set offers, practical information, quirks of the establishment.",
+      "Carefully note the name, date and party size for any booking request.",
+      "Get back quickly to people who left a message.",
+      "Tell guests to mention allergens when booking, and never improvise an answer on that subject."
+     ]
+    },
+    {
+     "p": "A friendly answer on the phone already prepares the welcome at the table or front desk: it announces the spirit of the house."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can offshored reception replace my receptionist?",
+       "a": "It can complement or relay your team on calls; the exact organisation depends on your needs and instructions."
+      },
+      {
+       "q": "What about calls outside opening hours?",
+       "a": "The answering service can announce your hours and invite the caller to leave a message you will handle on reopening."
+      },
+      {
+       "q": "Is the offer suitable for a small family-run venue?",
+       "a": "The Reception / Secretarial offer is designed for very small businesses of every trade."
+      }
+     ]
+    },
+    {
+     "p": "So that no booking call goes unanswered, look at the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Restaurantes y hoteles: una atención telefónica siempre disponible",
+   "description": "Restaurante u hotel: conteste llamadas incluso en pleno servicio con la oferta Recepción / Secretaría de HARX Telefonía y algunas buenas prácticas de atención.",
+   "blocks": [
+    {
+     "p": "Para un restaurante o un hotel pequeño, el teléfono suele ser el primer escaparate: un futuro cliente llama para reservar, informarse de un menú o preguntar por disponibilidad. La calidad de la respuesta marca el tono de toda la visita."
+    },
+    {
+     "h2": "El problema telefónico típico de la restauración y la hotelería"
+    },
+    {
+     "p": "Las llamadas llegan en el peor momento: en pleno servicio, cuando todo el equipo está ocupado en sala o en cocina, o tarde por la noche, cuando la recepción está cerrada. Un cliente que no obtiene respuesta elige otro establecimiento, y nunca lo sabrá."
+    },
+    {
+     "ul": [
+      "La hora punta del servicio hace imposible contestar sin perjudicar a los clientes presentes.",
+      "Los establecimientos pequeños no siempre tienen un recepcionista dedicado, sobre todo fuera del horario diurno.",
+      "Los clientes extranjeros pueden llamar a horas desfasadas y esperar una respuesta en su idioma o, al menos, una información clara."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, restauración y hotelería incluidas. Se basa en personal a distancia o recepción deslocalizada, con un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. La suscripción es mensual, con minutos e IA prepagados."
+    },
+    {
+     "ul": [
+      "Una recepción que contesta mientras el equipo atiende el servicio.",
+      "Un contestador para las llamadas tardías o fuera del horario de apertura.",
+      "Llamadas salientes para volver a contactar a un cliente sobre su petición."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para la atención telefónica"
+    },
+    {
+     "ul": [
+      "Indique en el mensaje su horario, su dirección y cómo contactarle fuera del servicio.",
+      "Facilite a quien conteste una ficha actualizada: carta, menús, información práctica y particularidades del establecimiento.",
+      "Anote con cuidado el nombre, la fecha y el número de personas en toda petición de reserva.",
+      "Responda con rapidez a quienes dejaron un mensaje.",
+      "Pida a los clientes que indiquen los alérgenos al reservar, sin improvisar nunca una respuesta sobre ese tema."
+     ]
+    },
+    {
+     "p": "Una respuesta amable por teléfono ya prepara la acogida en la mesa o en recepción: anuncia el espíritu de la casa."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede la recepción deslocalizada sustituir a mi recepcionista?",
+       "a": "Puede complementar o relevar a su equipo en las llamadas; la organización exacta depende de sus necesidades e instrucciones."
+      },
+      {
+       "q": "¿Qué hacer con las llamadas fuera de horario?",
+       "a": "El contestador puede anunciar su horario e invitar a dejar un mensaje que usted atenderá al reabrir."
+      },
+      {
+       "q": "¿Sirve la oferta para un establecimiento familiar pequeño?",
+       "a": "La oferta Recepción / Secretaría está concebida para microempresas de cualquier oficio."
+      }
+     ]
+    },
+    {
+     "p": "Para que ninguna llamada de reserva quede sin respuesta, consulte la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "المطاعم والفنادق: استقبال هاتفي حاضر في كل وقت",
+   "description": "المطعم أو الفندق: ردّوا على المكالمات حتى في ذروة الخدمة بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie مع ممارسات استقبال مفيدة.",
+   "blocks": [
+    {
+     "p": "بالنسبة للمطعم أو الفندق الصغير، غالبًا ما يكون الهاتف أول واجهة: زبون مستقبلي يتصل ليحجز أو يستفسر عن قائمة الطعام أو عن التوافر. وجودة الجواب تحدد نبرة الزيارة كلها."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة في المطاعم والفنادق"
+    },
+    {
+     "p": "تصل المكالمات في أسوأ لحظة: في ذروة الخدمة حين ينشغل الفريق كله في القاعة أو المطبخ، أو في ساعة متأخرة من الليل حين يكون الاستقبال مغلقًا. والزبون الذي لا يجد جوابًا يختار منشأة أخرى، ولن تعلموا بذلك أبدًا."
+    },
+    {
+     "ul": [
+      "ذروة الخدمة تجعل الرد مستحيلًا دون الإضرار بالزبائن الحاضرين.",
+      "المنشآت الصغيرة لا تملك دائمًا موظف استقبال مخصصًا، خاصة خارج ساعات النهار.",
+      "قد يتصل الزبائن الأجانب في ساعات متفاوتة ويتوقعون جوابًا بلغتهم أو على الأقل معلومات واضحة."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى المنشآت الصغيرة جدًا من كل المهن، ومنها المطاعم والفنادق. يعتمد على موظفين عن بُعد أو استقبال مُنقول، مع رقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاء اصطناعي مساعد. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+    },
+    {
+     "ul": [
+      "استقبال يردّ بينما يتولى الفريق الخدمة.",
+      "جهاز رد للمكالمات المتأخرة أو الواردة خارج ساعات الفتح.",
+      "مكالمات صادرة لمعاودة الاتصال بزبون بشأن طلبه."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للاستقبال الهاتفي"
+    },
+    {
+     "ul": [
+      "اذكروا في رسالة الترحيب ساعات العمل والعنوان وطريقة الوصول إليكم خارج وقت الخدمة.",
+      "زوّدوا من يردّ بورقة محدّثة: القائمة والعروض والمعلومات العملية وخصوصيات المنشأة.",
+      "دوّنوا بعناية الاسم والتاريخ وعدد الأشخاص عند أي طلب حجز.",
+      "عاودوا الاتصال سريعًا بمن ترك رسالة.",
+      "اطلبوا من الزبائن ذكر مسببات الحساسية عند الحجز، ولا ترتجلوا أبدًا جوابًا في هذا الموضوع."
+     ]
+    },
+    {
+     "p": "الجواب اللطيف على الهاتف يمهّد للترحيب على الطاولة أو في الاستقبال، فهو يعلن روح المكان."
+    },
+    {
+     "p": "ومن المفيد أن تُحدّثوا ورقة المعلومات كلما تغيّرت القائمة أو الأسعار أو ساعات العمل، حتى لا يعطي الاستقبال معلومة قديمة تسبب خيبة أمل للزبون عند وصوله."
+    },
+    {
+     "p": "كذلك يُستحسن أن تتفقوا على طريقة موحدة للتعامل مع طلبات الحجز المتأخرة أو الملغاة، فالوضوح في القواعد يقلّل الخلافات ويحفظ حسن العلاقة مع الزبائن."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يستطيع الاستقبال المُنقول أن يحلّ محل موظف الاستقبال لدي؟",
+       "a": "يمكنه أن يكمّل فريقكم أو يتولى عنه بعض المكالمات، ويعتمد التنظيم الدقيق على احتياجاتكم وتعليماتكم."
+      },
+      {
+       "q": "ماذا عن المكالمات خارج ساعات العمل؟",
+       "a": "يمكن لجهاز الرد أن يعلن ساعات العمل ويدعو المتصل إلى ترك رسالة تعالجونها عند إعادة الفتح."
+      },
+      {
+       "q": "هل يناسب العرض منشأة عائلية صغيرة؟",
+       "a": "عرض الاستقبال / السكرتارية مصمم للمنشآت الصغيرة جدًا من كل المهن."
+      }
+     ]
+    },
+    {
+     "p": "لكي لا تبقى أي مكالمة حجز بلا جواب، اطّلعوا على عرض الاستقبال / السكرتارية من HARX Téléphonie، وقيّموا ملاءمته لإيقاع الخدمة في منشأتكم وحجم المكالمات التي تصلكم في أوقات الذروة وخارجها."
+    }
+   ]
+  }
+ }
+}

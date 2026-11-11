@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "ai-call-assistance-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "IA pendant les appels : les questions sur HARX Téléphonie",
+      "description": "Comment une IA peut assister pendant un appel, ce qu'elle ne remplace pas et comment l'utiliser avec discernement.",
+      "blocks": [
+        {
+          "h2": "Comprendre l'IA qui assiste pendant les appels"
+        },
+        {
+          "faq": [
+            {
+              "q": "Que signifie une IA qui assiste pendant les appels ?",
+              "a": "L'IA seconde la personne qui téléphone : elle l'aide pendant l'échange, sans prendre la place de l'humain ni décider à sa place."
+            },
+            {
+              "q": "HARX Téléphonie propose-t-elle cette assistance ?",
+              "a": "Oui, une IA qui assiste pendant les appels fait partie de l'offre. Elle fonctionne avec des crédits d'IA prépayés, en plus de l'abonnement mensuel."
+            },
+            {
+              "q": "L'IA remplace-t-elle la personne qui répond ?",
+              "a": "Non. Elle apporte un soutien, mais la relation avec l'appelant reste humaine. C'est à vous de juger quoi dire et quand le dire."
+            },
+            {
+              "q": "Dans quels cas l'aide d'une IA est-elle utile ?",
+              "a": "Elle peut soutenir un conseiller débutant, aider à garder le fil d'un échange long ou soulager une équipe très sollicitée. Son intérêt dépend de votre contexte."
+            },
+            {
+              "q": "Comment bien utiliser une assistance IA ?",
+              "a": "Gardez l'écoute de l'appelant au premier plan, relisez toute suggestion avant de l'utiliser et corrigez-la si elle ne convient pas à la situation."
+            },
+            {
+              "q": "Peut-on faire entièrement confiance à l'IA ?",
+              "a": "Non, une IA peut se tromper. Vérifiez toute information importante avant de la communiquer, surtout en matière légale, médicale ou financière."
+            },
+            {
+              "q": "Faut-il informer les interlocuteurs ?",
+              "a": "Les règles sur l'information des personnes varient selon les pays et les usages. Renseignez-vous sur les obligations applicables à votre activité."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "AI During Calls: Questions About HARX Telephony",
+      "description": "How an AI can assist during a call, what it does not replace and how to use it with good judgement.",
+      "blocks": [
+        {
+          "h2": "Understanding AI that assists during calls"
+        },
+        {
+          "faq": [
+            {
+              "q": "What does an AI that assists during calls mean?",
+              "a": "The AI supports the person on the phone: it helps during the conversation, without taking the human's place or deciding for them."
+            },
+            {
+              "q": "Does HARX Telephony offer this assistance?",
+              "a": "Yes, an AI that assists during calls is part of the offer. It runs on prepaid AI credits, on top of the monthly subscription."
+            },
+            {
+              "q": "Does the AI replace the person answering?",
+              "a": "No. It provides support, but the relationship with the caller stays human. You decide what to say and when to say it."
+            },
+            {
+              "q": "When is AI help useful?",
+              "a": "It can support a new advisor, help keep track of a long conversation or relieve a heavily loaded team. Its value depends on your context."
+            },
+            {
+              "q": "How do I use AI assistance well?",
+              "a": "Keep your attention on the caller, read any suggestion before using it and adjust it if it does not fit the situation."
+            },
+            {
+              "q": "Can I fully trust the AI?",
+              "a": "No, an AI can be wrong. Check any important information before passing it on, especially on legal, medical or financial matters."
+            },
+            {
+              "q": "Should I inform the people I speak with?",
+              "a": "Rules on informing people differ by country and by use. Look into the obligations that apply to your activity."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "IA durante las llamadas: preguntas sobre HARX Telefonía",
+      "description": "Cómo puede una IA asistir durante una llamada, qué no sustituye y cómo usarla con criterio.",
+      "blocks": [
+        {
+          "h2": "Entender la IA que asiste durante las llamadas"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Qué significa una IA que asiste durante las llamadas?",
+              "a": "La IA acompaña a la persona que habla por teléfono: le ayuda durante la conversación, sin ocupar el lugar del humano ni decidir por él."
+            },
+            {
+              "q": "¿HARX Telefonía ofrece esta asistencia?",
+              "a": "Sí, una IA que asiste durante las llamadas forma parte de la oferta. Funciona con créditos de IA de prepago, además de la suscripción mensual."
+            },
+            {
+              "q": "¿La IA sustituye a quien atiende?",
+              "a": "No. Aporta apoyo, pero la relación con quien llama sigue siendo humana. Usted decide qué decir y cuándo."
+            },
+            {
+              "q": "¿Cuándo es útil la ayuda de una IA?",
+              "a": "Puede apoyar a un asesor novato, ayudar a seguir el hilo de una conversación larga o aliviar a un equipo muy solicitado. Su utilidad depende de su contexto."
+            },
+            {
+              "q": "¿Cómo usar bien una asistencia con IA?",
+              "a": "Mantenga la escucha de quien llama en primer plano, lea toda sugerencia antes de usarla y corríjala si no encaja con la situación."
+            },
+            {
+              "q": "¿Se puede confiar plenamente en la IA?",
+              "a": "No, una IA puede equivocarse. Verifique cualquier dato importante antes de comunicarlo, sobre todo en materia legal, médica o financiera."
+            },
+            {
+              "q": "¿Hay que informar a los interlocutores?",
+              "a": "Las normas sobre información a las personas varían según el país y el uso. Infórmese de las obligaciones aplicables a su actividad."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "الذكاء الاصطناعي أثناء المكالمات: أسئلة عن HARX للهاتف",
+      "description": "كيف يمكن لذكاء اصطناعي أن يساعد أثناء المكالمة، وما الذي لا يحل محله، وكيف تستخدمه بحكمة وتقدير.",
+      "blocks": [
+        {
+          "h2": "فهم الذكاء الاصطناعي المساعد أثناء المكالمات"
+        },
+        {
+          "faq": [
+            {
+              "q": "ماذا يعني ذكاء اصطناعي يساعد أثناء المكالمات؟",
+              "a": "يدعم الذكاء الاصطناعي الشخص الذي يتحدث عبر الهاتف ويعينه أثناء المحادثة، دون أن يحل محل الإنسان أو يقرر عنه."
+            },
+            {
+              "q": "هل توفر HARX للهاتف هذه المساعدة؟",
+              "a": "نعم، فالذكاء الاصطناعي المساعد أثناء المكالمات جزء من العرض، ويعمل برصيد ذكاء اصطناعي مدفوع مسبقًا إضافةً إلى الاشتراك الشهري."
+            },
+            {
+              "q": "هل يحل الذكاء الاصطناعي محل من يرد على المكالمة؟",
+              "a": "لا، فهو يقدّم دعمًا فقط وتبقى العلاقة مع المتصل إنسانية. أنت من يقرر ماذا يقول ومتى."
+            },
+            {
+              "q": "متى تكون مساعدة الذكاء الاصطناعي مفيدة؟",
+              "a": "قد تدعم مستشارًا مبتدئًا أو تساعد على متابعة محادثة طويلة أو تخفف الضغط عن فريق مثقل بالمكالمات. وتتوقف فائدتها على سياقك."
+            },
+            {
+              "q": "كيف أستخدم المساعدة بالذكاء الاصطناعي بشكل جيد؟",
+              "a": "أبقِ انتباهك على المتصل، واقرأ أي اقتراح قبل استخدامه، وعدّله إن لم يناسب الموقف."
+            },
+            {
+              "q": "هل يمكن الوثوق بالذكاء الاصطناعي تمامًا؟",
+              "a": "لا، فقد يخطئ. تحقق من أي معلومة مهمة قبل نقلها، خصوصًا في الأمور القانونية والطبية والمالية."
+            },
+            {
+              "q": "هل يجب إبلاغ من أتحدث معهم؟",
+              "a": "تختلف قواعد إعلام الأشخاص من بلد إلى آخر ومن استخدام إلى آخر، فاطّلع على الالتزامات المطبقة على نشاطك."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

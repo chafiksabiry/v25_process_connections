@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "voicemail-messages-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Répondeur et messages vocaux : la FAQ HARX Téléphonie",
+      "description": "Message d'accueil, consultation et rappel : tout ce qu'il faut savoir pour que votre répondeur travaille pour votre activité.",
+      "blocks": [
+        {
+          "h2": "Faire du répondeur un allié"
+        },
+        {
+          "faq": [
+            {
+              "q": "À quoi sert le répondeur ?",
+              "a": "Il prend le relais quand vous ne pouvez pas décrocher. L'appelant laisse un message que vous écoutez ensuite, au lieu de raccrocher sans suite."
+            },
+            {
+              "q": "Le répondeur est-il inclus dans HARX Téléphonie ?",
+              "a": "Oui, le répondeur fait partie des fonctions de l'offre. Nomad Solo propose notamment un répondeur personnel pour chaque utilisateur."
+            },
+            {
+              "q": "Comment rédiger un bon message d'accueil ?",
+              "a": "Restez bref : nom ou activité, indication de rappel, et invitation à laisser nom, numéro et motif. Parlez lentement avec un ton souriant."
+            },
+            {
+              "q": "Que doit contenir le message laissé par l'appelant ?",
+              "a": "Encouragez l'appelant à donner son nom, son numéro et la raison de son appel. Ces trois informations permettent un rappel utile dès la première tentative."
+            },
+            {
+              "q": "À quelle fréquence consulter les messages ?",
+              "a": "Selon votre activité, plusieurs fois par jour ou à des heures fixes. Un message traité vite montre du sérieux et évite de perdre une demande."
+            },
+            {
+              "q": "Faut-il mentionner des horaires de rappel ?",
+              "a": "C'est recommandé : dire « je rappelle en fin de matinée » fixe une attente claire. Ne promettez que ce que vous pouvez tenir."
+            },
+            {
+              "q": "Comment retrouver un message ancien ?",
+              "a": "Le journal d'appels aide à repérer la date et le numéro de l'appelant. HARX Téléphonie centralise ces informations pour vous éviter de chercher ailleurs."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Voicemail and Messages: The HARX Telephony FAQ",
+      "description": "Greeting, checking messages and calling back: everything to know so your voicemail works for your business and not against it.",
+      "blocks": [
+        {
+          "h2": "Making voicemail an ally"
+        },
+        {
+          "faq": [
+            {
+              "q": "What is voicemail for?",
+              "a": "It steps in when you cannot pick up. The caller leaves a message you listen to later, instead of hanging up with no follow-up."
+            },
+            {
+              "q": "Is voicemail included in HARX Telephony?",
+              "a": "Yes, voicemail is one of the features of the offer. Nomad Solo in particular provides a personal voicemail for each user."
+            },
+            {
+              "q": "How do I write a good greeting?",
+              "a": "Keep it short: name or activity, a callback indication and an invitation to leave name, number and reason. Speak slowly with a smile in your voice."
+            },
+            {
+              "q": "What should the caller's message contain?",
+              "a": "Encourage callers to give their name, number and the reason for calling. These three details make a useful callback possible on the first attempt."
+            },
+            {
+              "q": "How often should I check messages?",
+              "a": "Depending on your activity, several times a day or at fixed times. A message handled quickly shows reliability and avoids losing a request."
+            },
+            {
+              "q": "Should I mention callback times?",
+              "a": "It is advisable: saying \"I call back late morning\" sets a clear expectation. Only promise what you can keep."
+            },
+            {
+              "q": "How do I find an older message?",
+              "a": "The call log helps you locate the date and the caller's number. HARX Telephony centralises this information so you do not have to look elsewhere."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Buzón de voz y mensajes: la FAQ de HARX Telefonía",
+      "description": "Saludo, consulta y devolución de llamada: todo lo necesario para que su buzón de voz trabaje a favor de su actividad.",
+      "blocks": [
+        {
+          "h2": "Hacer del buzón de voz un aliado"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Para qué sirve el buzón de voz?",
+              "a": "Toma el relevo cuando no puede contestar. Quien llama deja un mensaje que usted escucha después, en lugar de colgar sin más."
+            },
+            {
+              "q": "¿El buzón de voz está incluido en HARX Telefonía?",
+              "a": "Sí, forma parte de las funciones de la oferta. Nomad Solo, en concreto, ofrece un buzón de voz personal para cada usuario."
+            },
+            {
+              "q": "¿Cómo redacto un buen saludo?",
+              "a": "Sea breve: nombre o actividad, indicación de devolución de llamada e invitación a dejar nombre, número y motivo. Hable despacio y con tono amable."
+            },
+            {
+              "q": "¿Qué debe contener el mensaje de quien llama?",
+              "a": "Anime a quien llama a dar su nombre, su número y el motivo. Esos tres datos permiten una devolución de llamada útil desde el primer intento."
+            },
+            {
+              "q": "¿Con qué frecuencia consultar los mensajes?",
+              "a": "Según su actividad, varias veces al día o a horas fijas. Un mensaje atendido rápido transmite seriedad y evita perder una solicitud."
+            },
+            {
+              "q": "¿Conviene indicar horarios de devolución?",
+              "a": "Es recomendable: decir «devuelvo la llamada a media mañana» fija una expectativa clara. Prometa solo lo que pueda cumplir."
+            },
+            {
+              "q": "¿Cómo encuentro un mensaje antiguo?",
+              "a": "El registro de llamadas ayuda a localizar la fecha y el número de quien llamó. HARX Telefonía centraliza esos datos para que no tenga que buscar en otro sitio."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "البريد الصوتي والرسائل: أسئلة HARX للهاتف",
+      "description": "رسالة الترحيب والاستماع للرسائل ومعاودة الاتصال: كل ما يلزم ليعمل بريدك الصوتي لصالح نشاطك.",
+      "blocks": [
+        {
+          "h2": "اجعل البريد الصوتي حليفًا لك"
+        },
+        {
+          "faq": [
+            {
+              "q": "ما فائدة البريد الصوتي؟",
+              "a": "يتولى الأمر عندما لا تستطيع الرد، فيترك المتصل رسالة تستمع إليها لاحقًا بدل أن يغلق الخط دون أثر."
+            },
+            {
+              "q": "هل البريد الصوتي مشمول في HARX للهاتف؟",
+              "a": "نعم، فهو من وظائف العرض. ويوفر Nomad Solo تحديدًا بريدًا صوتيًا شخصيًا لكل مستخدم."
+            },
+            {
+              "q": "كيف أكتب رسالة ترحيب جيدة؟",
+              "a": "اجعلها قصيرة: الاسم أو النشاط، وإشارة إلى معاودة الاتصال، ودعوة لترك الاسم والرقم والسبب. تحدث ببطء وبنبرة ودودة."
+            },
+            {
+              "q": "ماذا ينبغي أن تتضمن رسالة المتصل؟",
+              "a": "شجّع المتصل على ذكر اسمه ورقمه وسبب اتصاله، فهذه المعلومات الثلاث تتيح معاودة اتصال مفيدة من المحاولة الأولى."
+            },
+            {
+              "q": "كم مرة أستمع إلى الرسائل؟",
+              "a": "بحسب نشاطك، عدة مرات في اليوم أو في أوقات ثابتة. الرسالة التي تُعالج بسرعة تُظهر جدّيتك وتمنع ضياع الطلب."
+            },
+            {
+              "q": "هل أذكر مواعيد معاودة الاتصال؟",
+              "a": "يُستحسن ذلك: قول «سأعاود الاتصال قبيل الظهر» يضع توقعًا واضحًا. لا تعد إلا بما تستطيع الوفاء به."
+            },
+            {
+              "q": "كيف أعثر على رسالة قديمة؟",
+              "a": "يساعدك سجل المكالمات على تحديد التاريخ ورقم المتصل، وتجمع HARX للهاتف هذه المعلومات في مكان واحد لتوفر عليك البحث."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+ "type": "solution",
+ "slug": "sol-b-sme-customer-service",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Service relation client d'une PME : organiser les appels",
+   "description": "Une PME peut-elle offrir un accueil téléphonique fiable sans grosse structure ? Voici les points clés et l'offre Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "Pourquoi la relation client est difficile à tenir en PME"
+    },
+    {
+     "p": "Une petite structure n'a pas toujours un service dédié : le dirigeant, l'assistante ou le responsable d'exploitation décrochent quand ils le peuvent. Résultat, la qualité de l'accueil dépend de la disponibilité de chacun, et un client mécontent ou pressé peut vite se sentir ignoré."
+    },
+    {
+     "ul": [
+      "Les demandes arrivent par téléphone à des moments imprévisibles, souvent en plein travail.",
+      "Les réponses diffèrent d'une personne à l'autre faute de consignes écrites.",
+      "Les réclamations ne sont pas suivies jusqu'à leur résolution.",
+      "Les horaires d'ouverture ne correspondent pas toujours à ceux des clients.",
+      "Le manque de visibilité empêche de savoir quels motifs d'appel reviennent le plus."
+     ]
+    },
+    {
+     "h2": "Ce que propose HARX pour structurer l'accueil et le suivi"
+    },
+    {
+     "p": "Pour une PME qui veut professionnaliser sa relation client, HARX Téléphonie propose l'offre Company Full Scope In & Out. Elle gère les appels entrants et sortants avec un numéro de votre pays, ce qui rassure des clients qui préfèrent un interlocuteur local."
+    },
+    {
+     "p": "L'accueil, le répondeur et une IA d'assistance aident à prendre en charge chaque appel plutôt que de le laisser sonner dans le vide. L'appel sortant permet aussi de rappeler un client pour confirmer qu'une demande a été traitée, un geste simple qui change beaucoup la perception du service. L'abonnement est mensuel, minutes et IA sont prépayées, et la mise en route prend quelques minutes."
+    },
+    {
+     "h2": "Bonnes pratiques pour une relation client durable"
+    },
+    {
+     "ul": [
+      "Rédiger une courte trame d'accueil : formule d'ouverture, informations à recueillir, façon de conclure.",
+      "Classer les motifs d'appel les plus fréquents et préparer une réponse type pour chacun.",
+      "Annoncer au client ce qui va se passer ensuite et dans quel délai approximatif, sans promettre ce qu'on ne peut pas tenir.",
+      "Garder une trace écrite de chaque réclamation jusqu'à sa clôture.",
+      "Rappeler spontanément après une résolution pour vérifier que le client est satisfait.",
+      "Relire régulièrement les demandes récurrentes pour corriger la cause : une notice peu claire, un délai mal expliqué."
+     ]
+    },
+    {
+     "p": "L'objectif n'est pas d'imiter un grand centre de contact, mais de rendre l'accueil prévisible et chaleureux. Une PME qui garde la main sur sa relation client tout en s'appuyant sur une ligne bien outillée, comme Company Full Scope In & Out chez HARX, gagne en sérénité."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Faut-il embaucher un service client dédié pour utiliser cette offre ?",
+       "a": "Non. L'offre s'adresse aux PME et aux équipes à distance, qui peuvent s'organiser avec leurs propres collaborateurs."
+      },
+      {
+       "q": "Que se passe-t-il quand personne n'est disponible ?",
+       "a": "L'accueil et le répondeur permettent de recevoir l'appel et de recueillir la demande pour y répondre ensuite."
+      },
+      {
+       "q": "Peut-on rappeler les clients depuis la même ligne ?",
+       "a": "Oui, l'offre couvre les appels entrants et sortants."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "SME customer service: setting up reliable phone support",
+   "description": "Can a small company offer dependable phone support without a large team? Key practices and HARX's Company Full Scope In & Out offer for SME customer relations.",
+   "blocks": [
+    {
+     "h2": "Why customer service is hard to sustain in a small company"
+    },
+    {
+     "p": "A small business does not always have a dedicated service team: the owner, an assistant or an operations manager picks up when they can. The quality of the welcome then depends on who is free, and a customer in a hurry or upset can quickly feel ignored."
+    },
+    {
+     "ul": [
+      "Requests arrive by phone at unpredictable moments, often in the middle of other work.",
+      "Answers differ from one person to the next because nothing is written down.",
+      "Complaints are not followed through to resolution.",
+      "Opening hours do not always match when customers need help.",
+      "Without visibility, nobody knows which reasons for calling come up most often."
+     ]
+    },
+    {
+     "h2": "What HARX offers to structure reception and follow-up"
+    },
+    {
+     "p": "For an SME that wants to professionalise customer relations, HARX Telephony offers Company Full Scope In & Out. It handles inbound and outbound calls with a number from your country, which reassures customers who prefer a local contact."
+    },
+    {
+     "p": "Reception, voicemail and an assisting AI help make sure each call is taken care of rather than left to ring out. Outbound calling also lets you phone a customer back to confirm a request has been handled, a simple gesture that changes how the service is perceived. The subscription is monthly, minutes and AI are prepaid, and setup takes a few minutes."
+    },
+    {
+     "h2": "Good practices for lasting customer relationships"
+    },
+    {
+     "ul": [
+      "Write a short greeting outline: opening phrase, information to collect, how to close.",
+      "List the most frequent reasons for calling and prepare a model answer for each.",
+      "Tell the customer what happens next and roughly when, without promising what you cannot deliver.",
+      "Keep a written record of every complaint until it is closed.",
+      "Call back after a resolution to check the customer is satisfied.",
+      "Review recurring requests regularly to fix the cause, such as an unclear manual or a poorly explained delay."
+     ]
+    },
+    {
+     "p": "The aim is not to imitate a large contact centre but to make reception predictable and friendly. A small company that keeps control of its customer relationship while relying on a well-equipped line, such as HARX's Company Full Scope In & Out, gains peace of mind."
+    },
+    {
+     "p": "Even a modest routine, such as a daily check of calls received and calls still to return, makes the difference between a service that feels attentive and one that feels random."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Do we need to hire a dedicated customer service team to use this offer?",
+       "a": "No. The offer is aimed at SMEs and remote teams, which can organise themselves with their own staff."
+      },
+      {
+       "q": "What happens when nobody is available?",
+       "a": "Reception and voicemail let you receive the call and collect the request so you can respond afterwards."
+      },
+      {
+       "q": "Can we call customers back from the same line?",
+       "a": "Yes, the offer covers inbound and outbound calls."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Servicio de atención al cliente en una pyme: ordenar las llamadas",
+   "description": "¿Puede una pyme ofrecer atención telefónica fiable sin gran estructura? Claves prácticas y la oferta Company Full Scope In & Out de HARX para sus clientes.",
+   "blocks": [
+    {
+     "h2": "Por qué cuesta mantener la atención al cliente en una pyme"
+    },
+    {
+     "p": "Una empresa pequeña no siempre cuenta con un servicio dedicado: el gerente, la asistente o el responsable de operaciones descuelgan cuando pueden. La calidad de la atención depende entonces de quién esté libre, y un cliente con prisa o molesto puede sentirse ignorado enseguida."
+    },
+    {
+     "ul": [
+      "Las solicitudes llegan por teléfono en momentos imprevisibles, a menudo en pleno trabajo.",
+      "Las respuestas varían de una persona a otra por falta de pautas escritas.",
+      "Las reclamaciones no se siguen hasta su resolución.",
+      "El horario de atención no siempre coincide con el de los clientes.",
+      "Sin visibilidad, no se sabe qué motivos de llamada son los más frecuentes."
+     ]
+    },
+    {
+     "h2": "Qué propone HARX para estructurar la atención y el seguimiento"
+    },
+    {
+     "p": "Para una pyme que quiere profesionalizar su relación con los clientes, HARX Telefonía propone Company Full Scope In & Out. Gestiona llamadas entrantes y salientes con un número de su país, algo que tranquiliza a quienes prefieren un interlocutor local."
+    },
+    {
+     "p": "La recepción, el contestador y una IA de apoyo ayudan a que cada llamada reciba atención en lugar de sonar en el vacío. La llamada saliente permite además devolver la llamada a un cliente para confirmar que su petición se ha resuelto, un gesto sencillo que cambia mucho la percepción del servicio. La suscripción es mensual, los minutos y la IA son prepagados y la puesta en marcha lleva unos minutos."
+    },
+    {
+     "h2": "Buenas prácticas para una relación duradera con el cliente"
+    },
+    {
+     "ul": [
+      "Redactar un guion breve de atención: fórmula de apertura, datos que se piden y forma de cerrar.",
+      "Listar los motivos de llamada más habituales y preparar una respuesta modelo para cada uno.",
+      "Explicar al cliente qué ocurrirá después y en qué plazo aproximado, sin prometer lo que no se puede cumplir.",
+      "Guardar un registro escrito de cada reclamación hasta que se cierre.",
+      "Volver a llamar tras una resolución para comprobar que el cliente quedó satisfecho.",
+      "Revisar con regularidad las solicitudes repetidas para corregir la causa, como un manual poco claro o un plazo mal explicado."
+     ]
+    },
+    {
+     "p": "El objetivo no es imitar un gran centro de contacto, sino hacer la atención previsible y cercana. Una pyme que conserva el control de su relación con el cliente apoyándose en una línea bien equipada, como Company Full Scope In & Out de HARX, gana tranquilidad."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Hay que contratar un equipo de atención al cliente para usar esta oferta?",
+       "a": "No. La oferta se dirige a pymes y equipos remotos, que pueden organizarse con su propio personal."
+      },
+      {
+       "q": "¿Qué ocurre cuando nadie está disponible?",
+       "a": "La recepción y el contestador permiten recibir la llamada y recoger la solicitud para responder después."
+      },
+      {
+       "q": "¿Se puede devolver la llamada a los clientes desde la misma línea?",
+       "a": "Sí, la oferta cubre llamadas entrantes y salientes."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "خدمة العملاء في الشركات الصغيرة: تنظيم المكالمات",
+   "description": "هل تستطيع شركة صغيرة تقديم استقبال هاتفي موثوق دون هيكل ضخم؟ أهم الممارسات وعرض Company Full Scope In & Out من HARX لعلاقة العملاء.",
+   "blocks": [
+    {
+     "h2": "لماذا يصعب الحفاظ على خدمة العملاء في شركة صغيرة"
+    },
+    {
+     "p": "لا تملك الشركة الصغيرة دائمًا فريقًا مخصصًا لخدمة العملاء، فيرد المدير أو المساعدة أو مسؤول التشغيل عندما يتسنى لهم ذلك. وبذلك تتوقف جودة الاستقبال على من يكون متفرغًا، ويشعر العميل المستعجل أو المنزعج بسرعة بأنه مُهمَل."
+    },
+    {
+     "ul": [
+      "تصل الطلبات هاتفيًا في أوقات لا يمكن توقعها، وغالبًا أثناء انشغال الفريق بعمل آخر.",
+      "تختلف الإجابات من شخص إلى آخر لغياب تعليمات مكتوبة.",
+      "لا تُتابَع الشكاوى حتى حلّها الكامل.",
+      "لا تتطابق ساعات العمل دائمًا مع أوقات حاجة العملاء.",
+      "غياب الرؤية يمنع معرفة أسباب الاتصال الأكثر تكرارًا."
+     ]
+    },
+    {
+     "p": "وكثيرًا ما لا يدرك أصحاب الشركات حجم هذه المشكلة إلا بعد أن يفقدوا عميلًا لم يجد من يردّ عليه في الوقت المناسب، رغم أن الحل غالبًا يبدأ بتنظيم بسيط."
+    },
+    {
+     "h2": "ما تقترحه HARX لتنظيم الاستقبال والمتابعة"
+    },
+    {
+     "p": "للشركة الصغيرة أو المتوسطة التي تريد إضفاء طابع احترافي على علاقتها بعملائها، تقدّم HARX للاتصالات الهاتفية عرض Company Full Scope In & Out. فهو يدير المكالمات الواردة والصادرة برقم من بلدكم، وهذا يطمئن العملاء الذين يفضّلون محاورًا محليًا."
+    },
+    {
+     "p": "ويساعد الاستقبال والمجيب الآلي والذكاء الاصطناعي المساعد على التكفّل بكل مكالمة بدل تركها ترنّ دون جواب. كما تتيح المكالمات الصادرة معاودة الاتصال بالعميل للتأكد من معالجة طلبه، وهي خطوة بسيطة تغيّر كثيرًا نظرته إلى الخدمة. والاشتراك شهري والدقائق والذكاء الاصطناعي مدفوعة مسبقًا، ويستغرق التشغيل دقائق معدودة."
+    },
+    {
+     "h2": "ممارسات جيدة لعلاقة دائمة مع العملاء"
+    },
+    {
+     "ul": [
+      "كتابة مخطط قصير للاستقبال: عبارة الافتتاح، والمعلومات المطلوب جمعها، وطريقة إنهاء المكالمة.",
+      "حصر أسباب الاتصال الأكثر شيوعًا وإعداد إجابة نموذجية لكل منها.",
+      "إخبار العميل بما سيحدث بعد ذلك وبالمدة التقريبية، دون وعد بما لا يمكن الوفاء به.",
+      "الاحتفاظ بسجل مكتوب لكل شكوى إلى أن تُغلق.",
+      "معاودة الاتصال بعد حلّ المشكلة للتأكد من رضا العميل.",
+      "مراجعة الطلبات المتكررة دوريًا لمعالجة السبب الجذري، كدليل استخدام غير واضح أو مهلة لم تُشرح جيدًا."
+     ]
+    },
+    {
+     "p": "الهدف ليس تقليد مركز اتصال كبير، بل جعل الاستقبال منتظمًا وودّيًا. والشركة التي تحتفظ بزمام علاقتها بعملائها مع الاعتماد على خط مجهّز جيدًا، مثل Company Full Scope In & Out من HARX، تكسب قدرًا أكبر من الاطمئنان."
+    },
+    {
+     "p": "وحتى الروتين المتواضع، كمراجعة يومية للمكالمات المستلمة وتلك التي ما زالت تنتظر الردّ، يصنع الفارق بين خدمة تبدو منتبهة وخدمة تبدو عشوائية. ويمكن لصاحب الشركة أن يخصص دقائق قليلة في نهاية اليوم لتوزيع المكالمات التي تحتاج إلى معاودة اتصال، وأن يحدد لكل منها شخصًا مسؤولًا وموعدًا واضحًا، فتتحول المتابعة من اجتهاد فردي إلى عادة جماعية يعرفها الجميع ويلتزمون بها."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يلزم توظيف فريق مخصص لخدمة العملاء لاستخدام هذا العرض؟",
+       "a": "لا، فالعرض موجّه إلى الشركات الصغيرة والمتوسطة والفرق التي تعمل عن بُعد، ويمكنها تنظيم نفسها بموظفيها."
+      },
+      {
+       "q": "ماذا يحدث عندما لا يكون أحد متاحًا؟",
+       "a": "يتيح الاستقبال والمجيب الآلي استلام المكالمة وتسجيل الطلب للرد عليه لاحقًا."
+      },
+      {
+       "q": "هل يمكن معاودة الاتصال بالعملاء من الخط نفسه؟",
+       "a": "نعم، فالعرض يغطي المكالمات الواردة والصادرة."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

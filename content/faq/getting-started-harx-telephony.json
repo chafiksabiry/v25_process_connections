@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "getting-started-harx-telephony",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Démarrer avec HARX Téléphonie : la FAQ du premier pas",
+      "description": "Les réponses aux questions que l'on se pose avant de lancer HARX Téléphonie : ce que c'est, comment commencer et à quoi s'attendre.",
+      "blocks": [
+        {
+          "h2": "Premiers pas avec HARX Téléphonie"
+        },
+        {
+          "faq": [
+            {
+              "q": "Qu'est-ce que HARX Téléphonie ?",
+              "a": "C'est l'offre de téléphonie de HARX.ai. Elle donne un numéro de votre pays, des appels entrants et sortants, un répondeur, de l'accueil à distance et une IA qui assiste pendant les appels."
+            },
+            {
+              "q": "Faut-il du matériel particulier pour commencer ?",
+              "a": "HARX Téléphonie est pensée pour être opérationnelle en quelques minutes. Prévoyez simplement un appareil connecté à internet et un casque ou des écouteurs pour garder les mains libres et un son net."
+            },
+            {
+              "q": "Comment se déroule la mise en route ?",
+              "a": "Vous choisissez l'offre qui correspond à votre activité, créez votre accès, puis obtenez votre numéro. Vous pouvez ensuite passer et recevoir vos premiers appels depuis votre espace."
+            },
+            {
+              "q": "Quelle différence avec une simple ligne téléphonique ?",
+              "a": "Une ligne classique transporte la voix. Ici s'ajoutent un répondeur, un journal d'appels, un accueil à distance et une IA d'assistance, réunis dans un même abonnement."
+            },
+            {
+              "q": "Comment est facturé le service ?",
+              "a": "Le modèle repose sur un abonnement mensuel, avec des minutes et de l'IA prépayées. Le détail se consulte au moment de choisir votre offre, directement chez HARX."
+            },
+            {
+              "q": "HARX Téléphonie convient-elle à une activité qui démarre ?",
+              "a": "Oui, des indépendants aux petites équipes, l'offre s'adapte à des tailles très différentes. Commencez par la formule la plus proche de votre usage réel, puis faites évoluer votre organisation."
+            },
+            {
+              "q": "Où trouver de l'aide si je bloque ?",
+              "a": "Relisez d'abord les autres pages de cette FAQ, consacrées au compte, aux appels et au répondeur. Pour un cas précis, rapprochez-vous de l'équipe HARX via le site."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Getting Started with HARX Telephony: First-Step FAQ",
+      "description": "Answers to the questions people ask before launching HARX Telephony: what it is, how to begin and what to expect on day one.",
+      "blocks": [
+        {
+          "h2": "First steps with HARX Telephony"
+        },
+        {
+          "faq": [
+            {
+              "q": "What is HARX Telephony?",
+              "a": "It is the telephony offer from HARX.ai. It provides a number from your country, inbound and outbound calls, a voicemail, remote reception and an AI that assists you during calls."
+            },
+            {
+              "q": "Do I need special equipment to start?",
+              "a": "HARX Telephony is designed to be up and running within minutes. All you need is an internet-connected device and a headset or earbuds to keep your hands free and the sound clear."
+            },
+            {
+              "q": "How does the setup work?",
+              "a": "You pick the plan that matches your activity, create your access, then get your number. From your workspace you can make and receive your first calls."
+            },
+            {
+              "q": "How is it different from a basic phone line?",
+              "a": "A traditional line only carries your voice. Here you also get voicemail, a call log, remote reception and AI assistance, all within one subscription."
+            },
+            {
+              "q": "How is the service billed?",
+              "a": "The model is a monthly subscription, with prepaid minutes and prepaid AI. You will see the details when you choose your plan, directly with HARX."
+            },
+            {
+              "q": "Is HARX Telephony suitable for a business that is just starting?",
+              "a": "Yes. From freelancers to small teams, the offer adapts to very different sizes. Start with the plan closest to your real usage, then adjust your setup as you grow."
+            },
+            {
+              "q": "Where can I get help if I am stuck?",
+              "a": "First read the other pages in this FAQ, which cover accounts, calls and voicemail. For a specific case, contact the HARX team through the website."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Empezar con HARX Telefonía: FAQ de los primeros pasos",
+      "description": "Respuestas a las dudas habituales antes de lanzar HARX Telefonía: qué es, cómo empezar y qué esperar durante el primer día de uso.",
+      "blocks": [
+        {
+          "h2": "Primeros pasos con HARX Telefonía"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Qué es HARX Telefonía?",
+              "a": "Es la oferta de telefonía de HARX.ai. Incluye un número de su país, llamadas entrantes y salientes, buzón de voz, recepción a distancia y una IA que le asiste durante las llamadas."
+            },
+            {
+              "q": "¿Necesito equipo especial para empezar?",
+              "a": "HARX Telefonía está pensada para funcionar en pocos minutos. Basta con un dispositivo conectado a internet y unos auriculares para tener las manos libres y un sonido nítido."
+            },
+            {
+              "q": "¿Cómo es la puesta en marcha?",
+              "a": "Elige el plan que encaja con su actividad, crea su acceso y obtiene su número. Después puede hacer y recibir sus primeras llamadas desde su espacio."
+            },
+            {
+              "q": "¿En qué se diferencia de una línea telefónica normal?",
+              "a": "Una línea tradicional solo transporta la voz. Aquí se suman buzón de voz, registro de llamadas, recepción a distancia y asistencia con IA en una misma suscripción."
+            },
+            {
+              "q": "¿Cómo se factura el servicio?",
+              "a": "El modelo es una suscripción mensual con minutos e IA de prepago. Los detalles se ven al elegir su plan, directamente con HARX."
+            },
+            {
+              "q": "¿Sirve HARX Telefonía para un negocio que empieza?",
+              "a": "Sí. Desde autónomos hasta equipos pequeños, la oferta se adapta a tamaños muy distintos. Empiece por el plan más cercano a su uso real y ajuste su organización a medida que crezca."
+            },
+            {
+              "q": "¿Dónde busco ayuda si me atasco?",
+              "a": "Lea primero las demás páginas de estas preguntas frecuentes sobre cuenta, llamadas y buzón de voz. Para un caso concreto, contacte con el equipo de HARX a través del sitio."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "البدء مع HARX للهاتف: أسئلة الخطوات الأولى",
+      "description": "إجابات عن الأسئلة التي تُطرح قبل تشغيل HARX للهاتف: ما هو، وكيف تبدأ، وما الذي ينبغي توقعه في اليوم الأول من الاستخدام.",
+      "blocks": [
+        {
+          "h2": "الخطوات الأولى مع HARX للهاتف"
+        },
+        {
+          "faq": [
+            {
+              "q": "ما هي خدمة HARX للهاتف؟",
+              "a": "هي عرض الاتصالات الهاتفية من HARX.ai، وتوفر رقمًا من بلدك ومكالمات واردة وصادرة وبريدًا صوتيًا واستقبالًا عن بُعد وذكاءً اصطناعيًا يساعدك أثناء المكالمات."
+            },
+            {
+              "q": "هل أحتاج إلى معدات خاصة للبدء؟",
+              "a": "صُممت الخدمة لتصبح جاهزة للعمل خلال دقائق. يكفيك جهاز متصل بالإنترنت وسماعة رأس أو سماعات أذن لتبقى يداك حرتين ويكون الصوت واضحًا."
+            },
+            {
+              "q": "كيف تتم عملية الإعداد؟",
+              "a": "تختار العرض الذي يناسب نشاطك، وتنشئ حسابك، ثم تحصل على رقمك. بعد ذلك يمكنك إجراء مكالماتك الأولى واستقبالها من مساحتك الخاصة."
+            },
+            {
+              "q": "ما الفرق بينها وبين خط هاتفي عادي؟",
+              "a": "الخط التقليدي ينقل الصوت فقط. أما هنا فتحصل أيضًا على بريد صوتي وسجل مكالمات واستقبال عن بُعد ومساعدة بالذكاء الاصطناعي ضمن اشتراك واحد."
+            },
+            {
+              "q": "كيف تُحتسب تكلفة الخدمة؟",
+              "a": "يقوم النموذج على اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعي المقدّم. تظهر التفاصيل عند اختيار عرضك لدى HARX مباشرة."
+            },
+            {
+              "q": "هل تناسب الخدمة نشاطًا في بدايته؟",
+              "a": "نعم، من المستقلين إلى الفرق الصغيرة تتكيف الخدمة مع أحجام مختلفة جدًا. ابدأ بالعرض الأقرب إلى استخدامك الفعلي ثم طوّر تنظيمك مع نمو نشاطك."
+            },
+            {
+              "q": "أين أجد المساعدة إذا واجهت صعوبة؟",
+              "a": "اقرأ أولًا الصفحات الأخرى في هذه الأسئلة الشائعة عن الحساب والمكالمات والبريد الصوتي. وللحالات الخاصة تواصل مع فريق HARX عبر الموقع."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

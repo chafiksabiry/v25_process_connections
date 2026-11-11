@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "multi-client-contact-centre-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Centres d'appels multi-clients : la FAQ HARX Téléphonie",
+      "description": "Plateau ou télétravail, plusieurs clients, plusieurs pays : les réponses clés pour structurer un centre d'appels avec HARX.",
+      "blocks": [
+        {
+          "h2": "Structurer un centre d'appels multi-clients"
+        },
+        {
+          "faq": [
+            {
+              "q": "À qui s'adresse l'offre Contact Centre Multi-clients ?",
+              "a": "Aux centres d'appels situés en Europe, aux États-Unis ou dans les pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal."
+            },
+            {
+              "q": "Les agents peuvent-ils travailler à distance ?",
+              "a": "L'offre convient aux agents sur plateau comme aux agents à distance. Chaque centre choisit l'organisation qui lui correspond."
+            },
+            {
+              "q": "Comment gérer plusieurs clients en parallèle ?",
+              "a": "Séparez nettement les consignes, les messages d'accueil et les procédures par client. Un agent doit toujours savoir pour quel client il répond."
+            },
+            {
+              "q": "Comment former les agents à un nouveau client ?",
+              "a": "Préparez un dossier court : présentation, scripts, cas fréquents et cas à escalader. Faites écouter des exemples avant les premiers appels réels."
+            },
+            {
+              "q": "Comment suivre la qualité des appels ?",
+              "a": "Définissez des critères simples avec le client, écoutez régulièrement des échanges et partagez des retours concrets. Évitez les grilles trop longues."
+            },
+            {
+              "q": "Comment organiser les équipes sur plusieurs fuseaux horaires ?",
+              "a": "Cartographiez les horaires de chaque client et affectez des équipes en conséquence. Prévoyez des relais clairs en fin et début de plage."
+            },
+            {
+              "q": "L'IA d'assistance a-t-elle sa place dans un centre d'appels ?",
+              "a": "HARX Téléphonie propose une IA qui assiste pendant les appels. Elle peut soutenir les agents, sous la responsabilité de l'équipe et dans le respect des consignes du client."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Multi-client Call Centres: The HARX Telephony FAQ",
+      "description": "On-site or remote, several clients, several countries: key answers to structure a call centre with HARX.",
+      "blocks": [
+        {
+          "h2": "Structuring a multi-client call centre"
+        },
+        {
+          "faq": [
+            {
+              "q": "Who is the Multi-client Contact Centre plan for?",
+              "a": "Call centres located in Europe, the United States or outsourcing countries such as France, Morocco, Tunisia and Senegal."
+            },
+            {
+              "q": "Can agents work remotely?",
+              "a": "The plan suits agents on site as well as remote agents. Each centre chooses the organisation that fits it."
+            },
+            {
+              "q": "How do I handle several clients at once?",
+              "a": "Keep instructions, greetings and procedures clearly separate for each client. An agent must always know which client they are answering for."
+            },
+            {
+              "q": "How do I train agents for a new client?",
+              "a": "Prepare a short file: presentation, scripts, frequent cases and cases to escalate. Let agents hear examples before the first real calls."
+            },
+            {
+              "q": "How do I monitor call quality?",
+              "a": "Define simple criteria with the client, listen to exchanges regularly and share concrete feedback. Avoid overly long scoring grids."
+            },
+            {
+              "q": "How do I organise teams across time zones?",
+              "a": "Map each client's hours and assign teams accordingly. Plan clear handovers at the end and start of each shift."
+            },
+            {
+              "q": "Does AI assistance have a place in a call centre?",
+              "a": "HARX Telephony provides an AI that assists during calls. It can support agents, under the team's responsibility and within the client's guidelines."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Centros de llamadas multicliente: FAQ de HARX Telefonía",
+      "description": "En plataforma o a distancia, varios clientes, varios países: respuestas clave para estructurar un centro de llamadas con HARX.",
+      "blocks": [
+        {
+          "h2": "Estructurar un centro de llamadas multicliente"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿A quién se dirige la oferta Contact Centre Multicliente?",
+              "a": "A centros de llamadas ubicados en Europa, Estados Unidos o países de externalización como Francia, Marruecos, Túnez y Senegal."
+            },
+            {
+              "q": "¿Pueden los agentes trabajar a distancia?",
+              "a": "La oferta sirve tanto para agentes en plataforma como para agentes a distancia. Cada centro elige la organización que le conviene."
+            },
+            {
+              "q": "¿Cómo gestionar varios clientes en paralelo?",
+              "a": "Separe con claridad las consignas, los saludos y los procedimientos de cada cliente. Un agente debe saber siempre para qué cliente responde."
+            },
+            {
+              "q": "¿Cómo formar a los agentes para un nuevo cliente?",
+              "a": "Prepare un dosier breve: presentación, guiones, casos frecuentes y casos que escalar. Haga escuchar ejemplos antes de las primeras llamadas reales."
+            },
+            {
+              "q": "¿Cómo seguir la calidad de las llamadas?",
+              "a": "Defina criterios sencillos con el cliente, escuche conversaciones con regularidad y comparta comentarios concretos. Evite las rejillas demasiado largas."
+            },
+            {
+              "q": "¿Cómo organizar equipos en varios husos horarios?",
+              "a": "Trace los horarios de cada cliente y asigne equipos en consecuencia. Prevea relevos claros al final y al inicio de cada turno."
+            },
+            {
+              "q": "¿Tiene cabida la IA de asistencia en un centro de llamadas?",
+              "a": "HARX Telefonía incluye una IA que asiste durante las llamadas. Puede apoyar a los agentes, bajo responsabilidad del equipo y respetando las consignas del cliente."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "مراكز الاتصال متعددة العملاء: أسئلة HARX للهاتف",
+      "description": "في المقر أو عن بُعد، وعدة عملاء وعدة بلدان: إجابات أساسية لهيكلة مركز اتصال متعدد العملاء مع HARX للهاتف.",
+      "blocks": [
+        {
+          "h2": "هيكلة مركز اتصال متعدد العملاء"
+        },
+        {
+          "faq": [
+            {
+              "q": "لمن يتوجه عرض مركز الاتصال متعدد العملاء؟",
+              "a": "لمراكز الاتصال الموجودة في أوروبا أو الولايات المتحدة أو دول الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال."
+            },
+            {
+              "q": "هل يمكن للوكلاء العمل عن بُعد؟",
+              "a": "يناسب العرض الوكلاء في المقر والوكلاء عن بُعد، ويختار كل مركز التنظيم الذي يلائمه."
+            },
+            {
+              "q": "كيف أدير عدة عملاء في آن واحد؟",
+              "a": "افصل بوضوح بين تعليمات كل عميل ورسائل الترحيب والإجراءات الخاصة به، ويجب أن يعرف الوكيل دائمًا لأي عميل يرد."
+            },
+            {
+              "q": "كيف أدرّب الوكلاء على عميل جديد؟",
+              "a": "أعدّ ملفًا موجزًا: التعريف والنصوص والحالات المتكررة والحالات الواجب تصعيدها، ودع الوكلاء يستمعون إلى أمثلة قبل المكالمات الفعلية الأولى."
+            },
+            {
+              "q": "كيف أتابع جودة المكالمات؟",
+              "a": "حدد مع العميل معايير بسيطة، واستمع إلى المحادثات بانتظام، وشارك ملاحظات ملموسة، وتجنب شبكات التقييم الطويلة جدًا."
+            },
+            {
+              "q": "كيف أنظم الفرق عبر مناطق زمنية متعددة؟",
+              "a": "ارسم خريطة لساعات كل عميل ووزّع الفرق وفقها، وخطط لتسليم واضح في نهاية كل مناوبة وبدايتها."
+            },
+            {
+              "q": "هل للذكاء الاصطناعي المساعد مكان في مركز الاتصال؟",
+              "a": "توفر HARX للهاتف ذكاءً اصطناعيًا يساعد أثناء المكالمات، ويمكنه دعم الوكلاء تحت مسؤولية الفريق وبما يحترم تعليمات العميل."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

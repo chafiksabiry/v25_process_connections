@@ -1,0 +1,287 @@
+{
+ "type": "blog",
+ "slug": "blog-b-human-and-ai-agents-working-together",
+ "date": "2026-10-14",
+ "langs": {
+  "fr": {
+   "title": "Travailler avec des agents humains et des agents IA",
+   "description": "Comment répartir les rôles entre agents humains et agents IA dans le service client : complémentarité, limites, passage de relais et supervision.",
+   "blocks": [
+    {
+     "h2": "Complémentarité plutôt que remplacement"
+    },
+    {
+     "p": "L'arrivée d'agents IA dans le service client pose souvent la question du remplacement. Une approche plus utile consiste à se demander ce que chacun fait le mieux. Les agents IA peuvent assister sur des tâches répétitives, retrouver une information, proposer une formulation ou traiter des demandes simples. Les agents humains apportent le jugement, l'empathie et la capacité à gérer l'inattendu."
+    },
+    {
+     "p": "Le bon équilibre varie selon les métiers et les sujets. Il se construit en observant ce qui fonctionne, pas en appliquant une règle générale."
+    },
+    {
+     "h2": "Répartir les rôles de manière explicite"
+    },
+    {
+     "ul": [
+      "L'IA assiste l'agent humain en cours d'appel : rappel d'informations, suggestions, prise de notes.",
+      "L'IA traite seule certaines demandes simples et bien cadrées.",
+      "L'humain reprend la main dès que la situation devient sensible ou ambiguë.",
+      "Les cas particuliers sont documentés pour améliorer les règles de partage."
+     ]
+    },
+    {
+     "p": "L'offre HARX Téléphonie intègre par exemple une IA qui assiste, ce qui illustre cette logique d'appui plutôt que de substitution. Dans le modèle TAAS de HARX.ai, le réseau de professionnels comprend des agents certifiés humains ou IA, évalués de la même façon sur les résultats."
+    },
+    {
+     "h2": "Soigner le passage de relais"
+    },
+    {
+     "p": "Le moment où une conversation passe d'une IA à un humain est crucial. Si le client doit répéter son problème, la frustration monte. Un bon transfert conserve le contexte : ce qui a été demandé, ce qui a déjà été essayé, ce que le client attend."
+    },
+    {
+     "p": "Il est utile de prévoir des déclencheurs clairs de passage vers un humain : demande explicite du client, émotion forte, sujet sensible, échec répété de compréhension."
+    },
+    {
+     "h2": "Transparence envers le client"
+    },
+    {
+     "p": "Les clients apprécient de savoir à qui ils parlent. Selon les contextes et les règles applicables, il peut être nécessaire d'indiquer qu'une partie de l'échange est assistée ou traitée par une IA. Renseignez-vous sur les obligations en vigueur dans les pays où vous opérez et privilégiez la clarté."
+    },
+    {
+     "h2": "Superviser et évaluer les deux types d'agents"
+    },
+    {
+     "p": "Un agent IA n'est pas infaillible, et un agent humain non plus. Dans les deux cas, il faut évaluer la qualité des interactions, repérer les erreurs récurrentes et corriger. Une évaluation en temps réel de chaque interaction permet de réagir vite et de garder une vue honnête de la performance."
+    },
+    {
+     "ul": [
+      "Écouter ou relire régulièrement des échanges des deux types.",
+      "Définir les mêmes critères de qualité pour tous.",
+      "Mettre en place un circuit de remontée des erreurs.",
+      "Former les humains à travailler avec les outils d'assistance."
+     ]
+    },
+    {
+     "h2": "Prendre soin des équipes"
+    },
+    {
+     "p": "L'introduction de l'IA peut susciter des inquiétudes chez les agents. L'expliquer clairement, associer les équipes au choix des usages et montrer comment l'outil allège les tâches pénibles facilite l'adoption. Pour explorer comment humains et IA peuvent coexister dans une même mission évaluée au résultat, l'approche TAAS de HARX.ai fournit un cadre de réflexion."
+    }
+   ]
+  },
+  "en": {
+   "title": "Working with Human Agents and AI Agents",
+   "description": "How to share roles between human and AI agents in customer service: complementarity, limits, handovers and supervision explained in practical terms.",
+   "blocks": [
+    {
+     "h2": "Complementarity rather than replacement"
+    },
+    {
+     "p": "The arrival of AI agents in customer service often raises the question of replacement. A more useful approach is to ask what each does best. AI agents can assist on repetitive tasks, retrieve information, suggest wording or handle simple requests. Human agents bring judgement, empathy and the ability to deal with the unexpected."
+    },
+    {
+     "p": "The right balance varies by profession and topic. It is built by observing what works, not by applying a general rule."
+    },
+    {
+     "h2": "Assigning roles explicitly"
+    },
+    {
+     "ul": [
+      "AI assists the human agent during a call: recalling information, suggestions, note-taking.",
+      "AI handles certain simple, well-framed requests alone.",
+      "The human takes over as soon as the situation becomes sensitive or ambiguous.",
+      "Special cases are documented to improve the sharing rules."
+     ]
+    },
+    {
+     "p": "The HARX Telephony offer, for example, includes an AI that assists, which illustrates this logic of support rather than substitution. In the TAAS model from HARX.ai, the network of professionals includes certified agents, human or AI, assessed in the same way on results."
+    },
+    {
+     "h2": "Handle the handover with care"
+    },
+    {
+     "p": "The moment a conversation passes from an AI to a human is crucial. If customers must repeat their problem, frustration rises. A good transfer preserves the context: what was asked, what has already been tried, what the customer expects."
+    },
+    {
+     "p": "It helps to define clear triggers for moving to a human: an explicit request from the customer, strong emotion, a sensitive subject, repeated failure to understand."
+    },
+    {
+     "h2": "Transparency towards the customer"
+    },
+    {
+     "p": "Customers appreciate knowing who they are talking to. Depending on context and applicable rules, it may be necessary to state that part of the exchange is assisted or handled by AI. Find out about the obligations in force in the countries where you operate and favour clarity."
+    },
+    {
+     "h2": "Supervising and assessing both kinds of agents"
+    },
+    {
+     "p": "An AI agent is not infallible, and neither is a human one. In both cases you need to assess interaction quality, spot recurring errors and correct them. Real-time assessment of each interaction lets you react quickly and keep an honest view of performance."
+    },
+    {
+     "ul": [
+      "Regularly listen to or reread exchanges of both kinds.",
+      "Set the same quality criteria for everyone.",
+      "Set up a channel for reporting errors.",
+      "Train humans to work with assistance tools."
+     ]
+    },
+    {
+     "h2": "Looking after the teams"
+    },
+    {
+     "h2": "Starting small and learning"
+    },
+    {
+     "p": "A sensible way to begin is to choose one type of request, define who handles what, and observe for a while. Gather feedback from agents and customers, look at where handovers went wrong, and adjust the rules before widening the scope."
+    },
+    {
+     "p": "Keep a written record of the decisions taken, so that new team members understand why the work is shared the way it is. The balance between human and AI contributions will keep evolving, and having the reasoning documented makes each change easier to discuss."
+    },
+    {
+     "p": "Introducing AI can raise worries among agents. Explaining it clearly, involving teams in choosing the uses and showing how the tool lightens tiresome tasks all ease adoption. To explore how humans and AI can coexist within a single task assessed on results, the TAAS approach from HARX.ai provides a framework for thought."
+    }
+   ]
+  },
+  "es": {
+   "title": "Trabajar con agentes humanos y agentes de IA",
+   "description": "Cómo repartir los roles entre agentes humanos y agentes de IA en atención al cliente: complementariedad, límites, traspaso de la conversación y supervisión.",
+   "blocks": [
+    {
+     "h2": "Complementariedad en lugar de sustitución"
+    },
+    {
+     "p": "La llegada de agentes de IA a la atención al cliente suele plantear la cuestión de la sustitución. Un enfoque más útil consiste en preguntarse qué hace mejor cada uno. Los agentes de IA pueden asistir en tareas repetitivas, encontrar información, proponer una redacción o tramitar solicitudes sencillas. Los agentes humanos aportan criterio, empatía y capacidad para gestionar lo inesperado."
+    },
+    {
+     "p": "El equilibrio adecuado varía según los oficios y los temas. Se construye observando lo que funciona, no aplicando una regla general."
+    },
+    {
+     "h2": "Repartir los roles de manera explícita"
+    },
+    {
+     "ul": [
+      "La IA asiste al agente humano durante la llamada: recordatorio de información, sugerencias, toma de notas.",
+      "La IA tramita por sí sola ciertas solicitudes sencillas y bien delimitadas.",
+      "El humano retoma la conversación en cuanto la situación se vuelve delicada o ambigua.",
+      "Los casos particulares se documentan para mejorar las reglas de reparto."
+     ]
+    },
+    {
+     "p": "La oferta HARX Telefonía incluye, por ejemplo, una IA que asiste, lo que ilustra esta lógica de apoyo y no de sustitución. En el modelo TAAS de HARX.ai, la red de profesionales comprende agentes certificados, humanos o de IA, evaluados del mismo modo según los resultados."
+    },
+    {
+     "h2": "Cuidar el traspaso"
+    },
+    {
+     "p": "El momento en que una conversación pasa de una IA a una persona es crucial. Si el cliente tiene que repetir su problema, la frustración aumenta. Una buena transferencia conserva el contexto: lo que se pidió, lo que ya se intentó, lo que el cliente espera."
+    },
+    {
+     "p": "Conviene prever disparadores claros para pasar a un humano: petición explícita del cliente, emoción intensa, tema delicado, fallos repetidos de comprensión."
+    },
+    {
+     "h2": "Transparencia con el cliente"
+    },
+    {
+     "p": "A los clientes les gusta saber con quién hablan. Según los contextos y las normas aplicables, puede ser necesario indicar que una parte del intercambio está asistida o tramitada por una IA. Infórmese sobre las obligaciones vigentes en los países donde opera y priorice la claridad."
+    },
+    {
+     "h2": "Supervisar y evaluar a ambos tipos de agentes"
+    },
+    {
+     "p": "Un agente de IA no es infalible, y un agente humano tampoco. En ambos casos hay que evaluar la calidad de las interacciones, detectar los errores recurrentes y corregirlos. Una evaluación en tiempo real de cada interacción permite reaccionar rápido y mantener una visión honesta del rendimiento."
+    },
+    {
+     "ul": [
+      "Escuchar o releer con regularidad intercambios de ambos tipos.",
+      "Fijar los mismos criterios de calidad para todos.",
+      "Establecer un circuito para comunicar los errores.",
+      "Formar a las personas para trabajar con las herramientas de asistencia."
+     ]
+    },
+    {
+     "h2": "Cuidar de los equipos"
+    },
+    {
+     "p": "La introducción de la IA puede generar inquietud entre los agentes. Explicarla con claridad, implicar a los equipos en la elección de los usos y mostrar cómo la herramienta alivia las tareas pesadas facilita la adopción. Para explorar cómo pueden coexistir humanos e IA en una misma tarea evaluada por resultados, el enfoque TAAS de HARX.ai ofrece un marco de reflexión."
+    }
+   ]
+  },
+  "ar": {
+   "title": "العمل مع الوكلاء البشريين ووكلاء الذكاء الاصطناعي",
+   "description": "كيف توزّع الأدوار بين الوكلاء البشريين ووكلاء الذكاء الاصطناعي في خدمة العملاء: التكامل والحدود وتسليم المحادثة والإشراف بطريقة عملية.",
+   "blocks": [
+    {
+     "h2": "التكامل بدل الاستبدال"
+    },
+    {
+     "p": "غالبًا ما يطرح دخول وكلاء الذكاء الاصطناعي إلى خدمة العملاء سؤال الاستبدال. والأجدى أن نسأل: ما الذي يجيده كل طرف أكثر من غيره؟ فيمكن لوكلاء الذكاء الاصطناعي أن يساعدوا في المهام المتكررة، وأن يسترجعوا المعلومات، ويقترحوا صياغات، ويعالجوا الطلبات البسيطة. أما الوكلاء البشريون فيقدمون الحكم السليم والتعاطف والقدرة على التعامل مع غير المتوقع."
+    },
+    {
+     "p": "ويختلف التوازن المناسب بحسب المهن والموضوعات، ويُبنى بملاحظة ما ينجح فعلًا لا بتطبيق قاعدة عامة."
+    },
+    {
+     "h2": "توزيع الأدوار بوضوح"
+    },
+    {
+     "ul": [
+      "يساعد الذكاء الاصطناعي الوكيل البشري أثناء المكالمة: تذكير بالمعلومات واقتراحات وتدوين ملاحظات.",
+      "يعالج الذكاء الاصطناعي وحده بعض الطلبات البسيطة المحددة بوضوح.",
+      "يتولى الإنسان المحادثة فور أن يصبح الموقف حساسًا أو ملتبسًا.",
+      "تُوثَّق الحالات الخاصة لتحسين قواعد توزيع المهام."
+     ]
+    },
+    {
+     "p": "ويتضمن عرض HARX للاتصالات الهاتفية مثلًا ذكاءً اصطناعيًا يساعد، وهو ما يجسد منطق الدعم لا الاستبدال. وفي نموذج TAAS من HARX.ai تضم شبكة المحترفين وكلاء معتمدين بشريين أو من الذكاء الاصطناعي، يُقيَّمون بالطريقة نفسها على أساس النتائج."
+    },
+    {
+     "h2": "العناية بتسليم المحادثة"
+    },
+    {
+     "p": "اللحظة التي تنتقل فيها المحادثة من الذكاء الاصطناعي إلى الإنسان حاسمة. فإذا اضطر العميل إلى إعادة شرح مشكلته ازداد استياؤه. والتحويل الجيد يحافظ على السياق: ما طُلب وما جرت تجربته وما ينتظره العميل."
+    },
+    {
+     "p": "ومن المفيد تحديد محفزات واضحة للانتقال إلى إنسان: طلب صريح من العميل، أو انفعال شديد، أو موضوع حساس، أو إخفاق متكرر في الفهم."
+    },
+    {
+     "h2": "الشفافية تجاه العميل"
+    },
+    {
+     "p": "يقدّر العملاء معرفة من يخاطبون. وبحسب السياق والقواعد المطبقة قد يلزم التنبيه إلى أن جزءًا من المحادثة يجري بمساعدة الذكاء الاصطناعي أو يعالجه كليًا. فاستعلم عن الالتزامات السارية في البلدان التي تعمل فيها، وفضّل الوضوح."
+    },
+    {
+     "h2": "الإشراف على النوعين وتقييمهما"
+    },
+    {
+     "p": "وكيل الذكاء الاصطناعي ليس معصومًا من الخطأ، والوكيل البشري كذلك. وفي الحالتين لا بد من تقييم جودة التفاعلات ورصد الأخطاء المتكررة وتصحيحها. ويتيح التقييم الفوري لكل تفاعل أن تتصرف بسرعة وأن تحتفظ بصورة أمينة عن الأداء."
+    },
+    {
+     "ul": [
+      "الاستماع بانتظام إلى محادثات النوعين أو إعادة قراءتها.",
+      "اعتماد معايير الجودة نفسها للجميع.",
+      "إنشاء قناة للإبلاغ عن الأخطاء.",
+      "تدريب الأشخاص على العمل مع أدوات المساعدة."
+     ]
+    },
+    {
+     "h2": "الاهتمام بالفرق"
+    },
+    {
+     "p": "قد يثير إدخال الذكاء الاصطناعي قلقًا لدى الوكلاء. ويسهّل تقبّله أن يُشرح بوضوح، وأن تُشرك الفرق في اختيار الاستخدامات، وأن يُبيَّن كيف تخفف الأداة المهام المرهقة. ولاستكشاف كيف يمكن أن يتعايش البشر والذكاء الاصطناعي في مهمة واحدة تُقيَّم بحسب النتائج، يوفر نهج TAAS من HARX.ai إطارًا للتفكير."
+    },
+    {
+     "h2": "البدء بخطوات صغيرة والتعلّم"
+    },
+    {
+     "p": "من الطرق الحكيمة للبدء أن تختار نوعًا واحدًا من الطلبات، وتحدد من يتولى ماذا، ثم تراقب لبعض الوقت. اجمع ملاحظات الوكلاء والعملاء، وانظر أين تعثّر تسليم المحادثة، وعدّل القواعد قبل توسيع النطاق."
+    },
+    {
+     "p": "واحتفظ بسجل مكتوب للقرارات المتخذة حتى يفهم أعضاء الفريق الجدد سبب توزيع العمل على هذا النحو. فالتوازن بين مساهمة البشر ومساهمة الذكاء الاصطناعي سيظل يتطور، وتوثيق الأسباب يسهّل مناقشة كل تغيير."
+    },
+    {
+     "p": "وتذكّر أن الهدف النهائي ليس استخدام التقنية لذاتها، بل تحسين تجربة العميل وتخفيف المهام الشاقة عن الفريق، فإذا لم تحقق إحدى الأدوات ذلك فمن المشروع إعادة النظر في استعمالها."
+    },
+    {
+     "p": "ويستحسن أيضًا أن تبدأ بتجربة محدودة تختبر فيها توزيع الأدوار على نوع واحد من الطلبات، ثم تراجع النتائج مع الفريق وتعدّل القواعد قبل التوسع، فالتجربة الصغيرة المدروسة أنفع بكثير من تغيير شامل مفاجئ."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-real-estate-agent",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Agent immobilier : ne laissez plus un acquéreur sans réponse",
+   "description": "Agent immobilier : gérez les appels d’acquéreurs pendant les visites avec un numéro dédié, via Nomad Solo ou Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Dans l’immobilier, la réactivité fait souvent la différence. Un acquéreur qui appelle à la suite d’une annonce attend une réponse rapide ; s’il n’en obtient pas, il consulte l’annonce suivante."
+    },
+    {
+     "h2": "Le problème téléphonique typique de l’agent immobilier"
+    },
+    {
+     "p": "L’agent passe sa journée entre visites, estimations et rendez-vous de signature. Il est rarement derrière un bureau, et son mobile sonne au pire moment : pendant une visite, devant un client, au volant. Les appels manqués s’accumulent, et ceux qui concernent une annonce récente sont les plus sensibles."
+    },
+    {
+     "ul": [
+      "Les appels suivant une annonce arrivent par vagues et ne se répètent pas : l’acquéreur ne rappellera pas toujours.",
+      "Le numéro personnel de l’agent est souvent diffusé sur des annonces, des panneaux et des cartes de visite, sans filtre.",
+      "Les informations échangées (budget, critères, disponibilités) se perdent faute d’avoir été notées sur le moment."
+     ]
+    },
+    {
+     "h2": "Comment une offre HARX Téléphonie adaptée répond"
+    },
+    {
+     "p": "Selon la structure, deux offres de HARX Téléphonie peuvent convenir. Un agent indépendant peut s’intéresser à Nomad Solo : numéro français, répondeur personnel et journal d’appels. Une petite agence peut étudier Accueil / Secrétariat, qui repose sur du personnel à distance ou un accueil délocalisé. Dans les deux cas : abonnement mensuel, minutes et IA prépayées."
+    },
+    {
+     "ul": [
+      "Un numéro dédié à diffuser sur les annonces, distinct du mobile personnel.",
+      "Un répondeur ou un accueil qui prend le relais pendant les visites.",
+      "Un journal d’appels pour rappeler les contacts dans l’ordre et ne rien oublier."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un agent immobilier"
+    },
+    {
+     "ul": [
+      "Indiquez dans le message d’accueil le meilleur moment pour vous rappeler et invitez l’appelant à laisser la référence du bien.",
+      "Utilisez le même numéro sur toutes les annonces pour centraliser les contacts.",
+      "Rappelez les nouveaux contacts le plus vite possible, avant de revenir aux anciens.",
+      "Notez à chaque appel le budget, le projet et les disponibilités de l’interlocuteur.",
+      "Ne communiquez jamais d’informations confidentielles sur un bien ou un propriétaire sans vérifier à qui vous parlez."
+     ]
+    },
+    {
+     "p": "Ces gestes simples ne remplacent pas le contact humain, mais ils garantissent que personne n’est laissé de côté entre deux visites."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Quelle offre choisir pour un agent immobilier indépendant ?",
+       "a": "Nomad Solo est pensée pour les freelances ; si vous souhaitez qu’un accueil réponde à votre place, Accueil / Secrétariat peut être étudiée."
+      },
+      {
+       "q": "Le numéro peut-il figurer sur mes annonces ?",
+       "a": "Oui, un numéro professionnel dédié peut être diffusé sur tous vos supports."
+      },
+      {
+       "q": "Que se passe-t-il si je suis en visite ?",
+       "a": "Le répondeur ou l’accueil prend l’appel, et le journal d’appels vous permet de rappeler ensuite."
+      }
+     ]
+    },
+    {
+     "p": "Pour rester joignable entre deux visites, découvrez les offres de HARX Téléphonie, de Nomad Solo à Accueil / Secrétariat."
+    }
+   ]
+  },
+  "en": {
+   "title": "Real Estate Agents: Never Leave a Buyer Without an Answer",
+   "description": "Real estate agents: handle buyer and owner calls during viewings with a dedicated number, Nomad Solo or Reception / Secretarial from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "In real estate, responsiveness often makes the difference. A buyer calling after seeing a listing expects a quick answer; without one, they move on to the next listing."
+    },
+    {
+     "h2": "The typical phone problem for a real estate agent"
+    },
+    {
+     "p": "The agent spends the day between viewings, valuations and signing appointments. They are rarely at a desk, and their mobile rings at the worst moment: during a viewing, in front of a client, behind the wheel. Missed calls pile up, and those about a recent listing are the most sensitive."
+    },
+    {
+     "ul": [
+      "Calls following a listing come in waves and do not repeat: the buyer will not always call back.",
+      "The agent’s personal number is often printed on listings, signs and business cards, with no filter.",
+      "Information exchanged (budget, criteria, availability) is lost for want of being noted on the spot."
+     ]
+    },
+    {
+     "h2": "How a suitable HARX Telephony offer helps"
+    },
+    {
+     "p": "Depending on the setup, two HARX Telephony offers may fit. An independent agent may look at Nomad Solo: French number, personal answering service and call log. A small agency may consider Reception / Secretarial, which relies on remote staff or offshored reception. In both cases: monthly subscription, prepaid minutes and AI."
+    },
+    {
+     "ul": [
+      "A dedicated number to publish on listings, separate from the personal mobile.",
+      "An answering service or reception that steps in during viewings.",
+      "A call log to call contacts back in order and forget nobody."
+     ]
+    },
+    {
+     "h2": "General good practice for real estate agents"
+    },
+    {
+     "ul": [
+      "State in the greeting the best time to call you back and invite callers to leave the property reference.",
+      "Use the same number on every listing to centralise contacts.",
+      "Call new contacts back as fast as possible, before returning to older ones.",
+      "Note the budget, project and availability of each caller.",
+      "Never share confidential information about a property or an owner without checking who you are speaking to."
+     ]
+    },
+    {
+     "p": "These simple steps do not replace human contact, but they ensure nobody is left aside between two viewings."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Which offer suits an independent real estate agent?",
+       "a": "Nomad Solo is designed for freelancers; if you want reception to answer on your behalf, Reception / Secretarial can be considered."
+      },
+      {
+       "q": "Can the number appear on my listings?",
+       "a": "Yes, a dedicated business number can be published on all your materials."
+      },
+      {
+       "q": "What happens if I am at a viewing?",
+       "a": "The answering service or reception takes the call, and the call log lets you call back afterwards."
+      }
+     ]
+    },
+    {
+     "p": "To stay reachable between viewings, discover the HARX Telephony offers, from Nomad Solo to Reception / Secretarial."
+    }
+   ]
+  },
+  "es": {
+   "title": "Agentes inmobiliarios: no deje a ningún comprador sin respuesta",
+   "description": "Agente inmobiliario: gestione llamadas de compradores durante las visitas con un número dedicado, con Nomad Solo o Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "En el sector inmobiliario, la rapidez de respuesta suele marcar la diferencia. Un comprador que llama tras ver un anuncio espera una respuesta rápida; si no la obtiene, pasa al siguiente anuncio."
+    },
+    {
+     "h2": "El problema telefónico típico del agente inmobiliario"
+    },
+    {
+     "p": "El agente pasa el día entre visitas, tasaciones y firmas. Rara vez está en una mesa, y su móvil suena en el peor momento: durante una visita, delante de un cliente, al volante. Las llamadas perdidas se acumulan, y las que se refieren a un anuncio reciente son las más delicadas."
+    },
+    {
+     "ul": [
+      "Las llamadas tras un anuncio llegan en oleadas y no se repiten: el comprador no siempre volverá a llamar.",
+      "El número personal del agente suele aparecer en anuncios, carteles y tarjetas, sin ningún filtro.",
+      "La información intercambiada (presupuesto, criterios, disponibilidad) se pierde por no anotarla en el momento."
+     ]
+    },
+    {
+     "h2": "Cómo ayuda una oferta adecuada de HARX Telefonía"
+    },
+    {
+     "p": "Según la estructura, pueden convenir dos ofertas de HARX Telefonía. Un agente independiente puede interesarse por Nomad Solo: número francés, contestador personal y registro de llamadas. Una agencia pequeña puede estudiar Recepción / Secretaría, basada en personal a distancia o recepción deslocalizada. En ambos casos: suscripción mensual, minutos e IA prepagados."
+    },
+    {
+     "ul": [
+      "Un número dedicado para publicar en los anuncios, distinto del móvil personal.",
+      "Un contestador o una recepción que toma el relevo durante las visitas.",
+      "Un registro de llamadas para devolverlas en orden y no olvidar a nadie."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para agentes inmobiliarios"
+    },
+    {
+     "ul": [
+      "Indique en el mensaje el mejor momento para devolverle la llamada e invite a dejar la referencia del inmueble.",
+      "Use el mismo número en todos los anuncios para centralizar los contactos.",
+      "Devuelva las llamadas de los contactos nuevos lo antes posible, antes de volver a los antiguos.",
+      "Anote en cada llamada el presupuesto, el proyecto y la disponibilidad de la persona.",
+      "No facilite nunca información confidencial sobre un inmueble o un propietario sin verificar con quién habla."
+     ]
+    },
+    {
+     "p": "Estos gestos sencillos no sustituyen el contacto humano, pero garantizan que nadie quede en el olvido entre dos visitas."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Qué oferta conviene a un agente inmobiliario independiente?",
+       "a": "Nomad Solo está pensada para freelances; si desea que una recepción conteste por usted, puede estudiarse Recepción / Secretaría."
+      },
+      {
+       "q": "¿Puede aparecer el número en mis anuncios?",
+       "a": "Sí, un número profesional dedicado puede publicarse en todos sus soportes."
+      },
+      {
+       "q": "¿Qué pasa si estoy en una visita?",
+       "a": "El contestador o la recepción atiende la llamada y el registro de llamadas le permite devolverla después."
+      }
+     ]
+    },
+    {
+     "p": "Para seguir localizable entre visitas, conozca las ofertas de HARX Telefonía, de Nomad Solo a Recepción / Secretaría."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الوسيط العقاري: لا تترك أي مشترٍ دون جواب",
+   "description": "الوسيط العقاري: أدِر مكالمات المشترين والملاك أثناء المعاينات برقم مخصص عبر Nomad Solo أو الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "في مجال العقارات، كثيرًا ما تصنع سرعة الاستجابة الفارق. فالمشتري الذي يتصل بعد رؤية إعلان ينتظر جوابًا سريعًا، وإن لم يجده انتقل إلى الإعلان التالي."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للوسيط العقاري"
+    },
+    {
+     "p": "يقضي الوسيط يومه بين المعاينات والتقديرات ومواعيد التوقيع. نادرًا ما يكون خلف مكتب، ويرنّ جواله في أسوأ لحظة: أثناء معاينة، أو أمام عميل، أو خلف المقود. وتتراكم المكالمات الفائتة، وأكثرها حساسية ما يتعلق بإعلان حديث."
+    },
+    {
+     "ul": [
+      "تأتي المكالمات التي تلي الإعلان على شكل موجات ولا تتكرر، فالمشتري لن يعاود الاتصال دائمًا.",
+      "كثيرًا ما يُطبع رقم الوسيط الشخصي على الإعلانات واللافتات وبطاقات العمل دون أي تصفية.",
+      "تضيع المعلومات المتبادلة (الميزانية والمعايير والمواعيد) لأنها لم تُدوَّن في حينها."
+     ]
+    },
+    {
+     "h2": "كيف يساعد عرض مناسب من HARX Téléphonie"
+    },
+    {
+     "p": "بحسب طبيعة النشاط، قد يناسب عرضان من HARX Téléphonie. فالوسيط المستقل قد يهتم بـ Nomad Solo: رقم فرنسي ورد شخصي وسجل مكالمات. والوكالة الصغيرة قد تدرس الاستقبال / السكرتارية القائم على موظفين عن بُعد أو استقبال مُنقول. وفي الحالتين: اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+    },
+    {
+     "ul": [
+      "رقم مخصص يُنشر على الإعلانات، منفصل عن الجوال الشخصي.",
+      "ردّ آلي أو استقبال يتولى الأمر أثناء المعاينات.",
+      "سجل مكالمات لمعاودة الاتصال بالترتيب وعدم نسيان أحد."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للوسطاء العقاريين"
+    },
+    {
+     "ul": [
+      "اذكروا في رسالة الترحيب أفضل وقت لمعاودة الاتصال بكم، وادعوا المتصل إلى ترك مرجع العقار.",
+      "استخدموا الرقم نفسه في كل الإعلانات لتجميع جهات الاتصال.",
+      "عاودوا الاتصال بالجدد بأسرع ما يمكن قبل العودة إلى القدامى.",
+      "دوّنوا في كل مكالمة ميزانية المتصل ومشروعه وأوقات توافره.",
+      "لا تقدّموا أبدًا معلومات سرية عن عقار أو مالك دون التحقق ممن تحدثونه."
+     ]
+    },
+    {
+     "p": "هذه الخطوات البسيطة لا تحلّ محل التواصل الإنساني، لكنها تضمن ألّا يُترك أحد جانبًا بين معاينتين."
+    },
+    {
+     "p": "ومن المفيد أن تخصصوا وقتًا قصيرًا نهاية كل يوم لمراجعة المكالمات الفائتة وترتيبها حسب الأهمية، فالرد المنظم يترك انطباعًا أفضل بكثير من الرد العشوائي المتأخر، ويساعدكم على ترتيب أولوياتكم قبل المعاينة التالية."
+    },
+    {
+     "p": "كما أن توحيد طريقة الرد على أسئلة المشترين المتكررة يوفّر وقتكم ويجعل صورتكم المهنية أكثر اتساقًا أمام الجميع."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "أي عرض يناسب وسيطًا عقاريًا مستقلًا؟",
+       "a": "عرض Nomad Solo مصمم للعاملين المستقلين، وإذا أردتم أن يردّ استقبال نيابة عنكم يمكن دراسة الاستقبال / السكرتارية."
+      },
+      {
+       "q": "هل يمكن أن يظهر الرقم في إعلاناتي؟",
+       "a": "نعم، يمكن نشر رقم مهني مخصص على كل وسائلكم."
+      },
+      {
+       "q": "ماذا يحدث إذا كنت في معاينة؟",
+       "a": "يتولى الرد الآلي أو الاستقبال المكالمة، ويتيح سجل المكالمات معاودة الاتصال لاحقًا."
+      }
+     ]
+    },
+    {
+     "p": "للبقاء متاحين بين المعاينات، تعرّفوا على عروض HARX Téléphonie، من Nomad Solo إلى الاستقبال / السكرتارية، واختاروا ما يلائم حجم وكالتكم وطريقة عملكم اليومية، سواء كنتم تعملون وحدكم أو ضمن فريق صغير يتقاسم المعاينات."
+    }
+   ]
+  }
+ }
+}

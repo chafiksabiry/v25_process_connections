@@ -1,0 +1,293 @@
+{
+ "type": "blog",
+ "slug": "blog-b-ethical-telemarketing-best-practices",
+ "date": "2026-10-29",
+ "langs": {
+  "fr": {
+   "title": "Téléprospection : les bonnes pratiques éthiques",
+   "description": "Prospecter par téléphone en respectant la personne appelée : transparence, consentement, écoute, horaires et respect des règles locales de démarchage.",
+   "blocks": [
+    {
+     "h2": "Prospecter sans harceler"
+    },
+    {
+     "p": "La téléprospection a mauvaise réputation, souvent à cause de pratiques insistantes, floues ou trompeuses. Pourtant, un appel bien préparé, honnête et respectueux peut rendre service à la personne jointe, en lui présentant une solution qui répond réellement à un besoin. Tout est dans la manière."
+    },
+    {
+     "p": "Une démarche éthique commence par une idée simple : la personne au bout du fil a le droit de dire non, et ce non doit être entendu immédiatement et sans pression."
+    },
+    {
+     "h2": "Connaître et respecter le cadre local"
+    },
+    {
+     "p": "Le démarchage téléphonique est encadré par des règles qui varient selon les pays et parfois selon les secteurs : listes d'opposition, consentement préalable, plages horaires autorisées, informations à donner au début de l'appel, conservation des données. Avant de lancer une campagne, informez-vous précisément auprès des sources officielles ou d'un conseiller juridique. Ce guide ne remplace pas cet avis."
+    },
+    {
+     "ul": [
+      "Vérifier si les contacts peuvent légalement être appelés.",
+      "Respecter les listes d'opposition et les demandes de retrait.",
+      "Appeler uniquement sur les plages horaires acceptables.",
+      "Conserver une trace des consentements et des refus."
+     ]
+    },
+    {
+     "h2": "Être transparent dès les premières secondes"
+    },
+    {
+     "p": "La personne doit savoir rapidement qui appelle, au nom de quelle entreprise et pour quelle raison. Une présentation claire inspire plus de confiance qu'une accroche détournée. Évitez les fausses urgences, les promesses exagérées et les formulations qui laissent croire à une relation préexistante qui n'existe pas."
+    },
+    {
+     "p": "Si l'appel est enregistré ou assisté par un outil, informez la personne conformément aux règles applicables."
+    },
+    {
+     "h2": "Écouter plus que parler"
+    },
+    {
+     "p": "Les meilleurs appels de prospection ressemblent à des conversations. Posez quelques questions, écoutez les réponses, adaptez votre propos. Si le produit ne correspond pas au besoin, avoir la franchise de le dire préserve l'image de l'entreprise et le temps de chacun."
+    },
+    {
+     "ul": [
+      "Demander si le moment est opportun avant de poursuivre.",
+      "Reformuler ce que la personne dit pour montrer qu'elle est comprise.",
+      "Proposer une suite sans l'imposer : envoi d'informations, rappel à un autre moment.",
+      "Remercier même en cas de refus."
+     ]
+    },
+    {
+     "h2": "Former et encadrer les équipes"
+    },
+    {
+     "p": "Les pratiques éthiques ne reposent pas seulement sur la bonne volonté de chacun. Il faut des scripts qui laissent de la place à la conversation, des consignes explicites sur ce qui est interdit, et un suivi de la qualité. Un système qui ne récompense que le volume d'appels ou les ventes pousse mécaniquement vers les excès."
+    },
+    {
+     "p": "C'est pourquoi l'évaluation de la manière dont un résultat est obtenu est essentielle. Dans le modèle TAAS de HARX.ai, chaque interaction est évaluée en temps réel, ce qui permet de ne pas juger uniquement sur l'issue, mais aussi sur la façon dont l'échange s'est déroulé."
+    },
+    {
+     "h2": "Un outil qui accompagne la bonne pratique"
+    },
+    {
+     "p": "Pour les équipes de ventes ou de relation client, l'offre Company Full Scope In & Out de HARX Téléphonie couvre les appels entrants et sortants, avec une IA qui assiste. Quel que soit l'outil, c'est la politique de l'entreprise qui fait la différence : respect de la personne, honnêteté et mesure."
+    }
+   ]
+  },
+  "en": {
+   "title": "Telemarketing: Ethical Best Practices",
+   "description": "Phone prospecting that respects the person called: transparency, consent, listening, call hours and respect for local rules on cold calling.",
+   "blocks": [
+    {
+     "h2": "Prospecting without harassing"
+    },
+    {
+     "p": "Telemarketing has a poor reputation, often because of pushy, vague or misleading practices. Yet a well-prepared, honest and respectful call can help the person reached by presenting a solution that really answers a need. It all lies in the way it is done."
+    },
+    {
+     "p": "An ethical approach starts with a simple idea: the person on the line has the right to say no, and that no must be heard immediately and without pressure."
+    },
+    {
+     "h2": "Knowing and respecting the local framework"
+    },
+    {
+     "p": "Telephone canvassing is regulated by rules that vary from country to country and sometimes by sector: opt-out lists, prior consent, permitted call hours, information to give at the start of the call, data retention. Before launching a campaign, find out precisely from official sources or a legal adviser. This guide does not replace that advice."
+    },
+    {
+     "ul": [
+      "Check whether contacts can lawfully be called.",
+      "Respect opt-out lists and removal requests.",
+      "Call only within acceptable hours.",
+      "Keep a record of consents and refusals."
+     ]
+    },
+    {
+     "h2": "Being transparent from the first seconds"
+    },
+    {
+     "p": "The person must quickly know who is calling, on behalf of which company and why. A clear introduction inspires more trust than a diverted opening line. Avoid false urgency, exaggerated promises and wording that suggests a prior relationship that does not exist."
+    },
+    {
+     "p": "If the call is recorded or assisted by a tool, inform the person in line with the applicable rules."
+    },
+    {
+     "h2": "Listening more than talking"
+    },
+    {
+     "p": "The best prospecting calls resemble conversations. Ask a few questions, listen to the answers, adapt your message. If the product does not match the need, having the honesty to say so protects the company's image and everyone's time."
+    },
+    {
+     "ul": [
+      "Ask whether the moment is convenient before continuing.",
+      "Rephrase what the person says to show they are understood.",
+      "Offer a next step without imposing it: sending information, calling back at another time.",
+      "Say thank you even when they decline."
+     ]
+    },
+    {
+     "h2": "Training and supervising teams"
+    },
+    {
+     "p": "Ethical practice does not rest only on everyone's goodwill. It needs scripts that leave room for conversation, explicit instructions about what is forbidden, and quality follow-up. A system that rewards only call volume or sales pushes mechanically towards excess."
+    },
+    {
+     "p": "That is why assessing how a result is obtained is essential. In the TAAS model from HARX.ai, each interaction is assessed in real time, so that judgement rests not only on the outcome but also on how the exchange unfolded."
+    },
+    {
+     "h2": "A tool that supports good practice"
+    },
+    {
+     "p": "Review call recordings, where permitted, with the team at regular intervals. Shared listening sessions are a gentle way to spot pressure tactics early, to celebrate respectful calls and to keep the standard of conduct alive in everyday work."
+    },
+    {
+     "p": "For sales or customer relations teams, the Company Full Scope In & Out offer from HARX Telephony covers inbound and outbound calls, with an AI that assists. Whatever the tool, it is the company's policy that makes the difference: respect for the person, honesty and moderation."
+    }
+   ]
+  },
+  "es": {
+   "title": "Televenta: buenas prácticas éticas",
+   "description": "Prospectar por teléfono respetando a la persona a la que se llama: transparencia, consentimiento, escucha, horarios y respeto de las normas locales.",
+   "blocks": [
+    {
+     "h2": "Prospectar sin acosar"
+    },
+    {
+     "p": "La prospección telefónica tiene mala fama, a menudo por prácticas insistentes, confusas o engañosas. Sin embargo, una llamada bien preparada, honesta y respetuosa puede ser útil a la persona contactada al presentarle una solución que responda de verdad a una necesidad. Todo está en la manera de hacerlo."
+    },
+    {
+     "p": "Un enfoque ético empieza por una idea sencilla: la persona al otro lado del teléfono tiene derecho a decir que no, y ese no debe oírse de inmediato y sin presión."
+    },
+    {
+     "h2": "Conocer y respetar el marco local"
+    },
+    {
+     "p": "La venta telefónica está regulada por normas que varían según el país y a veces según el sector: listas de exclusión, consentimiento previo, franjas horarias permitidas, información que debe darse al inicio de la llamada, conservación de datos. Antes de lanzar una campaña, infórmese con precisión en fuentes oficiales o con un asesor jurídico. Esta guía no sustituye ese consejo."
+    },
+    {
+     "ul": [
+      "Comprobar si los contactos pueden ser llamados legalmente.",
+      "Respetar las listas de exclusión y las solicitudes de baja.",
+      "Llamar solo en franjas horarias aceptables.",
+      "Conservar constancia de los consentimientos y las negativas."
+     ]
+    },
+    {
+     "h2": "Ser transparente desde los primeros segundos"
+    },
+    {
+     "p": "La persona debe saber enseguida quién llama, en nombre de qué empresa y por qué motivo. Una presentación clara inspira más confianza que un gancho disfrazado. Evite las falsas urgencias, las promesas exageradas y las fórmulas que sugieren una relación previa que no existe."
+    },
+    {
+     "p": "Si la llamada se graba o la asiste una herramienta, informe a la persona conforme a las normas aplicables."
+    },
+    {
+     "h2": "Escuchar más que hablar"
+    },
+    {
+     "p": "Las mejores llamadas de prospección se parecen a conversaciones. Haga algunas preguntas, escuche las respuestas, adapte su discurso. Si el producto no se ajusta a la necesidad, tener la franqueza de decirlo protege la imagen de la empresa y el tiempo de todos."
+    },
+    {
+     "ul": [
+      "Preguntar si es buen momento antes de continuar.",
+      "Reformular lo que dice la persona para mostrar que se la entiende.",
+      "Proponer un siguiente paso sin imponerlo: envío de información, nueva llamada en otro momento.",
+      "Dar las gracias incluso ante una negativa."
+     ]
+    },
+    {
+     "h2": "Formar y supervisar a los equipos"
+    },
+    {
+     "p": "Las prácticas éticas no descansan solo en la buena voluntad de cada uno. Hacen falta guiones que dejen espacio a la conversación, instrucciones explícitas sobre lo prohibido y un seguimiento de la calidad. Un sistema que solo premia el volumen de llamadas o las ventas empuja mecánicamente hacia los excesos."
+    },
+    {
+     "p": "Por eso es esencial evaluar cómo se obtiene un resultado. En el modelo TAAS de HARX.ai, cada interacción se evalúa en tiempo real, de modo que el juicio no se basa solo en el desenlace, sino también en cómo se desarrolló el intercambio."
+    },
+    {
+     "h2": "Una herramienta que acompaña la buena práctica"
+    },
+    {
+     "p": "Para equipos de ventas o de relación con el cliente, la oferta Company Full Scope In & Out de HARX Telefonía cubre las llamadas entrantes y salientes, con una IA que asiste. Sea cual sea la herramienta, lo que marca la diferencia es la política de la empresa: respeto a la persona, honestidad y mesura."
+    }
+   ]
+  },
+  "ar": {
+   "title": "التسويق الهاتفي: ممارسات أخلاقية موصى بها",
+   "description": "الاتصال الهاتفي بغرض البيع باحترام المتصل به: الشفافية والموافقة والإصغاء وأوقات الاتصال والالتزام بالقواعد المحلية المنظمة للتسويق المباشر.",
+   "blocks": [
+    {
+     "h2": "التسويق دون إزعاج"
+    },
+    {
+     "p": "للتسويق الهاتفي سمعة سيئة، وغالبًا بسبب ممارسات ملحّة أو غامضة أو مضللة. ومع ذلك فإن مكالمة جيدة الإعداد، صادقة ومحترمة، قد تفيد من اتُّصل به إذا عرضت عليه حلًا يلبي حاجة حقيقية. والأمر كله في الطريقة."
+    },
+    {
+     "p": "وينطلق النهج الأخلاقي من فكرة بسيطة: للشخص على الطرف الآخر الحق في أن يقول لا، ويجب أن تُسمع هذه الـ«لا» فورًا ودون ضغط."
+    },
+    {
+     "h2": "معرفة الإطار المحلي واحترامه"
+    },
+    {
+     "p": "يخضع الاتصال التسويقي لقواعد تختلف من بلد إلى آخر وأحيانًا من قطاع إلى آخر: قوائم الاعتراض، والموافقة المسبقة، وفترات الاتصال المسموحة، والمعلومات الواجب ذكرها في بداية المكالمة، وحفظ البيانات. وقبل إطلاق أي حملة استعلم بدقة من مصادر رسمية أو من مستشار قانوني. وهذا الدليل لا يغني عن ذلك."
+    },
+    {
+     "ul": [
+      "التحقق من جواز الاتصال بالأشخاص قانونيًا.",
+      "احترام قوائم الاعتراض وطلبات الحذف.",
+      "الاتصال في الأوقات المقبولة فقط.",
+      "الاحتفاظ بسجل للموافقات وحالات الرفض."
+     ]
+    },
+    {
+     "h2": "الشفافية منذ الثواني الأولى"
+    },
+    {
+     "p": "يجب أن يعرف الشخص بسرعة من يتصل به، ولحساب أي شركة، ولأي سبب. فالتعريف الواضح يبعث ثقة أكبر من افتتاحية ملتفّة. وتجنّب الاستعجال المزيّف والوعود المبالغ فيها والعبارات التي توحي بعلاقة سابقة غير موجودة."
+    },
+    {
+     "p": "وإذا كانت المكالمة مسجَّلة أو تستعين بأداة مساعدة، فأخبر الشخص بذلك وفق القواعد المعمول بها."
+    },
+    {
+     "h2": "الإصغاء أكثر من الكلام"
+    },
+    {
+     "p": "أفضل مكالمات التسويق تشبه المحادثات. اطرح بعض الأسئلة، واستمع إلى الأجوبة، وكيّف كلامك. وإذا لم يناسب المنتج الحاجة فإن الصراحة في قول ذلك تحفظ صورة الشركة ووقت الجميع."
+    },
+    {
+     "ul": [
+      "السؤال عمّا إذا كان الوقت مناسبًا قبل المتابعة.",
+      "إعادة صياغة ما يقوله الشخص ليشعر بأنه مفهوم.",
+      "اقتراح خطوة تالية دون فرضها: إرسال معلومات أو معاودة الاتصال في وقت آخر.",
+      "الشكر حتى عند الرفض."
+     ]
+    },
+    {
+     "h2": "تدريب الفرق والإشراف عليها"
+    },
+    {
+     "p": "لا تقوم الممارسات الأخلاقية على حسن نية كل فرد وحده، بل تحتاج إلى نصوص تترك مجالًا للحوار، وتعليمات صريحة بشأن المحظور، ومتابعة للجودة. فالنظام الذي يكافئ عدد المكالمات أو المبيعات وحدها يدفع ميكانيكيًا نحو التجاوز."
+    },
+    {
+     "p": "ولهذا فإن تقييم كيفية الوصول إلى النتيجة أمر جوهري. ففي نموذج TAAS من HARX.ai يُقيَّم كل تفاعل في الوقت الفعلي، فلا يقتصر الحكم على النتيجة النهائية بل يشمل كيفية سير المحادثة."
+    },
+    {
+     "h2": "أداة تدعم الممارسة الجيدة"
+    },
+    {
+     "p": "وبالنسبة إلى فرق المبيعات أو علاقات العملاء، يغطي عرض Company Full Scope In & Out من HARX للاتصالات الهاتفية المكالمات الواردة والصادرة مع ذكاء اصطناعي يساعد. ومهما كانت الأداة فإن سياسة الشركة هي الفارق: احترام الشخص والصدق والاعتدال."
+    },
+    {
+     "h2": "التعامل مع الرفض بلباقة"
+    },
+    {
+     "p": "يُعدّ الرفض جزءًا طبيعيًا من هذا العمل، ومن علامات المهنية أن يُقابَل بلباقة. فإذا قال الشخص إنه غير مهتم، فاشكره ودوّن رغبته في ألا يُتصل به مجددًا إن عبّر عنها، وأنهِ المكالمة دون محاولة أخيرة. فهذه الطريقة تحفظ سمعة الشركة وتحترم حق الشخص في الاختيار."
+    },
+    {
+     "p": "ومن المفيد كذلك أن يتدرب الفريق على سيناريوهات الرفض والانزعاج بلعب الأدوار، حتى يعتاد الوكلاء الرد بهدوء وعدم أخذ الأمر على محمل شخصي، فالوكيل المطمئن أقل ميلًا إلى الإلحاح."
+    },
+    {
+     "p": "وراجع تسجيلات المكالمات، حيث يكون ذلك مسموحًا، مع الفريق بانتظام. فجلسات الاستماع المشتركة وسيلة لطيفة لرصد أساليب الضغط مبكرًا وتثمين المكالمات المحترمة وإبقاء معيار السلوك حيًّا في العمل اليومي."
+    },
+    {
+     "p": "ويُستحسن أن تُراجَع نصوص المكالمات دوريًا مع الفريق، وأن تُحذف منها العبارات الضاغطة أو الملتبسة، وأن تُدرَّب الفرق على إنهاء المكالمة بلباقة حين يُبدي الشخص عدم رغبته، فهذه اللباقة تحمي سمعة العلامة التجارية على المدى الطويل."
+    }
+   ]
+  }
+ }
+}

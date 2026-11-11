@@ -1,0 +1,310 @@
+{
+ "type": "blog",
+ "slug": "blog-b-recruit-retain-remote-agents",
+ "date": "2026-10-20",
+ "langs": {
+  "fr": {
+   "title": "Recruter et fidéliser des agents à distance",
+   "description": "Comment attirer, évaluer et garder des agents de service client qui travaillent à distance : critères, intégration, suivi, reconnaissance et lien d'équipe.",
+   "blocks": [
+    {
+     "h2": "Ce que le travail à distance change au recrutement"
+    },
+    {
+     "p": "Recruter un agent qui travaillera depuis chez lui ne consiste pas à reproduire en ligne un entretien classique. Il faut vérifier des qualités supplémentaires : autonomie, organisation personnelle, aisance avec les outils numériques, capacité à demander de l'aide sans que la présence physique ne facilite la question."
+    },
+    {
+     "p": "Il faut aussi s'assurer de conditions matérielles minimales : une connexion fiable, un environnement suffisamment calme, un équipement adapté. Ce n'est pas un test d'ostentation, mais une condition de qualité pour le client qui appelle."
+    },
+    {
+     "h2": "Évaluer avant d'embaucher"
+    },
+    {
+     "p": "La meilleure évaluation est celle qui ressemble au vrai travail. Une mise en situation, un jeu de rôle ou un court essai sur un cas réel en disent plus qu'un long discours sur soi."
+    },
+    {
+     "ul": [
+      "Un exercice d'écoute et de reformulation à partir d'un cas client fictif.",
+      "Un échange dans la langue de travail pour apprécier clarté et aisance.",
+      "Une question sur la gestion d'une situation tendue.",
+      "Un test simple de prise en main d'un outil inconnu."
+     ]
+    },
+    {
+     "p": "Dans le réseau TAAS de HARX.ai, les agents sont des professionnels certifiés, humains ou IA, et chaque interaction est évaluée en temps réel. Cette logique d'évaluation continue peut inspirer vos propres pratiques de suivi."
+    },
+    {
+     "h2": "Soigner l'intégration"
+    },
+    {
+     "p": "Les premiers jours sont décisifs. Un agent à distance qui se sent seul face à un outil et à des consignes confuses risque de décrocher vite. Prévoir un parcours d'accueil clair, un référent identifié et des premiers objectifs réalistes change beaucoup de choses."
+    },
+    {
+     "ul": [
+      "Un guide d'accueil précis : outils, règles, personnes à contacter.",
+      "Un binôme ou un mentor pendant les premières semaines.",
+      "Des points réguliers pour répondre aux questions sans attendre."
+     ]
+    },
+    {
+     "h2": "Créer du lien malgré la distance"
+    },
+    {
+     "p": "La fidélisation repose beaucoup sur le sentiment d'appartenance. À distance, il se construit volontairement : réunions d'équipe courtes mais régulières, canaux d'échange informels, partage des réussites, retours individuels fréquents."
+    },
+    {
+     "p": "Les agents doivent aussi sentir que leur travail est vu et reconnu. Un retour précis après un échange bien mené vaut souvent mieux qu'un compliment général."
+    },
+    {
+     "h2": "Offrir des perspectives et de l'équité"
+    },
+    {
+     "p": "Les agents restent plus volontiers quand ils voient comment progresser : formation, nouvelles responsabilités, accès à des missions plus variées. La transparence sur les critères d'évaluation et sur la manière dont le travail est reconnu est tout aussi importante."
+    },
+    {
+     "h2": "Fixer des règles claires de collaboration"
+    },
+    {
+     "p": "Le travail à distance fonctionne mieux avec des règles explicites : horaires de disponibilité, canaux de communication, délais de réponse, façon de signaler un problème technique. Ces règles évitent les malentendus et protègent le temps de chacun."
+    },
+    {
+     "p": "Impliquez les agents dans leur définition : des règles co-construites sont mieux respectées que des règles imposées."
+    },
+    {
+     "p": "Enfin, surveillez les signes d'épuisement : isolement, baisse d'engagement, difficultés à se déconnecter. Un manager attentif et des horaires clairs protègent à la fois l'agent et la qualité du service. Pour les professionnels qui préfèrent choisir leurs missions, l'espace REPS de HARX.ai est conçu pour trouver des gigs."
+    }
+   ]
+  },
+  "en": {
+   "title": "Recruiting and Retaining Remote Agents",
+   "description": "How to attract, assess and keep customer service agents who work remotely: criteria, onboarding, follow-up, recognition and team connection.",
+   "blocks": [
+    {
+     "h2": "What remote work changes about recruitment"
+    },
+    {
+     "p": "Recruiting an agent who will work from home does not mean replicating a classic interview online. You need to check extra qualities: autonomy, personal organisation, ease with digital tools, the ability to ask for help without physical presence making it easier."
+    },
+    {
+     "p": "You also need to confirm minimum practical conditions: a reliable connection, a reasonably quiet environment, suitable equipment. This is not about show, but a quality condition for the customer who calls."
+    },
+    {
+     "h2": "Assessing before hiring"
+    },
+    {
+     "p": "The best assessment is the one that resembles the real work. A simulation, a role play or a short trial on a real case says more than a long speech about oneself."
+    },
+    {
+     "ul": [
+      "A listening and rephrasing exercise based on a fictional customer case.",
+      "A conversation in the working language to judge clarity and ease.",
+      "A question on handling a tense situation.",
+      "A simple test of getting to grips with an unfamiliar tool."
+     ]
+    },
+    {
+     "p": "In the TAAS network from HARX.ai, agents are certified professionals, human or AI, and every interaction is assessed in real time. This logic of continuous assessment can inspire your own follow-up practices."
+    },
+    {
+     "h2": "Taking care of onboarding"
+    },
+    {
+     "p": "The first days are decisive. A remote agent who feels alone with a tool and unclear instructions risks dropping out fast. A clear welcome path, a named contact and realistic first objectives change a great deal."
+    },
+    {
+     "ul": [
+      "A precise welcome guide: tools, rules, people to contact.",
+      "A buddy or mentor during the first weeks.",
+      "Regular check-ins to answer questions without delay."
+     ]
+    },
+    {
+     "h2": "Creating connection despite distance"
+    },
+    {
+     "p": "Retention depends a lot on a sense of belonging. At a distance, it has to be built deliberately: short but regular team meetings, informal channels for chat, sharing of successes, frequent individual feedback."
+    },
+    {
+     "p": "Agents also need to feel that their work is seen and recognised. Precise feedback after a well-handled exchange is often worth more than a general compliment."
+    },
+    {
+     "h2": "Offering prospects and fairness"
+    },
+    {
+     "p": "Agents stay more willingly when they can see how to progress: training, new responsibilities, access to more varied tasks. Transparency about assessment criteria and about how work is recognised is just as important."
+    },
+    {
+     "h2": "Setting clear rules of collaboration"
+    },
+    {
+     "p": "Remote work functions better with explicit rules: availability hours, communication channels, response times, the way to report a technical problem. These rules prevent misunderstandings and protect everyone's time."
+    },
+    {
+     "p": "Involve the agents in defining them: rules built together are better respected than imposed ones."
+    },
+    {
+     "p": "Make sure the rules apply equally to everyone, including managers. Fairness, visible in small daily decisions such as how shifts are allocated or how mistakes are discussed, matters a great deal to people who cannot simply read the mood of an office."
+    },
+    {
+     "p": "Finally, watch for signs of exhaustion: isolation, falling engagement, difficulty disconnecting. An attentive manager and clear hours protect both the agent and the quality of service. For professionals who prefer to choose their own tasks, the REPS space of HARX.ai is designed for finding gigs."
+    }
+   ]
+  },
+  "es": {
+   "title": "Reclutar y fidelizar a agentes a distancia",
+   "description": "Cómo atraer, evaluar y retener a agentes de atención al cliente que trabajan a distancia: criterios, incorporación, seguimiento, reconocimiento y vínculo de equipo.",
+   "blocks": [
+    {
+     "h2": "Qué cambia el trabajo a distancia en el reclutamiento"
+    },
+    {
+     "p": "Reclutar a un agente que trabajará desde casa no consiste en reproducir en línea una entrevista clásica. Hay que comprobar cualidades adicionales: autonomía, organización personal, soltura con las herramientas digitales y capacidad de pedir ayuda sin que la presencia física lo facilite."
+    },
+    {
+     "p": "También hay que asegurarse de unas condiciones materiales mínimas: una conexión fiable, un entorno razonablemente tranquilo y un equipo adecuado. No se trata de ostentación, sino de una condición de calidad para el cliente que llama."
+    },
+    {
+     "h2": "Evaluar antes de contratar"
+    },
+    {
+     "p": "La mejor evaluación es la que se parece al trabajo real. Una simulación, un juego de rol o una breve prueba sobre un caso real dicen más que un largo discurso sobre uno mismo."
+    },
+    {
+     "ul": [
+      "Un ejercicio de escucha y reformulación a partir de un caso ficticio de cliente.",
+      "Una conversación en el idioma de trabajo para valorar claridad y soltura.",
+      "Una pregunta sobre cómo gestionar una situación tensa.",
+      "Una prueba sencilla de manejo de una herramienta desconocida."
+     ]
+    },
+    {
+     "p": "En la red TAAS de HARX.ai, los agentes son profesionales certificados, humanos o de IA, y cada interacción se evalúa en tiempo real. Esta lógica de evaluación continua puede inspirar sus propias prácticas de seguimiento."
+    },
+    {
+     "h2": "Cuidar la incorporación"
+    },
+    {
+     "p": "Los primeros días son decisivos. Un agente a distancia que se siente solo ante una herramienta y unas instrucciones confusas corre el riesgo de abandonar pronto. Un itinerario de acogida claro, un referente identificado y unos primeros objetivos realistas cambian mucho las cosas."
+    },
+    {
+     "ul": [
+      "Una guía de bienvenida precisa: herramientas, reglas, personas de contacto.",
+      "Un compañero o mentor durante las primeras semanas.",
+      "Reuniones periódicas para resolver dudas sin esperar."
+     ]
+    },
+    {
+     "h2": "Crear vínculo a pesar de la distancia"
+    },
+    {
+     "p": "La fidelización depende mucho del sentimiento de pertenencia. A distancia hay que construirlo de forma deliberada: reuniones de equipo breves pero regulares, canales informales de conversación, celebración de los logros, comentarios individuales frecuentes."
+    },
+    {
+     "p": "Los agentes también deben sentir que su trabajo se ve y se reconoce. Un comentario preciso tras un intercambio bien llevado vale a menudo más que un elogio general."
+    },
+    {
+     "h2": "Ofrecer perspectivas y equidad"
+    },
+    {
+     "p": "Los agentes se quedan con más gusto cuando ven cómo progresar: formación, nuevas responsabilidades, acceso a tareas más variadas. La transparencia sobre los criterios de evaluación y sobre cómo se reconoce el trabajo es igual de importante."
+    },
+    {
+     "h2": "Fijar reglas claras de colaboración"
+    },
+    {
+     "p": "El trabajo a distancia funciona mejor con reglas explícitas: horarios de disponibilidad, canales de comunicación, plazos de respuesta, manera de comunicar un problema técnico. Estas reglas evitan malentendidos y protegen el tiempo de todos."
+    },
+    {
+     "p": "Implique a los agentes en su definición: las reglas elaboradas en común se respetan mejor que las impuestas."
+    },
+    {
+     "p": "Por último, esté atento a las señales de agotamiento: aislamiento, menor implicación, dificultad para desconectar. Un responsable atento y unos horarios claros protegen tanto al agente como a la calidad del servicio. Para los profesionales que prefieren elegir sus tareas, el espacio REPS de HARX.ai está pensado para encontrar gigs."
+    }
+   ]
+  },
+  "ar": {
+   "title": "استقطاب الوكلاء العاملين عن بُعد والحفاظ عليهم",
+   "description": "كيف تستقطب وكلاء خدمة العملاء العاملين عن بُعد وتقيّمهم وتحافظ عليهم: المعايير والاستقبال والمتابعة والتقدير وروح الفريق عبر المسافات.",
+   "blocks": [
+    {
+     "h2": "ما الذي يغيّره العمل عن بُعد في التوظيف"
+    },
+    {
+     "p": "توظيف وكيل سيعمل من منزله لا يعني نقل المقابلة التقليدية إلى الإنترنت كما هي. فيلزم التحقق من صفات إضافية: الاستقلالية والتنظيم الشخصي والإلمام بالأدوات الرقمية والقدرة على طلب المساعدة دون أن يسهّل الحضور الجسدي ذلك."
+    },
+    {
+     "p": "ويلزم كذلك التأكد من ظروف مادية دنيا: اتصال موثوق وبيئة هادئة نسبيًا ومعدات مناسبة. وليس المقصود المظهر، بل شرط جودة للعميل الذي يتصل."
+    },
+    {
+     "h2": "التقييم قبل التوظيف"
+    },
+    {
+     "p": "أفضل تقييم هو الأقرب إلى العمل الحقيقي. فمحاكاة موقف، أو لعب أدوار، أو تجربة قصيرة على حالة حقيقية تكشف أكثر مما يكشفه حديث طويل عن النفس."
+    },
+    {
+     "ul": [
+      "تمرين على الإصغاء وإعادة الصياغة انطلاقًا من حالة عميل افتراضية.",
+      "حوار بلغة العمل لتقدير الوضوح والطلاقة.",
+      "سؤال عن كيفية التعامل مع موقف متوتر.",
+      "اختبار بسيط لاكتشاف أداة غير مألوفة."
+     ]
+    },
+    {
+     "p": "وفي شبكة TAAS من HARX.ai، الوكلاء محترفون معتمدون، بشر أو ذكاء اصطناعي، ويُقيَّم كل تفاعل في الوقت الفعلي. ويمكن لمنطق التقييم المستمر هذا أن يُلهم ممارسات المتابعة لديك."
+    },
+    {
+     "h2": "العناية بالاستقبال والإدماج"
+    },
+    {
+     "p": "الأيام الأولى حاسمة. فالوكيل عن بُعد الذي يشعر بالوحدة أمام أداة وتعليمات غير واضحة قد ينسحب سريعًا. ويغيّر الكثير وجود مسار ترحيب واضح ومسؤول محدد يلجأ إليه وأهداف أولى واقعية."
+    },
+    {
+     "ul": [
+      "دليل ترحيب دقيق: الأدوات والقواعد والأشخاص الذين يمكن التواصل معهم.",
+      "زميل مرافق أو مرشد خلال الأسابيع الأولى.",
+      "لقاءات منتظمة للإجابة عن الأسئلة دون إبطاء."
+     ]
+    },
+    {
+     "h2": "بناء الروابط رغم المسافة"
+    },
+    {
+     "p": "يعتمد الحفاظ على الوكلاء كثيرًا على الشعور بالانتماء. وعن بُعد لا بد من بنائه عمدًا: اجتماعات فريق قصيرة لكنها منتظمة، وقنوات غير رسمية للتواصل، ومشاركة النجاحات، وملاحظات فردية متكررة."
+    },
+    {
+     "p": "ويحتاج الوكلاء أيضًا إلى الشعور بأن عملهم مرئي ومقدَّر. وملاحظة محددة بعد محادثة أُحسن إدارتها تساوي غالبًا أكثر من مجاملة عامة."
+    },
+    {
+     "h2": "تقديم آفاق وإنصاف"
+    },
+    {
+     "p": "يبقى الوكلاء برغبة أكبر حين يرون كيف يتقدمون: تدريب ومسؤوليات جديدة وإمكان الوصول إلى مهام أكثر تنوعًا. والشفافية في معايير التقييم وفي طريقة تقدير العمل لا تقل أهمية."
+    },
+    {
+     "h2": "وضع قواعد واضحة للتعاون"
+    },
+    {
+     "p": "يعمل العمل عن بُعد بصورة أفضل مع قواعد صريحة: ساعات التوافر، وقنوات التواصل، ومهل الردّ، وطريقة الإبلاغ عن مشكلة تقنية. وتمنع هذه القواعد سوء الفهم وتحمي وقت الجميع."
+    },
+    {
+     "p": "وأشرك الوكلاء في صياغتها، فالقواعد التي تُبنى معًا تُحترم أكثر من تلك المفروضة."
+    },
+    {
+     "p": "وتأكد من أن القواعد تسري على الجميع بالتساوي، ومنهم المديرون. فالإنصاف، الظاهر في القرارات اليومية الصغيرة كتوزيع المناوبات أو طريقة مناقشة الأخطاء، يهم كثيرًا من لا يستطيعون استشعار أجواء المكتب مباشرة."
+    },
+    {
+     "p": "ومن المفيد كذلك أن تُتاح للوكلاء قناة مباشرة لاقتراح التحسينات، وأن يُرَدّ على اقتراحاتهم، ولو بالرفض المعلَّل، فالشعور بالاستماع من أقوى أسباب البقاء."
+    },
+    {
+     "p": "وأخيرًا، لا تنسَ المناسبات الاجتماعية الخفيفة، كلقاء افتراضي غير رسمي من حين لآخر، فهي تقوّي الألفة بين أشخاص لا يلتقون وجهًا لوجه، وتجعل طلب المساعدة أيسر عند الحاجة."
+    },
+    {
+     "p": "ويُستحسن كذلك إجراء حوار فردي دوري مع كل وكيل، لا لتقييم أدائه فحسب، بل للاستماع إلى ما يواجهه من صعوبات وما يطمح إليه."
+    },
+    {
+     "p": "وأخيرًا راقب علامات الإرهاق: العزلة وتراجع الالتزام وصعوبة الانفصال عن العمل. فالمدير المنتبه والساعات الواضحة يحميان الوكيل وجودة الخدمة معًا. وللمحترفين الذين يفضلون اختيار مهامهم بأنفسهم، صُممت مساحة REPS في HARX.ai للعثور على الغيغ."
+    }
+   ]
+  }
+ }
+}

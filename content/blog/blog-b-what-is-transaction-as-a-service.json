@@ -1,0 +1,141 @@
+{
+  "type": "blog",
+  "slug": "blog-b-what-is-transaction-as-a-service",
+  "date": "2026-10-01",
+  "langs": {
+    "fr": {
+      "title": "Qu'est-ce que le Transaction-as-a-Service (TAAS) ?",
+      "description": "Le Transaction-as-a-Service fait payer un résultat approuvé plutôt qu'un temps de travail. Découvrez le principe, ses atouts et les cas où il convient.",
+      "blocks": [
+        {"h2": "Le principe en une phrase"},
+        {"p": "Le Transaction-as-a-Service, ou TAAS, est un modèle dans lequel l'entreprise décrit le résultat qu'elle attend d'une mission, fixe le prix de ce résultat, et ne paie que lorsque celui-ci est approuvé. Le raisonnement change : on n'achète plus des heures, des postes ou des licences, on achète une transaction menée à son terme."},
+        {"p": "Dans le service client, une transaction peut être un ticket résolu, un rendez-vous confirmé, une enquête complétée ou un dossier régularisé. Ce qui compte, c'est que le résultat soit décrit à l'avance, de manière suffisamment claire pour que chacun sache quand il est atteint."},
+        {"h2": "En quoi cela diffère de l'externalisation classique"},
+        {"p": "Dans un contrat traditionnel, le prestataire facture une capacité : un nombre d'agents, un volume d'heures, un forfait mensuel. Le risque de performance reste en grande partie chez le client, qui doit surveiller, former et corriger. Avec le TAAS, la logique de rémunération est alignée sur l'objectif réel de la mission."},
+        {"ul": [
+          "On définit un résultat observable plutôt qu'une durée de présence.",
+          "Le prix est connu avant le lancement de la mission.",
+          "Le paiement intervient après l'approbation du résultat.",
+          "Chaque interaction peut être évaluée pour garder une vision claire de la qualité."
+        ]},
+        {"h2": "Un réseau de professionnels, humains ou IA"},
+        {"p": "Pour que ce modèle fonctionne, il faut un vivier de personnes capables d'exécuter les missions. Chez HARX.ai, l'offre TAAS s'appuie sur un réseau de professionnels du service client : agents et représentants certifiés, qu'il s'agisse d'humains ou d'agents IA. Une mission s'appelle un « gig », et chaque interaction est évaluée en temps réel."},
+        {"p": "Deux espaces sont prévus : un espace COMPANY pour les entreprises qui définissent leurs missions, et un espace REPS pour les professionnels qui cherchent des gigs. La fonction « Publier un gig » côté entreprise est annoncée comme bientôt disponible ; elle n'est donc pas encore ouverte à tous."},
+        {"h2": "Quand le TAAS est-il pertinent ?"},
+        {"p": "Ce modèle convient surtout lorsque le résultat attendu est simple à décrire et à vérifier. Il est moins adapté aux situations où la valeur d'une mission est floue ou impossible à constater de manière objective."},
+        {"ul": [
+          "Des missions ponctuelles ou saisonnières dont le volume varie.",
+          "Des équipes qui veulent tester un canal sans engager de structure fixe.",
+          "Des entreprises qui souhaitent relier le coût au résultat obtenu.",
+          "Des projets où la qualité doit pouvoir être mesurée interaction par interaction."
+        ]},
+        {"h2": "Les points de vigilance"},
+        {"p": "Le TAAS ne dispense pas de rigueur. Un résultat mal défini produit des désaccords, qu'on paie par poste ou par transaction. Avant de lancer une mission, il faut préciser ce qui est approuvé, qui l'approuve, dans quel délai, et ce qui se passe en cas de désaccord."},
+        {"p": "Il faut aussi garder un regard humain sur l'expérience du client final. Un résultat atteint à tout prix peut dégrader la relation si la manière d'y parvenir n'est pas encadrée. C'est pourquoi l'évaluation de chaque interaction fait partie intégrante du modèle."},
+        {"h2": "Pour aller plus loin"},
+        {"p": "Si vous souhaitez comprendre comment une entreprise peut définir ses résultats et ses prix, ou comment un professionnel peut proposer ses services, l'offre TAAS de HARX.ai est le bon point de départ pour explorer ce fonctionnement."}
+      ]
+    },
+    "en": {
+      "title": "What Is Transaction-as-a-Service (TAAS)?",
+      "description": "Transaction-as-a-Service means paying for an approved result instead of working time. Learn how the model works, its strengths and when it fits.",
+      "blocks": [
+        {"h2": "The idea in one sentence"},
+        {"p": "Transaction-as-a-Service, or TAAS, is a model in which a company describes the result it expects from a task, sets the price of that result, and pays only once the result has been approved. The logic shifts: instead of buying hours, positions or licences, you buy a transaction carried through to completion."},
+        {"p": "In customer service, a transaction might be a resolved ticket, a confirmed appointment, a completed survey or a settled account. What matters is that the outcome is described in advance, clearly enough that everyone knows when it has been reached."},
+        {"h2": "How it differs from traditional outsourcing"},
+        {"p": "In a conventional contract, the provider bills for capacity: a number of agents, a volume of hours, a monthly package. Much of the performance risk stays with the client, who must supervise, train and correct. With TAAS, the way people are paid is aligned with the real goal of the task."},
+        {"ul": [
+          "You define an observable result rather than a length of presence.",
+          "The price is known before the task starts.",
+          "Payment follows the approval of the result.",
+          "Each interaction can be assessed so quality stays visible."
+        ]},
+        {"h2": "A network of professionals, human or AI"},
+        {"p": "For the model to work, you need a pool of people able to carry out the tasks. At HARX.ai, the TAAS offer relies on a network of customer service professionals: certified agents and representatives, whether human or AI. A task is called a gig, and every interaction is assessed in real time."},
+        {"p": "Two spaces are planned: a COMPANY space for businesses that define their tasks, and a REPS space for professionals looking for gigs. The company-side feature to publish a gig is announced as coming soon, so it is not yet open to everyone."},
+        {"h2": "When does TAAS make sense?"},
+        {"p": "The model suits cases where the expected result is easy to describe and verify. It is less appropriate where the value of a task is vague or cannot be observed objectively."},
+        {"ul": [
+          "One-off or seasonal tasks with fluctuating volume.",
+          "Teams that want to test a channel without committing to a fixed structure.",
+          "Companies that want to link cost to the result obtained.",
+          "Projects where quality must be measurable interaction by interaction."
+        ]},
+        {"h2": "Points to watch"},
+        {"p": "TAAS does not remove the need for rigour. A poorly defined result creates disagreements whether you pay per position or per transaction. Before launching a task, clarify what counts as approved, who approves it, within what time frame, and what happens if there is a dispute."},
+        {"p": "You also need to keep an eye on the end customer's experience. A result achieved at any cost can damage the relationship if the way it was reached is not framed. That is why assessing each interaction is built into the model."},
+        {"h2": "Going further"},
+        {"p": "If you want to understand how a company can define its results and prices, or how a professional can offer their services, the TAAS offer from HARX.ai is a good place to start exploring how it works."}
+      ]
+    },
+    "es": {
+      "title": "Qué es el Transaction-as-a-Service (TAAS)",
+      "description": "El Transaction-as-a-Service consiste en pagar por un resultado aprobado y no por tiempo de trabajo. Descubra el principio, sus ventajas y cuándo conviene.",
+      "blocks": [
+        {"h2": "La idea en una frase"},
+        {"p": "El Transaction-as-a-Service, o TAAS, es un modelo en el que la empresa describe el resultado que espera de una tarea, fija el precio de ese resultado y paga únicamente cuando se aprueba. La lógica cambia: ya no se compran horas, puestos o licencias, sino una transacción llevada hasta el final."},
+        {"p": "En atención al cliente, una transacción puede ser un ticket resuelto, una cita confirmada, una encuesta completada o una cuenta regularizada. Lo importante es que el resultado se describa de antemano con la claridad suficiente para que todos sepan cuándo se ha alcanzado."},
+        {"h2": "En qué se diferencia de la externalización clásica"},
+        {"p": "En un contrato tradicional, el proveedor factura una capacidad: un número de agentes, un volumen de horas, una cuota mensual. Gran parte del riesgo de rendimiento recae en el cliente, que debe supervisar, formar y corregir. Con el TAAS, la forma de remunerar se alinea con el objetivo real de la tarea."},
+        {"ul": [
+          "Se define un resultado observable en lugar de un tiempo de presencia.",
+          "El precio se conoce antes de empezar la tarea.",
+          "El pago llega tras la aprobación del resultado.",
+          "Cada interacción puede evaluarse para mantener la calidad a la vista."
+        ]},
+        {"h2": "Una red de profesionales, humanos o de IA"},
+        {"p": "Para que el modelo funcione hace falta un conjunto de personas capaces de ejecutar las tareas. En HARX.ai, la oferta TAAS se apoya en una red de profesionales de atención al cliente: agentes y representantes certificados, ya sean humanos o agentes de IA. Una tarea se llama gig, y cada interacción se evalúa en tiempo real."},
+        {"p": "Se prevén dos espacios: un espacio COMPANY para las empresas que definen sus tareas y un espacio REPS para los profesionales que buscan gigs. La función de publicar un gig desde el lado de la empresa figura como próximamente disponible, de modo que todavía no está abierta a todos."},
+        {"h2": "Cuándo tiene sentido el TAAS"},
+        {"p": "El modelo encaja cuando el resultado esperado es fácil de describir y de comprobar. Es menos adecuado cuando el valor de una tarea es difuso o no puede constatarse de forma objetiva."},
+        {"ul": [
+          "Tareas puntuales o estacionales con volumen variable.",
+          "Equipos que quieren probar un canal sin comprometer una estructura fija.",
+          "Empresas que desean vincular el coste con el resultado obtenido.",
+          "Proyectos en los que la calidad debe poder medirse interacción por interacción."
+        ]},
+        {"h2": "Puntos de atención"},
+        {"p": "El TAAS no exime de rigor. Un resultado mal definido genera desacuerdos, tanto si se paga por puesto como por transacción. Antes de lanzar una tarea conviene precisar qué se considera aprobado, quién lo aprueba, en qué plazo y qué ocurre si hay una discrepancia."},
+        {"p": "También hay que vigilar la experiencia del cliente final. Un resultado logrado a cualquier precio puede deteriorar la relación si no se encuadra la manera de conseguirlo. Por eso la evaluación de cada interacción forma parte del modelo."},
+        {"h2": "Para profundizar"},
+        {"p": "Si desea entender cómo una empresa puede definir sus resultados y sus precios, o cómo un profesional puede ofrecer sus servicios, la oferta TAAS de HARX.ai es un buen punto de partida para explorar su funcionamiento."}
+      ]
+    },
+    "ar": {
+      "title": "ما هي خدمة المعاملة (TAAS)؟ شرح مبسّط",
+      "description": "تقوم خدمة المعاملة على الدفع مقابل نتيجة معتمدة بدل الدفع مقابل وقت العمل. تعرّف على المبدأ ومزاياه والحالات التي يناسبها.",
+      "blocks": [
+        {"h2": "الفكرة في جملة واحدة"},
+        {"p": "خدمة المعاملة، أو TAAS، نموذج تصف فيه الشركة النتيجة التي تتوقعها من مهمة ما، وتحدد سعر هذه النتيجة، ولا تدفع إلا بعد اعتمادها. هنا يتغير المنطق: فبدل شراء ساعات أو وظائف أو تراخيص، تشتري معاملة أُنجزت حتى نهايتها."},
+        {"p": "في خدمة العملاء قد تكون المعاملة تذكرة جرى حلها، أو موعدًا تأكد، أو استبيانًا اكتمل، أو حسابًا تمت تسويته. والمهم أن تُوصف النتيجة مسبقًا بوضوح كافٍ يعرف معه الجميع متى تحققت."},
+        {"h2": "الفرق عن الاستعانة بمصادر خارجية التقليدية"},
+        {"p": "في العقد التقليدي يفوتر المزوّد طاقة عمل: عددًا من الوكلاء أو حجمًا من الساعات أو اشتراكًا شهريًا. ويبقى جزء كبير من مخاطر الأداء على العميل الذي عليه أن يراقب ويدرّب ويصحّح. أما في TAAS فيتوافق أسلوب الدفع مع الهدف الحقيقي من المهمة."},
+        {"ul": [
+          "تحديد نتيجة يمكن ملاحظتها بدل تحديد مدة حضور.",
+          "السعر معروف قبل بدء المهمة.",
+          "الدفع يأتي بعد اعتماد النتيجة.",
+          "يمكن تقييم كل تفاعل ليبقى مستوى الجودة واضحًا."
+        ]},
+        {"h2": "شبكة من المحترفين، بشريين أو من الذكاء الاصطناعي"},
+        {"p": "لكي ينجح النموذج لا بد من مجموعة أشخاص قادرين على تنفيذ المهام. في HARX.ai يعتمد عرض TAAS على شبكة من محترفي خدمة العملاء: وكلاء وممثلون معتمدون، سواء كانوا بشرًا أو وكلاء ذكاء اصطناعي. وتُسمّى المهمة «غيغ» (gig)، ويجري تقييم كل تفاعل في الوقت الفعلي."},
+        {"p": "هناك مساحتان مخططتان: مساحة COMPANY للشركات التي تحدد مهامها، ومساحة REPS للمحترفين الباحثين عن مهام. أما ميزة نشر مهمة من جانب الشركة فمُعلن أنها ستتوفر قريبًا، ولذلك فهي غير متاحة للجميع حتى الآن."},
+        {"h2": "متى يكون TAAS مناسبًا؟"},
+        {"p": "يناسب هذا النموذج الحالات التي يسهل فيها وصف النتيجة المتوقعة والتحقق منها. وهو أقل ملاءمة حين تكون قيمة المهمة غامضة أو يتعذر التثبت منها بموضوعية."},
+        {"ul": [
+          "مهام مؤقتة أو موسمية يتغير حجمها.",
+          "فرق ترغب في تجربة قناة دون الالتزام ببنية ثابتة.",
+          "شركات تريد ربط التكلفة بالنتيجة المحققة.",
+          "مشاريع يجب فيها قياس الجودة تفاعلًا بعد تفاعل."
+        ]},
+        {"h2": "نقاط تستدعي الانتباه"},
+        {"p": "لا يغني TAAS عن الصرامة. فالنتيجة المعرّفة تعريفًا ضعيفًا تولّد خلافات سواء دفعت لكل وظيفة أم لكل معاملة. قبل إطلاق أي مهمة، حدّد ما يُعدّ معتمدًا، ومن يعتمده، وخلال أي مدة، وماذا يحدث عند الخلاف."},
+        {"p": "ويجب كذلك مراعاة تجربة العميل النهائي. فنتيجة تتحقق بأي ثمن قد تضر بالعلاقة إذا لم تُضبط طريقة الوصول إليها. ولهذا يُعدّ تقييم كل تفاعل جزءًا أصيلًا من النموذج."},
+        {"p": "ومن المفيد أيضًا أن تتفق الأطراف منذ البداية على طريقة التعامل مع الحالات الحدّية، كأن يتعذر الوصول إلى العميل النهائي، أو تتغير المعطيات أثناء التنفيذ. فالوضوح في هذه التفاصيل الصغيرة هو ما يمنع تحوّل مبدأ بسيط إلى نزاع طويل، ويجعل العلاقة بين الشركة والمحترف قائمة على الثقة المتبادلة."},
+        {"p": "كما يُستحسن البدء بمهمة محدودة النطاق، ثم توسيع التجربة تدريجيًا بعد التأكد من أن معايير الاعتماد مفهومة لدى الجميع وأن التقييم يعكس فعلًا ما تريده الشركة من الخدمة."},
+        {"h2": "لمن أراد التوسع"},
+        {"p": "إذا أردت أن تفهم كيف تحدد الشركة نتائجها وأسعارها، أو كيف يعرض المحترف خدماته، فإن عرض TAAS من HARX.ai نقطة انطلاق جيدة لاستكشاف طريقة عمله."}
+      ]
+    }
+  }
+}
