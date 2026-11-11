@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "account-login-access-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Compte, connexion et accès : la FAQ HARX Téléphonie",
+      "description": "Créer son accès, se connecter, protéger son compte et savoir qui peut utiliser quoi : les réponses essentielles.",
+      "blocks": [
+        {
+          "h2": "Gérer son compte en toute sécurité"
+        },
+        {
+          "faq": [
+            {
+              "q": "Comment créer mon accès à HARX Téléphonie ?",
+              "a": "Depuis le site HARX, choisissez votre profil et suivez les étapes d'inscription. Vous accédez ensuite à votre espace une fois votre compte créé."
+            },
+            {
+              "q": "Dans quelle langue le site est-il disponible ?",
+              "a": "Le site existe en français, en anglais, en espagnol et en arabe. Vous pouvez changer de langue depuis l'en-tête des pages."
+            },
+            {
+              "q": "Comment me connecter ?",
+              "a": "Rendez-vous sur la page de connexion du site et saisissez vos identifiants. Vérifiez la langue et l'adresse de la page avant de renseigner vos informations."
+            },
+            {
+              "q": "Comment protéger mon compte ?",
+              "a": "Choisissez un mot de passe long et unique, ne le partagez avec personne et déconnectez-vous d'un appareil partagé. Ces gestes simples réduisent fortement les risques."
+            },
+            {
+              "q": "Que faire si j'oublie mes identifiants ?",
+              "a": "Utilisez la procédure de récupération proposée sur la page de connexion. Si elle ne suffit pas, adressez-vous à l'équipe HARX par les moyens indiqués sur le site."
+            },
+            {
+              "q": "Plusieurs personnes peuvent-elles utiliser le service ?",
+              "a": "Les offres pour équipes sont conçues pour plusieurs utilisateurs. Définissez qui a besoin de quel accès et évitez les identifiants partagés."
+            },
+            {
+              "q": "Comment repérer une tentative de fraude ?",
+              "a": "Méfiez-vous des messages qui demandent vos identifiants ou créent une urgence. Passez toujours par l'adresse officielle du site HARX pour vous connecter."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Account, Login and Access: The HARX Telephony FAQ",
+      "description": "Creating your access, signing in, protecting your account and knowing who can use what: the essential answers.",
+      "blocks": [
+        {
+          "h2": "Managing your account safely"
+        },
+        {
+          "faq": [
+            {
+              "q": "How do I create my HARX Telephony access?",
+              "a": "From the HARX website, choose your profile and follow the sign-up steps. You reach your workspace once your account is created."
+            },
+            {
+              "q": "Which languages is the site available in?",
+              "a": "The site exists in French, English, Spanish and Arabic. You can change language from the page header."
+            },
+            {
+              "q": "How do I sign in?",
+              "a": "Go to the site's sign-in page and enter your credentials. Check the language and the page address before entering your details."
+            },
+            {
+              "q": "How do I protect my account?",
+              "a": "Choose a long, unique password, share it with nobody and sign out of shared devices. These simple habits greatly reduce risk."
+            },
+            {
+              "q": "What if I forget my credentials?",
+              "a": "Use the recovery procedure offered on the sign-in page. If it is not enough, contact the HARX team through the channels shown on the site."
+            },
+            {
+              "q": "Can several people use the service?",
+              "a": "Team plans are designed for several users. Define who needs which access and avoid shared logins."
+            },
+            {
+              "q": "How can I spot a fraud attempt?",
+              "a": "Be wary of messages asking for your credentials or creating urgency. Always use the official HARX site address to sign in."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Cuenta, conexión y acceso: la FAQ de HARX Telefonía",
+      "description": "Crear su acceso, iniciar sesión, proteger su cuenta y saber quién puede usar qué: las respuestas esenciales.",
+      "blocks": [
+        {
+          "h2": "Gestionar su cuenta con seguridad"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Cómo creo mi acceso a HARX Telefonía?",
+              "a": "Desde el sitio de HARX, elija su perfil y siga los pasos de registro. Accederá a su espacio una vez creada la cuenta."
+            },
+            {
+              "q": "¿En qué idiomas está disponible el sitio?",
+              "a": "El sitio existe en francés, inglés, español y árabe. Puede cambiar de idioma desde el encabezado de las páginas."
+            },
+            {
+              "q": "¿Cómo inicio sesión?",
+              "a": "Vaya a la página de inicio de sesión del sitio e introduzca sus credenciales. Compruebe el idioma y la dirección de la página antes de escribir sus datos."
+            },
+            {
+              "q": "¿Cómo protejo mi cuenta?",
+              "a": "Elija una contraseña larga y única, no la comparta con nadie y cierre sesión en los dispositivos compartidos. Estos gestos sencillos reducen mucho los riesgos."
+            },
+            {
+              "q": "¿Y si olvido mis credenciales?",
+              "a": "Use el procedimiento de recuperación de la página de inicio de sesión. Si no basta, contacte con el equipo de HARX por los medios indicados en el sitio."
+            },
+            {
+              "q": "¿Pueden varias personas usar el servicio?",
+              "a": "Las ofertas para equipos están pensadas para varios usuarios. Defina quién necesita qué acceso y evite las credenciales compartidas."
+            },
+            {
+              "q": "¿Cómo detecto un intento de fraude?",
+              "a": "Desconfíe de mensajes que piden sus credenciales o crean urgencia. Entre siempre desde la dirección oficial del sitio de HARX."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "الحساب والدخول والوصول: أسئلة HARX للهاتف",
+      "description": "إنشاء حسابك وتسجيل الدخول وحمايته ومعرفة من يستخدم ماذا في HARX للهاتف: الإجابات الأساسية والعملية.",
+      "blocks": [
+        {
+          "h2": "إدارة حسابك بأمان"
+        },
+        {
+          "faq": [
+            {
+              "q": "كيف أنشئ حسابي في HARX للهاتف؟",
+              "a": "من موقع HARX اختر ملفك واتبع خطوات التسجيل، وتصل إلى مساحتك بعد إنشاء الحساب."
+            },
+            {
+              "q": "بأي لغات يتوفر الموقع؟",
+              "a": "يتوفر الموقع بالفرنسية والإنجليزية والإسبانية والعربية، ويمكنك تغيير اللغة من رأس الصفحات."
+            },
+            {
+              "q": "كيف أسجّل الدخول؟",
+              "a": "انتقل إلى صفحة تسجيل الدخول في الموقع وأدخل بياناتك، وتحقق من اللغة وعنوان الصفحة قبل إدخال معلوماتك."
+            },
+            {
+              "q": "كيف أحمي حسابي؟",
+              "a": "اختر كلمة مرور طويلة وفريدة ولا تشاركها مع أحد، وسجّل الخروج من الأجهزة المشتركة. هذه العادات البسيطة تقلل المخاطر كثيرًا."
+            },
+            {
+              "q": "ماذا لو نسيت بيانات الدخول؟",
+              "a": "استخدم إجراء الاستعادة المتاح في صفحة تسجيل الدخول، وإن لم يكفِ فتواصل مع فريق HARX عبر القنوات المذكورة في الموقع."
+            },
+            {
+              "q": "هل يمكن لعدة أشخاص استخدام الخدمة؟",
+              "a": "عروض الفرق مصممة لعدة مستخدمين. حدد من يحتاج إلى أي صلاحية وتجنب مشاركة بيانات الدخول."
+            },
+            {
+              "q": "كيف أكتشف محاولة احتيال؟",
+              "a": "احذر الرسائل التي تطلب بيانات دخولك أو تخلق شعورًا بالاستعجال، واستخدم دائمًا عنوان موقع HARX الرسمي لتسجيل الدخول."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

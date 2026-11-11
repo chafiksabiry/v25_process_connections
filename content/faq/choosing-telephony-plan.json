@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "choosing-telephony-plan",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Choisir son offre HARX Téléphonie parmi les quatre",
+      "description": "Nomad Solo, Accueil / Secrétariat, Company Full Scope In & Out ou Contact Centre : comment repérer l'offre adaptée à votre activité.",
+      "blocks": [
+        {
+          "h2": "Comment choisir sa formule"
+        },
+        {
+          "faq": [
+            {
+              "q": "Quelles sont les quatre offres de HARX Téléphonie ?",
+              "a": "Nomad Solo, Accueil / Secrétariat, Company Full Scope In & Out et Contact Centre Multi-clients. Chacune cible un type d'usage précis, du travailleur seul au centre d'appels."
+            },
+            {
+              "q": "Quelle offre pour un freelance ou un nomade ?",
+              "a": "Nomad Solo s'adresse aux freelances, aux nomades et aux personnes qui travaillent pour la France depuis l'étranger. Elle propose un numéro français, un répondeur personnel et un journal d'appels."
+            },
+            {
+              "q": "Quelle offre pour un cabinet ou une petite entreprise ?",
+              "a": "Accueil / Secrétariat vise les TPE de tous métiers, les cabinets médicaux et les courtiers d'assurance, avec du personnel à distance ou un accueil délocalisé."
+            },
+            {
+              "q": "Et pour une PME ou une équipe à distance ?",
+              "a": "Company Full Scope In & Out couvre les appels entrants comme sortants pour les ventes, la relation client, le recouvrement ou le recrutement."
+            },
+            {
+              "q": "Quelle offre pour un centre d'appels ?",
+              "a": "Contact Centre Multi-clients convient aux centres en Europe, aux États-Unis ou dans les pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal, avec des agents sur plateau ou à distance."
+            },
+            {
+              "q": "Comment trancher entre deux offres proches ?",
+              "a": "Listez vos besoins réels : qui répond, qui appelle, combien de personnes, pour combien de clients. L'offre qui couvre ces points sans fonctions superflues est généralement la bonne."
+            },
+            {
+              "q": "Puis-je changer d'offre plus tard ?",
+              "a": "Votre activité évolue, vos besoins aussi. Pour savoir comment faire évoluer votre formule, rapprochez-vous de l'équipe HARX avant de modifier votre organisation."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Choosing Your HARX Telephony Plan Among the Four",
+      "description": "Nomad Solo, Reception / Secretarial, Company Full Scope In & Out or Contact Centre: how to spot the plan that fits your activity.",
+      "blocks": [
+        {
+          "h2": "How to choose your plan"
+        },
+        {
+          "faq": [
+            {
+              "q": "What are the four HARX Telephony plans?",
+              "a": "Nomad Solo, Reception / Secretarial, Company Full Scope In & Out and Multi-client Contact Centre. Each targets a specific kind of use, from the solo worker to the call centre."
+            },
+            {
+              "q": "Which plan suits a freelancer or a nomad?",
+              "a": "Nomad Solo is for freelancers, nomads and people who work for France from abroad. It offers a French number, a personal voicemail and a call log."
+            },
+            {
+              "q": "Which plan suits a practice or a small business?",
+              "a": "Reception / Secretarial targets very small businesses of any trade, medical practices and insurance brokers, with remote staff or outsourced reception."
+            },
+            {
+              "q": "And for an SME or a remote team?",
+              "a": "Company Full Scope In & Out covers both inbound and outbound calls for sales, customer relations, collections or recruitment."
+            },
+            {
+              "q": "Which plan suits a call centre?",
+              "a": "Multi-client Contact Centre fits centres in Europe, the United States or outsourcing countries such as France, Morocco, Tunisia and Senegal, with agents on site or remote."
+            },
+            {
+              "q": "How do I decide between two similar plans?",
+              "a": "List your real needs: who answers, who calls, how many people, for how many clients. The plan that covers these points without unneeded features is usually the right one."
+            },
+            {
+              "q": "Can I change plans later?",
+              "a": "Your activity changes and so do your needs. To learn how to adjust your plan, talk to the HARX team before reorganising your setup."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Elegir su oferta de HARX Telefonía entre las cuatro",
+      "description": "Nomad Solo, Recepción / Secretaría, Company Full Scope In & Out o Contact Centre: cómo identificar la oferta que encaja con su actividad.",
+      "blocks": [
+        {
+          "h2": "Cómo elegir su plan"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Cuáles son las cuatro ofertas de HARX Telefonía?",
+              "a": "Nomad Solo, Recepción / Secretaría, Company Full Scope In & Out y Contact Centre Multicliente. Cada una apunta a un uso concreto, del trabajador autónomo al centro de llamadas."
+            },
+            {
+              "q": "¿Qué oferta conviene a un freelance o nómada?",
+              "a": "Nomad Solo se dirige a freelances, nómadas y personas que trabajan para Francia desde el extranjero. Ofrece un número francés, buzón de voz personal y registro de llamadas."
+            },
+            {
+              "q": "¿Qué oferta conviene a una consulta o pequeña empresa?",
+              "a": "Recepción / Secretaría apunta a microempresas de cualquier oficio, consultas médicas y corredores de seguros, con personal a distancia o recepción deslocalizada."
+            },
+            {
+              "q": "¿Y para una pyme o un equipo remoto?",
+              "a": "Company Full Scope In & Out cubre llamadas entrantes y salientes para ventas, atención al cliente, cobros o reclutamiento."
+            },
+            {
+              "q": "¿Qué oferta conviene a un centro de llamadas?",
+              "a": "Contact Centre Multicliente encaja con centros en Europa, Estados Unidos o países de externalización como Francia, Marruecos, Túnez y Senegal, con agentes en plataforma o a distancia."
+            },
+            {
+              "q": "¿Cómo decidir entre dos ofertas parecidas?",
+              "a": "Enumere sus necesidades reales: quién atiende, quién llama, cuántas personas y para cuántos clientes. La oferta que las cubra sin funciones superfluas suele ser la correcta."
+            },
+            {
+              "q": "¿Puedo cambiar de oferta más adelante?",
+              "a": "Su actividad cambia y sus necesidades también. Para saber cómo ajustar su plan, hable con el equipo de HARX antes de reorganizar su configuración."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "اختيار عرض HARX للهاتف من بين العروض الأربعة",
+      "description": "Nomad Solo أو الاستقبال والسكرتارية أو Company Full Scope In & Out أو مركز الاتصال: كيف تحدد العرض الأنسب لنشاطك.",
+      "blocks": [
+        {
+          "h2": "كيف تختار عرضك"
+        },
+        {
+          "faq": [
+            {
+              "q": "ما هي العروض الأربعة في HARX للهاتف؟",
+              "a": "هي Nomad Solo والاستقبال / السكرتارية وCompany Full Scope In & Out ومركز الاتصال متعدد العملاء. يستهدف كل عرض استخدامًا محددًا، من العامل المنفرد إلى مركز الاتصال."
+            },
+            {
+              "q": "أي عرض يناسب المستقل أو المتنقل؟",
+              "a": "يتوجه Nomad Solo إلى المستقلين والمتنقلين ومن يعملون لصالح فرنسا من الخارج، ويتضمن رقمًا فرنسيًا وبريدًا صوتيًا شخصيًا وسجل مكالمات."
+            },
+            {
+              "q": "أي عرض يناسب عيادة أو شركة صغيرة؟",
+              "a": "يستهدف عرض الاستقبال / السكرتارية الشركات الصغيرة جدًا من كل المهن والعيادات الطبية ووسطاء التأمين، مع موظفين عن بُعد أو استقبال مُسنَد إلى جهة خارجية."
+            },
+            {
+              "q": "وماذا عن الشركة المتوسطة أو الفريق عن بُعد؟",
+              "a": "يغطي عرض Company Full Scope In & Out المكالمات الواردة والصادرة معًا في المبيعات وعلاقة العملاء والتحصيل والتوظيف."
+            },
+            {
+              "q": "أي عرض يناسب مركز اتصال؟",
+              "a": "يناسب عرض مركز الاتصال متعدد العملاء مراكز أوروبا والولايات المتحدة ودول الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال، بوكلاء في المقر أو عن بُعد."
+            },
+            {
+              "q": "كيف أختار بين عرضين متقاربين؟",
+              "a": "دوّن احتياجاتك الفعلية: من يرد، ومن يتصل، وكم عدد الأشخاص، ولكم عميل. العرض الذي يغطي هذه النقاط دون ميزات زائدة هو غالبًا الأنسب."
+            },
+            {
+              "q": "هل يمكنني تغيير العرض لاحقًا؟",
+              "a": "نشاطك يتطور واحتياجاتك أيضًا. لمعرفة كيفية تعديل عرضك تواصل مع فريق HARX قبل إعادة تنظيم عملك."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

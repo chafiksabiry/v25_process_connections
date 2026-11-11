@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "inbound-calls-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Appels entrants avec HARX Téléphonie : vos questions",
+      "description": "Recevoir les appels de vos clients sans perdre une opportunité : comment fonctionnent les appels entrants avec HARX Téléphonie.",
+      "blocks": [
+        {
+          "h2": "Bien gérer les appels entrants"
+        },
+        {
+          "faq": [
+            {
+              "q": "Comment fonctionnent les appels entrants ?",
+              "a": "Un correspondant compose votre numéro et l'appel est reçu dans votre espace HARX Téléphonie, où vous pouvez décrocher. S'il n'y a pas de réponse, le répondeur prend le relais."
+            },
+            {
+              "q": "Qui peut répondre aux appels ?",
+              "a": "Cela dépend de l'offre : vous seul avec Nomad Solo, du personnel à distance ou un accueil délocalisé avec Accueil / Secrétariat, ou des équipes avec les offres Company et Contact Centre."
+            },
+            {
+              "q": "Que faire quand je ne suis pas disponible ?",
+              "a": "Le répondeur enregistre le message de l'appelant. Consultez-le dès que possible et rappelez, en vous appuyant sur le journal d'appels."
+            },
+            {
+              "q": "Comment bien accueillir un appelant ?",
+              "a": "Annoncez le nom de l'entreprise, saluez, puis laissez la personne exposer sa demande. Une phrase courte et chaleureuse met à l'aise dès les premières secondes."
+            },
+            {
+              "q": "Comment ne manquer aucun appel important ?",
+              "a": "Fixez des plages de disponibilité claires, gardez votre espace ouvert pendant ces horaires et relisez le journal d'appels à chaque fin de journée."
+            },
+            {
+              "q": "L'IA peut-elle m'aider pendant un appel entrant ?",
+              "a": "HARX Téléphonie propose une IA qui assiste pendant les appels. Elle accompagne la personne qui répond, sans remplacer son jugement ni sa relation avec l'appelant."
+            },
+            {
+              "q": "Comment organiser les appels d'une équipe ?",
+              "a": "Définissez qui répond à quoi et à quel moment, puis notez les rappels à effectuer. Les offres Company de HARX Téléphonie visent justement ces équipes."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Inbound Calls With HARX Telephony: Your Questions",
+      "description": "Receive customer calls without losing an opportunity: how inbound calls work with HARX Telephony and how to handle them well.",
+      "blocks": [
+        {
+          "h2": "Handling inbound calls well"
+        },
+        {
+          "faq": [
+            {
+              "q": "How do inbound calls work?",
+              "a": "A caller dials your number and the call arrives in your HARX Telephony workspace, where you can pick up. If nobody answers, voicemail takes over."
+            },
+            {
+              "q": "Who can answer the calls?",
+              "a": "It depends on the plan: you alone with Nomad Solo, remote staff or outsourced reception with Reception / Secretarial, or teams with the Company and Contact Centre plans."
+            },
+            {
+              "q": "What should I do when I am unavailable?",
+              "a": "Voicemail records the caller's message. Check it as soon as possible and call back, using the call log as a guide."
+            },
+            {
+              "q": "How do I welcome a caller well?",
+              "a": "State the company name, greet the person, then let them explain their request. A short, warm sentence puts people at ease from the first seconds."
+            },
+            {
+              "q": "How do I avoid missing important calls?",
+              "a": "Set clear availability slots, keep your workspace open during those hours and review the call log at the end of each day."
+            },
+            {
+              "q": "Can the AI help me during an inbound call?",
+              "a": "HARX Telephony offers an AI that assists during calls. It supports the person answering, without replacing their judgement or their relationship with the caller."
+            },
+            {
+              "q": "How do I organise calls for a team?",
+              "a": "Decide who answers what and when, then note the callbacks to make. The Company plans in HARX Telephony are aimed at exactly these teams."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Llamadas entrantes con HARX Telefonía: sus preguntas",
+      "description": "Recibir las llamadas de sus clientes sin perder oportunidades: cómo funcionan las llamadas entrantes con HARX Telefonía.",
+      "blocks": [
+        {
+          "h2": "Gestionar bien las llamadas entrantes"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Cómo funcionan las llamadas entrantes?",
+              "a": "Un interlocutor marca su número y la llamada llega a su espacio de HARX Telefonía, donde puede contestar. Si nadie responde, toma el relevo el buzón de voz."
+            },
+            {
+              "q": "¿Quién puede atender las llamadas?",
+              "a": "Depende de la oferta: usted solo con Nomad Solo, personal a distancia o recepción deslocalizada con Recepción / Secretaría, o equipos con las ofertas Company y Contact Centre."
+            },
+            {
+              "q": "¿Qué hago cuando no estoy disponible?",
+              "a": "El buzón de voz graba el mensaje de quien llama. Consúltelo cuanto antes y devuelva la llamada guiándose por el registro de llamadas."
+            },
+            {
+              "q": "¿Cómo recibir bien a quien llama?",
+              "a": "Diga el nombre de la empresa, salude y deje que la persona exponga su petición. Una frase corta y cordial tranquiliza desde los primeros segundos."
+            },
+            {
+              "q": "¿Cómo no perder llamadas importantes?",
+              "a": "Fije franjas de disponibilidad claras, mantenga su espacio abierto en esos horarios y revise el registro de llamadas al final de cada jornada."
+            },
+            {
+              "q": "¿Puede ayudarme la IA durante una llamada entrante?",
+              "a": "HARX Telefonía incluye una IA que asiste durante las llamadas. Acompaña a quien atiende, sin reemplazar su criterio ni su relación con quien llama."
+            },
+            {
+              "q": "¿Cómo organizo las llamadas de un equipo?",
+              "a": "Defina quién atiende qué y cuándo, y anote las devoluciones de llamada pendientes. Las ofertas Company de HARX Telefonía se dirigen precisamente a estos equipos."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "المكالمات الواردة مع HARX للهاتف: أسئلتكم",
+      "description": "استقبال مكالمات العملاء دون ضياع أي فرصة: كيف تعمل المكالمات الواردة مع HARX للهاتف وكيف تديرها جيدًا.",
+      "blocks": [
+        {
+          "h2": "إدارة المكالمات الواردة بشكل جيد"
+        },
+        {
+          "faq": [
+            {
+              "q": "كيف تعمل المكالمات الواردة؟",
+              "a": "يتصل المتصل برقمك فتصل المكالمة إلى مساحتك في HARX للهاتف حيث يمكنك الرد. وإذا لم يرد أحد يتولى البريد الصوتي الأمر."
+            },
+            {
+              "q": "من يمكنه الرد على المكالمات؟",
+              "a": "يعتمد ذلك على العرض: أنت وحدك مع Nomad Solo، أو موظفون عن بُعد أو استقبال مُسنَد مع الاستقبال / السكرتارية، أو فرق مع عروض الشركات ومركز الاتصال."
+            },
+            {
+              "q": "ماذا أفعل عندما لا أكون متاحًا؟",
+              "a": "يسجل البريد الصوتي رسالة المتصل. اطّلع عليها في أقرب وقت وعاود الاتصال مستعينًا بسجل المكالمات."
+            },
+            {
+              "q": "كيف أستقبل المتصل بشكل جيد؟",
+              "a": "اذكر اسم الشركة وحيِّ المتصل ثم دعه يعرض طلبه. جملة قصيرة ودودة تريح المتصل منذ الثواني الأولى."
+            },
+            {
+              "q": "كيف أتجنب تفويت المكالمات المهمة؟",
+              "a": "حدد فترات توافر واضحة، وأبقِ مساحتك مفتوحة خلالها، وراجع سجل المكالمات في نهاية كل يوم."
+            },
+            {
+              "q": "هل يستطيع الذكاء الاصطناعي مساعدتي أثناء مكالمة واردة؟",
+              "a": "توفر HARX للهاتف ذكاءً اصطناعيًا يساعد أثناء المكالمات، فيدعم من يرد دون أن يحل محل تقديره أو علاقته بالمتصل."
+            },
+            {
+              "q": "كيف أنظم مكالمات فريق؟",
+              "a": "حدد من يرد على ماذا ومتى، ودوّن المكالمات التي يجب معاودتها. وعروض الشركات في HARX للهاتف موجهة لهذه الفرق تحديدًا."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

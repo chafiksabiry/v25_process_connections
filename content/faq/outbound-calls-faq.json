@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "outbound-calls-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Appels sortants : questions fréquentes sur HARX Téléphonie",
+      "description": "Prospecter, relancer ou rappeler avec un numéro de votre pays : les réponses sur les appels sortants et leurs bonnes pratiques.",
+      "blocks": [
+        {
+          "h2": "Passer des appels sortants efficaces"
+        },
+        {
+          "faq": [
+            {
+              "q": "Peut-on passer des appels sortants avec HARX Téléphonie ?",
+              "a": "Oui. Vous appelez depuis votre espace, avec le numéro de votre pays, pour contacter clients, prospects ou candidats selon votre activité."
+            },
+            {
+              "q": "Pour quels usages les appels sortants servent-ils ?",
+              "a": "Ventes, relation client, recouvrement et recrutement sont les usages visés par l'offre Company Full Scope In & Out. Vous pouvez aussi simplement rappeler un correspondant."
+            },
+            {
+              "q": "Pourquoi appeler avec un numéro local ?",
+              "a": "Une personne décroche plus volontiers un numéro qui lui semble national. Il est aussi plus simple à rappeler pour elle."
+            },
+            {
+              "q": "Comment préparer une série d'appels ?",
+              "a": "Listez vos contacts par priorité, notez l'objectif de chaque appel et préparez deux ou trois phrases clés. Cette préparation limite les hésitations et fait gagner du temps."
+            },
+            {
+              "q": "Quels horaires respecter ?",
+              "a": "Appelez à des heures raisonnables pour votre interlocuteur, en tenant compte de son fuseau horaire. Une prise de contact respectueuse améliore l'accueil réservé à votre appel."
+            },
+            {
+              "q": "Faut-il respecter des règles de démarchage ?",
+              "a": "Oui, la prospection téléphonique est encadrée dans de nombreux pays. Renseignez-vous sur les règles applicables à votre activité et à vos destinataires avant d'appeler."
+            },
+            {
+              "q": "Comment suivre mes appels passés ?",
+              "a": "Le journal d'appels garde la trace de vos échanges. Revoyez-le chaque jour pour planifier les relances, que HARX Téléphonie vous aide à organiser."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Outbound Calls: HARX Telephony Frequently Asked Questions",
+      "description": "Prospect, follow up or call back with a number from your country: answers on outbound calls and the habits that make them work.",
+      "blocks": [
+        {
+          "h2": "Making effective outbound calls"
+        },
+        {
+          "faq": [
+            {
+              "q": "Can I make outbound calls with HARX Telephony?",
+              "a": "Yes. You call from your workspace, using your country's number, to reach customers, prospects or candidates depending on your activity."
+            },
+            {
+              "q": "What are outbound calls used for?",
+              "a": "Sales, customer relations, collections and recruitment are the uses targeted by the Company Full Scope In & Out plan. You can also simply call someone back."
+            },
+            {
+              "q": "Why call with a local number?",
+              "a": "People answer a number that looks domestic more readily. It is also easier for them to call back."
+            },
+            {
+              "q": "How do I prepare a series of calls?",
+              "a": "List your contacts by priority, note the goal of each call and prepare two or three key sentences. Preparation reduces hesitation and saves time."
+            },
+            {
+              "q": "What hours should I respect?",
+              "a": "Call at reasonable hours for the other person, taking their time zone into account. A respectful approach improves how your call is received."
+            },
+            {
+              "q": "Do cold-calling rules apply?",
+              "a": "Yes, telephone prospecting is regulated in many countries. Check the rules that apply to your activity and your recipients before calling."
+            },
+            {
+              "q": "How do I track the calls I made?",
+              "a": "The call log keeps a record of your exchanges. Review it daily to plan follow-ups, which HARX Telephony helps you organise."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Llamadas salientes: preguntas frecuentes de HARX Telefonía",
+      "description": "Prospectar, hacer seguimiento o devolver llamadas con un número de su país: respuestas sobre las llamadas salientes y sus buenas prácticas.",
+      "blocks": [
+        {
+          "h2": "Hacer llamadas salientes eficaces"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Se pueden hacer llamadas salientes con HARX Telefonía?",
+              "a": "Sí. Llama desde su espacio con el número de su país para contactar con clientes, prospectos o candidatos según su actividad."
+            },
+            {
+              "q": "¿Para qué se usan las llamadas salientes?",
+              "a": "Ventas, atención al cliente, cobros y reclutamiento son los usos que contempla la oferta Company Full Scope In & Out. También puede simplemente devolver una llamada."
+            },
+            {
+              "q": "¿Por qué llamar con un número local?",
+              "a": "Una persona contesta con más gusto a un número que parece nacional, y también le resulta más fácil devolver la llamada."
+            },
+            {
+              "q": "¿Cómo preparo una serie de llamadas?",
+              "a": "Ordene sus contactos por prioridad, anote el objetivo de cada llamada y prepare dos o tres frases clave. La preparación reduce dudas y ahorra tiempo."
+            },
+            {
+              "q": "¿Qué horarios debo respetar?",
+              "a": "Llame a horas razonables para su interlocutor, teniendo en cuenta su huso horario. Un contacto respetuoso mejora la acogida de su llamada."
+            },
+            {
+              "q": "¿Hay normas sobre la prospección telefónica?",
+              "a": "Sí, la prospección telefónica está regulada en muchos países. Infórmese de las normas aplicables a su actividad y a sus destinatarios antes de llamar."
+            },
+            {
+              "q": "¿Cómo hago seguimiento de mis llamadas?",
+              "a": "El registro de llamadas conserva el rastro de sus intercambios. Revíselo a diario para planificar los seguimientos, que HARX Telefonía le ayuda a organizar."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "المكالمات الصادرة: أسئلة شائعة حول HARX للهاتف",
+      "description": "التسويق الهاتفي والمتابعة ومعاودة الاتصال برقم من بلدك: إجابات عن المكالمات الصادرة وأفضل ممارساتها.",
+      "blocks": [
+        {
+          "h2": "إجراء مكالمات صادرة فعّالة"
+        },
+        {
+          "faq": [
+            {
+              "q": "هل يمكن إجراء مكالمات صادرة عبر HARX للهاتف؟",
+              "a": "نعم، تتصل من مساحتك برقم بلدك للتواصل مع العملاء أو العملاء المحتملين أو المرشحين بحسب نشاطك."
+            },
+            {
+              "q": "فيمَ تُستخدم المكالمات الصادرة؟",
+              "a": "المبيعات وعلاقة العملاء والتحصيل والتوظيف هي الاستخدامات التي يستهدفها عرض Company Full Scope In & Out، ويمكنك أيضًا معاودة الاتصال بشخص ما ببساطة."
+            },
+            {
+              "q": "لماذا الاتصال برقم محلي؟",
+              "a": "يرد الناس بسهولة أكبر على رقم يبدو محليًا، كما يسهل عليهم معاودة الاتصال به."
+            },
+            {
+              "q": "كيف أحضّر سلسلة من المكالمات؟",
+              "a": "رتّب جهات الاتصال حسب الأولوية، ودوّن هدف كل مكالمة، وجهّز جملتين أو ثلاث رئيسية. التحضير يقلل التردد ويوفر الوقت."
+            },
+            {
+              "q": "ما المواعيد التي ينبغي احترامها؟",
+              "a": "اتصل في أوقات مناسبة للطرف الآخر مع مراعاة منطقته الزمنية، فالتواصل المحترم يحسّن استقبال مكالمتك."
+            },
+            {
+              "q": "هل توجد قواعد تنظم الاتصال الترويجي؟",
+              "a": "نعم، يخضع الترويج الهاتفي للتنظيم في بلدان كثيرة. تحقق من القواعد المطبقة على نشاطك وعلى من تتصل بهم قبل الاتصال."
+            },
+            {
+              "q": "كيف أتابع المكالمات التي أجريتها؟",
+              "a": "يحتفظ سجل المكالمات بأثر مبادلاتك. راجعه يوميًا لتخطيط المتابعات التي تساعدك HARX للهاتف على تنظيمها."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

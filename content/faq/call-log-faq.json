@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "call-log-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Journal d'appels : à quoi sert-il avec HARX Téléphonie ?",
+      "description": "Historique, suivi et organisation des rappels : comment le journal d'appels vous aide à ne rien oublier dans votre activité.",
+      "blocks": [
+        {
+          "h2": "Tirer parti du journal d'appels"
+        },
+        {
+          "faq": [
+            {
+              "q": "Qu'est-ce qu'un journal d'appels ?",
+              "a": "C'est l'historique de vos appels reçus et passés. Il vous permet de retrouver qui a appelé, quand, et ce qui reste à traiter."
+            },
+            {
+              "q": "HARX Téléphonie propose-t-elle un journal d'appels ?",
+              "a": "Oui. Le journal d'appels fait partie des éléments de l'offre Nomad Solo, aux côtés du numéro français et du répondeur personnel."
+            },
+            {
+              "q": "Pourquoi le consulter régulièrement ?",
+              "a": "Il évite d'oublier un rappel et donne une vue claire de votre activité téléphonique. Une relecture brève en fin de journée suffit souvent."
+            },
+            {
+              "q": "Comment repérer les appels manqués ?",
+              "a": "Parcourez les entrées sans réponse et rapprochez-les des messages du répondeur. Rappelez en priorité les demandes qui semblent urgentes."
+            },
+            {
+              "q": "Peut-on s'en servir pour planifier ses relances ?",
+              "a": "Oui, c'est un bon point de départ : notez à côté de chaque contact la suite à donner et la date prévue pour agir."
+            },
+            {
+              "q": "Que faire avec les numéros inconnus ?",
+              "a": "Évaluez d'abord si un message a été laissé. En cas de doute, rappelez avec prudence, sans communiquer d'informations sensibles dès le premier échange."
+            },
+            {
+              "q": "Comment le journal aide-t-il une équipe ?",
+              "a": "Il offre un repère commun pour savoir qui a été appelé et quand. Cela limite les doublons et facilite le passage de relais entre collègues."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Call Log: What Is It For With HARX Telephony?",
+      "description": "History, follow-up and callback organisation: how the call log helps you keep track of everything in your day-to-day activity.",
+      "blocks": [
+        {
+          "h2": "Getting the most from your call log"
+        },
+        {
+          "faq": [
+            {
+              "q": "What is a call log?",
+              "a": "It is the history of your received and outgoing calls. It lets you find who called, when, and what remains to be handled."
+            },
+            {
+              "q": "Does HARX Telephony offer a call log?",
+              "a": "Yes. The call log is part of the Nomad Solo plan, alongside the French number and the personal voicemail."
+            },
+            {
+              "q": "Why check it regularly?",
+              "a": "It prevents missed callbacks and gives you a clear view of your phone activity. A short review at the end of the day is often enough."
+            },
+            {
+              "q": "How do I spot missed calls?",
+              "a": "Scan the unanswered entries and match them with voicemail messages. Call back first the requests that look urgent."
+            },
+            {
+              "q": "Can I use it to plan follow-ups?",
+              "a": "Yes, it is a good starting point: next to each contact note the next step and the planned date to act."
+            },
+            {
+              "q": "What should I do with unknown numbers?",
+              "a": "First check whether a message was left. When in doubt, call back with caution and avoid sharing sensitive information in the first exchange."
+            },
+            {
+              "q": "How does the log help a team?",
+              "a": "It gives a shared reference for who was called and when. That limits duplicates and makes handovers between colleagues easier."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Registro de llamadas: ¿para qué sirve en HARX Telefonía?",
+      "description": "Historial, seguimiento y organización de las devoluciones: cómo el registro de llamadas le ayuda a no olvidar nada en su actividad.",
+      "blocks": [
+        {
+          "h2": "Aprovechar el registro de llamadas"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Qué es un registro de llamadas?",
+              "a": "Es el historial de sus llamadas recibidas y realizadas. Permite saber quién llamó, cuándo y qué queda pendiente de tratar."
+            },
+            {
+              "q": "¿HARX Telefonía ofrece un registro de llamadas?",
+              "a": "Sí. El registro de llamadas forma parte de la oferta Nomad Solo, junto con el número francés y el buzón de voz personal."
+            },
+            {
+              "q": "¿Por qué consultarlo con regularidad?",
+              "a": "Evita olvidar una devolución de llamada y da una visión clara de su actividad telefónica. Una breve revisión al final del día suele bastar."
+            },
+            {
+              "q": "¿Cómo detecto las llamadas perdidas?",
+              "a": "Recorra las entradas sin respuesta y contrástelas con los mensajes del buzón. Devuelva primero las solicitudes que parezcan urgentes."
+            },
+            {
+              "q": "¿Sirve para planificar seguimientos?",
+              "a": "Sí, es un buen punto de partida: junto a cada contacto anote el siguiente paso y la fecha prevista para actuar."
+            },
+            {
+              "q": "¿Qué hacer con los números desconocidos?",
+              "a": "Compruebe primero si dejaron un mensaje. En caso de duda, devuelva la llamada con prudencia y sin dar información sensible en el primer intercambio."
+            },
+            {
+              "q": "¿Cómo ayuda el registro a un equipo?",
+              "a": "Ofrece una referencia común para saber a quién se llamó y cuándo. Así se evitan duplicados y se facilita el relevo entre compañeros."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "سجل المكالمات: ما فائدته مع HARX للهاتف؟",
+      "description": "السجل والمتابعة وتنظيم معاودة الاتصال: كيف يساعدك سجل المكالمات على عدم نسيان أي شيء في نشاطك اليومي.",
+      "blocks": [
+        {
+          "h2": "الاستفادة من سجل المكالمات"
+        },
+        {
+          "faq": [
+            {
+              "q": "ما هو سجل المكالمات؟",
+              "a": "هو سجل لمكالماتك الواردة والصادرة، يتيح لك معرفة من اتصل ومتى وما الذي بقي بحاجة إلى معالجة."
+            },
+            {
+              "q": "هل توفر HARX للهاتف سجل مكالمات؟",
+              "a": "نعم، فسجل المكالمات جزء من عرض Nomad Solo إلى جانب الرقم الفرنسي والبريد الصوتي الشخصي."
+            },
+            {
+              "q": "لماذا أراجعه بانتظام؟",
+              "a": "يمنع نسيان معاودة الاتصال ويمنحك رؤية واضحة لنشاطك الهاتفي. وغالبًا تكفي مراجعة سريعة في نهاية اليوم."
+            },
+            {
+              "q": "كيف أكتشف المكالمات الفائتة؟",
+              "a": "تصفّح المدخلات التي لم يُرد عليها وقارنها برسائل البريد الصوتي، ثم عاود الاتصال أولًا بالطلبات التي تبدو عاجلة."
+            },
+            {
+              "q": "هل يمكن استخدامه لتخطيط المتابعات؟",
+              "a": "نعم، فهو نقطة انطلاق جيدة: دوّن بجانب كل جهة اتصال الخطوة التالية والتاريخ المقرر للتصرف."
+            },
+            {
+              "q": "ماذا أفعل مع الأرقام المجهولة؟",
+              "a": "تحقق أولًا هل تُركت رسالة. وعند الشك عاود الاتصال بحذر ولا تشارك معلومات حساسة في المحادثة الأولى."
+            },
+            {
+              "q": "كيف يفيد السجل فريقًا؟",
+              "a": "يوفر مرجعًا مشتركًا لمعرفة من تم الاتصال به ومتى، مما يقلل التكرار ويسهّل تسليم المهام بين الزملاء."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
