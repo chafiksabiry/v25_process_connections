@@ -1,0 +1,292 @@
+{
+ "type": "solution",
+ "slug": "sol-a-freelance-developer",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Téléphonie pour développeur freelance : concentration préservée",
+   "description": "Développeur indépendant : protégez vos plages de concentration, filtrez les appels clients sans partager votre mobile et suivez vos échanges avec Nomad Solo.",
+   "blocks": [
+    {
+     "p": "Pour un développeur freelance, une heure de concentration profonde vaut beaucoup. Un appel imprévu au milieu d’une session de code coûte bien plus que sa durée : il faut ensuite retrouver le fil de ce que l’on faisait."
+    },
+    {
+     "h2": "Le problème téléphonique typique du développeur indépendant"
+    },
+    {
+     "p": "Les clients appellent souvent pour une urgence, une précision ou un doute sur une livraison, sans toujours tenir compte du fait que vous êtes en pleine résolution d’un bug. Si le numéro est celui de votre mobile personnel, chaque sonnerie devient une interruption, et ne pas répondre peut donner une impression d’indisponibilité."
+    },
+    {
+     "ul": [
+      "Les appels arrivent sans filtre, y compris pendant les phases où vous avez besoin de silence.",
+      "Plusieurs clients se partagent la même ligne que vos proches, sans distinction.",
+      "Il est difficile de retrouver la date et l’objet d’un appel quand un client conteste ce qui a été convenu à l’oral."
+     ]
+    },
+    {
+     "h2": "Comment une offre HARX Téléphonie adaptée répond"
+    },
+    {
+     "p": "Nomad Solo est l’offre de HARX Téléphonie pensée pour les freelances. Elle apporte un numéro français, un répondeur personnel et un journal d’appels, avec un abonnement mensuel et des minutes et de l’IA prépayées. Vous pouvez la mettre en route en quelques minutes."
+    },
+    {
+     "ul": [
+      "Le numéro dédié permet de laisser sonner sans culpabilité pendant vos sessions de travail, puisque le répondeur prend le relais.",
+      "Le message d’accueil peut indiquer vos plages de rappel, ce qui rassure l’appelant sans vous interrompre.",
+      "Le journal d’appels sert d’aide-mémoire pour retrouver qui a appelé et à quel moment avant de rédiger un compte rendu."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un développeur"
+    },
+    {
+     "ul": [
+      "Convenez avec chaque client d’un canal pour les urgences et d’un autre pour le courant : le téléphone n’est pas toujours le bon outil.",
+      "Confirmez par écrit toute décision prise au téléphone, avec un court courriel récapitulatif.",
+      "Regroupez vos rappels en début ou fin de journée pour limiter les changements de contexte.",
+      "Mettez votre mobile personnel en silencieux et ne diffusez que le numéro professionnel.",
+      "Notez dans votre outil de suivi les demandes reçues par téléphone pour qu’elles ne se perdent pas."
+     ]
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Un répondeur suffit-il pour un développeur freelance ?",
+       "a": "Pour beaucoup d’indépendants, un répondeur avec un message clair et un journal d’appels suffit à ne rien perdre tout en protégeant les plages de concentration."
+      },
+      {
+       "q": "Puis-je utiliser ce numéro avec plusieurs clients ?",
+       "a": "Oui, un numéro professionnel unique peut être communiqué à tous vos clients, ce qui évite de mélanger ligne privée et ligne de travail."
+      },
+      {
+       "q": "Que faire si je travaille depuis l’étranger ?",
+       "a": "Nomad Solo est aussi pensée pour les nomades et les personnes travaillant pour la France depuis l’étranger, avec un numéro français."
+      }
+     ]
+    },
+    {
+     "p": "Pour garder vos heures de concentration tout en restant joignable, regardez l’offre Nomad Solo de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Phone Tips for Freelance Developers: Protect Your Focus",
+   "description": "Independent developers: protect deep-work time, handle client calls without sharing your mobile and keep track of exchanges with HARX Telephony Nomad Solo.",
+   "blocks": [
+    {
+     "p": "For a freelance developer, an hour of deep focus is worth a great deal. An unexpected call in the middle of a coding session costs far more than its duration, because you then have to rebuild the thread of what you were doing."
+    },
+    {
+     "h2": "The typical phone problem for an independent developer"
+    },
+    {
+     "p": "Clients often call about an emergency, a clarification or a doubt over a delivery, without realising you are in the middle of chasing a bug. If the number is your personal mobile, every ring is an interruption, and not answering can suggest you are unavailable."
+    },
+    {
+     "ul": [
+      "Calls arrive unfiltered, including during phases when you need quiet.",
+      "Several clients share the same line as your friends and family, with no distinction.",
+      "It is hard to recover the date and subject of a call when a client disputes what was agreed verbally."
+     ]
+    },
+    {
+     "h2": "How a suitable HARX Telephony offer helps"
+    },
+    {
+     "p": "Nomad Solo is the HARX Telephony offer designed for freelancers. It provides a French number, a personal answering service and a call log, on a monthly subscription with prepaid minutes and AI. You can have it running within minutes."
+    },
+    {
+     "ul": [
+      "A dedicated number lets you let the phone ring guilt-free during work sessions, since the answering service steps in.",
+      "The greeting can state your callback windows, which reassures the caller without interrupting you.",
+      "The call log works as a memory aid for who called and when, before you write up a summary."
+     ]
+    },
+    {
+     "h2": "General good practice for developers"
+    },
+    {
+     "ul": [
+      "Agree with each client on one channel for emergencies and another for routine matters: the phone is not always the right tool.",
+      "Confirm any decision made by phone in writing, with a short recap email.",
+      "Batch your callbacks at the start or end of the day to limit context switching.",
+      "Silence your personal mobile and share only the business number.",
+      "Record phone requests in your tracking tool so they do not get lost."
+     ]
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Is an answering service enough for a freelance developer?",
+       "a": "For many independents, a clear greeting and a call log are enough to lose nothing while protecting focus time."
+      },
+      {
+       "q": "Can I use this number with several clients?",
+       "a": "Yes, a single business number can be given to all your clients, which avoids mixing private and work lines."
+      },
+      {
+       "q": "What if I work from abroad?",
+       "a": "Nomad Solo is also designed for nomads and people working for France from abroad, with a French number."
+      }
+     ]
+    },
+    {
+     "p": "To protect your focus hours while staying reachable, look at the Nomad Solo offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Teléfono para desarrolladores freelance: proteja su foco",
+   "description": "Desarrolladores independientes: proteja sus horas de concentración, gestione llamadas de clientes sin dar su móvil personal y siga sus contactos con Nomad Solo.",
+   "blocks": [
+    {
+     "p": "Para un desarrollador freelance, una hora de concentración profunda vale mucho. Una llamada inesperada en plena sesión de código cuesta bastante más que su duración, porque después hay que recuperar el hilo de lo que se estaba haciendo."
+    },
+    {
+     "h2": "El problema telefónico típico del desarrollador independiente"
+    },
+    {
+     "p": "Los clientes llaman a menudo por una urgencia, una aclaración o una duda sobre una entrega, sin pensar que usted está resolviendo un error. Si el número es su móvil personal, cada timbre es una interrupción, y no contestar puede dar la impresión de que no está disponible."
+    },
+    {
+     "ul": [
+      "Las llamadas llegan sin filtro, incluso cuando necesita silencio.",
+      "Varios clientes comparten la misma línea que sus allegados, sin distinción.",
+      "Cuesta recuperar la fecha y el motivo de una llamada cuando un cliente discute lo acordado de palabra."
+     ]
+    },
+    {
+     "h2": "Cómo ayuda una oferta adecuada de HARX Telefonía"
+    },
+    {
+     "p": "Nomad Solo es la oferta de HARX Telefonía pensada para freelances. Incluye un número francés, un contestador personal y un registro de llamadas, con suscripción mensual y minutos e IA prepagados. Puede ponerla en marcha en pocos minutos."
+    },
+    {
+     "ul": [
+      "Un número dedicado le permite dejar sonar el teléfono sin culpa durante el trabajo, porque el contestador toma el relevo.",
+      "El mensaje de bienvenida puede indicar sus franjas de devolución, lo que tranquiliza a quien llama sin interrumpirle.",
+      "El registro de llamadas funciona como memoria de quién llamó y cuándo, antes de redactar un resumen."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para desarrolladores"
+    },
+    {
+     "ul": [
+      "Acuerde con cada cliente un canal para urgencias y otro para lo corriente: el teléfono no siempre es la herramienta adecuada.",
+      "Confirme por escrito toda decisión tomada por teléfono con un breve correo resumen.",
+      "Agrupe las devoluciones al inicio o al final del día para limitar los cambios de contexto.",
+      "Silencie su móvil personal y comparta solo el número profesional.",
+      "Anote en su herramienta de seguimiento las peticiones recibidas por teléfono para que no se pierdan."
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Basta un contestador para un desarrollador freelance?",
+       "a": "Para muchos independientes, un mensaje claro y un registro de llamadas bastan para no perder nada y proteger las horas de concentración."
+      },
+      {
+       "q": "¿Puedo usar este número con varios clientes?",
+       "a": "Sí, un único número profesional puede darse a todos los clientes, lo que evita mezclar la línea privada con la de trabajo."
+      },
+      {
+       "q": "¿Y si trabajo desde el extranjero?",
+       "a": "Nomad Solo también está pensada para nómadas y personas que trabajan para Francia desde el extranjero, con un número francés."
+      }
+     ]
+    },
+    {
+     "p": "Para proteger sus horas de concentración sin dejar de estar localizable, consulte la oferta Nomad Solo de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الهاتف للمطوّر المستقل: حافظ على تركيزك دون أن تفقد عملاءك",
+   "description": "للمطورين المستقلين: احموا ساعات التركيز وتعاملوا مع مكالمات العملاء دون مشاركة جوالكم الشخصي وتابعوا اتصالاتكم عبر Nomad Solo من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "بالنسبة للمطوّر المستقل، ساعة من التركيز العميق لها قيمة كبيرة. ومكالمة غير متوقعة في منتصف جلسة برمجة تكلّف أكثر بكثير من مدتها، لأنك تضطر بعدها إلى استعادة خيط ما كنت تفعله."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للمطوّر المستقل"
+    },
+    {
+     "p": "كثيرًا ما يتصل العملاء بسبب أمر عاجل أو استفسار أو شك في تسليم ما، دون أن يدركوا أنك منشغل بملاحقة خطأ برمجي. وإذا كان الرقم هو جوالك الشخصي، فكل رنّة مقاطعة، وعدم الرد قد يوحي بأنك غير متاح."
+    },
+    {
+     "ul": [
+      "تصل المكالمات دون أي تصفية، حتى في الأوقات التي تحتاج فيها إلى الهدوء.",
+      "يتشارك عدة عملاء الخط نفسه مع أقاربك وأصدقائك دون تمييز.",
+      "يصعب استرجاع تاريخ المكالمة وموضوعها عندما يعترض عميل على ما تم الاتفاق عليه شفهيًا."
+     ]
+    },
+    {
+     "h2": "كيف يساعد عرض مناسب من HARX Téléphonie"
+    },
+    {
+     "p": "عرض Nomad Solo هو العرض الذي صممته HARX Téléphonie للعاملين المستقلين. يوفّر رقمًا فرنسيًا وردًّا شخصيًا وسجلًا للمكالمات، باشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا. ويمكنكم تشغيله خلال دقائق."
+    },
+    {
+     "ul": [
+      "يتيح الرقم المخصص ترك الهاتف يرنّ دون حرج أثناء العمل لأن خدمة الرد تتولى الأمر.",
+      "يمكن لرسالة الترحيب أن تحدد أوقات معاودة الاتصال، فتطمئن المتصل دون مقاطعتكم.",
+      "يعمل سجل المكالمات كمذكّرة لمعرفة من اتصل ومتى قبل كتابة أي ملخص."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للمطورين"
+    },
+    {
+     "ul": [
+      "اتفقوا مع كل عميل على قناة للحالات العاجلة وأخرى للأمور المعتادة، فالهاتف ليس دائمًا الأداة الأنسب.",
+      "أكّدوا كتابةً أي قرار اتُّخذ هاتفيًا عبر بريد إلكتروني موجز.",
+      "اجمعوا مكالمات المعاودة في بداية اليوم أو نهايته للحد من تبديل السياق.",
+      "اجعلوا جوالكم الشخصي صامتًا وشاركوا الرقم المهني وحده.",
+      "دوّنوا الطلبات الواردة هاتفيًا في أداة المتابعة حتى لا تضيع."
+     ]
+    },
+    {
+     "p": "الهدف من هذه الإجراءات ليس إلغاء المكالمات بل جعلها أقل إزعاجًا وأكثر فائدة. فالمطوّر الذي يتحكم في أوقات ردّه يقدّم عملًا أفضل ويحافظ على علاقة جيدة مع عملائه في آنٍ واحد."
+    },
+    {
+     "p": "ويمكن أيضًا الاتفاق مع العملاء منذ بداية المشروع على قواعد التواصل، مثل الأوقات المناسبة للمكالمات والقناة المفضلة للأمور العاجلة، فيصبح الجميع على اطلاع مسبق."
+    },
+    {
+     "p": "وفي النهاية، فإن الجمع بين رقم مخصص وعادات واضحة في الرد يمنح العميل صورة موثوقة عن عملكم، ويمنحكم هدوءًا أكبر أثناء تنفيذ المهام."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يكفي جهاز الرد للمطوّر المستقل؟",
+       "a": "بالنسبة لكثير من المستقلين، تكفي رسالة واضحة وسجل مكالمات لعدم فقدان شيء مع حماية أوقات التركيز."
+      },
+      {
+       "q": "هل أستطيع استخدام هذا الرقم مع عدة عملاء؟",
+       "a": "نعم، يمكن إعطاء رقم مهني واحد لجميع العملاء، وهذا يجنّبكم خلط الخط الخاص بخط العمل."
+      },
+      {
+       "q": "ماذا لو كنت أعمل من الخارج؟",
+       "a": "عرض Nomad Solo مصمم أيضًا للرحّالة ولمن يعملون لصالح فرنسا من الخارج، برقم فرنسي."
+      }
+     ]
+    },
+    {
+     "p": "للحفاظ على ساعات تركيزكم مع البقاء متاحين، اطّلعوا على عرض Nomad Solo من HARX Téléphonie."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "type": "solution",
+ "slug": "sol-a-digital-nomad",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Nomade digital : garder un numéro français depuis l’étranger",
+   "description": "Vous vivez et travaillez à l’étranger ? Gardez un numéro français, un répondeur personnel et un journal d’appels avec Nomad Solo de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Le nomade digital change de pays, de fuseau horaire et parfois de carte SIM tous les quelques mois. Ses clients, eux, veulent un seul numéro stable. Concilier les deux demande un peu d’organisation."
+    },
+    {
+     "h2": "Le problème téléphonique typique du nomade digital"
+    },
+    {
+     "p": "À chaque déplacement, le numéro de mobile peut changer, les tarifs d’itinérance varient et les appels depuis l’étranger sont parfois mal perçus par les clients restés en France. Beaucoup de nomades se retrouvent à jongler entre plusieurs cartes SIM et plusieurs applications."
+    },
+    {
+     "ul": [
+      "Un nouveau numéro local à chaque pays oblige à prévenir tous ses contacts, au risque d’en perdre en route.",
+      "Le décalage horaire rend les appels entrants imprévisibles : on décroche à des heures qui ne conviennent pas.",
+      "Les justificatifs et les traces d’appels sont dispersés entre plusieurs opérateurs et applications."
+     ]
+    },
+    {
+     "h2": "Comment Nomad Solo répond à ce besoin"
+    },
+    {
+     "p": "Nomad Solo, offre de HARX Téléphonie conçue notamment pour les nomades, fournit un numéro français, un répondeur personnel et un journal d’appels. Le principe : votre numéro reste le même, où que vous soyez. L’offre repose sur un abonnement mensuel, avec des minutes et de l’IA prépayées, et peut être active en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un numéro français stable que vos clients et partenaires gardent en mémoire, quel que soit votre pays du moment.",
+      "Un répondeur personnel pour ne pas dépendre de votre fuseau horaire : vos appelants laissent un message et vous rappelez à une heure raisonnable.",
+      "Un journal d’appels centralisé pour retrouver les échanges, sans fouiller dans plusieurs applications."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un nomade"
+    },
+    {
+     "ul": [
+      "Indiquez dans votre message d’accueil vos plages horaires de rappel, en précisant le fuseau horaire utilisé.",
+      "Gardez une seule ligne professionnelle et ne la remplacez pas à chaque changement de pays.",
+      "Informez vos clients importants de vos périodes de moindre disponibilité, par exemple lors de longs trajets.",
+      "Vérifiez les règles de votre pays de résidence concernant l’usage professionnel des services téléphoniques.",
+      "Conservez un second moyen de contact écrit pour les urgences, afin de ne pas tout faire reposer sur la voix."
+     ]
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Puis-je garder mon numéro en changeant de pays ?",
+       "a": "L’offre Nomad Solo fournit un numéro français pensé pour rester le même quand vous voyagez, sans refaire votre communication à chaque étape."
+      },
+      {
+       "q": "Faut-il une carte SIM locale pour l’utiliser ?",
+       "a": "Les détails techniques de mise en service sont présentés lors de l’inscription ; l’offre est annoncée comme opérationnelle en quelques minutes."
+      },
+      {
+       "q": "Que se passe-t-il si je rate un appel à cause du décalage horaire ?",
+       "a": "Le répondeur personnel prend le message et le journal d’appels garde la trace de l’appel pour que vous puissiez rappeler."
+      }
+     ]
+    },
+    {
+     "p": "Si votre vie professionnelle voyage, Nomad Solo de HARX Téléphonie vous donne un point de contact français qui ne bouge pas."
+    }
+   ]
+  },
+  "en": {
+   "title": "Digital Nomads: Keep a French Number While Living Abroad",
+   "description": "Living and working abroad? Keep a French number, a personal answering service and a call log with Nomad Solo from HARX Telephony, ready in minutes.",
+   "blocks": [
+    {
+     "p": "A digital nomad changes country, time zone and sometimes SIM card every few months. Clients, on the other hand, want one stable number. Reconciling the two takes a little organisation."
+    },
+    {
+     "h2": "The typical phone problem for a digital nomad"
+    },
+    {
+     "p": "With every move the mobile number may change, roaming charges vary, and calls from abroad can be poorly received by clients who stayed in France. Many nomads end up juggling several SIM cards and several apps."
+    },
+    {
+     "ul": [
+      "A new local number in every country means warning every contact, with the risk of losing some along the way.",
+      "Time differences make incoming calls unpredictable: you answer at hours that do not suit you.",
+      "Records and call traces are scattered across several carriers and applications."
+     ]
+    },
+    {
+     "h2": "How Nomad Solo addresses this"
+    },
+    {
+     "p": "Nomad Solo, a HARX Telephony offer designed notably for nomads, provides a French number, a personal answering service and a call log. The idea is simple: your number stays the same wherever you are. It runs on a monthly subscription with prepaid minutes and AI, and can be live within minutes."
+    },
+    {
+     "ul": [
+      "A stable French number that clients and partners keep in mind, whatever country you are in at the moment.",
+      "A personal answering service so you do not depend on your time zone: callers leave a message and you call back at a reasonable hour.",
+      "A centralised call log to find past exchanges without digging through several apps."
+     ]
+    },
+    {
+     "h2": "General good practice for nomads"
+    },
+    {
+     "ul": [
+      "State your callback windows in your greeting, naming the time zone you use.",
+      "Keep a single business line and do not replace it every time you change country.",
+      "Tell key clients about your periods of lower availability, such as long journeys.",
+      "Check the rules in your country of residence about professional use of telephony services.",
+      "Keep a second written channel for emergencies so that everything does not rest on voice alone."
+     ]
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can I keep my number when I change country?",
+       "a": "Nomad Solo provides a French number designed to stay the same as you travel, so you do not have to redo your communication at each stop."
+      },
+      {
+       "q": "Do I need a local SIM card to use it?",
+       "a": "Technical set-up details are presented at sign-up; the offer is described as operational within minutes."
+      },
+      {
+       "q": "What if I miss a call because of the time difference?",
+       "a": "The personal answering service takes the message and the call log keeps a trace of the call so you can return it."
+      }
+     ]
+    },
+    {
+     "p": "If your professional life travels, Nomad Solo from HARX Telephony gives you a French contact point that does not move."
+    }
+   ]
+  },
+  "es": {
+   "title": "Nómadas digitales: conserve un número francés en el extranjero",
+   "description": "¿Vive y trabaja fuera? Conserve un número francés, un contestador personal y un registro de llamadas con Nomad Solo de HARX Telefonía, listo en minutos.",
+   "blocks": [
+    {
+     "p": "El nómada digital cambia de país, de huso horario y a veces de tarjeta SIM cada pocos meses. Sus clientes, en cambio, quieren un único número estable. Conciliar ambas cosas exige algo de organización."
+    },
+    {
+     "h2": "El problema telefónico típico del nómada digital"
+    },
+    {
+     "p": "Con cada traslado el número de móvil puede cambiar, las tarifas de itinerancia varían y las llamadas desde el extranjero a veces se perciben mal por los clientes que se quedaron en Francia. Muchos nómadas acaban combinando varias tarjetas SIM y varias aplicaciones."
+    },
+    {
+     "ul": [
+      "Un nuevo número local en cada país obliga a avisar a todos los contactos, con el riesgo de perder alguno por el camino.",
+      "La diferencia horaria vuelve imprevisibles las llamadas entrantes: se contesta a horas poco convenientes.",
+      "Los registros y rastros de llamadas quedan repartidos entre varios operadores y aplicaciones."
+     ]
+    },
+    {
+     "h2": "Cómo responde Nomad Solo a esta necesidad"
+    },
+    {
+     "p": "Nomad Solo, oferta de HARX Telefonía pensada en especial para nómadas, proporciona un número francés, un contestador personal y un registro de llamadas. La idea es sencilla: su número sigue siendo el mismo esté donde esté. Funciona con suscripción mensual, con minutos e IA prepagados, y puede activarse en pocos minutos."
+    },
+    {
+     "ul": [
+      "Un número francés estable que clientes y socios recuerdan, sea cual sea el país donde se encuentre.",
+      "Un contestador personal para no depender de su huso horario: quien llama deja un mensaje y usted devuelve la llamada a una hora razonable.",
+      "Un registro de llamadas centralizado para recuperar los contactos sin buscar en varias aplicaciones."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para nómadas"
+    },
+    {
+     "ul": [
+      "Indique en su mensaje las franjas de devolución, precisando el huso horario que usa.",
+      "Mantenga una sola línea profesional y no la cambie cada vez que cambie de país.",
+      "Avise a los clientes clave de sus periodos de menor disponibilidad, como los viajes largos.",
+      "Compruebe las normas de su país de residencia sobre el uso profesional de servicios telefónicos.",
+      "Conserve un segundo canal escrito para urgencias, de modo que todo no dependa solo de la voz."
+     ]
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puedo conservar mi número al cambiar de país?",
+       "a": "Nomad Solo ofrece un número francés pensado para seguir siendo el mismo mientras viaja, sin rehacer su comunicación en cada etapa."
+      },
+      {
+       "q": "¿Necesito una SIM local para usarlo?",
+       "a": "Los detalles técnicos de puesta en marcha se muestran al registrarse; la oferta se presenta como operativa en pocos minutos."
+      },
+      {
+       "q": "¿Qué pasa si pierdo una llamada por la diferencia horaria?",
+       "a": "El contestador personal recoge el mensaje y el registro de llamadas conserva el rastro para que pueda devolverla."
+      }
+     ]
+    },
+    {
+     "p": "Si su vida profesional viaja, Nomad Solo de HARX Telefonía le da un punto de contacto francés que no se mueve."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الرحّالة الرقميون: احتفظوا برقم فرنسي وأنتم تعيشون في الخارج",
+   "description": "تعيشون وتعملون في الخارج؟ احتفظوا برقم فرنسي وبرد شخصي وسجل مكالمات مع عرض Nomad Solo من HARX Téléphonie الذي يعمل خلال دقائق.",
+   "blocks": [
+    {
+     "p": "يغيّر الرحّالة الرقمي بلده ومنطقته الزمنية وأحيانًا شريحة هاتفه كل بضعة أشهر. أما عملاؤه فيريدون رقمًا واحدًا ثابتًا. والتوفيق بين الأمرين يتطلب قدرًا من التنظيم."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للرحّالة الرقمي"
+    },
+    {
+     "p": "مع كل انتقال قد يتغير رقم الجوال، وتختلف رسوم التجوال، وقد لا تُستقبل المكالمات الدولية جيدًا لدى العملاء الذين بقوا في فرنسا. ويجد كثير من الرحّالة أنفسهم يتنقلون بين عدة شرائح وتطبيقات."
+    },
+    {
+     "ul": [
+      "رقم محلي جديد في كل بلد يعني إبلاغ كل جهة اتصال، مع احتمال خسارة بعضها في الطريق.",
+      "فارق التوقيت يجعل المكالمات الواردة غير متوقعة، فتردّون في ساعات لا تناسبكم.",
+      "سجلات المكالمات وآثارها موزعة بين عدة مشغّلين وتطبيقات."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض Nomad Solo هذه الحاجة"
+    },
+    {
+     "p": "عرض Nomad Solo من HARX Téléphonie مصمم خصوصًا للرحّالة وغيرهم، ويوفّر رقمًا فرنسيًا وردًّا شخصيًا وسجلًا للمكالمات. الفكرة بسيطة: يبقى رقمكم نفسه أينما كنتم. تعتمد الخدمة على اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، ويمكن تفعيلها خلال دقائق."
+    },
+    {
+     "ul": [
+      "رقم فرنسي ثابت يحتفظ به العملاء والشركاء مهما كان البلد الذي تقيمون فيه.",
+      "ردّ شخصي يحرركم من ارتباط التوقيت: يترك المتصل رسالة وتعاودون الاتصال في ساعة مناسبة.",
+      "سجل مكالمات موحّد لاسترجاع الاتصالات السابقة دون البحث في عدة تطبيقات."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للرحّالة"
+    },
+    {
+     "ul": [
+      "اذكروا في رسالة الترحيب أوقات معاودة الاتصال مع تحديد المنطقة الزمنية المعتمدة.",
+      "احتفظوا بخط مهني واحد ولا تستبدلوه كلما غيّرتم البلد.",
+      "أبلغوا العملاء الأساسيين بفترات توافركم المحدود، مثل الرحلات الطويلة.",
+      "تحقّقوا من قواعد بلد إقامتكم بشأن الاستخدام المهني لخدمات الهاتف.",
+      "احتفظوا بقناة مكتوبة ثانية للحالات العاجلة حتى لا يعتمد كل شيء على الصوت وحده."
+     ]
+    },
+    {
+     "p": "تذكّروا أن الاستقرار عنصر ثقة. حين يجد العميل رقمكم نفسه بعد أشهر من السفر، يشعر بأن عملكم منظّم ومستمر، حتى لو تغيّرت المدن والمناطق الزمنية من حولكم."
+    },
+    {
+     "p": "ومن الجيد كذلك أن تحدّدوا لأنفسكم حدودًا واضحة بين وقت العمل ووقت الراحة، فالعمل من أي مكان في العالم لا يعني أن تكونوا متاحين في كل ساعة."
+    },
+    {
+     "p": "وكلما كانت الأمور مرتبة قبل السفر، قلّت المفاجآت أثناءه، وبقيت علاقتكم بعملائكم مستقرة وواضحة مهما اختلفت الأماكن وتغيّرت الظروف من حولكم."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل أستطيع الاحتفاظ برقمي عند تغيير البلد؟",
+       "a": "يوفّر Nomad Solo رقمًا فرنسيًا مصممًا ليبقى كما هو أثناء سفركم، دون إعادة التواصل مع الجميع في كل محطة."
+      },
+      {
+       "q": "هل أحتاج إلى شريحة محلية لاستخدامه؟",
+       "a": "تُعرض تفاصيل التشغيل التقنية عند التسجيل، والعرض يوصف بأنه جاهز للعمل خلال دقائق."
+      },
+      {
+       "q": "ماذا لو فاتتني مكالمة بسبب فارق التوقيت؟",
+       "a": "يسجّل الرد الشخصي الرسالة ويحتفظ سجل المكالمات بأثر المكالمة لتتمكنوا من معاودة الاتصال."
+      }
+     ]
+    },
+    {
+     "p": "إذا كانت حياتكم المهنية في سفر دائم، فإن Nomad Solo من HARX Téléphonie يمنحكم نقطة اتصال فرنسية ثابتة لا تتغير."
+    }
+   ]
+  }
+ }
+}
