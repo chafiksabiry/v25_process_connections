@@ -9,9 +9,12 @@
   VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
   VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
+  # API de l'orchestrateur (code de liaison WhatsApp). Numéro du support : VITE_WHATSAPP_SUPPORT_NUMBER (défaut 212711311388).
+  VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-recette.up.railway.app/api"
 
 # recette branch: every context points to the Recette backends and micro-frontends
 [context.production.environment]
+  VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-recette.up.railway.app/api"
   VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
   VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
@@ -20,6 +23,7 @@
 
 # Alias used by some Netlify branch setups
 [context.prod.environment]
+  VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-recette.up.railway.app/api"
   VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
   VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
   VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
