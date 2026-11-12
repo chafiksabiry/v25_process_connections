@@ -9,7 +9,7 @@
   VITE_MF_REPS_ENTRY = "https://harx26reporchestratorfront-dev.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
   VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
-  # API de l'orchestrateur (code de liaison WhatsApp). Numéro du support : VITE_WHATSAPP_SUPPORT_NUMBER (défaut 212637446431).
+  # API de l'orchestrateur (code de liaison WhatsApp). Numéro du support : VITE_WHATSAPP_SUPPORT_NUMBER (défaut 212711311388).
   VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-recette.up.railway.app/api"
 
 # Production (harx.ai) — production Netlify MF hosts (not *-dev)

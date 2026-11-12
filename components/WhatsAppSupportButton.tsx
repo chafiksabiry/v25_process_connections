@@ -14,7 +14,7 @@ import { getLangFromPath } from '../lib/langRoutes';
  * Rendu dans <body> via un portail (le #root de l'hôte peut être écrêté, comme pour CookieBanner). Il se place
  * au-dessus de la bulle de chat Zoho SalesIQ (bas droite) pour ne pas la masquer.
  */
-const NUMBER = String(import.meta.env.VITE_WHATSAPP_SUPPORT_NUMBER || '212637446431').replace(/\D/g, '');
+const NUMBER = String(import.meta.env.VITE_WHATSAPP_SUPPORT_NUMBER || '212711311388').replace(/\D/g, '');
 const ORCHESTRATOR_API = String(
   import.meta.env.VITE_API_URL_ORCHESTRATOR || 'https://v25comporchestratorback-production.up.railway.app/api',
 ).replace(/\/+$/, '');
