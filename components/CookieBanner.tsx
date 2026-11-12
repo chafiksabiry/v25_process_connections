@@ -54,7 +54,10 @@ const buttonBase: React.CSSProperties = {
  */
 export default function CookieBanner() {
   const { pathname } = useLocation();
-  const t = TEXTS[getLangFromPath(pathname) ?? 'fr'];
+  // Les textes n'existent qu'en fr et en : les pages /es et /ar retombent sur l'anglais (sans cela, TEXTS[lang] est
+  // undefined et toute l'application hôte plante sur ces routes).
+  const siteLang = getLangFromPath(pathname);
+  const t = TEXTS[siteLang === 'fr' || siteLang === null ? 'fr' : 'en'];
   const cookiesHref = getLangFromPath(pathname) ? `/${getLangFromPath(pathname)}/cookies` : '/cookies';
 
   const [open, setOpen] = useState<boolean>(() => readConsent() === null);
