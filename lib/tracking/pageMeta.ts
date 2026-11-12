@@ -16,9 +16,9 @@ export type PageMeta = {
 const BASE_TITLE = 'HARX';
 
 export const CALLCENTRE_TITLE =
-  'HARX Téléphonie : numéro français, appels et répondeur IA pour freelances, TPE, PME et centres d’appels';
+  'HARX Téléphonie : numéro de votre pays, appels et répondeur IA pour freelances, TPE, PME et centres d’appels';
 export const CALLCENTRE_DESCRIPTION =
-  'Un numéro français, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
+  'Un numéro de votre pays, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
 
 const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   {
