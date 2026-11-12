@@ -20,10 +20,10 @@ const ORCHESTRATOR_API = String(
 ).replace(/\/+$/, '');
 
 const TEXTS = {
-  fr: { label: 'Support IA', aria: 'Ouvrir le support IA HARX sur WhatsApp', hello: "Bonjour, j'ai besoin d'aide sur HARX." },
-  en: { label: 'AI Support', aria: 'Open HARX AI support on WhatsApp', hello: 'Hello, I need help with HARX.' },
-  es: { label: 'Soporte IA', aria: 'Abrir el soporte IA de HARX en WhatsApp', hello: 'Hola, necesito ayuda con HARX.' },
-  ar: { label: 'الدعم الذكي', aria: 'فتح الدعم الذكي لـ HARX على واتساب', hello: 'مرحبا، أحتاج مساعدة بخصوص HARX.' },
+  fr: { label: 'WhatsApp', aria: 'Ouvrir le support IA HARX sur WhatsApp', hello: "Bonjour, j'ai besoin d'aide sur HARX." },
+  en: { label: 'WhatsApp', aria: 'Open HARX AI support on WhatsApp', hello: 'Hello, I need help with HARX.' },
+  es: { label: 'WhatsApp', aria: 'Abrir el soporte IA de HARX en WhatsApp', hello: 'Hola, necesito ayuda con HARX.' },
+  ar: { label: 'واتساب', aria: 'فتح الدعم الذكي لـ HARX على واتساب', hello: 'مرحبا، أحتاج مساعدة بخصوص HARX.' },
 } as const;
 
 const WHATSAPP_GREEN = '#25D366';
