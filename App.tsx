@@ -3,6 +3,7 @@ import LinkedInCallback from './components/LinkedInCallback';
 import LinkedInSignInCallback from './components/LinkedInSignInCallback';
 import CSSRouteLoader from './components/CSSRouteLoader';
 import CookieBanner from './components/CookieBanner';
+import WhatsAppSupportButton from './components/WhatsAppSupportButton';
 import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
@@ -73,6 +74,7 @@ const App = () => {
     <Router>
       <VisitorTracker />
       <CookieBanner />
+      <WhatsAppSupportButton />
       <CSSRouteLoader />
       <MicroAppContainerVisibility />
       <Routes>
