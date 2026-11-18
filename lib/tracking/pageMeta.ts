@@ -25,7 +25,7 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
     // Accueil de l'ensemble HARX (hub des offres).
     test: (p) => p === '/' || p === '',
     meta: {
-      title: `${BASE_TITLE} — Une plateforme, plusieurs offres`,
+      title: `${BASE_TITLE} — Tous vos appels, où que vous soyez`,
       description: HUB_DESCRIPTION_FR,
       canonical: `${HARX_SITE_URL}/`,
     },
@@ -235,7 +235,7 @@ const LOCALIZED_INDEXABLE_PATHS = [
 
 const EN_META: Record<string, { title: string; description: string }> = {
   '/': {
-    title: `${BASE_TITLE} — One platform, several offers`,
+    title: `${BASE_TITLE} — All your calls, wherever you are`,
     description: HUB_DESCRIPTION_EN,
   },
   '/taas': {

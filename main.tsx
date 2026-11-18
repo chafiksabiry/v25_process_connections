@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start, initGlobalState } from 'qiankun';
+import { stripSocialMeta } from './lib/microAppTemplate';
 import {
   setBootstrapMaxTime,
   setMountMaxTime,
@@ -194,6 +195,8 @@ const startQiankun = async () => {
         experimentalStyleIsolation: false,
       },
       singular: false,
+      // Pas de balises og:* / twitter:* en double : celles des micro-fronts sont retirées (voir lib/microAppTemplate.ts).
+      getTemplate: stripSocialMeta,
       fetch: (url: RequestInfo | URL, options: RequestInit | undefined) => {
         // console.log(`[Host] Fetching: ${url}`);
         return fetch(url, {
