@@ -1,0 +1,127 @@
+{
+ "type": "faq",
+ "slug": "harx-bases",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "HARX Téléphonie et TAAS : les questions essentielles",
+   "description": "Réponses aux questions essentielles sur HARX Téléphonie (numéro, appels, accueil, IA) et sur TAAS (payer au résultat, gigs).",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Qu’est-ce que HARX Téléphonie ?",
+       "a": "HARX Téléphonie vous donne un numéro de votre pays, la gestion de vos appels entrants et sortants, un accueil ou secrétariat, un répondeur et une IA qui vous assiste. L’abonnement est mensuel, avec minutes et IA prépayées."
+      },
+      {
+       "q": "À qui s’adresse HARX Téléphonie ?",
+       "a": "Aux freelances et nomades, aux TPE qui ont besoin d’un accueil ou d’un secrétariat, aux PME et équipes à distance qui téléphonent dans plusieurs services, et aux centres d’appels qui travaillent pour plusieurs clients."
+      },
+      {
+       "q": "Combien de temps faut-il pour démarrer ?",
+       "a": "Le parcours de démarrage est conçu pour que votre téléphonie soit opérationnelle en quelques minutes : vous choisissez votre offre, votre numéro, puis vous passez votre premier appel."
+      },
+      {
+       "q": "Puis-je avoir un numéro français en vivant à l’étranger ?",
+       "a": "Oui. L’offre Nomad Solo est pensée pour les freelances et nomades qui voyagent ou travaillent pour la France depuis l’étranger : vous gardez un numéro français, un répondeur personnel et un journal de vos appels."
+      },
+      {
+       "q": "Qu’est-ce que TAAS ?",
+       "a": "TAAS signifie Transaction-as-a-Service : vous définissez le résultat attendu et son prix, et vous ne payez que lorsque le résultat est approuvé. Un gig correspond à une mission confiée à des professionnels du service client, humains ou IA."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "HARX Telephony and TAAS: the essential questions",
+   "description": "Answers to the essential questions about HARX Telephony (number, calls, reception, AI) and TAAS (pay per result, gigs).",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What is HARX Telephony?",
+       "a": "HARX Telephony gives you a phone number from your country, handling of inbound and outbound calls, a reception or secretary service, a voicemail and an AI that assists you. The subscription is monthly, with prepaid minutes and AI."
+      },
+      {
+       "q": "Who is HARX Telephony for?",
+       "a": "Freelancers and nomads, small businesses that need a reception or secretary service, SMEs and remote teams that make calls across several departments, and call centers working for several clients."
+      },
+      {
+       "q": "How long does it take to get started?",
+       "a": "The onboarding is designed so your telephony is operational in a few minutes: you choose your plan, your number, and then you make your first call."
+      },
+      {
+       "q": "Can I have a French number while living abroad?",
+       "a": "Yes. The Nomad Solo plan is designed for freelancers and nomads who travel or work for France from abroad: you keep a French number, a personal voicemail and a call log."
+      },
+      {
+       "q": "What is TAAS?",
+       "a": "TAAS stands for Transaction-as-a-Service: you define the expected result and its price, and you only pay when the result is approved. A gig is a mission entrusted to customer service professionals, human or AI."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "HARX Telefonía y TAAS: las preguntas esenciales",
+   "description": "Respuestas a las preguntas esenciales sobre HARX Telefonía (número, llamadas, recepción, IA) y TAAS (pagar por resultado, gigs).",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué es HARX Telefonía?",
+       "a": "HARX Telefonía le ofrece un número de su país, la gestión de llamadas entrantes y salientes, un servicio de recepción o secretaría, un buzón de voz y una IA que le asiste. La suscripción es mensual, con minutos e IA prepagados."
+      },
+      {
+       "q": "¿A quién va dirigida HARX Telefonía?",
+       "a": "A autónomos y nómadas, a pequeñas empresas que necesitan recepción o secretaría, a pymes y equipos remotos que llaman desde varios departamentos y a centros de llamadas que trabajan para varios clientes."
+      },
+      {
+       "q": "¿Cuánto se tarda en empezar?",
+       "a": "El proceso de inicio está pensado para que su telefonía esté operativa en pocos minutos: elige su oferta, su número y realiza su primera llamada."
+      },
+      {
+       "q": "¿Puedo tener un número francés viviendo en el extranjero?",
+       "a": "Sí. La oferta Nomad Solo está pensada para autónomos y nómadas que viajan o trabajan para Francia desde el extranjero: conserva un número francés, un buzón de voz personal y un registro de llamadas."
+      },
+      {
+       "q": "¿Qué es TAAS?",
+       "a": "TAAS significa Transaction-as-a-Service: usted define el resultado esperado y su precio, y solo paga cuando el resultado es aprobado. Un gig es una misión confiada a profesionales de atención al cliente, humanos o IA."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "HARX للهاتف وTAAS: الأسئلة الأساسية",
+   "description": "إجابات عن الأسئلة الأساسية حول HARX للهاتف (الرقم، المكالمات، الاستقبال، الذكاء الاصطناعي) وTAAS (الدفع مقابل النتيجة).",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ما هي خدمة HARX للهاتف؟",
+       "a": "تمنحك HARX للهاتف رقمًا من بلدك، وإدارة المكالمات الواردة والصادرة، وخدمة استقبال أو سكرتارية، وبريدًا صوتيًا وذكاءً اصطناعيًا يساعدك. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعة مسبقًا."
+      },
+      {
+       "q": "لمن تتوجه خدمة HARX للهاتف؟",
+       "a": "للعاملين المستقلين والرحّل الرقميين، وللشركات الصغيرة التي تحتاج إلى استقبال أو سكرتارية، وللشركات المتوسطة والفرق عن بُعد التي تتصل عبر عدة أقسام، ولمراكز الاتصال التي تعمل لصالح عدة عملاء."
+      },
+      {
+       "q": "كم يستغرق البدء؟",
+       "a": "صُمم مسار البدء ليكون هاتفك جاهزًا للعمل خلال دقائق: تختار عرضك ورقمك ثم تجري أول مكالمة."
+      },
+      {
+       "q": "هل يمكنني امتلاك رقم فرنسي وأنا أعيش في الخارج؟",
+       "a": "نعم. عرض Nomad Solo مخصص للمستقلين والرحّل الذين يسافرون أو يعملون لصالح فرنسا من الخارج: تحتفظ برقم فرنسي وبريد صوتي شخصي وسجل للمكالمات."
+      },
+      {
+       "q": "ما هو TAAS؟",
+       "a": "TAAS اختصار Transaction-as-a-Service: تحدد النتيجة المطلوبة وسعرها، ولا تدفع إلا عند الموافقة على النتيجة. والـ gig مهمة تُسند إلى محترفين في خدمة العملاء، بشرًا أو ذكاءً اصطناعيًا."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

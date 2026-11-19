@@ -1,0 +1,294 @@
+{
+ "type": "solution",
+ "slug": "sol-b-outsourcing-nearshore-offshore-taas",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Externaliser le service client : nearshore, offshore et TAAS",
+   "description": "Nearshore ou offshore pour le service client ? Les critères de choix et le modèle TAAS de HARX, où l'on ne paie que lorsque le résultat attendu est approuvé.",
+   "blocks": [
+    {
+     "h2": "Externaliser le service client : de quoi parle-t-on ?"
+    },
+    {
+     "p": "Externaliser son service client, c'est confier tout ou partie des échanges avec ses clients à un partenaire extérieur. On parle de nearshore quand ce partenaire se trouve dans un pays proche, et d'offshore lorsqu'il est plus éloigné. Le choix dépend de critères propres à chaque entreprise, pas d'une règle universelle."
+    },
+    {
+     "ul": [
+      "Le niveau de contrôle que l'entreprise souhaite conserver sur la qualité.",
+      "Les langues et les plages horaires à couvrir.",
+      "La nature des demandes : simples et répétitives, ou délicates et techniques.",
+      "La sensibilité des données manipulées.",
+      "La souplesse recherchée face à une activité qui varie dans l'année."
+     ]
+    },
+    {
+     "h2": "Le problème du modèle classique : payer le temps plutôt que le résultat"
+    },
+    {
+     "p": "Dans beaucoup de contrats d'externalisation, on rémunère du temps ou des ressources, que le résultat soit obtenu ou non. Pour l'entreprise, la difficulté est de relier cette dépense à un bénéfice mesurable. Pour le prestataire, il est parfois délicat de prouver ce qui a vraiment été apporté."
+    },
+    {
+     "h2": "TAAS : payer au résultat"
+    },
+    {
+     "p": "TAAS, ou Transaction-as-a-Service, est une des deux offres réunies sur HARX.ai. L'entreprise définit le résultat attendu et son prix, et ne paie que lorsque ce résultat est approuvé. Une mission s'appelle un gig. Elle est réalisée par un réseau de professionnels du service client certifiés, humains ou IA, et chaque interaction est évaluée en temps réel."
+    },
+    {
+     "p": "Il existe deux espaces : COMPANY, destiné aux entreprises, et REPS, où les professionnels trouvent des gigs. La fonction « Publier un gig » de l'espace COMPANY est annoncée comme bientôt disponible : elle n'est pas encore ouverte. Pour une activité de centre de contact plus structurée, HARX Téléphonie propose aussi Contact Centre Multi-clients, destiné aux centres en Europe, aux États-Unis ou dans les pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal."
+    },
+    {
+     "h2": "Bonnes pratiques pour réussir une externalisation"
+    },
+    {
+     "ul": [
+      "Définir précisément le résultat attendu avant de choisir un modèle : qu'est-ce qu'un échange réussi ?",
+      "Commencer par un périmètre limité et l'élargir ensuite si les résultats le justifient.",
+      "Partager avec le partenaire toute l'information utile sur l'offre, les règles et les cas particuliers.",
+      "Garder une personne référente côté entreprise, capable de trancher rapidement.",
+      "Prévoir un moyen de contrôler la qualité : échantillons d'échanges, retours des clients, revues régulières.",
+      "Vérifier avec un conseil compétent les obligations liées aux données personnelles dans les pays concernés."
+     ]
+    },
+    {
+     "p": "Qu'on choisisse le nearshore ou l'offshore, l'essentiel est de relier la dépense à un résultat clair. C'est précisément la logique du modèle TAAS de HARX."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Quelle différence entre nearshore et offshore ?",
+       "a": "Le nearshore désigne un partenaire dans un pays proche, l'offshore un partenaire plus éloigné ; le bon choix dépend de vos critères propres."
+      },
+      {
+       "q": "Que signifie payer au résultat avec TAAS ?",
+       "a": "L'entreprise définit le résultat attendu et son prix, et ne paie que lorsque ce résultat est approuvé."
+      },
+      {
+       "q": "Puis-je publier un gig dès aujourd'hui ?",
+       "a": "Non, la fonction « Publier un gig » de l'espace COMPANY est annoncée comme bientôt disponible."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Outsourcing customer service: nearshore, offshore and TAAS",
+   "description": "Nearshore or offshore for customer service? Selection criteria and HARX's TAAS model, where you only pay once the expected result has been approved.",
+   "blocks": [
+    {
+     "h2": "Outsourcing customer service: what does it mean?"
+    },
+    {
+     "p": "Outsourcing customer service means entrusting all or part of your conversations with customers to an outside partner. We speak of nearshore when that partner is in a nearby country, and offshore when it is further away. The choice depends on each company's own criteria, not on a universal rule."
+    },
+    {
+     "ul": [
+      "The level of control the company wants to keep over quality.",
+      "The languages and time slots to cover.",
+      "The nature of requests: simple and repetitive, or delicate and technical.",
+      "The sensitivity of the data handled.",
+      "The flexibility sought for an activity that varies through the year."
+     ]
+    },
+    {
+     "h2": "The problem with the classic model: paying for time rather than results"
+    },
+    {
+     "p": "In many outsourcing contracts you pay for time or resources whether or not the result is achieved. For the company, the difficulty is linking that spend to a measurable benefit. For the provider, it can be delicate to prove what was truly delivered."
+    },
+    {
+     "h2": "TAAS: paying for results"
+    },
+    {
+     "p": "TAAS, or Transaction-as-a-Service, is one of the two offers brought together on HARX.ai. The company defines the expected result and its price, and only pays when that result is approved. A mission is called a gig. It is carried out by a network of certified customer service professionals, human or AI, and every interaction is evaluated in real time."
+    },
+    {
+     "p": "There are two spaces: COMPANY, for businesses, and REPS, where professionals find gigs. The Publish a gig function in the COMPANY space is announced as coming soon: it is not yet open. For a more structured contact centre activity, HARX Telephony also offers Contact Centre Multi-clients, intended for centres in Europe, the United States or outsourcing countries such as France, Morocco, Tunisia and Senegal."
+    },
+    {
+     "h2": "Good practices for a successful outsourcing"
+    },
+    {
+     "ul": [
+      "Define the expected result precisely before choosing a model: what is a successful conversation?",
+      "Start with a limited scope and widen it later if results justify it.",
+      "Share with the partner all useful information on the offer, the rules and special cases.",
+      "Keep a reference person on the company side, able to decide quickly.",
+      "Plan a way to check quality: conversation samples, customer feedback, regular reviews.",
+      "Check with a qualified adviser the obligations on personal data in the countries concerned."
+     ]
+    },
+    {
+     "p": "Whether you choose nearshore or offshore, the essential thing is to link spending to a clear result. That is precisely the logic of HARX's TAAS model. It is also a useful discipline in itself: a company that can describe the result it wants in one sentence usually finds the rest of the decision much easier."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "What is the difference between nearshore and offshore?",
+       "a": "Nearshore means a partner in a nearby country, offshore a partner further away; the right choice depends on your own criteria."
+      },
+      {
+       "q": "What does paying for results with TAAS mean?",
+       "a": "The company defines the expected result and its price, and only pays when that result is approved."
+      },
+      {
+       "q": "Can I publish a gig today?",
+       "a": "No, the Publish a gig function in the COMPANY space is announced as coming soon."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Externalizar la atención al cliente: nearshore, offshore y TAAS",
+   "description": "¿Nearshore u offshore para la atención al cliente? Criterios de elección y el modelo TAAS de HARX, donde solo se paga cuando el resultado está aprobado.",
+   "blocks": [
+    {
+     "h2": "Externalizar la atención al cliente: ¿de qué hablamos?"
+    },
+    {
+     "p": "Externalizar la atención al cliente es confiar todas o parte de las conversaciones con los clientes a un socio externo. Se habla de nearshore cuando ese socio está en un país cercano y de offshore cuando está más lejos. La elección depende de criterios propios de cada empresa, no de una regla universal."
+    },
+    {
+     "ul": [
+      "El nivel de control que la empresa quiere conservar sobre la calidad.",
+      "Los idiomas y las franjas horarias que hay que cubrir.",
+      "La naturaleza de las solicitudes: sencillas y repetitivas, o delicadas y técnicas.",
+      "La sensibilidad de los datos manejados.",
+      "La flexibilidad que se busca ante una actividad que varía a lo largo del año."
+     ]
+    },
+    {
+     "h2": "El problema del modelo clásico: pagar el tiempo y no el resultado"
+    },
+    {
+     "p": "En muchos contratos de externalización se paga tiempo o recursos, se consiga o no el resultado. Para la empresa, la dificultad es vincular ese gasto con un beneficio medible. Para el proveedor, a veces es delicado demostrar lo que realmente se ha aportado."
+    },
+    {
+     "h2": "TAAS: pagar por resultados"
+    },
+    {
+     "p": "TAAS, o Transaction-as-a-Service, es una de las dos ofertas reunidas en HARX.ai. La empresa define el resultado esperado y su precio, y solo paga cuando ese resultado se aprueba. Una misión se llama gig. La realiza una red de profesionales certificados de atención al cliente, humanos o IA, y cada interacción se evalúa en tiempo real."
+    },
+    {
+     "p": "Hay dos espacios: COMPANY, para las empresas, y REPS, donde los profesionales encuentran gigs. La función Publicar un gig del espacio COMPANY se anuncia como próximamente disponible: todavía no está abierta. Para una actividad de centro de contacto más estructurada, HARX Telefonía propone también Contact Centre Multi-clients, destinado a centros en Europa, Estados Unidos o países de externalización como Francia, Marruecos, Túnez y Senegal."
+    },
+    {
+     "h2": "Buenas prácticas para una externalización exitosa"
+    },
+    {
+     "ul": [
+      "Definir con precisión el resultado esperado antes de elegir un modelo: ¿qué es una conversación lograda?",
+      "Empezar con un alcance limitado y ampliarlo después si los resultados lo justifican.",
+      "Compartir con el socio toda la información útil sobre la oferta, las reglas y los casos particulares.",
+      "Mantener una persona de referencia en la empresa, capaz de decidir con rapidez.",
+      "Prever un modo de controlar la calidad: muestras de conversaciones, opiniones de clientes y revisiones periódicas.",
+      "Comprobar con un asesor competente las obligaciones sobre datos personales en los países implicados."
+     ]
+    },
+    {
+     "p": "Se elija nearshore u offshore, lo esencial es vincular el gasto con un resultado claro. Esa es precisamente la lógica del modelo TAAS de HARX. Es además una buena disciplina en sí misma: la empresa que sabe describir en una frase el resultado que quiere suele encontrar mucho más fácil el resto de la decisión."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Qué diferencia hay entre nearshore y offshore?",
+       "a": "Nearshore designa un socio en un país cercano y offshore un socio más lejano; la elección adecuada depende de sus propios criterios."
+      },
+      {
+       "q": "¿Qué significa pagar por resultados con TAAS?",
+       "a": "La empresa define el resultado esperado y su precio, y solo paga cuando ese resultado se aprueba."
+      },
+      {
+       "q": "¿Puedo publicar un gig hoy?",
+       "a": "No, la función Publicar un gig del espacio COMPANY se anuncia como próximamente disponible."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "الاستعانة بمصادر خارجية لخدمة العملاء: القريبة والبعيدة ونموذج TAAS",
+   "description": "هل نختار جهة قريبة أم بعيدة لخدمة العملاء؟ معايير الاختيار ونموذج TAAS من HARX الذي لا تدفعون فيه إلا عند اعتماد النتيجة المنتظرة.",
+   "blocks": [
+    {
+     "h2": "الاستعانة بمصادر خارجية لخدمة العملاء: ماذا نعني بها؟"
+    },
+    {
+     "p": "تعني الاستعانة بمصادر خارجية لخدمة العملاء إسناد كل محادثات الشركة مع عملائها أو جزء منها إلى شريك من خارجها. ويُقال «نيرشور» حين يكون الشريك في بلد قريب، و«أوفشور» حين يكون أبعد. ويتوقف الاختيار على معايير كل شركة، لا على قاعدة عامة."
+    },
+    {
+     "ul": [
+      "مستوى الرقابة الذي ترغب الشركة في الاحتفاظ به على الجودة.",
+      "اللغات والفترات الزمنية التي ينبغي تغطيتها.",
+      "طبيعة الطلبات: بسيطة ومتكررة أو دقيقة وتقنية.",
+      "حساسية البيانات التي يجري التعامل معها.",
+      "المرونة المطلوبة إزاء نشاط يتفاوت على مدار السنة."
+     ]
+    },
+    {
+     "h2": "مشكلة النموذج التقليدي: الدفع مقابل الوقت لا مقابل النتيجة"
+    },
+    {
+     "p": "في كثير من عقود الإسناد يُدفع مقابل الوقت أو الموارد سواء تحققت النتيجة أم لا. وصعوبة الأمر بالنسبة إلى الشركة هي ربط هذا الإنفاق بفائدة قابلة للقياس. أما بالنسبة إلى المزوّد فقد يكون إثبات ما قدّمه فعليًا أمرًا دقيقًا."
+    },
+    {
+     "h2": "نموذج TAAS: الدفع مقابل النتيجة"
+    },
+    {
+     "p": "TAAS أو Transaction-as-a-Service هو أحد العرضين المجتمعين في HARX.ai. تحدد الشركة النتيجة المنتظرة وسعرها، ولا تدفع إلا عند اعتماد هذه النتيجة. وتسمى المهمة «gig»، وتنفذها شبكة من مختصي خدمة العملاء المعتمدين، من البشر أو الذكاء الاصطناعي، وتُقيَّم كل مراسلة أو مكالمة في الوقت الفعلي."
+    },
+    {
+     "p": "وهناك فضاءان: COMPANY للشركات، وREPS حيث يجد المختصون مهام gig. أما وظيفة «نشر gig» في فضاء COMPANY فيُعلَن أنها ستتوفر قريبًا، وهي غير مفتوحة بعد. ولنشاط مركز اتصال أكثر هيكلة تقدّم HARX للاتصالات الهاتفية أيضًا عرض Contact Centre Multi-clients الموجّه إلى المراكز في أوروبا أو الولايات المتحدة أو بلدان الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال."
+    },
+    {
+     "h2": "ممارسات جيدة لإسناد ناجح"
+    },
+    {
+     "ul": [
+      "تحديد النتيجة المنتظرة بدقة قبل اختيار النموذج: ما هي المحادثة الناجحة؟",
+      "البدء بنطاق محدود ثم توسيعه لاحقًا إذا برّرت النتائج ذلك.",
+      "مشاركة الشريك كل المعلومات المفيدة عن العرض والقواعد والحالات الخاصة.",
+      "الاحتفاظ بشخص مرجعي في الشركة قادر على الحسم بسرعة.",
+      "التخطيط لوسيلة لمراقبة الجودة: عينات من المحادثات وملاحظات العملاء ومراجعات دورية.",
+      "التحقق مع مستشار مؤهل من الالتزامات المتعلقة بالبيانات الشخصية في البلدان المعنية."
+     ]
+    },
+    {
+     "p": "سواء اخترتم الجهة القريبة أو البعيدة فالأساس ربط الإنفاق بنتيجة واضحة، وهذا بالضبط منطق نموذج TAAS من HARX. وهو أيضًا انضباط مفيد في ذاته، فالشركة التي تستطيع وصف النتيجة التي تريدها في جملة واحدة تجد غالبًا بقية القرار أسهل بكثير."
+    },
+    {
+     "p": "ويفيد في جميع الحالات أن تحتفظ الشركة بقدرة على الاستماع إلى عينة من المحادثات بنفسها، فلا يكفي الاعتماد على التقارير وحدها. فالاستماع المباشر يكشف أشياء لا تظهر في الأرقام، كنبرة الصوت وطريقة التعامل مع العميل المنزعج وصحة المعلومات المقدَّمة. وإذا قررت الشركة تغيير النموذج أو الشريك لاحقًا فإن التوثيق الجيد للإجراءات والأسئلة المتكررة يجعل الانتقال أيسر ويقلّل من خطر فقدان المعرفة المتراكمة."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "ما الفرق بين الجهة القريبة والجهة البعيدة؟",
+       "a": "تعني القريبة شريكًا في بلد مجاور، والبعيدة شريكًا أبعد، ويتوقف الاختيار المناسب على معاييركم الخاصة."
+      },
+      {
+       "q": "ماذا يعني الدفع مقابل النتيجة مع TAAS؟",
+       "a": "تحدد الشركة النتيجة المنتظرة وسعرها، ولا تدفع إلا عند اعتماد هذه النتيجة."
+      },
+      {
+       "q": "هل يمكنني نشر gig اليوم؟",
+       "a": "لا، فوظيفة «نشر gig» في فضاء COMPANY يُعلَن أنها ستتوفر قريبًا."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

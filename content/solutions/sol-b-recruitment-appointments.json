@@ -1,0 +1,286 @@
+{
+ "type": "solution",
+ "slug": "sol-b-recruitment-appointments",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Recrutement : planifier les rendez-vous candidats au téléphone",
+   "description": "Joindre les candidats, caler les entretiens, limiter les rendez-vous manqués : bonnes pratiques et rôle de l'offre Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "Le problème : des candidats difficiles à joindre et à fixer"
+    },
+    {
+     "p": "Recruter, c'est aussi beaucoup de coordination. Les recruteurs passent une part importante de leur journée à joindre des candidats, à proposer des créneaux et à relancer ceux qui ne répondent pas. Chaque rendez-vous non confirmé ou oublié fait perdre du temps aux deux parties."
+    },
+    {
+     "ul": [
+      "Les candidats ne décrochent pas toujours les numéros inconnus.",
+      "Les créneaux d'entretien sont négociés par échanges successifs, souvent longs.",
+      "Les rendez-vous manqués ne sont pas relancés ni reprogrammés.",
+      "Plusieurs recruteurs contactent le même candidat sans coordination.",
+      "Les candidats à l'étranger ou en horaires décalés sont difficiles à atteindre."
+     ]
+    },
+    {
+     "h2": "Ce que l'offre Company Full Scope In & Out apporte aux équipes de recrutement"
+    },
+    {
+     "p": "Le recrutement figure parmi les usages visés par Company Full Scope In & Out, l'offre de HARX Téléphonie destinée aux PME et aux équipes à distance. Elle permet aux recruteurs de passer des appels sortants depuis un numéro de leur pays, plus crédible aux yeux d'un candidat qu'un numéro masqué."
+    },
+    {
+     "p": "Les appels entrants sont aussi gérés : un candidat qui rappelle après un message trouve un accueil ou un répondeur, au lieu d'une ligne qui sonne dans le vide. Une IA d'assistance accompagne les échanges. Comme l'abonnement est mensuel, avec minutes et IA prépayées, une équipe peut moduler son usage selon l'intensité de ses campagnes de recrutement."
+    },
+    {
+     "h2": "Bonnes pratiques pour la prise de rendez-vous candidats"
+    },
+    {
+     "ul": [
+      "Annoncer dès le début de l'appel qui vous êtes, pour quel poste et combien de temps durera l'échange.",
+      "Proposer deux ou trois créneaux précis plutôt qu'une question ouverte.",
+      "Confirmer le rendez-vous par message écrit, avec la date, l'heure, la durée et le format.",
+      "Prévoir un rappel avant l'entretien pour limiter les oublis.",
+      "Tenir un suivi partagé des candidats déjà contactés pour éviter les doublons.",
+      "Respecter les disponibilités du candidat, notamment lorsqu'il est encore en poste.",
+      "Informer le candidat de la suite du processus, même en cas de réponse négative."
+     ]
+    },
+    {
+     "p": "La qualité de ce premier contact téléphonique influence l'image de l'entreprise employeur. Pour fiabiliser ces échanges sans lourde infrastructure, Company Full Scope In & Out de HARX est une option à étudier."
+    },
+    {
+     "p": "Pensez aussi à la période de forte activité : lorsqu'un poste attire beaucoup de réponses, un cadre simple pour les appels évite de laisser des candidats sans nouvelles pendant des jours."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "L'offre peut-elle servir à rappeler des candidats ?",
+       "a": "Oui, elle couvre les appels sortants avec un numéro de votre pays, ainsi que les appels entrants."
+      },
+      {
+       "q": "Convient-elle à un recruteur indépendant ou à une petite équipe ?",
+       "a": "L'offre vise les PME et les équipes à distance ; elle peut convenir à une petite équipe de recrutement."
+      },
+      {
+       "q": "Faut-il du matériel spécifique ?",
+       "a": "La ligne est présentée comme opérationnelle en quelques minutes, sur abonnement mensuel."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Recruitment: scheduling candidate appointments by phone",
+   "description": "Reaching candidates, fixing interviews and cutting no-shows: practical advice and the role of HARX's Company Full Scope In & Out offer for recruiting teams.",
+   "blocks": [
+    {
+     "h2": "The problem: candidates who are hard to reach and pin down"
+    },
+    {
+     "p": "Recruiting involves a lot of coordination. Recruiters spend a large part of their day reaching candidates, proposing slots and chasing those who do not answer. Every unconfirmed or forgotten appointment wastes time for both sides."
+    },
+    {
+     "ul": [
+      "Candidates do not always pick up unknown numbers.",
+      "Interview slots are negotiated through long exchanges back and forth.",
+      "Missed appointments are not followed up or rescheduled.",
+      "Several recruiters contact the same candidate without coordination.",
+      "Candidates abroad or on different hours are hard to reach."
+     ]
+    },
+    {
+     "h2": "What Company Full Scope In & Out brings to recruiting teams"
+    },
+    {
+     "p": "Recruitment is among the uses targeted by Company Full Scope In & Out, the HARX Telephony offer for SMEs and remote teams. It lets recruiters place outbound calls from a number in their own country, which looks more credible to a candidate than a withheld number."
+    },
+    {
+     "p": "Inbound calls are handled as well: a candidate who calls back after a message finds reception or voicemail instead of a line ringing out. An assisting AI supports the conversations. Because the subscription is monthly, with prepaid minutes and AI, a team can adjust its usage to the intensity of its hiring campaigns."
+    },
+    {
+     "h2": "Good practices for booking candidate appointments"
+    },
+    {
+     "ul": [
+      "State at the start of the call who you are, which role it concerns and how long the conversation will take.",
+      "Offer two or three precise slots rather than an open question.",
+      "Confirm the appointment in writing with the date, time, duration and format.",
+      "Plan a reminder before the interview to reduce no-shows.",
+      "Keep a shared record of candidates already contacted to avoid duplicates.",
+      "Respect the candidate's availability, especially if they are still employed.",
+      "Tell the candidate what happens next in the process, even when the answer is negative."
+     ]
+    },
+    {
+     "p": "The quality of this first phone contact shapes the image of the employer. To make these exchanges more reliable without heavy infrastructure, HARX's Company Full Scope In & Out is an option worth studying."
+    },
+    {
+     "p": "Also plan for busy periods: when a vacancy attracts many applications, a simple framework for calls prevents candidates from being left without news for days. A short script, shared by the whole team, keeps the tone consistent and saves preparation time for every recruiter involved."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can the offer be used to call candidates back?",
+       "a": "Yes, it covers outbound calls with a number from your country, as well as inbound calls."
+      },
+      {
+       "q": "Does it suit an independent recruiter or a small team?",
+       "a": "The offer targets SMEs and remote teams; it can suit a small recruiting team."
+      },
+      {
+       "q": "Is specific equipment needed?",
+       "a": "The line is presented as operational within minutes, on a monthly subscription."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Selección de personal: citas con candidatos por teléfono",
+   "description": "Contactar candidatos, fijar entrevistas y reducir ausencias: buenas prácticas y papel de la oferta Company Full Scope In & Out de HARX en selección de personal.",
+   "blocks": [
+    {
+     "h2": "El problema: candidatos difíciles de localizar y de citar"
+    },
+    {
+     "p": "Seleccionar personal implica mucha coordinación. Los reclutadores dedican buena parte de su jornada a contactar candidatos, proponer horarios y reclamar a quienes no responden. Cada cita sin confirmar u olvidada hace perder tiempo a ambas partes."
+    },
+    {
+     "ul": [
+      "Los candidatos no siempre contestan a números desconocidos.",
+      "Los horarios de entrevista se negocian con intercambios sucesivos, a menudo largos.",
+      "Las citas perdidas no se reclaman ni se reprograman.",
+      "Varios reclutadores contactan al mismo candidato sin coordinación.",
+      "Los candidatos en el extranjero o con horarios distintos son difíciles de alcanzar."
+     ]
+    },
+    {
+     "h2": "Qué aporta Company Full Scope In & Out a los equipos de selección"
+    },
+    {
+     "p": "La selección de personal figura entre los usos a los que se dirige Company Full Scope In & Out, la oferta de HARX Telefonía para pymes y equipos remotos. Permite a los reclutadores hacer llamadas salientes desde un número de su país, más creíble para un candidato que un número oculto."
+    },
+    {
+     "p": "También se gestionan las llamadas entrantes: el candidato que devuelve la llamada tras un mensaje encuentra una recepción o un contestador, y no una línea que suena en vacío. Una IA de apoyo acompaña las conversaciones. Como la suscripción es mensual, con minutos e IA prepagados, un equipo puede ajustar su uso a la intensidad de sus campañas de contratación."
+    },
+    {
+     "h2": "Buenas prácticas para concertar citas con candidatos"
+    },
+    {
+     "ul": [
+      "Decir al empezar la llamada quién eres, de qué puesto se trata y cuánto durará la conversación.",
+      "Proponer dos o tres horarios concretos en lugar de una pregunta abierta.",
+      "Confirmar la cita por escrito con fecha, hora, duración y formato.",
+      "Prever un recordatorio antes de la entrevista para reducir las ausencias.",
+      "Mantener un registro compartido de los candidatos ya contactados para evitar duplicados.",
+      "Respetar la disponibilidad del candidato, sobre todo si aún trabaja.",
+      "Informar al candidato de los siguientes pasos del proceso, incluso cuando la respuesta sea negativa."
+     ]
+    },
+    {
+     "p": "La calidad de este primer contacto telefónico influye en la imagen de la empresa como empleadora. Para dar más fiabilidad a estos intercambios sin una infraestructura pesada, Company Full Scope In & Out de HARX es una opción que conviene estudiar."
+    },
+    {
+     "p": "Conviene prever también los periodos de mucha actividad: cuando una vacante recibe muchas candidaturas, un marco sencillo para las llamadas evita dejar a los candidatos sin noticias durante días. Un guion breve, compartido por todo el equipo, mantiene el tono coherente."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Se puede usar la oferta para devolver llamadas a candidatos?",
+       "a": "Sí, cubre llamadas salientes con un número de su país, además de las entrantes."
+      },
+      {
+       "q": "¿Sirve para un reclutador independiente o un equipo pequeño?",
+       "a": "La oferta se dirige a pymes y equipos remotos; puede servir a un equipo de selección pequeño."
+      },
+      {
+       "q": "¿Hace falta material específico?",
+       "a": "La línea se presenta como operativa en pocos minutos, con suscripción mensual."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "التوظيف: تحديد مواعيد المرشحين عبر الهاتف",
+   "description": "الوصول إلى المرشحين وتحديد المقابلات وتقليل الغياب: ممارسات عملية ودور عرض Company Full Scope In & Out من HARX لفرق التوظيف.",
+   "blocks": [
+    {
+     "h2": "المشكلة: مرشحون يصعب الوصول إليهم وتثبيت مواعيدهم"
+    },
+    {
+     "p": "يتطلب التوظيف قدرًا كبيرًا من التنسيق. فيقضي المسؤولون عن التوظيف جزءًا مهمًا من يومهم في الاتصال بالمرشحين واقتراح المواعيد ومتابعة من لا يردّون. وكل موعد غير مؤكَّد أو منسي يضيّع وقت الطرفين."
+    },
+    {
+     "ul": [
+      "لا يردّ المرشحون دائمًا على الأرقام غير المعروفة.",
+      "تُتفاوض مواعيد المقابلات عبر مراسلات متتالية طويلة في الغالب.",
+      "لا تُتابَع المواعيد الفائتة ولا يُعاد جدولتها.",
+      "يتصل عدة مسؤولين بالمرشح نفسه دون تنسيق.",
+      "يصعب الوصول إلى المرشحين المقيمين في الخارج أو الذين تختلف ساعات يومهم."
+     ]
+    },
+    {
+     "p": "وتتضاعف هذه الصعوبات في حملات التوظيف المكثفة، حين يتعين الاتصال بعدد كبير من الأشخاص في وقت قصير، فيصبح غياب التنظيم سببًا مباشرًا لضياع مرشحين جيدين."
+    },
+    {
+     "h2": "ما يقدمه عرض Company Full Scope In & Out لفرق التوظيف"
+    },
+    {
+     "p": "يأتي التوظيف ضمن الاستخدامات التي يستهدفها Company Full Scope In & Out، وهو عرض HARX للاتصالات الهاتفية الموجّه إلى الشركات الصغيرة والمتوسطة والفرق عن بُعد. ويتيح لمسؤولي التوظيف إجراء مكالمات صادرة من رقم في بلدهم، وهو أكثر مصداقية في نظر المرشح من رقم مخفي."
+    },
+    {
+     "p": "وتُدار المكالمات الواردة أيضًا، فالمرشح الذي يعاود الاتصال بعد رسالة يجد استقبالًا أو مجيبًا آليًا بدل خط يرنّ بلا جواب. ويرافق ذكاء اصطناعي مساعد المحادثات. ولأن الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، يستطيع الفريق ضبط استخدامه بحسب كثافة حملات التوظيف."
+    },
+    {
+     "h2": "ممارسات جيدة لتحديد مواعيد المرشحين"
+    },
+    {
+     "ul": [
+      "التعريف بنفسك في بداية المكالمة، وذكر الوظيفة المعنية والمدة التقريبية للحديث.",
+      "اقتراح موعدين أو ثلاثة محددة بدل سؤال مفتوح.",
+      "تأكيد الموعد كتابةً مع التاريخ والساعة والمدة والصيغة.",
+      "التخطيط لتذكير قبل المقابلة لتقليل حالات الغياب.",
+      "الاحتفاظ بسجل مشترك للمرشحين الذين جرى الاتصال بهم لتفادي التكرار.",
+      "احترام أوقات المرشح، خاصة إن كان لا يزال على رأس عمله.",
+      "إطلاع المرشح على المراحل التالية، حتى حين تكون الإجابة بالرفض."
+     ]
+    },
+    {
+     "p": "تؤثر جودة هذا الاتصال الأول في صورة الشركة كجهة توظيف. ولتحسين موثوقية هذه التواصلات دون بنية تحتية ثقيلة، يستحق عرض Company Full Scope In & Out من HARX الدراسة."
+    },
+    {
+     "p": "ومن المفيد كذلك الاستعداد لفترات النشاط المكثف، فحين تجذب وظيفة شاغرة عددًا كبيرًا من الطلبات يمنع وجود إطار بسيط للمكالمات ترك المرشحين أيامًا دون أخبار. كما أن نصًّا قصيرًا يشترك فيه الفريق كله يحافظ على اتساق النبرة ويوفّر على كل مسؤول وقت التحضير. وينبغي أيضًا أن يُحدَّد من يتابع كل مرشح من أول اتصال حتى نهاية العملية، حتى لا يتلقى الشخص نفسه رسائل متضاربة من أكثر من جهة، وأن تُسجَّل كل خطوة ليتمكن أي زميل من استكمال الملف عند الحاجة دون إعادة الأسئلة نفسها على المرشح."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يمكن استخدام العرض لمعاودة الاتصال بالمرشحين؟",
+       "a": "نعم، فهو يغطي المكالمات الصادرة برقم من بلدكم إضافة إلى المكالمات الواردة."
+      },
+      {
+       "q": "هل يناسب مسؤول توظيف مستقلًا أو فريقًا صغيرًا؟",
+       "a": "يستهدف العرض الشركات الصغيرة والمتوسطة والفرق عن بُعد، ويمكن أن يناسب فريق توظيف صغيرًا."
+      },
+      {
+       "q": "هل يلزم عتاد خاص؟",
+       "a": "يُقدَّم الخط على أنه جاهز خلال دقائق باشتراك شهري."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

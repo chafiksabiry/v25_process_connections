@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-harx-for-small-businesses",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "HARX pour les TPE : accueil et secrétariat téléphonique",
+   "description": "TPE, cabinet ou courtier : comment ne plus manquer d’appels ? Questions sur l’offre Accueil / Secrétariat de HARX Téléphonie et l’accueil délocalisé.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Pourquoi l’accueil téléphonique compte-t-il pour une TPE ?",
+       "a": "Pour une petite structure, un appel manqué peut être un client perdu. Un accueil soigné donne aussi une première impression professionnelle."
+      },
+      {
+       "q": "Quelle offre HARX convient aux TPE ?",
+       "a": "L’offre Accueil / Secrétariat de HARX Téléphonie, conçue pour les TPE de tous métiers, les cabinets médicaux et les courtiers d’assurance."
+      },
+      {
+       "q": "Que signifie accueil délocalisé ?",
+       "a": "L’accueil de vos appels est assuré à distance, plutôt que sur place. Vous pouvez aussi compter sur du personnel à distance pour répondre."
+      },
+      {
+       "q": "Le répondeur et l’IA sont-ils inclus ?",
+       "a": "HARX Téléphonie comprend un répondeur et une IA qui assiste. Pour savoir comment ils s’intègrent à votre usage, consultez la présentation de l’offre."
+      },
+      {
+       "q": "Comment préparer un bon message d’accueil ?",
+       "a": "Indiquez le nom de l’entreprise, soyez bref et proposez une action claire : laisser un message ou rappeler plus tard. Pensez à noter chaque demande."
+      },
+      {
+       "q": "Faut-il une installation compliquée ?",
+       "a": "HARX Téléphonie est présentée comme opérationnelle en quelques minutes. L’abonnement est mensuel, avec minutes et IA prépayées."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "HARX for Very Small Businesses: Phone Reception and Secretarial Service",
+   "description": "Small practice, clinic or broker: how to stop missing calls? Questions on HARX Telephony’s Reception / Secretarial offer and remote reception.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Why does phone reception matter to a very small business?",
+       "a": "For a small structure, a missed call can mean a lost customer. A careful greeting also gives a professional first impression."
+      },
+      {
+       "q": "Which HARX offer suits very small businesses?",
+       "a": "The Reception / Secretarial offer in HARX Telephony, designed for very small businesses of all trades, medical practices and insurance brokers."
+      },
+      {
+       "q": "What does remote reception mean?",
+       "a": "Your calls are answered remotely rather than on site. You can also rely on remote staff to pick up."
+      },
+      {
+       "q": "Are voicemail and AI included?",
+       "a": "HARX Telephony includes voicemail and an AI that assists. To see how they fit your use, check the offer’s presentation."
+      },
+      {
+       "q": "How do I prepare a good greeting?",
+       "a": "State the company name, keep it short and offer a clear action: leave a message or call back later. Remember to note every request."
+      },
+      {
+       "q": "Is setup complicated?",
+       "a": "HARX Telephony is presented as operational within minutes. The subscription is monthly, with prepaid minutes and AI."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "HARX para microempresas: recepción y secretaría telefónica",
+   "description": "Microempresa, consulta o corredor: ¿cómo no perder llamadas? Preguntas sobre la oferta Recepción / Secretaría de HARX Telefonía y la recepción deslocalizada.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Por qué importa la recepción telefónica en una microempresa?",
+       "a": "En una estructura pequeña, una llamada perdida puede ser un cliente perdido. Una buena atención también transmite una primera impresión profesional."
+      },
+      {
+       "q": "¿Qué oferta de HARX conviene a las microempresas?",
+       "a": "La oferta Recepción / Secretaría de HARX Telefonía, pensada para microempresas de cualquier oficio, consultas médicas y corredores de seguros."
+      },
+      {
+       "q": "¿Qué significa recepción deslocalizada?",
+       "a": "Las llamadas se atienden a distancia y no en el local. También puede contar con personal a distancia para responder."
+      },
+      {
+       "q": "¿Incluye buzón de voz e IA?",
+       "a": "HARX Telefonía incluye buzón de voz y una IA que asiste. Para ver cómo encajan en su uso, consulte la presentación de la oferta."
+      },
+      {
+       "q": "¿Cómo preparo un buen mensaje de bienvenida?",
+       "a": "Indique el nombre de la empresa, sea breve y proponga una acción clara: dejar un mensaje o llamar más tarde. No olvide anotar cada petición."
+      },
+      {
+       "q": "¿La instalación es complicada?",
+       "a": "HARX Telefonía se presenta como operativa en pocos minutos. La suscripción es mensual, con minutos e IA prepagados."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "HARX للمؤسسات الصغيرة جداً: الاستقبال والسكرتارية الهاتفية",
+   "description": "مؤسسة صغيرة أو عيادة أو وسيط تأمين: كيف لا تفوّت مكالماتك؟ أسئلة حول عرض الاستقبال والسكرتارية في HARX Telephony والاستقبال عن بُعد.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "لماذا يهم الاستقبال الهاتفي المؤسسات الصغيرة جداً؟",
+       "a": "في الهياكل الصغيرة قد تعني مكالمة فائتة عميلاً ضائعاً، كما أن الاستقبال الجيد يترك انطباعاً أول مهنياً."
+      },
+      {
+       "q": "أي عرض من HARX يناسب هذه المؤسسات؟",
+       "a": "عرض الاستقبال / السكرتارية ضمن HARX Telephony، وهو مصمم للمؤسسات الصغيرة جداً من مختلف المهن والعيادات الطبية ووسطاء التأمين."
+      },
+      {
+       "q": "ماذا يعني الاستقبال عن بُعد؟",
+       "a": "تُجاب مكالماتك عن بُعد لا في المقر. ويمكنك أيضاً الاعتماد على موظفين عن بُعد للرد."
+      },
+      {
+       "q": "هل يشمل العرض بريداً صوتياً وذكاءً اصطناعياً؟",
+       "a": "يتضمن HARX Telephony بريداً صوتياً وذكاءً اصطناعياً مساعداً. ولمعرفة كيف يناسبان استخدامك راجع عرض الخدمة."
+      },
+      {
+       "q": "كيف أعدّ رسالة ترحيب جيدة؟",
+       "a": "اذكر اسم الشركة، وكن موجزاً، واقترح إجراءً واضحاً: ترك رسالة أو معاودة الاتصال لاحقاً. ولا تنسَ تدوين كل طلب."
+      },
+      {
+       "q": "هل التركيب معقد؟",
+       "a": "يُقدَّم HARX Telephony على أنه جاهز للعمل في دقائق. والاشتراك شهري، مع دقائق وذكاء اصطناعي مدفوعة مسبقاً."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

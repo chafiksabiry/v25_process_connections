@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "subscription-minutes-ai-credits-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Abonnement, minutes et IA prépayées : la FAQ HARX",
+      "description": "Comprendre le modèle de HARX Téléphonie : abonnement mensuel, minutes prépayées et IA prépayée, et comment suivre sa consommation.",
+      "blocks": [
+        {
+          "h2": "Comprendre le modèle de facturation"
+        },
+        {
+          "faq": [
+            {
+              "q": "Comment fonctionne le modèle de HARX Téléphonie ?",
+              "a": "Il associe un abonnement mensuel à des minutes et à de l'IA prépayées. Vous payez l'accès au service, puis ce que vous consommez en appels et en assistance IA."
+            },
+            {
+              "q": "Que couvre l'abonnement mensuel ?",
+              "a": "Il donne accès à l'offre choisie, avec le numéro de votre pays et les fonctions qui l'accompagnent. Le contenu exact dépend de la formule retenue."
+            },
+            {
+              "q": "Que signifie « minutes prépayées » ?",
+              "a": "Vous alimentez un crédit de minutes à l'avance, puis les appels le consomment. Le principe est simple : pas de surprise liée à un usage que vous n'avez pas prévu."
+            },
+            {
+              "q": "Qu'est-ce que l'IA prépayée ?",
+              "a": "L'assistance IA pendant les appels fonctionne aussi avec un crédit acheté à l'avance. Vous gardez la main sur ce que vous choisissez d'activer."
+            },
+            {
+              "q": "Où trouver les tarifs ?",
+              "a": "Les conditions se consultent directement auprès de HARX au moment du choix de l'offre. Cette FAQ n'indique aucun montant pour éviter toute information périmée."
+            },
+            {
+              "q": "Comment estimer mes besoins en minutes ?",
+              "a": "Partez de votre nombre d'appels par semaine et de leur durée moyenne, ajoutez une marge, puis ajustez après quelques jours d'utilisation réelle."
+            },
+            {
+              "q": "Que faire si mon crédit arrive à son terme ?",
+              "a": "Rechargez-le avant d'en avoir besoin pour ne pas interrompre vos appels. Surveillez votre solde régulièrement, surtout avant une période de forte activité."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Subscription, Prepaid Minutes and AI: The HARX FAQ",
+      "description": "Understand the HARX Telephony model: monthly subscription, prepaid minutes and prepaid AI, and how to keep track of your usage.",
+      "blocks": [
+        {
+          "h2": "Understanding how billing works"
+        },
+        {
+          "faq": [
+            {
+              "q": "How does the HARX Telephony model work?",
+              "a": "It combines a monthly subscription with prepaid minutes and prepaid AI. You pay for access to the service, then for what you use in calls and AI assistance."
+            },
+            {
+              "q": "What does the monthly subscription cover?",
+              "a": "It gives access to the chosen plan, with your country's number and the features that come with it. The exact content depends on the plan you select."
+            },
+            {
+              "q": "What does \"prepaid minutes\" mean?",
+              "a": "You top up a minutes credit in advance and calls draw it down. The principle is simple: no surprise from usage you had not planned."
+            },
+            {
+              "q": "What is prepaid AI?",
+              "a": "AI assistance during calls also runs on a credit bought in advance. You stay in control of what you choose to activate."
+            },
+            {
+              "q": "Where can I find the rates?",
+              "a": "Terms are available directly from HARX when you choose your plan. This FAQ gives no amounts to avoid outdated information."
+            },
+            {
+              "q": "How do I estimate my minutes needs?",
+              "a": "Start from your number of calls per week and their average length, add a margin, then adjust after a few days of real use."
+            },
+            {
+              "q": "What if my credit runs out?",
+              "a": "Top it up before you need it so your calls are not interrupted. Check your balance regularly, especially ahead of a busy period."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Suscripción, minutos e IA de prepago: la FAQ de HARX",
+      "description": "Entender el modelo de HARX Telefonía: suscripción mensual, minutos prepagados e IA prepagada, y cómo controlar su consumo.",
+      "blocks": [
+        {
+          "h2": "Entender el modelo de facturación"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Cómo funciona el modelo de HARX Telefonía?",
+              "a": "Combina una suscripción mensual con minutos e IA de prepago. Paga el acceso al servicio y después lo que consume en llamadas y asistencia con IA."
+            },
+            {
+              "q": "¿Qué cubre la suscripción mensual?",
+              "a": "Da acceso a la oferta elegida, con el número de su país y las funciones que la acompañan. El contenido exacto depende del plan que seleccione."
+            },
+            {
+              "q": "¿Qué significa «minutos de prepago»?",
+              "a": "Usted carga un crédito de minutos por adelantado y las llamadas lo van consumiendo. El principio es simple: sin sorpresas por un uso que no había previsto."
+            },
+            {
+              "q": "¿Qué es la IA de prepago?",
+              "a": "La asistencia con IA durante las llamadas también funciona con un crédito comprado de antemano. Usted controla lo que decide activar."
+            },
+            {
+              "q": "¿Dónde encuentro las tarifas?",
+              "a": "Las condiciones se consultan directamente con HARX al elegir su oferta. Estas preguntas no indican importes para evitar información desactualizada."
+            },
+            {
+              "q": "¿Cómo estimo mis necesidades de minutos?",
+              "a": "Parta de su número de llamadas semanales y su duración media, añada un margen y ajuste tras unos días de uso real."
+            },
+            {
+              "q": "¿Qué pasa si se agota mi crédito?",
+              "a": "Recárguelo antes de necesitarlo para no interrumpir sus llamadas. Revise su saldo con regularidad, sobre todo antes de un periodo de mucha actividad."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "الاشتراك والدقائق والذكاء الاصطناعي مسبق الدفع: أسئلة HARX",
+      "description": "فهم نموذج HARX للهاتف: اشتراك شهري ودقائق وذكاء اصطناعي مدفوعة مسبقًا، وكيفية متابعة استهلاكك.",
+      "blocks": [
+        {
+          "h2": "فهم آلية الدفع"
+        },
+        {
+          "faq": [
+            {
+              "q": "كيف يعمل نموذج HARX للهاتف؟",
+              "a": "يجمع بين اشتراك شهري ودقائق وذكاء اصطناعي مدفوعي المقدّم؛ تدفع مقابل الوصول إلى الخدمة، ثم مقابل ما تستهلكه في المكالمات والمساعدة بالذكاء الاصطناعي."
+            },
+            {
+              "q": "ماذا يغطي الاشتراك الشهري؟",
+              "a": "يمنحك الوصول إلى العرض المختار مع رقم بلدك والوظائف المرافقة له، ويتوقف المحتوى الدقيق على العرض الذي تختاره."
+            },
+            {
+              "q": "ماذا تعني «الدقائق المدفوعة مسبقًا»؟",
+              "a": "تشحن رصيدًا من الدقائق مقدمًا ثم تستهلكه المكالمات. والمبدأ بسيط: لا مفاجآت ناتجة عن استخدام لم تخطط له."
+            },
+            {
+              "q": "ما هو الذكاء الاصطناعي المدفوع مسبقًا؟",
+              "a": "تعمل المساعدة بالذكاء الاصطناعي أثناء المكالمات برصيد يُشترى مقدمًا أيضًا، وتبقى أنت المتحكم فيما تقرر تفعيله."
+            },
+            {
+              "q": "أين أجد الأسعار؟",
+              "a": "تُطلع على الشروط لدى HARX مباشرة عند اختيار عرضك. ولا تذكر هذه الأسئلة أي مبالغ لتفادي معلومات قديمة."
+            },
+            {
+              "q": "كيف أقدّر احتياجي من الدقائق؟",
+              "a": "انطلق من عدد مكالماتك الأسبوعية ومتوسط مدتها، وأضف هامشًا، ثم عدّل بعد بضعة أيام من الاستخدام الفعلي."
+            },
+            {
+              "q": "ماذا لو نفد رصيدي؟",
+              "a": "اشحنه قبل الحاجة إليه حتى لا تنقطع مكالماتك، وراجع رصيدك بانتظام، خاصة قبل فترة نشاط مكثف."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

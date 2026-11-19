@@ -3,28 +3,34 @@
   command = "npm ci && npm run build"
 
 [build.environment]
-  # recette branch: load the *-recette microfrontends in every context
-  VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
-  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
-  VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
+  # Default / branch / preview: load *-dev microfrontends
+  VITE_MF_AUTH_ENTRY = "https://harx26register-dev.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestratorfront-dev.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harx26reporchestratorfront-dev.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
   VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
+  # API de l'orchestrateur (code de liaison WhatsApp). Numéro du support : VITE_WHATSAPP_SUPPORT_NUMBER (défaut 212711311388).
+  VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-recette.up.railway.app/api"
 
-# recette branch: every context points to the Recette backends and micro-frontends
+# Production (harx.ai) — production Netlify MF hosts (not *-dev)
 [context.production.environment]
-  VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
-  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
-  VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
+  VITE_META_PIXEL_ID = "340901355517689"
+  VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-production.up.railway.app/api"
+  VITE_MF_AUTH_ENTRY = "https://harx25register.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harxv25comporchestratorfront.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harxv25reporchestratorfront.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
-  VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
+  VITE_MF_CALLCENTER_ENTRY = "https://harxv25callcenterfront.netlify.app"
 
 # Alias used by some Netlify branch setups
 [context.prod.environment]
-  VITE_MF_AUTH_ENTRY = "https://harx26register-recette.netlify.app"
-  VITE_MF_COMPANY_ENTRY = "https://harx26comporchestrator-recette.netlify.app"
-  VITE_MF_REPS_ENTRY = "https://harx26reporchestrator-recette.netlify.app"
+  VITE_META_PIXEL_ID = "340901355517689"
+  VITE_API_URL_ORCHESTRATOR = "https://v25comporchestratorback-production.up.railway.app/api"
+  VITE_MF_AUTH_ENTRY = "https://harx25register.netlify.app"
+  VITE_MF_COMPANY_ENTRY = "https://harxv25comporchestratorfront.netlify.app"
+  VITE_MF_REPS_ENTRY = "https://harxv25reporchestratorfront.netlify.app"
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
-  VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
+  VITE_MF_CALLCENTER_ENTRY = "https://harxv25callcenterfront.netlify.app"
 
 # Ancienne adresse du produit : redirection permanente vers /telephony (liens, favoris, moteurs de recherche).
 [[redirects]]

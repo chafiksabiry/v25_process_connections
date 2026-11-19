@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-insurance-broker",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Courtier en assurance : ne plus perdre d’appels clients",
+   "description": "Courtage en assurance : accueil des clients, appels en période chargée et continuité de service avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Pour un courtier en assurance, le téléphone est un canal central : déclaration d’un sinistre, question sur un contrat, demande de devis. Un appel sans réponse peut se traduire par un client mécontent, voire un client perdu."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’un cabinet de courtage"
+    },
+    {
+     "p": "Les appels se concentrent à des moments précis, après un événement climatique, lors des échéances de contrat ou en fin de journée. Le courtier, souvent en rendez-vous ou en déplacement, ne peut pas toujours décrocher, et les petites structures n’ont pas toujours de standardiste dédié."
+    },
+    {
+     "ul": [
+      "Des pics d’appels imprévisibles, difficiles à absorber avec une équipe réduite.",
+      "Des clients qui attendent un retour rapide, surtout lorsqu’ils appellent à propos d’un sinistre.",
+      "Une dépendance forte à une ou deux personnes qui, lorsqu’elles sont absentes, laissent la ligne sans réponse."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie vise les TPE de tous métiers, dont les courtiers d’assurance. Elle propose du personnel à distance ou un accueil délocalisé, un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. L’abonnement est mensuel, avec minutes et IA prépayées."
+    },
+    {
+     "ul": [
+      "Un accueil assuré pendant que vous êtes en rendez-vous, pour que chaque appelant ait un interlocuteur.",
+      "Des appels sortants possibles avec un numéro de votre pays, utiles pour relancer un client ou rappeler un prospect.",
+      "Un répondeur pour continuer à recevoir des messages hors des moments de présence."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un cabinet de courtage"
+    },
+    {
+     "ul": [
+      "Définissez par écrit la liste des informations à recueillir lors d’un premier appel : nom, numéro de contrat, nature de la demande.",
+      "Précisez le délai de rappel que vous pouvez raisonnablement tenir, et tenez-le.",
+      "Ne donnez aucun conseil contractuel par téléphone sans disposer du dossier du client.",
+      "Orientez les déclarations de sinistre vers la procédure prévue par l’assureur concerné.",
+      "Notez chaque appel important dans votre outil de suivi pour garder l’historique du dossier."
+     ]
+    },
+    {
+     "p": "Un accueil bien organisé n’engage aucune promesse de couverture : il garantit surtout que chaque demande est entendue et transmise au bon interlocuteur."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "L’accueil délocalisé peut-il conclure un contrat à ma place ?",
+       "a": "Non. L’offre sert à accueillir et à organiser les appels ; les actes de conseil et de souscription restent de la responsabilité du cabinet."
+      },
+      {
+       "q": "Puis-je passer des appels sortants vers mes clients ?",
+       "a": "HARX Téléphonie prévoit des appels entrants et sortants avec un numéro de votre pays, selon l’offre choisie."
+      },
+      {
+       "q": "L’offre est-elle réservée aux grands cabinets ?",
+       "a": "Non, l’offre Accueil / Secrétariat est pensée pour les très petites entreprises, dont les courtiers d’assurance."
+      }
+     ]
+    },
+    {
+     "p": "Pour garder le lien avec vos clients même en rendez-vous, regardez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Insurance Brokers: Stop Losing Client Calls",
+   "description": "Insurance brokerage: client reception, busy-period calls and continuity of service with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "For an insurance broker the telephone is a central channel: reporting a claim, a question about a policy, a quote request. An unanswered call can mean an unhappy client, or even a lost one."
+    },
+    {
+     "h2": "The typical phone problem for a brokerage"
+    },
+    {
+     "p": "Calls concentrate at particular moments: after a weather event, around policy renewals or at the end of the day. The broker, often in meetings or on the road, cannot always answer, and small firms do not always have a dedicated receptionist."
+    },
+    {
+     "ul": [
+      "Unpredictable call peaks that are hard to absorb with a small team.",
+      "Clients who expect a quick response, especially when they call about a claim.",
+      "Heavy dependence on one or two people who, when absent, leave the line unanswered."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony targets very small businesses of every trade, including insurance brokers. It offers remote staff or offshored reception, a number from your country, incoming and outgoing calls, an answering service and assisting AI. The subscription is monthly, with prepaid minutes and AI."
+    },
+    {
+     "ul": [
+      "Reception handled while you are in meetings, so every caller has someone to talk to.",
+      "Outgoing calls possible with a number from your country, useful for following up a client or calling back a prospect.",
+      "An answering service to keep receiving messages outside the times you are present."
+     ]
+    },
+    {
+     "h2": "General good practice for a brokerage"
+    },
+    {
+     "ul": [
+      "Write down the information to collect on a first call: name, policy number, nature of the request.",
+      "State the callback time you can realistically meet, and meet it.",
+      "Give no contractual advice by phone without the client’s file in front of you.",
+      "Direct claim reports to the procedure set by the insurer concerned.",
+      "Log each important call in your tracking tool to preserve the file history."
+     ]
+    },
+    {
+     "p": "Well-organised reception makes no promise of coverage: above all it ensures that every request is heard and passed to the right person."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can offshored reception sign a policy on my behalf?",
+       "a": "No. The offer is for welcoming and organising calls; advice and underwriting remain the responsibility of the firm."
+      },
+      {
+       "q": "Can I make outgoing calls to my clients?",
+       "a": "HARX Telephony provides incoming and outgoing calls with a number from your country, depending on the offer chosen."
+      },
+      {
+       "q": "Is the offer only for large firms?",
+       "a": "No, the Reception / Secretarial offer is designed for very small businesses, including insurance brokers."
+      }
+     ]
+    },
+    {
+     "p": "To keep in touch with clients even while you are in meetings, look at the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Corredores de seguros: no pierda más llamadas de clientes",
+   "description": "Correduría de seguros: atención al cliente, llamadas en periodos de carga y continuidad del servicio con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "Para un corredor de seguros el teléfono es un canal central: parte de siniestro, duda sobre una póliza, petición de presupuesto. Una llamada sin respuesta puede acabar en un cliente descontento o incluso perdido."
+    },
+    {
+     "h2": "El problema telefónico típico de una correduría"
+    },
+    {
+     "p": "Las llamadas se concentran en momentos concretos: tras un fenómeno meteorológico, en los vencimientos de pólizas o a última hora del día. El corredor, a menudo en reuniones o desplazamientos, no siempre puede contestar, y las estructuras pequeñas no siempre cuentan con un recepcionista dedicado."
+    },
+    {
+     "ul": [
+      "Picos de llamadas imprevisibles, difíciles de absorber con un equipo reducido.",
+      "Clientes que esperan una respuesta rápida, sobre todo cuando llaman por un siniestro.",
+      "Gran dependencia de una o dos personas que, cuando faltan, dejan la línea sin respuesta."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, incluidos los corredores de seguros. Propone personal a distancia o recepción deslocalizada, un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. La suscripción es mensual, con minutos e IA prepagados."
+    },
+    {
+     "ul": [
+      "Recepción atendida mientras usted está en reuniones, para que cada persona que llama tenga un interlocutor.",
+      "Llamadas salientes posibles con un número de su país, útiles para hacer seguimiento de un cliente o devolver la llamada a un posible cliente.",
+      "Un contestador para seguir recibiendo mensajes fuera de los momentos de presencia."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para una correduría"
+    },
+    {
+     "ul": [
+      "Anote por escrito la información que debe recogerse en una primera llamada: nombre, número de póliza y naturaleza de la petición.",
+      "Indique el plazo de devolución que puede cumplir de forma realista, y cúmplalo.",
+      "No dé consejos contractuales por teléfono sin tener delante el expediente del cliente.",
+      "Dirija los partes de siniestro al procedimiento previsto por la aseguradora correspondiente.",
+      "Registre cada llamada importante en su herramienta de seguimiento para conservar el historial del expediente."
+     ]
+    },
+    {
+     "p": "Una recepción bien organizada no promete ninguna cobertura: asegura sobre todo que cada petición sea escuchada y trasladada a la persona adecuada."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede la recepción deslocalizada firmar un contrato en mi lugar?",
+       "a": "No. La oferta sirve para atender y organizar las llamadas; el asesoramiento y la contratación siguen siendo responsabilidad de la correduría."
+      },
+      {
+       "q": "¿Puedo hacer llamadas salientes a mis clientes?",
+       "a": "HARX Telefonía prevé llamadas entrantes y salientes con un número de su país, según la oferta elegida."
+      },
+      {
+       "q": "¿La oferta es solo para grandes despachos?",
+       "a": "No, la oferta Recepción / Secretaría está pensada para microempresas, incluidos los corredores de seguros."
+      }
+     ]
+    },
+    {
+     "p": "Para mantener el contacto con sus clientes incluso en reunión, consulte la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "وسيط التأمين: كيف لا تخسر مكالمات عملائك",
+   "description": "مكتب وساطة التأمين: استقبال العملاء وإدارة المكالمات في أوقات الذروة واستمرارية الخدمة مع عرض الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "بالنسبة لوسيط التأمين، الهاتف قناة مركزية: التبليغ عن حادث، أو سؤال عن عقد، أو طلب عرض سعر. ومكالمة بلا جواب قد تعني عميلًا مستاءً، وربما عميلًا خسرتموه."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة لمكتب الوساطة"
+    },
+    {
+     "p": "تتركز المكالمات في لحظات محددة: بعد ظاهرة جوية، أو عند مواعيد تجديد العقود، أو في نهاية اليوم. والوسيط، الذي غالبًا ما يكون في اجتماع أو تنقّل، لا يستطيع الرد دائمًا، كما أن المكاتب الصغيرة لا تملك دائمًا موظف استقبال مخصصًا."
+    },
+    {
+     "ul": [
+      "ذروات مكالمات لا يمكن توقعها يصعب استيعابها بفريق صغير.",
+      "عملاء ينتظرون ردًا سريعًا، خصوصًا حين يتصلون بشأن حادث.",
+      "اعتماد كبير على شخص أو شخصين، فإذا غابا بقي الخط بلا جواب."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يستهدف عرض الاستقبال / السكرتارية من HARX Téléphonie المنشآت الصغيرة جدًا من كل المهن، ومنها وسطاء التأمين. يقدّم موظفين عن بُعد أو استقبالًا مُنقولًا، ورقمًا من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاءً اصطناعيًا مساعدًا. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+    },
+    {
+     "ul": [
+      "استقبال يُدار أثناء وجودكم في الاجتماعات، فيجد كل متصل من يتحدث إليه.",
+      "مكالمات صادرة ممكنة برقم من بلدكم، مفيدة لمتابعة عميل أو معاودة الاتصال بعميل محتمل.",
+      "جهاز رد لمواصلة استلام الرسائل خارج أوقات حضوركم."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة لمكتب الوساطة"
+    },
+    {
+     "ul": [
+      "دوّنوا المعلومات المطلوب جمعها في أول مكالمة: الاسم ورقم العقد وطبيعة الطلب.",
+      "حدّدوا مهلة معاودة الاتصال التي تستطيعون الالتزام بها فعلًا، والتزموا بها.",
+      "لا تقدّموا نصيحة تعاقدية هاتفيًا دون أن يكون ملف العميل أمامكم.",
+      "وجّهوا التبليغ عن الحوادث إلى الإجراء الذي تحدده شركة التأمين المعنية.",
+      "سجّلوا كل مكالمة مهمة في أداة المتابعة للاحتفاظ بتاريخ الملف."
+     ]
+    },
+    {
+     "p": "الاستقبال المنظّم جيدًا لا يَعِد بأي تغطية، بل يضمن قبل كل شيء أن يُسمَع كل طلب ويُحال إلى الشخص المناسب في الوقت المناسب."
+    },
+    {
+     "p": "ومن الجيد أيضًا أن تُحدّدوا مسبقًا من يتولى الملفات العاجلة داخل المكتب، حتى يعرف الجميع ما الذي يجب فعله عندما تصل مكالمة حساسة في وقت غير مناسب."
+    },
+    {
+     "p": "وكذلك يفيد أن تراجعوا دوريًا أكثر أسباب الاتصال تكرارًا، لتحسين التعليمات المكتوبة وتقليص الوقت الذي يستغرقه كل طلب، ولتبقى الإجابات متسقة مهما تغيّر الشخص الذي يردّ على المكالمة."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يستطيع الاستقبال المُنقول توقيع عقد نيابة عني؟",
+       "a": "لا. العرض مخصص لاستقبال المكالمات وتنظيمها، أما الاستشارة والتعاقد فيبقيان من مسؤولية المكتب."
+      },
+      {
+       "q": "هل أستطيع إجراء مكالمات صادرة إلى عملائي؟",
+       "a": "توفّر HARX Téléphonie مكالمات واردة وصادرة برقم من بلدكم، بحسب العرض المختار."
+      },
+      {
+       "q": "هل العرض مخصص للمكاتب الكبيرة فقط؟",
+       "a": "لا، عرض الاستقبال / السكرتارية مصمم للمنشآت الصغيرة جدًا، ومنها وسطاء التأمين."
+      }
+     ]
+    },
+    {
+     "p": "للبقاء على تواصل مع عملائكم حتى أثناء الاجتماعات، اطّلعوا على عرض الاستقبال / السكرتارية من HARX Téléphonie."
+    }
+   ]
+  }
+ }
+}

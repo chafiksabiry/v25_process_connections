@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-harx-for-call-centers",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "HARX pour les centres d’appels : multi-clients, plateau ou distance",
+   "description": "Centre d’appels en Europe, aux États-Unis ou en pays d’externalisation : questions sur l’offre Contact Centre Multi-clients de HARX Téléphonie.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Quelle offre HARX concerne les centres d’appels ?",
+       "a": "Contact Centre Multi-clients, dans HARX Téléphonie. Elle est destinée aux centres d’appels qui travaillent pour plusieurs clients."
+      },
+      {
+       "q": "Où sont situés les centres visés ?",
+       "a": "En Europe, aux États-Unis ou dans des pays d’externalisation comme la France, le Maroc, la Tunisie et le Sénégal."
+      },
+      {
+       "q": "Les agents sont-ils sur plateau ou à distance ?",
+       "a": "Les deux cas sont prévus : agents sur plateau ou agents à distance."
+      },
+      {
+       "q": "Pourquoi insister sur le multi-clients ?",
+       "a": "Un centre d’appels sert souvent plusieurs donneurs d’ordre, avec des consignes différentes. Chaque client demande un suivi distinct."
+      },
+      {
+       "q": "Comment éviter les confusions entre clients ?",
+       "a": "Séparez clairement les campagnes, adaptez les messages d’accueil et formez les agents aux consignes de chaque client."
+      },
+      {
+       "q": "Et TAAS pour un centre d’appels ?",
+       "a": "TAAS fonctionne avec un réseau de reps certifiés et le paiement au résultat approuvé. C’est une autre approche que la téléphonie, présentée sur HARX.ai."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "HARX for Call Centres: Multi-Client, On-Site or Remote Agents",
+   "description": "Call centre in Europe, the United States or an outsourcing country: questions on the Multi-Client Contact Centre offer from HARX Telephony.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Which HARX offer concerns call centres?",
+       "a": "Contact Centre Multi-clients, within HARX Telephony. It is intended for call centres working for several clients."
+      },
+      {
+       "q": "Where are the targeted centres located?",
+       "a": "In Europe, the United States or outsourcing countries such as France, Morocco, Tunisia and Senegal."
+      },
+      {
+       "q": "Are agents on-site or remote?",
+       "a": "Both cases are covered: on-site agents or remote agents."
+      },
+      {
+       "q": "Why stress multi-client?",
+       "a": "A call centre often serves several principals, each with different instructions. Every client needs separate tracking."
+      },
+      {
+       "q": "How do I avoid mix-ups between clients?",
+       "a": "Keep campaigns clearly separate, adapt greetings and train agents on each client’s guidelines."
+      },
+      {
+       "q": "What about TAAS for a call centre?",
+       "a": "TAAS works with a network of certified reps and payment for approved results. It is a different approach from telephony, presented on HARX.ai."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "HARX para centros de llamadas: multicliente, en plató o a distancia",
+   "description": "Centro de llamadas en Europa, Estados Unidos o un país de externalización: preguntas sobre la oferta Contact Centre Multi-clients de HARX Telefonía.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué oferta de HARX afecta a los centros de llamadas?",
+       "a": "Contact Centre Multi-clients, dentro de HARX Telefonía. Está destinada a centros de llamadas que trabajan para varios clientes."
+      },
+      {
+       "q": "¿Dónde están los centros a los que se dirige?",
+       "a": "En Europa, en Estados Unidos o en países de externalización como Francia, Marruecos, Túnez y Senegal."
+      },
+      {
+       "q": "¿Los agentes están en plató o a distancia?",
+       "a": "Se contemplan ambos casos: agentes en plató o agentes a distancia."
+      },
+      {
+       "q": "¿Por qué insistir en el multicliente?",
+       "a": "Un centro de llamadas suele atender a varios mandantes, con instrucciones distintas. Cada cliente requiere un seguimiento propio."
+      },
+      {
+       "q": "¿Cómo evitar confusiones entre clientes?",
+       "a": "Separe claramente las campañas, adapte los saludos y forme a los agentes en las instrucciones de cada cliente."
+      },
+      {
+       "q": "¿Y TAAS para un centro de llamadas?",
+       "a": "TAAS funciona con una red de reps certificados y el pago por resultado aprobado. Es un enfoque distinto de la telefonía, presentado en HARX.ai."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "HARX لمراكز الاتصال: متعدد العملاء، في الموقع أو عن بُعد",
+   "description": "مركز اتصال في أوروبا أو الولايات المتحدة أو بلد للتعهيد: أسئلة حول عرض Contact Centre Multi-clients ضمن HARX Telephony.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "أي عرض من HARX يخص مراكز الاتصال؟",
+       "a": "عرض Contact Centre Multi-clients ضمن HARX Telephony، وهو موجه لمراكز الاتصال التي تعمل لصالح عدة عملاء."
+      },
+      {
+       "q": "أين تقع المراكز المستهدفة؟",
+       "a": "في أوروبا أو الولايات المتحدة أو في بلدان التعهيد مثل فرنسا والمغرب وتونس والسنغال."
+      },
+      {
+       "q": "هل الوكلاء في الموقع أم عن بُعد؟",
+       "a": "الحالتان مشمولتان: وكلاء في مقر المركز أو وكلاء عن بُعد."
+      },
+      {
+       "q": "لماذا التركيز على تعدد العملاء؟",
+       "a": "يخدم مركز الاتصال عادة عدة جهات متعاقدة بتعليمات مختلفة، ويحتاج كل عميل إلى متابعة مستقلة."
+      },
+      {
+       "q": "كيف أتجنب الخلط بين العملاء؟",
+       "a": "افصل الحملات بوضوح، وكيّف رسائل الترحيب، ودرّب الوكلاء على تعليمات كل عميل."
+      },
+      {
+       "q": "وماذا عن TAAS لمركز الاتصال؟",
+       "a": "يعمل TAAS بشبكة مندوبين معتمدين وبالدفع مقابل نتيجة معتمدة، وهو نهج مختلف عن الهاتفية، ومعروض على HARX.ai."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

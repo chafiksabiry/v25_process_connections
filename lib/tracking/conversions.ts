@@ -21,7 +21,7 @@
 import { GA_MEASUREMENT_ID } from './constants';
 import { CONSENT_EVENT, readConsent, type ConsentChoice } from '../consent';
 
-type ConversionDetail = { name?: string; userType?: string };
+type ConversionDetail = { name?: string; userType?: string; eventId?: string };
 
 type AdWindow = Window & {
   gtag?: (...args: unknown[]) => void;
@@ -125,7 +125,8 @@ function onConversion(event: Event): void {
     if (sendTo) w.gtag('event', 'conversion', { send_to: sendTo });
   }
   if (META_PIXEL_ID && typeof w.fbq === 'function') {
-    w.fbq('track', 'CompleteRegistration', { content_name: userType });
+    // `eventID` partagé avec l'envoi serveur (API de conversions) : Meta déduplique les deux évènements.
+    w.fbq('track', 'CompleteRegistration', { content_name: userType }, detail.eventId ? { eventID: detail.eventId } : undefined);
     if (kind) w.fbq('trackCustom', META_CUSTOM_EVENTS[kind]);
   }
   if (LINKEDIN_PARTNER_ID && typeof w.lintrk === 'function') {

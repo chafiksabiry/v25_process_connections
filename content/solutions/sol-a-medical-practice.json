@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-medical-practice",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Accueil téléphonique d’un cabinet médical : bien s’organiser",
+   "description": "Cabinet médical : comment gérer le flot d’appels, soulager le praticien et améliorer l’accueil avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Dans un cabinet médical, le téléphone sonne sans cesse : demandes de rendez-vous, questions pratiques, patients inquiets. Le praticien ou la secrétaire doit pourtant rester disponible pour la personne présente au cabinet. Cette tension est l’un des défis quotidiens de l’accueil."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’un cabinet médical"
+    },
+    {
+     "p": "Quand l’accueil est occupé avec un patient au comptoir, les appels s’accumulent. Un patient qui ne parvient pas à joindre le cabinet peut renoncer, rappeler plusieurs fois ou s’agacer. En dehors des heures d’ouverture, l’absence de réponse claire peut aussi générer de l’inquiétude."
+    },
+    {
+     "ul": [
+      "Les appels simultanés arrivent pendant les consultations et les actes, sans personne de disponible pour décrocher.",
+      "Les patients ne savent pas toujours si le cabinet est ouvert, ni quand rappeler.",
+      "Le temps passé à répondre au téléphone réduit l’attention portée aux patients présents sur place."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse notamment aux cabinets médicaux. Elle repose sur du personnel à distance ou un accueil délocalisé, un numéro de votre pays, des appels entrants et sortants et un répondeur. Elle fonctionne avec un abonnement mensuel, des minutes et de l’IA prépayées, et peut être opérationnelle en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un accueil assuré à distance, qui décharge l’équipe sur place d’une partie des appels.",
+      "Un répondeur pour les moments où personne ne peut répondre, afin que l’appelant ne se heurte pas à une sonnerie sans fin.",
+      "Une IA qui assiste la prise d’appels, sans remplacer la décision du cabinet sur la conduite à tenir."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour l’accueil téléphonique"
+    },
+    {
+     "ul": [
+      "Rédigez avec votre équipe des consignes écrites : questions à poser, informations à recueillir, situations à transmettre immédiatement au praticien.",
+      "Prévoyez un message clair rappelant de contacter les services d’urgence en cas d’urgence vitale.",
+      "Indiquez les horaires d’ouverture et les modalités de rappel dans le message d’accueil.",
+      "Restez attentif à la confidentialité : ne communiquez pas d’informations médicales par téléphone sans vérifier l’identité de l’appelant.",
+      "Faites régulièrement un point avec l’équipe pour ajuster les consignes selon les retours des patients."
+     ]
+    },
+    {
+     "p": "L’accueil téléphonique ne remplace en aucun cas un avis médical : il organise le premier contact et la circulation de l’information au sein du cabinet."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "HARX Téléphonie peut-elle donner des conseils médicaux aux patients ?",
+       "a": "Non. L’offre organise l’accueil et la prise d’appels ; les décisions médicales restent du ressort du cabinet et des professionnels de santé."
+      },
+      {
+       "q": "Que faire en cas d’urgence ?",
+       "a": "Le message d’accueil devrait inviter l’appelant à contacter les services d’urgence compétents. Le cabinet définit lui-même ses consignes."
+      },
+      {
+       "q": "L’offre convient-elle à un petit cabinet ?",
+       "a": "L’offre Accueil / Secrétariat est pensée pour les TPE de tous métiers, dont les cabinets médicaux."
+      }
+     ]
+    },
+    {
+     "p": "Pour soulager l’accueil de votre cabinet, découvrez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Phone Reception for Medical Practices: Getting Organised",
+   "description": "Medical practice: how to handle the flow of calls, relieve the practitioner and improve reception with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "In a medical practice the phone never stops: appointment requests, practical questions, anxious patients. Yet the practitioner or secretary must stay available for the person standing at the desk. That tension is one of the everyday challenges of reception."
+    },
+    {
+     "h2": "The typical phone problem for a medical practice"
+    },
+    {
+     "p": "When the front desk is busy with a patient, calls pile up. A patient who cannot reach the practice may give up, call back several times or grow frustrated. Outside opening hours, the lack of a clear answer can also cause worry."
+    },
+    {
+     "ul": [
+      "Simultaneous calls arrive during consultations and procedures, with nobody free to pick up.",
+      "Patients do not always know whether the practice is open or when to call back.",
+      "Time spent on the phone reduces attention given to patients present on site."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is aimed at medical practices, among others. It relies on remote staff or offshored reception, a number from your country, incoming and outgoing calls and an answering service. It runs on a monthly subscription with prepaid minutes and AI, and can be operational within minutes."
+    },
+    {
+     "ul": [
+      "Reception handled remotely, taking part of the call load off the on-site team.",
+      "An answering service for moments when nobody can pick up, so callers do not face endless ringing.",
+      "AI that assists call handling without replacing the practice’s own decision on what to do."
+     ]
+    },
+    {
+     "h2": "General good practice for phone reception"
+    },
+    {
+     "ul": [
+      "Write down instructions with your team: questions to ask, information to collect, situations to pass to the practitioner immediately.",
+      "Include a clear message reminding callers to contact emergency services in a life-threatening emergency.",
+      "State opening hours and callback arrangements in the greeting.",
+      "Stay alert to confidentiality: do not share medical information by phone without verifying the caller’s identity.",
+      "Hold regular reviews with the team to adjust instructions based on patient feedback."
+     ]
+    },
+    {
+     "p": "Phone reception never replaces medical advice: it organises first contact and the flow of information within the practice."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can HARX Telephony give medical advice to patients?",
+       "a": "No. The offer organises reception and call handling; medical decisions remain the responsibility of the practice and healthcare professionals."
+      },
+      {
+       "q": "What should happen in an emergency?",
+       "a": "The greeting should invite callers to contact the relevant emergency services. The practice sets its own instructions."
+      },
+      {
+       "q": "Is the offer suitable for a small practice?",
+       "a": "The Reception / Secretarial offer is designed for very small businesses of every trade, including medical practices."
+      }
+     ]
+    },
+    {
+     "p": "To ease reception at your practice, discover the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Atención telefónica en consultas médicas: cómo organizarla",
+   "description": "Consulta médica: cómo gestionar el flujo de llamadas, aliviar al profesional y mejorar la atención con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "En una consulta médica el teléfono no deja de sonar: peticiones de cita, dudas prácticas, pacientes preocupados. Aun así, el profesional o la secretaria deben seguir disponibles para quien está presente en la consulta. Esa tensión es uno de los retos diarios de la recepción."
+    },
+    {
+     "h2": "El problema telefónico típico de una consulta médica"
+    },
+    {
+     "p": "Cuando la recepción está ocupada con un paciente, las llamadas se acumulan. Quien no logra contactar con la consulta puede desistir, llamar varias veces o irritarse. Fuera del horario de apertura, la falta de una respuesta clara también puede generar inquietud."
+    },
+    {
+     "ul": [
+      "Las llamadas simultáneas llegan durante consultas y actos, sin nadie libre para atender.",
+      "Los pacientes no siempre saben si la consulta está abierta ni cuándo volver a llamar.",
+      "El tiempo dedicado al teléfono reduce la atención prestada a los pacientes presentes."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige, entre otros, a las consultas médicas. Se basa en personal a distancia o recepción deslocalizada, un número de su país, llamadas entrantes y salientes y un contestador. Funciona con suscripción mensual, minutos e IA prepagados, y puede estar operativa en pocos minutos."
+    },
+    {
+     "ul": [
+      "Una recepción atendida a distancia, que libera al equipo presente de parte de las llamadas.",
+      "Un contestador para los momentos en que nadie puede atender, de modo que quien llama no se encuentre con un timbre interminable.",
+      "Una IA que asiste en la atención de llamadas sin sustituir la decisión de la consulta sobre qué hacer."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para la atención telefónica"
+    },
+    {
+     "ul": [
+      "Redacte con su equipo instrucciones escritas: preguntas que hacer, datos que recoger y situaciones que deben pasar de inmediato al profesional.",
+      "Incluya un mensaje claro que recuerde llamar a los servicios de urgencia en caso de urgencia vital.",
+      "Indique en el mensaje los horarios de apertura y cómo se devolverán las llamadas.",
+      "Cuide la confidencialidad: no facilite información médica por teléfono sin verificar la identidad de quien llama.",
+      "Haga revisiones periódicas con el equipo para ajustar las instrucciones según la opinión de los pacientes."
+     ]
+    },
+    {
+     "p": "La atención telefónica nunca sustituye al consejo médico: organiza el primer contacto y la circulación de la información dentro de la consulta."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede HARX Telefonía dar consejos médicos a los pacientes?",
+       "a": "No. La oferta organiza la recepción y la atención de llamadas; las decisiones médicas siguen siendo responsabilidad de la consulta y de los profesionales sanitarios."
+      },
+      {
+       "q": "¿Qué hacer en caso de urgencia?",
+       "a": "El mensaje de bienvenida debería invitar a contactar con los servicios de urgencia competentes. Cada consulta define sus propias instrucciones."
+      },
+      {
+       "q": "¿Sirve la oferta para una consulta pequeña?",
+       "a": "La oferta Recepción / Secretaría está pensada para microempresas de cualquier oficio, incluidas las consultas médicas."
+      }
+     ]
+    },
+    {
+     "p": "Para aliviar la recepción de su consulta, conozca la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الاستقبال الهاتفي في العيادات الطبية: تنظيم أفضل للمكالمات",
+   "description": "العيادة الطبية: كيف تدير تدفق المكالمات وتخفف العبء عن الطبيب وتحسّن الاستقبال بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "في العيادة الطبية لا يتوقف الهاتف عن الرنين: طلبات مواعيد، واستفسارات عملية، ومرضى قلقون. ومع ذلك يجب أن يبقى الطبيب أو السكرتير متفرغًا لمن هو حاضر في العيادة. وهذا التوتر من التحديات اليومية للاستقبال."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للعيادة الطبية"
+    },
+    {
+     "p": "عندما يكون الاستقبال مشغولًا بمريض عند المكتب، تتراكم المكالمات. وقد يتخلى المريض الذي لا يتمكن من الوصول إلى العيادة عن المحاولة، أو يعاود الاتصال مرارًا، أو ينزعج. وخارج أوقات الدوام قد يسبب غياب الجواب الواضح قلقًا أيضًا."
+    },
+    {
+     "ul": [
+      "تصل مكالمات متزامنة أثناء الكشوف والإجراءات دون أن يكون أحد متفرغًا للرد.",
+      "لا يعرف المرضى دائمًا إن كانت العيادة مفتوحة ولا متى يعاودون الاتصال.",
+      "الوقت المستغرق في الرد على الهاتف يقلّل الانتباه المخصص للمرضى الحاضرين."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى العيادات الطبية وغيرها. يعتمد على موظفين عن بُعد أو استقبال مُنقول إلى مكان آخر، ورقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد. يعمل باشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، ويمكن أن يصبح جاهزًا خلال دقائق."
+    },
+    {
+     "ul": [
+      "استقبال يُدار عن بُعد، فيخفف عن الفريق الحاضر جزءًا من عبء المكالمات.",
+      "جهاز رد للحظات التي لا يستطيع فيها أحد الرد، حتى لا يواجه المتصل رنينًا لا ينتهي.",
+      "ذكاء اصطناعي يساعد في معالجة المكالمات دون أن يحلّ محل قرار العيادة بشأن ما يجب فعله."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للاستقبال الهاتفي"
+    },
+    {
+     "ul": [
+      "دوّنوا مع فريقكم تعليمات مكتوبة: الأسئلة الواجب طرحها، والمعلومات المطلوب جمعها، والحالات التي تُحال فورًا إلى الطبيب.",
+      "أدرجوا رسالة واضحة تذكّر المتصلين بالاتصال بخدمات الطوارئ في الحالات الخطرة على الحياة.",
+      "اذكروا ساعات العمل وطريقة معاودة الاتصال في رسالة الترحيب.",
+      "احرصوا على السرية: لا تقدّموا معلومات طبية هاتفيًا دون التحقق من هوية المتصل.",
+      "أجروا مراجعات دورية مع الفريق لتعديل التعليمات بحسب ملاحظات المرضى."
+     ]
+    },
+    {
+     "p": "لا يحلّ الاستقبال الهاتفي مطلقًا محل الاستشارة الطبية، فهو ينظّم أول اتصال وتدفق المعلومات داخل العيادة فقط."
+    },
+    {
+     "p": "ومن المفيد أن تُراجع العيادة بين حين وآخر أكثر الأسئلة تكرارًا في المكالمات، فتضيفها إلى رسالة الترحيب أو إلى تعليمات الفريق، وبذلك تقلّ المكالمات المتكررة ويتحسن الاستقبال تدريجيًا."
+    },
+    {
+     "p": "وأخيرًا، يبقى الاحترام واللطف في الصوت عنصرين أساسيين، فالمريض الذي يتصل غالبًا ما يكون قلقًا، ونبرة هادئة وواضحة تصنع فرقًا كبيرًا في انطباعه عن العيادة."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل تستطيع HARX Téléphonie تقديم نصائح طبية للمرضى؟",
+       "a": "لا. يقتصر العرض على تنظيم الاستقبال ومعالجة المكالمات، وتبقى القرارات الطبية من مسؤولية العيادة والمهنيين الصحيين."
+      },
+      {
+       "q": "ماذا يجب أن يحدث في حالة الطوارئ؟",
+       "a": "ينبغي أن تدعو رسالة الترحيب المتصل إلى الاتصال بخدمات الطوارئ المختصة. وتحدد العيادة تعليماتها بنفسها."
+      },
+      {
+       "q": "هل يناسب العرض عيادة صغيرة؟",
+       "a": "عرض الاستقبال / السكرتارية مصمم للمنشآت الصغيرة جدًا من جميع المهن، ومنها العيادات الطبية."
+      }
+     ]
+    },
+    {
+     "p": "لتخفيف عبء الاستقبال في عيادتكم، تعرّفوا على عرض الاستقبال / السكرتارية من HARX Téléphonie."
+    }
+   ]
+  }
+ }
+}

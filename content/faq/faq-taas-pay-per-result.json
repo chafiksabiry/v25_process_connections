@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-pay-per-result",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Payer au résultat : comment ça marche avec TAAS ?",
+   "description": "Comment fonctionne le paiement au résultat avec TAAS ? Résultat attendu, approbation, moment du paiement : les étapes expliquées sans jargon ni tarif.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Que veut dire « payer au résultat » ?",
+       "a": "Cela signifie que le paiement est lié à un résultat approuvé, et non au temps passé ou au nombre d’actions réalisées. Tant que le résultat n’est pas approuvé, l’entreprise ne règle rien."
+      },
+      {
+       "q": "Qui fixe le prix ?",
+       "a": "C’est l’entreprise qui définit le résultat attendu et son prix. Elle sait mieux que quiconque ce que ce résultat vaut pour son activité."
+      },
+      {
+       "q": "À quel moment le paiement intervient-il ?",
+       "a": "Au moment où le résultat est approuvé. L’approbation est donc l’étape clé : elle confirme que ce qui avait été demandé a bien été obtenu."
+      },
+      {
+       "q": "Comment éviter les désaccords sur le résultat ?",
+       "a": "En le décrivant précisément dès le départ : ce qui doit se produire, comment on le constate et dans quel cadre. Un résultat vague est difficile à approuver, un résultat clair l’est beaucoup moins."
+      },
+      {
+       "q": "Les interactions sont-elles contrôlées pendant la mission ?",
+       "a": "Oui. Chaque interaction est évaluée en temps réel, ce qui permet de suivre la qualité du travail pendant qu’il se déroule plutôt que de la découvrir après coup."
+      },
+      {
+       "q": "Où en savoir plus sur le fonctionnement ?",
+       "a": "HARX.ai présente TAAS parmi ses offres. Si vous voulez payer uniquement lorsqu’un résultat de service client est approuvé, c’est cette offre qu’il faut explorer."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Paying for Results: How Outcome-Based TAAS Works",
+   "description": "How does paying for results work with TAAS? Expected outcome, approval and the moment of payment explained step by step, in plain terms and without prices.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What does “pay for results” mean?",
+       "a": "It means payment is tied to an approved result rather than to time spent or the number of actions performed. Until the result is approved, the company pays nothing."
+      },
+      {
+       "q": "Who sets the price?",
+       "a": "The company does. It defines the expected result and its price, since it knows best what that result is worth to its business."
+      },
+      {
+       "q": "When does payment happen?",
+       "a": "When the result is approved. Approval is therefore the key step: it confirms that what was requested has actually been obtained."
+      },
+      {
+       "q": "How can disagreements about the result be avoided?",
+       "a": "By describing it precisely from the start: what must happen, how it will be verified and in what context. A vague result is hard to approve; a clear one is much easier."
+      },
+      {
+       "q": "Are interactions monitored during the mission?",
+       "a": "Yes. Every interaction is evaluated in real time, so quality can be followed while the work is under way instead of being discovered afterwards."
+      },
+      {
+       "q": "Where can I learn more about how it works?",
+       "a": "HARX.ai presents TAAS among its offers. If you want to pay only when a customer service result is approved, that is the offer to explore."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Pagar por resultado: cómo funciona con TAAS",
+   "description": "¿Cómo funciona el pago por resultado con TAAS? Resultado esperado, aprobación y momento del pago explicados paso a paso, con palabras sencillas y sin precios.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué significa «pagar por resultado»?",
+       "a": "Significa que el pago depende de un resultado aprobado, y no del tiempo dedicado ni del número de acciones realizadas. Mientras el resultado no se apruebe, la empresa no paga."
+      },
+      {
+       "q": "¿Quién fija el precio?",
+       "a": "La empresa. Ella define el resultado esperado y su precio, porque es quien mejor sabe cuánto vale ese resultado para su negocio."
+      },
+      {
+       "q": "¿Cuándo se produce el pago?",
+       "a": "Cuando el resultado se aprueba. La aprobación es, por tanto, el paso clave: confirma que lo solicitado se ha conseguido de verdad."
+      },
+      {
+       "q": "¿Cómo evitar desacuerdos sobre el resultado?",
+       "a": "Describiéndolo con precisión desde el principio: qué debe ocurrir, cómo se comprueba y en qué contexto. Un resultado vago es difícil de aprobar; uno claro, mucho menos."
+      },
+      {
+       "q": "¿Se controlan las interacciones durante la misión?",
+       "a": "Sí. Cada interacción se evalúa en tiempo real, de modo que la calidad puede seguirse mientras el trabajo avanza y no descubrirse después."
+      },
+      {
+       "q": "¿Dónde puedo saber más sobre el funcionamiento?",
+       "a": "HARX.ai presenta TAAS entre sus ofertas. Si quiere pagar solo cuando se apruebe un resultado de atención al cliente, esa es la oferta que conviene explorar."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "الدفع مقابل النتيجة: كيف يعمل ذلك مع TAAS؟",
+   "description": "كيف يعمل الدفع مقابل النتيجة في TAAS؟ النتيجة المنتظرة والموافقة وموعد الدفع، موضّحة خطوة بخطوة بلغة بسيطة ودون ذكر أسعار.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ماذا يعني «الدفع مقابل النتيجة»؟",
+       "a": "يعني أن الدفع مرتبط بنتيجة تمت الموافقة عليها، لا بالوقت المستغرق ولا بعدد الإجراءات المنفّذة. وما دامت النتيجة غير معتمدة، لا تدفع الشركة شيئاً."
+      },
+      {
+       "q": "من يحدد السعر؟",
+       "a": "الشركة نفسها. فهي تحدد النتيجة المنتظرة وسعرها، لأنها الأدرى بقيمة هذه النتيجة لنشاطها."
+      },
+      {
+       "q": "متى يتم الدفع؟",
+       "a": "عند الموافقة على النتيجة. فالموافقة هي الخطوة الحاسمة، إذ تؤكد أن المطلوب قد تحقق فعلاً."
+      },
+      {
+       "q": "كيف نتجنب الخلاف حول النتيجة؟",
+       "a": "بوصفها بدقة منذ البداية: ما الذي يجب أن يحدث، وكيف يُتحقق منه، وفي أي إطار. فالنتيجة الغامضة يصعب اعتمادها، أما الواضحة فأيسر بكثير."
+      },
+      {
+       "q": "هل تتم مراقبة التفاعلات أثناء المهمة؟",
+       "a": "نعم. يُقيَّم كل تفاعل في الوقت الفعلي، فتتابَع الجودة أثناء سير العمل بدلاً من اكتشافها لاحقاً."
+      },
+      {
+       "q": "أين أعرف المزيد عن آلية العمل؟",
+       "a": "تعرض HARX.ai خدمة TAAS ضمن عروضها. وإن كنت تريد الدفع فقط عند اعتماد نتيجة في خدمة العملاء، فهذا هو العرض الذي ينبغي استكشافه."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

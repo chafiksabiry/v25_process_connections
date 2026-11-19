@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-travel-agency",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Agence de voyage : ne manquez plus une demande de client",
+   "description": "Agence de voyage : gérez les appels de clients et de partenaires, même hors horaires de bureau, avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Pour une agence de voyage, un appel peut être le début d’un séjour de plusieurs semaines. Le client veut des conseils, des précisions, de la réassurance, et il attend souvent une réponse rapide avant de se décider."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’une agence de voyage"
+    },
+    {
+     "p": "Les conseillers sont souvent en rendez-vous avec un client, en train de bâtir un itinéraire ou en contact avec des prestataires. Pendant ce temps, d’autres demandes arrivent, parfois de clients déjà en voyage qui ont besoin d’aide. Les appels ne respectent pas toujours les horaires d’ouverture, surtout quand les destinations ont des fuseaux différents."
+    },
+    {
+     "ul": [
+      "Les conseillers occupés en rendez-vous ne peuvent pas répondre aux autres appelants.",
+      "Les demandes des clients en voyage ne coïncident pas avec les horaires de bureau.",
+      "Les futurs voyageurs comparent plusieurs agences et choisissent souvent celle qui répond la première."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse aux TPE de tous métiers, agences de voyage comprises. Elle s’appuie sur du personnel à distance ou un accueil délocalisé, un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. L’abonnement est mensuel, minutes et IA prépayées."
+    },
+    {
+     "ul": [
+      "Un accueil qui prend les appels pendant que les conseillers sont avec un client.",
+      "Un répondeur qui conserve les messages reçus en dehors des horaires de bureau.",
+      "Des appels sortants avec un numéro de votre pays pour rappeler clients et prestataires."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour une agence de voyage"
+    },
+    {
+     "ul": [
+      "Définissez ce que l’accueil doit recueillir : destination envisagée, dates, nombre de voyageurs, coordonnées.",
+      "Indiquez dans votre message d’accueil la marche à suivre pour une demande urgente en cours de voyage.",
+      "Ne confirmez aucune réservation ni aucun tarif sans vérification par un conseiller.",
+      "Rappelez rapidement les futurs voyageurs : la réactivité compte beaucoup au moment du choix.",
+      "Notez les préférences exprimées par le client afin qu’il n’ait pas à les répéter."
+     ]
+    },
+    {
+     "p": "Un accueil attentif rassure le voyageur avant même le départ : il montre qu’une personne est là pour l’accompagner."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "L’accueil à distance peut-il vendre un voyage ?",
+       "a": "L’accueil recueille et transmet les demandes ; la vente et les conseils de voyage restent assurés par les conseillers de l’agence."
+      },
+      {
+       "q": "Comment gérer les appels de clients en voyage ?",
+       "a": "Prévoyez dans le message d’accueil une consigne claire pour les demandes urgentes, selon l’organisation que vous aurez définie."
+      },
+      {
+       "q": "Une petite agence peut-elle utiliser l’offre ?",
+       "a": "Oui, l’offre Accueil / Secrétariat vise les très petites entreprises de tous métiers."
+      }
+     ]
+    },
+    {
+     "p": "Pour que chaque futur voyageur soit entendu, découvrez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Travel Agencies: Never Miss a Customer Request",
+   "description": "Travel agency: handle calls from customers and partners, including outside office hours, with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "For a travel agency, one call can be the start of a stay lasting several weeks. The customer wants advice, details, reassurance, and often expects a quick answer before deciding."
+    },
+    {
+     "h2": "The typical phone problem for a travel agency"
+    },
+    {
+     "p": "Advisers are often in a meeting with a client, building an itinerary or in touch with suppliers. Meanwhile other requests come in, sometimes from customers already travelling who need help. Calls do not always respect opening hours, especially when destinations lie in different time zones."
+    },
+    {
+     "ul": [
+      "Advisers busy in meetings cannot answer other callers.",
+      "Requests from customers on the road do not coincide with office hours.",
+      "Future travellers compare several agencies and often choose the one that answers first."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is for very small businesses of every trade, travel agencies included. It relies on remote staff or offshored reception, a number from your country, incoming and outgoing calls, an answering service and assisting AI. The subscription is monthly, minutes and AI prepaid."
+    },
+    {
+     "ul": [
+      "Reception that takes calls while advisers are with a client.",
+      "An answering service that keeps messages received outside office hours.",
+      "Outgoing calls with a number from your country to call back customers and suppliers."
+     ]
+    },
+    {
+     "h2": "General good practice for a travel agency"
+    },
+    {
+     "ul": [
+      "Define what reception must collect: intended destination, dates, number of travellers, contact details.",
+      "State in your greeting what to do for an urgent request during a trip.",
+      "Confirm no booking or price without checking with an adviser.",
+      "Call future travellers back quickly: responsiveness matters a lot at the moment of choice.",
+      "Note the preferences a customer expresses so they do not have to repeat them."
+     ]
+    },
+    {
+     "p": "Attentive reception reassures the traveller even before departure: it shows that someone is there to help. A short reference sheet listing the most frequent requests, and who handles each, keeps replies consistent, and preparing these rules before the busy season rather than during it avoids confusion."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can remote reception sell a trip?",
+       "a": "Reception collects and passes on requests; sales and travel advice remain with the agency’s advisers."
+      },
+      {
+       "q": "How should calls from travelling customers be handled?",
+       "a": "Include a clear instruction in the greeting for urgent requests, according to the organisation you have defined."
+      },
+      {
+       "q": "Can a small agency use the offer?",
+       "a": "Yes, the Reception / Secretarial offer targets very small businesses of every trade."
+      }
+     ]
+    },
+    {
+     "p": "So that every future traveller is heard, discover the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Agencias de viajes: no pierda ninguna petición de sus clientes",
+   "description": "Agencia de viajes: gestione llamadas de clientes y socios, también fuera del horario de oficina, con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "Para una agencia de viajes, una llamada puede ser el comienzo de una estancia de varias semanas. El cliente quiere consejo, detalles, tranquilidad, y a menudo espera una respuesta rápida antes de decidirse."
+    },
+    {
+     "h2": "El problema telefónico típico de una agencia de viajes"
+    },
+    {
+     "p": "Los asesores suelen estar en una reunión con un cliente, construyendo un itinerario o en contacto con proveedores. Mientras tanto llegan otras peticiones, a veces de clientes que ya viajan y necesitan ayuda. Las llamadas no siempre respetan el horario de apertura, sobre todo cuando los destinos tienen husos horarios distintos."
+    },
+    {
+     "ul": [
+      "Los asesores ocupados en reuniones no pueden atender a otros que llaman.",
+      "Las peticiones de clientes en viaje no coinciden con el horario de oficina.",
+      "Los futuros viajeros comparan varias agencias y suelen elegir la que responde primero."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, agencias de viajes incluidas. Se apoya en personal a distancia o recepción deslocalizada, un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. La suscripción es mensual, con minutos e IA prepagados."
+    },
+    {
+     "ul": [
+      "Una recepción que atiende las llamadas mientras los asesores están con un cliente.",
+      "Un contestador que conserva los mensajes recibidos fuera del horario de oficina.",
+      "Llamadas salientes con un número de su país para devolver llamadas a clientes y proveedores."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para una agencia de viajes"
+    },
+    {
+     "ul": [
+      "Defina qué debe recoger la recepción: destino previsto, fechas, número de viajeros y datos de contacto.",
+      "Indique en el mensaje qué hacer ante una petición urgente durante un viaje.",
+      "No confirme ninguna reserva ni tarifa sin la verificación de un asesor.",
+      "Devuelva con rapidez la llamada a los futuros viajeros: la reactividad pesa mucho en el momento de elegir.",
+      "Anote las preferencias del cliente para que no tenga que repetirlas."
+     ]
+    },
+    {
+     "p": "Una recepción atenta tranquiliza al viajero incluso antes de la salida: muestra que alguien está ahí para acompañarle."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede la recepción a distancia vender un viaje?",
+       "a": "La recepción recoge y traslada las peticiones; la venta y el asesoramiento de viajes siguen a cargo de los asesores de la agencia."
+      },
+      {
+       "q": "¿Cómo gestionar las llamadas de clientes en viaje?",
+       "a": "Incluya en el mensaje una instrucción clara para peticiones urgentes, según la organización que haya definido."
+      },
+      {
+       "q": "¿Puede una agencia pequeña usar la oferta?",
+       "a": "Sí, la oferta Recepción / Secretaría se dirige a microempresas de cualquier oficio."
+      }
+     ]
+    },
+    {
+     "p": "Para que cada futuro viajero sea escuchado, conozca la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "وكالات السفر: لا تفوّتوا أي طلب من عملائكم",
+   "description": "وكالة السفر: أدِيروا مكالمات العملاء والشركاء، حتى خارج ساعات المكتب، بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "بالنسبة لوكالة السفر، قد تكون مكالمة واحدة بداية رحلة تمتد أسابيع. فالعميل يريد نصيحة وتفاصيل وطمأنة، وكثيرًا ما ينتظر جوابًا سريعًا قبل أن يقرر."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة لوكالة السفر"
+    },
+    {
+     "p": "غالبًا ما يكون المستشارون في اجتماع مع عميل، أو منشغلين برسم مسار رحلة، أو على اتصال بمزودي الخدمات. وفي الأثناء تصل طلبات أخرى، أحيانًا من عملاء يسافرون فعلًا ويحتاجون إلى مساعدة. والمكالمات لا تحترم دائمًا ساعات الدوام، خصوصًا حين تقع الوجهات في مناطق زمنية مختلفة."
+    },
+    {
+     "ul": [
+      "المستشارون المنشغلون بالاجتماعات لا يستطيعون الرد على متصلين آخرين.",
+      "طلبات العملاء المسافرين لا تتزامن مع ساعات المكتب.",
+      "يقارن المسافرون المحتملون بين عدة وكالات، وكثيرًا ما يختارون التي تردّ أولًا."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى المنشآت الصغيرة جدًا من كل المهن، ومنها وكالات السفر. يعتمد على موظفين عن بُعد أو استقبال مُنقول، ورقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاء اصطناعي مساعد. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+    },
+    {
+     "ul": [
+      "استقبال يتلقى المكالمات بينما يكون المستشارون مع عميل.",
+      "جهاز رد يحتفظ بالرسائل الواردة خارج ساعات المكتب.",
+      "مكالمات صادرة برقم من بلدكم لمعاودة الاتصال بالعملاء ومزودي الخدمات."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة لوكالة السفر"
+    },
+    {
+     "ul": [
+      "حدّدوا ما يجب أن يجمعه الاستقبال: الوجهة المرغوبة والتواريخ وعدد المسافرين ووسيلة الاتصال.",
+      "اذكروا في رسالة الترحيب ما يجب فعله عند طلب عاجل أثناء الرحلة.",
+      "لا تؤكدوا أي حجز أو سعر دون تحقق من مستشار.",
+      "عاودوا الاتصال بالمسافرين المحتملين بسرعة، فسرعة الاستجابة تؤثر كثيرًا لحظة الاختيار.",
+      "دوّنوا تفضيلات العميل حتى لا يضطر إلى تكرارها."
+     ]
+    },
+    {
+     "p": "الاستقبال المتأني يطمئن المسافر حتى قبل المغادرة، فهو يُظهر أن هناك من يرافقه."
+    },
+    {
+     "p": "ومن المفيد أن تُعدّوا ورقة بسيطة تلخّص الأسئلة الأكثر تكرارًا عند الاتصال بوكالة سفر، مثل كيفية طلب عرض أو تعديل حجز أو طلب مساعدة أثناء الرحلة، وأن تحدّدوا من يتولى كل حالة."
+    },
+    {
+     "p": "وفي المواسم التي يكثر فيها السفر تزداد المكالمات، ولذلك يفيد أن تُهيّئوا قواعد الاستقبال قبل حلول الذروة لا بعدها، فتتفادوا الارتباك وتحافظوا على جودة الخدمة."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يستطيع الاستقبال عن بُعد بيع رحلة؟",
+       "a": "يجمع الاستقبال الطلبات ويحوّلها، أما البيع والاستشارة السياحية فيبقيان على عاتق مستشاري الوكالة."
+      },
+      {
+       "q": "كيف نتعامل مع مكالمات العملاء المسافرين؟",
+       "a": "ضمّنوا رسالة الترحيب تعليمة واضحة للطلبات العاجلة، بحسب التنظيم الذي تحددونه."
+      },
+      {
+       "q": "هل تستطيع وكالة صغيرة استخدام العرض؟",
+       "a": "نعم، يستهدف عرض الاستقبال / السكرتارية المنشآت الصغيرة جدًا من كل المهن."
+      }
+     ]
+    },
+    {
+     "p": "لكي يجد كل مسافر محتمل من يصغي إليه، تعرّفوا على عرض الاستقبال / السكرتارية من HARX Téléphonie، وانظروا هل يناسب حجم وكالتكم وطبيعة الطلبات التي تصلكم في مختلف أوقات السنة، ومنها مواسم السفر المزدحمة."
+    }
+   ]
+  }
+ }
+}

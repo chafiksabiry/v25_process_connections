@@ -1,0 +1,285 @@
+{
+ "type": "blog",
+ "slug": "blog-a-call-script-preparation",
+ "date": "2026-10-20",
+ "langs": {
+  "fr": {
+   "title": "Préparer un script d'appel qui sonne naturel et efficace",
+   "description": "Structure, questions ouvertes, gestion des objections : comment bâtir un script d'appel qui guide la conversation sans transformer l'agent en robot.",
+   "blocks": [
+    {
+     "p": "Un script d'appel a mauvaise réputation, parce qu'on imagine un texte récité mécaniquement. Bien conçu, il fait l'inverse : il libère l'attention de la personne qui appelle, car elle sait où elle va. L'objectif n'est pas de tout dire, mais de ne rien oublier d'important."
+    },
+    {
+     "h2": "Partir de l'objectif de l'appel"
+    },
+    {
+     "p": "Avant d'écrire une ligne, répondez à une question : qu'est-ce qui rendrait cet appel réussi ? Prendre un rendez-vous, confirmer une information, relancer un devis, recueillir un avis ? Un script qui poursuit trois objectifs à la fois n'en atteint aucun."
+    },
+    {
+     "p": "Précisez aussi le profil de l'interlocuteur : client existant, prospect, ancien contact. Le ton, le niveau d'information et la durée attendue ne seront pas les mêmes. Idéalement, préparez une version courte par type d'appel plutôt qu'un document unique."
+    },
+    {
+     "h2": "Une structure en cinq temps"
+    },
+    {
+     "p": "La plupart des scripts efficaces suivent un enchaînement simple, que chacun adapte à sa façon."
+    },
+    {
+     "ul": [
+      "L'ouverture : se présenter, nommer la structure, et vérifier que la personne a un instant à accorder.",
+      "Le motif : expliquer en une phrase pourquoi vous appelez.",
+      "L'échange : poser quelques questions ouvertes pour comprendre la situation.",
+      "La proposition : formuler la suite que vous suggérez, de façon claire.",
+      "La clôture : reformuler ce qui a été convenu et remercier."
+     ]
+    },
+    {
+     "p": "Écrivez surtout l'ouverture et la clôture mot pour mot, car ce sont les moments les plus sensibles. Pour le milieu de l'appel, listez des points de passage plutôt que des phrases entières."
+    },
+    {
+     "h2": "Anticiper les questions et les objections"
+    },
+    {
+     "p": "Les réactions des interlocuteurs sont prévisibles : « Je n'ai pas le temps », « Envoyez-moi un e-mail », « Ça ne m'intéresse pas pour l'instant ». Préparez pour chacune une réponse courte, honnête, qui respecte la personne."
+    },
+    {
+     "ul": [
+      "Écoutez l'objection jusqu'au bout avant de répondre.",
+      "Reformulez pour montrer que vous avez compris.",
+      "Répondez avec un fait vérifiable, sans exagérer ni promettre ce que vous ne pouvez pas tenir.",
+      "Acceptez un refus poliment : c'est aussi un résultat."
+     ]
+    },
+    {
+     "p": "Notez aussi les questions sur lesquelles vous devez vous renseigner. Dire « je vérifie et je vous rappelle » vaut toujours mieux qu'une réponse approximative."
+    },
+    {
+     "h2": "Tester, ajuster et s'appuyer sur de bons outils"
+    },
+    {
+     "p": "Un script se teste à voix haute, idéalement avec un collègue qui joue l'interlocuteur. Après une série d'appels réels, notez ce qui a fonctionné, ce qui a gêné, et corrigez. Il doit vivre, pas dormir dans un dossier."
+    },
+    {
+     "p": "Disposer du script, du numéro et du journal d'appels au même endroit aide à garder le fil. HARX Téléphonie permet de passer des appels sortants depuis un numéro de votre pays, utile notamment pour les équipes qui font de la vente, de la relation client ou du recouvrement avec l'offre Company Full Scope In & Out."
+    },
+    {
+     "h2": "Conclusion : un guide, pas un texte à réciter"
+    },
+    {
+     "p": "Un bon script d'appel part d'un objectif clair, suit une structure simple, prévoit les objections et reste modifiable. Il soutient l'agent sans l'enfermer. Écrivez peu, répétez à voix haute, ajustez après chaque série d'appels, et laissez toujours de la place à l'écoute, qui reste la compétence la plus précieuse au téléphone. Un outil comme HARX Téléphonie vient simplement soutenir cette discipline."
+    }
+   ]
+  },
+  "en": {
+   "title": "Preparing a Call Script That Sounds Natural and Works",
+   "description": "Structure, open questions, handling objections: how to build a call script that guides the conversation without turning the agent into a robot.",
+   "blocks": [
+    {
+     "p": "A call script has a bad reputation because people imagine a text recited mechanically. Well designed, it does the opposite: it frees the caller's attention because they know where they are heading. The aim is not to say everything, but to forget nothing important."
+    },
+    {
+     "h2": "Start from the goal of the call"
+    },
+    {
+     "p": "Before writing a line, answer one question: what would make this call a success? Booking an appointment, confirming information, following up a quote, collecting feedback? A script that chases three goals at once reaches none."
+    },
+    {
+     "p": "Also specify the profile of the person you are calling: existing customer, prospect, former contact. The tone, the level of information and the expected length will differ. Ideally prepare a short version per type of call rather than one single document."
+    },
+    {
+     "h2": "A five-step structure"
+    },
+    {
+     "p": "Most effective scripts follow a simple sequence that each person adapts in their own way."
+    },
+    {
+     "ul": [
+      "The opening: introduce yourself, name the organisation and check the person has a moment.",
+      "The reason: explain in one sentence why you are calling.",
+      "The exchange: ask a few open questions to understand the situation.",
+      "The proposal: state the next step you suggest, clearly.",
+      "The close: restate what was agreed and say thank you."
+     ]
+    },
+    {
+     "p": "Above all, write the opening and the close word for word, since those are the most sensitive moments. For the middle of the call, list waypoints rather than whole sentences."
+    },
+    {
+     "h2": "Anticipate questions and objections"
+    },
+    {
+     "p": "People's reactions are predictable: “I don't have time”, “Send me an email”, “I'm not interested right now”. Prepare for each a short, honest answer that respects the person."
+    },
+    {
+     "ul": [
+      "Listen to the objection to the end before answering.",
+      "Rephrase to show you understood.",
+      "Answer with a verifiable fact, without exaggerating or promising what you cannot deliver.",
+      "Accept a refusal politely: that is also an outcome."
+     ]
+    },
+    {
+     "p": "Also note the questions you need to look into. Saying “I'll check and call you back” is always better than an approximate answer."
+    },
+    {
+     "h2": "Test, adjust and rely on good tools"
+    },
+    {
+     "p": "A script is tested aloud, ideally with a colleague playing the other person. After a series of real calls, note what worked and what got in the way, then correct. It should live, not sleep in a folder."
+    },
+    {
+     "p": "Having the script, the number and the call log in one place helps you keep the thread. HARX Telephony lets you place outbound calls from a number of your country, useful in particular for teams doing sales, customer relations or collections with the Company Full Scope In & Out offer."
+    },
+    {
+     "h2": "Conclusion: a guide, not a text to recite"
+    },
+    {
+     "p": "A good call script starts from a clear goal, follows a simple structure, anticipates objections and stays editable. It supports the agent without boxing them in. Write little, rehearse aloud, adjust after each series of calls, and always leave room for listening, which remains the most valuable skill on the phone. A tool such as HARX Telephony simply supports that discipline."
+    }
+   ]
+  },
+  "es": {
+   "title": "Preparar un guion de llamada natural y eficaz",
+   "description": "Estructura, preguntas abiertas, gestión de objeciones: cómo construir un guion de llamada que guíe la conversación sin convertir al agente en un robot.",
+   "blocks": [
+    {
+     "p": "Un guion de llamada tiene mala fama porque se imagina un texto recitado de forma mecánica. Bien diseñado, hace lo contrario: libera la atención de quien llama, porque sabe hacia dónde va. El objetivo no es decirlo todo, sino no olvidar nada importante."
+    },
+    {
+     "h2": "Partir del objetivo de la llamada"
+    },
+    {
+     "p": "Antes de escribir una línea, responde a una pregunta: ¿qué haría que esta llamada fuera un éxito? ¿Concertar una cita, confirmar una información, retomar un presupuesto, recoger una opinión? Un guion que persigue tres objetivos a la vez no alcanza ninguno."
+    },
+    {
+     "p": "Precisa también el perfil del interlocutor: cliente actual, cliente potencial, contacto antiguo. El tono, el nivel de información y la duración esperada no serán los mismos. Lo ideal es preparar una versión corta por tipo de llamada en lugar de un único documento."
+    },
+    {
+     "h2": "Una estructura en cinco tiempos"
+    },
+    {
+     "p": "La mayoría de los guiones eficaces siguen una secuencia sencilla que cada persona adapta a su manera."
+    },
+    {
+     "ul": [
+      "La apertura: presentarse, nombrar la entidad y comprobar que la persona tiene un momento.",
+      "El motivo: explicar en una frase por qué llamas.",
+      "El intercambio: hacer algunas preguntas abiertas para entender la situación.",
+      "La propuesta: formular con claridad el paso siguiente que sugieres.",
+      "El cierre: reformular lo acordado y dar las gracias."
+     ]
+    },
+    {
+     "p": "Escribe palabra por palabra sobre todo la apertura y el cierre, porque son los momentos más delicados. Para el centro de la llamada, enumera puntos de paso en lugar de frases enteras."
+    },
+    {
+     "h2": "Anticipar preguntas y objeciones"
+    },
+    {
+     "p": "Las reacciones de los interlocutores son previsibles: «No tengo tiempo», «Envíeme un correo», «Ahora mismo no me interesa». Prepara para cada una una respuesta breve, honesta y respetuosa."
+    },
+    {
+     "ul": [
+      "Escucha la objeción hasta el final antes de responder.",
+      "Reformula para demostrar que has entendido.",
+      "Responde con un dato verificable, sin exagerar ni prometer lo que no puedes cumplir.",
+      "Acepta una negativa con educación: también es un resultado."
+     ]
+    },
+    {
+     "p": "Anota además las preguntas sobre las que debes informarte. Decir «lo compruebo y le llamo» siempre es mejor que una respuesta aproximada."
+    },
+    {
+     "h2": "Probar, ajustar y apoyarse en buenas herramientas"
+    },
+    {
+     "p": "Un guion se prueba en voz alta, idealmente con un compañero que haga de interlocutor. Tras una serie de llamadas reales, anota lo que funcionó y lo que estorbó, y corrige. Debe vivir, no dormir en una carpeta."
+    },
+    {
+     "p": "Tener el guion, el número y el registro de llamadas en un mismo lugar ayuda a no perder el hilo. HARX Telefonía permite hacer llamadas salientes desde un número de tu país, útil sobre todo para equipos que hacen ventas, relación con el cliente o cobro con la oferta Company Full Scope In & Out."
+    },
+    {
+     "h2": "Conclusión: una guía, no un texto para recitar"
+    },
+    {
+     "p": "Un buen guion de llamada parte de un objetivo claro, sigue una estructura sencilla, prevé las objeciones y sigue siendo modificable. Apoya al agente sin encerrarlo. Escribe poco, ensaya en voz alta, ajusta tras cada serie de llamadas y deja siempre sitio a la escucha, que sigue siendo la habilidad más valiosa al teléfono. Una herramienta como HARX Telefonía simplemente apoya esa disciplina."
+    }
+   ]
+  },
+  "ar": {
+   "title": "إعداد نص مكالمة يبدو طبيعيًا ويحقق هدفه",
+   "description": "البنية والأسئلة المفتوحة والتعامل مع الاعتراضات: كيف تبني نصًا للمكالمة يوجّه الحديث دون أن يحوّل المتصل إلى آلة تردد كلامًا محفوظًا.",
+   "blocks": [
+    {
+     "p": "لنص المكالمة سمعة سيئة لأن الناس يتخيلونه نصًا يُردَّد آليًا. أما إذا صُمّم جيدًا فإنه يفعل العكس: يحرر انتباه المتصل لأنه يعرف وجهته. والهدف ليس أن تقول كل شيء، بل ألا تنسى شيئًا مهمًا."
+    },
+    {
+     "h2": "انطلق من هدف المكالمة"
+    },
+    {
+     "p": "قبل كتابة سطر واحد أجب عن سؤال: ما الذي يجعل هذه المكالمة ناجحة؟ هل هو حجز موعد أو تأكيد معلومة أو متابعة عرض سعر أو جمع رأي؟ فالنص الذي يلاحق ثلاثة أهداف معًا لا يحقق أيًّا منها."
+    },
+    {
+     "p": "وحدّد كذلك ملف المحاور: عميل حالي أم عميل محتمل أم جهة اتصال قديمة. فالنبرة ومستوى المعلومات والمدة المتوقعة لن تكون واحدة. والأفضل أن تُعدّ نسخة قصيرة لكل نوع من المكالمات بدل وثيقة واحدة."
+    },
+    {
+     "h2": "بنية من خمس مراحل"
+    },
+    {
+     "p": "تتبع معظم النصوص الفعالة تسلسلًا بسيطًا يكيّفه كل شخص على طريقته."
+    },
+    {
+     "ul": [
+      "الافتتاح: التعريف بنفسك وبالجهة والتأكد من أن لدى الشخص لحظة للحديث.",
+      "السبب: شرح سبب الاتصال في جملة واحدة.",
+      "الحوار: طرح بعض الأسئلة المفتوحة لفهم الوضع.",
+      "الاقتراح: صياغة الخطوة التالية التي تقترحها بوضوح.",
+      "الختام: إعادة صياغة ما تم الاتفاق عليه وتقديم الشكر."
+     ]
+    },
+    {
+     "p": "اكتب الافتتاح والختام كلمة بكلمة خصوصًا، فهما أكثر اللحظات حساسية. أما وسط المكالمة فدوّن فيه نقاط عبور بدل جمل كاملة."
+    },
+    {
+     "h2": "توقّع الأسئلة والاعتراضات"
+    },
+    {
+     "p": "ردود فعل المحاورين متوقعة: «ليس لدي وقت» و«أرسل لي بريدًا إلكترونيًا» و«لا يهمني الآن». أعدّ لكل منها ردًا قصيرًا وصادقًا يحترم الشخص."
+    },
+    {
+     "ul": [
+      "استمع إلى الاعتراض حتى النهاية قبل الرد.",
+      "أعد صياغته لتُظهر أنك فهمته.",
+      "أجب بمعلومة يمكن التحقق منها دون مبالغة ودون وعد بما لا تستطيع الوفاء به.",
+      "اقبل الرفض بلباقة، فهو أيضًا نتيجة."
+     ]
+    },
+    {
+     "p": "ودوّن كذلك الأسئلة التي ينبغي أن تستعلم عنها. فقول «سأتحقق وأعاود الاتصال بك» أفضل دائمًا من جواب تقريبي، ويُظهر احترامك لوقت محدثك."
+    },
+    {
+     "h2": "اختبر وعدّل واعتمد على أدوات جيدة"
+    },
+    {
+     "p": "يُختبر النص بصوت عالٍ، والأفضل مع زميل يؤدي دور المحاور. وبعد سلسلة من المكالمات الحقيقية دوّن ما نجح وما أعاق ثم صحّح. فالنص ينبغي أن يعيش لا أن ينام في مجلد."
+    },
+    {
+     "p": "ووجود النص والرقم وسجل المكالمات في مكان واحد يساعدك على متابعة الخيط. وتتيح HARX للاتصالات إجراء مكالمات صادرة من رقم بلدك، وهو مفيد خصوصًا للفرق التي تعمل في المبيعات أو علاقة العملاء أو التحصيل ضمن عرض Company Full Scope In & Out."
+    },
+    {
+     "p": "وجرّب أن تسجّل نفسك وأنت تقرأ الافتتاح والختام، ثم استمع إلى التسجيل. فستلاحظ فورًا الجمل الطويلة والكلمات الثقيلة والوقفات غير الطبيعية، وهي أمور لا ينتبه لها المرء وهو يتحدث. وتعديلات صغيرة بعد هذا الاستماع تحسّن النبرة كثيرًا."
+    },
+    {
+     "p": "وأخيرًا اجعل النص قصيرًا بحيث يتسع لصفحة واحدة، وضع الأسئلة المفتوحة في مكان بارز. فكلما قلّ ما تقرؤه أثناء المكالمة زاد ما تصغي إليه، وهذه هي المهارة التي تصنع الفرق بين مكالمة تُنجز ومكالمة تُنجح."
+    },
+    {
+     "h2": "الخلاصة: دليل لا نص يُردَّد"
+    },
+    {
+     "p": "ينطلق نص المكالمة الجيد من هدف واضح ويتبع بنية بسيطة ويتوقع الاعتراضات ويبقى قابلًا للتعديل. إنه يسند المتصل دون أن يحبسه. اكتب قليلًا وتدرّب بصوت عالٍ وعدّل بعد كل سلسلة مكالمات، واترك دائمًا مساحة للإصغاء الذي يبقى أثمن مهارة على الهاتف. وأداة مثل HARX للاتصالات تدعم هذا الانضباط ببساطة."
+    }
+   ]
+  }
+ }
+}

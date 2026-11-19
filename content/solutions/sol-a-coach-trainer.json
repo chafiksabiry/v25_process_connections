@@ -1,0 +1,304 @@
+{
+ "type": "solution",
+ "slug": "sol-a-coach-trainer",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Coach et formateur indépendant : un téléphone qui travaille pour vous",
+   "description": "Coach ou formateur indépendant : évitez les interruptions pendant vos séances, gardez un numéro pro et suivez vos appels avec Nomad Solo de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Un coach ou un formateur indépendant a besoin de présence totale pendant ses séances. Mais entre deux sessions, il doit aussi répondre aux prospects, aux stagiaires et aux organismes qui font appel à lui."
+    },
+    {
+     "h2": "Le problème téléphonique typique du coach ou du formateur"
+    },
+    {
+     "p": "Un téléphone qui sonne pendant une séance de coaching ou une formation en groupe rompt la concentration et donne une impression de désordre. À l’inverse, ne pas répondre aux demandes d’information peut coûter une inscription. Beaucoup d’indépendants utilisent leur mobile personnel, ce qui mélange vie privée et activité."
+    },
+    {
+     "ul": [
+      "Les appels arrivent pendant les séances, avec le choix peu satisfaisant entre décrocher et ignorer.",
+      "Les prospects veulent souvent une réponse rapide avant de s’engager sur un accompagnement.",
+      "La ligne personnelle sert aussi aux proches, ce qui complique la séparation entre vie privée et professionnelle."
+     ]
+    },
+    {
+     "h2": "Comment Nomad Solo répond à ce besoin"
+    },
+    {
+     "p": "Nomad Solo, offre de HARX Téléphonie pour les freelances, fournit un numéro français, un répondeur personnel et un journal d’appels. L’abonnement est mensuel, avec minutes et IA prépayées, et la mise en route peut se faire en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un numéro professionnel à indiquer sur votre site, vos supports de formation et vos réseaux.",
+      "Un répondeur où vous enregistrez votre message d’accueil, par exemple pour indiquer vos créneaux de rappel.",
+      "Un journal d’appels pour retrouver les demandes reçues entre deux séances et rappeler chaque personne."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un coach ou un formateur"
+    },
+    {
+     "ul": [
+      "Coupez la sonnerie pendant les séances et prévenez les participants que votre téléphone est en mode répondeur.",
+      "Annoncez dans votre message d’accueil comment prendre rendez-vous ou demander des informations.",
+      "Rappelez les prospects dans un délai court : un premier échange rapide crée de la confiance.",
+      "Prévoyez un court temps de rappel entre chaque séance plutôt que de répondre au fil de l’eau.",
+      "Ne promettez pas de résultat au téléphone : décrivez la démarche et les modalités, sans garantie de résultat."
+     ]
+    },
+    {
+     "p": "La qualité de votre accueil téléphonique fait partie de l’expérience que vous proposez : elle annonce le sérieux de votre accompagnement."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Faut-il un numéro différent pour mon activité de coaching ?",
+       "a": "Ce n’est pas obligatoire, mais un numéro dédié permet de séparer clairement les appels professionnels de la sphère privée."
+      },
+      {
+       "q": "Comment éviter d’être dérangé pendant une séance ?",
+       "a": "Le répondeur prend les appels pendant que vous êtes occupé, et vous rappelez ensuite à l’heure qui vous convient."
+      },
+      {
+       "q": "L’offre convient-elle à un formateur qui intervient à distance ?",
+       "a": "Nomad Solo est conçue pour les freelances, y compris ceux qui travaillent à distance ou depuis l’étranger."
+      }
+     ]
+    },
+    {
+     "p": "Pour vous consacrer pleinement à vos séances sans perdre de demande, découvrez Nomad Solo de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Independent Coaches and Trainers: A Phone That Works for You",
+   "description": "Independent coach or trainer: avoid interruptions during sessions, keep a business number and track your calls with Nomad Solo from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "An independent coach or trainer needs full presence during sessions. Yet between two sessions they must also answer prospects, trainees and organisations that hire them."
+    },
+    {
+     "h2": "The typical phone problem for a coach or trainer"
+    },
+    {
+     "p": "A phone ringing during a coaching session or group training breaks concentration and gives an impression of disorder. Conversely, ignoring information requests can cost an enrolment. Many independents use their personal mobile, which mixes private life and business."
+    },
+    {
+     "ul": [
+      "Calls arrive during sessions, leaving the unsatisfying choice between answering and ignoring.",
+      "Prospects often want a quick answer before committing to coaching.",
+      "The personal line also serves family and friends, which complicates the separation between private and professional life."
+     ]
+    },
+    {
+     "h2": "How Nomad Solo addresses this"
+    },
+    {
+     "p": "Nomad Solo, the HARX Telephony offer for freelancers, provides a French number, a personal answering service and a call log. The subscription is monthly, with prepaid minutes and AI, and set-up can take just a few minutes."
+    },
+    {
+     "ul": [
+      "A business number to put on your website, training materials and social networks.",
+      "An answering service where you record your greeting, for instance to state your callback slots.",
+      "A call log to find requests received between sessions and call each person back."
+     ]
+    },
+    {
+     "h2": "General good practice for coaches and trainers"
+    },
+    {
+     "ul": [
+      "Silence the ringer during sessions and tell participants your phone is on answering mode.",
+      "Say in your greeting how to book or request information.",
+      "Call prospects back within a short time: a quick first exchange builds trust.",
+      "Plan a short callback window between sessions rather than answering ad hoc.",
+      "Do not promise results over the phone: describe the approach and arrangements, with no guarantee of outcome."
+     ]
+    },
+    {
+     "p": "The quality of your phone reception is part of the experience you offer: it signals the seriousness of your support. Keeping the same number, the same tone and realistic promises over time builds a steady professional reputation."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Do I need a separate number for my coaching activity?",
+       "a": "It is not compulsory, but a dedicated number clearly separates professional calls from private life."
+      },
+      {
+       "q": "How can I avoid being disturbed during a session?",
+       "a": "The answering service takes calls while you are busy, and you call back afterwards at a time that suits you."
+      },
+      {
+       "q": "Does the offer suit a trainer who works remotely?",
+       "a": "Nomad Solo is designed for freelancers, including those who work remotely or from abroad."
+      }
+     ]
+    },
+    {
+     "p": "To give your sessions your full attention without losing requests, discover Nomad Solo from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Coaches y formadores independientes: un teléfono a su servicio",
+   "description": "Coach o formador independiente: evite interrupciones durante las sesiones, tenga un número profesional y siga sus llamadas con Nomad Solo de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "Un coach o formador independiente necesita presencia total durante sus sesiones. Pero entre una sesión y otra también debe atender a posibles clientes, alumnos y organismos que recurren a él."
+    },
+    {
+     "h2": "El problema telefónico típico del coach o formador"
+    },
+    {
+     "p": "Un teléfono que suena durante una sesión de coaching o una formación en grupo rompe la concentración y da impresión de desorden. A la inversa, ignorar las peticiones de información puede costar una inscripción. Muchos independientes usan su móvil personal, lo que mezcla vida privada y actividad."
+    },
+    {
+     "ul": [
+      "Las llamadas llegan durante las sesiones, con la poco satisfactoria elección entre contestar e ignorar.",
+      "Los posibles clientes suelen querer una respuesta rápida antes de comprometerse con un acompañamiento.",
+      "La línea personal sirve también a los allegados, lo que complica separar vida privada y profesional."
+     ]
+    },
+    {
+     "h2": "Cómo responde Nomad Solo a esta necesidad"
+    },
+    {
+     "p": "Nomad Solo, oferta de HARX Telefonía para freelances, proporciona un número francés, un contestador personal y un registro de llamadas. La suscripción es mensual, con minutos e IA prepagados, y la puesta en marcha puede hacerse en pocos minutos."
+    },
+    {
+     "ul": [
+      "Un número profesional para indicar en su web, sus materiales de formación y sus redes.",
+      "Un contestador donde graba su mensaje, por ejemplo para indicar sus franjas de devolución.",
+      "Un registro de llamadas para recuperar las peticiones recibidas entre sesiones y llamar a cada persona."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para coaches y formadores"
+    },
+    {
+     "ul": [
+      "Silencie el timbre durante las sesiones y avise a los participantes de que su teléfono está en modo contestador.",
+      "Diga en su mensaje cómo reservar o pedir información.",
+      "Devuelva la llamada a los interesados en poco tiempo: un primer contacto rápido genera confianza.",
+      "Prevea una breve ventana de devolución entre sesiones en lugar de contestar sobre la marcha.",
+      "No prometa resultados por teléfono: describa el método y las condiciones, sin garantía de resultado."
+     ]
+    },
+    {
+     "p": "La calidad de su atención telefónica forma parte de la experiencia que ofrece: anuncia la seriedad de su acompañamiento."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Necesito un número distinto para mi actividad de coaching?",
+       "a": "No es obligatorio, pero un número dedicado separa con claridad las llamadas profesionales de la vida privada."
+      },
+      {
+       "q": "¿Cómo evitar que me molesten durante una sesión?",
+       "a": "El contestador atiende las llamadas mientras usted está ocupado y después devuelve la llamada a la hora que le convenga."
+      },
+      {
+       "q": "¿Sirve la oferta para un formador que trabaja a distancia?",
+       "a": "Nomad Solo está concebida para freelances, incluidos quienes trabajan a distancia o desde el extranjero."
+      }
+     ]
+    },
+    {
+     "p": "Para dedicarse por completo a sus sesiones sin perder peticiones, conozca Nomad Solo de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "المدرّب والمكوّن المستقل: هاتف يعمل لصالحك",
+   "description": "المدرّب أو المكوّن المستقل: تجنّبوا المقاطعات أثناء الجلسات واحتفظوا برقم مهني وتابعوا مكالماتكم مع Nomad Solo من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "يحتاج المدرّب أو المكوّن المستقل إلى حضور كامل أثناء جلساته. لكنه بين جلسة وأخرى مطالَب أيضًا بالرد على العملاء المحتملين والمتدربين والجهات التي تستعين به."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للمدرّب أو المكوّن"
+    },
+    {
+     "p": "هاتف يرنّ أثناء جلسة تدريب أو دورة جماعية يقطع التركيز ويعطي انطباعًا بالفوضى. وفي المقابل، قد يكلّف تجاهل طلبات المعلومات تسجيل مشارك. ويستخدم كثير من المستقلين جوالهم الشخصي، فيختلط الخاص بالمهني."
+    },
+    {
+     "ul": [
+      "تصل المكالمات أثناء الجلسات، مع خيار غير مرضٍ بين الرد والتجاهل.",
+      "يريد العملاء المحتملون غالبًا جوابًا سريعًا قبل الالتزام بالمرافقة.",
+      "الخط الشخصي يخدم الأقارب أيضًا، مما يعقّد الفصل بين الحياة الخاصة والمهنية."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض Nomad Solo هذه الحاجة"
+    },
+    {
+     "p": "عرض Nomad Solo من HARX Téléphonie مخصص للعاملين المستقلين، ويوفّر رقمًا فرنسيًا وردًّا شخصيًا وسجلًا للمكالمات. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، ويمكن التشغيل خلال دقائق."
+    },
+    {
+     "ul": [
+      "رقم مهني تضعونه على موقعكم ومواد التدريب وشبكاتكم الاجتماعية.",
+      "ردّ شخصي تسجّلون فيه رسالة الترحيب، مثلًا لتحديد أوقات معاودة الاتصال.",
+      "سجل مكالمات لاسترجاع الطلبات الواردة بين الجلسات والاتصال بكل شخص."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للمدربين والمكوّنين"
+    },
+    {
+     "ul": [
+      "أسكتوا الرنين أثناء الجلسات وأخبروا المشاركين بأن هاتفكم في وضع الرد الآلي.",
+      "اذكروا في رسالة الترحيب كيفية الحجز أو طلب المعلومات.",
+      "عاودوا الاتصال بالمهتمين في وقت قصير، فالتواصل الأول السريع يبني الثقة.",
+      "خصّصوا نافذة قصيرة لمعاودة الاتصال بين الجلسات بدل الرد المتفرق.",
+      "لا تَعِدوا بنتائج هاتفيًا: اشرحوا المنهج والترتيبات دون ضمان للنتيجة."
+     ]
+    },
+    {
+     "p": "جودة استقبالكم الهاتفي جزء من التجربة التي تقدّمونها، فهي تنبئ بجدية مرافقتكم."
+    },
+    {
+     "p": "ومن المفيد أن تُعدّوا جوابًا موحدًا وبسيطًا عن الأسئلة التي تتكرر كثيرًا، مثل مدة البرنامج وطريقة التسجيل وكيفية التواصل بعد الجلسة، فيكتسب المتصل صورة واضحة منذ أول اتصال."
+    },
+    {
+     "p": "وأخيرًا، يبقى الاتساق مهمًا: الرقم نفسه والنبرة نفسها والوعود الواقعية نفسها، فهذه العناصر تصنع سمعة مهنية ثابتة مع الوقت، وتجعل كل من يتصل بكم يعرف ما ينتظره منذ الكلمات الأولى."
+    },
+    {
+     "p": "ولا بأس في أن تطلبوا من متدرب سابق رأيه الصريح في تجربة الاتصال بكم، فملاحظة واحدة صادقة قد تكشف تفصيلًا صغيرًا يستحق التحسين في طريقة استقبالكم للمكالمات."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل أحتاج إلى رقم منفصل لنشاط التدريب؟",
+       "a": "ليس إلزاميًا، لكن الرقم المخصص يفصل بوضوح بين المكالمات المهنية والحياة الخاصة."
+      },
+      {
+       "q": "كيف أتجنب الإزعاج أثناء الجلسة؟",
+       "a": "يستقبل الرد الآلي المكالمات وأنتم مشغولون، ثم تعاودون الاتصال في الوقت الذي يناسبكم."
+      },
+      {
+       "q": "هل يناسب العرض مكوّنًا يعمل عن بُعد؟",
+       "a": "عرض Nomad Solo مصمم للعاملين المستقلين، ومنهم من يعملون عن بُعد أو من الخارج."
+      }
+     ]
+    },
+    {
+     "p": "للتفرغ التام لجلساتكم دون خسارة أي طلب، تعرّفوا على عرض Nomad Solo من HARX Téléphonie، وانظروا كيف يمكن لرقم مهني ورد شخصي وسجل مكالمات أن يخفّفوا عنكم عبء المتابعة بين الجلسات."
+    }
+   ]
+  }
+ }
+}

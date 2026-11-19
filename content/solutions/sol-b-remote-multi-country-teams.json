@@ -1,0 +1,282 @@
+{
+ "type": "solution",
+ "slug": "sol-b-remote-multi-country-teams",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Équipes à distance multi-pays : une ligne téléphonique commune",
+   "description": "Collaborateurs répartis dans plusieurs pays, clients dans plusieurs marchés : comment unifier la téléphonie avec l'offre Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "Le problème : des équipes dispersées, des clients qui attendent une cohérence"
+    },
+    {
+     "p": "Quand une entreprise compte des collaborateurs dans plusieurs pays, chacun finit souvent par utiliser sa propre ligne, son propre mobile ou son application de messagerie. Pour le client, l'entreprise paraît alors fragmentée : il ne sait pas quel numéro composer et ne retrouve pas le même accueil d'un interlocuteur à l'autre."
+    },
+    {
+     "ul": [
+      "Des numéros personnels exposés aux clients, qui disparaissent avec le départ d'un collaborateur.",
+      "Des appels sortants passés depuis un numéro étranger, que le destinataire hésite à décrocher.",
+      "Aucune ligne centrale pour joindre l'entreprise en cas d'absence de l'interlocuteur habituel.",
+      "Des différences de fuseaux horaires qui compliquent la couverture des appels entrants.",
+      "Un suivi des échanges éclaté entre plusieurs outils et plusieurs personnes."
+     ]
+    },
+    {
+     "p": "Ces difficultés se cumulent à mesure que l'équipe grandit. Elles pèsent sur la confiance des clients et sur la capacité du management à savoir ce qui se passe réellement au téléphone."
+    },
+    {
+     "h2": "Comment Company Full Scope In & Out aide les équipes réparties"
+    },
+    {
+     "p": "Company Full Scope In & Out, l'une des offres de HARX Téléphonie, cible explicitement les PME et les équipes à distance. Elle gère les appels entrants et sortants et fournit un numéro de votre pays, un accueil et un répondeur, avec une IA qui assiste les échanges."
+    },
+    {
+     "p": "Pour une organisation répartie, l'intérêt est de donner une identité téléphonique stable : l'entreprise est joignable de la même manière, indépendamment de l'endroit où travaille la personne qui décroche. L'abonnement est mensuel, minutes et IA sont prépayées, et la mise en service est annoncée en quelques minutes, ce qui permet d'ajouter une ligne lorsqu'un marché s'ouvre."
+    },
+    {
+     "h2": "Bonnes pratiques pour la téléphonie d'une équipe distribuée"
+    },
+    {
+     "ul": [
+      "Publier un seul numéro d'entreprise par marché plutôt que des numéros personnels.",
+      "Documenter qui couvre quelles plages horaires et quelles langues d'échange.",
+      "Prévoir un message de répondeur clair indiquant quand le client sera rappelé.",
+      "Centraliser les comptes rendus d'appel dans un outil partagé accessible à tous.",
+      "Organiser des points réguliers entre pays pour harmoniser la façon d'accueillir et de conclure.",
+      "Respecter les règles locales applicables à la communication téléphonique dans chaque pays concerné."
+     ]
+    },
+    {
+     "p": "Une équipe distribuée n'a pas à renoncer à une image unifiée : c'est une question d'organisation autant que d'outil. Company Full Scope In & Out de HARX offre une base simple pour y parvenir."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Une entreprise peut-elle avoir une présence téléphonique dans plusieurs pays ?",
+       "a": "L'offre fournit un numéro de votre pays ; pour une organisation multi-pays, il convient d'étudier votre besoin avec HARX selon les marchés visés."
+      },
+      {
+       "q": "Les collaborateurs doivent-ils travailler depuis un même lieu ?",
+       "a": "Non, l'offre est destinée notamment aux équipes à distance."
+      },
+      {
+       "q": "Faut-il un engagement lourd pour démarrer ?",
+       "a": "L'offre fonctionne sur abonnement mensuel, avec minutes et IA prépayées."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Remote multi-country teams: a shared phone line for everyone",
+   "description": "Colleagues in several countries, customers in several markets: how to unify telephony with HARX's Company Full Scope In & Out offer for remote teams.",
+   "blocks": [
+    {
+     "h2": "The problem: scattered teams, customers who expect consistency"
+    },
+    {
+     "p": "When a company has staff in several countries, everyone tends to end up using their own line, personal mobile or messaging app. To the customer, the company then looks fragmented: they do not know which number to dial and do not get the same welcome from one contact to the next."
+    },
+    {
+     "ul": [
+      "Personal numbers exposed to customers, which vanish when a colleague leaves.",
+      "Outbound calls placed from a foreign number that the recipient hesitates to answer.",
+      "No central line to reach the company when the usual contact is away.",
+      "Time-zone differences that complicate coverage of inbound calls.",
+      "Conversation history split across several tools and several people."
+     ]
+    },
+    {
+     "p": "These difficulties pile up as the team grows. They weigh on customer trust and on management's ability to know what is really happening on the phone."
+    },
+    {
+     "h2": "How Company Full Scope In & Out helps distributed teams"
+    },
+    {
+     "p": "Company Full Scope In & Out, one of the HARX Telephony offers, explicitly targets SMEs and remote teams. It handles inbound and outbound calls and provides a number from your country, reception and voicemail, with an AI that assists conversations."
+    },
+    {
+     "p": "For a distributed organisation, the benefit is a stable telephone identity: the company can be reached the same way regardless of where the person answering is working. The subscription is monthly, minutes and AI are prepaid, and activation is described as taking minutes, which makes it practical to add a line when a new market opens."
+    },
+    {
+     "h2": "Good practices for a distributed team's telephony"
+    },
+    {
+     "ul": [
+      "Publish one company number per market instead of personal numbers.",
+      "Document who covers which time slots and which languages of conversation.",
+      "Record a clear voicemail message stating when the customer will be called back.",
+      "Centralise call notes in a shared tool that everyone can access.",
+      "Hold regular cross-country meetings to align how calls are answered and closed.",
+      "Follow the local rules that apply to telephone communication in each country involved."
+     ]
+    },
+    {
+     "p": "A distributed team does not have to give up a unified image: it is a matter of organisation as much as tooling. HARX's Company Full Scope In & Out offers a simple foundation to get there. Start with a single market, learn from it, and extend the same method to the next one."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can a company have a telephone presence in several countries?",
+       "a": "The offer provides a number from your country; for a multi-country organisation, discuss your needs with HARX according to the markets you target."
+      },
+      {
+       "q": "Do employees have to work from the same place?",
+       "a": "No, the offer is aimed in particular at remote teams."
+      },
+      {
+       "q": "Is a heavy commitment needed to get started?",
+       "a": "The offer runs on a monthly subscription, with prepaid minutes and AI."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Equipos remotos en varios países: una línea telefónica común",
+   "description": "Colaboradores en varios países y clientes en distintos mercados: cómo unificar la telefonía con Company Full Scope In & Out de HARX para equipos remotos.",
+   "blocks": [
+    {
+     "h2": "El problema: equipos dispersos y clientes que esperan coherencia"
+    },
+    {
+     "p": "Cuando una empresa tiene personal en varios países, cada cual acaba usando su propia línea, su móvil personal o su aplicación de mensajería. Para el cliente, la empresa parece entonces fragmentada: no sabe qué número marcar y no recibe la misma atención de un interlocutor a otro."
+    },
+    {
+     "ul": [
+      "Números personales expuestos a los clientes, que desaparecen cuando un colaborador se va.",
+      "Llamadas salientes hechas desde un número extranjero que el destinatario duda en contestar.",
+      "Ninguna línea central para localizar a la empresa si el interlocutor habitual está ausente.",
+      "Diferencias horarias que complican la cobertura de las llamadas entrantes.",
+      "Un seguimiento de las conversaciones repartido entre varias herramientas y personas."
+     ]
+    },
+    {
+     "p": "Estas dificultades se acumulan a medida que el equipo crece. Afectan a la confianza de los clientes y a la capacidad de la dirección para saber qué ocurre realmente por teléfono."
+    },
+    {
+     "h2": "Cómo ayuda Company Full Scope In & Out a los equipos repartidos"
+    },
+    {
+     "p": "Company Full Scope In & Out, una de las ofertas de HARX Telefonía, se dirige expresamente a pymes y equipos remotos. Gestiona llamadas entrantes y salientes y ofrece un número de su país, recepción y contestador, con una IA que asiste las conversaciones."
+    },
+    {
+     "p": "Para una organización distribuida, la ventaja es una identidad telefónica estable: la empresa se localiza de la misma forma sin importar desde dónde trabaje la persona que contesta. La suscripción es mensual, los minutos y la IA son prepagados y la puesta en marcha se describe como cuestión de minutos, lo que facilita añadir una línea cuando se abre un mercado."
+    },
+    {
+     "h2": "Buenas prácticas para la telefonía de un equipo distribuido"
+    },
+    {
+     "ul": [
+      "Publicar un único número de empresa por mercado en lugar de números personales.",
+      "Documentar quién cubre qué franjas horarias y qué idiomas de conversación.",
+      "Grabar un mensaje de contestador claro que indique cuándo se devolverá la llamada.",
+      "Centralizar las notas de llamada en una herramienta compartida accesible para todos.",
+      "Organizar reuniones periódicas entre países para armonizar cómo se atiende y se cierra una llamada.",
+      "Cumplir las normas locales aplicables a la comunicación telefónica en cada país implicado."
+     ]
+    },
+    {
+     "p": "Un equipo distribuido no tiene por qué renunciar a una imagen unificada: es cuestión de organización tanto como de herramienta. Company Full Scope In & Out de HARX ofrece una base sencilla para lograrlo. Conviene empezar por un solo mercado, aprender de la experiencia y aplicar el mismo método al siguiente."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede una empresa tener presencia telefónica en varios países?",
+       "a": "La oferta proporciona un número de su país; para una organización multipaís, conviene estudiar su necesidad con HARX según los mercados que persiga."
+      },
+      {
+       "q": "¿Los colaboradores tienen que trabajar desde el mismo lugar?",
+       "a": "No, la oferta se dirige en particular a equipos remotos."
+      },
+      {
+       "q": "¿Hace falta un compromiso pesado para empezar?",
+       "a": "La oferta funciona con suscripción mensual, con minutos e IA prepagados."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "فرق عن بُعد في عدة بلدان: خط هاتفي مشترك",
+   "description": "موظفون موزّعون على عدة بلدان وعملاء في أسواق مختلفة: كيف توحّد الاتصالات الهاتفية مع عرض Company Full Scope In & Out من HARX للفرق عن بُعد.",
+   "blocks": [
+    {
+     "h2": "المشكلة: فرق متفرقة وعملاء ينتظرون انسجامًا في التعامل"
+    },
+    {
+     "p": "حين يعمل موظفو الشركة في عدة بلدان، ينتهي الأمر غالبًا بأن يستخدم كل واحد خطه الخاص أو هاتفه الشخصي أو تطبيق مراسلة. ويبدو للعميل عندئذٍ أن الشركة مفكّكة، فلا يعرف أي رقم يتصل به ولا يجد الاستقبال نفسه من محاور إلى آخر."
+    },
+    {
+     "ul": [
+      "أرقام شخصية معروضة للعملاء، وتختفي بمغادرة الموظف.",
+      "مكالمات صادرة من رقم أجنبي يتردد المتلقي في الردّ عليه.",
+      "لا يوجد خط مركزي للوصول إلى الشركة حين يغيب المحاور المعتاد.",
+      "اختلاف المناطق الزمنية يعقّد تغطية المكالمات الواردة.",
+      "سجلّ المحادثات موزّع بين عدة أدوات وعدة أشخاص."
+     ]
+    },
+    {
+     "p": "وتتراكم هذه الصعوبات كلما كبر الفريق، فتؤثر في ثقة العملاء وفي قدرة الإدارة على معرفة ما يجري فعليًا عبر الهاتف."
+    },
+    {
+     "h2": "كيف يساعد عرض Company Full Scope In & Out الفرق الموزّعة"
+    },
+    {
+     "p": "يستهدف Company Full Scope In & Out، وهو أحد عروض HARX للاتصالات الهاتفية، الشركات الصغيرة والمتوسطة والفرق عن بُعد صراحةً. وهو يدير المكالمات الواردة والصادرة ويوفّر رقمًا من بلدكم واستقبالًا ومجيبًا آليًا، مع ذكاء اصطناعي يساعد في المحادثات."
+    },
+    {
+     "p": "وفائدته للمؤسسة الموزّعة هي منحها هوية هاتفية ثابتة، فيمكن الوصول إلى الشركة بالطريقة نفسها بصرف النظر عن المكان الذي يعمل منه من يردّ. والاشتراك شهري والدقائق والذكاء الاصطناعي مدفوعة مسبقًا، ويُذكر أن التشغيل يستغرق دقائق، مما يسهّل إضافة خط عند فتح سوق جديدة."
+    },
+    {
+     "h2": "ممارسات جيدة لاتصالات فريق موزّع"
+    },
+    {
+     "ul": [
+      "نشر رقم واحد للشركة لكل سوق بدل الأرقام الشخصية.",
+      "توثيق من يغطي أي فترات زمنية وبأي لغات للتخاطب.",
+      "تسجيل رسالة مجيب آلي واضحة تبيّن متى سيُعاد الاتصال بالعميل.",
+      "تجميع ملاحظات المكالمات في أداة مشتركة يصل إليها الجميع.",
+      "عقد اجتماعات دورية بين البلدان لتوحيد طريقة الردّ وإنهاء المكالمات.",
+      "الالتزام بالقواعد المحلية المطبقة على الاتصالات الهاتفية في كل بلد معني."
+     ]
+    },
+    {
+     "p": "ليس على الفريق الموزّع أن يتخلى عن صورة موحّدة، فالأمر مسألة تنظيم بقدر ما هو مسألة أدوات. ويوفّر Company Full Scope In & Out من HARX قاعدة بسيطة لبلوغ ذلك. ويُستحسن البدء بسوق واحدة والتعلم من التجربة ثم تطبيق المنهج نفسه على السوق التالية، مع تدوين الدروس المستفادة في كل مرة حتى لا يبدأ كل بلد من الصفر."
+    },
+    {
+     "p": "ومن المفيد كذلك أن تُحدَّد مسبقًا قنوات الاتصال بين الزملاء لحلّ الأسئلة العاجلة أثناء المكالمة، فالموظف الذي يعمل وحده في بلد بعيد يحتاج إلى معرفة من يمكنه سؤاله بسرعة دون أن يترك العميل ينتظر. ويساعد على ذلك دليل داخلي مختصر يجمع الإجابات عن الأسئلة المتكررة وأسماء المرجعيات في كل مجال، ويُحدَّث كلما تغير شيء، فيستفيد منه كل من ينضم إلى الفريق من أي بلد."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يمكن لشركة أن يكون لها حضور هاتفي في عدة بلدان؟",
+       "a": "يوفّر العرض رقمًا من بلدكم، وبالنسبة إلى مؤسسة متعددة البلدان يُستحسن بحث احتياجكم مع HARX بحسب الأسواق المستهدفة."
+      },
+      {
+       "q": "هل يجب أن يعمل الموظفون من المكان نفسه؟",
+       "a": "لا، فالعرض موجّه خصوصًا إلى الفرق التي تعمل عن بُعد."
+      },
+      {
+       "q": "هل يلزم التزام ثقيل للبدء؟",
+       "a": "يعمل العرض باشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

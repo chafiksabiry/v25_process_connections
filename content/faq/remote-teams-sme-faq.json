@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "remote-teams-sme-faq",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Équipes à distance et PME : la FAQ HARX Téléphonie",
+      "description": "Ventes, relation client, recouvrement ou recrutement : comment une PME organise ses appels avec l'offre Company Full Scope In & Out.",
+      "blocks": [
+        {
+          "h2": "Téléphoner efficacement en équipe distribuée"
+        },
+        {
+          "faq": [
+            {
+              "q": "Quelle offre HARX choisir pour une PME ?",
+              "a": "L'offre Company Full Scope In & Out vise les PME et les équipes à distance, qui ont besoin d'appels entrants et sortants pour leurs différents métiers."
+            },
+            {
+              "q": "Quels métiers sont concernés ?",
+              "a": "Ventes, relation client, recouvrement et recrutement sont les domaines visés. Chaque équipe peut avoir ses propres habitudes d'appel."
+            },
+            {
+              "q": "Comment répartir les appels entre collègues ?",
+              "a": "Définissez des rôles clairs : qui décroche, qui rappelle, qui escalade. Écrivez ces règles et partagez-les avant de commencer."
+            },
+            {
+              "q": "Comment garder une équipe distante alignée ?",
+              "a": "Un point court en début de journée, un script d'accueil commun et un partage régulier des retours d'appels suffisent souvent à garder la cohérence."
+            },
+            {
+              "q": "Comment éviter les doublons de rappel ?",
+              "a": "Notez chaque rappel pris en charge et par qui. Le journal d'appels sert de repère, à condition que l'équipe le consulte avant d'agir."
+            },
+            {
+              "q": "Comment accueillir un nouveau collègue ?",
+              "a": "Remettez-lui la fiche d'accueil, faites-le écouter quelques échanges types, puis laissez-le passer ses premiers appels avec un référent disponible."
+            },
+            {
+              "q": "L'IA d'assistance peut-elle aider mon équipe ?",
+              "a": "HARX Téléphonie propose une IA qui assiste pendant les appels, utile pour soutenir les conseillers. La qualité d'échange reste portée par les personnes."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Remote Teams and SMEs: The HARX Telephony FAQ",
+      "description": "Sales, customer relations, collections or recruitment: how an SME organises its calls with the Company Full Scope In & Out plan.",
+      "blocks": [
+        {
+          "h2": "Phoning effectively as a distributed team"
+        },
+        {
+          "faq": [
+            {
+              "q": "Which HARX plan suits an SME?",
+              "a": "The Company Full Scope In & Out plan targets SMEs and remote teams that need inbound and outbound calls across their different functions."
+            },
+            {
+              "q": "Which functions does it cover?",
+              "a": "Sales, customer relations, collections and recruitment are the targeted areas. Each team can have its own calling habits."
+            },
+            {
+              "q": "How do I share calls between colleagues?",
+              "a": "Define clear roles: who answers, who calls back, who escalates. Write these rules down and share them before you start."
+            },
+            {
+              "q": "How do I keep a remote team aligned?",
+              "a": "A short check-in at the start of the day, a shared greeting script and regular sharing of call feedback are often enough to keep things consistent."
+            },
+            {
+              "q": "How do I avoid duplicate callbacks?",
+              "a": "Note each callback that has been taken and by whom. The call log is a reference, provided the team checks it before acting."
+            },
+            {
+              "q": "How do I welcome a new colleague?",
+              "a": "Give them the greeting sheet, let them listen to a few typical exchanges, then have them make their first calls with a reference person available."
+            },
+            {
+              "q": "Can the AI assistant help my team?",
+              "a": "HARX Telephony provides an AI that assists during calls, useful for supporting advisors. The quality of the conversation still rests with people."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Equipos remotos y pymes: la FAQ de HARX Telefonía",
+      "description": "Ventas, atención al cliente, cobros o reclutamiento: cómo organiza una pyme sus llamadas con la oferta Company Full Scope In & Out.",
+      "blocks": [
+        {
+          "h2": "Llamar con eficacia en un equipo distribuido"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Qué oferta de HARX conviene a una pyme?",
+              "a": "La oferta Company Full Scope In & Out se dirige a pymes y equipos remotos que necesitan llamadas entrantes y salientes para sus distintas áreas."
+            },
+            {
+              "q": "¿Qué áreas cubre?",
+              "a": "Ventas, atención al cliente, cobros y reclutamiento son los ámbitos previstos. Cada equipo puede tener sus propios hábitos de llamada."
+            },
+            {
+              "q": "¿Cómo reparto las llamadas entre compañeros?",
+              "a": "Defina roles claros: quién contesta, quién devuelve la llamada y quién escala. Escriba esas reglas y compártalas antes de empezar."
+            },
+            {
+              "q": "¿Cómo mantener alineado a un equipo remoto?",
+              "a": "Una breve reunión al empezar el día, un guion de saludo común y un intercambio regular de impresiones sobre las llamadas suelen bastar para mantener la coherencia."
+            },
+            {
+              "q": "¿Cómo evito devoluciones de llamada duplicadas?",
+              "a": "Anote cada devolución asumida y quién la hace. El registro de llamadas sirve de referencia, siempre que el equipo lo consulte antes de actuar."
+            },
+            {
+              "q": "¿Cómo recibo a un nuevo compañero?",
+              "a": "Entréguele la ficha de acogida, deje que escuche algunas conversaciones tipo y luego que haga sus primeras llamadas con un referente disponible."
+            },
+            {
+              "q": "¿Puede la IA de asistencia ayudar a mi equipo?",
+              "a": "HARX Telefonía ofrece una IA que asiste durante las llamadas, útil para apoyar a los asesores. La calidad de la conversación sigue dependiendo de las personas."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "الفرق عن بُعد والشركات المتوسطة: أسئلة HARX للهاتف",
+      "description": "المبيعات وعلاقة العملاء والتحصيل والتوظيف: كيف تنظم شركة متوسطة مكالماتها عبر عرض Company Full Scope In & Out.",
+      "blocks": [
+        {
+          "h2": "الاتصال بفعالية ضمن فريق موزّع"
+        },
+        {
+          "faq": [
+            {
+              "q": "أي عرض من HARX يناسب شركة متوسطة؟",
+              "a": "يستهدف عرض Company Full Scope In & Out الشركات المتوسطة والفرق عن بُعد التي تحتاج إلى مكالمات واردة وصادرة لمختلف مهامها."
+            },
+            {
+              "q": "ما المهام التي يشملها؟",
+              "a": "المبيعات وعلاقة العملاء والتحصيل والتوظيف هي المجالات المستهدفة، ويمكن لكل فريق أن تكون له عاداته في الاتصال."
+            },
+            {
+              "q": "كيف أوزّع المكالمات بين الزملاء؟",
+              "a": "حدد أدوارًا واضحة: من يرد ومن يعاود الاتصال ومن يصعّد الحالة. دوّن هذه القواعد وشاركها قبل البدء."
+            },
+            {
+              "q": "كيف أحافظ على انسجام فريق عن بُعد؟",
+              "a": "غالبًا يكفي لقاء قصير في بداية اليوم ونص ترحيب مشترك وتبادل منتظم لملاحظات المكالمات."
+            },
+            {
+              "q": "كيف أتجنب تكرار معاودة الاتصال؟",
+              "a": "دوّن كل مكالمة جرى التكفل بها ومن تولاها. ويشكل سجل المكالمات مرجعًا بشرط أن يراجعه الفريق قبل التصرف."
+            },
+            {
+              "q": "كيف أستقبل زميلًا جديدًا؟",
+              "a": "سلّمه ورقة الترحيب، ودعه يستمع إلى بضع محادثات نموذجية، ثم يجري مكالماته الأولى بحضور مرجع متاح."
+            },
+            {
+              "q": "هل يستطيع مساعد الذكاء الاصطناعي دعم فريقي؟",
+              "a": "توفر HARX للهاتف ذكاءً اصطناعيًا يساعد أثناء المكالمات ويدعم المستشارين، وتبقى جودة المحادثة قائمة على الأشخاص."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

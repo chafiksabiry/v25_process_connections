@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-local-shop",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Commerce de proximité : le téléphone, lien avec vos clients",
+   "description": "Commerce de proximité : répondez aux appels sans quitter la caisse ni vos clients en boutique, avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Dans un commerce de proximité, le client présent compte autant que celui qui appelle. Pourtant, le téléphone sonne souvent quand le commerçant est en plein service, ce qui oblige à choisir entre l’un et l’autre."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’un commerce de proximité"
+    },
+    {
+     "p": "Les appels portent sur des questions simples : horaires, disponibilité d’un produit, commande à retirer, adresse. Pour y répondre, le commerçant interrompt l’échange en cours avec une personne présente en boutique, ou laisse sonner, au risque de décevoir. Dans une petite équipe, il n’y a souvent personne de dédié au téléphone."
+    },
+    {
+     "ul": [
+      "Les appels simples et fréquents coupent le service pendant les heures d’affluence.",
+      "Les clients qui n’obtiennent pas de réponse peuvent se tourner vers un autre commerce ou vers un site en ligne.",
+      "En dehors des horaires d’ouverture, l’absence de message d’information laisse les appelants dans l’incertitude."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse aux TPE de tous métiers, commerces compris. Elle s’appuie sur du personnel à distance ou un accueil délocalisé, avec un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. L’abonnement est mensuel, minutes et IA prépayées, avec une mise en route en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un accueil qui répond aux appels pendant que vous servez les clients présents.",
+      "Un répondeur pour informer des horaires et recueillir les messages hors ouverture.",
+      "Des appels sortants pour prévenir un client que sa commande est arrivée."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un commerce de proximité"
+    },
+    {
+     "ul": [
+      "Listez les cinq questions les plus fréquentes et préparez des réponses claires, identiques pour toute l’équipe.",
+      "Affichez vos horaires à jour sur la vitrine, en ligne et dans votre message d’accueil.",
+      "Prévenez les clients lors des jours exceptionnels : fermeture, inventaire, congés.",
+      "Notez les demandes spéciales pour les transmettre à la bonne personne.",
+      "Gardez un ton chaleureux : la voix au téléphone reflète l’accueil en boutique."
+     ]
+    },
+    {
+     "p": "Un commerce qui répond bien au téléphone donne envie de franchir sa porte : le téléphone est une extension de la vitrine."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Un petit commerce a-t-il vraiment besoin d’un accueil à distance ?",
+       "a": "Cela dépend du volume d’appels ; si le téléphone vous interrompt souvent pendant le service, cela peut valoir la peine d’y réfléchir."
+      },
+      {
+       "q": "Puis-je informer mes clients de mes horaires par téléphone ?",
+       "a": "Oui, le message d’accueil du répondeur peut rappeler horaires et informations pratiques."
+      },
+      {
+       "q": "L’offre convient-elle à un commerce de quartier ?",
+       "a": "L’offre Accueil / Secrétariat est pensée pour les TPE de tous métiers."
+      }
+     ]
+    },
+    {
+     "p": "Pour servir vos clients sans laisser sonner le téléphone, découvrez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Local Shops: The Phone as a Link With Your Customers",
+   "description": "Local shop: answer calls without leaving the till or the customers in your store, with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "In a local shop, the customer in front of you matters as much as the one calling. Yet the phone often rings when the shopkeeper is mid-service, forcing a choice between the two."
+    },
+    {
+     "h2": "The typical phone problem for a local shop"
+    },
+    {
+     "p": "Calls are usually about simple things: opening hours, whether a product is in stock, an order to collect, the address. To answer, the shopkeeper interrupts the conversation with a person in the shop, or lets it ring and risks disappointing the caller. In a small team there is often nobody dedicated to the phone."
+    },
+    {
+     "ul": [
+      "Frequent simple calls interrupt service during busy hours.",
+      "Customers who get no answer may turn to another shop or to an online site.",
+      "Outside opening hours, the lack of an information message leaves callers uncertain."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is for very small businesses of every trade, shops included. It relies on remote staff or offshored reception, with a number from your country, incoming and outgoing calls, an answering service and assisting AI. The subscription is monthly, minutes and AI prepaid, with set-up in a few minutes."
+    },
+    {
+     "ul": [
+      "Reception that answers calls while you serve the customers in the shop.",
+      "An answering service to announce opening hours and collect messages when closed.",
+      "Outgoing calls to tell a customer that their order has arrived."
+     ]
+    },
+    {
+     "h2": "General good practice for a local shop"
+    },
+    {
+     "ul": [
+      "List the five most frequent questions and prepare clear answers, the same for the whole team.",
+      "Display up-to-date hours on the window, online and in your greeting.",
+      "Warn customers about exceptional days: closure, stocktaking, holidays.",
+      "Note special requests so they reach the right person.",
+      "Keep a warm tone: the voice on the phone reflects the welcome in the shop."
+     ]
+    },
+    {
+     "p": "A shop that answers well on the phone makes people want to walk through its door: the telephone is an extension of the shop window."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Does a small shop really need remote reception?",
+       "a": "It depends on call volume; if the phone often interrupts you during service, it may be worth considering."
+      },
+      {
+       "q": "Can I tell customers my hours by phone?",
+       "a": "Yes, the answering service greeting can state hours and practical information."
+      },
+      {
+       "q": "Is the offer suitable for a neighbourhood shop?",
+       "a": "The Reception / Secretarial offer is designed for very small businesses of every trade."
+      }
+     ]
+    },
+    {
+     "p": "To serve your customers without letting the phone ring out, discover the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Comercio de barrio: el teléfono como vínculo con sus clientes",
+   "description": "Comercio de proximidad: atienda llamadas sin dejar la caja ni a los clientes de la tienda, con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "En un comercio de barrio, el cliente presente importa tanto como el que llama. Sin embargo, el teléfono suele sonar cuando el comerciante está en pleno servicio, lo que obliga a elegir entre uno y otro."
+    },
+    {
+     "h2": "El problema telefónico típico de un comercio de proximidad"
+    },
+    {
+     "p": "Las llamadas suelen tratar cosas sencillas: horarios, disponibilidad de un producto, un pedido por recoger, la dirección. Para responder, el comerciante interrumpe la conversación con alguien presente en la tienda, o deja sonar, con el riesgo de decepcionar. En un equipo pequeño, a menudo nadie se dedica al teléfono."
+    },
+    {
+     "ul": [
+      "Las llamadas sencillas y frecuentes interrumpen el servicio en horas de afluencia.",
+      "Los clientes que no obtienen respuesta pueden acudir a otro comercio o a un sitio en línea.",
+      "Fuera del horario de apertura, la falta de un mensaje informativo deja a quien llama en la incertidumbre."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, comercios incluidos. Se apoya en personal a distancia o recepción deslocalizada, con un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. La suscripción es mensual, con minutos e IA prepagados y puesta en marcha en pocos minutos."
+    },
+    {
+     "ul": [
+      "Una recepción que atiende las llamadas mientras usted sirve a los clientes presentes.",
+      "Un contestador para informar de los horarios y recoger mensajes fuera de apertura.",
+      "Llamadas salientes para avisar a un cliente de que su pedido ha llegado."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para un comercio de proximidad"
+    },
+    {
+     "ul": [
+      "Haga una lista de las cinco preguntas más frecuentes y prepare respuestas claras, iguales para todo el equipo.",
+      "Muestre sus horarios actualizados en el escaparate, en línea y en el mensaje de bienvenida.",
+      "Avise a los clientes de los días excepcionales: cierre, inventario, vacaciones.",
+      "Anote las peticiones especiales para pasarlas a la persona adecuada.",
+      "Mantenga un tono cálido: la voz al teléfono refleja la acogida en la tienda."
+     ]
+    },
+    {
+     "p": "Un comercio que atiende bien el teléfono invita a cruzar su puerta: el teléfono es una prolongación del escaparate."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Necesita realmente un comercio pequeño una recepción a distancia?",
+       "a": "Depende del volumen de llamadas; si el teléfono le interrumpe a menudo durante el servicio, puede merecer la pena planteárselo."
+      },
+      {
+       "q": "¿Puedo informar a mis clientes de mis horarios por teléfono?",
+       "a": "Sí, el mensaje de bienvenida del contestador puede recordar horarios e información práctica."
+      },
+      {
+       "q": "¿Sirve la oferta para un comercio de barrio?",
+       "a": "La oferta Recepción / Secretaría está pensada para microempresas de cualquier oficio."
+      }
+     ]
+    },
+    {
+     "p": "Para atender a sus clientes sin dejar sonar el teléfono, conozca la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "المتجر المحلي: الهاتف جسر نحو زبائنك",
+   "description": "المتجر المحلي: ردّوا على المكالمات دون ترك الصندوق أو زبائن المحل بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "في المتجر المحلي، الزبون الحاضر أمامكم لا يقلّ أهمية عن الزبون المتصل. ومع ذلك يرنّ الهاتف غالبًا والتاجر في ذروة الخدمة، فيضطر إلى الاختيار بين الاثنين."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للمتجر المحلي"
+    },
+    {
+     "p": "تدور المكالمات غالبًا حول أمور بسيطة: ساعات العمل، وتوفر منتج، وطلب جاهز للاستلام، والعنوان. وللرد يقطع التاجر حديثه مع شخص حاضر في المتجر، أو يترك الهاتف يرنّ فيخيّب ظن المتصل. وفي الفريق الصغير لا يوجد غالبًا من يتفرغ للهاتف."
+    },
+    {
+     "ul": [
+      "المكالمات البسيطة المتكررة تقاطع الخدمة في ساعات الازدحام.",
+      "الزبائن الذين لا يجدون جوابًا قد يتجهون إلى متجر آخر أو إلى موقع إلكتروني.",
+      "خارج ساعات العمل، يترك غياب رسالة إعلامية المتصلين في حيرة."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى المنشآت الصغيرة جدًا من كل المهن، ومنها المتاجر. يعتمد على موظفين عن بُعد أو استقبال مُنقول، مع رقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاء اصطناعي مساعد. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، والتشغيل خلال دقائق."
+    },
+    {
+     "ul": [
+      "استقبال يردّ على المكالمات بينما تخدمون الزبائن الحاضرين.",
+      "جهاز رد للإعلام بساعات العمل وتسجيل الرسائل خارج أوقات الفتح.",
+      "مكالمات صادرة لإبلاغ زبون بأن طلبه قد وصل."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للمتجر المحلي"
+    },
+    {
+     "ul": [
+      "أعدّوا قائمة بالأسئلة الخمسة الأكثر تكرارًا وجهّزوا إجابات واضحة وموحّدة لكل الفريق.",
+      "اعرضوا ساعات العمل المحدّثة على الواجهة وعلى الإنترنت وفي رسالة الترحيب.",
+      "نبّهوا الزبائن إلى الأيام الاستثنائية: الإغلاق والجرد والعطل.",
+      "دوّنوا الطلبات الخاصة لتصل إلى الشخص المناسب.",
+      "حافظوا على نبرة دافئة، فالصوت على الهاتف يعكس الترحيب في المتجر."
+     ]
+    },
+    {
+     "p": "المتجر الذي يجيب جيدًا على الهاتف يدفع الناس إلى دخول بابه، فالهاتف امتداد لواجهة المحل."
+    },
+    {
+     "p": "ومن المفيد أن يتفق أفراد الفريق على طريقة واحدة للإجابة عن الأسئلة المتكررة، حتى يحصل الزبون على المعلومة نفسها أيًّا كان من ردّ عليه، وهذا يعزّز الثقة بالمتجر."
+    },
+    {
+     "p": "ويمكن أيضًا تحديث رسالة الترحيب في المواسم والمناسبات لتتضمن أي تغيير في الساعات أو الخدمات، وبذلك لا يضطر المتصل إلى الاتصال مرة ثانية للاستيضاح، ويشعر بأن المتجر منظّم ويحترم وقته."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يحتاج متجر صغير فعلًا إلى استقبال عن بُعد؟",
+       "a": "يتوقف ذلك على حجم المكالمات، وإذا كان الهاتف يقاطعكم كثيرًا أثناء الخدمة فقد يستحق الأمر التفكير فيه."
+      },
+      {
+       "q": "هل أستطيع إخبار زبائني بساعات العمل هاتفيًا؟",
+       "a": "نعم، يمكن لرسالة ترحيب الرد الآلي أن تذكر ساعات العمل والمعلومات العملية."
+      },
+      {
+       "q": "هل يناسب العرض متجرًا في حي سكني؟",
+       "a": "عرض الاستقبال / السكرتارية مصمم للمنشآت الصغيرة جدًا من كل المهن."
+      }
+     ]
+    },
+    {
+     "p": "لخدمة زبائنكم دون ترك الهاتف يرنّ بلا جواب، تعرّفوا على عرض الاستقبال / السكرتارية من HARX Téléphonie، وقيّموا ما إذا كان يناسب حجم المكالمات التي تصل متجركم وطبيعة ساعات الذروة لديكم."
+    }
+   ]
+  }
+ }
+}

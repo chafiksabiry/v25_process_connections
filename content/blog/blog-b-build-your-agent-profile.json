@@ -1,0 +1,294 @@
+{
+ "type": "blog",
+ "slug": "blog-b-build-your-agent-profile",
+ "date": "2026-10-25",
+ "langs": {
+  "fr": {
+   "title": "Construire son profil d'agent de service client",
+   "description": "Comment présenter ses compétences, ses langues et ses réussites dans un profil d'agent clair et crédible, sans exagération, pour inspirer confiance.",
+   "blocks": [
+    {
+     "h2": "Un profil, c'est une promesse lisible"
+    },
+    {
+     "p": "Un profil d'agent est souvent la première chose qu'une entreprise consulte avant de confier une mission. En quelques lignes, il doit répondre à une question simple : qu'est-ce que cette personne sait faire, dans quelles conditions, avec quel niveau de fiabilité ? Un bon profil ne cherche pas à tout dire, il aide à décider."
+    },
+    {
+     "p": "Il se construit avec honnêteté. Annoncer des compétences que l'on ne maîtrise pas conduit à des missions mal vécues, à de mauvaises évaluations et à une réputation difficile à rétablir."
+    },
+    {
+     "h2": "Les éléments à mettre en avant"
+    },
+    {
+     "ul": [
+      "Les langues parlées, avec une indication honnête du niveau pour chacune.",
+      "Les types de demandes que vous savez traiter : support, accueil, relance, prise de rendez-vous, enquêtes.",
+      "Les outils maîtrisés : logiciels de téléphonie, de tickets, de messagerie.",
+      "Votre disponibilité : plages horaires, fuseau, volume possible.",
+      "Votre équipement : connexion, casque, environnement de travail."
+     ]
+    },
+    {
+     "p": "Plus ces éléments sont précis et vérifiables, plus l'entreprise peut estimer rapidement si votre profil correspond à sa mission."
+    },
+    {
+     "h2": "Raconter ses réussites sans exagérer"
+    },
+    {
+     "p": "Les chiffres ne sont pas indispensables, et mieux vaut n'en citer aucun que d'en inventer. Une description concrète d'une situation et de ce que vous avez fait pour la résoudre est souvent plus convaincante. Vous pouvez raconter comment vous avez calmé un client mécontent, simplifié une explication complexe ou réorganisé un suivi qui se perdait."
+    },
+    {
+     "p": "Respectez toujours la confidentialité de vos anciens clients et employeurs : ne citez ni noms ni données qui ne vous appartiennent pas."
+    },
+    {
+     "h2": "Soigner la forme"
+    },
+    {
+     "ul": [
+      "Un texte court, en phrases simples, sans jargon inutile.",
+      "Aucune faute d'orthographe : pour un métier de communication, c'est un signal fort.",
+      "Un ton professionnel et chaleureux, qui reflète votre manière de parler aux clients.",
+      "Une mise à jour régulière lorsque vos compétences ou votre disponibilité évoluent."
+     ]
+    },
+    {
+     "h2": "Construire sa crédibilité dans la durée"
+    },
+    {
+     "p": "Au-delà des mots, la réputation se forge à travers les missions réalisées et les évaluations reçues. Dans le modèle TAAS de HARX.ai, chaque interaction est évaluée en temps réel et les professionnels trouvent leurs gigs depuis l'espace REPS ; cette évaluation continue contribue à donner de la substance à un profil."
+    },
+    {
+     "h2": "Adapter son profil aux missions visées"
+    },
+    {
+     "p": "Un même profil ne parle pas à tous. Si vous visez le support technique, mettez en avant votre goût pour l'analyse et la pédagogie. Pour l'accueil téléphonique, c'est la chaleur humaine et la clarté orale qui comptent. Pour la prise de rendez-vous, c'est la capacité à convaincre sans insister. N'hésitez pas à ajuster l'ordre de vos atouts selon ce que vous recherchez."
+    },
+    {
+     "p": "Relisez-le comme le ferait un recruteur pressé : en trente secondes, comprend-on ce que vous faites de mieux ? Sinon, simplifiez."
+    },
+    {
+     "p": "Prenez chaque retour comme une information utile. Un profil qui évolue au fil des apprentissages, avec de nouvelles langues, de nouveaux outils ou de nouveaux types de missions, montre une personne qui progresse. C'est souvent ce que recherchent les entreprises : une fiabilité tranquille plutôt qu'une promesse spectaculaire."
+    }
+   ]
+  },
+  "en": {
+   "title": "Building Your Customer Service Agent Profile",
+   "description": "How to present your skills, languages and achievements in a clear, credible agent profile, without exaggeration, in a way that inspires trust.",
+   "blocks": [
+    {
+     "h2": "A profile is a readable promise"
+    },
+    {
+     "p": "An agent profile is often the first thing a company looks at before entrusting a task. In a few lines, it must answer a simple question: what can this person do, under what conditions, and with what level of reliability? A good profile does not try to say everything; it helps people decide."
+    },
+    {
+     "p": "It is built with honesty. Claiming skills you do not master leads to badly experienced assignments, poor assessments and a reputation that is hard to repair."
+    },
+    {
+     "h2": "The elements to highlight"
+    },
+    {
+     "ul": [
+      "Languages spoken, with an honest indication of the level for each.",
+      "The types of requests you can handle: support, reception, follow-up, appointment setting, surveys.",
+      "Tools you master: telephony, ticketing and messaging software.",
+      "Your availability: time slots, time zone, possible volume.",
+      "Your equipment: connection, headset, working environment."
+     ]
+    },
+    {
+     "p": "The more precise and verifiable these elements are, the faster a company can judge whether your profile matches its task."
+    },
+    {
+     "h2": "Telling your successes without exaggerating"
+    },
+    {
+     "p": "Figures are not essential, and it is better to quote none than to invent any. A concrete description of a situation and of what you did to resolve it is often more convincing. You can tell how you calmed an unhappy customer, simplified a complex explanation or reorganised a follow-up that was getting lost."
+    },
+    {
+     "p": "Always respect the confidentiality of former clients and employers: name no names and cite no data that does not belong to you."
+    },
+    {
+     "h2": "Looking after the form"
+    },
+    {
+     "ul": [
+      "A short text, in simple sentences, with no needless jargon.",
+      "No spelling mistakes: for a communication job, it is a strong signal.",
+      "A professional and warm tone, reflecting the way you speak to customers.",
+      "Regular updates when your skills or availability change."
+     ]
+    },
+    {
+     "h2": "Building credibility over time"
+    },
+    {
+     "p": "Beyond words, reputation is forged through the tasks completed and the assessments received. In the TAAS model from HARX.ai, each interaction is assessed in real time and professionals find their gigs from the REPS space; this continuous assessment helps give a profile substance."
+    },
+    {
+     "h2": "Adapting your profile to the tasks you target"
+    },
+    {
+     "p": "One profile does not speak to everyone. If you are aiming at technical support, emphasise your taste for analysis and explanation. For telephone reception, warmth and spoken clarity matter. For appointment setting, it is the ability to persuade without pushing. Do not hesitate to adjust the order of your strengths according to what you are looking for."
+    },
+    {
+     "p": "Reread it as a hurried recruiter would: in thirty seconds, can they tell what you do best? If not, simplify."
+    },
+    {
+     "p": "Ask someone you trust to read it too. A fresh reader quickly notices vague phrases, claims that sound exaggerated and details that are missing, and can tell you honestly whether the profile gives them confidence in your reliability."
+    },
+    {
+     "p": "Take each piece of feedback as useful information. A profile that evolves as you learn, with new languages, new tools or new types of tasks, shows a person who is progressing. That is often what companies look for: quiet reliability rather than a spectacular promise."
+    }
+   ]
+  },
+  "es": {
+   "title": "Construir su perfil de agente de atención al cliente",
+   "description": "Cómo presentar competencias, idiomas y logros en un perfil de agente claro y creíble, sin exagerar, de manera que inspire confianza a las empresas.",
+   "blocks": [
+    {
+     "h2": "Un perfil es una promesa legible"
+    },
+    {
+     "p": "El perfil de un agente suele ser lo primero que consulta una empresa antes de encomendar una tarea. En pocas líneas debe responder a una pregunta sencilla: ¿qué sabe hacer esta persona, en qué condiciones y con qué nivel de fiabilidad? Un buen perfil no pretende decirlo todo, ayuda a decidir."
+    },
+    {
+     "p": "Se construye con honestidad. Declarar competencias que no se dominan conduce a encargos mal vividos, a malas evaluaciones y a una reputación difícil de recuperar."
+    },
+    {
+     "h2": "Los elementos que destacar"
+    },
+    {
+     "ul": [
+      "Los idiomas hablados, con una indicación honesta del nivel de cada uno.",
+      "Los tipos de solicitudes que sabe tramitar: soporte, acogida, seguimiento, concertación de citas, encuestas.",
+      "Las herramientas que domina: programas de telefonía, de tickets y de mensajería.",
+      "Su disponibilidad: franjas horarias, huso horario, volumen posible.",
+      "Su equipamiento: conexión, auriculares, entorno de trabajo."
+     ]
+    },
+    {
+     "p": "Cuanto más precisos y verificables sean estos elementos, más rápido podrá estimar la empresa si su perfil encaja con su tarea."
+    },
+    {
+     "h2": "Contar los logros sin exagerar"
+    },
+    {
+     "p": "Las cifras no son imprescindibles, y es mejor no citar ninguna que inventarlas. Una descripción concreta de una situación y de lo que hizo para resolverla suele ser más convincente. Puede contar cómo calmó a un cliente descontento, simplificó una explicación compleja o reorganizó un seguimiento que se perdía."
+    },
+    {
+     "p": "Respete siempre la confidencialidad de antiguos clientes y empleadores: no cite nombres ni datos que no le pertenezcan."
+    },
+    {
+     "h2": "Cuidar la forma"
+    },
+    {
+     "ul": [
+      "Un texto breve, con frases sencillas y sin jerga innecesaria.",
+      "Sin faltas de ortografía: en un oficio de comunicación es una señal fuerte.",
+      "Un tono profesional y cálido, que refleje su manera de hablar con los clientes.",
+      "Una actualización regular cuando cambien sus competencias o su disponibilidad."
+     ]
+    },
+    {
+     "h2": "Construir la credibilidad con el tiempo"
+    },
+    {
+     "p": "Más allá de las palabras, la reputación se forja con las tareas realizadas y las evaluaciones recibidas. En el modelo TAAS de HARX.ai, cada interacción se evalúa en tiempo real y los profesionales encuentran sus gigs desde el espacio REPS; esta evaluación continua ayuda a dar sustancia a un perfil."
+    },
+    {
+     "h2": "Adaptar el perfil a las tareas que se buscan"
+    },
+    {
+     "p": "Un mismo perfil no habla a todos. Si busca soporte técnico, destaque su gusto por el análisis y la pedagogía. Para la atención telefónica, cuentan la calidez humana y la claridad oral. Para la concertación de citas, la capacidad de convencer sin insistir. No dude en ajustar el orden de sus puntos fuertes según lo que busque."
+    },
+    {
+     "p": "Relea el perfil como lo haría un reclutador con prisa: en treinta segundos, ¿se entiende lo que mejor hace? Si no, simplifique. Pida también a alguien de confianza que lo lea y le diga con sinceridad si transmite fiabilidad."
+    },
+    {
+     "p": "Tome cada comentario como una información útil. Un perfil que evoluciona con lo que se aprende, con nuevos idiomas, nuevas herramientas o nuevos tipos de tareas, muestra a una persona que progresa. Es a menudo lo que buscan las empresas: una fiabilidad tranquila antes que una promesa espectacular."
+    }
+   ]
+  },
+  "ar": {
+   "title": "بناء ملفك الشخصي كوكيل خدمة عملاء",
+   "description": "كيف تعرض مهاراتك ولغاتك وإنجازاتك في ملف وكيل واضح وموثوق دون مبالغة، بطريقة تبعث الثقة لدى الشركات التي تبحث عن محترفين.",
+   "blocks": [
+    {
+     "h2": "الملف الشخصي وعد مقروء"
+    },
+    {
+     "p": "غالبًا ما يكون ملف الوكيل أول ما تطّلع عليه الشركة قبل أن تُسند إليه مهمة. وعليه أن يجيب في أسطر قليلة عن سؤال بسيط: ماذا يجيد هذا الشخص، وفي أي ظروف، وبأي درجة من الموثوقية؟ والملف الجيد لا يحاول قول كل شيء، بل يساعد على اتخاذ القرار."
+    },
+    {
+     "p": "ويُبنى بصدق. فإعلان مهارات لا تتقنها يؤدي إلى مهام صعبة التجربة وتقييمات سيئة وسمعة يصعب ترميمها."
+    },
+    {
+     "h2": "العناصر التي ينبغي إبرازها"
+    },
+    {
+     "ul": [
+      "اللغات التي تتحدثها، مع بيان صادق لمستوى كل منها.",
+      "أنواع الطلبات التي تستطيع معالجتها: الدعم والاستقبال والمتابعة وحجز المواعيد والاستبيانات.",
+      "الأدوات التي تتقنها: برامج الاتصال الهاتفي والتذاكر والمراسلة.",
+      "توافرك: الفترات الزمنية والمنطقة الزمنية والحجم الممكن.",
+      "تجهيزاتك: الاتصال والسماعة وبيئة العمل."
+     ]
+    },
+    {
+     "p": "وكلما كانت هذه العناصر أدق وأسهل في التحقق، استطاعت الشركة أن تقدّر بسرعة ما إذا كان ملفك يناسب مهمتها."
+    },
+    {
+     "h2": "رواية النجاحات دون مبالغة"
+    },
+    {
+     "p": "الأرقام ليست ضرورية، والأفضل ألا تذكر أي رقم من أن تختلق رقمًا. ووصف ملموس لموقف وما فعلته لحله كثيرًا ما يكون أكثر إقناعًا. فيمكنك أن تحكي كيف هدّأت عميلًا مستاءً، أو بسّطت شرحًا معقدًا، أو أعدت تنظيم متابعة كانت تضيع."
+    },
+    {
+     "p": "واحترم دائمًا سرية عملائك وأرباب عملك السابقين، فلا تذكر أسماء ولا بيانات لا تملكها."
+    },
+    {
+     "h2": "العناية بالشكل"
+    },
+    {
+     "ul": [
+      "نص قصير بجمل بسيطة دون مصطلحات لا داعي لها.",
+      "لا أخطاء إملائية: ففي مهنة تقوم على التواصل تُعدّ إشارة قوية.",
+      "نبرة مهنية ودودة تعكس طريقتك في مخاطبة العملاء.",
+      "تحديث منتظم كلما تغيرت مهاراتك أو توافرك."
+     ]
+    },
+    {
+     "h2": "بناء المصداقية مع الوقت"
+    },
+    {
+     "p": "ما وراء الكلمات، تتشكل السمعة من المهام المنجزة والتقييمات المتلقاة. وفي نموذج TAAS من HARX.ai يُقيَّم كل تفاعل في الوقت الفعلي ويجد المحترفون مهامهم من مساحة REPS، ويسهم هذا التقييم المستمر في إعطاء الملف مضمونًا."
+    },
+    {
+     "p": "وخذ كل ملاحظة على أنها معلومة مفيدة. فالملف الذي يتطور مع ما تتعلمه، بلغات جديدة وأدوات جديدة وأنواع مهام جديدة، يُظهر شخصًا يتقدم. وهذا غالبًا ما تبحث عنه الشركات: موثوقية هادئة لا وعدًا مبهرًا."
+    },
+    {
+     "h2": "تكييف الملف مع المهام المستهدفة"
+    },
+    {
+     "p": "ليس الملف الواحد مناسبًا للجميع. فإن كنت تستهدف الدعم التقني فأبرز ميلك إلى التحليل والشرح، وإن كنت تستهدف الاستقبال الهاتفي فالدفء الإنساني ووضوح الكلام هما الأهم، وإن كنت تستهدف حجز المواعيد فالقدرة على الإقناع دون إلحاح هي المطلوبة. ولا تتردد في تعديل ترتيب نقاط قوتك بحسب ما تبحث عنه."
+    },
+    {
+     "p": "وأعد قراءة ملفك كما يقرؤه مسؤول توظيف على عجل: خلال ثلاثين ثانية، هل يفهم ما تجيده أكثر؟ إن لم يكن كذلك فبسّط الصياغة."
+    },
+    {
+     "p": "واطلب من شخص تثق به أن يقرأه أيضًا. فالقارئ الجديد يلاحظ بسرعة العبارات الغامضة والادعاءات التي تبدو مبالغًا فيها والتفاصيل الناقصة، ويستطيع أن يخبرك بصدق ما إذا كان الملف يمنحه ثقة في موثوقيتك."
+    },
+    {
+     "p": "وأخيرًا، احرص على أن يتطابق ما تكتبه مع ما تفعله فعلًا في المهام، فالملف الذي يعد بأقل قليلًا مما تقدمه يترك انطباعًا أفضل بكثير من ملف يعد بأكثر مما تستطيع الوفاء به، لأن الثقة تُبنى بالمطابقة بين القول والعمل."
+    },
+    {
+     "p": "ومن الأفكار المفيدة أن تضيف فقرة قصيرة عن أسلوبك في العمل: كيف تنظم وقتك، وكيف تتعامل مع الضغط، وكيف تتواصل مع الشركة عند أي غموض، فهذه التفاصيل تطمئن من سيسند إليك مهمة."
+    },
+    {
+     "p": "ويستحسن أن تطلب من زميل موثوق قراءة ملفك قبل نشره، فعينٌ أخرى تلتقط الغموض أو المبالغة التي لا تراها بنفسك، وتساعدك على الوصول إلى صياغة أبسط وأكثر وضوحًا."
+    }
+   ]
+  }
+ }
+}

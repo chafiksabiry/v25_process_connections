@@ -1,0 +1,304 @@
+{
+ "type": "solution",
+ "slug": "sol-a-accounting-firm",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Cabinet comptable : gérer les appels en période de forte activité",
+   "description": "Cabinet comptable : absorbez les pics d’appels, restez concentré sur les dossiers et organisez l’accueil avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Dans un cabinet comptable, l’activité n’est pas régulière. Certaines périodes de l’année concentrent les échéances, et avec elles les appels de clients qui veulent une précision, un document ou un conseil."
+    },
+    {
+     "h2": "Le problème téléphonique typique d’un cabinet comptable"
+    },
+    {
+     "p": "Quand les échéances approchent, le téléphone sonne plus souvent, alors que les collaborateurs ont besoin de calme pour traiter les dossiers. Chaque interruption rallonge le temps de traitement, et certains clients rappellent plusieurs fois faute de réponse."
+    },
+    {
+     "ul": [
+      "Les pics d’appels coïncident avec les périodes où l’équipe est la plus chargée.",
+      "Les questions des clients portent souvent sur des détails pratiques qui ne nécessitent pas l’intervention d’un expert-comptable.",
+      "Les interruptions fréquentes nuisent à la concentration nécessaire pour des travaux de précision."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse aux TPE de tous métiers. Elle propose du personnel à distance ou un accueil délocalisé, un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. L’abonnement est mensuel, avec minutes et IA prépayées, et une mise en route possible en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un accueil qui prend en charge les premiers échanges et transmet la demande à la bonne personne du cabinet.",
+      "Un répondeur pour les appels reçus en dehors des heures de présence.",
+      "Des appels sortants pour relancer les clients qui doivent envoyer des pièces."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un cabinet comptable"
+    },
+    {
+     "ul": [
+      "Listez les questions les plus fréquentes et préparez des réponses courtes et cohérentes pour l’accueil.",
+      "Indiquez dans le message d’accueil les modalités pour transmettre des documents, par exemple par courriel ou espace sécurisé de votre choix.",
+      "Planifiez des plages de rappel dédiées pour regrouper les échanges avec les clients.",
+      "Évitez de communiquer des chiffres sensibles par téléphone sans avoir vérifié l’identité de l’interlocuteur.",
+      "Informez vos clients à l’avance des périodes où la disponibilité sera réduite."
+     ]
+    },
+    {
+     "p": "Un accueil structuré n’engage aucun conseil comptable ou fiscal : il fait gagner du temps en orientant correctement chaque demande."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "L’accueil à distance peut-il répondre à des questions comptables ?",
+       "a": "L’accueil sert à recevoir la demande et à la transmettre ; les conseils comptables et fiscaux restent du ressort du cabinet."
+      },
+      {
+       "q": "Peut-on appeler les clients pour relancer des documents ?",
+       "a": "HARX Téléphonie prévoit des appels sortants avec un numéro de votre pays, selon l’offre choisie."
+      },
+      {
+       "q": "L’offre est-elle adaptée à une petite structure ?",
+       "a": "Oui, l’offre Accueil / Secrétariat vise les TPE de tous métiers."
+      }
+     ]
+    },
+    {
+     "p": "Pour garder la tête aux dossiers pendant les périodes chargées, découvrez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Accounting Firms: Managing Calls in Busy Periods",
+   "description": "Accounting firm: absorb client call peaks, stay focused on files and organise reception with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "In an accounting firm, activity is not even. Some periods of the year concentrate deadlines, and with them calls from clients wanting a clarification, a document or a piece of advice."
+    },
+    {
+     "h2": "The typical phone problem for an accounting firm"
+    },
+    {
+     "p": "As deadlines approach, the phone rings more often, just when staff need calm to work through files. Each interruption lengthens processing time, and some clients call several times for lack of an answer."
+    },
+    {
+     "ul": [
+      "Call peaks coincide with the periods when the team is busiest.",
+      "Client questions often concern practical details that do not need an accountant’s intervention.",
+      "Frequent interruptions harm the concentration needed for precise work."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is for very small businesses of every trade. It offers remote staff or offshored reception, a number from your country, incoming and outgoing calls, an answering service and assisting AI. The subscription is monthly, with prepaid minutes and AI, and set-up is possible within minutes."
+    },
+    {
+     "ul": [
+      "Reception that takes the first exchanges and passes the request to the right person in the firm.",
+      "An answering service for calls received outside presence hours.",
+      "Outgoing calls to chase clients who need to send in documents."
+     ]
+    },
+    {
+     "h2": "General good practice for an accounting firm"
+    },
+    {
+     "ul": [
+      "List the most frequent questions and prepare short, consistent answers for reception.",
+      "State in the greeting how to send documents, for example by email or a secure space of your choice.",
+      "Plan dedicated callback slots to batch exchanges with clients.",
+      "Avoid sharing sensitive figures by phone without verifying the caller’s identity.",
+      "Tell clients in advance about periods when availability will be reduced."
+     ]
+    },
+    {
+     "p": "Structured reception implies no accounting or tax advice: it saves time by directing each request correctly. A short reference sheet near the phone, listing frequent questions and the agreed answers, helps keep replies consistent whoever picks up, and clients who know when to reach you and how to send documents tend to call less often."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can remote reception answer accounting questions?",
+       "a": "Reception receives the request and passes it on; accounting and tax advice remain the firm’s responsibility."
+      },
+      {
+       "q": "Can we call clients to chase documents?",
+       "a": "HARX Telephony provides outgoing calls with a number from your country, depending on the offer chosen."
+      },
+      {
+       "q": "Is the offer suitable for a small firm?",
+       "a": "Yes, the Reception / Secretarial offer targets very small businesses of every trade."
+      }
+     ]
+    },
+    {
+     "p": "To keep your mind on the files during busy periods, discover the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Despachos contables: gestionar las llamadas en épocas de mucho trabajo",
+   "description": "Despacho contable: absorba los picos de llamadas, concéntrese en los expedientes y organice la recepción con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "En un despacho contable la actividad no es uniforme. Algunas épocas del año concentran los vencimientos y, con ellos, las llamadas de clientes que quieren una aclaración, un documento o un consejo."
+    },
+    {
+     "h2": "El problema telefónico típico de un despacho contable"
+    },
+    {
+     "p": "Cuando se acercan los vencimientos, el teléfono suena más a menudo justo cuando el equipo necesita calma para tramitar expedientes. Cada interrupción alarga el tiempo de tramitación, y algunos clientes llaman varias veces por falta de respuesta."
+    },
+    {
+     "ul": [
+      "Los picos de llamadas coinciden con los periodos en que el equipo está más cargado.",
+      "Las preguntas de los clientes suelen tratar detalles prácticos que no exigen la intervención de un contable.",
+      "Las interrupciones frecuentes perjudican la concentración que requieren los trabajos de precisión."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio. Propone personal a distancia o recepción deslocalizada, un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. La suscripción es mensual, con minutos e IA prepagados, y la puesta en marcha es posible en pocos minutos."
+    },
+    {
+     "ul": [
+      "Una recepción que atiende los primeros contactos y traslada la petición a la persona adecuada del despacho.",
+      "Un contestador para las llamadas recibidas fuera del horario de presencia.",
+      "Llamadas salientes para recordar a los clientes que deben enviar documentación."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para un despacho contable"
+    },
+    {
+     "ul": [
+      "Haga una lista de las preguntas más frecuentes y prepare respuestas breves y coherentes para la recepción.",
+      "Indique en el mensaje cómo enviar documentos, por ejemplo por correo o por un espacio seguro de su elección.",
+      "Planifique franjas de devolución dedicadas para agrupar los contactos con los clientes.",
+      "Evite comunicar cifras sensibles por teléfono sin verificar la identidad de quien llama.",
+      "Avise a los clientes con antelación de los periodos de disponibilidad reducida."
+     ]
+    },
+    {
+     "p": "Una recepción estructurada no implica ningún consejo contable ni fiscal: ahorra tiempo al orientar correctamente cada petición."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Puede la recepción a distancia responder preguntas contables?",
+       "a": "La recepción recibe la petición y la traslada; el asesoramiento contable y fiscal sigue siendo responsabilidad del despacho."
+      },
+      {
+       "q": "¿Se puede llamar a los clientes para reclamar documentos?",
+       "a": "HARX Telefonía prevé llamadas salientes con un número de su país, según la oferta elegida."
+      },
+      {
+       "q": "¿Es adecuada la oferta para una estructura pequeña?",
+       "a": "Sí, la oferta Recepción / Secretaría se dirige a microempresas de cualquier oficio."
+      }
+     ]
+    },
+    {
+     "p": "Para mantener la cabeza en los expedientes en épocas de carga, conozca la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "مكاتب المحاسبة: إدارة المكالمات في فترات الضغط",
+   "description": "مكتب المحاسبة: استوعبوا ذروات مكالمات العملاء وركّزوا على الملفات ونظّموا الاستقبال مع عرض الاستقبال / السكرتارية من HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "في مكتب المحاسبة لا يكون النشاط منتظمًا. فبعض فترات السنة تتركز فيها المواعيد النهائية، ومعها مكالمات العملاء الذين يريدون توضيحًا أو وثيقة أو نصيحة."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة لمكتب المحاسبة"
+    },
+    {
+     "p": "عندما تقترب المواعيد النهائية يرنّ الهاتف أكثر، في الوقت الذي يحتاج فيه الموظفون إلى الهدوء لمعالجة الملفات. وكل مقاطعة تطيل زمن المعالجة، وبعض العملاء يعاودون الاتصال مرارًا لعدم حصولهم على جواب."
+    },
+    {
+     "ul": [
+      "تتزامن ذروات المكالمات مع الفترات التي يكون فيها الفريق في أشد انشغاله.",
+      "كثيرًا ما تتناول أسئلة العملاء تفاصيل عملية لا تتطلب تدخل محاسب.",
+      "المقاطعات المتكررة تضر بالتركيز اللازم للأعمال الدقيقة."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى المنشآت الصغيرة جدًا من كل المهن. يقدّم موظفين عن بُعد أو استقبالًا مُنقولًا، ورقمًا من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاءً اصطناعيًا مساعدًا. الاشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، والتشغيل ممكن خلال دقائق."
+    },
+    {
+     "ul": [
+      "استقبال يتولى الاتصالات الأولى ويحوّل الطلب إلى الشخص المناسب في المكتب.",
+      "جهاز رد للمكالمات الواردة خارج ساعات الحضور.",
+      "مكالمات صادرة لتذكير العملاء الذين عليهم إرسال مستندات."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة لمكتب المحاسبة"
+    },
+    {
+     "ul": [
+      "أعدّوا قائمة بالأسئلة الأكثر تكرارًا وجهّزوا إجابات قصيرة ومتسقة للاستقبال.",
+      "اذكروا في رسالة الترحيب طريقة إرسال المستندات، مثل البريد الإلكتروني أو فضاء آمن تختارونه.",
+      "خطّطوا لأوقات مخصصة لمعاودة الاتصال لتجميع المحادثات مع العملاء.",
+      "تجنّبوا إعطاء أرقام حساسة هاتفيًا دون التحقق من هوية المتصل.",
+      "أبلغوا العملاء مسبقًا بالفترات التي يقلّ فيها التوافر."
+     ]
+    },
+    {
+     "p": "الاستقبال المنظّم لا يتضمن أي نصيحة محاسبية أو ضريبية، بل يوفّر الوقت بتوجيه كل طلب توجيهًا صحيحًا."
+    },
+    {
+     "p": "ويمكن لبطاقة بسيطة تُعلَّق قرب الهاتف، تلخّص الأسئلة المتكررة وأجوبتها المتفق عليها، أن تجعل الردود موحّدة مهما تغيّر الشخص الذي يستقبل المكالمة."
+    },
+    {
+     "p": "وفي الفترات المزدحمة تحديدًا، يفيد أن يعرف العملاء مسبقًا متى يجدونكم وكيف يرسلون مستنداتهم، فيقلّ عدد الاتصالات المتكررة وتتحسن جودة الخدمة، ويتمكن الفريق من الحفاظ على تركيزه في الأعمال التي تتطلب دقة عالية."
+    },
+    {
+     "p": "ومن الحكمة كذلك أن تُحدَّد بوضوح الجهة الداخلية التي تتلقى الطلبات المحوّلة، حتى لا تبقى أي مكالمة معلّقة بين شخصين دون متابعة."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يستطيع الاستقبال عن بُعد الإجابة عن أسئلة محاسبية؟",
+       "a": "يستقبل الاستقبال الطلب ويحوّله، أما النصيحة المحاسبية والضريبية فتبقى من مسؤولية المكتب."
+      },
+      {
+       "q": "هل يمكن الاتصال بالعملاء لتذكيرهم بالمستندات؟",
+       "a": "توفّر HARX Téléphonie مكالمات صادرة برقم من بلدكم، بحسب العرض المختار."
+      },
+      {
+       "q": "هل العرض مناسب لمكتب صغير؟",
+       "a": "نعم، يستهدف عرض الاستقبال / السكرتارية المنشآت الصغيرة جدًا من كل المهن."
+      }
+     ]
+    },
+    {
+     "p": "للتفرغ للملفات في الفترات المزدحمة، تعرّفوا على عرض الاستقبال / السكرتارية من HARX Téléphonie، واختبروا مدى ملاءمته لإيقاع عمل مكتبكم وحجم مكالماته المعتاد في أوقات الذروة وخارجها."
+    }
+   ]
+  }
+ }
+}

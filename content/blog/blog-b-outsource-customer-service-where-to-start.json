@@ -1,0 +1,284 @@
+{
+ "type": "blog",
+ "slug": "blog-b-outsource-customer-service-where-to-start",
+ "date": "2026-10-10",
+ "langs": {
+  "fr": {
+   "title": "Externaliser son service client : par où commencer ?",
+   "description": "Avant d'externaliser votre service client, clarifiez vos besoins, votre périmètre et vos règles de qualité. Une méthode progressive pour démarrer sereinement.",
+   "blocks": [
+    {
+     "h2": "Commencer par comprendre ce que l'on veut externaliser"
+    },
+    {
+     "p": "Externaliser son service client ne se résume pas à confier ses appels à un tiers. La première étape consiste à observer ce que reçoit réellement l'équipe : quelles demandes, dans quelles langues, à quels moments, avec quel niveau de difficulté. Cet état des lieux évite de transférer des problèmes mal compris."
+    },
+    {
+     "p": "Il est utile de distinguer les demandes répétitives et bien cadrées, faciles à confier, de celles qui exigent un jugement fin ou une connaissance approfondie de l'entreprise, qu'il vaut parfois mieux garder en interne au moins au début."
+    },
+    {
+     "h2": "Définir le périmètre et le résultat attendu"
+    },
+    {
+     "p": "Une fois les besoins identifiés, il faut décider de ce qui sort du périmètre interne et de ce qu'on attend en retour. Plutôt que de demander « quelqu'un pour répondre au téléphone », mieux vaut formuler ce qui doit être obtenu : demandes traitées, rendez-vous pris, informations collectées."
+    },
+    {
+     "ul": [
+      "Quels canaux : téléphone, e-mail, chat, réseaux sociaux ?",
+      "Quelles langues et quels horaires de couverture ?",
+      "Quels sujets sont traités, lesquels sont remontés à l'interne ?",
+      "Quelle qualité est exigée et comment sera-t-elle vérifiée ?"
+     ]
+    },
+    {
+     "h2": "Choisir un modèle de collaboration"
+    },
+    {
+     "p": "Plusieurs modèles coexistent. On peut engager une équipe dédiée sur la durée, recourir à un centre d'appels, équiper ses propres collaborateurs d'une solution de téléphonie, ou passer par des missions ponctuelles payées au résultat, comme le propose le modèle TAAS de HARX.ai. Chaque option répond à un besoin différent de stabilité, de contrôle et de flexibilité."
+    },
+    {
+     "p": "Pour tester une idée, démarrer par un périmètre réduit est souvent plus prudent qu'une bascule complète. On observe, on corrige, puis on élargit."
+    },
+    {
+     "h2": "Préparer le transfert de connaissances"
+    },
+    {
+     "p": "La qualité du service dépend de la qualité de l'information donnée au prestataire. Il faut lui fournir des réponses types, des règles de décision, des exemples de situations délicates et un interlocuteur clair pour les questions inédites."
+    },
+    {
+     "ul": [
+      "Un guide des demandes fréquentes et des réponses validées.",
+      "Les règles d'escalade : quand et vers qui transférer.",
+      "Le ton souhaité et les formulations à éviter.",
+      "Les données personnelles à traiter avec une attention particulière."
+     ]
+    },
+    {
+     "h2": "Suivre, ajuster, rester proche du terrain"
+    },
+    {
+     "p": "Externaliser ne veut pas dire se désengager. Il est important de réécouter des échanges, de lire des retours clients et de tenir des points réguliers avec le prestataire. Une évaluation interaction par interaction, comme celle intégrée à l'approche TAAS, aide à repérer rapidement ce qui fonctionne et ce qui doit être revu."
+    },
+    {
+     "p": "Enfin, pensez à la dimension humaine : le client final ne fait pas la différence entre vos équipes et celles de votre partenaire. C'est votre marque qui répond. Si vous voulez approfondir l'approche par résultats, l'offre TAAS de HARX.ai est un bon point d'entrée pour comprendre comment une mission peut être définie, évaluée et approuvée."
+    }
+   ]
+  },
+  "en": {
+   "title": "Outsourcing Customer Service: Where to Start",
+   "description": "Before outsourcing customer service, clarify your needs, scope and quality rules. A step-by-step method to get started with confidence and keep control.",
+   "blocks": [
+    {
+     "h2": "Start by understanding what you want to outsource"
+    },
+    {
+     "p": "Outsourcing customer service is more than handing your calls to a third party. The first step is to observe what your team actually receives: which requests, in which languages, at what times, with what level of difficulty. This audit avoids transferring problems you do not fully understand."
+    },
+    {
+     "p": "It helps to distinguish repetitive, well-framed requests that are easy to hand over from those requiring fine judgement or deep knowledge of the company, which may be better kept in house, at least at first."
+    },
+    {
+     "h2": "Define the scope and the expected result"
+    },
+    {
+     "p": "Once needs are identified, decide what leaves the internal scope and what you expect in return. Rather than asking for someone to answer the phone, it is better to say what must be achieved: requests handled, appointments booked, information collected."
+    },
+    {
+     "ul": [
+      "Which channels: phone, email, chat, social media?",
+      "Which languages and which hours of coverage?",
+      "Which topics are handled, and which are escalated internally?",
+      "What quality is required and how will it be verified?"
+     ]
+    },
+    {
+     "h2": "Choose a collaboration model"
+    },
+    {
+     "p": "Several models coexist. You can engage a dedicated team over the long term, use a call centre, equip your own staff with a telephony solution, or go through one-off tasks paid per result, as the TAAS model from HARX.ai offers. Each option answers a different need for stability, control and flexibility."
+    },
+    {
+     "p": "To test an idea, starting with a reduced scope is often wiser than a full switch. You observe, correct, then expand."
+    },
+    {
+     "h2": "Prepare the knowledge transfer"
+    },
+    {
+     "p": "The quality of the service depends on the quality of the information given to the provider. Supply model answers, decision rules, examples of delicate situations and a clear contact for new questions."
+    },
+    {
+     "ul": [
+      "A guide to frequent requests and validated answers.",
+      "Escalation rules: when and to whom to transfer.",
+      "The desired tone and phrasing to avoid.",
+      "Personal data that needs particular care."
+     ]
+    },
+    {
+     "h2": "Monitor, adjust, stay close to the ground"
+    },
+    {
+     "p": "Outsourcing does not mean disengaging. It is important to listen back to conversations, read customer feedback and hold regular check-ins with the provider. Interaction-by-interaction assessment, as built into the TAAS approach, helps you quickly see what works and what needs reviewing."
+    },
+    {
+     "h2": "Common mistakes to avoid"
+    },
+    {
+     "p": "The most frequent mistake is to outsource a problem rather than a process. If your own answers are inconsistent or your rules unclear, a provider will inherit that confusion. Tidy up the basics first, even roughly."
+    },
+    {
+     "p": "Another is to measure only cost. Think also about the effect on customer satisfaction, on your internal teams and on your ability to change course. A good arrangement lets you adjust without having to start again from scratch."
+    },
+    {
+     "p": "Finally, think about the human side: the end customer does not distinguish between your teams and your partner's. It is your brand that answers. If you want to look further into the results-based approach, the TAAS offer from HARX.ai is a good entry point to understand how a task can be defined, assessed and approved."
+    }
+   ]
+  },
+  "es": {
+   "title": "Externalizar la atención al cliente: por dónde empezar",
+   "description": "Antes de externalizar su atención al cliente, aclare sus necesidades, el alcance y las reglas de calidad. Un método progresivo para empezar con tranquilidad.",
+   "blocks": [
+    {
+     "h2": "Empezar por entender qué se quiere externalizar"
+    },
+    {
+     "p": "Externalizar la atención al cliente no consiste solo en confiar las llamadas a un tercero. El primer paso es observar lo que recibe realmente el equipo: qué solicitudes, en qué idiomas, en qué momentos, con qué nivel de dificultad. Este diagnóstico evita transferir problemas mal comprendidos."
+    },
+    {
+     "p": "Conviene distinguir las solicitudes repetitivas y bien delimitadas, fáciles de delegar, de las que requieren un criterio fino o un conocimiento profundo de la empresa, que a veces es mejor mantener internamente, al menos al principio."
+    },
+    {
+     "h2": "Definir el alcance y el resultado esperado"
+    },
+    {
+     "p": "Una vez identificadas las necesidades, hay que decidir qué sale del perímetro interno y qué se espera a cambio. En lugar de pedir alguien que conteste al teléfono, es mejor formular lo que debe obtenerse: solicitudes tramitadas, citas concertadas, información recopilada."
+    },
+    {
+     "ul": [
+      "¿Qué canales: teléfono, correo electrónico, chat, redes sociales?",
+      "¿Qué idiomas y qué horarios de cobertura?",
+      "¿Qué temas se tratan y cuáles se escalan a la empresa?",
+      "¿Qué calidad se exige y cómo se comprobará?"
+     ]
+    },
+    {
+     "h2": "Elegir un modelo de colaboración"
+    },
+    {
+     "p": "Conviven varios modelos. Se puede contratar un equipo dedicado a largo plazo, recurrir a un centro de llamadas, equipar al propio personal con una solución de telefonía o acudir a tareas puntuales pagadas por resultado, como propone el modelo TAAS de HARX.ai. Cada opción responde a una necesidad distinta de estabilidad, control y flexibilidad."
+    },
+    {
+     "p": "Para probar una idea, empezar con un alcance reducido suele ser más prudente que un cambio total. Se observa, se corrige y luego se amplía."
+    },
+    {
+     "h2": "Preparar la transferencia de conocimiento"
+    },
+    {
+     "p": "La calidad del servicio depende de la calidad de la información que se da al proveedor. Hay que facilitarle respuestas modelo, reglas de decisión, ejemplos de situaciones delicadas y un interlocutor claro para las preguntas nuevas."
+    },
+    {
+     "ul": [
+      "Una guía de solicitudes frecuentes y respuestas validadas.",
+      "Reglas de escalado: cuándo y a quién transferir.",
+      "El tono deseado y las expresiones que evitar.",
+      "Los datos personales que requieren una atención especial."
+     ]
+    },
+    {
+     "h2": "Seguir, ajustar y mantenerse cerca del terreno"
+    },
+    {
+     "p": "Externalizar no significa desentenderse. Es importante volver a escuchar conversaciones, leer los comentarios de los clientes y mantener reuniones periódicas con el proveedor. Una evaluación interacción por interacción, como la integrada en el enfoque TAAS, ayuda a detectar enseguida lo que funciona y lo que debe revisarse."
+    },
+    {
+     "h2": "Errores habituales que evitar"
+    },
+    {
+     "p": "El error más frecuente es externalizar un problema en lugar de un proceso. Si sus propias respuestas son incoherentes o sus reglas poco claras, el proveedor heredará esa confusión. Ordene primero lo básico, aunque sea de forma aproximada."
+    },
+    {
+     "p": "Otro es medir únicamente el coste. Piense también en el efecto sobre la satisfacción del cliente, sobre sus equipos internos y sobre su capacidad de cambiar de rumbo. Un buen acuerdo permite ajustar sin tener que empezar de cero."
+    },
+    {
+     "p": "Por último, piense en la dimensión humana: el cliente final no distingue entre sus equipos y los de su socio. Es su marca la que responde. Si desea profundizar en el enfoque por resultados, la oferta TAAS de HARX.ai es una buena puerta de entrada para entender cómo puede definirse, evaluarse y aprobarse una tarea."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الاستعانة بمصادر خارجية لخدمة العملاء: من أين نبدأ؟",
+   "description": "قبل إسناد خدمة العملاء إلى جهة خارجية، وضّح احتياجاتك ونطاق العمل وقواعد الجودة. طريقة تدريجية للبدء بثقة مع الحفاظ على التحكم.",
+   "blocks": [
+    {
+     "h2": "ابدأ بفهم ما تريد إسناده"
+    },
+    {
+     "p": "الاستعانة بمصادر خارجية في خدمة العملاء لا تعني مجرد تسليم المكالمات إلى طرف ثالث. فالخطوة الأولى هي مراقبة ما يستقبله الفريق فعليًا: أي طلبات، وبأي لغات، وفي أي أوقات، وبأي درجة من الصعوبة. ويجنّبك هذا التشخيص نقل مشكلات لم تفهمها جيدًا."
+    },
+    {
+     "p": "ومن المفيد التمييز بين الطلبات المتكررة المحددة بوضوح، وهي سهلة الإسناد، والطلبات التي تتطلب حكمًا دقيقًا أو معرفة عميقة بالشركة، وقد يكون الأفضل إبقاؤها داخليًا على الأقل في البداية."
+    },
+    {
+     "h2": "تحديد النطاق والنتيجة المتوقعة"
+    },
+    {
+     "p": "بعد تحديد الاحتياجات، عليك أن تقرر ما الذي يخرج من النطاق الداخلي وما الذي تنتظره في المقابل. فبدل أن تطلب «شخصًا يردّ على الهاتف»، الأفضل أن تصوغ ما يجب تحقيقه: طلبات جرت معالجتها، أو مواعيد حُجزت، أو معلومات جُمعت."
+    },
+    {
+     "ul": [
+      "ما القنوات: الهاتف أم البريد الإلكتروني أم الدردشة أم وسائل التواصل؟",
+      "ما اللغات وما ساعات التغطية؟",
+      "ما الموضوعات التي تُعالج وما التي تُحال إلى الشركة؟",
+      "ما مستوى الجودة المطلوب وكيف سيجري التحقق منه؟"
+     ]
+    },
+    {
+     "h2": "اختيار نموذج التعاون"
+    },
+    {
+     "p": "توجد نماذج عدة. يمكن التعاقد مع فريق مخصص على المدى الطويل، أو اللجوء إلى مركز اتصال، أو تجهيز موظفيك بحل للاتصالات الهاتفية، أو الاعتماد على مهام متفرقة تُدفع مقابل النتيجة كما يقترح نموذج TAAS من HARX.ai. ولكل خيار منها ما يناسبه من حاجة إلى الاستقرار والتحكم والمرونة."
+    },
+    {
+     "p": "ولتجربة فكرة ما، يكون البدء بنطاق محدود أحكم غالبًا من التحول الكامل دفعة واحدة. فتراقب وتصحّح ثم توسّع."
+    },
+    {
+     "h2": "إعداد نقل المعرفة"
+    },
+    {
+     "p": "تتوقف جودة الخدمة على جودة المعلومات المقدَّمة إلى المزوّد. لذا زوّده بنماذج إجابات وقواعد اتخاذ القرار وأمثلة على المواقف الحساسة وجهة اتصال واضحة للأسئلة المستجدة."
+    },
+    {
+     "ul": [
+      "دليل بالطلبات الشائعة والإجابات المعتمدة.",
+      "قواعد التصعيد: متى ولمن يُحوَّل الطلب.",
+      "النبرة المرغوبة والعبارات الواجب تجنبها.",
+      "البيانات الشخصية التي تستلزم عناية خاصة."
+     ]
+    },
+    {
+     "h2": "المتابعة والتعديل والبقاء قريبًا من الميدان"
+    },
+    {
+     "p": "الإسناد الخارجي لا يعني التخلي عن المسؤولية. ومن المهم الاستماع مجددًا إلى بعض المحادثات، وقراءة آراء العملاء، وعقد لقاءات دورية مع المزوّد. ويساعد التقييم تفاعلًا بعد تفاعل، كما هو مدمج في نهج TAAS، على اكتشاف ما ينجح وما يحتاج إلى مراجعة بسرعة."
+    },
+    {
+     "p": "وأخيرًا فكّر في الجانب الإنساني: فالعميل النهائي لا يميز بين فريقك وفريق شريكك، وإنما علامتك التجارية هي التي تجيبه. وإذا أردت التوسع في النهج القائم على النتائج، فإن عرض TAAS من HARX.ai مدخل جيد لفهم كيف يمكن تحديد المهمة وتقييمها واعتمادها."
+    },
+    {
+     "h2": "أخطاء شائعة ينبغي تجنبها"
+    },
+    {
+     "p": "أكثر الأخطاء شيوعًا أن تُسند مشكلة بدل أن تُسند عملية. فإذا كانت إجاباتك الداخلية غير متسقة أو قواعدك غير واضحة، فسيرث المزوّد هذا الغموض. رتّب الأساسيات أولًا ولو بصورة تقريبية."
+    },
+    {
+     "p": "وخطأ آخر هو قياس التكلفة وحدها. فكّر أيضًا في الأثر على رضا العميل وعلى فرقك الداخلية وعلى قدرتك على تغيير المسار. والاتفاق الجيد يسمح بالتعديل دون الاضطرار إلى البدء من الصفر."
+    },
+    {
+     "p": "وأخيرًا لا تُهمل الجانب القانوني والتعاقدي: وضّح من يملك البيانات، وكيف تُحفظ، وما الذي يحدث عند انتهاء التعاون، واستشر مختصًا في ما يخص حالتك الخاصة قبل التوقيع."
+    },
+    {
+     "p": "ولا تنسَ أن تُبلغ فريقك الداخلي بالتغيير مبكرًا وبصراحة، وأن تشرح له دوره الجديد في الإشراف والتنسيق، فنجاح أي تعاون خارجي يعتمد كثيرًا على تقبّل الفريق الداخلي له وعلى وضوح من يقرر ماذا ومتى."
+    }
+   ]
+  }
+ }
+}

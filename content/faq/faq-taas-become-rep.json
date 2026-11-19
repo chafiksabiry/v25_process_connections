@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-become-rep",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Devenir rep HARX et trouver des gigs : FAQ pour les professionnels",
+   "description": "Vous êtes professionnel du service client ? Comprenez le rôle d’un rep dans TAAS, l’espace REPS et la façon de trouver des gigs sur HARX.ai.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Qu’est-ce qu’un rep dans TAAS ?",
+       "a": "Un rep est un professionnel du service client du réseau TAAS. Certifié, il réalise des gigs, c’est-à-dire des missions, pour des entreprises."
+      },
+      {
+       "q": "Où un rep trouve-t-il des gigs ?",
+       "a": "Dans l’espace REPS de HARX.ai, prévu pour trouver des gigs. C’est le point d’entrée côté professionnels."
+      },
+      {
+       "q": "Faut-il être un humain ?",
+       "a": "Non. Le réseau compte des reps humains et des IA. Ce qui compte, c’est le résultat approuvé obtenu sur chaque mission."
+      },
+      {
+       "q": "Comment le travail est-il évalué ?",
+       "a": "Chaque interaction est évaluée en temps réel. Cela donne un retour pendant la mission et permet de travailler vers le résultat demandé."
+      },
+      {
+       "q": "Quand est-on rémunéré sur un gig ?",
+       "a": "Le principe de TAAS est que l’entreprise ne paie que lorsque le résultat est approuvé. La rémunération d’un gig est donc liée à cette approbation."
+      },
+      {
+       "q": "Comment commencer ?",
+       "a": "Rendez-vous sur HARX.ai, rubrique TAAS, puis dans l’espace REPS. Les conditions précises de certification ne sont pas détaillées ici ; référez-vous aux informations du site."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Becoming a HARX Rep and Finding Gigs: FAQ for Professionals",
+   "description": "A customer service professional? Understand a rep’s role in TAAS, the REPS space and how to find gigs on HARX.ai.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What is a rep in TAAS?",
+       "a": "A rep is a customer service professional in the TAAS network. Certified, they carry out gigs, meaning missions, for companies."
+      },
+      {
+       "q": "Where does a rep find gigs?",
+       "a": "In the REPS space on HARX.ai, designed for finding gigs. It is the entry point on the professional side."
+      },
+      {
+       "q": "Do you have to be human?",
+       "a": "No. The network includes human reps and AI ones. What counts is the approved result obtained on each mission."
+      },
+      {
+       "q": "How is the work evaluated?",
+       "a": "Every interaction is evaluated in real time. This gives feedback during the mission and helps you work toward the requested result."
+      },
+      {
+       "q": "When is a rep paid for a gig?",
+       "a": "The principle of TAAS is that the company pays only when the result is approved. Payment for a gig is therefore tied to that approval."
+      },
+      {
+       "q": "How do I get started?",
+       "a": "Go to HARX.ai, to the TAAS section, then to the REPS space. The precise certification conditions are not detailed here; refer to the information on the site."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Ser rep de HARX y encontrar gigs: preguntas para profesionales",
+   "description": "¿Es profesional de atención al cliente? Entienda el papel de un rep en TAAS, el espacio REPS y cómo encontrar gigs en HARX.ai.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué es un rep en TAAS?",
+       "a": "Un rep es un profesional de atención al cliente de la red TAAS. Certificado, realiza gigs, es decir, misiones, para empresas."
+      },
+      {
+       "q": "¿Dónde encuentra gigs un rep?",
+       "a": "En el espacio REPS de HARX.ai, pensado para encontrar gigs. Es la puerta de entrada del lado de los profesionales."
+      },
+      {
+       "q": "¿Hay que ser persona?",
+       "a": "No. La red incluye reps humanos y también IA. Lo que cuenta es el resultado aprobado en cada misión."
+      },
+      {
+       "q": "¿Cómo se evalúa el trabajo?",
+       "a": "Cada interacción se evalúa en tiempo real. Esto da retroalimentación durante la misión y ayuda a trabajar hacia el resultado solicitado."
+      },
+      {
+       "q": "¿Cuándo se cobra por un gig?",
+       "a": "El principio de TAAS es que la empresa solo paga cuando el resultado se aprueba. Por tanto, la remuneración de un gig está ligada a esa aprobación."
+      },
+      {
+       "q": "¿Cómo empiezo?",
+       "a": "Entre en HARX.ai, en la sección TAAS, y después en el espacio REPS. Las condiciones exactas de certificación no se detallan aquí; consulte la información del sitio."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "كيف تصبح مندوب HARX وتجد الـ gigs: أسئلة للمحترفين",
+   "description": "هل أنت محترف في خدمة العملاء؟ تعرّف على دور المندوب في TAAS ومساحة REPS وكيفية العثور على gigs عبر HARX.ai.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ما هو المندوب (rep) في TAAS؟",
+       "a": "المندوب محترف في خدمة العملاء ضمن شبكة TAAS. وهو معتمد وينفّذ gigs أي مهاماً لصالح الشركات."
+      },
+      {
+       "q": "أين يجد المندوب الـ gigs؟",
+       "a": "في مساحة REPS على HARX.ai المخصصة للعثور على gigs. وهي نقطة الدخول من جهة المحترفين."
+      },
+      {
+       "q": "هل يجب أن أكون إنساناً؟",
+       "a": "لا. تضم الشبكة مندوبين من البشر وآخرين من الذكاء الاصطناعي. والمهم هو النتيجة المعتمدة في كل مهمة."
+      },
+      {
+       "q": "كيف يُقيَّم العمل؟",
+       "a": "يُقيَّم كل تفاعل في الوقت الفعلي، مما يمنح ملاحظات أثناء المهمة ويساعد على العمل نحو النتيجة المطلوبة."
+      },
+      {
+       "q": "متى يُدفع مقابل الـ gig؟",
+       "a": "مبدأ TAAS أن الشركة لا تدفع إلا عند الموافقة على النتيجة، ولذلك يرتبط الدفع مقابل الـ gig بهذه الموافقة."
+      },
+      {
+       "q": "كيف أبدأ؟",
+       "a": "توجّه إلى HARX.ai ثم قسم TAAS ثم مساحة REPS. ولا نفصّل هنا شروط الاعتماد بدقة؛ فارجع إلى معلومات الموقع."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

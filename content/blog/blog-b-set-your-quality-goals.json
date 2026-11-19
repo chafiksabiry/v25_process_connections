@@ -1,0 +1,323 @@
+{
+ "type": "blog",
+ "slug": "blog-b-set-your-quality-goals",
+ "date": "2026-10-27",
+ "langs": {
+  "fr": {
+   "title": "Fixer ses objectifs de qualité en tant qu'agent",
+   "description": "Comment se fixer des objectifs de qualité réalistes et motivants en service client : choisir des critères, suivre ses progrès et apprendre de chaque retour.",
+   "blocks": [
+    {
+     "h2": "Pourquoi se fixer ses propres objectifs"
+    },
+    {
+     "p": "Lorsqu'on travaille de façon indépendante ou à distance, personne n'est là pour dire en direct si l'on progresse. Se donner des objectifs de qualité, c'est se doter d'un repère pour savoir où l'on en est et ce que l'on veut améliorer. C'est aussi une manière de rester motivé : un objectif atteint est une preuve tangible de progrès."
+    },
+    {
+     "p": "Un bon objectif n'est ni une pression supplémentaire ni un slogan. C'est une intention précise, suffisamment simple pour être suivie et suffisamment exigeante pour faire grandir."
+    },
+    {
+     "h2": "Choisir des critères qui comptent"
+    },
+    {
+     "p": "Tout ne se mesure pas, et tout ce qui se mesure n'a pas la même importance. Partez de ce qui compte pour le client : être compris, obtenir une réponse juste, être traité avec respect, ne pas avoir à répéter."
+    },
+    {
+     "ul": [
+      "La clarté de vos explications.",
+      "L'exactitude des informations données.",
+      "La qualité de votre écoute et de vos reformulations.",
+      "Le respect du ton convenu avec l'entreprise.",
+      "La manière de conclure : le client sait-il ce qui va se passer ensuite ?"
+     ]
+    },
+    {
+     "h2": "Formuler un objectif réaliste"
+    },
+    {
+     "p": "Un objectif vague, comme « être meilleur », ne permet pas d'agir. Un objectif plus précis décrit un comportement observable : « reformuler systématiquement la demande avant de répondre » ou « terminer chaque échange en résumant les prochaines étapes »."
+    },
+    {
+     "ul": [
+      "Se concentrer sur un ou deux axes à la fois.",
+      "Décrire ce que vous ferez concrètement, pas seulement ce que vous voulez devenir.",
+      "Prévoir une échéance raisonnable pour faire le point.",
+      "Choisir un niveau exigeant mais atteignable."
+     ]
+    },
+    {
+     "h2": "Suivre ses progrès"
+    },
+    {
+     "p": "Tenir un simple carnet de bord suffit : quelques lignes après chaque journée ou chaque mission sur ce qui a bien fonctionné et ce qui peut s'améliorer. Réécouter un échange enregistré lorsque c'est autorisé, ou relire un échange écrit, permet de repérer des habitudes que l'on ne remarque pas sur le moment."
+    },
+    {
+     "p": "Les retours des entreprises et des évaluations sont une matière précieuse. Dans le modèle TAAS de HARX.ai, chaque interaction est évaluée en temps réel ; un professionnel peut s'appuyer sur ces retours pour ajuster ses pratiques d'une mission à l'autre."
+    },
+    {
+     "h2": "Apprendre de chaque retour"
+    },
+    {
+     "p": "Un retour négatif n'est pas un jugement sur votre valeur. C'est une information sur un échange précis. Cherchez ce qui a déclenché la difficulté, réfléchissez à ce que vous feriez autrement, puis essayez lors de la prochaine occasion."
+    },
+    {
+     "h2": "Exemples d'objectifs formulés simplement"
+    },
+    {
+     "ul": [
+      "Reformuler la demande du client avant d'y répondre, à chaque échange.",
+      "Vérifier à la fin que le client n'a plus de question.",
+      "Relire mes réponses écrites une fois avant l'envoi.",
+      "Tenir un ton calme même lorsque le client s'agace."
+     ]
+    },
+    {
+     "p": "Ces exemples sont volontairement modestes. L'essentiel est de choisir un comportement que vous pouvez observer vous-même et de vous y tenir suffisamment longtemps pour qu'il devienne un réflexe."
+    },
+    {
+     "p": "Fêtez aussi vos progrès. Reconnaître ses réussites aide à garder l'envie d'exceller, surtout dans un métier où l'on traite souvent des clients en difficulté. Des objectifs de qualité bien choisis donnent un cap, et un cap rend le quotidien plus lisible."
+    }
+   ]
+  },
+  "en": {
+   "title": "Setting Your Own Quality Goals as an Agent",
+   "description": "How to set realistic, motivating quality goals in customer service: choosing criteria, tracking your progress and learning from every piece of feedback.",
+   "blocks": [
+    {
+     "h2": "Why set your own goals"
+    },
+    {
+     "p": "When you work independently or remotely, nobody is there to say in real time whether you are improving. Setting quality goals gives you a reference point to know where you stand and what you want to improve. It is also a way to stay motivated: a goal reached is tangible proof of progress."
+    },
+    {
+     "p": "A good goal is neither extra pressure nor a slogan. It is a precise intention, simple enough to follow and demanding enough to help you grow."
+    },
+    {
+     "h2": "Choosing criteria that matter"
+    },
+    {
+     "p": "Not everything can be measured, and not everything measurable matters equally. Start from what matters to the customer: being understood, getting a correct answer, being treated with respect, not having to repeat themselves."
+    },
+    {
+     "ul": [
+      "The clarity of your explanations.",
+      "The accuracy of the information given.",
+      "The quality of your listening and rephrasing.",
+      "Respect for the tone agreed with the company.",
+      "The way you close: does the customer know what happens next?"
+     ]
+    },
+    {
+     "h2": "Wording a realistic goal"
+    },
+    {
+     "p": "A vague goal such as being better does not let you act. A more precise goal describes an observable behaviour: always rephrase the request before answering, or end each exchange by summarising next steps."
+    },
+    {
+     "ul": [
+      "Concentrate on one or two areas at a time.",
+      "Describe what you will actually do, not only what you want to become.",
+      "Set a reasonable deadline to review.",
+      "Choose a level that is demanding but achievable."
+     ]
+    },
+    {
+     "h2": "Tracking your progress"
+    },
+    {
+     "p": "A simple logbook is enough: a few lines after each day or each assignment on what went well and what can improve. Listening again to a recorded exchange where that is permitted, or rereading a written one, helps you spot habits you do not notice in the moment."
+    },
+    {
+     "p": "Feedback from companies and assessments is precious material. In the TAAS model from HARX.ai, each interaction is assessed in real time; a professional can rely on this feedback to adjust their practice from one task to the next."
+    },
+    {
+     "h2": "Learning from every piece of feedback"
+    },
+    {
+     "p": "Negative feedback is not a judgement on your worth. It is information about a specific exchange. Look for what triggered the difficulty, think about what you would do differently, then try it next time."
+    },
+    {
+     "h2": "Examples of goals worded simply"
+    },
+    {
+     "ul": [
+      "Rephrase the customer's request before answering, in every exchange.",
+      "Check at the end that the customer has no further questions.",
+      "Reread my written replies once before sending.",
+      "Keep a calm tone even when the customer gets annoyed."
+     ]
+    },
+    {
+     "p": "These examples are deliberately modest. The essential thing is to choose a behaviour you can observe yourself and stick to it long enough for it to become a reflex."
+    },
+    {
+     "p": "If a goal turns out to be easy, raise it a little. If it proves too hard, break it into a smaller step. Adjusting is not failing; it is exactly how a quality practice is built."
+    },
+    {
+     "p": "Celebrate your progress too. Recognising your successes helps you keep the desire to excel, especially in a job where you often deal with customers in difficulty. Well-chosen quality goals give you a direction, and a direction makes daily work easier to read."
+    }
+   ]
+  },
+  "es": {
+   "title": "Fijar sus objetivos de calidad como agente",
+   "description": "Cómo fijarse objetivos de calidad realistas y motivadores en atención al cliente: elegir criterios, seguir los progresos y aprender de cada comentario.",
+   "blocks": [
+    {
+     "h2": "Por qué fijarse objetivos propios"
+    },
+    {
+     "p": "Cuando se trabaja de forma independiente o a distancia, nadie está ahí para decir en directo si se progresa. Darse objetivos de calidad es dotarse de una referencia para saber dónde se está y qué se quiere mejorar. También es una manera de mantenerse motivado: un objetivo alcanzado es una prueba tangible de avance."
+    },
+    {
+     "p": "Un buen objetivo no es ni una presión adicional ni un eslogan. Es una intención precisa, lo bastante simple para seguirla y lo bastante exigente para hacer crecer."
+    },
+    {
+     "h2": "Elegir criterios que importen"
+    },
+    {
+     "p": "No todo se puede medir, y no todo lo medible tiene la misma importancia. Parta de lo que importa al cliente: ser comprendido, obtener una respuesta correcta, ser tratado con respeto, no tener que repetirse."
+    },
+    {
+     "ul": [
+      "La claridad de sus explicaciones.",
+      "La exactitud de la información dada.",
+      "La calidad de su escucha y de sus reformulaciones.",
+      "El respeto del tono acordado con la empresa.",
+      "La forma de cerrar: ¿sabe el cliente qué va a pasar después?"
+     ]
+    },
+    {
+     "h2": "Formular un objetivo realista"
+    },
+    {
+     "p": "Un objetivo vago, como ser mejor, no permite actuar. Un objetivo más preciso describe un comportamiento observable: reformular siempre la solicitud antes de responder, o terminar cada intercambio resumiendo los próximos pasos."
+    },
+    {
+     "ul": [
+      "Concentrarse en uno o dos ejes a la vez.",
+      "Describir lo que hará en concreto, no solo en qué quiere convertirse.",
+      "Prever un plazo razonable para hacer balance.",
+      "Elegir un nivel exigente pero alcanzable."
+     ]
+    },
+    {
+     "h2": "Seguir los propios progresos"
+    },
+    {
+     "p": "Basta con un sencillo cuaderno de bitácora: unas líneas tras cada jornada o cada encargo sobre lo que ha ido bien y lo que puede mejorar. Volver a escuchar un intercambio grabado cuando esté permitido, o releer uno escrito, permite detectar hábitos que no se notan en el momento."
+    },
+    {
+     "p": "Los comentarios de las empresas y las evaluaciones son una materia valiosa. En el modelo TAAS de HARX.ai, cada interacción se evalúa en tiempo real; un profesional puede apoyarse en esos comentarios para ajustar su práctica de una tarea a otra."
+    },
+    {
+     "h2": "Aprender de cada comentario"
+    },
+    {
+     "p": "Un comentario negativo no es un juicio sobre su valía. Es una información sobre un intercambio concreto. Busque qué desencadenó la dificultad, piense qué haría de otra manera y pruébelo en la próxima ocasión."
+    },
+    {
+     "h2": "Ejemplos de objetivos formulados con sencillez"
+    },
+    {
+     "ul": [
+      "Reformular la solicitud del cliente antes de responder, en cada intercambio.",
+      "Comprobar al final que el cliente no tiene más preguntas.",
+      "Releer mis respuestas escritas una vez antes de enviarlas.",
+      "Mantener un tono sereno incluso cuando el cliente se enfada."
+     ]
+    },
+    {
+     "p": "Estos ejemplos son deliberadamente modestos. Lo esencial es elegir un comportamiento que usted mismo pueda observar y mantenerlo el tiempo suficiente para que se convierta en un reflejo."
+    },
+    {
+     "p": "Celebre también sus avances. Reconocer los éxitos ayuda a mantener las ganas de sobresalir, sobre todo en un oficio en el que se atiende a menudo a clientes en dificultad. Unos objetivos de calidad bien elegidos dan un rumbo, y un rumbo hace más legible el día a día."
+    }
+   ]
+  },
+  "ar": {
+   "title": "تحديد أهداف الجودة الخاصة بك كوكيل خدمة عملاء",
+   "description": "كيف تضع أهداف جودة واقعية ومحفزة في خدمة العملاء: اختيار المعايير ومتابعة تقدمك والتعلم من كل ملاحظة تصلك من الشركات والعملاء.",
+   "blocks": [
+    {
+     "h2": "لماذا نضع أهدافًا خاصة بنا"
+    },
+    {
+     "p": "حين تعمل باستقلالية أو عن بُعد، لا يوجد من يخبرك لحظة بلحظة بما إذا كنت تتقدم. ووضع أهداف للجودة يمنحك مرجعًا تعرف به أين أنت وما الذي تريد تحسينه. وهو أيضًا وسيلة للحفاظ على الحافز، فالهدف المتحقق دليل ملموس على التقدم."
+    },
+    {
+     "p": "والهدف الجيد ليس ضغطًا إضافيًا ولا شعارًا. إنه نيّة محددة، بسيطة بما يكفي لتُتابَع، وطموحة بما يكفي لتُنمّيك."
+    },
+    {
+     "h2": "اختيار معايير ذات قيمة"
+    },
+    {
+     "p": "ليس كل شيء قابلًا للقياس، وليس كل ما يُقاس بالأهمية نفسها. انطلق مما يهم العميل: أن يُفهَم، وأن يحصل على جواب صحيح، وأن يُعامل باحترام، وألا يضطر إلى التكرار."
+    },
+    {
+     "ul": [
+      "وضوح شروحك.",
+      "دقة المعلومات المقدَّمة.",
+      "جودة إصغائك وإعادة صياغتك.",
+      "احترام النبرة المتفق عليها مع الشركة.",
+      "طريقة الختام: هل يعرف العميل ما سيحدث بعد ذلك؟"
+     ]
+    },
+    {
+     "h2": "صياغة هدف واقعي"
+    },
+    {
+     "p": "الهدف الغامض، مثل «أن أكون أفضل»، لا يتيح لك التصرف. أما الهدف الأدق فيصف سلوكًا يمكن ملاحظته: أن تعيد صياغة الطلب دائمًا قبل الجواب، أو أن تنهي كل محادثة بتلخيص الخطوات التالية."
+    },
+    {
+     "ul": [
+      "التركيز على محور أو محورين في كل مرة.",
+      "وصف ما ستفعله فعلًا لا ما تريد أن تصبحه فحسب.",
+      "تحديد موعد معقول لإجراء المراجعة.",
+      "اختيار مستوى طموح لكنه قابل للتحقيق."
+     ]
+    },
+    {
+     "h2": "متابعة تقدمك"
+    },
+    {
+     "p": "يكفي دفتر يوميات بسيط: بضعة أسطر بعد كل يوم أو كل مهمة عمّا سار جيدًا وما يمكن تحسينه. والاستماع مجددًا إلى محادثة مسجلة حين يكون ذلك مسموحًا، أو إعادة قراءة محادثة مكتوبة، يتيح لك رصد عادات لا تنتبه لها في حينها."
+    },
+    {
+     "p": "وملاحظات الشركات والتقييمات مادة ثمينة. ففي نموذج TAAS من HARX.ai يُقيَّم كل تفاعل في الوقت الفعلي، ويمكن للمحترف أن يستند إلى هذه الملاحظات ليعدّل ممارسته من مهمة إلى أخرى."
+    },
+    {
+     "h2": "التعلم من كل ملاحظة"
+    },
+    {
+     "p": "الملاحظة السلبية ليست حكمًا على قيمتك، بل معلومة عن محادثة بعينها. ابحث عمّا أثار الصعوبة، وفكّر فيما كنت ستفعله بشكل مختلف، ثم جرّبه في المرة القادمة."
+    },
+    {
+     "p": "واحتفل بتقدمك أيضًا. فالاعتراف بنجاحاتك يساعدك على الاحتفاظ بالرغبة في التميز، خصوصًا في مهنة تتعامل غالبًا مع عملاء في ضيق. وأهداف الجودة المختارة جيدًا تمنحك وجهة، والوجهة تجعل العمل اليومي أوضح."
+    },
+    {
+     "h2": "أمثلة على أهداف مصوغة ببساطة"
+    },
+    {
+     "ul": [
+      "إعادة صياغة طلب العميل قبل الإجابة عنه في كل محادثة.",
+      "التأكد في النهاية من أن العميل لا يملك أسئلة أخرى.",
+      "إعادة قراءة ردودي المكتوبة مرة واحدة قبل إرسالها.",
+      "الحفاظ على نبرة هادئة حتى عندما ينزعج العميل."
+     ]
+    },
+    {
+     "p": "هذه الأمثلة متواضعة عن قصد. والمهم أن تختار سلوكًا تستطيع ملاحظته بنفسك وأن تلتزم به مدة كافية ليصبح عادة تلقائية."
+    },
+    {
+     "p": "وإذا تبيّن أن الهدف سهل فارفعه قليلًا، وإذا ثبتت صعوبته فجزّئه إلى خطوة أصغر. فالتعديل ليس فشلًا، بل هو الطريقة التي تُبنى بها ممارسة الجودة."
+    },
+    {
+     "p": "ويمكنك أيضًا أن تشارك أهدافك مع زميل أو مرشد تثق به، فمجرد قولها بصوت مسموع لشخص آخر يزيد الالتزام بها، ويتيح لك الحصول على اقتراحات عملية لم تكن لتخطر ببالك."
+    },
+    {
+     "p": "وتذكّر أن تراجع أهدافك كل فترة، فإذا حققتها فارفع سقفها قليلًا، وإذا تعذر بلوغها فأعد النظر في صياغتها أو في المدة المحددة، فالمرونة جزء من الجدية."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,297 @@
+{
+ "type": "solution",
+ "slug": "sol-b-call-center-morocco",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Centre d'appels au Maroc : bien piloter une activité externalisée",
+   "description": "Opérer ou confier des campagnes à un centre d'appels au Maroc : méthode de pilotage et apport du Contact Centre Multi-clients de HARX Téléphonie.",
+   "blocks": [
+    {
+     "h2": "Confier ou conduire des campagnes depuis le Maroc"
+    },
+    {
+     "p": "Le Maroc fait partie des pays d'externalisation concernés par l'offre Contact Centre Multi-clients de HARX Téléphonie. Qu'une entreprise y confie ses appels ou qu'un centre y opère pour le compte de plusieurs clients, la réussite dépend moins du pays lui-même que de la qualité du pilotage : cadrage, formation, suivi."
+    },
+    {
+     "p": "Ce texte n'avance aucune généralité sur le marché marocain ; il se concentre sur les méthodes qui valent pour toute activité externalisée, quel que soit le lieu."
+    },
+    {
+     "h2": "Les difficultés courantes d'une activité externalisée"
+    },
+    {
+     "ul": [
+      "Un cadrage initial flou : objectifs, périmètre et indicateurs mal définis.",
+      "Une connaissance insuffisante du produit ou du service du client final par les agents.",
+      "Une communication irrégulière entre le donneur d'ordre et le centre.",
+      "Des scripts qui évoluent côté client sans être relayés aux agents.",
+      "Des difficultés à vérifier la qualité réelle des échanges à distance."
+     ]
+    },
+    {
+     "h2": "Ce que propose le Contact Centre Multi-clients"
+    },
+    {
+     "p": "L'offre de HARX est destinée aux centres d'appels en Europe, aux États-Unis ou dans les pays d'externalisation : France, Maroc, Tunisie, Sénégal. Les agents travaillent sur plateau ou à distance, et un même centre peut servir plusieurs clients, chacun avec ses propres appels entrants et sortants."
+    },
+    {
+     "p": "Pour un centre au Maroc, cela signifie une base téléphonique commune à plusieurs activités et un numéro adapté à chaque besoin, appuyés par une IA d'assistance. L'abonnement est mensuel, minutes et IA sont prépayées, et la mise en route est présentée comme rapide, de l'ordre de quelques minutes."
+    },
+    {
+     "h2": "Bonnes pratiques de pilotage"
+    },
+    {
+     "ul": [
+      "Rédiger un cahier des charges simple : objectifs, horaires, motifs d'appel, critères de réussite.",
+      "Organiser une phase de démarrage progressive avant la montée en volume.",
+      "Prévoir un point de suivi régulier entre le client et le centre pour partager les retours terrain.",
+      "Mettre à jour les scripts et les foires aux questions chaque fois que le client modifie son offre.",
+      "Évaluer la qualité par écoute d'échantillons, avec des critères connus de tous.",
+      "Respecter les règles applicables aux données personnelles et aux appels dans les pays concernés, avec l'avis d'un conseil si nécessaire."
+     ]
+    },
+    {
+     "p": "Une externalisation réussie s'apparente à un partenariat : transparence, retours rapides et objectifs partagés. Le Contact Centre Multi-clients de HARX fournit l'outillage téléphonique pour mettre en œuvre cette méthode."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Le Maroc est-il couvert par l'offre ?",
+       "a": "Oui, il fait partie des pays d'externalisation cités pour le Contact Centre Multi-clients, avec la France, la Tunisie et le Sénégal."
+      },
+      {
+       "q": "Les agents doivent-ils être sur un plateau ?",
+       "a": "Non, ils peuvent travailler sur plateau ou à distance."
+      },
+      {
+       "q": "Un centre peut-il gérer plusieurs clients ?",
+       "a": "Oui, l'offre est conçue pour servir plusieurs clients."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Call centre in Morocco: steering an outsourced operation well",
+   "description": "Running or entrusting campaigns to a call centre in Morocco: steering methods and what HARX Telephony's Contact Centre Multi-clients offer provides.",
+   "blocks": [
+    {
+     "h2": "Entrusting or running campaigns from Morocco"
+    },
+    {
+     "p": "Morocco is one of the outsourcing countries covered by HARX Telephony's Contact Centre Multi-clients offer. Whether a company entrusts its calls there or a centre operates there for several clients, success depends less on the country itself than on the quality of steering: scoping, training, follow-up."
+    },
+    {
+     "p": "This page makes no generalisations about the Moroccan market; it focuses on methods that hold for any outsourced activity, wherever it is located."
+    },
+    {
+     "h2": "Common difficulties of an outsourced activity"
+    },
+    {
+     "ul": [
+      "A vague initial scope: objectives, perimeter and indicators poorly defined.",
+      "Agents with insufficient knowledge of the end client's product or service.",
+      "Irregular communication between the client and the centre.",
+      "Scripts that change on the client side without being passed on to agents.",
+      "Difficulty verifying the real quality of conversations at a distance."
+     ]
+    },
+    {
+     "h2": "What Contact Centre Multi-clients offers"
+    },
+    {
+     "p": "HARX's offer is intended for call centres in Europe, the United States or outsourcing countries: France, Morocco, Tunisia, Senegal. Agents work on the floor or remotely, and one centre can serve several clients, each with its own inbound and outbound calls."
+    },
+    {
+     "p": "For a centre in Morocco, this means a telephone base shared across several activities and a number suited to each need, supported by an assisting AI. The subscription is monthly, minutes and AI are prepaid, and start-up is presented as quick, in the order of minutes."
+    },
+    {
+     "h2": "Good steering practices"
+    },
+    {
+     "ul": [
+      "Write a simple specification: objectives, hours, reasons for calls, success criteria.",
+      "Run a gradual start-up phase before ramping up volume.",
+      "Schedule a regular review between client and centre to share field feedback.",
+      "Update scripts and FAQs whenever the client changes its offer.",
+      "Assess quality by listening to samples, with criteria known to everyone.",
+      "Respect the rules on personal data and calls in the countries concerned, with advice from a professional if needed."
+     ]
+    },
+    {
+     "p": "A successful outsourcing arrangement resembles a partnership: transparency, fast feedback and shared goals. HARX's Contact Centre Multi-clients provides the telephone tooling to apply this method. Starting with one well-defined campaign is usually wiser than launching several at once."
+    },
+    {
+     "p": "It also helps to agree, from the outset, on how changes will be handled: who validates a new script, how quickly agents are informed, and how the client is told when a recurring problem is spotted on the ground. These simple rules prevent most misunderstandings between a client and its centre."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Is Morocco covered by the offer?",
+       "a": "Yes, it is among the outsourcing countries cited for Contact Centre Multi-clients, along with France, Tunisia and Senegal."
+      },
+      {
+       "q": "Must agents be on a floor?",
+       "a": "No, they can work on the floor or remotely."
+      },
+      {
+       "q": "Can a centre handle several clients?",
+       "a": "Yes, the offer is designed to serve several clients."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Centro de llamadas en Marruecos: dirigir una actividad externalizada",
+   "description": "Operar o encargar campañas a un centro de llamadas en Marruecos: método de dirección y aporte del Contact Centre Multi-clients de HARX Telefonía.",
+   "blocks": [
+    {
+     "h2": "Encargar o dirigir campañas desde Marruecos"
+    },
+    {
+     "p": "Marruecos figura entre los países de externalización a los que se dirige la oferta Contact Centre Multi-clients de HARX Telefonía. Tanto si una empresa le confía sus llamadas como si un centro opera allí para varios clientes, el éxito depende menos del país que de la calidad de la dirección: definición del encargo, formación y seguimiento."
+    },
+    {
+     "p": "Este texto no hace generalidades sobre el mercado marroquí; se centra en métodos válidos para cualquier actividad externalizada, esté donde esté."
+    },
+    {
+     "h2": "Dificultades habituales de una actividad externalizada"
+    },
+    {
+     "ul": [
+      "Un encargo inicial difuso: objetivos, alcance e indicadores mal definidos.",
+      "Un conocimiento insuficiente del producto o servicio del cliente final por parte de los agentes.",
+      "Una comunicación irregular entre el cliente y el centro.",
+      "Guiones que cambian en el cliente sin trasladarse a los agentes.",
+      "Dificultad para comprobar la calidad real de las conversaciones a distancia."
+     ]
+    },
+    {
+     "h2": "Qué ofrece el Contact Centre Multi-clients"
+    },
+    {
+     "p": "La oferta de HARX se dirige a centros de llamadas en Europa, Estados Unidos o países de externalización: Francia, Marruecos, Túnez y Senegal. Los agentes trabajan en plataforma o a distancia, y un mismo centro puede atender a varios clientes, cada uno con sus propias llamadas entrantes y salientes."
+    },
+    {
+     "p": "Para un centro en Marruecos, esto supone una base telefónica común a varias actividades y un número adaptado a cada necesidad, con el apoyo de una IA. La suscripción es mensual, los minutos y la IA son prepagados y la puesta en marcha se presenta como rápida, del orden de minutos."
+    },
+    {
+     "h2": "Buenas prácticas de dirección"
+    },
+    {
+     "ul": [
+      "Redactar un pliego sencillo: objetivos, horarios, motivos de llamada y criterios de éxito.",
+      "Organizar una fase de arranque gradual antes de aumentar el volumen.",
+      "Prever una reunión de seguimiento regular entre cliente y centro para compartir lo observado en el terreno.",
+      "Actualizar guiones y preguntas frecuentes cada vez que el cliente cambie su oferta.",
+      "Evaluar la calidad escuchando muestras, con criterios conocidos por todos.",
+      "Respetar las normas sobre datos personales y llamadas de los países implicados, con el consejo de un profesional si hace falta."
+     ]
+    },
+    {
+     "p": "Una externalización lograda se parece a una alianza: transparencia, respuestas rápidas y objetivos compartidos. El Contact Centre Multi-clients de HARX aporta el equipamiento telefónico para aplicar este método. Suele ser más sensato empezar con una campaña bien definida que lanzar varias a la vez."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Marruecos está cubierto por la oferta?",
+       "a": "Sí, figura entre los países de externalización citados para el Contact Centre Multi-clients, junto con Francia, Túnez y Senegal."
+      },
+      {
+       "q": "¿Los agentes deben estar en una plataforma?",
+       "a": "No, pueden trabajar en plataforma o a distancia."
+      },
+      {
+       "q": "¿Un centro puede gestionar varios clientes?",
+       "a": "Sí, la oferta está concebida para atender a varios clientes."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "مركز اتصال في المغرب: إدارة نشاط مُسنَد إلى جهة خارجية",
+   "description": "تشغيل حملات في مركز اتصال بالمغرب أو إسنادها إليه: منهج الإدارة وما يقدّمه عرض Contact Centre Multi-clients من HARX للاتصالات الهاتفية.",
+   "blocks": [
+    {
+     "h2": "إسناد الحملات أو تشغيلها انطلاقًا من المغرب"
+    },
+    {
+     "p": "المغرب أحد بلدان الاستعانة بمصادر خارجية التي يشملها عرض Contact Centre Multi-clients من HARX للاتصالات الهاتفية. وسواء أسندت شركة مكالماتها إليه أو عمل فيه مركز لصالح عدة عملاء، فإن النجاح يتوقف على جودة الإدارة أكثر من توقفه على البلد نفسه: تحديد الإطار والتدريب والمتابعة."
+    },
+    {
+     "p": "لا يقدّم هذا النص أي تعميمات عن السوق المغربية، بل يركّز على أساليب تصلح لأي نشاط مُسنَد إلى جهة خارجية، أيًّا كان موقعه."
+    },
+    {
+     "h2": "صعوبات شائعة في النشاط المُسنَد"
+    },
+    {
+     "ul": [
+      "إطار أولي غامض: أهداف ونطاق ومؤشرات غير محددة بدقة.",
+      "معرفة غير كافية لدى الوكلاء بمنتج العميل النهائي أو خدمته.",
+      "تواصل غير منتظم بين صاحب الطلب والمركز.",
+      "نصوص تتغير لدى العميل دون أن تصل إلى الوكلاء.",
+      "صعوبة التحقق من الجودة الفعلية للمحادثات عن بُعد."
+     ]
+    },
+    {
+     "h2": "ما يقدّمه Contact Centre Multi-clients"
+    },
+    {
+     "p": "عرض HARX موجّه إلى مراكز الاتصال في أوروبا أو الولايات المتحدة أو بلدان الاستعانة بمصادر خارجية: فرنسا والمغرب وتونس والسنغال. ويعمل الوكلاء في الموقع أو عن بُعد، ويمكن لمركز واحد أن يخدم عدة عملاء، لكل منهم مكالماته الواردة والصادرة."
+    },
+    {
+     "p": "وبالنسبة إلى مركز في المغرب يعني ذلك قاعدة هاتفية مشتركة بين عدة أنشطة ورقمًا يناسب كل حاجة، بدعم من ذكاء اصطناعي مساعد. والاشتراك شهري والدقائق والذكاء الاصطناعي مدفوعة مسبقًا، ويُقدَّم التشغيل على أنه سريع، في حدود دقائق."
+    },
+    {
+     "h2": "ممارسات جيدة في الإدارة"
+    },
+    {
+     "ul": [
+      "كتابة دفتر شروط بسيط: الأهداف وساعات العمل وأسباب المكالمات ومعايير النجاح.",
+      "اعتماد مرحلة انطلاق تدريجية قبل رفع الحجم.",
+      "تنظيم لقاء متابعة منتظم بين العميل والمركز لتبادل الملاحظات الميدانية.",
+      "تحديث النصوص والأسئلة الشائعة كلما غيّر العميل عرضه.",
+      "تقييم الجودة بالاستماع إلى عينات وفق معايير يعرفها الجميع.",
+      "احترام القواعد المتعلقة بالبيانات الشخصية والمكالمات في البلدان المعنية، مع استشارة مختص عند الحاجة."
+     ]
+    },
+    {
+     "p": "يشبه الإسناد الناجح شراكة قائمة على الشفافية وسرعة تبادل الملاحظات وأهداف مشتركة. ويوفّر Contact Centre Multi-clients من HARX الأدوات الهاتفية لتطبيق هذا المنهج. وغالبًا ما يكون البدء بحملة واحدة محددة جيدًا أحكم من إطلاق عدة حملات دفعة واحدة، لأنه يتيح تصحيح الأخطاء الأولى قبل أن تتضاعف."
+    },
+    {
+     "p": "ومن المفيد أيضًا الاتفاق منذ البداية على طريقة التعامل مع التغييرات: من يصادق على نص جديد، وبأي سرعة يُبلَّغ الوكلاء، وكيف يُخبَر العميل حين تُرصَد مشكلة متكررة في الميدان. فهذه القواعد البسيطة تمنع معظم سوء الفهم بين العميل ومركزه، وتجعل العلاقة بينهما أقرب إلى فريق واحد يعمل نحو هدف مشترك منها إلى علاقة بين مُسنِد ومنفِّذ، كما تسهّل مراجعة الأداء بصورة هادئة وموضوعية عند كل لقاء متابعة."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يشمل العرض المغرب؟",
+       "a": "نعم، فهو من بلدان الاستعانة بمصادر خارجية المذكورة في Contact Centre Multi-clients، إلى جانب فرنسا وتونس والسنغال."
+      },
+      {
+       "q": "هل يجب أن يكون الوكلاء في مقر المركز؟",
+       "a": "لا، يمكنهم العمل في الموقع أو عن بُعد."
+      },
+      {
+       "q": "هل يمكن لمركز أن يدير عدة عملاء؟",
+       "a": "نعم، فالعرض مصمَّم لخدمة عدة عملاء."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

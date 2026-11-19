@@ -1,0 +1,297 @@
+{
+ "type": "blog",
+ "slug": "blog-a-cloud-vs-traditional-phone",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Téléphonie en nuage ou ligne traditionnelle : les notions clés",
+   "description": "Comment fonctionnent une ligne traditionnelle et la téléphonie en nuage, et quels critères comparer selon votre activité, votre mobilité et votre équipe.",
+   "blocks": [
+    {
+     "p": "On entend parler de téléphonie « dans le nuage » ou « sur internet », sans toujours savoir ce que cela change par rapport à la ligne classique. Cet article présente des notions générales pour comprendre les deux approches et se poser les bonnes questions. Il ne remplace pas une étude de vos besoins précis."
+    },
+    {
+     "h2": "Ce que recouvre chaque approche"
+    },
+    {
+     "p": "Une ligne traditionnelle repose sur une connexion physique ou un abonnement attaché à un lieu ou à une carte SIM. Le numéro est associé à ce raccordement, et les appels passent par l'infrastructure de l'opérateur. Le fonctionnement est familier et simple à comprendre."
+    },
+    {
+     "p": "La téléphonie en nuage, elle, s'appuie sur internet. Les appels sont acheminés par des services hébergés à distance, auxquels on accède depuis un ordinateur, un téléphone ou une application. Le numéro n'est plus rattaché à un emplacement physique : il peut être utilisé depuis plusieurs endroits, selon ce que propose le service."
+    },
+    {
+     "ul": [
+      "Ligne traditionnelle : raccordement physique ou carte SIM, usage lié à un lieu ou à un appareil.",
+      "Téléphonie en nuage : service accessible via internet, usage plus souple selon la solution.",
+      "Dans les deux cas, la qualité d'écoute dépend de la qualité de la connexion ou du réseau."
+     ]
+    },
+    {
+     "h2": "Les critères à comparer"
+    },
+    {
+     "p": "Il n'existe pas de réponse universelle. Le bon choix dépend de la manière dont vous travaillez et de ce que vous attendez de votre téléphone."
+    },
+    {
+     "ul": [
+      "Mobilité : travaillez-vous toujours au même endroit, ou vous déplacez-vous ?",
+      "Taille de l'équipe : une seule personne, ou plusieurs qui doivent partager un numéro ?",
+      "Fonctions utiles : répondeur, journal d'appels, accueil, appels sortants, et leur disponibilité.",
+      "Dépendance à internet : une bonne connexion est indispensable pour le nuage.",
+      "Mise en place : matériel à installer ou simple compte à créer ?",
+      "Suivi des coûts : mode de facturation et lisibilité de ce que l'on consomme."
+     ]
+    },
+    {
+     "p": "Posez-vous aussi la question du plan B. Que se passe-t-il si votre connexion tombe ? Prévoyez une solution de repli, comme un second moyen de vous joindre."
+    },
+    {
+     "h2": "Quand l'une ou l'autre peut mieux convenir"
+    },
+    {
+     "p": "Une ligne traditionnelle peut convenir à une activité très sédentaire, dans un lieu doté d'une bonne couverture et sans besoin de partager le numéro. La simplicité est son principal atout, et certains clients apprécient un fonctionnement qu'ils connaissent depuis longtemps."
+    },
+    {
+     "p": "La téléphonie en nuage trouve naturellement sa place pour les indépendants mobiles, les équipes à distance ou les structures qui veulent ajouter des fonctions sans installer de matériel. Elle facilite le partage d'un numéro entre plusieurs personnes et l'accès aux appels depuis divers appareils."
+    },
+    {
+     "p": "Aucune des deux n'est supérieure en toutes circonstances. L'important est que le choix soit cohérent avec votre manière de travailler."
+    },
+    {
+     "h2": "Un exemple de service en nuage orienté professionnels"
+    },
+    {
+     "p": "HARX Téléphonie relève de cette logique : un numéro de votre pays, des appels entrants et sortants, un accueil ou un secrétariat, un répondeur et une IA qui assiste, avec un abonnement mensuel et des minutes prépayées. La mise en route est annoncée en quelques minutes. Quatre offres couvrent les freelances et nomades, les TPE, les PME et équipes à distance, et les centres d'appels."
+    },
+    {
+     "p": "Comme pour toute solution, lisez attentivement la description de l'offre qui vous correspond avant de décider, et vérifiez qu'elle répond bien à votre usage."
+    },
+    {
+     "h2": "Conclusion : choisir selon votre façon de travailler"
+    },
+    {
+     "p": "Comparer téléphonie en nuage et ligne traditionnelle revient à se demander où vous travaillez, avec qui, et de quelles fonctions vous avez réellement besoin. Listez vos besoins, testez si possible, et gardez toujours un moyen de repli. Le meilleur choix est celui qui rend vos appels simples à passer, à recevoir et à suivre. HARX Téléphonie est l'une des options à examiner dans cette comparaison."
+    }
+   ]
+  },
+  "en": {
+   "title": "Cloud Telephony or Traditional Line: Key Notions Explained",
+   "description": "How a traditional line and cloud telephony work, and which criteria to compare depending on your activity, your mobility and the size of your team.",
+   "blocks": [
+    {
+     "p": "People talk about telephony “in the cloud” or “over the internet”, without always knowing what it changes compared with a classic line. This article presents general notions to understand both approaches and ask the right questions. It does not replace a study of your specific needs."
+    },
+    {
+     "h2": "What each approach covers"
+    },
+    {
+     "p": "A traditional line relies on a physical connection or a subscription tied to a place or a SIM card. The number is associated with that connection, and calls go through the operator's infrastructure. The way it works is familiar and easy to grasp."
+    },
+    {
+     "p": "Cloud telephony, by contrast, relies on the internet. Calls are routed by remotely hosted services, which you reach from a computer, a phone or an app. The number is no longer tied to a physical location: it can be used from several places, depending on what the service offers."
+    },
+    {
+     "ul": [
+      "Traditional line: physical connection or SIM card, use tied to a place or a device.",
+      "Cloud telephony: service accessible over the internet, more flexible use depending on the solution.",
+      "In both cases, sound quality depends on the quality of the connection or the network."
+     ]
+    },
+    {
+     "h2": "The criteria to compare"
+    },
+    {
+     "p": "There is no universal answer. The right choice depends on how you work and what you expect from your phone."
+    },
+    {
+     "ul": [
+      "Mobility: do you always work in the same place, or do you move around?",
+      "Team size: one person, or several who must share a number?",
+      "Useful functions: voicemail, call log, reception, outbound calls, and their availability.",
+      "Dependence on the internet: a good connection is essential for the cloud.",
+      "Setup: hardware to install, or simply an account to create?",
+      "Cost tracking: billing method and how clearly you see what you use."
+     ]
+    },
+    {
+     "p": "Think about plan B too. What happens if your connection drops? Plan a fallback, such as a second way of being reached."
+    },
+    {
+     "h2": "When one or the other may suit better"
+    },
+    {
+     "p": "A traditional line may suit a very sedentary activity, in a place with good coverage and no need to share the number. Simplicity is its main asset, and some customers appreciate a setup they have known for a long time."
+    },
+    {
+     "p": "Cloud telephony naturally finds its place for mobile freelancers, remote teams or organisations that want to add functions without installing hardware. It makes it easier to share a number among several people and to reach calls from different devices."
+    },
+    {
+     "p": "Neither is superior in every circumstance. What matters is that the choice fits the way you work."
+    },
+    {
+     "h2": "An example of a cloud service aimed at professionals"
+    },
+    {
+     "p": "HARX Telephony follows this logic: a number from your country, inbound and outbound calls, reception or secretarial services, voicemail and an AI that assists, with a monthly subscription and prepaid minutes. Setup is stated as taking a few minutes. Four offers cover freelancers and nomads, very small businesses, small and medium businesses and remote teams, and call centres."
+    },
+    {
+     "p": "As with any solution, read the description of the offer that matches you carefully before deciding, and check that it truly fits your use."
+    },
+    {
+     "h2": "Conclusion: choose according to the way you work"
+    },
+    {
+     "p": "Comparing cloud telephony and a traditional line comes down to asking where you work, with whom, and which functions you really need. List your needs, test if possible, and always keep a fallback. The best choice is the one that makes your calls simple to make, receive and follow. HARX Telephony is one of the options to look at in this comparison."
+    }
+   ]
+  },
+  "es": {
+   "title": "Telefonía en la nube o línea tradicional: nociones clave",
+   "description": "Cómo funcionan una línea tradicional y la telefonía en la nube, y qué criterios comparar según tu actividad, tu movilidad y el tamaño de tu equipo.",
+   "blocks": [
+    {
+     "p": "Se habla de telefonía «en la nube» o «por internet» sin saber siempre qué cambia respecto a la línea clásica. Este artículo presenta nociones generales para entender ambos enfoques y hacerse las preguntas adecuadas. No sustituye un estudio de tus necesidades concretas."
+    },
+    {
+     "h2": "Qué abarca cada enfoque"
+    },
+    {
+     "p": "Una línea tradicional se basa en una conexión física o en un contrato ligado a un lugar o a una tarjeta SIM. El número está asociado a ese enlace y las llamadas pasan por la infraestructura del operador. El funcionamiento es familiar y fácil de entender."
+    },
+    {
+     "p": "La telefonía en la nube, en cambio, se apoya en internet. Las llamadas se encaminan mediante servicios alojados de forma remota, a los que se accede desde un ordenador, un teléfono o una aplicación. El número deja de estar ligado a un lugar físico: puede usarse desde varios sitios, según lo que ofrezca el servicio."
+    },
+    {
+     "ul": [
+      "Línea tradicional: conexión física o tarjeta SIM, uso ligado a un lugar o a un aparato.",
+      "Telefonía en la nube: servicio accesible por internet, uso más flexible según la solución.",
+      "En ambos casos, la calidad del sonido depende de la calidad de la conexión o de la red."
+     ]
+    },
+    {
+     "h2": "Los criterios que comparar"
+    },
+    {
+     "p": "No existe una respuesta universal. La elección adecuada depende de cómo trabajas y de lo que esperas de tu teléfono."
+    },
+    {
+     "ul": [
+      "Movilidad: ¿trabajas siempre en el mismo sitio o te desplazas?",
+      "Tamaño del equipo: ¿una sola persona o varias que deben compartir un número?",
+      "Funciones útiles: buzón de voz, registro de llamadas, atención, llamadas salientes y su disponibilidad.",
+      "Dependencia de internet: una buena conexión es indispensable para la nube.",
+      "Puesta en marcha: ¿equipos que instalar o simplemente una cuenta que crear?",
+      "Control de costes: forma de facturación y claridad de lo que se consume."
+     ]
+    },
+    {
+     "p": "Piensa también en el plan B. ¿Qué ocurre si se cae tu conexión? Prevé una solución de reserva, como una segunda vía para que te localicen."
+    },
+    {
+     "h2": "Cuándo una u otra puede convenir más"
+    },
+    {
+     "p": "Una línea tradicional puede convenir a una actividad muy sedentaria, en un lugar con buena cobertura y sin necesidad de compartir el número. La sencillez es su principal baza, y algunos clientes aprecian un funcionamiento que conocen desde hace tiempo."
+    },
+    {
+     "p": "La telefonía en la nube encuentra su lugar de forma natural para autónomos móviles, equipos en remoto o estructuras que quieren añadir funciones sin instalar equipos. Facilita compartir un número entre varias personas y acceder a las llamadas desde distintos dispositivos."
+    },
+    {
+     "p": "Ninguna es superior en todas las circunstancias. Lo importante es que la elección sea coherente con tu forma de trabajar."
+    },
+    {
+     "h2": "Un ejemplo de servicio en la nube orientado a profesionales"
+    },
+    {
+     "p": "HARX Telefonía sigue esta lógica: un número de tu país, llamadas entrantes y salientes, atención o secretaría, buzón de voz y una IA que asiste, con suscripción mensual y minutos prepagados. La puesta en marcha se anuncia en unos minutos. Cuatro ofertas cubren a freelances y nómadas, microempresas, pymes y equipos en remoto, y centros de llamadas."
+    },
+    {
+     "p": "Como con cualquier solución, lee con atención la descripción de la oferta que te corresponde antes de decidir y comprueba que se ajusta de verdad a tu uso."
+    },
+    {
+     "h2": "Conclusión: elegir según tu forma de trabajar"
+    },
+    {
+     "p": "Comparar telefonía en la nube y línea tradicional equivale a preguntarse dónde trabajas, con quién y qué funciones necesitas realmente. Haz una lista de tus necesidades, prueba si es posible y conserva siempre una vía de reserva. La mejor elección es la que hace que tus llamadas sean sencillas de hacer, recibir y seguir. HARX Telefonía es una de las opciones que examinar en esta comparación."
+    }
+   ]
+  },
+  "ar": {
+   "title": "الاتصالات السحابية أم الخط التقليدي: مفاهيم أساسية",
+   "description": "كيف يعمل الخط التقليدي والاتصالات السحابية، وما المعايير التي تقارن بينها بحسب نشاطك وتنقلك وحجم فريقك دون مبالغة في التبسيط.",
+   "blocks": [
+    {
+     "p": "نسمع عن الاتصالات «السحابية» أو «عبر الإنترنت» دون أن نعرف دائمًا ما الذي تغيّره مقارنةً بالخط الكلاسيكي. يعرض هذا المقال مفاهيم عامة لفهم المقاربتين وطرح الأسئلة الصحيحة. وهو لا يغني عن دراسة احتياجاتك المحددة."
+    },
+    {
+     "h2": "ما الذي تشمله كل مقاربة"
+    },
+    {
+     "p": "يقوم الخط التقليدي على وصلة مادية أو اشتراك مرتبط بمكان أو بشريحة اتصال. فالرقم مرتبط بهذه الوصلة وتمر المكالمات عبر البنية التحتية للمشغّل. وطريقة العمل مألوفة وسهلة الفهم."
+    },
+    {
+     "p": "أما الاتصالات السحابية فتعتمد على الإنترنت. إذ تُوجَّه المكالمات عبر خدمات مستضافة عن بُعد يُنفذ إليها من حاسوب أو هاتف أو تطبيق. ولا يعود الرقم مرتبطًا بموقع مادي، بل يمكن استخدامه من عدة أماكن بحسب ما تقدمه الخدمة."
+    },
+    {
+     "ul": [
+      "الخط التقليدي: وصلة مادية أو شريحة، والاستخدام مرتبط بمكان أو جهاز.",
+      "الاتصالات السحابية: خدمة متاحة عبر الإنترنت واستخدام أكثر مرونة بحسب الحل.",
+      "وفي الحالتين تعتمد جودة الصوت على جودة الاتصال أو الشبكة."
+     ]
+    },
+    {
+     "h2": "المعايير التي ينبغي المقارنة بها"
+    },
+    {
+     "p": "لا يوجد جواب واحد للجميع. فالاختيار المناسب يعتمد على طريقة عملك وما تتوقعه من هاتفك."
+    },
+    {
+     "ul": [
+      "التنقل: هل تعمل دائمًا في المكان نفسه أم تتنقل؟",
+      "حجم الفريق: شخص واحد أم عدة أشخاص يجب أن يتشاركوا رقمًا؟",
+      "الوظائف المفيدة: بريد صوتي وسجل مكالمات واستقبال ومكالمات صادرة ومدى توافرها.",
+      "الاعتماد على الإنترنت: اتصال جيد ضروري للاتصالات السحابية.",
+      "الإعداد: معدات تُركَّب أم مجرد حساب يُنشأ؟",
+      "متابعة التكاليف: طريقة الفوترة ووضوح ما يُستهلك."
+     ]
+    },
+    {
+     "p": "وفكّر كذلك في الخطة البديلة. ماذا يحدث إذا انقطع اتصالك؟ جهّز حلًا احتياطيًا، كوسيلة ثانية يمكن بها الوصول إليك."
+    },
+    {
+     "h2": "متى قد يناسب أحدهما أكثر"
+    },
+    {
+     "p": "قد يناسب الخط التقليدي نشاطًا مستقرًا جدًا في مكان ذي تغطية جيدة ودون حاجة إلى مشاركة الرقم. والبساطة هي ميزته الرئيسية، ويقدّر بعض العملاء طريقة عمل يعرفونها منذ زمن طويل."
+    },
+    {
+     "p": "وتجد الاتصالات السحابية مكانها بصورة طبيعية للمستقلين المتنقلين والفرق عن بُعد والجهات التي تريد إضافة وظائف دون تركيب معدات. فهي تسهّل مشاركة رقم بين عدة أشخاص والوصول إلى المكالمات من أجهزة مختلفة."
+    },
+    {
+     "p": "ولا يتفوق أي منهما في كل الظروف. والمهم أن يتسق الاختيار مع طريقة عملك."
+    },
+    {
+     "h2": "مثال على خدمة سحابية موجهة للمهنيين"
+    },
+    {
+     "p": "تسير HARX للاتصالات على هذا المنطق: رقم من بلدك ومكالمات واردة وصادرة واستقبال أو سكرتارية وبريد صوتي وذكاء اصطناعي يساعد، باشتراك شهري ودقائق مدفوعة مسبقًا. ويُعلن أن التشغيل يستغرق بضع دقائق. وتغطي أربعة عروض المستقلين والرحّل والمنشآت الصغيرة جدًا والشركات الصغيرة والمتوسطة والفرق عن بُعد ومراكز الاتصال."
+    },
+    {
+     "p": "وكما في أي حل اقرأ بعناية وصف العرض الذي يناسبك قبل أن تقرر، وتأكد من أنه يلائم استخدامك فعلًا."
+    },
+    {
+     "p": "ومن الأسئلة المفيدة أيضًا: كيف ستتعامل مع تغيّر حاجتك بعد سنة؟ فإذا كنت تتوقع أن يكبر فريقك أو تنتقل إلى بلد آخر فإن المرونة في إضافة الأشخاص وتغيير مكان الاستخدام تصبح معيارًا مهمًا، بينما إذا كان وضعك مستقرًا فقد تكفيك البساطة."
+    },
+    {
+     "p": "وتذكّر أن الأمر ليس اختيارًا نهائيًا لا رجعة فيه. يمكنك أن تبدأ بحل بسيط وتختبره على نطاق صغير ثم تقرر. والتجربة الفعلية لبضعة أسابيع تكشف ما لا تكشفه أي مقارنة نظرية بين الخيارات."
+    },
+    {
+     "h2": "الخلاصة: اختر بحسب طريقة عملك"
+    },
+    {
+     "p": "المقارنة بين الاتصالات السحابية والخط التقليدي تعني أن تسأل أين تعمل ومع من وما الوظائف التي تحتاجها فعلًا. اكتب احتياجاتك وجرّب إن أمكن واحتفظ دائمًا بوسيلة احتياطية. وأفضل خيار هو الذي يجعل مكالماتك سهلة الإجراء والاستقبال والمتابعة. وتُعدّ HARX للاتصالات من الخيارات التي تستحق النظر في هذه المقارنة."
+    }
+   ]
+  }
+ }
+}

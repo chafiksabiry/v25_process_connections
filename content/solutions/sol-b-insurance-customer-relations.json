@@ -1,0 +1,286 @@
+{
+ "type": "solution",
+ "slug": "sol-b-insurance-customer-relations",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Assurance : organiser la relation client par téléphone",
+   "description": "Déclarations, questions sur un contrat, suivi des dossiers : accueil téléphonique en assurance et apport de Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "Le problème : des appels sensibles, souvent à des moments difficiles"
+    },
+    {
+     "p": "En assurance, les clients appellent rarement par plaisir : ils déclarent un sinistre, s'inquiètent d'une garantie ou veulent comprendre un document. Ces échanges sont parfois chargés d'émotion, et l'impression laissée par l'accueil téléphonique pèse sur la confiance envers le cabinet ou l'agence."
+    },
+    {
+     "ul": [
+      "Des appels urgents qui arrivent pendant les rendez-vous ou en dehors des horaires.",
+      "Des demandes d'information sur l'avancement d'un dossier qui reviennent sans cesse.",
+      "Des explications techniques à donner dans un langage simple.",
+      "Des données personnelles à manipuler avec prudence.",
+      "Des équipes parfois réduites, qui doivent aussi prospecter et conseiller."
+     ]
+    },
+    {
+     "h2": "Ce que Company Full Scope In & Out apporte à une activité d'assurance"
+    },
+    {
+     "p": "L'offre Company Full Scope In & Out de HARX Téléphonie couvre les appels entrants et sortants avec un numéro de votre pays, un accueil, un répondeur et une IA d'assistance. Elle vise les PME et les équipes à distance, dont les cabinets et agences qui souhaitent professionnaliser leur relation client."
+    },
+    {
+     "p": "Concrètement, un client qui appelle est accueilli même lorsque le conseiller est en rendez-vous, et sa demande est enregistrée pour être traitée ensuite. L'appel sortant permet de rappeler pour faire le point sur un dossier ou prévenir d'un document manquant. L'abonnement est mensuel, minutes et IA sont prépayées, et la ligne est annoncée opérationnelle en quelques minutes."
+    },
+    {
+     "p": "HARX fournit la téléphonie : les conseils en assurance et le respect de la réglementation applicable restent de la responsabilité du professionnel."
+    },
+    {
+     "h2": "Bonnes pratiques d'accueil téléphonique en assurance"
+    },
+    {
+     "ul": [
+      "Accueillir avec calme et empathie, surtout après un sinistre, avant d'aborder les aspects techniques.",
+      "Recueillir les informations utiles de manière ordonnée : identité, numéro de contrat, nature de la demande.",
+      "Expliquer la suite des démarches et les pièces à fournir sans jargon.",
+      "Ne pas s'avancer sur une prise en charge tant que le dossier n'a pas été examiné par la personne compétente.",
+      "Limiter l'accès aux informations personnelles aux seules personnes qui en ont besoin.",
+      "Rappeler le client dans le délai annoncé, même pour dire que le dossier n'a pas encore évolué.",
+      "Former l'équipe à identifier les appels urgents pour les faire remonter en priorité."
+     ]
+    },
+    {
+     "p": "Une relation téléphonique claire et rassurante est un atout durable pour un assureur ou un courtier. Pour une structure qui veut y parvenir sans lourdeur technique, Company Full Scope In & Out de HARX mérite examen."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "HARX donne-t-il des conseils d'assurance ?",
+       "a": "Non. HARX fournit la téléphonie ; le conseil et la conformité restent du ressort du professionnel de l'assurance."
+      },
+      {
+       "q": "Que se passe-t-il quand le conseiller est en rendez-vous ?",
+       "a": "L'accueil et le répondeur recueillent la demande pour qu'elle soit traitée ensuite."
+      },
+      {
+       "q": "Peut-on rappeler les clients pour le suivi d'un dossier ?",
+       "a": "Oui, l'offre couvre les appels sortants avec un numéro de votre pays."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Insurance: organising customer relations by phone",
+   "description": "Claims, questions about a policy, case follow-up: good phone reception practice in insurance and what HARX's Company Full Scope In & Out offer brings.",
+   "blocks": [
+    {
+     "h2": "The problem: sensitive calls, often at difficult moments"
+    },
+    {
+     "p": "In insurance, customers rarely call for pleasure: they report a loss, worry about cover or want to understand a document. These exchanges can be emotionally charged, and the impression left by the phone welcome weighs on trust in the firm or agency."
+    },
+    {
+     "ul": [
+      "Urgent calls arriving during appointments or outside opening hours.",
+      "Requests for news on a case that come back again and again.",
+      "Technical explanations to give in plain language.",
+      "Personal data to handle with care.",
+      "Sometimes small teams who must also prospect and advise."
+     ]
+    },
+    {
+     "h2": "What Company Full Scope In & Out brings to an insurance business"
+    },
+    {
+     "p": "HARX Telephony's Company Full Scope In & Out offer covers inbound and outbound calls with a number from your country, reception, voicemail and an assisting AI. It targets SMEs and remote teams, including firms and agencies that want to professionalise customer relations."
+    },
+    {
+     "p": "In practice, a customer who calls is welcomed even when the adviser is in a meeting, and the request is recorded to be dealt with afterwards. Outbound calling makes it possible to phone back to update a client on a case or flag a missing document. The subscription is monthly, minutes and AI are prepaid, and the line is described as operational within minutes."
+    },
+    {
+     "p": "HARX provides the telephony: insurance advice and compliance with applicable regulation remain the professional's responsibility."
+    },
+    {
+     "h2": "Good practices for phone reception in insurance"
+    },
+    {
+     "ul": [
+      "Greet calmly and with empathy, especially after a loss, before getting into technical matters.",
+      "Collect useful information in an orderly way: identity, policy number, nature of the request.",
+      "Explain next steps and the documents to provide without jargon.",
+      "Do not commit on cover until the file has been reviewed by the competent person.",
+      "Limit access to personal information to those who need it.",
+      "Call the customer back within the stated time, even to say the case has not yet moved.",
+      "Train the team to recognise urgent calls and escalate them first."
+     ]
+    },
+    {
+     "p": "A clear and reassuring phone relationship is a lasting asset for an insurer or broker. For an organisation that wants to achieve this without technical heaviness, HARX's Company Full Scope In & Out deserves a look. It is also worth reviewing, from time to time, which questions come up most often so that written guidance can answer them before customers need to call."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Does HARX give insurance advice?",
+       "a": "No. HARX provides the telephony; advice and compliance remain the insurance professional's responsibility."
+      },
+      {
+       "q": "What happens when the adviser is in a meeting?",
+       "a": "Reception and voicemail collect the request so it can be handled afterwards."
+      },
+      {
+       "q": "Can we call customers back to follow up a case?",
+       "a": "Yes, the offer covers outbound calls with a number from your country."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Seguros: organizar la relación con el cliente por teléfono",
+   "description": "Siniestros, dudas sobre una póliza, seguimiento de expedientes: atención telefónica en seguros y aporte de Company Full Scope In & Out de HARX.",
+   "blocks": [
+    {
+     "h2": "El problema: llamadas delicadas, a menudo en momentos difíciles"
+    },
+    {
+     "p": "En seguros, los clientes rara vez llaman por gusto: declaran un siniestro, se preocupan por una cobertura o quieren entender un documento. Estas conversaciones pueden estar cargadas de emoción y la impresión que deja la atención telefónica influye en la confianza hacia el despacho o la agencia."
+    },
+    {
+     "ul": [
+      "Llamadas urgentes que llegan durante las citas o fuera del horario.",
+      "Peticiones de información sobre el avance de un expediente que se repiten sin cesar.",
+      "Explicaciones técnicas que hay que dar en lenguaje sencillo.",
+      "Datos personales que se deben manejar con cuidado.",
+      "Equipos a veces reducidos que además deben prospectar y asesorar."
+     ]
+    },
+    {
+     "h2": "Qué aporta Company Full Scope In & Out a una actividad aseguradora"
+    },
+    {
+     "p": "La oferta Company Full Scope In & Out de HARX Telefonía cubre llamadas entrantes y salientes con un número de su país, recepción, contestador y una IA de apoyo. Se dirige a pymes y equipos remotos, incluidos despachos y agencias que desean profesionalizar su relación con los clientes."
+    },
+    {
+     "p": "En la práctica, el cliente que llama es atendido incluso cuando el asesor está en una reunión, y su petición queda registrada para tramitarla después. La llamada saliente permite devolver la llamada para informar sobre un expediente o avisar de un documento que falta. La suscripción es mensual, los minutos y la IA son prepagados y la línea se describe como operativa en pocos minutos."
+    },
+    {
+     "p": "HARX aporta la telefonía: el asesoramiento en seguros y el cumplimiento de la normativa aplicable siguen siendo responsabilidad del profesional."
+    },
+    {
+     "h2": "Buenas prácticas de atención telefónica en seguros"
+    },
+    {
+     "ul": [
+      "Recibir con calma y empatía, sobre todo tras un siniestro, antes de abordar lo técnico.",
+      "Recoger los datos útiles con orden: identidad, número de póliza, naturaleza de la petición.",
+      "Explicar los siguientes pasos y los documentos que hay que aportar sin jerga.",
+      "No comprometerse sobre una cobertura mientras el expediente no lo haya examinado la persona competente.",
+      "Limitar el acceso a la información personal a quienes la necesitan.",
+      "Devolver la llamada en el plazo anunciado, incluso para decir que el expediente aún no ha avanzado.",
+      "Formar al equipo para reconocer las llamadas urgentes y priorizarlas."
+     ]
+    },
+    {
+     "p": "Una relación telefónica clara y tranquilizadora es un activo duradero para una aseguradora o una correduría. Para una organización que quiere lograrlo sin complejidad técnica, Company Full Scope In & Out de HARX merece un vistazo. Conviene además revisar de vez en cuando qué dudas se repiten más, para que una guía escrita las resuelva antes de que el cliente tenga que llamar."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿HARX da asesoramiento en seguros?",
+       "a": "No. HARX aporta la telefonía; el asesoramiento y el cumplimiento siguen siendo responsabilidad del profesional de seguros."
+      },
+      {
+       "q": "¿Qué ocurre cuando el asesor está en una reunión?",
+       "a": "La recepción y el contestador recogen la petición para tramitarla después."
+      },
+      {
+       "q": "¿Se puede devolver la llamada a los clientes para seguir un expediente?",
+       "a": "Sí, la oferta cubre las llamadas salientes con un número de su país."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "التأمين: تنظيم علاقة العملاء عبر الهاتف",
+   "description": "التبليغ عن الحوادث والاستفسار عن العقود ومتابعة الملفات: ممارسات جيدة للاستقبال الهاتفي في التأمين وما يقدّمه عرض Company Full Scope In & Out من HARX.",
+   "blocks": [
+    {
+     "h2": "المشكلة: مكالمات حساسة تأتي غالبًا في لحظات صعبة"
+    },
+    {
+     "p": "نادرًا ما يتصل العملاء بشركات التأمين من باب الاستمتاع، فهم يبلّغون عن حادث أو يقلقون بشأن تغطية أو يريدون فهم وثيقة. وقد تكون هذه المحادثات مشحونة بالانفعال، ويؤثر الانطباع الذي يتركه الاستقبال الهاتفي في الثقة بالمكتب أو الوكالة."
+    },
+    {
+     "ul": [
+      "مكالمات عاجلة تصل أثناء المواعيد أو خارج أوقات الدوام.",
+      "طلبات استفسار عن تقدم الملف تتكرر باستمرار.",
+      "شروح تقنية ينبغي تقديمها بلغة بسيطة.",
+      "بيانات شخصية يجب التعامل معها بحذر.",
+      "فرق صغيرة أحيانًا يتعين عليها أن تبحث عن عملاء وتقدّم المشورة أيضًا."
+     ]
+    },
+    {
+     "h2": "ما يقدّمه Company Full Scope In & Out لنشاط التأمين"
+    },
+    {
+     "p": "يغطي عرض Company Full Scope In & Out من HARX للاتصالات الهاتفية المكالمات الواردة والصادرة برقم من بلدكم، مع استقبال ومجيب آلي وذكاء اصطناعي مساعد. وهو موجّه إلى الشركات الصغيرة والمتوسطة والفرق عن بُعد، ومنها المكاتب والوكالات التي ترغب في إضفاء الطابع الاحترافي على علاقتها بعملائها."
+    },
+    {
+     "p": "وعمليًا يُستقبَل العميل الذي يتصل حتى لو كان المستشار في اجتماع، ويُسجَّل طلبه لمعالجته لاحقًا. وتتيح المكالمة الصادرة معاودة الاتصال لإطلاع العميل على وضع ملفه أو التنبيه إلى وثيقة ناقصة. والاشتراك شهري والدقائق والذكاء الاصطناعي مدفوعة مسبقًا، ويُذكر أن الخط جاهز خلال دقائق."
+    },
+    {
+     "p": "توفّر HARX الاتصالات الهاتفية فقط، أما المشورة في مجال التأمين والالتزام باللوائح المطبقة فيظلان من مسؤولية المهني."
+    },
+    {
+     "h2": "ممارسات جيدة للاستقبال الهاتفي في التأمين"
+    },
+    {
+     "ul": [
+      "الاستقبال بهدوء وتعاطف، خاصة بعد وقوع حادث، قبل الخوض في الجوانب التقنية.",
+      "جمع المعلومات المفيدة بترتيب: الهوية ورقم العقد وطبيعة الطلب.",
+      "شرح الخطوات التالية والوثائق المطلوبة دون مصطلحات معقدة.",
+      "عدم الالتزام بأي تغطية قبل أن يفحص الملف الشخص المختص.",
+      "حصر الاطلاع على المعلومات الشخصية فيمن يحتاج إليها فقط.",
+      "معاودة الاتصال بالعميل في المدة المعلنة، حتى لو كان المقصود إخباره بأن الملف لم يتقدم بعد.",
+      "تدريب الفريق على تمييز المكالمات العاجلة وإحالتها أولًا."
+     ]
+    },
+    {
+     "p": "العلاقة الهاتفية الواضحة والمطمئنة رصيد دائم لشركة التأمين أو الوسيط. وللجهة التي تريد بلوغ ذلك دون تعقيد تقني، يستحق عرض Company Full Scope In & Out من HARX النظر. ومن المفيد أيضًا أن تراجعوا من حين إلى آخر الأسئلة الأكثر تكرارًا، حتى يجيب عنها دليل مكتوب قبل أن يضطر العميل إلى الاتصال."
+    },
+    {
+     "p": "ومن المفيد كذلك أن يتفق الفريق على صيغة موحّدة لتدوين كل مكالمة: سبب الاتصال، والمعلومات التي جُمعت، والإجراء المتفق عليه، وتاريخ المتابعة. فحين يتصل العميل مرة ثانية يستطيع أي زميل أن يفهم الوضع بسرعة دون أن يضطر العميل إلى إعادة سرد قصته من البداية، وهو ما يخفف كثيرًا من انزعاجه خصوصًا بعد حادث أو موقف مزعج. كما يتيح هذا التدوين رصد المواضيع المتكررة وتحسين المعلومات المقدَّمة للعملاء."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل تقدّم HARX مشورة في التأمين؟",
+       "a": "لا، فهي توفّر الاتصالات الهاتفية، أما المشورة والامتثال فمن مسؤولية مهني التأمين."
+      },
+      {
+       "q": "ماذا يحدث حين يكون المستشار في اجتماع؟",
+       "a": "يسجّل الاستقبال والمجيب الآلي الطلب لمعالجته لاحقًا."
+      },
+      {
+       "q": "هل يمكن معاودة الاتصال بالعملاء لمتابعة ملف؟",
+       "a": "نعم، فالعرض يغطي المكالمات الصادرة برقم من بلدكم."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

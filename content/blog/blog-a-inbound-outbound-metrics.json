@@ -1,0 +1,321 @@
+{
+ "type": "blog",
+ "slug": "blog-a-inbound-outbound-metrics",
+ "date": "2026-10-18",
+ "langs": {
+  "fr": {
+   "title": "Appels entrants vs sortants : quels indicateurs suivre ?",
+   "description": "Taux de décroché, délai de rappel, nombre de contacts utiles : les indicateurs simples à suivre pour piloter vos appels entrants et sortants sans vous noyer.",
+   "blocks": [
+    {
+     "p": "Suivre ses appels, c'est d'abord décider de ce que l'on veut améliorer. Les appels entrants et sortants n'obéissent pas à la même logique : les premiers mesurent votre capacité à répondre, les seconds votre capacité à joindre et à convaincre. Voici des indicateurs simples pour chacun, sans tableau de bord compliqué."
+    },
+    {
+     "h2": "Les indicateurs des appels entrants"
+    },
+    {
+     "p": "Pour les appels reçus, la question centrale est : est-ce que les gens obtiennent une réponse, et à quelle vitesse ?"
+    },
+    {
+     "ul": [
+      "Le volume d'appels reçus, par jour et par créneau, pour repérer les heures chargées.",
+      "La part d'appels décrochés et celle d'appels manqués.",
+      "Le délai avant qu'un appel manqué soit rappelé.",
+      "Les motifs d'appel les plus fréquents, utiles pour améliorer votre site ou vos réponses types.",
+      "Le temps passé au téléphone par appel, à lire avec prudence."
+     ]
+    },
+    {
+     "p": "Le volume seul ne dit rien : l'important est de le comparer à votre capacité à répondre. Si les pics d'appels tombent toujours sur les mêmes créneaux, vous savez où renforcer l'accueil."
+    },
+    {
+     "h2": "Les indicateurs des appels sortants"
+    },
+    {
+     "p": "Pour les appels passés, l'enjeu est d'évaluer l'efficacité du temps investi. Un nombre élevé d'appels ne prouve rien s'il ne produit pas de conversations utiles."
+    },
+    {
+     "ul": [
+      "Le nombre d'appels passés par période.",
+      "La part de personnes réellement jointes.",
+      "Le nombre de conversations qui débouchent sur une suite concrète : rendez-vous, devis, relance programmée.",
+      "Les meilleurs créneaux pour joindre vos interlocuteurs.",
+      "Le respect des relances prévues."
+     ]
+    },
+    {
+     "p": "Ces mesures aident à ajuster vos horaires de prospection ou de relance. Si vous joignez surtout vos contacts en début de matinée, concentrez-y vos appels importants."
+    },
+    {
+     "h2": "Éviter les pièges de la mesure"
+    },
+    {
+     "p": "Un indicateur est un outil, pas un objectif en soi. Pousser quelqu'un à raccourcir ses appels au nom d'un chiffre peut dégrader la qualité de l'échange. Mieux vaut associer chaque indicateur de volume à un indicateur de résultat."
+    },
+    {
+     "ul": [
+      "Choisissez peu d'indicateurs, cinq à six au plus.",
+      "Comparez toujours à vos propres périodes passées, pas à des moyennes d'autres secteurs.",
+      "Relisez les chiffres avec les appels eux-mêmes : un indicateur sans contexte peut tromper.",
+      "Définissez les termes une fois pour toutes : qu'appelle-t-on un appel manqué, un contact utile ?"
+     ]
+    },
+    {
+     "p": "Cherchez des tendances plutôt que des chiffres isolés. Une baisse régulière du nombre de contacts utiles mérite une analyse, un jour creux non."
+    },
+    {
+     "h2": "Un outil qui réunit les données"
+    },
+    {
+     "p": "Tout ceci suppose que les appels soient enregistrés quelque part de façon cohérente. Quand les appels passent par plusieurs téléphones personnels, rien n'est comparable. HARX Téléphonie centralise les appels entrants et sortants sur un numéro de votre pays, avec un journal d'appels dans l'offre Nomad Solo et des usages orientés ventes, relation client ou recouvrement dans l'offre Company Full Scope In & Out."
+    },
+    {
+     "p": "L'objectif reste le même : disposer d'un historique fiable, pour décider à partir de faits et non d'impressions."
+    },
+    {
+     "h2": "Conclusion : mesurer pour décider, pas pour contrôler"
+    },
+    {
+     "p": "Pour les appels entrants, regardez la capacité à répondre et à rappeler. Pour les appels sortants, regardez les contacts utiles et les suites obtenues. Gardez une poignée d'indicateurs, relisez-les à intervalle régulier et rapprochez-les des appels réels. C'est ainsi que les chiffres deviennent un support de décision et non une source de stress. Avec HARX Téléphonie, cet historique s'obtient sans matériel supplémentaire."
+    }
+   ]
+  },
+  "en": {
+   "title": "Inbound vs Outbound Calls: Which Metrics Should You Track?",
+   "description": "Answer rate, callback time, number of useful contacts: simple indicators to steer your inbound and outbound calls without drowning in data or dashboards.",
+   "blocks": [
+    {
+     "p": "Tracking your calls starts with deciding what you want to improve. Inbound and outbound calls follow different logic: the first measure your ability to respond, the second your ability to reach people and persuade them. Here are simple indicators for each, without a complicated dashboard."
+    },
+    {
+     "h2": "Inbound call indicators"
+    },
+    {
+     "p": "For received calls, the central question is: do people get an answer, and how quickly?"
+    },
+    {
+     "ul": [
+      "The volume of calls received, by day and time slot, to spot busy hours.",
+      "The share of calls answered and the share missed.",
+      "The time before a missed call is returned.",
+      "The most frequent reasons for calling, useful for improving your website or standard replies.",
+      "The time spent on the phone per call, to be read with caution."
+     ]
+    },
+    {
+     "p": "Volume alone says nothing: what matters is comparing it with your capacity to answer. If peaks always fall in the same slots, you know where to reinforce reception."
+    },
+    {
+     "h2": "Outbound call indicators"
+    },
+    {
+     "p": "For calls you make, the challenge is judging how effective the time invested is. A high number of calls proves nothing if it does not produce useful conversations."
+    },
+    {
+     "ul": [
+      "The number of calls made per period.",
+      "The share of people actually reached.",
+      "The number of conversations leading to a concrete next step: appointment, quote, scheduled follow-up.",
+      "The best time slots for reaching your contacts.",
+      "Whether planned follow-ups are kept."
+     ]
+    },
+    {
+     "p": "These measures help adjust your prospecting or follow-up hours. If you mostly reach contacts early in the morning, concentrate your important calls there."
+    },
+    {
+     "h2": "Avoiding the traps of measurement"
+    },
+    {
+     "p": "An indicator is a tool, not a goal in itself. Pushing someone to shorten calls in the name of a figure can damage the quality of the exchange. It is better to pair each volume indicator with an outcome indicator."
+    },
+    {
+     "ul": [
+      "Choose few indicators, five or six at most.",
+      "Always compare with your own past periods, not with averages from other sectors.",
+      "Reread the figures alongside the calls themselves: an indicator without context can mislead.",
+      "Define terms once and for all: what counts as a missed call, or a useful contact?"
+     ]
+    },
+    {
+     "p": "Look for trends rather than isolated figures. A steady drop in useful contacts deserves analysis; a single quiet day does not."
+    },
+    {
+     "h2": "A tool that brings the data together"
+    },
+    {
+     "p": "All of this assumes calls are recorded somewhere consistently. When calls run through several personal phones, nothing is comparable. HARX Telephony centralises inbound and outbound calls on a number from your country, with a call log in the Nomad Solo offer and uses oriented towards sales, customer relations or collections in the Company Full Scope In & Out offer."
+    },
+    {
+     "p": "The aim stays the same: a reliable history, so you decide from facts rather than impressions."
+    },
+    {
+     "h2": "Conclusion: measure to decide, not to police"
+    },
+    {
+     "p": "For inbound calls, look at the ability to answer and call back. For outbound calls, look at useful contacts and the next steps obtained. Keep a handful of indicators, review them at regular intervals and relate them to real calls. That is how figures become decision support rather than a source of stress. With HARX Telephony, that history comes without extra hardware."
+    }
+   ]
+  },
+  "es": {
+   "title": "Llamadas entrantes y salientes: qué indicadores seguir",
+   "description": "Tasa de respuesta, plazo de devolución, contactos útiles: indicadores sencillos para gestionar tus llamadas entrantes y salientes sin perderte entre datos.",
+   "blocks": [
+    {
+     "p": "Seguir las llamadas empieza por decidir qué se quiere mejorar. Las llamadas entrantes y salientes no responden a la misma lógica: las primeras miden tu capacidad de responder, las segundas tu capacidad de contactar y convencer. Estos son indicadores sencillos para cada una, sin paneles complicados."
+    },
+    {
+     "h2": "Los indicadores de las llamadas entrantes"
+    },
+    {
+     "p": "En las llamadas recibidas, la pregunta central es: ¿la gente obtiene respuesta y con qué rapidez?"
+    },
+    {
+     "ul": [
+      "El volumen de llamadas recibidas, por día y franja horaria, para detectar las horas de mayor carga.",
+      "La proporción de llamadas atendidas y la de perdidas.",
+      "El plazo hasta que se devuelve una llamada perdida.",
+      "Los motivos de llamada más frecuentes, útiles para mejorar tu web o tus respuestas tipo.",
+      "El tiempo al teléfono por llamada, que debe interpretarse con prudencia."
+     ]
+    },
+    {
+     "p": "El volumen por sí solo no dice nada: lo importante es compararlo con tu capacidad de respuesta. Si los picos caen siempre en las mismas franjas, sabes dónde reforzar la atención."
+    },
+    {
+     "h2": "Los indicadores de las llamadas salientes"
+    },
+    {
+     "p": "En las llamadas que haces, el reto es evaluar la eficacia del tiempo invertido. Un número elevado de llamadas no prueba nada si no produce conversaciones útiles."
+    },
+    {
+     "ul": [
+      "El número de llamadas realizadas por periodo.",
+      "La proporción de personas realmente localizadas.",
+      "El número de conversaciones que desembocan en un paso concreto: cita, presupuesto, seguimiento programado.",
+      "Las mejores franjas para localizar a tus interlocutores.",
+      "El cumplimiento de los seguimientos previstos."
+     ]
+    },
+    {
+     "p": "Estas mediciones ayudan a ajustar tus horarios de prospección o seguimiento. Si localizas sobre todo a tus contactos a primera hora de la mañana, concentra ahí tus llamadas importantes."
+    },
+    {
+     "h2": "Evitar las trampas de la medición"
+    },
+    {
+     "p": "Un indicador es una herramienta, no un objetivo en sí. Presionar a alguien para acortar sus llamadas en nombre de una cifra puede deteriorar la calidad del intercambio. Es mejor acompañar cada indicador de volumen con uno de resultado."
+    },
+    {
+     "ul": [
+      "Elige pocos indicadores, cinco o seis como máximo.",
+      "Compara siempre con tus propios periodos anteriores, no con medias de otros sectores.",
+      "Relee las cifras junto con las propias llamadas: un indicador sin contexto puede engañar.",
+      "Define los términos de una vez: ¿qué es una llamada perdida o un contacto útil?"
+     ]
+    },
+    {
+     "p": "Busca tendencias en lugar de cifras aisladas. Un descenso constante de contactos útiles merece análisis; un día flojo, no."
+    },
+    {
+     "h2": "Una herramienta que reúne los datos"
+    },
+    {
+     "p": "Todo esto supone que las llamadas se registren en algún sitio de forma coherente. Cuando pasan por varios teléfonos personales, nada es comparable. HARX Telefonía centraliza las llamadas entrantes y salientes en un número de tu país, con registro de llamadas en la oferta Nomad Solo y usos orientados a ventas, relación con el cliente o cobro en la oferta Company Full Scope In & Out."
+    },
+    {
+     "p": "El objetivo sigue siendo el mismo: disponer de un historial fiable para decidir a partir de hechos y no de impresiones."
+    },
+    {
+     "h2": "Conclusión: medir para decidir, no para controlar"
+    },
+    {
+     "p": "En las llamadas entrantes, mira la capacidad de responder y devolver la llamada. En las salientes, mira los contactos útiles y los pasos conseguidos. Conserva un puñado de indicadores, revísalos a intervalos regulares y relaciónalos con las llamadas reales. Así las cifras se convierten en apoyo para decidir y no en fuente de estrés. Con HARX Telefonía, ese historial se obtiene sin equipos adicionales."
+    }
+   ]
+  },
+  "ar": {
+   "title": "المكالمات الواردة والصادرة: أي المؤشرات ينبغي متابعتها؟",
+   "description": "معدل الرد ومهلة معاودة الاتصال وعدد الاتصالات المفيدة: مؤشرات بسيطة لإدارة مكالماتك الواردة والصادرة دون أن تغرق في الأرقام.",
+   "blocks": [
+    {
+     "p": "تبدأ متابعة المكالمات بتحديد ما تريد تحسينه. فالمكالمات الواردة والصادرة لا تخضع للمنطق نفسه: الأولى تقيس قدرتك على الرد، والثانية تقيس قدرتك على الوصول إلى الناس وإقناعهم. وإليك مؤشرات بسيطة لكل منهما دون لوحة قيادة معقدة."
+    },
+    {
+     "h2": "مؤشرات المكالمات الواردة"
+    },
+    {
+     "p": "في المكالمات المستقبَلة السؤال الجوهري هو: هل يحصل الناس على جواب، وبأي سرعة؟"
+    },
+    {
+     "ul": [
+      "حجم المكالمات المستقبَلة بحسب اليوم والفترة الزمنية لرصد ساعات الذروة.",
+      "نسبة المكالمات التي أُجيب عنها ونسبة الفائتة.",
+      "المدة التي تمر قبل معاودة الاتصال بمكالمة فائتة.",
+      "أكثر أسباب الاتصال تكرارًا، وهي مفيدة لتحسين موقعك وردودك الجاهزة.",
+      "الوقت الذي يقضى على الهاتف في كل مكالمة، مع قراءته بحذر."
+     ]
+    },
+    {
+     "p": "الحجم وحده لا يقول شيئًا، فالمهم أن تقارنه بقدرتك على الرد. وإذا كانت الذروة تقع دائمًا في الفترات نفسها فأنت تعرف أين تعزّز الاستقبال."
+    },
+    {
+     "h2": "مؤشرات المكالمات الصادرة"
+    },
+    {
+     "p": "في المكالمات التي تجريها يكمن التحدي في تقييم فعالية الوقت المستثمر. فكثرة المكالمات لا تثبت شيئًا إن لم تُنتج محادثات مفيدة."
+    },
+    {
+     "ul": [
+      "عدد المكالمات المنجزة في كل فترة.",
+      "نسبة الأشخاص الذين تم الوصول إليهم فعلًا.",
+      "عدد المحادثات التي أفضت إلى خطوة ملموسة: موعد أو عرض سعر أو متابعة مجدولة.",
+      "أفضل الفترات للوصول إلى محدثيك.",
+      "الالتزام بالمتابعات المخطط لها."
+     ]
+    },
+    {
+     "p": "تساعد هذه القياسات على ضبط ساعات الاستكشاف التجاري أو المتابعة. فإذا كنت تصل إلى جهات اتصالك غالبًا في أول الصباح فركّز مكالماتك المهمة في ذلك الوقت."
+    },
+    {
+     "h2": "تجنّب أفخاخ القياس"
+    },
+    {
+     "p": "المؤشر أداة وليس هدفًا في ذاته. فدفع شخص إلى اختصار مكالماته باسم رقم ما قد يضر بجودة الحوار. والأفضل أن تقرن كل مؤشر حجم بمؤشر نتيجة."
+    },
+    {
+     "ul": [
+      "اختر مؤشرات قليلة، خمسة أو ستة على الأكثر.",
+      "قارن دائمًا بفتراتك السابقة أنت، لا بمتوسطات قطاعات أخرى.",
+      "أعد قراءة الأرقام مع المكالمات نفسها، فالمؤشر بلا سياق قد يضلل.",
+      "عرّف المصطلحات مرة واحدة: ما المقصود بالمكالمة الفائتة وبالاتصال المفيد؟"
+     ]
+    },
+    {
+     "p": "ابحث عن الاتجاهات لا عن الأرقام المعزولة. فتراجع مستمر في الاتصالات المفيدة يستحق التحليل، أما يوم هادئ واحد فلا."
+    },
+    {
+     "h2": "أداة تجمع البيانات في مكان واحد"
+    },
+    {
+     "p": "كل هذا يفترض أن تُسجَّل المكالمات في مكان ما بشكل متسق. وحين تمر عبر عدة هواتف شخصية لا يمكن مقارنة شيء. وتجمع HARX للاتصالات المكالمات الواردة والصادرة على رقم من بلدك، مع سجل مكالمات في عرض Nomad Solo واستخدامات موجهة للمبيعات وعلاقة العملاء والتحصيل في عرض Company Full Scope In & Out."
+    },
+    {
+     "p": "والهدف يبقى نفسه: تاريخ موثوق تتخذ منه قراراتك بناءً على الوقائع لا على الانطباعات، ويمكنك الرجوع إليه كلما احتجت إلى مقارنة فترة بأخرى."
+    },
+    {
+     "p": "ومن المفيد أن تحدد لكل مؤشر عتبة تنبيه بسيطة تقررها بنفسك بناءً على تجربتك، كأن تلاحظ أن المكالمات الفائتة تتجاوز مستوى معينًا في أسبوع ما. والمقصود ليس جعل الرقم قانونًا، بل أن يدفعك إلى النظر في السبب."
+    },
+    {
+     "p": "ولا تنسَ أن تشارك الفريق نتائج المؤشرات بلغة بسيطة وبأمثلة من مكالمات حقيقية. فالأرقام التي يفهمها الجميع تولّد نقاشًا مفيدًا، أما الأرقام التي يحتفظ بها شخص واحد فتبقى بعيدة عن الواقع اليومي."
+    },
+    {
+     "h2": "الخلاصة: قِس لتقرر لا لتراقب"
+    },
+    {
+     "p": "في المكالمات الواردة انظر إلى القدرة على الرد ومعاودة الاتصال. وفي الصادرة انظر إلى الاتصالات المفيدة والخطوات المتحققة. احتفظ بحفنة من المؤشرات وراجعها في فترات منتظمة واربطها بالمكالمات الفعلية. وبهذا تصير الأرقام سندًا للقرار لا مصدرًا للتوتر. ومع HARX للاتصالات يتوفر هذا السجل دون أجهزة إضافية."
+    }
+   ]
+  }
+ }
+}

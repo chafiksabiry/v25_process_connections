@@ -1,0 +1,292 @@
+{
+ "type": "solution",
+ "slug": "sol-b-debt-collection",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Recouvrement de créances par téléphone : bien s'organiser",
+   "description": "Relances d'impayés par téléphone : bonnes pratiques d'organisation et soutien de l'offre Company Full Scope In & Out de HARX à une équipe de recouvrement.",
+   "blocks": [
+    {
+     "h2": "Le problème : relancer sans abîmer la relation"
+    },
+    {
+     "p": "Les factures impayées pèsent sur la trésorerie, et le téléphone reste l'un des moyens les plus directs de dénouer une situation. Mais relancer demande de la méthode : un appel mal préparé, passé trop tard ou sur un ton inadapté peut fermer le dialogue au lieu de l'ouvrir."
+    },
+    {
+     "ul": [
+      "Les relances se font de manière irrégulière, selon la disponibilité de chacun.",
+      "Personne ne sait quel interlocuteur a déjà été contacté, ni ce qui a été convenu.",
+      "Les promesses de paiement ne sont pas notées ni vérifiées à la date prévue.",
+      "Les débiteurs joignables seulement à certaines heures échappent aux relances.",
+      "Le ton varie d'un collaborateur à l'autre, ce qui nuit à l'image de l'entreprise."
+     ]
+    },
+    {
+     "h2": "Comment l'offre Company Full Scope In & Out soutient une équipe de recouvrement"
+    },
+    {
+     "p": "Le recouvrement fait partie des usages ciblés par l'offre Company Full Scope In & Out de HARX Téléphonie, aux côtés des ventes, de la relation client et du recrutement. Elle permet de passer des appels sortants depuis un numéro de votre pays, plus lisible et plus rassurant pour la personne appelée qu'un numéro inconnu."
+    },
+    {
+     "p": "Les appels entrants sont également pris en charge : le débiteur qui rappelle tombe sur un accueil ou un répondeur identifié, et non sur une ligne muette. L'IA d'assistance peut aider à structurer les échanges. Pour les équipes à distance, tous les collaborateurs s'appuient sur la même ligne, avec un abonnement mensuel et des minutes prépayées."
+    },
+    {
+     "p": "Précision importante : HARX fournit l'outil de téléphonie. Le cadre juridique applicable au recouvrement, qui varie selon les pays, reste de la responsabilité de l'entreprise, qui doit se renseigner auprès d'un conseil compétent."
+    },
+    {
+     "h2": "Bonnes pratiques de relance téléphonique"
+    },
+    {
+     "ul": [
+      "Vérifier avant l'appel que la facture est exacte, émise et réellement échue.",
+      "Commencer par comprendre la situation : oubli, litige sur la prestation, difficulté de trésorerie.",
+      "Rester factuel et courtois, sans menace ni pression excessive.",
+      "Proposer une solution concrète, comme une date de paiement ou un échéancier validé en interne.",
+      "Confirmer par écrit ce qui a été dit pendant l'appel.",
+      "Planifier la relance suivante dès la fin de l'appel et la tenir.",
+      "Respecter les horaires et fréquences d'appel autorisés par la réglementation locale."
+     ]
+    },
+    {
+     "p": "Une démarche régulière et respectueuse préserve le client tout en protégeant la trésorerie. Pour structurer ce travail sur une ligne claire, l'offre Company Full Scope In & Out de HARX constitue une base adaptée."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "HARX gère-t-il le cadre légal du recouvrement ?",
+       "a": "Non. HARX fournit la téléphonie ; le respect de la réglementation applicable reste de la responsabilité de l'entreprise."
+      },
+      {
+       "q": "Peut-on appeler les débiteurs depuis un numéro local ?",
+       "a": "Oui, l'offre fournit un numéro de votre pays pour les appels entrants et sortants."
+      },
+      {
+       "q": "L'offre convient-elle à une équipe de recouvrement à distance ?",
+       "a": "Oui, elle cible notamment les équipes à distance et le recouvrement."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Phone-based debt collection: how to organise it well",
+   "description": "Chasing unpaid invoices by phone: organisational best practices and how HARX's Company Full Scope In & Out offer supports a collections team.",
+   "blocks": [
+    {
+     "h2": "The problem: chasing payment without damaging the relationship"
+    },
+    {
+     "p": "Unpaid invoices weigh on cash flow, and the phone remains one of the most direct ways to resolve a situation. But chasing takes method: a poorly prepared call, made too late or in the wrong tone, can close the conversation instead of opening it."
+    },
+    {
+     "ul": [
+      "Reminders happen irregularly, depending on who has time.",
+      "Nobody knows which contact has already been called or what was agreed.",
+      "Payment promises are not recorded or checked on the due date.",
+      "Debtors reachable only at certain hours slip through.",
+      "Tone varies from one employee to another, which harms the company's image."
+     ]
+    },
+    {
+     "h2": "How Company Full Scope In & Out supports a collections team"
+    },
+    {
+     "p": "Collections is one of the uses targeted by the Company Full Scope In & Out offer in HARX Telephony, alongside sales, customer service and recruitment. It lets you place outbound calls from a number in your country, which is more recognisable and reassuring to the person called than an unknown number."
+    },
+    {
+     "p": "Inbound calls are handled too: a debtor who calls back reaches an identified reception or voicemail rather than a dead line. The assisting AI can help structure conversations. For remote teams, every colleague relies on the same line, with a monthly subscription and prepaid minutes."
+    },
+    {
+     "p": "An important point: HARX provides the telephony tool. The legal framework that applies to debt collection varies from country to country and remains the company's responsibility; it should seek advice from a qualified professional."
+    },
+    {
+     "h2": "Good practices for phone reminders"
+    },
+    {
+     "ul": [
+      "Check before calling that the invoice is correct, issued and genuinely overdue.",
+      "Start by understanding the situation: an oversight, a dispute about the service, or cash difficulty.",
+      "Stay factual and courteous, with no threats or excessive pressure.",
+      "Offer a concrete solution, such as a payment date or an instalment plan approved internally.",
+      "Confirm in writing what was said during the call.",
+      "Schedule the next reminder as soon as the call ends, and keep to it.",
+      "Respect the calling hours and frequencies permitted by local regulation."
+     ]
+    },
+    {
+     "p": "A regular and respectful approach protects the customer relationship as well as cash flow. To organise this work on a clear line, HARX's Company Full Scope In & Out offer is a suitable foundation."
+    },
+    {
+     "p": "It also helps to define in advance which cases are handled by phone and which by letter, and at what stage a file is passed to a more senior person. Clear internal rules make the work calmer and fairer for everyone."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Does HARX handle the legal framework for debt collection?",
+       "a": "No. HARX provides the telephony; compliance with applicable regulation remains the company's responsibility."
+      },
+      {
+       "q": "Can we call debtors from a local number?",
+       "a": "Yes, the offer provides a number from your country for inbound and outbound calls."
+      },
+      {
+       "q": "Does the offer suit a remote collections team?",
+       "a": "Yes, it targets remote teams and collections in particular."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Cobro de deudas por teléfono: cómo organizarlo bien",
+   "description": "Reclamar impagos por teléfono: buenas prácticas de organización y cómo la oferta Company Full Scope In & Out de HARX apoya a un equipo de recobro.",
+   "blocks": [
+    {
+     "h2": "El problema: reclamar el pago sin dañar la relación"
+    },
+    {
+     "p": "Las facturas impagadas pesan sobre la tesorería, y el teléfono sigue siendo una de las vías más directas para desbloquear una situación. Pero reclamar exige método: una llamada mal preparada, hecha tarde o con un tono inadecuado puede cerrar el diálogo en lugar de abrirlo."
+    },
+    {
+     "ul": [
+      "Los recordatorios se hacen de forma irregular, según la disponibilidad de cada uno.",
+      "Nadie sabe a qué interlocutor se ha llamado ya ni qué se acordó.",
+      "Las promesas de pago no se anotan ni se verifican en la fecha prevista.",
+      "Los deudores localizables solo en ciertas horas se escapan.",
+      "El tono cambia de un empleado a otro, lo que perjudica la imagen de la empresa."
+     ]
+    },
+    {
+     "h2": "Cómo apoya Company Full Scope In & Out a un equipo de recobro"
+    },
+    {
+     "p": "El recobro es uno de los usos a los que se dirige la oferta Company Full Scope In & Out de HARX Telefonía, junto con las ventas, la atención al cliente y la selección de personal. Permite hacer llamadas salientes desde un número de su país, más reconocible y tranquilizador para quien recibe la llamada que un número desconocido."
+    },
+    {
+     "p": "También se atienden las llamadas entrantes: el deudor que devuelve la llamada encuentra una recepción o un contestador identificado, no una línea muda. La IA de apoyo puede ayudar a estructurar las conversaciones. En equipos remotos, todos los colaboradores utilizan la misma línea, con suscripción mensual y minutos prepagados."
+    },
+    {
+     "p": "Una precisión importante: HARX aporta la herramienta de telefonía. El marco legal aplicable al recobro varía según el país y sigue siendo responsabilidad de la empresa, que debe asesorarse con un profesional competente."
+    },
+    {
+     "h2": "Buenas prácticas para los recordatorios telefónicos"
+    },
+    {
+     "ul": [
+      "Comprobar antes de llamar que la factura es correcta, está emitida y realmente vencida.",
+      "Empezar por entender la situación: un olvido, una disputa sobre el servicio o una dificultad de tesorería.",
+      "Mantenerse objetivo y cortés, sin amenazas ni presión excesiva.",
+      "Proponer una solución concreta, como una fecha de pago o un calendario de pagos aprobado internamente.",
+      "Confirmar por escrito lo hablado durante la llamada.",
+      "Programar el siguiente recordatorio al terminar la llamada y cumplirlo.",
+      "Respetar los horarios y frecuencias de llamada permitidos por la normativa local."
+     ]
+    },
+    {
+     "p": "Un enfoque regular y respetuoso protege la relación con el cliente además de la tesorería. Para ordenar este trabajo sobre una línea clara, la oferta Company Full Scope In & Out de HARX es una base adecuada."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿HARX gestiona el marco legal del recobro?",
+       "a": "No. HARX aporta la telefonía; el cumplimiento de la normativa aplicable sigue siendo responsabilidad de la empresa."
+      },
+      {
+       "q": "¿Se puede llamar a los deudores desde un número local?",
+       "a": "Sí, la oferta incluye un número de su país para llamadas entrantes y salientes."
+      },
+      {
+       "q": "¿Sirve para un equipo de recobro a distancia?",
+       "a": "Sí, se dirige en particular a equipos remotos y al recobro."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "تحصيل الديون عبر الهاتف: كيف تنظّمه جيدًا",
+   "description": "متابعة الفواتير غير المسددة هاتفيًا: أفضل ممارسات التنظيم وكيف يدعم عرض Company Full Scope In & Out من HARX فريق التحصيل.",
+   "blocks": [
+    {
+     "h2": "المشكلة: المطالبة بالسداد دون الإضرار بالعلاقة"
+    },
+    {
+     "p": "تثقل الفواتير غير المسددة كاهل السيولة المالية، ويظل الهاتف من أكثر الوسائل مباشرة لحلّ الموقف. لكن المطالبة تحتاج إلى منهج، فالمكالمة التي لم تُحضَّر جيدًا أو جاءت متأخرة أو بنبرة غير مناسبة قد تغلق باب الحوار بدل أن تفتحه."
+    },
+    {
+     "ul": [
+      "تتم التذكيرات بشكل غير منتظم بحسب انشغال كل موظف.",
+      "لا أحد يعرف من جرى الاتصال به من قبل ولا ما تم الاتفاق عليه.",
+      "لا تُدوَّن وعود السداد ولا يُتحقَّق منها في الموعد المحدد.",
+      "المدينون الذين لا يمكن الوصول إليهم إلا في أوقات معينة يفلتون من المتابعة.",
+      "تختلف النبرة من موظف إلى آخر، مما يضرّ بصورة الشركة."
+     ]
+    },
+    {
+     "p": "ويزيد الأمر صعوبة حين يُترك التحصيل لمن يتوفر وقته، فتتأخر المتابعة وتتراكم الملفات دون أولويات واضحة، ويتحول الأمر من تذكير بسيط إلى نزاع كان يمكن تجنّبه."
+    },
+    {
+     "h2": "كيف يدعم عرض Company Full Scope In & Out فريق التحصيل"
+    },
+    {
+     "p": "يُعدّ التحصيل من الاستخدامات التي يستهدفها عرض Company Full Scope In & Out ضمن HARX للاتصالات الهاتفية، إلى جانب المبيعات وعلاقة العملاء والتوظيف. فهو يتيح إجراء مكالمات صادرة من رقم في بلدكم، وهو أوضح وأكثر طمأنة للمتصَل به من رقم مجهول."
+    },
+    {
+     "p": "وتُعالَج المكالمات الواردة أيضًا، فالمدين الذي يعاود الاتصال يصل إلى استقبال أو مجيب آلي معرَّف، لا إلى خط صامت. ويمكن للذكاء الاصطناعي المساعد أن يعين على تنظيم المحادثات. وبالنسبة إلى الفرق عن بُعد يعتمد جميع الزملاء على الخط نفسه، باشتراك شهري ودقائق مدفوعة مسبقًا."
+    },
+    {
+     "p": "توضيح مهم: تقدّم HARX أداة الاتصال الهاتفي فقط. أما الإطار القانوني المنطبق على التحصيل فيختلف من بلد إلى آخر، ويظل من مسؤولية الشركة التي ينبغي لها استشارة مختص مؤهل."
+    },
+    {
+     "h2": "ممارسات جيدة للتذكير الهاتفي"
+    },
+    {
+     "ul": [
+      "التحقق قبل الاتصال من أن الفاتورة صحيحة وصادرة ومستحقة فعلًا.",
+      "البدء بفهم الوضع: سهو، أو خلاف حول الخدمة، أو صعوبة في السيولة.",
+      "الالتزام بالوقائع واللباقة دون تهديد أو ضغط مبالغ فيه.",
+      "اقتراح حل ملموس مثل تاريخ للسداد أو جدول أقساط تمت الموافقة عليه داخليًا.",
+      "تأكيد ما قيل أثناء المكالمة كتابةً.",
+      "تحديد موعد التذكير التالي فور انتهاء المكالمة والالتزام به.",
+      "احترام أوقات الاتصال وتكراره بحسب ما تسمح به اللوائح المحلية."
+     ]
+    },
+    {
+     "p": "النهج المنتظم والمحترم يحمي علاقة العميل كما يحمي السيولة. ولتنظيم هذا العمل على خط واضح، يشكّل عرض Company Full Scope In & Out من HARX قاعدة مناسبة."
+    },
+    {
+     "p": "ومن المفيد كذلك أن تُحدَّد مسبقًا الحالات التي تُعالَج هاتفيًا وتلك التي تُعالَج بالمراسلة، والمرحلة التي يُحال عندها الملف إلى مسؤول أعلى. فوجود قواعد داخلية واضحة يجعل العمل أهدأ وأكثر إنصافًا للجميع، ويمنح الموظفين ثقة في ما يقولونه للمدين، ويقلّل من الارتجال الذي قد يؤدي إلى أخطاء أو إلى وعود لا تلتزم بها الشركة."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل تتولى HARX الإطار القانوني للتحصيل؟",
+       "a": "لا، فهي توفّر الاتصالات الهاتفية، أما الالتزام باللوائح المطبقة فيظل من مسؤولية الشركة."
+      },
+      {
+       "q": "هل يمكن الاتصال بالمدينين من رقم محلي؟",
+       "a": "نعم، فالعرض يوفّر رقمًا من بلدكم للمكالمات الواردة والصادرة."
+      },
+      {
+       "q": "هل يناسب العرض فريق تحصيل يعمل عن بُعد؟",
+       "a": "نعم، فهو يستهدف الفرق عن بُعد والتحصيل على وجه الخصوص."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

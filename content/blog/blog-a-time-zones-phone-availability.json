@@ -1,0 +1,280 @@
+{
+ "type": "blog",
+ "slug": "blog-a-time-zones-phone-availability",
+ "date": "2026-10-31",
+ "langs": {
+  "fr": {
+   "title": "Décalage horaire et disponibilité téléphonique : s'organiser",
+   "description": "Quand vos clients et vous n'êtes pas dans le même fuseau, comment annoncer vos horaires, planifier les rappels et rester fiable sans vous épuiser.",
+   "blocks": [
+    {
+     "p": "Équipe répartie sur plusieurs pays, client à l'autre bout du monde, indépendant installé loin de sa clientèle : le décalage horaire complique la disponibilité téléphonique. Bien géré, il reste un détail d'organisation. Mal géré, il génère des appels manqués, des malentendus et de la fatigue."
+    },
+    {
+     "h2": "Rendre vos horaires lisibles pour tous"
+    },
+    {
+     "p": "La première source de confusion est l'imprécision. « Disponible de 9 h à 17 h » ne veut rien dire si l'on ne sait pas dans quel fuseau. Précisez toujours la référence : l'heure du pays de vos clients est généralement la plus parlante."
+    },
+    {
+     "ul": [
+      "Indiquez vos horaires avec le fuseau ou la ville de référence.",
+      "Affichez-les au même endroit : site, signature d'e-mail, message du répondeur.",
+      "Mentionnez les jours non travaillés, qui varient d'un pays à l'autre.",
+      "Mettez à jour vos informations lors des changements d'heure, qui n'ont pas lieu aux mêmes dates partout."
+     ]
+    },
+    {
+     "p": "Ces précautions évitent à vos interlocuteurs de faire des calculs, et donc de se tromper."
+    },
+    {
+     "h2": "Identifier les créneaux de chevauchement"
+    },
+    {
+     "p": "Quand les journées de travail se recouvrent peu, il faut protéger les créneaux communs. Repérez les heures pendant lesquelles vous et vos clients êtes tous disponibles, et réservez-les aux échanges qui exigent une conversation en direct : négociation, point d'étape, situation délicate."
+    },
+    {
+     "p": "Pour le reste, privilégiez l'écrit. Un message clair, avec le contexte et la question précise, permet à l'autre de répondre à son heure sans rendez-vous téléphonique. On réserve ainsi l'appel aux sujets qui en valent la peine."
+    },
+    {
+     "ul": [
+      "Proposez deux ou trois créneaux au lieu de demander « quand êtes-vous libre ? ».",
+      "Confirmez par écrit l'heure et le fuseau d'un rendez-vous téléphonique.",
+      "Envoyez une invitation d'agenda qui convertit automatiquement l'heure."
+     ]
+    },
+    {
+     "h2": "Prévoir ce qui se passe hors des heures"
+    },
+    {
+     "p": "Hors de vos horaires, l'appelant ne doit pas rester sans réponse. Un répondeur clair annonce quand vous rappelez, et vous vous y tenez. Précisez aussi la marche à suivre en cas d'urgence : un autre contact, un message écrit, selon votre activité."
+    },
+    {
+     "p": "Au sein d'une équipe, un relais tournant entre fuseaux permet de couvrir une plage plus large sans épuiser personne. Définissez qui répond à quoi, à quel moment, et notez les appels dans un journal partagé pour que la personne suivante reprenne le fil sans tout redemander."
+    },
+    {
+     "h2": "S'appuyer sur un numéro et un accueil adaptés"
+    },
+    {
+     "p": "Un numéro du pays de vos clients, indépendant de votre fuseau, rassure : ils composent comme d'habitude, et le répondeur ou l'accueil prend le relais en dehors de vos heures. HARX Téléphonie propose un numéro de votre pays avec appels entrants et sortants, un répondeur et, selon l'offre, un accueil ou un secrétariat."
+    },
+    {
+     "p": "Pour une équipe répartie, l'offre Company Full Scope In & Out s'adresse aux PME et aux équipes à distance, et l'offre Contact Centre Multi-clients aux centres d'appels travaillant depuis plusieurs pays. Dans les deux cas, l'organisation des horaires reste à définir avec soin."
+    },
+    {
+     "h2": "Conclusion : la clarté vaut mieux que la disponibilité permanente"
+    },
+    {
+     "p": "Le décalage horaire n'est pas un obstacle si vos horaires sont lisibles, vos créneaux communs protégés et vos absences prises en charge par un répondeur ou un accueil. Dites précisément quand vous êtes joignable, tenez vos rappels et réservez le téléphone aux sujets qui l'exigent. Vos clients y verront de la fiabilité plutôt qu'une contrainte. HARX Téléphonie peut alors servir de socle commun à cette organisation."
+    }
+   ]
+  },
+  "en": {
+   "title": "Time Zones and Phone Availability: How to Organise",
+   "description": "When you and your customers are not in the same time zone: how to announce your hours, plan callbacks and stay reliable without wearing yourself out.",
+   "blocks": [
+    {
+     "p": "A team spread over several countries, a customer on the other side of the world, a freelancer living far from their clientele: time differences complicate phone availability. Well managed, it remains an organisational detail. Badly managed, it produces missed calls, misunderstandings and tiredness."
+    },
+    {
+     "h2": "Make your hours readable for everyone"
+    },
+    {
+     "p": "The first source of confusion is vagueness. “Available 9 to 5” means nothing if nobody knows in which time zone. Always specify the reference: the time in your customers' country is usually the most meaningful."
+    },
+    {
+     "ul": [
+      "State your hours with the time zone or reference city.",
+      "Show them in the same places: website, email signature, voicemail message.",
+      "Mention non-working days, which vary from one country to another.",
+      "Update your information when clocks change, which does not happen on the same dates everywhere."
+     ]
+    },
+    {
+     "p": "These precautions spare your contacts from doing calculations, and therefore from getting them wrong."
+    },
+    {
+     "h2": "Identify the overlapping slots"
+    },
+    {
+     "p": "When working days overlap very little, the shared slots need protecting. Spot the hours when you and your customers are all available, and keep them for exchanges that need a live conversation: negotiation, progress review, a delicate situation."
+    },
+    {
+     "p": "For everything else, favour writing. A clear message, with context and a precise question, lets the other person reply at their own time without a phone appointment. The call is then kept for topics that deserve it."
+    },
+    {
+     "ul": [
+      "Offer two or three slots instead of asking “when are you free?”.",
+      "Confirm in writing the time and time zone of a phone appointment.",
+      "Send a calendar invitation that converts the time automatically."
+     ]
+    },
+    {
+     "h2": "Plan for what happens outside hours"
+    },
+    {
+     "p": "Outside your hours, callers should not be left without an answer. A clear voicemail states when you call back, and you keep to it. Also specify what to do in an emergency: another contact or a written message, depending on your activity."
+    },
+    {
+     "p": "Within a team, a rotating relay across time zones covers a wider range without exhausting anyone. Define who answers what, and when, and note calls in a shared log so the next person picks up the thread without asking everything again."
+    },
+    {
+     "h2": "Rely on a suitable number and reception"
+    },
+    {
+     "p": "A number from your customers' country, independent of your own time zone, reassures: they dial as usual, and voicemail or reception takes over outside your hours. HARX Telephony offers a number from your country with inbound and outbound calls, voicemail and, depending on the plan, reception or secretarial services."
+    },
+    {
+     "p": "For a distributed team, the Company Full Scope In & Out offer is aimed at small and medium businesses and remote teams, and the Multi-client Contact Centre offer at call centres working from several countries. In both cases, the organisation of hours still has to be defined carefully."
+    },
+    {
+     "h2": "Conclusion: clarity beats permanent availability"
+    },
+    {
+     "p": "Time differences are not an obstacle if your hours are readable, your shared slots protected and your absences covered by voicemail or reception. Say precisely when you can be reached, keep your callbacks and reserve the phone for topics that need it. Your customers will see reliability rather than a constraint. HARX Telephony can then serve as a common base for that organisation."
+    }
+   ]
+  },
+  "es": {
+   "title": "Diferencia horaria y disponibilidad telefónica: cómo organizarse",
+   "description": "Cuando tú y tus clientes no estáis en el mismo huso horario: cómo anunciar tus horarios, planificar las devoluciones de llamada y ser fiable sin agotarte.",
+   "blocks": [
+    {
+     "p": "Un equipo repartido por varios países, un cliente al otro lado del mundo, un autónomo instalado lejos de su clientela: la diferencia horaria complica la disponibilidad telefónica. Bien gestionada, sigue siendo un detalle de organización. Mal gestionada, genera llamadas perdidas, malentendidos y cansancio."
+    },
+    {
+     "h2": "Hacer legibles tus horarios para todos"
+    },
+    {
+     "p": "La primera fuente de confusión es la imprecisión. «Disponible de 9 a 17 h» no significa nada si no se sabe en qué huso horario. Indica siempre la referencia: la hora del país de tus clientes suele ser la más clara."
+    },
+    {
+     "ul": [
+      "Indica tus horarios con el huso horario o la ciudad de referencia.",
+      "Muéstralos siempre en los mismos sitios: web, firma del correo, mensaje del buzón de voz.",
+      "Menciona los días no laborables, que varían de un país a otro.",
+      "Actualiza tu información en los cambios de hora, que no ocurren en las mismas fechas en todas partes."
+     ]
+    },
+    {
+     "p": "Estas precauciones evitan que tus interlocutores tengan que hacer cálculos y, por tanto, equivocarse."
+    },
+    {
+     "h2": "Identificar las franjas de coincidencia"
+    },
+    {
+     "p": "Cuando las jornadas de trabajo coinciden poco, hay que proteger las franjas comunes. Localiza las horas en que tú y tus clientes estáis disponibles y resérvalas para los intercambios que exigen una conversación en directo: negociación, revisión de avances, una situación delicada."
+    },
+    {
+     "p": "Para lo demás, prioriza la escritura. Un mensaje claro, con contexto y una pregunta precisa, permite al otro responder a su hora sin una cita telefónica. Así se reserva la llamada para los asuntos que lo merecen."
+    },
+    {
+     "ul": [
+      "Propón dos o tres franjas en lugar de preguntar «¿cuándo estás libre?».",
+      "Confirma por escrito la hora y el huso horario de una cita telefónica.",
+      "Envía una invitación de calendario que convierta la hora automáticamente."
+     ]
+    },
+    {
+     "h2": "Prever lo que ocurre fuera de horario"
+    },
+    {
+     "p": "Fuera de tu horario, quien llama no debe quedarse sin respuesta. Un buzón de voz claro indica cuándo devuelves la llamada y tú lo cumples. Precisa también qué hacer en caso de urgencia: otro contacto o un mensaje escrito, según tu actividad."
+    },
+    {
+     "p": "En un equipo, un relevo rotativo entre husos horarios permite cubrir una franja más amplia sin agotar a nadie. Define quién responde a qué y cuándo, y anota las llamadas en un registro compartido para que la siguiente persona retome el hilo sin preguntarlo todo de nuevo."
+    },
+    {
+     "h2": "Apoyarse en un número y una atención adecuados"
+    },
+    {
+     "p": "Un número del país de tus clientes, independiente de tu huso horario, tranquiliza: marcan como siempre y el buzón de voz o la atención toma el relevo fuera de tu horario. HARX Telefonía propone un número de tu país con llamadas entrantes y salientes, buzón de voz y, según la oferta, atención o secretaría."
+    },
+    {
+     "p": "Para un equipo repartido, la oferta Company Full Scope In & Out se dirige a pymes y equipos en remoto, y la oferta Contact Centre Multi-clientes a centros de llamadas que trabajan desde varios países. En ambos casos, la organización de los horarios debe definirse con cuidado."
+    },
+    {
+     "h2": "Conclusión: la claridad vale más que la disponibilidad permanente"
+    },
+    {
+     "p": "La diferencia horaria no es un obstáculo si tus horarios son legibles, tus franjas comunes están protegidas y tus ausencias cubiertas por un buzón de voz o una atención. Di con precisión cuándo estás localizable, cumple tus devoluciones y reserva el teléfono para los asuntos que lo exigen. Tus clientes verán fiabilidad y no una limitación. HARX Telefonía puede servir entonces de base común para esa organización."
+    }
+   ]
+  },
+  "ar": {
+   "title": "فارق التوقيت والتوافر الهاتفي: كيف تنظّم وقتك",
+   "description": "حين لا تكون أنت وعملاؤك في المنطقة الزمنية نفسها: كيف تعلن ساعاتك وتخطط لمعاودة الاتصال وتبقى موثوقًا دون أن تستنزف نفسك.",
+   "blocks": [
+    {
+     "p": "فريق موزع على عدة بلدان، وعميل في الجهة الأخرى من العالم، ومستقل يقيم بعيدًا عن عملائه: فارق التوقيت يعقّد التوافر الهاتفي. وإذا أُدير جيدًا بقي تفصيلًا تنظيميًا، أما إذا أُدير بسوء فإنه يولّد مكالمات فائتة وسوء فهم وإرهاقًا."
+    },
+    {
+     "h2": "اجعل ساعاتك مقروءة للجميع"
+    },
+    {
+     "p": "أول مصدر للالتباس هو الغموض. فعبارة «متاح من التاسعة إلى الخامسة» لا تعني شيئًا إذا لم يُعرف بأي منطقة زمنية. فاذكر المرجع دائمًا، وعادةً يكون توقيت بلد عملائك هو الأوضح."
+    },
+    {
+     "ul": [
+      "اذكر ساعاتك مع المنطقة الزمنية أو المدينة المرجعية.",
+      "اعرضها في الأماكن نفسها: الموقع وتوقيع البريد ورسالة البريد الصوتي.",
+      "اذكر أيام العطلة التي تختلف من بلد إلى آخر.",
+      "حدّث معلوماتك عند تغيير الساعة، فهو لا يقع في التواريخ نفسها في كل مكان."
+     ]
+    },
+    {
+     "p": "وهذه الاحتياطات تعفي محدثيك من إجراء الحسابات، وبالتالي من الوقوع في الخطأ."
+    },
+    {
+     "h2": "حدّد فترات التداخل"
+    },
+    {
+     "p": "حين يقل تداخل أيام العمل ينبغي حماية الفترات المشتركة. حدّد الساعات التي تتوافر فيها أنت وعملاؤك جميعًا، واحجزها للحوارات التي تتطلب محادثة مباشرة: تفاوض أو مراجعة تقدم أو موقف دقيق."
+    },
+    {
+     "p": "وفيما عدا ذلك فضّل الكتابة. فرسالة واضحة تتضمن السياق وسؤالًا محددًا تتيح للطرف الآخر أن يجيب في وقته دون موعد هاتفي. وهكذا تُخصَّص المكالمة للمواضيع التي تستحقها."
+    },
+    {
+     "ul": [
+      "اقترح فترتين أو ثلاثًا بدل أن تسأل «متى تكون متاحًا؟».",
+      "أكّد كتابةً وقت الموعد الهاتفي ومنطقته الزمنية.",
+      "أرسل دعوة تقويم تحوّل الوقت تلقائيًا."
+     ]
+    },
+    {
+     "h2": "خطّط لما يحدث خارج الساعات"
+    },
+    {
+     "p": "خارج ساعاتك لا ينبغي أن يبقى المتصل بلا جواب. فبريد صوتي واضح يذكر متى ستعاود الاتصال وتلتزم أنت بذلك. وحدّد كذلك ما يُفعل في حالة الطوارئ: جهة اتصال أخرى أو رسالة مكتوبة بحسب نشاطك."
+    },
+    {
+     "p": "وفي الفريق يتيح التناوب بين المناطق الزمنية تغطية مدى أوسع دون إرهاق أحد. حدّد من يجيب عن ماذا ومتى، ودوّن المكالمات في سجل مشترك ليتسلم الشخص التالي الخيط دون أن يسأل عن كل شيء من جديد."
+    },
+    {
+     "h2": "اعتمد على رقم واستقبال مناسبين"
+    },
+    {
+     "p": "الرقم من بلد عملائك المستقل عن منطقتك الزمنية يبعث على الطمأنينة: فهم يطلبونه كالمعتاد، ويتولى البريد الصوتي أو الاستقبال المهمة خارج ساعاتك. وتقدّم HARX للاتصالات رقمًا من بلدك مع مكالمات واردة وصادرة وبريد صوتي، وبحسب العرض استقبالًا أو سكرتارية."
+    },
+    {
+     "p": "وللفريق الموزع يتوجه عرض Company Full Scope In & Out إلى الشركات الصغيرة والمتوسطة والفرق عن بُعد، ويتوجه عرض Contact Centre Multi-clients إلى مراكز الاتصال العاملة من عدة بلدان. وفي الحالتين يبقى تنظيم الساعات أمرًا يلزم تحديده بعناية."
+    },
+    {
+     "p": "ومن الأفضل أن تجرّب جدولك مع أحد العملاء قبل اعتماده رسميًا، لترى هل الأوقات المعلنة مناسبة له فعلًا. فبعض العملاء يفضلون المكالمات في أول الصباح وآخرون في المساء، ومعرفة ذلك تساعدك على اختيار فترات تحقق أكبر فائدة لكلا الطرفين."
+    },
+    {
+     "p": "وإذا كان فريقك موزعًا على مناطق زمنية متعددة فاكتب جدولًا مرئيًا يبيّن لكل شخص ساعات عمله بالتوقيت المحلي وبتوقيت العملاء. ومثل هذا الجدول البسيط يمنع الأخطاء الشائعة، كالاتصال بزميل في وقت راحته أو وعد عميل بمعاودة الاتصال في ساعة لا يعمل فيها أحد."
+    },
+    {
+     "p": "وأخيرًا احترم حدود الجميع: لا تتوقع من أحد أن يرد في منتصف الليل بصورة دائمة. فالانتظام والتناوب والحدود الواضحة هي ما يجعل نظام التوافر قابلًا للاستمرار شهرًا بعد شهر."
+    },
+    {
+     "h2": "الخلاصة: الوضوح خير من التوافر الدائم"
+    },
+    {
+     "p": "فارق التوقيت ليس عائقًا إذا كانت ساعاتك مقروءة وفتراتك المشتركة محمية وغيابك مغطى ببريد صوتي أو استقبال. قل بدقة متى يمكن الوصول إليك والتزم بمعاودة الاتصال واحجز الهاتف للمواضيع التي تتطلبه. وسيرى عملاؤك في ذلك موثوقية لا قيدًا. ويمكن لـ HARX للاتصالات أن تكون قاعدة مشتركة لهذا التنظيم."
+    }
+   ]
+  }
+ }
+}

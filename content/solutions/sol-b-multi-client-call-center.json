@@ -1,0 +1,276 @@
+{
+ "type": "solution",
+ "slug": "sol-b-multi-client-call-center",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Centre d'appels multi-clients : isoler et suivre chaque compte",
+   "description": "Gérer plusieurs donneurs d'ordre dans un même centre d'appels sans mélanger les campagnes : méthode et offre Contact Centre Multi-clients de HARX Téléphonie.",
+   "blocks": [
+    {
+     "h2": "Quand un seul centre sert plusieurs entreprises"
+    },
+    {
+     "p": "Beaucoup de centres d'appels travaillent pour plusieurs donneurs d'ordre : un assureur le matin, une boutique en ligne l'après-midi, un cabinet de recrutement en parallèle. Cette diversité fait la richesse de l'activité, mais elle crée un risque permanent de confusion entre les comptes."
+    },
+    {
+     "ul": [
+      "Un agent qui répond au nom du mauvais client parce que la ligne n'était pas identifiée.",
+      "Des scripts qui se mélangent d'une campagne à l'autre.",
+      "Une facturation difficile à justifier quand l'activité par client n'est pas distinguée.",
+      "Des indicateurs de qualité globaux qui masquent un compte en difficulté.",
+      "Des agents polyvalents mais surchargés, qui perdent leurs repères."
+     ]
+    },
+    {
+     "h2": "L'approche du Contact Centre Multi-clients"
+    },
+    {
+     "p": "Le Contact Centre Multi-clients est l'offre de HARX Téléphonie conçue pour les centres d'appels qui servent plusieurs clients. Elle s'adresse aux centres en Europe, aux États-Unis ou dans les pays d'externalisation (France, Maroc, Tunisie, Sénégal), avec des agents sur plateau ou à distance."
+    },
+    {
+     "p": "L'idée est de disposer d'une base téléphonique commune qui gère les appels entrants et sortants, tout en permettant d'organiser le travail compte par compte, avec des numéros adaptés et l'appui d'une IA qui assiste les agents. L'abonnement est mensuel, minutes et IA sont prépayées, et la mise en route est annoncée en quelques minutes."
+    },
+    {
+     "h2": "Bonnes pratiques pour un centre multi-clients"
+    },
+    {
+     "ul": [
+      "Attribuer à chaque client un numéro ou une identification clairement distincte, afin que l'agent sache au décrochage pour qui il répond.",
+      "Créer une fiche par client : présentation, horaires, motifs d'appel, formules d'accueil, limites de ce que l'agent peut dire ou promettre.",
+      "Spécialiser les agents par compte ou par petits groupes de comptes plutôt que de tous les rendre polyvalents sur tout.",
+      "Suivre séparément le volume d'appels, la réactivité et la qualité de chaque client.",
+      "Organiser un point régulier avec chaque donneur d'ordre, avec ses propres chiffres.",
+      "Protéger la confidentialité : un agent ne doit accéder qu'aux informations du compte sur lequel il travaille."
+     ]
+    },
+    {
+     "p": "La rigueur dans la séparation des comptes est la condition de la confiance des clients. Pour un centre qui veut structurer cette organisation, le Contact Centre Multi-clients de HARX constitue le point de départ naturel."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Un même agent peut-il traiter plusieurs clients ?",
+       "a": "Oui, mais il est conseillé de limiter le nombre de comptes par agent et de bien former chacun à ses spécificités."
+      },
+      {
+       "q": "Dans quels pays l'offre est-elle destinée aux centres d'appels ?",
+       "a": "En Europe, aux États-Unis et dans les pays d'externalisation : France, Maroc, Tunisie, Sénégal."
+      },
+      {
+       "q": "Les agents doivent-ils tous être sur plateau ?",
+       "a": "Non, ils peuvent travailler sur plateau ou à distance."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Multi-client call centre: keeping each account separate and tracked",
+   "description": "Handling several clients in one call centre without mixing campaigns: method and HARX Telephony's Contact Centre Multi-clients offer.",
+   "blocks": [
+    {
+     "h2": "When one centre serves several companies"
+    },
+    {
+     "p": "Many call centres work for several clients: an insurer in the morning, an online shop in the afternoon, a recruitment firm in parallel. This variety is what makes the business rich, but it creates a permanent risk of confusion between accounts."
+    },
+    {
+     "ul": [
+      "An agent answering in the wrong client's name because the line was not identified.",
+      "Scripts that get mixed up from one campaign to the next.",
+      "Invoicing that is hard to justify when activity per client is not distinguished.",
+      "Overall quality indicators that hide an account in difficulty.",
+      "Versatile but overloaded agents who lose their bearings."
+     ]
+    },
+    {
+     "h2": "The Contact Centre Multi-clients approach"
+    },
+    {
+     "p": "Contact Centre Multi-clients is the HARX Telephony offer designed for call centres that serve several clients. It is aimed at centres in Europe, the United States or outsourcing countries (France, Morocco, Tunisia, Senegal), with agents on the floor or remote."
+    },
+    {
+     "p": "The idea is to have a shared telephone base that handles inbound and outbound calls, while allowing work to be organised account by account, with suitable numbers and the support of an AI that assists agents. The subscription is monthly, minutes and AI are prepaid, and start-up is described as taking minutes."
+    },
+    {
+     "h2": "Good practices for a multi-client centre"
+    },
+    {
+     "ul": [
+      "Give each client a clearly distinct number or identification so the agent knows who they are answering for as soon as they pick up.",
+      "Create one sheet per client: presentation, hours, reasons for calls, greeting formulas, limits on what the agent may say or promise.",
+      "Specialise agents by account or small groups of accounts rather than making everyone versatile on everything.",
+      "Track call volume, responsiveness and quality separately for each client.",
+      "Hold a regular review with each client, using that client's own figures.",
+      "Protect confidentiality: an agent should only access information for the account they are working on."
+     ]
+    },
+    {
+     "p": "Rigour in keeping accounts separate is the condition of client trust. For a centre that wants to structure this organisation, HARX's Contact Centre Multi-clients is the natural starting point. When a new client is added, it helps to repeat the same onboarding steps each time so that nothing is left to chance."
+    },
+    {
+     "p": "Do not forget to agree with each client on how changes will be communicated, so that a new script or opening hour reaches the right agents on the right day."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Can the same agent handle several clients?",
+       "a": "Yes, but it is advisable to limit the number of accounts per agent and train each one well on their specifics."
+      },
+      {
+       "q": "In which countries is the offer intended for call centres?",
+       "a": "In Europe, the United States and outsourcing countries: France, Morocco, Tunisia, Senegal."
+      },
+      {
+       "q": "Do all agents have to be on the floor?",
+       "a": "No, they can work on the floor or remotely."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Centro de llamadas multicliente: separar y seguir cada cuenta",
+   "description": "Atender a varios clientes en un mismo centro de llamadas sin mezclar campañas: método y oferta Contact Centre Multi-clients de HARX Telefonía.",
+   "blocks": [
+    {
+     "h2": "Cuando un solo centro atiende a varias empresas"
+    },
+    {
+     "p": "Muchos centros de llamadas trabajan para varios clientes: una aseguradora por la mañana, una tienda en línea por la tarde, una consultora de selección en paralelo. Esta diversidad enriquece la actividad, pero crea un riesgo permanente de confusión entre cuentas."
+    },
+    {
+     "ul": [
+      "Un agente que contesta en nombre del cliente equivocado porque la línea no estaba identificada.",
+      "Guiones que se mezclan de una campaña a otra.",
+      "Una facturación difícil de justificar cuando no se distingue la actividad por cliente.",
+      "Indicadores de calidad globales que ocultan una cuenta en dificultad.",
+      "Agentes polivalentes pero sobrecargados que pierden sus referencias."
+     ]
+    },
+    {
+     "h2": "El enfoque del Contact Centre Multi-clients"
+    },
+    {
+     "p": "Contact Centre Multi-clients es la oferta de HARX Telefonía concebida para los centros de llamadas que atienden a varios clientes. Se dirige a centros en Europa, Estados Unidos o países de externalización (Francia, Marruecos, Túnez, Senegal), con agentes en plataforma o a distancia."
+    },
+    {
+     "p": "La idea es contar con una base telefónica común que gestione las llamadas entrantes y salientes y que permita organizar el trabajo cuenta por cuenta, con números adecuados y el apoyo de una IA que asiste a los agentes. La suscripción es mensual, los minutos y la IA son prepagados y la puesta en marcha se describe como cuestión de minutos."
+    },
+    {
+     "h2": "Buenas prácticas para un centro multicliente"
+    },
+    {
+     "ul": [
+      "Asignar a cada cliente un número o una identificación claramente distinta, para que el agente sepa al descolgar en nombre de quién responde.",
+      "Crear una ficha por cliente: presentación, horarios, motivos de llamada, fórmulas de saludo y límites de lo que el agente puede decir o prometer.",
+      "Especializar a los agentes por cuenta o por pequeños grupos de cuentas en lugar de hacerlos polivalentes en todo.",
+      "Seguir por separado el volumen de llamadas, la reactividad y la calidad de cada cliente.",
+      "Organizar una reunión periódica con cada cliente, con sus propias cifras.",
+      "Proteger la confidencialidad: un agente solo debe acceder a la información de la cuenta en la que trabaja."
+     ]
+    },
+    {
+     "p": "El rigor en la separación de cuentas es la condición de la confianza de los clientes. Para un centro que quiere estructurar esta organización, el Contact Centre Multi-clients de HARX es el punto de partida natural. Cuando se incorpora un cliente nuevo, conviene repetir siempre los mismos pasos de incorporación para no dejar nada al azar."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Un mismo agente puede atender a varios clientes?",
+       "a": "Sí, pero conviene limitar el número de cuentas por agente y formar bien a cada uno en sus particularidades."
+      },
+      {
+       "q": "¿En qué países está destinada la oferta a centros de llamadas?",
+       "a": "En Europa, Estados Unidos y países de externalización: Francia, Marruecos, Túnez y Senegal."
+      },
+      {
+       "q": "¿Todos los agentes deben estar en una plataforma?",
+       "a": "No, pueden trabajar en plataforma o a distancia."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "مركز اتصال متعدد العملاء: فصل كل حساب ومتابعته",
+   "description": "إدارة عدة عملاء في مركز اتصال واحد دون خلط الحملات: المنهج وعرض Contact Centre Multi-clients من HARX للاتصالات الهاتفية.",
+   "blocks": [
+    {
+     "h2": "حين يخدم مركز واحد عدة شركات"
+    },
+    {
+     "p": "تعمل مراكز اتصال كثيرة لصالح عدة عملاء: شركة تأمين في الصباح، ومتجر إلكتروني بعد الظهر، ومكتب توظيف بالتوازي. وهذا التنوع يثري النشاط، لكنه يخلق خطرًا دائمًا بالخلط بين الحسابات."
+    },
+    {
+     "ul": [
+      "وكيل يردّ باسم العميل الخطأ لأن الخط لم يكن معرَّفًا.",
+      "نصوص تختلط من حملة إلى أخرى.",
+      "فوترة يصعب تبريرها حين لا يُميَّز النشاط لكل عميل.",
+      "مؤشرات جودة إجمالية تخفي حسابًا يمر بصعوبة.",
+      "وكلاء متعددو المهام لكنهم مثقلون ويفقدون مرجعيتهم."
+     ]
+    },
+    {
+     "p": "ويصبح الأمر أكثر تعقيدًا كلما ازداد عدد العملاء، فما يصلح لحساب بسيط قد لا يصلح عند إدارة عدة حسابات بمتطلبات متباينة وساعات عمل مختلفة."
+    },
+    {
+     "h2": "نهج Contact Centre Multi-clients"
+    },
+    {
+     "p": "Contact Centre Multi-clients هو عرض HARX للاتصالات الهاتفية المصمَّم لمراكز الاتصال التي تخدم عدة عملاء. وهو موجّه إلى المراكز في أوروبا أو الولايات المتحدة أو بلدان الاستعانة بمصادر خارجية (فرنسا والمغرب وتونس والسنغال)، بوكلاء في الموقع أو عن بُعد."
+    },
+    {
+     "p": "والفكرة أن تتوفر قاعدة هاتفية مشتركة تدير المكالمات الواردة والصادرة، مع إمكان تنظيم العمل حسابًا حسابًا، بأرقام مناسبة ودعم من ذكاء اصطناعي يساعد الوكلاء. والاشتراك شهري والدقائق والذكاء الاصطناعي مدفوعة مسبقًا، ويُذكر أن التشغيل يستغرق دقائق."
+    },
+    {
+     "h2": "ممارسات جيدة لمركز متعدد العملاء"
+    },
+    {
+     "ul": [
+      "تخصيص رقم أو تعريف متميز بوضوح لكل عميل، ليعرف الوكيل لحظة الرد باسم من يتكلم.",
+      "إعداد بطاقة لكل عميل: التعريف والساعات وأسباب الاتصال وعبارات الاستقبال وحدود ما يجوز للوكيل قوله أو الوعد به.",
+      "تخصيص الوكلاء بحسب الحساب أو مجموعات صغيرة من الحسابات بدل جعل الجميع متعددي المهام في كل شيء.",
+      "متابعة حجم المكالمات وسرعة الاستجابة والجودة لكل عميل على حدة.",
+      "عقد اجتماع دوري مع كل عميل بأرقامه الخاصة.",
+      "حماية السرية: لا ينبغي للوكيل الاطلاع إلا على معلومات الحساب الذي يعمل عليه."
+     ]
+    },
+    {
+     "p": "الدقة في فصل الحسابات شرط لثقة العملاء. وللمركز الذي يريد هيكلة هذا التنظيم يمثّل Contact Centre Multi-clients من HARX نقطة انطلاق طبيعية. وعند إضافة عميل جديد يُستحسن تكرار خطوات الإدماج نفسها في كل مرة حتى لا يُترك شيء للصدفة."
+    },
+    {
+     "p": "ولا ينبغي نسيان الاتفاق مع كل عميل على كيفية إبلاغ التغييرات، حتى يصل أي نص جديد أو تعديل في ساعات العمل إلى الوكلاء المعنيين في اليوم المناسب. ويفيد كذلك تخصيص شخص مسؤول عن كل حساب، يكون محاورًا للعميل ومرجعًا للوكلاء، فيعرف الجميع إلى من يتوجهون عند أي التباس. وبهذه الطريقة يظل التنوع في العملاء مصدر قوة للمركز لا سببًا للفوضى، وتبقى الجودة قابلة للقياس لكل حساب على حدة."
+    },
+    {
+     "h2": "الأسئلة الشائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يمكن للوكيل نفسه خدمة عدة عملاء؟",
+       "a": "نعم، لكن يُنصح بالحدّ من عدد الحسابات لكل وكيل وتدريب كل واحد جيدًا على خصوصياتها."
+      },
+      {
+       "q": "في أي بلدان يوجَّه العرض إلى مراكز الاتصال؟",
+       "a": "في أوروبا والولايات المتحدة وبلدان الاستعانة بمصادر خارجية: فرنسا والمغرب وتونس والسنغال."
+      },
+      {
+       "q": "هل يجب أن يكون جميع الوكلاء في مقر المركز؟",
+       "a": "لا، يمكنهم العمل في الموقع أو عن بُعد."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

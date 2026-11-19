@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-building-tradesperson",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Artisan du bâtiment : répondre au téléphone depuis le chantier",
+   "description": "Artisan du bâtiment : ne perdez plus de demandes de devis quand vous êtes sur un chantier, avec l’offre Accueil / Secrétariat de HARX Téléphonie.",
+   "blocks": [
+    {
+     "p": "Un artisan du bâtiment travaille avec ses mains, souvent en hauteur, au bruit ou à l’extérieur. Pourtant, c’est par téléphone que se joue une grande partie de son activité : demandes de devis, questions de clients, coordination avec les fournisseurs."
+    },
+    {
+     "h2": "Le problème téléphonique typique de l’artisan du bâtiment"
+    },
+    {
+     "p": "Sur un chantier, il est rarement possible de décrocher. Le client potentiel qui appelle pour un devis tombe sur une messagerie, et il y a de fortes chances qu’il appelle ensuite un confrère. Le soir, l’artisan est fatigué et doit encore rappeler, souvent sans notes précises sur ce que demandait l’appelant."
+    },
+    {
+     "ul": [
+      "Les appels arrivent pendant les phases de travail où il est difficile, voire dangereux, de décrocher.",
+      "Une demande de devis non traitée rapidement peut partir chez un concurrent.",
+      "Les informations utiles (adresse, nature des travaux, disponibilités) sont rarement notées au moment de l’appel."
+     ]
+    },
+    {
+     "h2": "Comment l’offre Accueil / Secrétariat répond à ce besoin"
+    },
+    {
+     "p": "L’offre Accueil / Secrétariat de HARX Téléphonie s’adresse aux TPE de tous métiers, artisans compris. Elle repose sur du personnel à distance ou un accueil délocalisé, avec un numéro de votre pays, des appels entrants et sortants, un répondeur et une IA qui assiste. Abonnement mensuel, minutes et IA prépayées, mise en route possible en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un accueil qui répond à votre place pendant que vous êtes sur le chantier.",
+      "Un numéro professionnel distinct de votre mobile personnel, à afficher sur votre véhicule et vos devis.",
+      "Un répondeur qui garde la trace des demandes pour que vous les traitiez en fin de journée."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un artisan"
+    },
+    {
+     "ul": [
+      "Affichez le même numéro sur votre véhicule, vos devis, vos factures et vos annonces en ligne.",
+      "Préparez la liste des informations à demander à tout nouveau client : adresse, type de travaux, délai souhaité.",
+      "Rappelez rapidement : la rapidité de réponse est souvent un critère de choix pour le client.",
+      "Réservez un créneau fixe chaque jour pour traiter les demandes et établir les devis.",
+      "Confirmez par écrit tout rendez-vous convenu au téléphone."
+     ]
+    },
+    {
+     "p": "Ces habitudes simples donnent une image sérieuse et organisée, ce qui compte beaucoup quand un client confie un chantier à un artisan."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Un artisan seul a-t-il besoin d’un accueil délocalisé ?",
+       "a": "Ce n’est pas obligatoire, mais cela peut éviter de perdre des demandes quand vous êtes sur un chantier et dans l’impossibilité de répondre."
+      },
+      {
+       "q": "Puis-je afficher le numéro sur mon véhicule ?",
+       "a": "Oui, un numéro professionnel dédié peut figurer sur tous vos supports, ce qui donne un point de contact unique à vos clients."
+      },
+      {
+       "q": "L’offre est-elle réservée à certains métiers ?",
+       "a": "Non, l’offre Accueil / Secrétariat est pensée pour les TPE de tous métiers."
+      }
+     ]
+    },
+    {
+     "p": "Pour que chaque demande de devis trouve une réponse, regardez l’offre Accueil / Secrétariat de HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Tradespeople: Answering the Phone From the Job Site",
+   "description": "Building trades: stop losing quote requests while you are on a job site, with the Reception / Secretarial offer from HARX Telephony.",
+   "blocks": [
+    {
+     "p": "A building tradesperson works with their hands, often at height, in noise or outdoors. Yet much of their business is won or lost on the phone: quote requests, client questions, coordination with suppliers."
+    },
+    {
+     "h2": "The typical phone problem for a tradesperson"
+    },
+    {
+     "p": "On a job site it is rarely possible to answer. A potential customer calling for a quote reaches voicemail, and there is a good chance they will ring a competitor next. In the evening the tradesperson is tired and still has to call back, often without precise notes about what the caller wanted."
+    },
+    {
+     "ul": [
+      "Calls arrive during work phases when it is hard, even dangerous, to answer.",
+      "A quote request not handled quickly may go to a competitor.",
+      "Useful details (address, nature of the work, availability) are rarely noted at the time of the call."
+     ]
+    },
+    {
+     "h2": "How the Reception / Secretarial offer addresses this"
+    },
+    {
+     "p": "The Reception / Secretarial offer from HARX Telephony is for very small businesses of every trade, tradespeople included. It relies on remote staff or offshored reception, with a number from your country, incoming and outgoing calls, an answering service and assisting AI. Monthly subscription, prepaid minutes and AI, set-up possible within minutes."
+    },
+    {
+     "ul": [
+      "Reception that answers for you while you are on site.",
+      "A business number separate from your personal mobile, to display on your vehicle and quotes.",
+      "An answering service that keeps a record of requests so you can handle them at the end of the day."
+     ]
+    },
+    {
+     "h2": "General good practice for tradespeople"
+    },
+    {
+     "ul": [
+      "Show the same number on your vehicle, quotes, invoices and online listings.",
+      "Prepare the list of details to ask every new client: address, type of work, desired timeframe.",
+      "Call back quickly: speed of response is often a deciding factor for the customer.",
+      "Set aside a fixed daily slot to handle requests and prepare quotes.",
+      "Confirm in writing any appointment agreed by phone."
+     ]
+    },
+    {
+     "p": "These simple habits convey a serious, organised image, which matters a lot when a customer entrusts a job to a tradesperson."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Does a solo tradesperson need offshored reception?",
+       "a": "It is not compulsory, but it can prevent lost requests when you are on a job site and unable to answer."
+      },
+      {
+       "q": "Can I display the number on my vehicle?",
+       "a": "Yes, a dedicated business number can appear on all your materials, giving customers a single point of contact."
+      },
+      {
+       "q": "Is the offer limited to certain trades?",
+       "a": "No, the Reception / Secretarial offer is designed for very small businesses of every trade."
+      }
+     ]
+    },
+    {
+     "p": "So that every quote request gets an answer, look at the Reception / Secretarial offer from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Profesionales de la construcción: atender el teléfono desde la obra",
+   "description": "Oficios de la construcción: no pierda peticiones de presupuesto mientras trabaja en la obra, con la oferta Recepción / Secretaría de HARX Telefonía.",
+   "blocks": [
+    {
+     "p": "Un profesional de la construcción trabaja con las manos, a menudo en altura, con ruido o al aire libre. Sin embargo, gran parte de su actividad se decide por teléfono: peticiones de presupuesto, preguntas de clientes, coordinación con proveedores."
+    },
+    {
+     "h2": "El problema telefónico típico del profesional de la construcción"
+    },
+    {
+     "p": "En una obra rara vez se puede contestar. El cliente potencial que llama para pedir un presupuesto cae en el buzón, y hay muchas posibilidades de que llame después a un colega. Por la noche el profesional está cansado y todavía debe devolver llamadas, a menudo sin notas precisas de lo que pedía quien llamó."
+    },
+    {
+     "ul": [
+      "Las llamadas llegan en fases de trabajo en las que es difícil, e incluso peligroso, contestar.",
+      "Una petición de presupuesto no atendida con rapidez puede irse a la competencia.",
+      "Los datos útiles (dirección, tipo de obra, disponibilidad) rara vez se anotan en el momento de la llamada."
+     ]
+    },
+    {
+     "h2": "Cómo responde la oferta Recepción / Secretaría"
+    },
+    {
+     "p": "La oferta Recepción / Secretaría de HARX Telefonía se dirige a microempresas de cualquier oficio, autónomos de la construcción incluidos. Se basa en personal a distancia o recepción deslocalizada, con un número de su país, llamadas entrantes y salientes, un contestador y una IA de apoyo. Suscripción mensual, minutos e IA prepagados y puesta en marcha posible en pocos minutos."
+    },
+    {
+     "ul": [
+      "Una recepción que contesta por usted mientras está en la obra.",
+      "Un número profesional distinto de su móvil personal, para rotular en el vehículo y en los presupuestos.",
+      "Un contestador que guarda constancia de las peticiones para que las tramite al final del día."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para profesionales de la construcción"
+    },
+    {
+     "ul": [
+      "Muestre el mismo número en el vehículo, los presupuestos, las facturas y los anuncios en línea.",
+      "Prepare la lista de datos que pedir a cada cliente nuevo: dirección, tipo de obra y plazo deseado.",
+      "Devuelva las llamadas con rapidez: la rapidez de respuesta suele ser un criterio de elección para el cliente.",
+      "Reserve una franja fija cada día para tramitar peticiones y preparar presupuestos.",
+      "Confirme por escrito cualquier cita acordada por teléfono."
+     ]
+    },
+    {
+     "p": "Estos hábitos sencillos transmiten una imagen seria y organizada, algo que pesa mucho cuando un cliente confía una obra a un profesional."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Necesita recepción deslocalizada un profesional que trabaja solo?",
+       "a": "No es obligatorio, pero puede evitar perder peticiones cuando está en una obra y no puede contestar."
+      },
+      {
+       "q": "¿Puedo mostrar el número en mi vehículo?",
+       "a": "Sí, un número profesional dedicado puede aparecer en todos sus soportes, lo que da a los clientes un único punto de contacto."
+      },
+      {
+       "q": "¿La oferta se limita a ciertos oficios?",
+       "a": "No, la oferta Recepción / Secretaría está pensada para microempresas de cualquier oficio."
+      }
+     ]
+    },
+    {
+     "p": "Para que cada petición de presupuesto obtenga respuesta, consulte la oferta Recepción / Secretaría de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "أصحاب مهن البناء: الرد على الهاتف وأنتم في الورشة",
+   "description": "مهن البناء: لا تفوّتوا طلبات عروض الأسعار وأنتم في الورشة بفضل عرض الاستقبال / السكرتارية من HARX Téléphonie وممارسات عامة مفيدة.",
+   "blocks": [
+    {
+     "p": "يعمل صاحب مهنة البناء بيديه، وغالبًا على ارتفاع أو وسط الضجيج أو في العراء. ومع ذلك فإن جزءًا كبيرًا من نشاطه يُحسم عبر الهاتف: طلبات عروض الأسعار، وأسئلة العملاء، والتنسيق مع الموردين."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة لصاحب مهنة البناء"
+    },
+    {
+     "p": "نادرًا ما يمكن الرد في الورشة. والعميل المحتمل الذي يتصل لطلب عرض سعر يصل إلى البريد الصوتي، ومن المرجّح أن يتصل بعدها بمنافس. وفي المساء يكون الحرفي متعبًا وعليه أن يعاود الاتصال، غالبًا دون ملاحظات دقيقة عمّا طلبه المتصل."
+    },
+    {
+     "ul": [
+      "تصل المكالمات في مراحل العمل التي يصعب فيها الرد، بل قد يكون الرد خطرًا.",
+      "طلب عرض سعر لم يُعالَج بسرعة قد يذهب إلى منافس.",
+      "نادرًا ما تُدوَّن المعلومات المفيدة (العنوان وطبيعة الأشغال والمواعيد المتاحة) لحظة المكالمة."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض الاستقبال / السكرتارية هذه الحاجة"
+    },
+    {
+     "p": "يتوجه عرض الاستقبال / السكرتارية من HARX Téléphonie إلى المنشآت الصغيرة جدًا من كل المهن، ومنها الحرفيون. يعتمد على موظفين عن بُعد أو استقبال مُنقول، مع رقم من بلدكم، ومكالمات واردة وصادرة، وجهاز رد، وذكاء اصطناعي مساعد. اشتراك شهري مع دقائق وذكاء اصطناعي مدفوعَين مسبقًا، والتشغيل ممكن خلال دقائق."
+    },
+    {
+     "ul": [
+      "استقبال يردّ عنكم بينما أنتم في الورشة.",
+      "رقم مهني منفصل عن جوالكم الشخصي، يُكتب على المركبة وعلى عروض الأسعار.",
+      "جهاز رد يحتفظ بأثر الطلبات لتعالجوها في نهاية اليوم."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة لأصحاب مهن البناء"
+    },
+    {
+     "ul": [
+      "اكتبوا الرقم نفسه على المركبة وعروض الأسعار والفواتير والإعلانات على الإنترنت.",
+      "جهّزوا قائمة بما يجب سؤال كل عميل جديد عنه: العنوان ونوع الأشغال والأجل المرغوب.",
+      "عاودوا الاتصال بسرعة، فسرعة الرد كثيرًا ما تكون معيارًا لاختيار العميل.",
+      "خصّصوا وقتًا ثابتًا كل يوم لمعالجة الطلبات وإعداد عروض الأسعار.",
+      "أكّدوا كتابةً أي موعد اتُّفق عليه هاتفيًا."
+     ]
+    },
+    {
+     "p": "هذه العادات البسيطة تعكس صورة جادة ومنظمة، وهذا مهم جدًا حين يوكل العميل ورشة إلى حرفي."
+    },
+    {
+     "p": "ويفيد أيضًا أن تحتفظوا بدفتر صغير أو ملف إلكتروني لتدوين الطلبات حسب الأولوية، فبعض الأشغال عاجلة وبعضها يحتمل الانتظار، والترتيب الجيد يوفّر عليكم الجهد والوقت."
+    },
+    {
+     "p": "وحين يجد العميل رقمًا واحدًا واضحًا ويحصل على ردّ في وقت معقول، يزداد استعداده للثقة بكم وللتوصية بكم لدى معارفه وأقاربه."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل يحتاج الحرفي الذي يعمل وحده إلى استقبال مُنقول؟",
+       "a": "ليس إلزاميًا، لكنه قد يجنّبكم ضياع الطلبات حين تكونون في الورشة وغير قادرين على الرد."
+      },
+      {
+       "q": "هل أستطيع كتابة الرقم على مركبتي؟",
+       "a": "نعم، يمكن أن يظهر رقم مهني مخصص على كل وسائلكم، فيمنح العملاء نقطة اتصال واحدة."
+      },
+      {
+       "q": "هل العرض محصور في مهن معينة؟",
+       "a": "لا، عرض الاستقبال / السكرتارية مصمم للمنشآت الصغيرة جدًا من كل المهن."
+      }
+     ]
+    },
+    {
+     "p": "لكي يجد كل طلب عرض سعر جوابًا، اطّلعوا على عرض الاستقبال / السكرتارية من HARX Téléphonie، وانظروا هل يناسب طبيعة عملكم وحجم الطلبات التي تصلكم."
+    }
+   ]
+  }
+ }
+}

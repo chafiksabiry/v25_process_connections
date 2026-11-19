@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-company-space",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Espace entreprise COMPANY : « Publier un gig » arrive bientôt",
+   "description": "Que prévoit l’espace COMPANY de HARX.ai ? Explications sur la fonction « Publier un gig », annoncée comme bientôt disponible, et sur la suite à donner.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Qu’est-ce que l’espace COMPANY ?",
+       "a": "C’est l’espace de HARX.ai destiné aux entreprises qui souhaitent confier des missions via TAAS, en définissant un résultat attendu et son prix."
+      },
+      {
+       "q": "À quoi sert « Publier un gig » ?",
+       "a": "Cette fonction est prévue pour qu’une entreprise publie une mission, avec son résultat attendu et son prix, afin que le réseau de professionnels puisse s’en saisir."
+      },
+      {
+       "q": "« Publier un gig » est-il disponible ?",
+       "a": "Pas encore : la fonction est annoncée comme bientôt disponible. Aucune date n’est communiquée ici."
+      },
+      {
+       "q": "Que puis-je faire en attendant ?",
+       "a": "Préparer votre réflexion : quel résultat voulez-vous obtenir, comment le reconnaîtrez-vous, quel prix lui donnez-vous ? Ces réponses faciliteront la future publication."
+      },
+      {
+       "q": "Qui réalisera ensuite les gigs ?",
+       "a": "Le réseau de professionnels du service client : agents et reps certifiés, humains ou IA, qui trouvent des gigs dans l’espace REPS."
+      },
+      {
+       "q": "Où suivre les nouveautés ?",
+       "a": "Sur HARX.ai, qui présente ses offres et signale ce qui arrive. L’espace COMPANY s’y inscrit au côté de TAAS."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "The COMPANY Space: “Publish a Gig” Is Coming Soon",
+   "description": "What does HARX.ai’s COMPANY space offer? An explanation of the “Publish a gig” feature, announced as coming soon, and what to do in the meantime.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What is the COMPANY space?",
+       "a": "It is the HARX.ai space for companies that want to hand off missions through TAAS by defining an expected result and its price."
+      },
+      {
+       "q": "What is “Publish a gig” for?",
+       "a": "This feature is intended to let a company publish a mission, with its expected result and price, so the network of professionals can pick it up."
+      },
+      {
+       "q": "Is “Publish a gig” available?",
+       "a": "Not yet: the feature is announced as coming soon. No date is given here."
+      },
+      {
+       "q": "What can I do in the meantime?",
+       "a": "Prepare your thinking: what result do you want, how will you recognise it, and what price will you give it? These answers will make the future publication easier."
+      },
+      {
+       "q": "Who will carry out the gigs afterwards?",
+       "a": "The network of customer service professionals: certified agents and reps, human or AI, who find gigs in the REPS space."
+      },
+      {
+       "q": "Where can I follow updates?",
+       "a": "On HARX.ai, which presents its offers and flags what is coming. The COMPANY space sits there alongside TAAS."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Espacio empresa COMPANY: «Publicar un gig» llegará pronto",
+   "description": "¿Qué prevé el espacio COMPANY de HARX.ai? Explicamos la función «Publicar un gig», anunciada como próximamente disponible, y qué hacer mientras tanto.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué es el espacio COMPANY?",
+       "a": "Es el espacio de HARX.ai pensado para empresas que quieren encargar misiones a través de TAAS, definiendo un resultado esperado y su precio."
+      },
+      {
+       "q": "¿Para qué sirve «Publicar un gig»?",
+       "a": "Esta función está prevista para que una empresa publique una misión, con su resultado esperado y su precio, y la red de profesionales pueda asumirla."
+      },
+      {
+       "q": "¿Está disponible «Publicar un gig»?",
+       "a": "Todavía no: la función está anunciada como próximamente disponible. Aquí no se comunica ninguna fecha."
+      },
+      {
+       "q": "¿Qué puedo hacer mientras tanto?",
+       "a": "Preparar su reflexión: qué resultado quiere, cómo lo reconocerá y qué precio le dará. Esas respuestas facilitarán la futura publicación."
+      },
+      {
+       "q": "¿Quién realizará después los gigs?",
+       "a": "La red de profesionales de atención al cliente: agentes y reps certificados, personas o IA, que encuentran gigs en el espacio REPS."
+      },
+      {
+       "q": "¿Dónde sigo las novedades?",
+       "a": "En HARX.ai, que presenta sus ofertas y señala lo que viene. El espacio COMPANY forma parte de ella junto a TAAS."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "مساحة الشركات COMPANY: ميزة «نشر gig» قريباً",
+   "description": "ماذا تتيح مساحة COMPANY في HARX.ai؟ شرح لميزة «نشر gig» المعلنة على أنها قريباً، وما يمكنك فعله في الأثناء.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ما هي مساحة COMPANY؟",
+       "a": "هي مساحة في HARX.ai موجهة للشركات التي تريد إسناد مهام عبر TAAS بتحديد نتيجة منتظرة وسعرها."
+      },
+      {
+       "q": "ما فائدة «نشر gig»؟",
+       "a": "هذه الميزة مخصصة لتمكين الشركة من نشر مهمة مع نتيجتها المنتظرة وسعرها، ليتمكن محترفو الشبكة من تولّيها."
+      },
+      {
+       "q": "هل «نشر gig» متاح؟",
+       "a": "ليس بعد، فالميزة معلنة على أنها قريباً. ولا نذكر هنا أي موعد."
+      },
+      {
+       "q": "ماذا أفعل في الأثناء؟",
+       "a": "حضّر تصوّرك: ما النتيجة التي تريدها، وكيف ستتعرف إلى تحققها، وما السعر الذي ستحدده لها. ستسهّل هذه الإجابات النشر مستقبلاً."
+      },
+      {
+       "q": "من سينفّذ الـ gigs لاحقاً؟",
+       "a": "شبكة محترفي خدمة العملاء: وكلاء ومندوبون معتمدون، بشر أو ذكاء اصطناعي، يجدون الـ gigs في مساحة REPS."
+      },
+      {
+       "q": "أين أتابع المستجدات؟",
+       "a": "على HARX.ai التي تعرض عروضها وتشير إلى ما هو قادم. وتندرج مساحة COMPANY فيها إلى جانب TAAS."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

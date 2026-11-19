@@ -1,0 +1,301 @@
+{
+ "type": "solution",
+ "slug": "sol-a-expat-working-for-france",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Expatrié travaillant pour la France : rester joignable",
+   "description": "Vous vivez hors de France mais travaillez pour des clients ou un employeur français ? Nomad Solo de HARX Téléphonie offre un numéro français et un répondeur.",
+   "blocks": [
+    {
+     "p": "De plus en plus de personnes vivent à l’étranger tout en travaillant pour la France. Leur quotidien est simple sur le papier, mais le téléphone peut vite devenir un casse-tête : numéro étranger, décalage horaire, interlocuteurs qui s’attendent à un indicatif français."
+    },
+    {
+     "h2": "Le problème téléphonique typique de l’expatrié qui travaille pour la France"
+    },
+    {
+     "p": "Un interlocuteur français voit s’afficher un numéro étranger et hésite à décrocher. À l’inverse, l’expatrié qui rappelle depuis son opérateur local peut être confronté à des tarifs d’appel peu lisibles. Résultat : des échanges plus rares que souhaité, et parfois des rendez-vous manqués."
+    },
+    {
+     "ul": [
+      "Les clients et collègues en France se méfient des numéros inconnus ou internationaux.",
+      "Le décalage horaire entre votre pays de résidence et la France réduit les créneaux où les deux parties sont réellement disponibles.",
+      "Les appels professionnels et personnels se mélangent sur la même carte SIM locale."
+     ]
+    },
+    {
+     "h2": "Comment Nomad Solo répond à ce besoin"
+    },
+    {
+     "p": "Nomad Solo, offre de HARX Téléphonie, cible explicitement les travailleurs en France vivant à l’étranger. Elle fournit un numéro français, un répondeur personnel et un journal d’appels. L’abonnement est mensuel, les minutes et l’IA sont prépayées, et la mise en route peut se faire en quelques minutes."
+    },
+    {
+     "ul": [
+      "Un numéro français que vos interlocuteurs reconnaissent immédiatement et qu’ils rappellent plus volontiers.",
+      "Un répondeur personnel qui prend le relais pendant vos heures de repos ou de déplacement.",
+      "Un journal d’appels pour garder la trace de ce qui s’est dit avec un client ou un collègue d’un fuseau à l’autre."
+     ]
+    },
+    {
+     "h2": "Bonnes pratiques générales pour un expatrié"
+    },
+    {
+     "ul": [
+      "Définissez avec votre employeur ou vos clients des horaires de contact communs, en tenant compte du décalage horaire.",
+      "Utilisez votre ligne professionnelle uniquement pour le travail et gardez votre numéro local pour la vie quotidienne.",
+      "Confirmez par courriel les points importants évoqués au téléphone.",
+      "Renseignez-vous sur les obligations déclaratives liées à votre situation : un conseiller spécialisé saura vous répondre.",
+      "Prévoyez une solution de repli, par exemple une messagerie écrite, en cas de panne de connexion."
+     ]
+    },
+    {
+     "p": "Ces habitudes, simples à mettre en place, donnent à vos interlocuteurs français le sentiment que vous êtes proche, même si vous travaillez depuis un autre continent."
+    },
+    {
+     "h2": "Questions fréquentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "Un numéro français est-il utile si je travaille à distance ?",
+       "a": "Il rassure les interlocuteurs en France et facilite le rappel, car ils reconnaissent un indicatif familier plutôt qu’un numéro étranger."
+      },
+      {
+       "q": "L’offre convient-elle à un salarié comme à un indépendant ?",
+       "a": "Nomad Solo vise les freelances, les nomades et les travailleurs en France vivant à l’étranger, donc plusieurs situations professionnelles."
+      },
+      {
+       "q": "Dois-je renoncer à mon numéro local ?",
+       "a": "Non, rien n’oblige à abandonner votre numéro local : la ligne professionnelle peut simplement s’ajouter pour séparer le travail du reste."
+      }
+     ]
+    },
+    {
+     "p": "Pour travailler depuis l’étranger avec une présence téléphonique française, découvrez Nomad Solo chez HARX Téléphonie."
+    }
+   ]
+  },
+  "en": {
+   "title": "Expats Working for France: Staying Reachable by Phone",
+   "description": "Living outside France but working for French clients or an employer? Nomad Solo from HARX Telephony offers a French number, answering service and call log.",
+   "blocks": [
+    {
+     "p": "More and more people live abroad while working for France. Their daily life looks simple on paper, but the telephone can quickly become a headache: a foreign number, a time difference, and contacts who expect a French dialling code."
+    },
+    {
+     "h2": "The typical phone problem for an expat who works for France"
+    },
+    {
+     "p": "A French contact sees a foreign number on the screen and hesitates to answer. Conversely, an expat calling back through a local carrier may face unclear call rates. The outcome: fewer conversations than hoped, and sometimes missed appointments."
+    },
+    {
+     "ul": [
+      "Clients and colleagues in France are wary of unknown or international numbers.",
+      "The time difference between your country of residence and France shrinks the windows when both sides are truly available.",
+      "Work and personal calls end up mixed on the same local SIM card."
+     ]
+    },
+    {
+     "h2": "How Nomad Solo addresses this"
+    },
+    {
+     "p": "Nomad Solo, a HARX Telephony offer, explicitly targets people working in France while living abroad. It provides a French number, a personal answering service and a call log. The subscription is monthly, minutes and AI are prepaid, and set-up can take just a few minutes."
+    },
+    {
+     "ul": [
+      "A French number your contacts recognise immediately and are more willing to call back.",
+      "A personal answering service that steps in during your rest hours or while you are travelling.",
+      "A call log to keep track of what was said with a client or colleague across time zones."
+     ]
+    },
+    {
+     "h2": "General good practice for expats"
+    },
+    {
+     "ul": [
+      "Agree on shared contact hours with your employer or clients, taking the time difference into account.",
+      "Use your business line for work only and keep your local number for daily life.",
+      "Confirm key points discussed by phone in a follow-up email.",
+      "Look into any reporting obligations tied to your situation: a specialist adviser can answer that.",
+      "Plan a fallback, such as written messaging, in case your connection fails."
+     ]
+    },
+    {
+     "p": "These habits are simple to put in place, and they give your French contacts the feeling that you are close at hand even when you work from another continent."
+    },
+    {
+     "h2": "Frequently asked questions"
+    },
+    {
+     "faq": [
+      {
+       "q": "Is a French number useful if I work remotely?",
+       "a": "It reassures contacts in France and makes callbacks easier, since they recognise a familiar dialling code instead of a foreign number."
+      },
+      {
+       "q": "Does the offer suit employees as well as freelancers?",
+       "a": "Nomad Solo is aimed at freelancers, nomads and people working in France while living abroad, so several working situations."
+      },
+      {
+       "q": "Do I have to give up my local number?",
+       "a": "No, nothing requires you to abandon your local number: the business line can simply be added to separate work from the rest."
+      }
+     ]
+    },
+    {
+     "p": "To work from abroad with a French telephone presence, discover Nomad Solo from HARX Telephony."
+    }
+   ]
+  },
+  "es": {
+   "title": "Expatriados que trabajan para Francia: cómo seguir localizables",
+   "description": "¿Vive fuera de Francia y trabaja para Francia? Nomad Solo de HARX Telefonía ofrece número francés, contestador personal y registro de llamadas.",
+   "blocks": [
+    {
+     "p": "Cada vez más personas viven en el extranjero mientras trabajan para Francia. Su día a día parece sencillo sobre el papel, pero el teléfono puede convertirse en un quebradero de cabeza: número extranjero, diferencia horaria e interlocutores que esperan un prefijo francés."
+    },
+    {
+     "h2": "El problema telefónico típico del expatriado que trabaja para Francia"
+    },
+    {
+     "p": "Un interlocutor francés ve un número extranjero en la pantalla y duda en contestar. A la inversa, el expatriado que devuelve la llamada desde un operador local puede encontrarse con tarifas poco claras. Resultado: menos conversaciones de las deseadas y, a veces, citas perdidas."
+    },
+    {
+     "ul": [
+      "Los clientes y compañeros en Francia desconfían de los números desconocidos o internacionales.",
+      "La diferencia horaria entre su país de residencia y Francia reduce las franjas en que ambos están realmente disponibles.",
+      "Las llamadas profesionales y personales se mezclan en la misma tarjeta SIM local."
+     ]
+    },
+    {
+     "h2": "Cómo responde Nomad Solo a esta necesidad"
+    },
+    {
+     "p": "Nomad Solo, oferta de HARX Telefonía, se dirige expresamente a quienes trabajan en Francia viviendo en el extranjero. Ofrece un número francés, un contestador personal y un registro de llamadas. La suscripción es mensual, los minutos y la IA son prepagados, y la puesta en marcha puede hacerse en pocos minutos."
+    },
+    {
+     "ul": [
+      "Un número francés que sus interlocutores reconocen al instante y que devuelven con más gusto.",
+      "Un contestador personal que toma el relevo durante sus horas de descanso o de viaje.",
+      "Un registro de llamadas para guardar constancia de lo hablado con un cliente o compañero de un huso horario a otro."
+     ]
+    },
+    {
+     "h2": "Buenas prácticas generales para expatriados"
+    },
+    {
+     "ul": [
+      "Defina con su empresa o clientes horarios de contacto comunes, teniendo en cuenta la diferencia horaria.",
+      "Use su línea profesional solo para el trabajo y reserve el número local para la vida diaria.",
+      "Confirme por correo los puntos importantes tratados por teléfono.",
+      "Infórmese sobre las obligaciones declarativas de su situación: un asesor especializado sabrá orientarle.",
+      "Prevea una solución de respaldo, como la mensajería escrita, por si falla la conexión."
+     ]
+    },
+    {
+     "p": "Estos hábitos son fáciles de aplicar y hacen que sus contactos franceses sientan que está cerca, aunque trabaje desde otro continente."
+    },
+    {
+     "h2": "Preguntas frecuentes"
+    },
+    {
+     "faq": [
+      {
+       "q": "¿Es útil un número francés si trabajo a distancia?",
+       "a": "Tranquiliza a los contactos en Francia y facilita la devolución de llamadas, porque reconocen un prefijo familiar en lugar de un número extranjero."
+      },
+      {
+       "q": "¿La oferta sirve tanto a asalariados como a autónomos?",
+       "a": "Nomad Solo se dirige a freelances, nómadas y personas que trabajan en Francia viviendo en el extranjero, es decir, a varias situaciones laborales."
+      },
+      {
+       "q": "¿Debo renunciar a mi número local?",
+       "a": "No, nada obliga a abandonarlo: la línea profesional puede añadirse simplemente para separar el trabajo del resto."
+      }
+     ]
+    },
+    {
+     "p": "Para trabajar desde el extranjero con presencia telefónica francesa, conozca Nomad Solo de HARX Telefonía."
+    }
+   ]
+  },
+  "ar": {
+   "title": "المغترب العامل لصالح فرنسا: كيف تبقى متاحًا عبر الهاتف",
+   "description": "تقيمون خارج فرنسا وتعملون لصالح عملاء أو جهة عمل فرنسية؟ يوفّر عرض Nomad Solo من HARX Téléphonie رقمًا فرنسيًا وردًّا شخصيًا وسجل مكالمات.",
+   "blocks": [
+    {
+     "p": "يزداد عدد الأشخاص الذين يقيمون في الخارج ويعملون لصالح فرنسا. تبدو حياتهم اليومية بسيطة على الورق، لكن الهاتف قد يتحول بسرعة إلى مصدر إزعاج: رقم أجنبي، وفارق توقيت، ومحاورون يتوقعون رمزًا فرنسيًا."
+    },
+    {
+     "h2": "المشكلة الهاتفية المعتادة للمغترب الذي يعمل لصالح فرنسا"
+    },
+    {
+     "p": "يرى المحاور الفرنسي رقمًا أجنبيًا على الشاشة فيتردد في الرد. وفي المقابل، قد يواجه المغترب الذي يعاود الاتصال عبر مشغّل محلي تعرفة غير واضحة. والنتيجة محادثات أقل مما هو مرجو، ومواعيد فائتة أحيانًا."
+    },
+    {
+     "ul": [
+      "يتوجس العملاء والزملاء في فرنسا من الأرقام المجهولة أو الدولية.",
+      "فارق التوقيت بين بلد الإقامة وفرنسا يقلّص الفترات التي يكون فيها الطرفان متاحين فعلًا.",
+      "تختلط المكالمات المهنية والشخصية على الشريحة المحلية نفسها."
+     ]
+    },
+    {
+     "h2": "كيف يلبّي عرض Nomad Solo هذه الحاجة"
+    },
+    {
+     "p": "يستهدف عرض Nomad Solo من HARX Téléphonie صراحةً العاملين في فرنسا المقيمين في الخارج. يوفّر رقمًا فرنسيًا وردًّا شخصيًا وسجلًا للمكالمات. الاشتراك شهري، والدقائق والذكاء الاصطناعي مدفوعان مسبقًا، ويمكن التشغيل خلال دقائق قليلة."
+    },
+    {
+     "ul": [
+      "رقم فرنسي يتعرّف عليه محاوروكم فورًا ويكونون أكثر استعدادًا لمعاودة الاتصال به.",
+      "ردّ شخصي يتولى الأمر في ساعات راحتكم أو أثناء سفركم.",
+      "سجل مكالمات يحفظ أثر ما دار مع عميل أو زميل عبر المناطق الزمنية."
+     ]
+    },
+    {
+     "h2": "ممارسات عامة جيدة للمغتربين"
+    },
+    {
+     "ul": [
+      "حدّدوا مع جهة عملكم أو عملائكم ساعات اتصال مشتركة مع مراعاة فارق التوقيت.",
+      "استخدموا خطكم المهني للعمل فقط وأبقوا رقمكم المحلي للحياة اليومية.",
+      "أكّدوا عبر البريد الإلكتروني النقاط المهمة التي نوقشت هاتفيًا.",
+      "استعلموا عن الالتزامات التصريحية المرتبطة بوضعكم، فالمستشار المتخصص قادر على الإجابة.",
+      "جهّزوا حلًا بديلًا، كالمراسلة المكتوبة، تحسّبًا لانقطاع الاتصال."
+     ]
+    },
+    {
+     "p": "هذه العادات سهلة التطبيق، وتمنح محاوريكم الفرنسيين شعورًا بأنكم قريبون منهم حتى لو كنتم تعملون من قارة أخرى."
+    },
+    {
+     "p": "كما أن التزامكم بمواعيد واضحة وردودكم المنتظمة يبنيان ثقة طويلة الأمد، وهي أثمن ما يملكه من يعمل عن بُعد مع أطراف في بلد آخر."
+    },
+    {
+     "p": "ولا تنسوا أن تراجعوا بين حين وآخر ترتيباتكم الهاتفية، فالأوضاع المهنية والإقامة تتغير، وما كان مناسبًا قبل عام قد يحتاج إلى تعديل اليوم، ولا ضرر في طلب رأي مستشار مختص عند الشك في أي التزام قانوني."
+    },
+    {
+     "h2": "أسئلة شائعة"
+    },
+    {
+     "faq": [
+      {
+       "q": "هل الرقم الفرنسي مفيد إذا كنت أعمل عن بُعد؟",
+       "a": "إنه يطمئن المحاورين في فرنسا ويسهّل معاودة الاتصال، لأنهم يتعرفون على رمز مألوف بدل رقم أجنبي."
+      },
+      {
+       "q": "هل يناسب العرض الموظفين كما يناسب المستقلين؟",
+       "a": "يستهدف Nomad Solo العاملين المستقلين والرحّالة ومن يعملون في فرنسا وهم مقيمون في الخارج، أي عدة أوضاع مهنية."
+      },
+      {
+       "q": "هل يجب أن أتخلى عن رقمي المحلي؟",
+       "a": "لا، لا شيء يلزمكم بالتخلي عنه، ويمكن ببساطة إضافة الخط المهني لفصل العمل عن بقية الحياة."
+      }
+     ]
+    },
+    {
+     "p": "للعمل من الخارج بحضور هاتفي فرنسي، تعرّفوا على عرض Nomad Solo من HARX Téléphonie."
+    }
+   ]
+  }
+ }
+}

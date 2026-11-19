@@ -1,0 +1,143 @@
+{
+ "type": "faq",
+ "slug": "faq-taas-realtime-evaluation",
+ "date": "2026-11-11",
+ "langs": {
+  "fr": {
+   "title": "Évaluation des interactions en temps réel : le principe chez TAAS",
+   "description": "Chaque interaction TAAS est évaluée en temps réel. Comprenez ce que cela change pour le suivi de la qualité et pour l’approbation d’un résultat.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "Que signifie évaluer en temps réel ?",
+       "a": "Cela veut dire que chaque interaction est évaluée au moment où elle a lieu, et non seulement une fois la mission terminée."
+      },
+      {
+       "q": "Toutes les interactions sont-elles concernées ?",
+       "a": "Oui, dans TAAS chaque interaction est évaluée en temps réel. Le principe vaut pour l’ensemble du réseau de professionnels."
+      },
+      {
+       "q": "Quel est l’intérêt pour l’entreprise ?",
+       "a": "Elle peut suivre la qualité du travail pendant qu’il se déroule. Cela aide à vérifier que l’on va bien vers le résultat attendu."
+      },
+      {
+       "q": "Quel lien avec le paiement ?",
+       "a": "Le paiement dépend de l’approbation du résultat. L’évaluation en continu fournit des repères utiles pour juger si ce résultat est atteint."
+      },
+      {
+       "q": "Qu’est-ce que cela apporte aux reps ?",
+       "a": "Un retour sur leur travail au fil des interactions. Les détails du dispositif ne sont pas décrits ici ; consultez HARX.ai pour les informations à jour."
+      },
+      {
+       "q": "Cela remplace-t-il un résultat clairement défini ?",
+       "a": "Non. L’évaluation accompagne la mission mais ne remplace pas la définition préalable du résultat, qui reste le cœur de TAAS."
+      }
+     ]
+    }
+   ]
+  },
+  "en": {
+   "title": "Real-Time Evaluation of Interactions: The TAAS Principle",
+   "description": "Every TAAS interaction is evaluated in real time. Understand what this changes for quality monitoring and for the approval of a result.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "What does real-time evaluation mean?",
+       "a": "It means each interaction is evaluated as it happens, not only after the mission is over."
+      },
+      {
+       "q": "Does it apply to every interaction?",
+       "a": "Yes. In TAAS, every interaction is evaluated in real time. The principle applies across the whole network of professionals."
+      },
+      {
+       "q": "What is the benefit for the company?",
+       "a": "It can follow the quality of the work while it takes place, which helps check that things are heading toward the expected result."
+      },
+      {
+       "q": "How does it relate to payment?",
+       "a": "Payment depends on the result being approved. Continuous evaluation provides useful markers for judging whether that result has been reached."
+      },
+      {
+       "q": "What does it bring to reps?",
+       "a": "Feedback on their work as interactions unfold. The details of the mechanism are not described here; see HARX.ai for up-to-date information."
+      },
+      {
+       "q": "Does it replace a clearly defined result?",
+       "a": "No. Evaluation accompanies the mission but does not replace the prior definition of the result, which remains the core of TAAS."
+      }
+     ]
+    }
+   ]
+  },
+  "es": {
+   "title": "Evaluación de interacciones en tiempo real: el principio de TAAS",
+   "description": "Cada interacción de TAAS se evalúa en tiempo real. Entienda qué cambia esto para el seguimiento de la calidad y para la aprobación de un resultado.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "¿Qué significa evaluar en tiempo real?",
+       "a": "Significa que cada interacción se evalúa en el momento en que ocurre, y no solo cuando la misión ha terminado."
+      },
+      {
+       "q": "¿Afecta a todas las interacciones?",
+       "a": "Sí. En TAAS cada interacción se evalúa en tiempo real. El principio vale para toda la red de profesionales."
+      },
+      {
+       "q": "¿Qué interés tiene para la empresa?",
+       "a": "Puede seguir la calidad del trabajo mientras se desarrolla, lo que ayuda a comprobar que se avanza hacia el resultado esperado."
+      },
+      {
+       "q": "¿Qué relación tiene con el pago?",
+       "a": "El pago depende de que el resultado se apruebe. La evaluación continua aporta referencias útiles para juzgar si ese resultado se ha alcanzado."
+      },
+      {
+       "q": "¿Qué aporta a los reps?",
+       "a": "Una retroalimentación sobre su trabajo a medida que avanzan las interacciones. Los detalles del mecanismo no se describen aquí; consulte HARX.ai para información actualizada."
+      },
+      {
+       "q": "¿Sustituye a un resultado bien definido?",
+       "a": "No. La evaluación acompaña la misión, pero no reemplaza la definición previa del resultado, que sigue siendo el centro de TAAS."
+      }
+     ]
+    }
+   ]
+  },
+  "ar": {
+   "title": "تقييم التفاعلات في الوقت الفعلي: مبدأ TAAS",
+   "description": "يُقيَّم كل تفاعل في TAAS في الوقت الفعلي. افهم ما يغيّره ذلك في متابعة الجودة وفي الموافقة على النتيجة قبل الدفع.",
+   "blocks": [
+    {
+     "faq": [
+      {
+       "q": "ماذا يعني التقييم في الوقت الفعلي؟",
+       "a": "يعني أن كل تفاعل يُقيَّم لحظة حدوثه، لا بعد انتهاء المهمة فقط."
+      },
+      {
+       "q": "هل يشمل ذلك كل التفاعلات؟",
+       "a": "نعم. في TAAS يُقيَّم كل تفاعل في الوقت الفعلي، والمبدأ ينطبق على شبكة المحترفين كلها."
+      },
+      {
+       "q": "ما فائدته للشركة؟",
+       "a": "تستطيع متابعة جودة العمل أثناء حدوثه، مما يساعد على التأكد من أن المسار يتجه نحو النتيجة المنتظرة."
+      },
+      {
+       "q": "ما علاقته بالدفع؟",
+       "a": "يتوقف الدفع على الموافقة على النتيجة، ويوفّر التقييم المستمر مؤشرات مفيدة للحكم على تحققها."
+      },
+      {
+       "q": "ماذا يقدّم للمندوبين؟",
+       "a": "ملاحظات على عملهم مع تتابع التفاعلات. ولا نفصّل هنا تفاصيل الآلية؛ راجع HARX.ai للاطلاع على المعلومات المحدّثة."
+      },
+      {
+       "q": "هل يغني عن تحديد نتيجة واضحة؟",
+       "a": "لا. يواكب التقييم المهمة لكنه لا يحل محل التحديد المسبق للنتيجة، وهو جوهر TAAS."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

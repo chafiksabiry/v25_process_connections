@@ -1,0 +1,301 @@
+{
+ "type": "blog",
+ "slug": "blog-b-us-call-center-key-considerations",
+ "date": "2026-11-09",
+ "langs": {
+  "fr": {
+   "title": "Centre d'appels aux États-Unis : points d'attention généraux",
+   "description": "Servir des clients américains depuis un centre d'appels : langue, fuseaux horaires, attentes de service, cadre réglementaire et organisation, en termes généraux.",
+   "blocks": [
+    {
+     "h2": "Un marché vaste, des attentes précises"
+    },
+    {
+     "p": "Les États-Unis sont un marché où la relation client est souvent perçue comme un élément central de l'expérience. Les clients s'attendent généralement à être compris rapidement, à pouvoir joindre un interlocuteur à des horaires étendus et à obtenir une réponse concrète. Pour une entreprise qui veut s'adresser à ce public, ou pour un centre d'appels qui opère pour des clients américains, il est utile de bien comprendre ces attentes."
+    },
+    {
+     "p": "Cet article reste volontairement général. Chaque secteur, chaque État et chaque type de service a ses spécificités, et un projet réel nécessite un examen détaillé avec des conseils adaptés."
+    },
+    {
+     "h2": "Langue et culture de service"
+    },
+    {
+     "p": "La maîtrise de l'anglais ne suffit pas : il faut aussi comprendre les usages. Le ton est souvent perçu comme plus direct et chaleureux, avec une attente de réactivité et de volonté d'aider. Les expressions idiomatiques, l'humour ou les références locales peuvent être mal interprétés, et inversement."
+    },
+    {
+     "p": "L'espagnol est aussi largement utilisé dans une partie de la clientèle ; selon votre activité, proposer plusieurs langues peut être une marque d'attention."
+    },
+    {
+     "ul": [
+      "Évaluer l'oral et l'écrit en situation réelle.",
+      "Former les agents aux usages de politesse attendus.",
+      "Prévoir un accompagnement linguistique pour les termes propres au secteur."
+     ]
+    },
+    {
+     "h2": "Fuseaux horaires et couverture"
+    },
+    {
+     "p": "Le territoire s'étend sur plusieurs fuseaux horaires. Une couverture adaptée suppose de savoir quels horaires correspondent à quelles régions et comment organiser les équipes, qu'elles soient sur plateau ou à distance, pour servir les clients à des moments pratiques pour eux."
+    },
+    {
+     "p": "Si l'équipe se trouve dans un autre pays, le décalage horaire doit être pris en compte dans la planification, les relèves et les points avec le client."
+    },
+    {
+     "h2": "Cadre réglementaire : se faire accompagner"
+    },
+    {
+     "p": "Les règles applicables aux appels, notamment sortants, ainsi qu'à l'enregistrement des conversations, à la protection des données et à certains secteurs réglementés, peuvent varier selon les États et selon la nature de l'activité. Il est indispensable de s'informer auprès de sources officielles et de conseils juridiques compétents avant de démarrer. Ce guide ne constitue pas un avis juridique."
+    },
+    {
+     "ul": [
+      "Identifier les règles applicables à votre type d'appels.",
+      "Documenter les consentements et les enregistrements.",
+      "Prévoir des consignes claires pour les sujets sensibles.",
+      "Mettre à jour vos pratiques lorsque les règles évoluent."
+     ]
+    },
+    {
+     "h2": "Organisation et qualité"
+    },
+    {
+     "p": "Pour servir un marché éloigné, la qualité doit pouvoir être mesurée de façon régulière : écoute d'échanges, évaluation de chaque interaction, retours des clients finaux. La transparence avec le client donneur d'ordre sur ce qui est suivi et comment est un facteur de confiance."
+    },
+    {
+     "p": "Dans l'approche TAAS de HARX.ai, chaque interaction est évaluée en temps réel et le paiement n'intervient que lorsque le résultat défini est approuvé. C'est une façon d'aligner l'organisation sur ce qui compte pour le client."
+    },
+    {
+     "h2": "Une téléphonie pour les centres multi-clients"
+    },
+    {
+     "p": "Pour les centres d'appels qui servent plusieurs clients, HARX Téléphonie propose l'offre Contact Centre Multi-clients, destinée aux centres situés en Europe, aux États-Unis ou dans des pays d'externalisation comme la France, le Maroc, la Tunisie et le Sénégal, avec des agents sur plateau ou à distance."
+    }
+   ]
+  },
+  "en": {
+   "title": "Call Centres in the United States: General Points of Attention",
+   "description": "Serving American customers from a call centre: language, time zones, service expectations, regulatory framework and organisation, in general terms.",
+   "blocks": [
+    {
+     "h2": "A vast market with specific expectations"
+    },
+    {
+     "p": "The United States is a market where customer relations are often seen as a central part of the experience. Customers generally expect to be understood quickly, to reach someone during extended hours and to get a concrete answer. For a company wanting to address this audience, or a call centre operating for American clients, it helps to understand these expectations well."
+    },
+    {
+     "p": "This article is deliberately general. Each sector, each state and each type of service has its own features, and a real project needs detailed examination with suitable advice."
+    },
+    {
+     "h2": "Language and service culture"
+    },
+    {
+     "p": "Mastering English is not enough: you must also understand customs. The tone is often perceived as more direct and warm, with an expectation of responsiveness and willingness to help. Idioms, humour or local references can be misread, and vice versa."
+    },
+    {
+     "p": "Spanish is also widely used among part of the customer base; depending on your activity, offering several languages can be a sign of care."
+    },
+    {
+     "ul": [
+      "Assess speaking and writing in real situations.",
+      "Train agents in the expected politeness customs.",
+      "Provide linguistic support for sector-specific terms."
+     ]
+    },
+    {
+     "h2": "Time zones and coverage"
+    },
+    {
+     "p": "The territory spans several time zones. Suitable coverage means knowing which hours match which regions and how to organise teams, on site or remote, to serve customers at times that are practical for them."
+    },
+    {
+     "p": "If the team is in another country, the time difference must be taken into account in scheduling, handovers and meetings with the client."
+    },
+    {
+     "h2": "Regulatory framework: get support"
+    },
+    {
+     "p": "The rules applying to calls, especially outbound ones, as well as to recording conversations, data protection and certain regulated sectors, can vary by state and by the nature of the activity. It is essential to find out from official sources and competent legal advisers before starting. This guide is not legal advice."
+    },
+    {
+     "ul": [
+      "Identify the rules that apply to your type of calls.",
+      "Document consents and recordings.",
+      "Provide clear instructions for sensitive subjects.",
+      "Update your practices when rules change."
+     ]
+    },
+    {
+     "h2": "Organisation and quality"
+    },
+    {
+     "p": "To serve a distant market, quality must be measurable on a regular basis: listening to exchanges, assessing each interaction, feedback from end customers. Transparency with the client who gives the work about what is monitored and how is a factor of trust."
+    },
+    {
+     "p": "In the TAAS approach from HARX.ai, each interaction is assessed in real time and payment is made only when the defined result is approved. It is one way to align the organisation with what matters to the customer."
+    },
+    {
+     "h2": "Telephony for multi-client centres"
+    },
+    {
+     "p": "Keep a simple checklist of open questions as you prepare: which hours, which languages, which rules, which quality checks. Answering them one by one turns a vague ambition into a workable plan."
+    },
+    {
+     "p": "For call centres serving several clients, HARX Telephony offers the Multi-client Contact Centre offer, intended for centres located in Europe, the United States or outsourcing countries such as France, Morocco, Tunisia and Senegal, with agents on site or remote."
+    }
+   ]
+  },
+  "es": {
+   "title": "Centros de llamadas en Estados Unidos: puntos de atención generales",
+   "description": "Atender a clientes estadounidenses desde un centro de llamadas: idioma, husos horarios, expectativas de servicio, marco normativo y organización, en términos generales.",
+   "blocks": [
+    {
+     "h2": "Un mercado amplio con expectativas precisas"
+    },
+    {
+     "p": "Estados Unidos es un mercado en el que la relación con el cliente se percibe a menudo como un elemento central de la experiencia. Los clientes suelen esperar que se les comprenda rápido, poder contactar con alguien en horarios amplios y recibir una respuesta concreta. Para una empresa que quiera dirigirse a este público, o para un centro de llamadas que opere para clientes estadounidenses, conviene comprender bien estas expectativas."
+    },
+    {
+     "p": "Este artículo es deliberadamente general. Cada sector, cada estado y cada tipo de servicio tiene sus particularidades, y un proyecto real requiere un examen detallado con asesoramiento adecuado."
+    },
+    {
+     "h2": "Idioma y cultura de servicio"
+    },
+    {
+     "p": "Dominar el inglés no basta: también hay que entender los usos. El tono suele percibirse como más directo y cálido, con una expectativa de reactividad y de voluntad de ayudar. Los modismos, el humor o las referencias locales pueden malinterpretarse, y a la inversa."
+    },
+    {
+     "p": "El español también se utiliza ampliamente entre una parte de la clientela; según su actividad, ofrecer varios idiomas puede ser una muestra de atención."
+    },
+    {
+     "ul": [
+      "Evaluar la expresión oral y escrita en situaciones reales.",
+      "Formar a los agentes en los usos de cortesía esperados.",
+      "Prever apoyo lingüístico para los términos propios del sector."
+     ]
+    },
+    {
+     "h2": "Husos horarios y cobertura"
+    },
+    {
+     "p": "El territorio se extiende por varios husos horarios. Una cobertura adecuada supone saber qué horarios corresponden a qué regiones y cómo organizar los equipos, en plataforma o a distancia, para atender a los clientes en momentos que les resulten prácticos."
+    },
+    {
+     "p": "Si el equipo se encuentra en otro país, la diferencia horaria debe tenerse en cuenta en la planificación, los relevos y las reuniones con el cliente."
+    },
+    {
+     "h2": "Marco normativo: dejarse acompañar"
+    },
+    {
+     "p": "Las normas aplicables a las llamadas, en particular las salientes, así como a la grabación de conversaciones, la protección de datos y ciertos sectores regulados, pueden variar según el estado y la naturaleza de la actividad. Es indispensable informarse en fuentes oficiales y con asesores jurídicos competentes antes de empezar. Esta guía no constituye asesoramiento legal."
+    },
+    {
+     "ul": [
+      "Identificar las normas aplicables a su tipo de llamadas.",
+      "Documentar los consentimientos y las grabaciones.",
+      "Prever instrucciones claras para los temas sensibles.",
+      "Actualizar sus prácticas cuando las normas cambien."
+     ]
+    },
+    {
+     "h2": "Organización y calidad"
+    },
+    {
+     "p": "Para atender un mercado lejano, la calidad debe poder medirse con regularidad: escucha de intercambios, evaluación de cada interacción, comentarios de los clientes finales. La transparencia con el cliente que encarga el trabajo sobre lo que se supervisa y cómo es un factor de confianza."
+    },
+    {
+     "p": "En el enfoque TAAS de HARX.ai, cada interacción se evalúa en tiempo real y el pago solo se produce cuando se aprueba el resultado definido. Es una manera de alinear la organización con lo que importa al cliente."
+    },
+    {
+     "h2": "Telefonía para centros multicliente"
+    },
+    {
+     "p": "Para los centros de llamadas que atienden a varios clientes, HARX Telefonía ofrece la oferta Centro de Contacto Multicliente, destinada a centros situados en Europa, Estados Unidos o países de externalización como Francia, Marruecos, Túnez y Senegal, con agentes en plataforma o a distancia."
+    }
+   ]
+  },
+  "ar": {
+   "title": "مراكز الاتصال في الولايات المتحدة: نقاط عامة تستدعي الانتباه",
+   "description": "خدمة العملاء الأمريكيين من مركز اتصال: اللغة والتوقيت وتوقعات الخدمة والإطار التنظيمي والتنظيم الداخلي، بعبارات عامة وغير ملزمة.",
+   "blocks": [
+    {
+     "h2": "سوق واسعة وتوقعات محددة"
+    },
+    {
+     "p": "الولايات المتحدة سوق تُعدّ فيها علاقة العملاء في الغالب عنصرًا محوريًا في التجربة. ويتوقع العملاء عمومًا أن يُفهَموا بسرعة، وأن يتمكنوا من الوصول إلى محاور في ساعات ممتدة، وأن يحصلوا على جواب ملموس. وبالنسبة إلى شركة تريد مخاطبة هذا الجمهور، أو مركز اتصال يعمل لحساب عملاء أمريكيين، من المفيد فهم هذه التوقعات جيدًا."
+    },
+    {
+     "p": "وهذا المقال عام عن قصد. فلكل قطاع ولكل ولاية ولكل نوع خدمة خصوصياته، والمشروع الحقيقي يحتاج إلى دراسة مفصلة بمشورة مناسبة."
+    },
+    {
+     "h2": "اللغة وثقافة الخدمة"
+    },
+    {
+     "p": "لا يكفي إتقان الإنجليزية، بل يلزم فهم الأعراف أيضًا. فالنبرة غالبًا ما تُدرك على أنها أكثر مباشرة ودفئًا، مع توقع للاستجابة السريعة والرغبة في المساعدة. وقد تُساء قراءة التعابير الاصطلاحية أو الدعابة أو الإشارات المحلية، والعكس صحيح."
+    },
+    {
+     "p": "والإسبانية مستعملة على نطاق واسع لدى جزء من العملاء، وبحسب نشاطك قد يكون عرض عدة لغات دليل اهتمام."
+    },
+    {
+     "ul": [
+      "تقييم الكلام والكتابة في مواقف حقيقية.",
+      "تدريب الوكلاء على أعراف اللباقة المتوقعة.",
+      "توفير دعم لغوي للمصطلحات الخاصة بالقطاع."
+     ]
+    },
+    {
+     "h2": "فروق التوقيت والتغطية"
+    },
+    {
+     "p": "تمتد البلاد على عدة مناطق زمنية. وتقتضي التغطية المناسبة معرفة الساعات المقابلة لكل منطقة وكيفية تنظيم الفرق، في المقر أو عن بُعد، لخدمة العملاء في أوقات مناسبة لهم."
+    },
+    {
+     "p": "وإذا كان الفريق في بلد آخر فيجب أخذ فارق التوقيت في الحسبان عند الجدولة وتسليم المناوبات واللقاءات مع العميل."
+    },
+    {
+     "h2": "الإطار التنظيمي: الاستعانة بالمختصين"
+    },
+    {
+     "p": "قد تختلف القواعد المطبقة على المكالمات، خاصة الصادرة، وعلى تسجيل المحادثات وحماية البيانات وبعض القطاعات الخاضعة للتنظيم، بحسب الولاية وطبيعة النشاط. ولا بد من الاستعلام من مصادر رسمية ومستشارين قانونيين مختصين قبل البدء. وهذا الدليل ليس رأيًا قانونيًا."
+    },
+    {
+     "ul": [
+      "تحديد القواعد المنطبقة على نوع مكالماتك.",
+      "توثيق الموافقات والتسجيلات.",
+      "وضع تعليمات واضحة للموضوعات الحساسة.",
+      "تحديث ممارساتك عند تغيّر القواعد."
+     ]
+    },
+    {
+     "h2": "التنظيم والجودة"
+    },
+    {
+     "p": "لخدمة سوق بعيدة، يجب أن تكون الجودة قابلة للقياس بانتظام: الاستماع إلى المحادثات وتقييم كل تفاعل وآراء العملاء النهائيين. والشفافية مع العميل صاحب الطلب بشأن ما تتم متابعته وكيفية ذلك عامل ثقة."
+    },
+    {
+     "p": "وفي نهج TAAS من HARX.ai يُقيَّم كل تفاعل في الوقت الفعلي ولا يُدفع إلا عند اعتماد النتيجة المحددة. وهذه طريقة لمواءمة التنظيم مع ما يهم العميل."
+    },
+    {
+     "h2": "اتصالات هاتفية لمراكز متعددة العملاء"
+    },
+    {
+     "p": "وبالنسبة إلى مراكز الاتصال التي تخدم عدة عملاء، تقدم HARX للاتصالات الهاتفية عرض مركز الاتصال متعدد العملاء، الموجه لمراكز تقع في أوروبا أو الولايات المتحدة أو في بلدان الاستعانة بمصادر خارجية مثل فرنسا والمغرب وتونس والسنغال، مع وكلاء في المقر أو عن بُعد."
+    },
+    {
+     "h2": "أسئلة تُطرح قبل الانطلاق"
+    },
+    {
+     "p": "احتفظ بقائمة بسيطة من الأسئلة المفتوحة أثناء التحضير: أي ساعات، وأي لغات، وأي قواعد، وأي ضوابط للجودة. فالإجابة عنها واحدًا واحدًا تحوّل الطموح الغامض إلى خطة قابلة للتنفيذ."
+    },
+    {
+     "p": "وحدّد من سيكون المحاور المسؤول لدى العميل الأمريكي، وكيف ستُنقل إليه الملاحظات والمشكلات، وما المهلة المتوقعة للرد. فوضوح قنوات التواصل يقلل من سوء الفهم الناتج عن البعد الجغرافي واختلاف التوقيت."
+    },
+    {
+     "p": "وأخيرًا فكّر في استمرارية الخدمة: ماذا يحدث عند انقطاع الاتصال أو غياب عدة وكلاء في وقت واحد؟ إن وجود خطة بديلة بسيطة ومكتوبة يطمئن العميل ويحمي سمعتك."
+    },
+    {
+     "p": "وفي النهاية، ابدأ بتجربة محدودة النطاق، وراقب النتائج وملاحظات العملاء، وعدّل الإجراءات قبل التوسع، فالتوسع التدريجي أسلم من الانطلاق الواسع المفاجئ في سوق بهذا الحجم والتنوع."
+    }
+   ]
+  }
+ }
+}

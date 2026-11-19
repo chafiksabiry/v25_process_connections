@@ -1,0 +1,171 @@
+{
+  "type": "faq",
+  "slug": "first-day-calling-best-practices",
+  "date": "2026-11-11",
+  "langs": {
+    "fr": {
+      "title": "Premier jour d'appels : bonnes pratiques à connaître",
+      "description": "Les gestes simples pour bien démarrer vos premiers appels avec HARX Téléphonie : préparation, accueil, suivi et sérénité.",
+      "blocks": [
+        {
+          "h2": "Réussir ses premiers appels"
+        },
+        {
+          "faq": [
+            {
+              "q": "Que préparer avant le premier appel ?",
+              "a": "Testez votre connexion et votre casque, ouvrez votre espace HARX Téléphonie, préparez une phrase d'accueil et gardez de quoi noter à portée de main."
+            },
+            {
+              "q": "Comment choisir un endroit pour téléphoner ?",
+              "a": "Optez pour un lieu calme, sans écho ni bruit de fond. Une pièce meublée absorbe mieux le son qu'un espace vide, et le micro captera moins de parasites."
+            },
+            {
+              "q": "Comment se présenter au téléphone ?",
+              "a": "Donnez votre nom ou celui de votre structure, saluez, puis écoutez. Parlez un peu plus lentement que d'habitude : l'appelant comprendra mieux."
+            },
+            {
+              "q": "Comment gérer le stress des premiers appels ?",
+              "a": "Respirez avant de décrocher, faites quelques appels simples au début et acceptez de demander à répéter. La confiance vient avec la pratique."
+            },
+            {
+              "q": "Quoi noter pendant un appel ?",
+              "a": "Le nom, le numéro, le motif et la suite à donner. Cette discipline vous évite de rappeler pour redemander des informations."
+            },
+            {
+              "q": "Comment terminer un appel proprement ?",
+              "a": "Résumez ce qui a été convenu, confirmez la prochaine étape et remerciez. Un récapitulatif de dix secondes évite de nombreux malentendus."
+            },
+            {
+              "q": "Que faire à la fin de la première journée ?",
+              "a": "Relisez votre journal d'appels, écoutez vos messages vocaux, notez ce qui a bien marché et ajustez votre message d'accueil pour le lendemain."
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "First Day of Calling: Best Practices to Know",
+      "description": "Simple habits to start your first calls well with HARX Telephony: preparation, greeting, follow-up and staying calm.",
+      "blocks": [
+        {
+          "h2": "Getting your first calls right"
+        },
+        {
+          "faq": [
+            {
+              "q": "What should I prepare before the first call?",
+              "a": "Test your connection and headset, open your HARX Telephony workspace, prepare a greeting sentence and keep something to take notes within reach."
+            },
+            {
+              "q": "How do I choose where to make calls?",
+              "a": "Pick a quiet place without echo or background noise. A furnished room absorbs sound better than an empty space, so the microphone picks up less interference."
+            },
+            {
+              "q": "How do I introduce myself on the phone?",
+              "a": "Give your name or your organisation's name, greet, then listen. Speak slightly slower than usual: the caller will understand you better."
+            },
+            {
+              "q": "How do I handle first-call nerves?",
+              "a": "Breathe before picking up, start with a few simple calls and accept asking people to repeat. Confidence comes with practice."
+            },
+            {
+              "q": "What should I note during a call?",
+              "a": "The name, the number, the reason and the next step. This habit saves you from calling back just to ask for details again."
+            },
+            {
+              "q": "How do I end a call properly?",
+              "a": "Summarise what was agreed, confirm the next step and say thank you. A ten-second recap prevents many misunderstandings."
+            },
+            {
+              "q": "What should I do at the end of day one?",
+              "a": "Review your call log, listen to your voicemail, note what worked and adjust your greeting for the next day."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Primer día de llamadas: buenas prácticas que conocer",
+      "description": "Gestos sencillos para empezar bien sus primeras llamadas con HARX Telefonía: preparación, saludo, seguimiento y serenidad.",
+      "blocks": [
+        {
+          "h2": "Acertar con las primeras llamadas"
+        },
+        {
+          "faq": [
+            {
+              "q": "¿Qué preparar antes de la primera llamada?",
+              "a": "Pruebe su conexión y sus auriculares, abra su espacio de HARX Telefonía, prepare una frase de saludo y tenga a mano algo con que anotar."
+            },
+            {
+              "q": "¿Cómo elijo dónde llamar?",
+              "a": "Elija un lugar tranquilo, sin eco ni ruido de fondo. Una habitación amueblada absorbe mejor el sonido que un espacio vacío y el micrófono capta menos interferencias."
+            },
+            {
+              "q": "¿Cómo me presento por teléfono?",
+              "a": "Diga su nombre o el de su organización, salude y escuche. Hable algo más despacio de lo habitual: quien llama le entenderá mejor."
+            },
+            {
+              "q": "¿Cómo gestiono los nervios de las primeras llamadas?",
+              "a": "Respire antes de contestar, empiece con algunas llamadas sencillas y acepte pedir que le repitan. La confianza llega con la práctica."
+            },
+            {
+              "q": "¿Qué anotar durante una llamada?",
+              "a": "El nombre, el número, el motivo y el siguiente paso. Esta disciplina evita volver a llamar solo para pedir otra vez los datos."
+            },
+            {
+              "q": "¿Cómo terminar bien una llamada?",
+              "a": "Resuma lo acordado, confirme el siguiente paso y agradezca. Un resumen de diez segundos evita muchos malentendidos."
+            },
+            {
+              "q": "¿Qué hacer al final del primer día?",
+              "a": "Revise su registro de llamadas, escuche su buzón de voz, anote lo que funcionó y ajuste su saludo para el día siguiente."
+            }
+          ]
+        }
+      ]
+    },
+    "ar": {
+      "title": "أول يوم اتصالات: أفضل الممارسات التي ينبغي معرفتها",
+      "description": "عادات بسيطة لبدء مكالماتك الأولى بشكل جيد مع HARX للهاتف: التحضير والترحيب والمتابعة والهدوء.",
+      "blocks": [
+        {
+          "h2": "إنجاح مكالماتك الأولى"
+        },
+        {
+          "faq": [
+            {
+              "q": "ماذا أحضّر قبل المكالمة الأولى؟",
+              "a": "اختبر اتصالك وسماعتك، وافتح مساحتك في HARX للهاتف، وجهّز جملة ترحيب، وأبقِ ما تدوّن عليه في متناول يدك."
+            },
+            {
+              "q": "كيف أختار مكانًا للاتصال؟",
+              "a": "اختر مكانًا هادئًا بلا صدى أو ضوضاء خلفية. فالغرفة المفروشة تمتص الصوت أفضل من المساحة الفارغة، فيلتقط الميكروفون تشويشًا أقل."
+            },
+            {
+              "q": "كيف أعرّف بنفسي عبر الهاتف؟",
+              "a": "اذكر اسمك أو اسم جهتك، ثم حيِّ المتصل واستمع إليه. تحدث أبطأ قليلًا من المعتاد ليفهمك الطرف الآخر بشكل أفضل."
+            },
+            {
+              "q": "كيف أتعامل مع التوتر في المكالمات الأولى؟",
+              "a": "خذ نفسًا عميقًا قبل الرد، وابدأ ببعض المكالمات البسيطة، ولا تتردد في طلب التكرار. تأتي الثقة مع الممارسة."
+            },
+            {
+              "q": "ماذا أدوّن أثناء المكالمة؟",
+              "a": "الاسم والرقم والسبب والخطوة التالية. هذه العادة توفر عليك معاودة الاتصال لمجرد السؤال عن التفاصيل من جديد."
+            },
+            {
+              "q": "كيف أنهي المكالمة بشكل سليم؟",
+              "a": "لخّص ما تم الاتفاق عليه وأكّد الخطوة التالية وقدّم الشكر. ملخص من عشر ثوانٍ يمنع سوء فهم كثيرًا."
+            },
+            {
+              "q": "ماذا أفعل في نهاية اليوم الأول؟",
+              "a": "راجع سجل مكالماتك، واستمع إلى بريدك الصوتي، ودوّن ما نجح، وعدّل رسالة ترحيبك لليوم التالي."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

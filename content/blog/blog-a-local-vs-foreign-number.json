@@ -1,0 +1,271 @@
+{
+ "type": "blog",
+ "slug": "blog-a-local-vs-foreign-number",
+ "date": "2026-10-03",
+ "langs": {
+  "fr": {
+   "title": "Numéro local ou numéro étranger : quand choisir quoi ?",
+   "description": "Un numéro de votre pays ou celui d'un autre pays ? Les situations où chaque option a du sens, et les questions à vous poser avant de décider.",
+   "blocks": [
+    {
+     "p": "Vous travaillez peut-être pour des clients installés dans un pays, tout en vivant dans un autre. Faut-il alors afficher un numéro local, celui de vos clients, ou garder le numéro du pays où vous habitez ? La réponse dépend moins de la technique que de la façon dont vos interlocuteurs vont réagir."
+    },
+    {
+     "h2": "Pourquoi un numéro local rassure"
+    },
+    {
+     "p": "Un appel entrant affichant un numéro de son propre pays est perçu comme proche et ordinaire. Il évoque un interlocuteur joignable, identifiable, qui connaît le contexte local. À l'inverse, un indicatif inhabituel peut faire hésiter : certains pensent à un démarchage, d'autres à une erreur, et le téléphone sonne dans le vide."
+    },
+    {
+     "p": "Le numéro local a aussi un avantage pratique pour vos clients : rappeler ne leur demande aucune démarche particulière. Ils composent comme ils le feraient pour n'importe quel commerçant ou prestataire de leur ville ou de leur pays."
+    },
+    {
+     "ul": [
+      "Clientèle principalement domestique : un numéro du pays visé est souvent le plus naturel.",
+      "Activité de proximité (rendez-vous, devis, assistance) : la familiarité du numéro pèse dans la décision de décrocher.",
+      "Appels sortants de relance : un numéro reconnaissable augmente les chances d'être pris au sérieux."
+     ]
+    },
+    {
+     "h2": "Quand un numéro étranger reste pertinent"
+    },
+    {
+     "p": "Un numéro étranger n'a rien de gênant en soi. Si votre activité est internationale par nature, si vos clients sont répartis dans plusieurs pays ou si vous travaillez avec des partenaires situés ailleurs, un indicatif d'un autre pays peut tout à fait faire sens. Il peut aussi correspondre à votre identité : une entreprise implantée à l'étranger a de bonnes raisons d'afficher le numéro de son siège."
+    },
+    {
+     "p": "Le point de vigilance reste la cohérence. Si votre site, vos documents et vos signatures annoncent une adresse dans un pays et que votre numéro vient d'un autre, expliquez-le simplement : une mention du type « joignable aux heures indiquées » rassure davantage qu'un silence."
+    },
+    {
+     "h2": "Les questions à vous poser avant de trancher"
+    },
+    {
+     "p": "Plutôt que de chercher la bonne réponse universelle, posez-vous quelques questions concrètes sur votre situation."
+    },
+    {
+     "ul": [
+      "D'où appellent la plupart de mes clients, et quel numéro ont-ils l'habitude de composer ?",
+      "Mon numéro sera-t-il surtout reçu ou surtout affiché lors de mes appels sortants ?",
+      "Vais-je déménager ou voyager ? Le numéro doit-il me suivre ?",
+      "Mes clients seront-ils surpris de voir un indicatif différent de celui de mon adresse ?"
+     ]
+    },
+    {
+     "p": "Si vous hésitez, un test simple aide : demandez à deux ou trois clients ou proches de vous appeler et de vous dire spontanément ce qu'ils pensent du numéro affiché. Leur réaction vaut souvent mieux que dix comparatifs."
+    },
+    {
+     "h2": "Concilier mobilité et présence locale"
+    },
+    {
+     "p": "Beaucoup de travailleurs mobiles veulent à la fois changer de lieu de vie et conserver leur clientèle d'origine. Disposer d'un numéro du pays de ses clients, indépendant de l'endroit où l'on se trouve, permet de rester joignable sans exiger d'eux le moindre effort. C'est précisément l'idée de HARX Téléphonie, qui propose un numéro de votre pays avec appels entrants et sortants, répondeur et journal d'appels."
+    },
+    {
+     "p": "Les clients composent un numéro qu'ils connaissent, et vous répondez depuis l'endroit où vous êtes. Cette séparation entre le numéro et le lieu est la clé : elle protège votre relation commerciale pendant un déménagement ou un long séjour."
+    },
+    {
+     "h2": "Conclusion : le bon numéro est celui que vos clients décrochent"
+    },
+    {
+     "p": "Il n'y a pas de règle absolue entre numéro local et numéro étranger. Un numéro du pays de vos clients rassure en général, un numéro étranger se défend quand l'activité l'est aussi. Regardez qui vous appelle, qui vous rappelez, et ce que vos interlocuteurs ont l'habitude de composer. Puis testez avant de communiquer largement, car changer de numéro plus tard coûte toujours plus cher en confiance qu'en configuration. Si votre situation évolue, une solution comme HARX Téléphonie permet de garder le même numéro d'un pays à l'autre."
+    }
+   ]
+  },
+  "en": {
+   "title": "Local or Foreign Phone Number: When to Choose Which",
+   "description": "A number from your customers' country or from another one? The situations where each option makes sense, and the questions to ask yourself before deciding.",
+   "blocks": [
+    {
+     "p": "You may be serving customers in one country while living in another. Should you display a local number, the one your customers know, or keep the number from where you live? The answer depends less on technology than on how the people calling you will react."
+    },
+    {
+     "h2": "Why a local number puts people at ease"
+    },
+    {
+     "p": "An incoming call showing a number from the caller's own country feels close and ordinary. It suggests someone reachable and identifiable who understands the local context. An unusual prefix, by contrast, can make people hesitate: some assume a sales pitch, others a mistake, and the phone simply rings out."
+    },
+    {
+     "p": "A local number also helps customers practically: calling back takes no special effort. They dial just as they would for any shop or service provider in their own town or country."
+    },
+    {
+     "ul": [
+      "Mostly domestic clientele: a number from the target country is often the most natural choice.",
+      "Proximity-based activity (appointments, quotes, support): familiarity weighs on the decision to pick up.",
+      "Outbound follow-up calls: a recognisable number improves your chances of being taken seriously."
+     ]
+    },
+    {
+     "h2": "When a foreign number still makes sense"
+    },
+    {
+     "p": "A foreign number is not a problem in itself. If your business is international by nature, if customers are spread across several countries, or if you work with partners elsewhere, a prefix from another country can be entirely sensible. It may also reflect your identity: a company based abroad has good reasons to show its headquarters number."
+    },
+    {
+     "p": "The thing to watch is consistency. If your website, documents and signatures state an address in one country while your number comes from another, explain it simply. A line such as “available during the hours shown” reassures more than silence."
+    },
+    {
+     "h2": "Questions to ask yourself before deciding"
+    },
+    {
+     "p": "Rather than looking for one universal answer, ask a few concrete questions about your own situation."
+    },
+    {
+     "ul": [
+      "Where do most of my customers call from, and what number are they used to dialling?",
+      "Will my number mostly be called, or mostly displayed on outbound calls?",
+      "Will I move or travel? Does the number need to follow me?",
+      "Would customers be surprised by a prefix different from my address?"
+     ]
+    },
+    {
+     "p": "If you are still unsure, a simple test helps: ask two or three customers or friends to call you and say what they spontaneously think of the number shown. Their reaction is often worth more than ten comparison charts."
+    },
+    {
+     "h2": "Combining mobility with a local presence"
+    },
+    {
+     "p": "Many mobile professionals want to change where they live while keeping their original customers. Having a number from your customers' country, independent of where you actually are, lets you stay reachable without asking anything of them. That is exactly the idea behind HARX Telephony, which offers a number from your country with inbound and outbound calls, voicemail and a call log."
+    },
+    {
+     "p": "Customers dial a number they recognise, and you answer from wherever you are. This separation between number and location is the key: it protects your business relationships during a move or a long stay abroad."
+    },
+    {
+     "h2": "Conclusion: the right number is the one your customers answer"
+    },
+    {
+     "p": "There is no absolute rule between local and foreign numbers. A number from your customers' country usually reassures, while a foreign number holds up when the activity is international too. Look at who calls you, who you call back, and what your contacts are used to dialling. Then test before announcing it widely, because changing a number later always costs more in trust than in configuration. If your situation changes, a solution such as HARX Telephony lets you keep the same number from one country to the next."
+    }
+   ]
+  },
+  "es": {
+   "title": "Número local o extranjero: cuándo elegir cada uno",
+   "description": "¿Un número del país de tus clientes o de otro país? Las situaciones en las que cada opción tiene sentido y las preguntas que conviene hacerse antes de decidir.",
+   "blocks": [
+    {
+     "p": "Quizá atiendas a clientes de un país mientras vives en otro. ¿Debes mostrar un número local, el que conocen tus clientes, o conservar el del país donde resides? La respuesta depende menos de la técnica que de cómo reaccionarán las personas que te llaman."
+    },
+    {
+     "h2": "Por qué un número local da tranquilidad"
+    },
+    {
+     "p": "Una llamada entrante que muestra un número del propio país se percibe como cercana y habitual. Sugiere un interlocutor localizable, identificable y conocedor del contexto local. En cambio, un prefijo poco habitual puede generar dudas: unos piensan en publicidad, otros en un error, y el teléfono suena sin respuesta."
+    },
+    {
+     "p": "El número local también facilita la vida al cliente: devolver la llamada no exige ningún trámite especial. Marca igual que haría con cualquier comercio o profesional de su ciudad o de su país."
+    },
+    {
+     "ul": [
+      "Clientela sobre todo nacional: un número del país de destino suele ser lo más natural.",
+      "Actividad de proximidad (citas, presupuestos, asistencia): la familiaridad del número influye en la decisión de contestar.",
+      "Llamadas salientes de seguimiento: un número reconocible aumenta las posibilidades de que te tomen en serio."
+     ]
+    },
+    {
+     "h2": "Cuándo un número extranjero sigue siendo pertinente"
+    },
+    {
+     "p": "Un número extranjero no es un problema en sí mismo. Si tu actividad es internacional por naturaleza, si los clientes están repartidos en varios países o si trabajas con socios en otros lugares, un prefijo de otro país puede tener todo el sentido. También puede reflejar tu identidad: una empresa establecida en el extranjero tiene buenos motivos para mostrar el número de su sede."
+    },
+    {
+     "p": "El punto de atención es la coherencia. Si tu web, tus documentos y tus firmas indican una dirección en un país y tu número procede de otro, explícalo con sencillez: una frase como «disponible en el horario indicado» tranquiliza más que el silencio."
+    },
+    {
+     "h2": "Preguntas que conviene hacerse antes de decidir"
+    },
+    {
+     "p": "En lugar de buscar una respuesta universal, plantéate algunas preguntas concretas sobre tu situación."
+    },
+    {
+     "ul": [
+      "¿Desde dónde llaman la mayoría de mis clientes y qué número están acostumbrados a marcar?",
+      "¿Mi número se usará sobre todo para recibir llamadas o para mostrarlo al llamar yo?",
+      "¿Voy a mudarme o a viajar? ¿Debe el número acompañarme?",
+      "¿Se sorprenderían mis clientes al ver un prefijo distinto al de mi dirección?"
+     ]
+    },
+    {
+     "p": "Si sigues dudando, una prueba sencilla ayuda: pide a dos o tres clientes o conocidos que te llamen y te digan con espontaneidad qué opinan del número que ven. Su reacción suele valer más que diez comparativas."
+    },
+    {
+     "h2": "Combinar movilidad y presencia local"
+    },
+    {
+     "p": "Muchos profesionales móviles quieren cambiar de lugar de residencia sin perder a sus clientes de origen. Tener un número del país de tus clientes, independiente del lugar en el que te encuentres, permite seguir localizable sin pedirles ningún esfuerzo. Es justo la idea de HARX Telefonía, que ofrece un número de tu país con llamadas entrantes y salientes, buzón de voz y registro de llamadas."
+    },
+    {
+     "p": "Los clientes marcan un número que reconocen y tú contestas desde donde estés. Esa separación entre número y lugar es la clave: protege tu relación comercial durante una mudanza o una estancia larga fuera."
+    },
+    {
+     "h2": "Conclusión: el buen número es el que tus clientes contestan"
+    },
+    {
+     "p": "No hay una regla absoluta entre número local y extranjero. Un número del país de tus clientes suele dar confianza, y uno extranjero se defiende cuando la actividad también lo es. Observa quién te llama, a quién devuelves la llamada y qué número suelen marcar tus contactos. Después prueba antes de difundirlo, porque cambiar de número más tarde siempre cuesta más en confianza que en configuración. Si tu situación cambia, una solución como HARX Telefonía permite conservar el mismo número de un país a otro."
+    }
+   ]
+  },
+  "ar": {
+   "title": "رقم محلي أم رقم أجنبي: متى تختار كلًّا منهما؟",
+   "description": "رقم من بلد عملائك أم من بلد آخر؟ الحالات التي يناسب فيها كل خيار، والأسئلة التي تستحق أن تطرحها على نفسك قبل أن تقرر.",
+   "blocks": [
+    {
+     "p": "قد تخدم عملاء في بلد وأنت تقيم في بلد آخر. فهل تعرض رقمًا محليًا يعرفه عملاؤك، أم تحتفظ برقم البلد الذي تعيش فيه؟ الجواب لا يتعلق بالتقنية بقدر ما يتعلق بردة فعل المتصلين بك."
+    },
+    {
+     "h2": "لماذا يبعث الرقم المحلي على الطمأنينة"
+    },
+    {
+     "p": "المكالمة الواردة التي تعرض رقمًا من بلد المتصل نفسه تبدو قريبة ومألوفة، وتوحي بأن صاحبها شخص يمكن الوصول إليه ومعرفته ويفهم السياق المحلي. أما رمز الاتصال غير المعتاد فقد يدفع إلى التردد، فبعضهم يظنه ترويجًا وبعضهم يظنه خطأً، فيرن الهاتف بلا جواب."
+    },
+    {
+     "p": "وللرقم المحلي فائدة عملية للعميل أيضًا، فإعادة الاتصال لا تتطلب منه أي إجراء خاص. إنه يطلب الرقم كما يطلب أي متجر أو مزوّد خدمة في مدينته أو بلده."
+    },
+    {
+     "ul": [
+      "عملاء محليون في الغالب: رقم من البلد المستهدف هو الأكثر طبيعية عادةً.",
+      "نشاط قائم على القرب (مواعيد وعروض أسعار ودعم): ألفة الرقم تؤثر في قرار الرد.",
+      "مكالمات متابعة صادرة: الرقم المألوف يزيد فرص أخذك على محمل الجد."
+     ]
+    },
+    {
+     "h2": "متى يظل الرقم الأجنبي مناسبًا"
+    },
+    {
+     "p": "الرقم الأجنبي ليس مشكلة بحد ذاته. فإذا كان نشاطك دوليًا بطبيعته، أو كان عملاؤك موزعين على عدة بلدان، أو كنت تتعامل مع شركاء في أماكن أخرى، فقد يكون رمز بلد آخر منطقيًا تمامًا. وقد يعبّر الرقم عن هويتك أيضًا، فالشركة المقيمة في الخارج لديها أسباب وجيهة لعرض رقم مقرها."
+    },
+    {
+     "p": "والنقطة التي تستحق الانتباه هي الاتساق. فإذا كان موقعك ووثائقك وتواقيعك تذكر عنوانًا في بلد ورقمك من بلد آخر فاشرح ذلك ببساطة. وعبارة مثل «متاحون في الأوقات المذكورة» تطمئن أكثر من الصمت."
+    },
+    {
+     "h2": "أسئلة تطرحها على نفسك قبل القرار"
+    },
+    {
+     "p": "بدل البحث عن جواب واحد صالح للجميع، اطرح بعض الأسئلة الملموسة عن وضعك."
+    },
+    {
+     "ul": [
+      "من أين يتصل معظم عملائي، وما الرقم الذي اعتادوا طلبه؟",
+      "هل سيُستخدم رقمي في الاستقبال غالبًا أم يظهر في مكالماتي الصادرة؟",
+      "هل سأنتقل أو أسافر؟ وهل ينبغي أن يرافقني الرقم؟",
+      "هل سيفاجأ عملائي برمز مختلف عن عنواني؟"
+     ]
+    },
+    {
+     "p": "وإن بقيت متردّدًا فهناك اختبار بسيط: اطلب من اثنين أو ثلاثة من العملاء أو المقربين أن يتصلوا بك ويقولوا بعفوية ما رأيهم في الرقم الظاهر. وردّ فعلهم يساوي غالبًا أكثر من عشر مقارنات."
+    },
+    {
+     "h2": "الجمع بين التنقل والحضور المحلي"
+    },
+    {
+     "p": "يرغب كثير من المهنيين المتنقلين في تغيير مكان إقامتهم مع الاحتفاظ بعملائهم الأصليين. ووجود رقم من بلد عملائك لا يرتبط بمكان وجودك يتيح لك البقاء متاحًا دون أن تطلب منهم أي جهد. وهذه هي فكرة HARX للاتصالات التي تقدم رقمًا من بلدك مع مكالمات واردة وصادرة وبريد صوتي وسجل مكالمات."
+    },
+    {
+     "p": "يطلب العملاء رقمًا يعرفونه وترد أنت من أي مكان تكون فيه. وهذا الفصل بين الرقم والمكان هو المفتاح، فهو يحمي علاقتك التجارية أثناء الانتقال أو الإقامة الطويلة في الخارج."
+    },
+    {
+     "h2": "الخلاصة: الرقم المناسب هو الذي يرد عليه عملاؤك"
+    },
+    {
+     "p": "لا توجد قاعدة مطلقة بين الرقم المحلي والأجنبي. فرقم بلد عملائك يطمئن عادةً، والرقم الأجنبي له وجاهته حين يكون النشاط دوليًا. انظر من يتصل بك، ومن تعاود الاتصال به، وما الذي اعتاد محدثوك طلبه. ثم اختبر قبل أن تعلن الرقم على نطاق واسع، لأن تغيير الرقم لاحقًا يكلّف دائمًا من الثقة أكثر مما يكلّف من الإعداد. وإذا تغيّر وضعك فإن حلًا مثل HARX للاتصالات يتيح لك الاحتفاظ بالرقم نفسه من بلد إلى آخر."
+    }
+   ]
+  }
+ }
+}
