@@ -6,6 +6,7 @@ import CookieBanner from './components/CookieBanner';
 import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
+import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
 import './App.css';
 import Cookies from 'js-cookie';
 import React, { useEffect } from 'react';
@@ -36,9 +37,7 @@ function MicroAppContainerVisibility() {
       active.add('container-auth');
     }
     if (pathname.startsWith('/reps')) active.add('container-reps');
-    if (pathname.startsWith('/company') || pathname.startsWith('/call-center')) {
-      active.add('container-company');
-    }
+    if (pathname.startsWith('/company')) active.add('container-company');
     if (pathname === '/telephony' || pathname.startsWith('/telephony/')) {
       active.add('container-callcenter');
     }
@@ -52,6 +51,13 @@ function MicroAppContainerVisibility() {
   }, [pathname]);
 
   return null;
+}
+
+/** /call-center atteint par navigation interne (pushState) : même table que la 301 Netlify. */
+function LegacyCallCenterRedirect() {
+  const location = useLocation();
+  const target = legacyCallCenterRedirect(location) ?? '/telephony';
+  return <Navigate to={target} replace />;
 }
 
 const HostPage = ({ children }: { children: React.ReactNode }) => (
@@ -93,6 +99,7 @@ const App = () => {
             </HostPage>
           }
         />
+        <Route path="/call-center/*" element={<LegacyCallCenterRedirect />} />
         <Route
           path="/reporchestrator/*"
           element={

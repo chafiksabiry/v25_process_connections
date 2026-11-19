@@ -39,6 +39,426 @@
   status = 301
   force = true
 
+# Arbitrage 12 (18/11/2026) : l'ancienne application /call-center est retirée, redirection permanente vers /telephony.
+# Le sous-chemin est gardé quand /telephony a la même rubrique, sinon /telephony/app/dashboard.
+# Table alignée sur lib/callCenterRedirect.ts (vérifiée par lib/callCenterRedirect.test.ts).
+# Aucune cible sous /call-center : pas de boucle.
+# BEGIN call-center-redirects
+[[redirects]]
+  from = "/call-center"
+  to = "/telephony"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/"
+  to = "/telephony"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/onboarding"
+  to = "/telephony/onboarding"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/onboarding/*"
+  to = "/telephony/onboarding/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/home"
+  to = "/telephony/app/home"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/home/*"
+  to = "/telephony/app/home/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/poste"
+  to = "/telephony/app/poste"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/poste/*"
+  to = "/telephony/app/poste/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/install"
+  to = "/telephony/app/install"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/install/*"
+  to = "/telephony/app/install/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/dashboard"
+  to = "/telephony/app/dashboard"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/dashboard/*"
+  to = "/telephony/app/dashboard/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/operations"
+  to = "/telephony/app/operations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/operations/*"
+  to = "/telephony/app/operations/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/leads"
+  to = "/telephony/app/leads"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/leads/*"
+  to = "/telephony/app/leads/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/clients"
+  to = "/telephony/app/clients"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/clients/*"
+  to = "/telephony/app/clients/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/knowledge"
+  to = "/telephony/app/knowledge"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/knowledge/*"
+  to = "/telephony/app/knowledge/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/training"
+  to = "/telephony/app/training"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/training/*"
+  to = "/telephony/app/training/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/integrations"
+  to = "/telephony/app/integrations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/integrations/*"
+  to = "/telephony/app/integrations/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/profile"
+  to = "/telephony/app/profile"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/profile/*"
+  to = "/telephony/app/profile/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/calls"
+  to = "/telephony/app/calls"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/calls/*"
+  to = "/telephony/app/calls/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/agents"
+  to = "/telephony/app/agents"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/agents/*"
+  to = "/telephony/app/agents/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/team"
+  to = "/telephony/app/team"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/team/*"
+  to = "/telephony/app/team/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/queues"
+  to = "/telephony/app/queues"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/queues/*"
+  to = "/telephony/app/queues/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/greeting"
+  to = "/telephony/app/greeting"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/greeting/*"
+  to = "/telephony/app/greeting/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/voicemails"
+  to = "/telephony/app/voicemails"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/voicemails/*"
+  to = "/telephony/app/voicemails/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/appeler"
+  to = "/telephony/app/appeler"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/appeler/*"
+  to = "/telephony/app/appeler/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/followups"
+  to = "/telephony/app/followups"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/followups/*"
+  to = "/telephony/app/followups/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/annuaire"
+  to = "/telephony/app/annuaire"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/annuaire/*"
+  to = "/telephony/app/annuaire/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/message"
+  to = "/telephony/app/message"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/message/*"
+  to = "/telephony/app/message/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/consignes"
+  to = "/telephony/app/consignes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/consignes/*"
+  to = "/telephony/app/consignes/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/reponses"
+  to = "/telephony/app/reponses"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/reponses/*"
+  to = "/telephony/app/reponses/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/agenda"
+  to = "/telephony/app/agenda"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/agenda/*"
+  to = "/telephony/app/agenda/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/emails"
+  to = "/telephony/app/emails"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/emails/*"
+  to = "/telephony/app/emails/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/tools"
+  to = "/telephony/app/tools"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/tools/*"
+  to = "/telephony/app/tools/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/planning"
+  to = "/telephony/app/planning"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/planning/*"
+  to = "/telephony/app/planning/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/numbers"
+  to = "/telephony/app/numbers"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/numbers/*"
+  to = "/telephony/app/numbers/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/scripts"
+  to = "/telephony/app/scripts"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/scripts/*"
+  to = "/telephony/app/scripts/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/quality"
+  to = "/telephony/app/quality"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/quality/*"
+  to = "/telephony/app/quality/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/billing"
+  to = "/telephony/app/billing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/billing/*"
+  to = "/telephony/app/billing/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/academie"
+  to = "/telephony/app/academie"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/academie/*"
+  to = "/telephony/app/academie/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/call-center/*"
+  to = "/telephony/app/dashboard"
+  status = 301
+  force = true
+# END call-center-redirects
+
 # Page vitrine pré-rendue (SEO) générée au build par vite.config.ts ; le conteneur qiankun y est conservé.
 [[redirects]]
   from = "/telephony"
