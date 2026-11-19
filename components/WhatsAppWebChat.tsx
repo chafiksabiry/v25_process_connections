@@ -17,10 +17,10 @@ type Role = 'user' | 'assistant' | 'human_agent';
 export interface ChatMessage { role: Role; text: string; ts?: string }
 
 const TEXTS = {
-  fr: { title: 'Assistant HARX', greeting: "Bonjour ! Je suis l'assistant IA de HARX. Comment puis-je vous aider ?", placeholder: 'Écrivez votre message…', send: 'Envoyer', close: 'Fermer le chat', open: 'Continuer sur WhatsApp', error: "L'assistant est momentanément indisponible. Vous pouvez continuer sur WhatsApp.", limit: 'Trop de messages, patientez un instant avant de réessayer.', human: "Un membre de l'équipe HARX a été prévenu et vous répondra ici.", typing: "L'assistant écrit…", you: 'Vous', bot: 'HARX', team: 'Équipe HARX' },
-  en: { title: 'HARX Assistant', greeting: "Hi! I'm HARX's AI assistant. How can I help you?", placeholder: 'Type your message…', send: 'Send', close: 'Close chat', open: 'Continue on WhatsApp', error: 'The assistant is temporarily unavailable. You can continue on WhatsApp.', limit: 'Too many messages, please wait a moment before trying again.', human: 'A HARX team member has been notified and will reply here.', typing: 'The assistant is typing…', you: 'You', bot: 'HARX', team: 'HARX team' },
-  es: { title: 'Asistente HARX', greeting: '¡Hola! Soy el asistente de IA de HARX. ¿En qué puedo ayudarle?', placeholder: 'Escriba su mensaje…', send: 'Enviar', close: 'Cerrar el chat', open: 'Continuar en WhatsApp', error: 'El asistente no está disponible por el momento. Puede continuar en WhatsApp.', limit: 'Demasiados mensajes, espere un momento antes de volver a intentarlo.', human: 'Un miembro del equipo HARX ha sido avisado y le responderá aquí.', typing: 'El asistente está escribiendo…', you: 'Usted', bot: 'HARX', team: 'Equipo HARX' },
-  ar: { title: 'مساعد HARX', greeting: 'مرحبا! أنا مساعد HARX الذكي. كيف يمكنني مساعدتك؟', placeholder: 'اكتب رسالتك…', send: 'إرسال', close: 'إغلاق المحادثة', open: 'المتابعة على واتساب', error: 'المساعد غير متاح مؤقتا. يمكنك المتابعة على واتساب.', limit: 'رسائل كثيرة، يرجى الانتظار قليلا قبل المحاولة مجددا.', human: 'تم إبلاغ أحد أعضاء فريق HARX وسيرد عليك هنا.', typing: 'المساعد يكتب…', you: 'أنت', bot: 'HARX', team: 'فريق HARX' },
+  fr: { title: 'Assistant HARX', greeting: "Bonjour ! Je suis l'assistant IA de HARX. Comment puis-je vous aider ?", placeholder: 'Écrivez votre message…', send: 'Envoyer', close: 'Fermer le chat', open: 'Continuer sur WhatsApp', error: "L'assistant est momentanément indisponible. Vous pouvez continuer sur WhatsApp.", limit: 'Trop de messages, patientez un instant avant de réessayer.', human: "Un membre de l'équipe HARX a été prévenu et vous répondra ici.", typing: "L'assistant écrit…", you: 'Vous', bot: 'HARX', team: 'Équipe HARX', notice: "Vos messages peuvent être transmis à l'équipe HARX via WhatsApp." },
+  en: { title: 'HARX Assistant', greeting: "Hi! I'm HARX's AI assistant. How can I help you?", placeholder: 'Type your message…', send: 'Send', close: 'Close chat', open: 'Continue on WhatsApp', error: 'The assistant is temporarily unavailable. You can continue on WhatsApp.', limit: 'Too many messages, please wait a moment before trying again.', human: 'A HARX team member has been notified and will reply here.', typing: 'The assistant is typing…', you: 'You', bot: 'HARX', team: 'HARX team', notice: 'Your messages may be forwarded to the HARX team via WhatsApp.' },
+  es: { title: 'Asistente HARX', greeting: '¡Hola! Soy el asistente de IA de HARX. ¿En qué puedo ayudarle?', placeholder: 'Escriba su mensaje…', send: 'Enviar', close: 'Cerrar el chat', open: 'Continuar en WhatsApp', error: 'El asistente no está disponible por el momento. Puede continuar en WhatsApp.', limit: 'Demasiados mensajes, espere un momento antes de volver a intentarlo.', human: 'Un miembro del equipo HARX ha sido avisado y le responderá aquí.', typing: 'El asistente está escribiendo…', you: 'Usted', bot: 'HARX', team: 'Equipo HARX', notice: 'Sus mensajes pueden transmitirse al equipo de HARX por WhatsApp.' },
+  ar: { title: 'مساعد HARX', greeting: 'مرحبا! أنا مساعد HARX الذكي. كيف يمكنني مساعدتك؟', placeholder: 'اكتب رسالتك…', send: 'إرسال', close: 'إغلاق المحادثة', open: 'المتابعة على واتساب', error: 'المساعد غير متاح مؤقتا. يمكنك المتابعة على واتساب.', limit: 'رسائل كثيرة، يرجى الانتظار قليلا قبل المحاولة مجددا.', human: 'تم إبلاغ أحد أعضاء فريق HARX وسيرد عليك هنا.', typing: 'المساعد يكتب…', you: 'أنت', bot: 'HARX', team: 'فريق HARX', notice: 'قد تُحوَّل رسائلك إلى فريق HARX عبر واتساب.' },
 } as const;
 
 const CSS = `
@@ -40,6 +40,7 @@ const CSS = `
 .harx-wc__send{border:0;border-radius:20px;padding:0 16px;background:#25D366;color:#fff;font-weight:600;cursor:pointer}
 .harx-wc__send:disabled{opacity:.55;cursor:not-allowed}
 .harx-wc__foot{padding:6px 10px 10px;background:#f0f2f5;text-align:center;font-size:12px}
+.harx-wc__notice{display:block;margin-bottom:3px;color:#6b7280;font-size:11px}
 .harx-wc__wa{color:#128C7E;text-decoration:underline}
 @media (max-width:640px){.harx-wc{right:7px;bottom:150px}}
 @media print{.harx-wc{display:none}}
@@ -188,7 +189,7 @@ export default function WhatsAppWebChat({ lang, whatsappUrl, onClose }: Props) {
         <input ref={inputRef} className="harx-wc__input" value={input} onChange={(e) => setInput(e.target.value)} placeholder={t.placeholder} aria-label={t.placeholder} maxLength={2000} autoComplete="off" />
         <button type="submit" className="harx-wc__send" disabled={busy || !input.trim()}>{t.send}</button>
       </form>
-      <div className="harx-wc__foot"><a className="harx-wc__wa" href={whatsappUrl} target="_blank" rel="noopener noreferrer">{t.open}</a></div>
+      <div className="harx-wc__foot"><span className="harx-wc__notice">{t.notice}</span><a className="harx-wc__wa" href={whatsappUrl} target="_blank" rel="noopener noreferrer">{t.open}</a></div>
     </div>
   );
 }
