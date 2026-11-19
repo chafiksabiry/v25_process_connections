@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useLocation } from 'react-router-dom';
 import { getLangFromPath } from '../lib/langRoutes';
+import { compactWhatsAppFor } from '../lib/whatsappPlacement';
 
 /**
  * Bouton flottant « AI Support » : ouvre WhatsApp vers l'assistant IA de HARX (WhatsApp Business / Cloud API + Claude).
@@ -12,7 +13,8 @@ import { getLangFromPath } from '../lib/langRoutes';
  *   le forfait, les soldes, les droits de CE compte uniquement). En cas d'échec (réseau, jeton expiré), on retombe
  *   sur le lien général : le bouton fonctionne toujours.
  * Rendu dans <body> via un portail (le #root de l'hôte peut être écrêté, comme pour CookieBanner). Il se place
- * au-dessus de la bulle de chat Zoho SalesIQ (bas droite) pour ne pas la masquer.
+ * au-dessus de la bulle de chat Zoho SalesIQ (bas droite) pour ne pas la masquer. Dans l'application Téléphonie connectée, il est réduit
+ * à sa pastille ronde (lib/whatsappPlacement.ts) pour tenir dans la colonne que l'application réserve.
  */
 const NUMBER = String(import.meta.env.VITE_WHATSAPP_SUPPORT_NUMBER || '212711311388').replace(/\D/g, '');
 const ORCHESTRATOR_API = String(
@@ -53,6 +55,9 @@ const CSS = `
   .harx-wa-fab{right:14px;bottom:84px;width:56px;padding:0;justify-content:center}
   .harx-wa-fab .harx-wa-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 }
+.harx-wa-fab--compact{width:56px;padding:0;justify-content:center}
+.harx-wa-fab--compact[dir="rtl"]{padding:0}
+.harx-wa-fab--compact .harx-wa-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media print{.harx-wa-fab{display:none}}
 `;
 
@@ -83,6 +88,7 @@ export default function WhatsAppSupportButton() {
   const { pathname } = useLocation();
   const lang = getLangFromPath(pathname) ?? 'fr';
   const t = TEXTS[lang];
+  const compact = compactWhatsAppFor(pathname);
   const [busy, setBusy] = useState(false);
 
   // Le portail n'existe qu'une fois le <body> disponible (rendu côté client uniquement).
@@ -103,7 +109,7 @@ export default function WhatsAppSupportButton() {
   return createPortal(
     <>
       <style>{CSS}</style>
-      <button type="button" className="harx-wa-fab" onClick={open} aria-label={t.aria} title={t.aria} aria-busy={busy} dir={lang === 'ar' ? 'rtl' : 'ltr'} data-testid="whatsapp-support-button">
+      <button type="button" className={compact ? 'harx-wa-fab harx-wa-fab--compact' : 'harx-wa-fab'} onClick={open} aria-label={t.aria} title={t.aria} aria-busy={busy} dir={lang === 'ar' ? 'rtl' : 'ltr'} data-testid="whatsapp-support-button">
         <WhatsAppGlyph />
         <span className="harx-wa-label">{t.label}</span>
       </button>
