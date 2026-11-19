@@ -8,6 +8,7 @@ import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
+import { isLangTelephonyPath, langTelephonyRedirect, rememberSiteLang } from './lib/langTelephonyRedirect';
 import './App.css';
 import Cookies from 'js-cookie';
 import React, { useEffect } from 'react';
@@ -33,7 +34,7 @@ function MicroAppContainerVisibility() {
       pathname.startsWith('/auth') ||
       pathname.startsWith('/admin') ||
       isLegalPath(pathname) ||
-      getLangFromPath(pathname) !== null
+      (getLangFromPath(pathname) !== null && !isLangTelephonyPath(pathname))
     ) {
       active.add('container-auth');
     }
@@ -59,6 +60,16 @@ function LegacyCallCenterRedirect() {
   const location = useLocation();
   const target = legacyCallCenterRedirect(location) ?? '/telephony';
   return <Navigate to={target} replace />;
+}
+
+/** /:lang/telephony* atteint par navigation interne (pushState) : même règle qu'au chargement (main.tsx). */
+function LangTelephonyRedirect() {
+  const location = useLocation();
+  const target = langTelephonyRedirect(location);
+  if (!target) return null;
+  // Écrit avant la navigation : l'application Téléphonie lit la langue au chargement de son module (écriture idempotente).
+  rememberSiteLang(target.lang);
+  return <Navigate to={target.url} replace />;
 }
 
 const HostPage = ({ children }: { children: React.ReactNode }) => (
@@ -102,6 +113,7 @@ const App = () => {
           }
         />
         <Route path="/call-center/*" element={<LegacyCallCenterRedirect />} />
+        <Route path="/:lang/telephony/*" element={<LangTelephonyRedirect />} />
         <Route
           path="/reporchestrator/*"
           element={
