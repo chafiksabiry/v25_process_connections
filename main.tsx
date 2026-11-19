@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { registerMicroApps, start, initGlobalState } from 'qiankun';
+import { stripSocialMeta } from './lib/microAppTemplate';
 import {
   setBootstrapMaxTime,
   setMountMaxTime,
@@ -17,6 +18,14 @@ import { initConversionTracking } from './lib/tracking/conversions';
 import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import { subscribeAuthChanged } from './lib/authSync';
+import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
+
+// Arbitrage 12 : /call-center est retiré. Si Netlify n'a pas déjà renvoyé la 301 (aperçu local, navigation interne),
+// on remplace l'adresse avant tout montage de micro-application.
+{
+  const legacyTarget = legacyCallCenterRedirect(window.location);
+  if (legacyTarget) window.history.replaceState(window.history.state, '', legacyTarget);
+}
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
 // lifecycle timeouts so we stop seeing "single-spa minified message #31"
@@ -134,10 +143,8 @@ registerMicroApps([
     name: 'company',
     entry: MF_ENTRIES.company,
     container: '#container-company',
-    // Dedicated call-center entry reuses the company orchestrator MF.
-    activeRule: (location: { pathname: string }) =>
-      location.pathname.startsWith('/company') ||
-      location.pathname.startsWith('/call-center'),
+    // /call-center n'est plus servi par ce module : il redirige vers /telephony (arbitrage 12).
+    activeRule: (location: { pathname: string }) => location.pathname.startsWith('/company'),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,
@@ -146,7 +153,7 @@ registerMicroApps([
     },
   },
   {
-    // Application dédiée aux centres d'appels (distincte de /call-center, qui reste servi par `company`).
+    // Application unique des centres d'appels (l'ancienne adresse /call-center y redirige).
     name: 'callcenter',
     entry: MF_ENTRIES.callcenter,
     container: '#container-callcenter',
@@ -194,6 +201,8 @@ const startQiankun = async () => {
         experimentalStyleIsolation: false,
       },
       singular: false,
+      // Pas de balises og:* / twitter:* en double : celles des micro-fronts sont retirées (voir lib/microAppTemplate.ts).
+      getTemplate: stripSocialMeta,
       fetch: (url: RequestInfo | URL, options: RequestInit | undefined) => {
         // console.log(`[Host] Fetching: ${url}`);
         return fetch(url, {
