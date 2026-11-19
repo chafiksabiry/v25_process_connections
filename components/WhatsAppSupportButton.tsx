@@ -3,9 +3,12 @@ import { createPortal } from 'react-dom';
 import { useLocation } from 'react-router-dom';
 import { getLangFromPath } from '../lib/langRoutes';
 import { compactWhatsAppFor } from '../lib/whatsappPlacement';
+import WhatsAppWebChat from './WhatsAppWebChat';
 
 /**
- * Bouton flottant « AI Support » : ouvre WhatsApp vers l'assistant IA de HARX (WhatsApp Business / Cloud API + Claude).
+ * Bouton flottant « AI Support » : ouvre, directement sur le site, le chat de l'assistant IA de HARX (WhatsApp Business / Cloud API
+ * + Claude), sans redirection vers l'application WhatsApp (components/WhatsAppWebChat.tsx, backend /api/whatsapp/web-chat).
+ * Le lien « Continuer sur WhatsApp » du panneau reste disponible, avec le comportement suivant :
  *
  * - Visiteur non connecté : lien wa.me avec un message d'accueil dans la langue du site -> aide générale.
  * - Utilisateur connecté (jeton HARX présent) : le backend émet un code de liaison à usage unique ; il est ajouté au
@@ -22,10 +25,10 @@ const ORCHESTRATOR_API = String(
 ).replace(/\/+$/, '');
 
 const TEXTS = {
-  fr: { label: 'WhatsApp', aria: 'Ouvrir le support IA HARX sur WhatsApp', hello: "Bonjour, j'ai besoin d'aide sur HARX." },
-  en: { label: 'WhatsApp', aria: 'Open HARX AI support on WhatsApp', hello: 'Hello, I need help with HARX.' },
-  es: { label: 'WhatsApp', aria: 'Abrir el soporte IA de HARX en WhatsApp', hello: 'Hola, necesito ayuda con HARX.' },
-  ar: { label: 'واتساب', aria: 'فتح الدعم الذكي لـ HARX على واتساب', hello: 'مرحبا، أحتاج مساعدة بخصوص HARX.' },
+  fr: { label: 'WhatsApp', aria: 'Ouvrir le chat du support IA HARX', hello: "Bonjour, j'ai besoin d'aide sur HARX." },
+  en: { label: 'WhatsApp', aria: 'Open the HARX AI support chat', hello: 'Hello, I need help with HARX.' },
+  es: { label: 'WhatsApp', aria: 'Abrir el chat de soporte IA de HARX', hello: 'Hola, necesito ayuda con HARX.' },
+  ar: { label: 'واتساب', aria: 'فتح محادثة الدعم الذكي لـ HARX', hello: 'مرحبا، أحتاج مساعدة بخصوص HARX.' },
 } as const;
 
 const WHATSAPP_GREEN = '#25D366';
@@ -47,7 +50,6 @@ const CSS = `
   box-shadow:0 6px 18px rgba(0,0,0,.28),0 0 0 0 rgba(37,211,102,.5);transition:transform .15s ease,background .15s ease}
 .harx-wa-fab:hover{background:${WHATSAPP_GREEN_DARK};transform:translateY(-2px)}
 .harx-wa-fab:focus-visible{outline:3px solid #fff;outline-offset:2px;box-shadow:0 0 0 6px ${WHATSAPP_GREEN_DARK}}
-.harx-wa-fab[aria-busy="true"]{opacity:.8;cursor:progress}
 .harx-wa-fab[dir="rtl"]{padding:0 14px 0 20px}
 @media (prefers-reduced-motion:no-preference){.harx-wa-fab{animation:harx-wa-pulse 2.6s ease-out 1.2s 2}}
 @keyframes harx-wa-pulse{0%{box-shadow:0 6px 18px rgba(0,0,0,.28),0 0 0 0 rgba(37,211,102,.55)}100%{box-shadow:0 6px 18px rgba(0,0,0,.28),0 0 0 18px rgba(37,211,102,0)}}
@@ -89,30 +91,29 @@ export default function WhatsAppSupportButton() {
   const lang = getLangFromPath(pathname) ?? 'fr';
   const t = TEXTS[lang];
   const compact = compactWhatsAppFor(pathname);
-  const [busy, setBusy] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
+  const [waUrl, setWaUrl] = useState(`https://wa.me/${NUMBER}?text=${encodeURIComponent(t.hello)}`);
 
   // Le portail n'existe qu'une fois le <body> disponible (rendu côté client uniquement).
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
+  // Lien de repli vers WhatsApp (avec code de liaison pour un utilisateur connecté), préparé à l'ouverture du chat.
+  useEffect(() => {
+    if (!chatOpen) return;
+    let cancelled = false;
+    buildWhatsAppUrl(t.hello).then((url) => { if (!cancelled) setWaUrl(url); });
+    return () => { cancelled = true; };
+  }, [chatOpen, t.hello]);
   if (!mounted || typeof document === 'undefined') return null;
-
-  const open = async () => {
-    if (busy) return;
-    setBusy(true);
-    // Ouvrir la fenêtre tout de suite (clic utilisateur) pour ne pas être bloqué par le bloqueur de popups, puis la rediriger.
-    const win = window.open('about:blank', '_blank');
-    const url = await buildWhatsAppUrl(t.hello);
-    if (win) { try { win.opener = null; } catch { /* ignore */ } win.location.href = url; } else window.location.href = url;
-    setBusy(false);
-  };
 
   return createPortal(
     <>
       <style>{CSS}</style>
-      <button type="button" className={compact ? 'harx-wa-fab harx-wa-fab--compact' : 'harx-wa-fab'} onClick={open} aria-label={t.aria} title={t.aria} aria-busy={busy} dir={lang === 'ar' ? 'rtl' : 'ltr'} data-testid="whatsapp-support-button">
+      <button type="button" className={compact ? 'harx-wa-fab harx-wa-fab--compact' : 'harx-wa-fab'} onClick={() => setChatOpen((v) => !v)} aria-label={t.aria} title={t.aria} aria-expanded={chatOpen} dir={lang === 'ar' ? 'rtl' : 'ltr'} data-testid="whatsapp-support-button">
         <WhatsAppGlyph />
         <span className="harx-wa-label">{t.label}</span>
       </button>
+      {chatOpen ? <WhatsAppWebChat lang={lang} whatsappUrl={waUrl} onClose={() => setChatOpen(false)} /> : null}
     </>,
     document.body,
   );
