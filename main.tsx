@@ -19,12 +19,24 @@ import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import { subscribeAuthChanged } from './lib/authSync';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
+import { isLangTelephonyPath, langTelephonyRedirect, rememberSiteLang } from './lib/langTelephonyRedirect';
 
 // Arbitrage 12 : /call-center est retiré. Si Netlify n'a pas déjà renvoyé la 301 (aperçu local, navigation interne),
 // on remplace l'adresse avant tout montage de micro-application.
 {
   const legacyTarget = legacyCallCenterRedirect(window.location);
   if (legacyTarget) window.history.replaceState(window.history.state, '', legacyTarget);
+}
+
+// /:lang/telephony* (ex. /en/telephony) : l'application Téléphonie n'a pas de préfixe de langue. On mémorise la langue
+// choisie (lue par l'application au chargement) et on remplace l'adresse par /telephony* avant tout montage,
+// au lieu de laisser le module d'inscription afficher sa page 404.
+{
+  const langTarget = langTelephonyRedirect(window.location);
+  if (langTarget) {
+    rememberSiteLang(langTarget.lang);
+    window.history.replaceState(window.history.state, '', langTarget.url);
+  }
 }
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
@@ -111,7 +123,8 @@ registerMicroApps([
         p.startsWith('/admin') ||
         p.startsWith('/linkedin') ||
         isLegalPath(p) ||
-        getLangFromPath(p) !== null
+        // /:lang/telephony* appartient à l'application Téléphonie (redirigé ci-dessus et dans App.tsx).
+        (getLangFromPath(p) !== null && !isLangTelephonyPath(p))
       );
     },
     props: {
