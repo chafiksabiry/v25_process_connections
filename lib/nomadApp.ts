@@ -60,32 +60,47 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const APPLE = '<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16.37 12.73c-.03-2.7 2.2-4 2.3-4.06-1.25-1.83-3.2-2.08-3.9-2.11-1.66-.17-3.24.98-4.08.98-.85 0-2.15-.95-3.53-.93-1.81.03-3.49 1.06-4.42 2.68-1.89 3.27-.48 8.1 1.36 10.75.9 1.3 1.97 2.76 3.37 2.7 1.35-.05 1.86-.87 3.5-.87 1.62 0 2.08.87 3.5.84 1.45-.03 2.37-1.32 3.25-2.62 1.03-1.5 1.45-2.96 1.47-3.04-.03-.01-2.8-1.08-2.82-4.32zM13.7 4.8c.74-.9 1.25-2.15 1.11-3.4-1.07.05-2.37.72-3.14 1.61-.69.79-1.29 2.07-1.13 3.29 1.2.09 2.42-.6 3.16-1.5z"/></svg>';
 const PLAY = '<svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M3.6 1.8 13.5 12l-9.9 10.2c-.36-.2-.6-.6-.6-1.1V2.9c0-.5.24-.9.6-1.1z" fill="#4285F4"/><path d="M3.6 1.8 16.9 9.4 13.5 12z" fill="#34A853"/><path d="M3.6 22.2 13.5 12l3.4 2.6z" fill="#EA4335"/><path d="m16.9 9.4 3.7 2.1c.6.4.6 1.1 0 1.5l-3.7 1.6-3.4-2.6z" fill="#FBBC04"/></svg>';
 
-/** Page (ordinateur, ou store de l'appareil non configuré) : boutons des stores configurés, sinon « bientôt disponible ». */
+/**
+ * Page affichée quand il n'y a pas de redirection :
+ * - téléphone dont le store n'est pas encore renseigné : « bientôt sur l'App Store » (ou Google Play), SANS le bouton de l'autre store
+ *   (un iPhone ne doit pas voir Google Play) ;
+ * - ordinateur : boutons des stores configurés, sinon « bientôt disponible ». Un iPad en iPadOS se présente comme un Mac : un petit script
+ *   (navigator.maxTouchPoints) le renvoie vers l'App Store, ou affiche « bientôt sur l'App Store ».
+ */
 export function renderPage(lang: Lang, platform: Platform, links: StoreLinks): string {
   const t = T[lang];
   const badge = (store: 'ios' | 'android', href: string) => {
     const [small, big] = t[store];
     return `<a class="badge" data-store="${store}" href="${esc(href)}" rel="noopener">${store === 'ios' ? APPLE : PLAY}<span><small>${esc(small)}</small><b>${esc(big)}</b></span></a>`;
   };
-  const order: Array<'ios' | 'android'> = platform === 'android' ? ['android', 'ios'] : ['ios', 'android'];
-  const badges = order.filter((s) => links[s]).map((s) => badge(s, links[s]!)).join('');
   const any = Boolean(links.ios || links.android);
-  const notes: string[] = [];
-  if (!any) notes.push(t.soon);
-  else {
-    if (!links.ios) notes.push(t.soonIos);
-    if (!links.android) notes.push(t.soonAndroid);
+  const soonFor = (store: 'ios' | 'android') => (any ? (store === 'ios' ? t.soonIos : t.soonAndroid) : t.soon);
+  let body: string;
+  if (platform !== 'desktop') {
+    body = `<h1>${esc(t.title)}</h1>\n<p class="lead">${esc(soonFor(platform))}</p>`;
+  } else {
+    const shown = (['ios', 'android'] as const).filter((s) => links[s]);
+    const notes: string[] = [];
+    if (any) {
+      if (!links.ios) notes.push(t.soonIos);
+      if (!links.android) notes.push(t.soonAndroid);
+      notes.push(t.phone);
+    }
+    body = [
+      `<h1>${esc(t.title)}</h1>`,
+      `<div data-desktop>`,
+      `<p class="lead">${esc(any ? t.ready : t.soon)}</p>`,
+      shown.length ? `<div class="badges">${shown.map((s) => badge(s, links[s]!)).join('')}</div>` : '',
+      notes.map((n) => `<p class="note">${esc(n)}</p>`).join(''),
+      `</div>`,
+      `<div data-ipad hidden><p class="lead">${esc(soonFor('ios'))}</p></div>`,
+    ].join('\n');
   }
-  const lead = any ? t.ready : t.soon;
-  const body = [
-    `<h1>${esc(t.title)}</h1>`,
-    `<p class="lead">${esc(lead)}</p>`,
-    badges ? `<div class="badges">${badges}</div>` : '',
-    any ? notes.map((n) => `<p class="note">${esc(n)}</p>`).join('') : '',
-    any && platform === 'desktop' ? `<p class="note">${esc(t.phone)}</p>` : '',
-    `<p class="account">${esc(t.account)}</p>`,
-    `<a class="more" href="/telephony/nomad">${esc(t.more)}</a>`,
-  ].join('\n');
+  body += `\n<p class="account">${esc(t.account)}</p>\n<a class="more" href="/telephony/nomad">${esc(t.more)}</a>`;
+  // iPadOS (UA de bureau) : détecté côté page par les points de contact tactiles.
+  const ipadScript = platform === 'desktop'
+    ? `<script>(function(){if(!/Macintosh/.test(navigator.userAgent)||!(navigator.maxTouchPoints>1))return;var m=document.querySelector('main'),u=m&&m.getAttribute('data-ios');if(u){location.replace(u);return;}document.querySelectorAll('[data-desktop]').forEach(function(e){e.hidden=true;});var i=document.querySelector('[data-ipad]');if(i)i.hidden=false;})();</script>`
+    : '';
   return `<!doctype html>
 <html lang="${lang}" dir="${lang === 'ar' ? 'rtl' : 'ltr'}">
 <head>
@@ -112,10 +127,11 @@ h1{font-size:26px;line-height:1.2;margin:0 0 8px;font-weight:900}
 </style>
 </head>
 <body>
-<main data-platform="${platform}" data-stores="${order.filter((s) => links[s]).join(',') || 'none'}">
+<main data-platform="${platform}" data-stores="${(platform === 'desktop' ? (['ios', 'android'] as const).filter((s) => links[s]) : []).join(',') || 'none'}" data-ios="${links.ios ? esc(links.ios) : ''}">
 <div class="logo" aria-hidden="true">HARX</div>
 ${body}
 </main>
+${ipadScript}
 </body>
 </html>`;
 }

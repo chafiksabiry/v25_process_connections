@@ -45,6 +45,26 @@ describe('harx.ai/app : lien court de l’app HARX Nomad', () => {
     expect(onlyPlay).toContain('Coming soon to the App Store.');
     expect(renderPage('fr', 'desktop', { ios: 'https://x/"><script>', android: null })).not.toContain('"><script>');
   });
+  it('un seul store renseigné : le téléphone ne voit que le sien (iPhone avec seul Google Play : « bientôt sur l’App Store »)', () => {
+    const onlyPlay = storeLinks({ NOMAD_PLAY_STORE_URL: PLAY });
+    expect(decide('android', onlyPlay)).toEqual({ kind: 'redirect', location: PLAY });
+    const iphone = renderPage('fr', 'ios', onlyPlay);
+    expect(iphone).toContain('Bientôt sur l’App Store.');
+    expect(iphone).not.toContain('data-store="android"');
+    expect(iphone).not.toContain(PLAY);
+    const android = renderPage('en', 'android', storeLinks({ NOMAD_APP_STORE_URL: IOS }));
+    expect(android).toContain('Coming soon to Google Play.');
+    expect(android).not.toContain('data-store="ios"');
+  });
+  it('iPadOS (UA de Mac) : script maxTouchPoints vers l’App Store, ou « bientôt sur l’App Store »', () => {
+    const desk = renderPage('fr', 'desktop', storeLinks({ NOMAD_APP_STORE_URL: IOS, NOMAD_PLAY_STORE_URL: PLAY }));
+    expect(desk).toMatch(/navigator\.maxTouchPoints>1/);
+    expect(desk).toContain(`data-ios="${IOS}"`);
+    const deskPlay = renderPage('fr', 'desktop', storeLinks({ NOMAD_PLAY_STORE_URL: PLAY }));
+    expect(deskPlay).toContain('data-ios=""');
+    expect(deskPlay).toMatch(/<div data-ipad hidden><p class="lead">Bientôt sur l’App Store\.<\/p><\/div>/);
+    expect(renderPage('fr', 'ios', storeLinks({}))).not.toMatch(/maxTouchPoints/);
+  });
   it('langues fr / en / es / ar (arabe de droite à gauche), français par défaut', () => {
     expect(pickLang('en-US,en;q=0.9')).toBe('en');
     expect(pickLang('de-DE,es;q=0.8')).toBe('es');
