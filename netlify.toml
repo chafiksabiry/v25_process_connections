@@ -26,6 +26,14 @@
   VITE_MF_HOME_ENTRY = "https://websitev2026.netlify.app"
   VITE_MF_CALLCENTER_ENTRY = "https://harx26callcenter-recette.netlify.app"
 
+# harx.ai/app : lien court de l'app mobile HARX Nomad (QR code du portail, FAQ). Fonction de bord netlify/edge-functions/nomad-app.ts
+# (chemins /app et /app/, déclarés dans la fonction ; elle passe avant les redirections ci-dessous). iPhone/iPad → App Store, Android →
+# Google Play, ordinateur ou store non configuré → page avec les boutons ou « bientôt disponible ». Variables d'environnement Netlify
+# (lues à l'exécution, sans redéploiement du code) :
+#   NOMAD_APP_STORE_URL  = https://apps.apple.com/app/id…   (une fois l'app visible sur l'App Store)
+#   NOMAD_PLAY_STORE_URL = https://play.google.com/store/apps/details?id=ai.harx.nomad   (une fois la version Play en production)
+# Vide = store non configuré.
+
 # Ancienne adresse du produit : redirection permanente vers /telephony (liens, favoris, moteurs de recherche).
 [[redirects]]
   from = "/callcentre"
