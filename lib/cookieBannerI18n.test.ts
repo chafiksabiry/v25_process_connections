@@ -8,7 +8,7 @@ import {
 } from './cookieBannerI18n';
 import { SITE_LANGS } from './langRoutes';
 
-const NONE: StoredLangHints = { explicit: false, siteLang: null, sharedLang: null, countryLang: null };
+const NONE: StoredLangHints = { explicit: false, siteLang: null, sharedLang: null };
 
 describe('resolveCookieBannerLang', () => {
   it.each([
@@ -21,7 +21,7 @@ describe('resolveCookieBannerLang', () => {
     ['/ar/auth/signin', 'ar'],
   ] as const)('suit le préfixe de langue de %s', (pathname, lang) => {
     // Le préfixe prime sur un choix mémorisé différent et sur le navigateur.
-    const stored: StoredLangHints = { explicit: true, siteLang: 'fr', sharedLang: 'fr', countryLang: 'fr' };
+    const stored: StoredLangHints = { explicit: true, siteLang: 'fr', sharedLang: 'fr' };
     expect(resolveCookieBannerLang({ pathname, stored, browser: ['de-DE'] })).toBe(lang);
   });
 
@@ -32,18 +32,16 @@ describe('resolveCookieBannerLang', () => {
   });
 
   it('ignore une langue mémorisée non explicite', () => {
-    expect(resolveCookieBannerLang({ pathname: '/reps', stored: { ...NONE, siteLang: 'en' }, browser: ['en-GB'] })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/reps', stored: { ...NONE, siteLang: 'fr' }, browser: ['en-GB'] })).toBe('en');
   });
 
-  it('sous /telephony, mêmes règles que l\'application : pays de la société, navigateur, puis anglais', () => {
-    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: { ...NONE, countryLang: 'es' }, browser: ['en-GB'] })).toBe('es');
+  it('sans préfixe ni choix, partout : première langue du navigateur parmi en, fr, es, ar, sinon anglais (ni pays ni fuseau)', () => {
+    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: NONE, browser: ['en-GB'] })).toBe('en');
     expect(resolveCookieBannerLang({ pathname: '/telephony/', stored: NONE, browser: ['de-DE', 'en-GB'] })).toBe('en');
     expect(resolveCookieBannerLang({ pathname: '/telephony', stored: NONE, browser: ['ar-MA'] })).toBe('ar');
-    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: NONE, browser: ['de-DE'] })).toBe('en');
-  });
-
-  it('ailleurs sans préfixe ni choix, reste en français', () => {
-    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['en-GB'] })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['de-DE', 'fr-FR'] })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['de-DE'] })).toBe('en');
+    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: [] })).toBe('en');
   });
 });
 
