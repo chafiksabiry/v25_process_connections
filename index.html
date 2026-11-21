@@ -1,8 +1,10 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Pages publiques sans préfixe de langue → version /fr ou /en (choix explicite, sinon langue du navigateur, sinon français).
+    <!-- Pages publiques sans préfixe de langue → version /en, /fr, /es ou /ar. Décision du fondateur (21/11/2026) : « on gère 4 langues et pour
+         le reste des langues c'est l'anglais » : choix explicite, sinon première langue de navigator.languages (puis navigator.language) parmi
+         en, fr, es, ar, sinon anglais (robots compris). Ni pays ni fuseau horaire. Copie ES5 de lib/defaultLang.ts (lib/defaultLang.test.ts).
          Doit s'exécuter avant tout le reste ; la query et le hash sont conservés. -->
     <script>
       (function () {
@@ -16,13 +18,13 @@
           var lang = null;
           if (explicit && SUPPORTED.indexOf(stored.slice(0, 2)) >= 0) lang = stored.slice(0, 2);
           if (!lang) {
-            var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+            var prefs = [].concat(navigator.languages ? Array.prototype.slice.call(navigator.languages) : [], navigator.language ? [navigator.language] : []);
             for (var i = 0; i < prefs.length; i++) {
-              var l = String(prefs[i]).toLowerCase();
-              if (SUPPORTED.indexOf(l.slice(0, 2)) >= 0) { lang = l.slice(0, 2); break; }
+              var code = String(prefs[i] || '').toLowerCase().slice(0, 2);
+              if (SUPPORTED.indexOf(code) >= 0) { lang = code; break; }
             }
           }
-          location.replace('/' + (lang || 'fr') + (path === '/' ? '' : path) + location.search + location.hash);
+          location.replace('/' + (lang || 'en') + (path === '/' ? '' : path) + location.search + location.hash);
         } catch (e) { /* ignore */ }
       })();
     </script>
@@ -44,16 +46,18 @@
       @media (prefers-reduced-motion: reduce) { #boot-loader .bar::after { animation: none; width: 100%; } }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HARX — Tous vos appels, où que vous soyez</title>
-    <meta name="description" content="HARX.ai réunit les offres HARX : TAAS (Transaction-as-a-Service, payez pour des résultats) et HARX Téléphonie (numéro de votre pays, appels entrants et sortants, accueil / secrétariat et IA)." />
+    <title>HARX — All your calls, wherever you are</title>
+    <meta name="description" content="HARX.ai brings together the HARX offers: TAAS (Transaction-as-a-Service, pay for results) and HARX Telephony (a number from your country, inbound and outbound calls, reception / secretarial and AI)." />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#E91E8C" />
+    <!-- Le canonical et les hreflang de chaque page sont posés au montage par le module d'accueil (resolvePageMeta de v25_registration_front :
+         /en, /fr, /es, /ar, x-default /en) ; le sitemap porte les mêmes. -->
     <link rel="canonical" href="https://harx.ai/" />
     <meta property="og:site_name" content="HARX" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://harx.ai/" />
-    <meta property="og:title" content="HARX — Tous vos appels, où que vous soyez" />
-    <meta property="og:description" content="HARX.ai réunit les offres HARX : TAAS (Transaction-as-a-Service) et HARX Téléphonie." />
+    <meta property="og:title" content="HARX — All your calls, wherever you are" />
+    <meta property="og:description" content="HARX.ai brings together the HARX offers: TAAS (Transaction-as-a-Service) and HARX Telephony." />
     <meta property="og:image" content="https://res.cloudinary.com/dyqg8x26j/image/upload/w_1200,f_auto,q_auto/v1782247023/HARX-color_Plan_de_travail_1_-_copie.jpg_mbnsax.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <!-- Données structurées (Organization / WebSite) -->
@@ -76,14 +80,14 @@
               "postalCode": "19958",
               "addressCountry": "US"
             },
-            "description": "HARX — Transaction as a Service. Marketplace de reps certifiés par IA pour entreprises et indépendants."
+            "description": "HARX — Transaction as a Service. A marketplace of AI-certified reps for companies and freelancers."
           },
           {
             "@type": "WebSite",
             "@id": "https://harx.ai/#website",
             "name": "HARX",
             "url": "https://harx.ai/",
-            "inLanguage": "fr",
+            "inLanguage": "en",
             "publisher": { "@id": "https://harx.ai/#organization" }
           }
         ]
@@ -197,7 +201,7 @@
           var urlLang = m ? m[1] : null;
           var page = p.replace(/^\/(fr|en|es|ar)(?=\/|$)/, '') || '/';
           var kind = page === '/' ? 'hub' : page === '/taas' ? 'taas' : null;
-          var lang = urlLang || (kind ? 'fr' : null);
+          var lang = urlLang || (kind ? 'en' : null);
           if (!kind || !lang) { s.remove(); return; }
           var blocks = s.querySelectorAll('[data-snap-lang]');
           for (var i = 0; i < blocks.length; i++) {
