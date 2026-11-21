@@ -5,11 +5,11 @@
  *   1. le préfixe de l'URL (/fr, /en, /es, /ar), comme le reste du site ;
  *   2. sans préfixe, le choix explicite mémorisé par le site (sélecteur de langue) : `harxSiteLang`, sinon `i18nextLng`,
  *      seulement si `harxLangExplicit` vaut « 1 » (mêmes clés que le site d'accueil et HARX Téléphonie) ;
- *   3. sous /telephony, les mêmes règles que l'application Téléphonie (src/i18n/lang.ts de v25_callcenter_front) :
- *      langue du pays de la société (`harxCountryLang`), puis langue du navigateur, puis anglais ;
- *   4. ailleurs, le français (langue par défaut des pages sans préfixe).
+ *   3. sinon la langue par défaut du site, partout (règle du fondateur, voir `lib/defaultLang.ts`) : navigateur si fr / es / ar, français
+ *      si le pays est francophone (société connue de la Téléphonie, sinon fuseau horaire), sinon anglais.
  */
 import { getLangFromPath, SITE_LANGS, type SiteLang } from './langRoutes';
+import { browserTimeZone, resolveDefaultLang } from './defaultLang';
 
 export type CookieBannerTexts = {
   title: string;
@@ -96,27 +96,14 @@ function toSiteLang(raw: string | null | undefined): SiteLang | null {
   return (SITE_LANGS as readonly string[]).includes(code) ? (code as SiteLang) : null;
 }
 
-function isTelephonyPath(pathname: string): boolean {
-  return pathname === '/telephony' || pathname.startsWith('/telephony/');
-}
-
 /** Règle pure (testable) : voir l'ordre de priorité en tête de fichier. */
-export function resolveCookieBannerLang(input: { pathname: string; stored: StoredLangHints; browser: readonly string[] }): SiteLang {
+export function resolveCookieBannerLang(input: { pathname: string; stored: StoredLangHints; browser: readonly string[]; timeZone?: string | null }): SiteLang {
   const urlLang = getLangFromPath(input.pathname);
   if (urlLang) return urlLang;
   const { stored } = input;
   const explicit = stored.explicit ? toSiteLang(stored.siteLang) ?? toSiteLang(stored.sharedLang) : null;
   if (explicit) return explicit;
-  if (isTelephonyPath(input.pathname)) {
-    const country = toSiteLang(stored.countryLang);
-    if (country) return country;
-    for (const candidate of input.browser) {
-      const hit = toSiteLang(candidate);
-      if (hit) return hit;
-    }
-    return 'en';
-  }
-  return 'fr';
+  return resolveDefaultLang({ browser: input.browser, timeZone: input.timeZone, countryLang: stored.countryLang });
 }
 
 function readStoredHints(): StoredLangHints {
@@ -139,5 +126,5 @@ function readBrowserLangs(): string[] {
 
 /** Langue de la bannière pour l'adresse courante, à partir du stockage et du navigateur. */
 export function readCookieBannerLang(pathname: string): SiteLang {
-  return resolveCookieBannerLang({ pathname, stored: readStoredHints(), browser: readBrowserLangs() });
+  return resolveCookieBannerLang({ pathname, stored: readStoredHints(), browser: readBrowserLangs(), timeZone: browserTimeZone() });
 }

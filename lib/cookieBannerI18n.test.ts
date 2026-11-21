@@ -32,18 +32,17 @@ describe('resolveCookieBannerLang', () => {
   });
 
   it('ignore une langue mémorisée non explicite', () => {
-    expect(resolveCookieBannerLang({ pathname: '/reps', stored: { ...NONE, siteLang: 'en' }, browser: ['en-GB'] })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/reps', stored: { ...NONE, siteLang: 'fr' }, browser: ['en-GB'] })).toBe('en');
   });
 
-  it('sous /telephony, mêmes règles que l\'application : pays de la société, navigateur, puis anglais', () => {
-    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: { ...NONE, countryLang: 'es' }, browser: ['en-GB'] })).toBe('es');
+  it('sans préfixe ni choix, partout : navigateur fr / es / ar, sinon français pour un pays francophone, sinon anglais', () => {
+    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: { ...NONE, countryLang: 'fr' }, browser: ['en-GB'] })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: { ...NONE, countryLang: 'es' }, browser: ['en-GB'] })).toBe('en');
     expect(resolveCookieBannerLang({ pathname: '/telephony/', stored: NONE, browser: ['de-DE', 'en-GB'] })).toBe('en');
     expect(resolveCookieBannerLang({ pathname: '/telephony', stored: NONE, browser: ['ar-MA'] })).toBe('ar');
-    expect(resolveCookieBannerLang({ pathname: '/telephony', stored: NONE, browser: ['de-DE'] })).toBe('en');
-  });
-
-  it('ailleurs sans préfixe ni choix, reste en français', () => {
-    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['en-GB'] })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['en-GB'] })).toBe('en');
+    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['en-GB'], timeZone: 'Europe/Paris' })).toBe('fr');
+    expect(resolveCookieBannerLang({ pathname: '/company', stored: NONE, browser: ['fr-FR'] })).toBe('fr');
   });
 });
 
