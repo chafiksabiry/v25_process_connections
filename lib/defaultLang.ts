@@ -1,13 +1,13 @@
 import { SITE_LANGS, type SiteLang } from './langRoutes';
 
 /**
- * Langue par défaut d'un visiteur sans préfixe d'URL ni choix mémorisé. Règle du fondateur (21/11/2026) : « English must be the native
- * language and French only for French-speaking countries » :
- *   1. langue du navigateur / de l'appareil si c'est le français, l'espagnol ou l'arabe (première langue gérée de `navigator.languages`) ;
- *   2. français si le pays est francophone : pays de la société connu de l'application Téléphonie (`harxCountryLang` = « fr »), sinon pays
- *      déduit du fuseau horaire du navigateur (`FRENCH_TIME_ZONES`). Maroc, Tunisie, Algérie : français sauf appareil en arabe (cas 1) ;
- *      Canada : anglais (Québec non détectable) ;
- *   3. sinon l'anglais.
+ * Langue par défaut d'un visiteur sans préfixe d'URL ni choix mémorisé. Décisions du fondateur (21/11/2026) : « English must be the native
+ * language and French only for French-speaking countries », « langue de l'appareil d'abord », « harx.ai dans la langue du navigateur » :
+ *   1. langue PRINCIPALE du navigateur / de l'appareil si c'est l'anglais, le français, l'espagnol ou l'arabe (un navigateur anglais en
+ *      France reste en anglais) ;
+ *   2. navigateur sans aucune langue lisible (robots) : anglais ;
+ *   3. navigateur dans une autre langue : français si le pays est francophone (pays de la société connu de l'application Téléphonie,
+ *      `harxCountryLang` = « fr », sinon fuseau horaire `FRENCH_TIME_ZONES` ; Maghreb : français ; Canada : anglais), sinon anglais.
  * Le même calcul est recopié en ES5 dans le script de redirection d'`index.html` (garde-fou : `defaultLang.test.ts`).
  */
 export const FRENCH_TIME_ZONES: readonly string[] = [
@@ -24,12 +24,10 @@ const toSiteLang = (raw: string | null | undefined): SiteLang | null => {
 };
 
 export function resolveDefaultLang(input: { browser: readonly string[]; timeZone?: string | null; countryLang?: string | null }): SiteLang {
-  let browser: SiteLang | null = null;
-  for (const candidate of input.browser) {
-    browser = toSiteLang(candidate);
-    if (browser) break;
-  }
-  if (browser && browser !== 'en') return browser;
+  const primary = String(input.browser[0] ?? '').trim();
+  const browser = toSiteLang(primary);
+  if (browser) return browser;
+  if (!primary) return 'en';
   if (toSiteLang(input.countryLang) === 'fr') return 'fr';
   if (FRENCH_TIME_ZONES.includes(String(input.timeZone ?? '').trim())) return 'fr';
   return 'en';

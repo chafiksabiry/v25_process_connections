@@ -5,7 +5,7 @@
  *   1. le préfixe de l'URL (/fr, /en, /es, /ar), comme le reste du site ;
  *   2. sans préfixe, le choix explicite mémorisé par le site (sélecteur de langue) : `harxSiteLang`, sinon `i18nextLng`,
  *      seulement si `harxLangExplicit` vaut « 1 » (mêmes clés que le site d'accueil et HARX Téléphonie) ;
- *   3. sinon la langue par défaut du site, partout (règle du fondateur, voir `lib/defaultLang.ts`) : navigateur si fr / es / ar, français
+ *   3. sinon la langue par défaut du site, partout (décisions du fondateur, voir `lib/defaultLang.ts`) : langue principale du navigateur si en / fr / es / ar ; sinon français
  *      si le pays est francophone (société connue de la Téléphonie, sinon fuseau horaire), sinon anglais.
  */
 import { getLangFromPath, SITE_LANGS, type SiteLang } from './langRoutes';

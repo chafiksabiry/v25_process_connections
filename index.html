@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Pages publiques sans préfixe de langue → version /en, /fr, /es ou /ar. Règle du fondateur (21/11/2026) : choix explicite, sinon
-         langue du navigateur si fr / es / ar, sinon français pour un pays francophone (société connue, sinon fuseau horaire), sinon anglais.
+    <!-- Pages publiques sans préfixe de langue → version /en, /fr, /es ou /ar, dans la langue du navigateur (décisions du fondateur du 21/11/2026) :
+         choix explicite, sinon langue principale du navigateur si en / fr / es / ar, sinon (aucune langue lisible, robots) anglais, sinon (autre
+         langue) français pour un pays francophone (société connue, sinon fuseau horaire), sinon anglais.
          Copie ES5 de lib/defaultLang.ts (liste des fuseaux identique, vérifiée par lib/defaultLang.test.ts).
          Doit s'exécuter avant tout le reste ; la query et le hash sont conservés. -->
     <script>
@@ -19,12 +20,9 @@
           if (explicit && SUPPORTED.indexOf(stored.slice(0, 2)) >= 0) lang = stored.slice(0, 2);
           if (!lang) {
             var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-            var browser = null;
-            for (var i = 0; i < prefs.length; i++) {
-              var l = String(prefs[i]).toLowerCase();
-              if (SUPPORTED.indexOf(l.slice(0, 2)) >= 0) { browser = l.slice(0, 2); break; }
-            }
-            if (browser && browser !== 'en') lang = browser;
+            var primary = String(prefs[0] || '').toLowerCase();
+            if (SUPPORTED.indexOf(primary.slice(0, 2)) >= 0) lang = primary.slice(0, 2);
+            else if (!primary) lang = 'en';
           }
           if (!lang) {
             var FRENCH_TIME_ZONES = ['Europe/Paris', 'Europe/Brussels', 'Europe/Zurich', 'Europe/Luxembourg', 'Europe/Monaco', 'Africa/Dakar', 'Africa/Abidjan', 'Africa/Douala', 'Africa/Bamako', 'Africa/Ouagadougou', 'Africa/Niamey', 'Africa/Lome', 'Africa/Porto-Novo', 'Africa/Conakry', 'Africa/Kinshasa', 'Africa/Lubumbashi', 'Africa/Brazzaville', 'Africa/Libreville', 'Indian/Antananarivo', 'Africa/Tunis', 'Africa/Algiers', 'Africa/Casablanca', 'Africa/El_Aaiun', 'Indian/Reunion', 'Indian/Mayotte', 'America/Guadeloupe', 'America/Martinique', 'America/Cayenne', 'America/Miquelon', 'Pacific/Noumea', 'Pacific/Tahiti'];
@@ -58,6 +56,8 @@
     <meta name="description" content="HARX.ai brings together the HARX offers: TAAS (Transaction-as-a-Service, pay for results) and HARX Telephony (a number from your country, inbound and outbound calls, reception / secretarial and AI)." />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#E91E8C" />
+    <!-- Le canonical et les hreflang de chaque page sont posés au montage par le module d'accueil (resolvePageMeta de v25_registration_front :
+         /en, /fr, /es, /ar, x-default /en) ; le sitemap porte les mêmes. -->
     <link rel="canonical" href="https://harx.ai/" />
     <meta property="og:site_name" content="HARX" />
     <meta property="og:type" content="website" />
