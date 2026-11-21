@@ -16,7 +16,7 @@ const CC_SNAPSHOT = `<div id="container-callcenter" class="harx-mf-active">
         <p>${CC_DESC}</p>
         <h2>Quatre profils, quatre offres</h2>
         <ul>
-          <li>Nomad Solo : pour les freelances, les nomades qui voyagent tout le temps et ceux qui travaillent en France en vivant à l’étranger (Maroc, Dubaï, Thaïlande…). Un numéro français, un répondeur personnel et un journal d’appels.</li>
+          <li>Nomad : pour les freelances, les nomades qui voyagent tout le temps et ceux qui travaillent en France en vivant à l’étranger (Maroc, Dubaï, Thaïlande…). Un numéro français, un répondeur personnel et un journal d’appels.</li>
           <li>Accueil / Secrétariat : pour les TPE de tous les métiers (cabinets médicaux, courtiers d’assurance…), dont le personnel travaille à distance ou dont l’accueil est délocalisé.</li>
           <li>Company Full Scope In &amp; Out : pour les PME et les équipes à distance qui téléphonent dans tous leurs services (ventes, relation client, recouvrement, recrutement).</li>
           <li>Contact Centre Multi-clients : pour les centres d’appels, en Europe, aux États-Unis ou dans les pays d’externalisation (France, Maroc, Tunisie, Sénégal…), dont les agents sont sur plateau ou à distance, et qui travaillent pour plusieurs clients.</li>
