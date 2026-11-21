@@ -48,7 +48,7 @@ if (errors.length) { console.error('SEO build: contenu invalide\n - ' + errors.j
 if (checkSlugs) { console.log(`SEO check OK: ${entries.length} contenus valides`); process.exit(0); }
 // ---------- rendu ----------
 const url = (lang, ...parts) => `${SITE}/${lang}/${parts.filter(Boolean).join('/')}${parts.length ? '/' : ''}`.replace(/\/\/$/, '/');
-const alternates = (build) => LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${build(l)}">`).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${build('fr')}">`;
+const alternates = (build) => LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${build(l)}">`).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${build('en')}">`;
 
 const GA_ID = 'G-93ZHG8LNXL';
 const CONSENT_KEY = 'harx_cookie_consent';
@@ -172,7 +172,7 @@ for (const lang of LANGS) {
       if (!re.test(html)) throw new Error(`prerender core: motif introuvable ${re}`);
       html = html.replace(re, () => to);
     };
-    sub(/<html lang="fr">/, `<html lang="${lang}">`);
+    sub(/<html lang="[a-z]{2}">/, `<html lang="${lang}">`);
     sub(/<title>[\s\S]*?<\/title>/, `<title>${esc(c.title)}</title>`);
     sub(/<meta name="description"[^>]*>/, `<meta name="description" content="${esc(c.description)}" />`);
     sub(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${url}" />\n    ${alternates((l) => corePath(l, key))}`);
@@ -200,7 +200,7 @@ writeFileSync(resolve(dist, '_redirects'), rewrites.join('\n') + '\n');
 
 // ---------- sitemaps ----------
 const today = new Date().toISOString().slice(0, 10);
-const altXml = (build) => LANGS.map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${build(l)}"/>`).join('\n') + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${build('fr')}"/>`;
+const altXml = (build) => LANGS.map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${build(l)}"/>`).join('\n') + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${build('en')}"/>`;
 const entryUrls = [];
 for (const type of ['blog', 'faq', 'solution']) {
   const list = byType(type);
