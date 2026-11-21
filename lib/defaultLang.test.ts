@@ -25,7 +25,7 @@ describe('langue par défaut du site : 4 langues gérées, l’anglais pour les 
     expect(html).toContain('if (SUPPORTED.indexOf(code) >= 0) { lang = code; break; }');
   });
   it('sitemap : x-default en anglais', () => {
-    const xml = readFileSync(join(__dirname, '..', 'public', 'sitemap.xml'), 'utf8');
+    const xml = readFileSync(join(__dirname, '..', 'public', 'sitemap-core.xml'), 'utf8');
     expect(xml).not.toMatch(/hreflang="x-default" href="https:\/\/harx\.ai\/fr/);
     expect(xml).toMatch(/hreflang="x-default" href="https:\/\/harx\.ai\/en"/);
   });
