@@ -20,6 +20,7 @@ import { getLangFromPath } from './lib/langRoutes';
 import { subscribeAuthChanged } from './lib/authSync';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
 import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, rememberSiteLang } from './lib/langTelephonyRedirect';
+import { installRedirectHopRule } from './lib/redirectHop';
 
 // Arbitrage 12 : /call-center est retiré. Si Netlify n'a pas déjà renvoyé la 301 (aperçu local, navigation interne),
 // on remplace l'adresse avant tout montage de micro-application.
@@ -38,6 +39,10 @@ import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, remem
     window.history.replaceState(window.history.state, '', langTarget.url);
   }
 }
+
+// Relais /telephony/start → inscription : la flèche « retour » du navigateur saute le relais (au lieu de renvoyer en boucle sur
+// l'inscription) et ramène à la page de l'offre (ex. /telephony/nomad). Voir lib/redirectHop.ts.
+const skippingRedirectHop = installRedirectHopRule(window);
 
 // /fr, /en, /es, /ar (et les pages sous ce préfixe) : langue mémorisée comme choix explicite avant tout montage, pour que les liens sans
 // préfixe (/telephony, /telephony/nomad, /auth/signin…) gardent la langue de la page, même si le module d'accueil n'est pas encore monté.
@@ -247,5 +252,6 @@ const root = ReactDOM.createRoot(rootElement);
 syncPageHead();
 root.render(<App />);
 
-// Start Qiankun after host app is mounted
-startQiankun();
+// Start Qiankun after host app is mounted (sauf relais sauté : la page repart aussitôt en arrière, l'application Téléphonie
+// ne doit pas renvoyer vers l'inscription).
+if (!skippingRedirectHop) startQiankun();
