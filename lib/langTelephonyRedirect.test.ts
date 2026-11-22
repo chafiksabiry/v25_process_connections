@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   isLangTelephonyPath,
   langTelephonyRedirect,
+  rememberLangFromPath,
   mapLangTelephonyPath,
   rememberSiteLang,
 } from './langTelephonyRedirect';
@@ -55,5 +56,38 @@ describe('rememberSiteLang', () => {
       }),
     ).not.toThrow();
     expect(() => rememberSiteLang('fr', null)).not.toThrow();
+  });
+});
+
+describe('rememberLangFromPath (constat du 21/11 : la langue de /en doit suivre vers /telephony)', () => {
+  const memStore = (init: Record<string, string> = {}) => {
+    const m = new Map(Object.entries(init));
+    let writes = 0;
+    return { m, get writes() { return writes; }, getItem: (k: string) => m.get(k) ?? null, setItem: (k: string, v: string) => { writes += 1; m.set(k, v); } };
+  };
+
+  it.each([
+    ['/en', 'en'], ['/en/', 'en'], ['/en/taas', 'en'], ['/es/auth/choice', 'es'], ['/ar/privacy', 'ar'], ['/fr', 'fr'],
+  ] as const)('%s : « %s » mémorisée comme choix explicite', (path, lang) => {
+    const s = memStore({ harxSiteLang: 'fr', i18nextLng: 'fr', harxLangExplicit: '1' });
+    expect(rememberLangFromPath(path, s)).toBe(lang);
+    expect(Object.fromEntries(s.m)).toEqual({ harxSiteLang: lang, i18nextLng: lang, harxLangExplicit: '1' });
+  });
+
+  it.each(['/', '/telephony', '/telephony/nomad', '/auth/signin', '/english', '/de/taas'])('%s (sans préfixe géré) : rien n’est écrit', (path) => {
+    const s = memStore({ harxSiteLang: 'fr', harxLangExplicit: '1' });
+    expect(rememberLangFromPath(path, s)).toBeNull();
+    expect(s.writes).toBe(0);
+    expect(s.m.get('harxSiteLang')).toBe('fr');
+  });
+
+  it('langue déjà mémorisée : aucune écriture', () => {
+    const s = memStore({ harxSiteLang: 'en', i18nextLng: 'en', harxLangExplicit: '1' });
+    rememberLangFromPath('/en/taas', s);
+    expect(s.writes).toBe(0);
+  });
+
+  it('stockage indisponible : la langue est renvoyée, rien ne casse', () => {
+    expect(rememberLangFromPath('/en', null)).toBe('en');
   });
 });
