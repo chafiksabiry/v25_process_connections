@@ -7,7 +7,7 @@ import { isLegalPath } from './lib/legalRoutes';
 import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
-import { isLangTelephonyPath, langTelephonyRedirect, rememberSiteLang } from './lib/langTelephonyRedirect';
+import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, rememberSiteLang } from './lib/langTelephonyRedirect';
 import './App.css';
 import Cookies from 'js-cookie';
 import React, { useEffect } from 'react';
@@ -54,6 +54,15 @@ function MicroAppContainerVisibility() {
   return null;
 }
 
+/** Navigation interne vers une page préfixée (drapeau de l'accueil : /fr → /en) : la langue de l'adresse devient le choix mémorisé. */
+function SiteLangFromPath() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    rememberLangFromPath(pathname);
+  }, [pathname]);
+  return null;
+}
+
 /** /call-center atteint par navigation interne (pushState) : même table que la 301 Netlify. */
 function LegacyCallCenterRedirect() {
   const location = useLocation();
@@ -92,6 +101,7 @@ const App = () => {
       <CookieBanner />
       <CSSRouteLoader />
       <MicroAppContainerVisibility />
+      <SiteLangFromPath />
       <Routes>
         <Route path="/auth" element={<Navigate to="/auth/signin" replace />} />
         <Route

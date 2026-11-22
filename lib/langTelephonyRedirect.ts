@@ -1,4 +1,4 @@
-import { SITE_LANGS, type SiteLang } from './langRoutes';
+import { getLangFromPath, SITE_LANGS, type SiteLang } from './langRoutes';
 
 /**
  * `/:lang/telephony*` (ex. `/en/telephony`, `/en/telephony/nomad`, `/fr/telephony`) n'existe pas dans le module
@@ -57,6 +57,28 @@ export function rememberSiteLang(lang: SiteLang, storage: Pick<Storage, 'setItem
   } catch {
     /* stockage indisponible (navigation privée stricte) : la page reste servie, dans la langue par défaut */
   }
+}
+
+/**
+ * Préfixe de langue de l'adresse (/fr, /en, /es, /ar, et toute page sous ce préfixe) = choix explicite (règle 1 de la langue du site).
+ * L'hôte le mémorise lui-même, au chargement et à chaque navigation interne, au lieu de compter sur le module d'inscription : sans cela,
+ * un clic sur CLOUD ou NOMAD (liens /telephony sans préfixe) avant que ce module ait écrit la langue ouvrait la Téléphonie dans la langue
+ * de l'appareil (fr-FR) alors que la personne était sur /en. Renvoie la langue mémorisée, ou null pour une adresse sans préfixe (rien n'est écrit).
+ */
+export function rememberLangFromPath(
+  pathname: string,
+  storage: Pick<Storage, 'setItem' | 'getItem'> | null = safeLocalStorage(),
+): SiteLang | null {
+  const lang = getLangFromPath(pathname);
+  if (!lang || !storage) return lang;
+  try {
+    // Écriture seulement si elle change quelque chose (évite des écritures à chaque navigation).
+    if (storage.getItem(SITE_LANG_KEY) === lang && storage.getItem(SHARED_LANG_KEY) === lang && storage.getItem(LANG_EXPLICIT_KEY) === '1') return lang;
+  } catch {
+    /* lecture impossible : on écrit quand même */
+  }
+  rememberSiteLang(lang, storage);
+  return lang;
 }
 
 function safeLocalStorage(): Storage | null {
