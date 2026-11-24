@@ -24,7 +24,42 @@ const CC_SNAPSHOT = `<div id="container-callcenter" class="harx-mf-active">
       </div>
     </div>`;
 
-const CC_JSONLD = JSON.stringify({
+/**
+ * Page de l'offre NOMAD (/nomad), en anglais (langue officielle ; le titre français est posé à l'exécution pour un visiteur francophone) :
+ * mêmes textes que lib/tracking/pageMeta.ts (NOMAD_META.en). Le test lib/nomadRoutes.test.ts vérifie qu'ils restent alignés.
+ */
+const NOMAD_TITLE = 'HARX NOMAD: your phone number, voicemail and calls, anywhere in the world';
+const NOMAD_DESC =
+    'Travel without losing your number: the number from your country rings in your browser, with no roaming. A voicemail takes the message, AI summarizes it. For business travelers, nomads and freelancers on the road.';
+const NOMAD_URL = 'https://harx.ai/nomad';
+
+const NOMAD_SNAPSHOT = `<div id="container-callcenter" class="harx-mf-active">
+      <!-- Résumé statique pour les robots ; vidé par qiankun au montage de l'application Téléphonie (page NOMAD). -->
+      <div id="seo-snapshot-nomad" lang="en" style="max-width:960px;margin:0 auto;padding:48px 24px;font-family:system-ui,sans-serif">
+        <h1>HARX NOMAD</h1>
+        <p>${NOMAD_DESC}</p>
+        <ul>
+          <li>One number that works anywhere in the world</li>
+          <li>No roaming</li>
+          <li>HARX Nomad app for iPhone and Android, and browser</li>
+        </ul>
+      </div>
+    </div>`;
+
+/** Application HARX Nomad (iPhone, Android, navigateur) : pas de prix (non affichés par l'hôte sur cette page). */
+const NOMAD_APP = {
+    '@type': 'SoftwareApplication',
+    '@id': `${NOMAD_URL}#app`,
+    name: 'HARX Nomad',
+    url: NOMAD_URL,
+    description: NOMAD_DESC,
+    applicationCategory: 'CommunicationApplication',
+    operatingSystem: 'iOS, Android, Web',
+    inLanguage: 'en',
+    publisher: { '@id': 'https://harx.ai/#organization' },
+};
+
+const jsonLd = (url: string, title: string, desc: string, lang = 'fr', extra: Record<string, unknown>[] = []) => JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
         {
@@ -44,20 +79,25 @@ const CC_JSONLD = JSON.stringify({
         },
         {
             '@type': 'WebPage',
-            '@id': `${CC_URL}#webpage`,
-            url: CC_URL,
-            name: CC_TITLE,
-            description: CC_DESC,
-            inLanguage: 'fr',
+            '@id': `${url}#webpage`,
+            url,
+            name: title,
+            description: desc,
+            inLanguage: lang,
             isPartOf: { '@id': 'https://harx.ai/#website' },
+            ...(extra.length ? { mainEntity: { '@id': extra[0]['@id'] } } : {}),
         },
+        ...extra,
     ],
 });
+
+const CC_JSONLD = jsonLd(CC_URL, CC_TITLE, CC_DESC);
+const NOMAD_JSONLD = jsonLd(NOMAD_URL, NOMAD_TITLE, NOMAD_DESC, 'en', [NOMAD_APP]);
 
 const escAttr = (s: string) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
 /**
- * Pré-rendu minimal de /telephony : dérive dist/telephony/index.html du dist/index.html construit
+ * Pré-rendu minimal de /telephony et de /nomad : dérive dist/telephony/index.html et dist/nomad/index.html du dist/index.html construit
  * (mêmes scripts hachés, mêmes conteneurs qiankun), avec méta SEO et résumé texte propres à la page.
  * Le build échoue si un gabarit attendu a changé, plutôt que de publier une page incohérente.
  */
@@ -70,23 +110,29 @@ function prerenderCallcentre(): Plugin {
             outDir = resolve(c.root, c.build.outDir);
         },
         closeBundle() {
-            let html = readFileSync(resolve(outDir, 'index.html'), 'utf8');
-            const sub = (re: RegExp, to: string) => {
-                if (!re.test(html)) throw new Error(`prerender-callcentre: motif introuvable ${re}`);
-                html = html.replace(re, () => to);
+            const base = readFileSync(resolve(outDir, 'index.html'), 'utf8');
+            const page = (dir: string, title: string, desc: string, url: string, jsonld: string, snapshot: string) => {
+                let html = base;
+                const sub = (re: RegExp, to: string) => {
+                    if (!re.test(html)) throw new Error(`prerender-callcentre: motif introuvable ${re}`);
+                    html = html.replace(re, () => to);
+                };
+                sub(/<title>[\s\S]*?<\/title>/, `<title>${escAttr(title)}</title>`);
+                sub(/<meta name="description"[^>]*>/, `<meta name="description" content="${escAttr(desc)}" />`);
+                sub(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${url}" />`);
+                sub(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${url}" />`);
+                sub(/<meta property="og:title"[^>]*>/, `<meta property="og:title" content="${escAttr(title)}" />`);
+                sub(/<meta property="og:description"[^>]*>/, `<meta property="og:description" content="${escAttr(desc)}" />`);
+                sub(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${jsonld}</script>`);
+                // Le conteneur auth ne doit pas être actif ni porter l'aperçu de l'accueil.
+                sub(/<div id="container-auth" class="harx-mf-active">[\s\S]*?<\/script>\s*<\/div>/, '<div id="container-auth"></div>');
+                sub(/<div id="container-callcenter"><\/div>/, snapshot);
+                mkdirSync(resolve(outDir, dir), { recursive: true });
+                writeFileSync(resolve(outDir, `${dir}/index.html`), html);
             };
-            sub(/<title>[\s\S]*?<\/title>/, `<title>${escAttr(CC_TITLE)}</title>`);
-            sub(/<meta name="description"[^>]*>/, `<meta name="description" content="${escAttr(CC_DESC)}" />`);
-            sub(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${CC_URL}" />`);
-            sub(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${CC_URL}" />`);
-            sub(/<meta property="og:title"[^>]*>/, `<meta property="og:title" content="${escAttr(CC_TITLE)}" />`);
-            sub(/<meta property="og:description"[^>]*>/, `<meta property="og:description" content="${escAttr(CC_DESC)}" />`);
-            sub(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${CC_JSONLD}</script>`);
-            // Le conteneur auth ne doit pas être actif ni porter l'aperçu de l'accueil.
-            sub(/<div id="container-auth" class="harx-mf-active">[\s\S]*?<\/script>\s*<\/div>/, '<div id="container-auth"></div>');
-            sub(/<div id="container-callcenter"><\/div>/, CC_SNAPSHOT);
-            mkdirSync(resolve(outDir, 'telephony'), { recursive: true });
-            writeFileSync(resolve(outDir, 'telephony/index.html'), html);
+            page('telephony', CC_TITLE, CC_DESC, CC_URL, CC_JSONLD, CC_SNAPSHOT);
+            // Page de l'offre NOMAD (/nomad, adresses NOMAD du 24/11/2026), même gabarit.
+            page('nomad', NOMAD_TITLE, NOMAD_DESC, NOMAD_URL, NOMAD_JSONLD, NOMAD_SNAPSHOT);
         },
     };
 }

@@ -11,7 +11,7 @@ describe('mapLangTelephonyPath', () => {
   it('retire le préfixe de langue des chemins /:lang/telephony*', () => {
     expect(mapLangTelephonyPath('/en/telephony')).toEqual({ lang: 'en', pathname: '/telephony' });
     expect(mapLangTelephonyPath('/en/telephony/')).toEqual({ lang: 'en', pathname: '/telephony' });
-    expect(mapLangTelephonyPath('/en/telephony/nomad')).toEqual({ lang: 'en', pathname: '/telephony/nomad' });
+    expect(mapLangTelephonyPath('/en/telephony/nomad')).toEqual({ lang: 'en', pathname: '/nomad' });
     expect(mapLangTelephonyPath('/fr/telephony')).toEqual({ lang: 'fr', pathname: '/telephony' });
     expect(mapLangTelephonyPath('/es/telephony/start')).toEqual({ lang: 'es', pathname: '/telephony/start' });
     expect(mapLangTelephonyPath('/ar/telephony/app/dashboard')).toEqual({ lang: 'ar', pathname: '/telephony/app/dashboard' });
@@ -35,7 +35,7 @@ describe('langTelephonyRedirect', () => {
 
   it('aucune cible ne garde de préfixe de langue (pas de boucle)', () => {
     const r = langTelephonyRedirect({ pathname: '/fr/telephony/nomad' });
-    expect(r?.url).toBe('/telephony/nomad');
+    expect(r?.url).toBe('/nomad');
     expect(isLangTelephonyPath(r!.url)).toBe(false);
   });
 });

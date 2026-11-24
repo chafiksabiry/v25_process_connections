@@ -97,15 +97,16 @@
   status = 301
   force = true
 
+# Poste NOMAD : adresse NOMAD /nomad/poste (24/11/2026), jamais /telephony.
 [[redirects]]
   from = "/call-center/poste"
-  to = "/telephony/app/poste"
+  to = "/nomad/poste"
   status = 301
   force = true
 
 [[redirects]]
   from = "/call-center/poste/*"
-  to = "/telephony/app/poste/:splat"
+  to = "/nomad/poste/:splat"
   status = 301
   force = true
 
@@ -476,10 +477,46 @@
   force = true
 # END call-center-redirects
 
+# Adresses NOMAD (24/11/2026) : tout le parcours NOMAD vit sous /nomad, jamais sous /telephony (CLOUD garde /telephony).
+# Anciennes adresses reconnues à leur seul chemin : 301 côté serveur (requête gardée). Celles reconnues à un paramètre
+# (/auth/signin?product=nomad, /telephony/start?profil=solo…) ou à un préfixe de langue à mémoriser (/:lang/telephony/nomad,
+# /:lang/nomad*) sont remplacées par l'hôte avant tout montage : voir lib/nomadRoutes.ts. Aucune cible n'est une ancienne adresse.
+# BEGIN nomad-redirects
+[[redirects]]
+  from = "/telephony/nomad"
+  to = "/nomad"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/telephony/nomad/"
+  to = "/nomad"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/auth/register-nomad"
+  to = "/nomad/inscription"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/auth/register-nomad/"
+  to = "/nomad/inscription"
+  status = 301
+  force = true
+# END nomad-redirects
+
 # Page vitrine pré-rendue (SEO) générée au build par vite.config.ts ; le conteneur qiankun y est conservé.
 [[redirects]]
   from = "/telephony"
   to = "/telephony/index.html"
+  status = 200
+
+# Page de l'offre NOMAD pré-rendue (SEO), générée au build par vite.config.ts, comme /telephony.
+[[redirects]]
+  from = "/nomad"
+  to = "/nomad/index.html"
   status = 200
 
 [[redirects]]

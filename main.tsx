@@ -21,12 +21,23 @@ import { subscribeAuthChanged } from './lib/authSync';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
 import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, rememberSiteLang } from './lib/langTelephonyRedirect';
 import { installRedirectHopRule } from './lib/redirectHop';
+import { isLangNomadPath, isNomadAuthPath, isNomadPortalPath, nomadLegacyRedirect } from './lib/nomadRoutes';
 
 // Arbitrage 12 : /call-center est retiré. Si Netlify n'a pas déjà renvoyé la 301 (aperçu local, navigation interne),
 // on remplace l'adresse avant tout montage de micro-application.
 {
   const legacyTarget = legacyCallCenterRedirect(window.location);
   if (legacyTarget) window.history.replaceState(window.history.state, '', legacyTarget);
+}
+
+// Adresses NOMAD (24/11/2026) : anciennes adresses du parcours NOMAD (/telephony/nomad, /auth/signin?product=nomad,
+// /auth/register-nomad, /telephony/start?profil=solo…, /:lang/nomad*) remplacées par /nomad* avant tout montage. Voir lib/nomadRoutes.ts.
+{
+  const nomadTarget = nomadLegacyRedirect(window.location);
+  if (nomadTarget) {
+    if (nomadTarget.lang) rememberSiteLang(nomadTarget.lang);
+    window.history.replaceState(window.history.state, '', nomadTarget.url);
+  }
 }
 
 // /:lang/telephony* (ex. /en/telephony) : l'application Téléphonie n'a pas de préfixe de langue. On mémorise la langue
@@ -41,11 +52,11 @@ import { installRedirectHopRule } from './lib/redirectHop';
 }
 
 // Relais /telephony/start → inscription : la flèche « retour » du navigateur saute le relais (au lieu de renvoyer en boucle sur
-// l'inscription) et ramène à la page de l'offre (ex. /telephony/nomad). Voir lib/redirectHop.ts.
+// l'inscription) et ramène à la page de l'offre (ex. /nomad). Voir lib/redirectHop.ts.
 const skippingRedirectHop = installRedirectHopRule(window);
 
 // /fr, /en, /es, /ar (et les pages sous ce préfixe) : langue mémorisée comme choix explicite avant tout montage, pour que les liens sans
-// préfixe (/telephony, /telephony/nomad, /auth/signin…) gardent la langue de la page, même si le module d'accueil n'est pas encore monté.
+// préfixe (/telephony, /nomad, /auth/signin…) gardent la langue de la page, même si le module d'accueil n'est pas encore monté.
 rememberLangFromPath(window.location.pathname);
 
 // Netlify-hosted sub-apps can be slow on cold start. Raise the single-spa
@@ -132,8 +143,10 @@ registerMicroApps([
         p.startsWith('/admin') ||
         p.startsWith('/linkedin') ||
         isLegalPath(p) ||
-        // /:lang/telephony* appartient à l'application Téléphonie (redirigé ci-dessus et dans App.tsx).
-        (getLangFromPath(p) !== null && !isLangTelephonyPath(p))
+        // Connexion et inscription NOMAD : écrans du module d'inscription.
+        isNomadAuthPath(p) ||
+        // /:lang/telephony* et /:lang/nomad* appartiennent à leurs applications (redirigés ci-dessus et dans App.tsx).
+        (getLangFromPath(p) !== null && !isLangTelephonyPath(p) && !isLangNomadPath(p))
       );
     },
     props: {
@@ -179,8 +192,10 @@ registerMicroApps([
     name: 'callcenter',
     entry: MF_ENTRIES.callcenter,
     container: '#container-callcenter',
+    // /nomad (page de l'offre NOMAD) et /nomad/<écran> (portail NOMAD) aussi, sauf /nomad/connexion et /nomad/inscription
+    // (module d'inscription). Voir lib/nomadRoutes.ts.
     activeRule: (location: { pathname: string }) =>
-      location.pathname === '/telephony' || location.pathname.startsWith('/telephony/'),
+      location.pathname === '/telephony' || location.pathname.startsWith('/telephony/') || isNomadPortalPath(location.pathname),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,
