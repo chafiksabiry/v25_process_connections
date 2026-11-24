@@ -4,12 +4,22 @@ import {
   ZOHO_SALESIQ_WIDGET_SRC,
 } from './constants';
 
+type SalesIqVisible = { visible?: (state: 'show' | 'hide') => void };
+type SalesIq = { ready?: () => void; floatbutton?: SalesIqVisible; floatwindow?: SalesIqVisible };
+
+/** Masque le bouton flottant et la fenêtre de chat SalesIQ ; le suivi des visiteurs continue (le script reste chargé). */
+export function hideSalesIqChat(): void {
+  const siq = typeof window !== 'undefined' ? window.$zoho?.salesiq : undefined;
+  try { siq?.floatbutton?.visible?.('hide'); } catch { /* API absente : rien à masquer */ }
+  try { siq?.floatwindow?.visible?.('hide'); } catch { /* API absente : rien à masquer */ }
+}
+
 declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
     _mfq?: Array<string | string[]>;
-    $zoho?: { salesiq?: { ready?: () => void } };
+    $zoho?: { salesiq?: SalesIq };
     __POWERED_BY_QIANKUN__?: boolean;
   }
 }
@@ -47,7 +57,9 @@ export function initVisitorTrackingScripts(): void {
     appendScript(null, MOUSEFLOW_PROJECT_SRC);
   }
 
+  // Suivi des visiteurs conservé, bulle de chat masquée par l'API SalesIQ (décision du 24/11/2026, même règle que index.html).
   window.$zoho = window.$zoho || {};
-  window.$zoho.salesiq = window.$zoho.salesiq || { ready() {} };
+  window.$zoho.salesiq = window.$zoho.salesiq || {};
+  window.$zoho.salesiq.ready = hideSalesIqChat;
   appendScript('zsiqscript', ZOHO_SALESIQ_WIDGET_SRC);
 }
