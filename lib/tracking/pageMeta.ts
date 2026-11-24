@@ -1,5 +1,6 @@
 import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL, HUB_DESCRIPTION_EN, HUB_DESCRIPTION_FR } from './constants';
 import { getLangFromPath, stripLangPrefix, withLangPrefix, type SiteLang } from '../langRoutes';
+import { NOMAD_HOME, NOMAD_REGISTER, isNomadPath } from '../nomadRoutes';
 
 export type PageMeta = {
   title: string;
@@ -19,6 +20,11 @@ export const CALLCENTRE_TITLE =
   'HARX Téléphonie : numéro français, appels et répondeur IA pour freelances, TPE, PME et centres d’appels';
 export const CALLCENTRE_DESCRIPTION =
   'Un numéro français, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
+
+/** Page de l'offre NOMAD (/nomad, adresses NOMAD du 24/11/2026). Même texte que le pré-rendu de vite.config.ts. */
+export const NOMAD_TITLE = 'HARX NOMAD : un numéro français, un répondeur et vos appels, partout dans le monde';
+export const NOMAD_DESCRIPTION =
+  'Pour les freelances, les nomades qui voyagent tout le temps et ceux qui travaillent en France en vivant à l’étranger (Maroc, Dubaï, Thaïlande…). Un numéro français, un répondeur personnel et un journal d’appels.';
 
 const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   {
@@ -153,6 +159,15 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
     },
   },
   {
+    // Page de l'offre NOMAD ; la connexion et les écrans du portail NOMAD (/nomad/<écran>) restent en noindex.
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === NOMAD_HOME,
+    meta: {
+      title: NOMAD_TITLE,
+      description: NOMAD_DESCRIPTION,
+      canonical: `${HARX_SITE_URL}${NOMAD_HOME}`,
+    },
+  },
+  {
     test: (p) => p.startsWith('/company'),
     meta: {
       title: `${BASE_TITLE} — Portail entreprise`,
@@ -216,6 +231,9 @@ const NOINDEX_PREFIXES = [
 
 export function isNoindexPath(rawPath: string): boolean {
   const pathname = normalizeTrackingPath(stripLangPrefix(rawPath.split('?')[0].split('#')[0]));
+  // NOMAD : seules la page de l'offre (/nomad) et l'inscription (/nomad/inscription) sont indexables ; la connexion
+  // (/nomad/connexion) et les écrans du portail (/nomad/mise-en-route, /nomad/poste…) ne le sont pas.
+  if (isNomadPath(pathname)) return pathname !== NOMAD_HOME && pathname !== NOMAD_REGISTER;
   return NOINDEX_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
 }
 

@@ -9,6 +9,7 @@ import { getLangFromPath } from './lib/langRoutes';
 import VisitorTracker from './VisitorTracker';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
 import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, rememberSiteLang } from './lib/langTelephonyRedirect';
+import { isLangNomadPath, isNomadAuthPath, isNomadPortalPath, nomadLegacyRedirect } from './lib/nomadRoutes';
 import './App.css';
 import Cookies from 'js-cookie';
 import React, { useEffect } from 'react';
@@ -34,13 +35,14 @@ function MicroAppContainerVisibility() {
       pathname.startsWith('/auth') ||
       pathname.startsWith('/admin') ||
       isLegalPath(pathname) ||
-      (getLangFromPath(pathname) !== null && !isLangTelephonyPath(pathname))
+      isNomadAuthPath(pathname) ||
+      (getLangFromPath(pathname) !== null && !isLangTelephonyPath(pathname) && !isLangNomadPath(pathname))
     ) {
       active.add('container-auth');
     }
     if (pathname.startsWith('/reps')) active.add('container-reps');
     if (pathname.startsWith('/company')) active.add('container-company');
-    if (pathname === '/telephony' || pathname.startsWith('/telephony/')) {
+    if (pathname === '/telephony' || pathname.startsWith('/telephony/') || isNomadPortalPath(pathname)) {
       active.add('container-callcenter');
     }
     if (pathname === '/home') active.add('container-home');
@@ -81,6 +83,15 @@ function LangTelephonyRedirect() {
   return <Navigate to={target.url} replace />;
 }
 
+/** Ancienne adresse du parcours NOMAD atteinte par navigation interne (pushState) : même règle qu'au chargement (main.tsx). */
+function NomadLegacyRedirect() {
+  const location = useLocation();
+  const target = nomadLegacyRedirect(location);
+  if (!target) return null;
+  if (target.lang) rememberSiteLang(target.lang);
+  return <Navigate to={target.url} replace />;
+}
+
 const HostPage = ({ children }: { children: React.ReactNode }) => (
   <div data-host-page style={{ minHeight: '100vh' }}>
     {children}
@@ -104,6 +115,7 @@ const App = () => {
       <CSSRouteLoader />
       <MicroAppContainerVisibility />
       <SiteLangFromPath />
+      <NomadLegacyRedirect />
       <Routes>
         <Route path="/auth" element={<Navigate to="/auth/signin" replace />} />
         <Route

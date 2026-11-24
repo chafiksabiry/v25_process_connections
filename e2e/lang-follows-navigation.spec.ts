@@ -31,13 +31,17 @@ test.beforeEach(async ({ context }) => {
 const go = (page: import('@playwright/test').Page, url: string) =>
   page.evaluate((u) => { history.pushState({}, '', u); dispatchEvent(new PopStateEvent('popstate')); }, url);
 
-test('/en → /telephony → /telephony/nomad (navigateur fr-FR) : la Téléphonie reste en anglais', async ({ page }) => {
+test('/en → /telephony → /nomad (navigateur fr-FR) : la Téléphonie reste en anglais', async ({ page }) => {
   await page.goto('/en');
   await expect(page.locator('#container-auth [data-stub=auth]')).toBeVisible({ timeout: 20_000 });
   expect(await page.evaluate(() => [localStorage.getItem('harxSiteLang'), localStorage.getItem('harxLangExplicit')])).toEqual(['en', '1']);
   await go(page, '/telephony');
   await expect(page.locator('#container-callcenter [data-stub=callcenter]')).toHaveAttribute('data-lang', 'en', { timeout: 20_000 });
+  await page.goto('/nomad');
+  await expect(page.locator('#container-callcenter [data-stub=callcenter]')).toHaveAttribute('data-lang', 'en', { timeout: 20_000 });
+  // Ancienne adresse de la page NOMAD : remplacée par /nomad, langue gardée.
   await page.goto('/telephony/nomad');
+  await page.waitForURL((u) => u.pathname === '/nomad', { timeout: 10_000 });
   await expect(page.locator('#container-callcenter [data-stub=callcenter]')).toHaveAttribute('data-lang', 'en', { timeout: 20_000 });
 });
 
