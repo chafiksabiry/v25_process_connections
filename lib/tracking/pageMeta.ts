@@ -1,6 +1,7 @@
 import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL, HUB_DESCRIPTION_EN, HUB_DESCRIPTION_FR } from './constants';
 import { getLangFromPath, stripLangPrefix, withLangPrefix, type SiteLang } from '../langRoutes';
 import { NOMAD_HOME, isNomadPath } from '../nomadRoutes';
+import { CLOUD_HOME, CLOUD_RECEPTIONIST, isCloudPath } from '../cloudRoutes';
 
 export type PageMeta = {
   title: string;
@@ -39,6 +40,22 @@ export const NOMAD_META: Record<'en' | 'fr', { title: string; description: strin
       'Voyagez sans perdre votre numéro : le numéro de votre pays sonne dans votre navigateur, sans roaming. Un répondeur prend le message, l’IA le résume. Pour voyageurs d’affaires, nomades et indépendants en déplacement.',
   },
 };
+/**
+ * Page CLOUD (/cloud) et page de l'offre Receptionist (/cloud/receptionist), adresses CLOUD Receptionist du 24/11/2026. Méta en anglais
+ * (langue officielle, comme /nomad) ; textes repris des traductions anglaises de la page CLOUD de l'application Téléphonie
+ * (v25_callcenter_front). Mêmes textes que le pré-rendu de vite.config.ts (vérifié par lib/cloudRoutes.test.ts).
+ */
+export const CLOUD_META = {
+  title: 'HARX CLOUD: Telephony In The Cloud for your company and your teams — Receptionist, Entreprise, Contact Centre',
+  description:
+    'Phone service for your company and your teams: Receptionist, agents, managers and the management team, all in one place. A number from your country, inbound and outbound calls, voicemail and AI.',
+};
+export const CLOUD_RECEPTIONIST_META = {
+  title: 'HARX CLOUD Receptionist: every call answered, handled and called back, even when you’re away',
+  description:
+    'Every call answered, every message followed up, even when your secretary works remotely. A number from your country, a greeting and voicemail suggested by AI, follow-ups, calendar and e-mails for your front desk.',
+};
+
 export const NOMAD_TITLE = NOMAD_META.en.title;
 export const NOMAD_DESCRIPTION = NOMAD_META.en.description;
 
@@ -175,6 +192,24 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
     },
   },
   {
+    // Page CLOUD (ancienne adresse /telephony) ; ses sous-parcours restent en noindex, sauf la page de l'offre Receptionist.
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === CLOUD_HOME,
+    meta: {
+      ...CLOUD_META,
+      canonical: `${HARX_SITE_URL}${CLOUD_HOME}`,
+      lang: 'en',
+    },
+  },
+  {
+    // Page de l'offre CLOUD Receptionist ; la connexion, l'inscription et les écrans du portail (/cloud/receptionist/<écran>) restent en noindex.
+    test: (p) => p.split('?')[0].replace(/\/+$/, '') === CLOUD_RECEPTIONIST,
+    meta: {
+      ...CLOUD_RECEPTIONIST_META,
+      canonical: `${HARX_SITE_URL}${CLOUD_RECEPTIONIST}`,
+      lang: 'en',
+    },
+  },
+  {
     // Page de l'offre NOMAD ; la connexion et les écrans du portail NOMAD (/nomad/<écran>) restent en noindex.
     test: (p) => p.split('?')[0].replace(/\/+$/, '') === NOMAD_HOME,
     meta: {
@@ -251,6 +286,9 @@ export function isNoindexPath(rawPath: string): boolean {
   // NOMAD : seule la page de l'offre (/nomad) est indexable (le référencement se concentre sur elle) ; l'inscription
   // (/nomad/inscription, formulaire), la connexion (/nomad/connexion) et les écrans du portail (/nomad/poste…) ne le sont pas.
   if (isNomadPath(pathname)) return pathname !== NOMAD_HOME;
+  // CLOUD Receptionist : seules la page CLOUD (/cloud) et la page de l'offre (/cloud/receptionist) sont indexables ; l'inscription,
+  // la connexion et les écrans du portail (/cloud/receptionist/<écran>) ne le sont pas.
+  if (isCloudPath(pathname)) return pathname !== CLOUD_HOME && pathname !== CLOUD_RECEPTIONIST;
   return NOINDEX_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
 }
 

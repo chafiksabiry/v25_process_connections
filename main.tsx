@@ -22,6 +22,7 @@ import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
 import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, rememberSiteLang } from './lib/langTelephonyRedirect';
 import { installRedirectHopRule } from './lib/redirectHop';
 import { isLangNomadPath, isNomadAuthPath, isNomadPortalPath, nomadLegacyRedirect } from './lib/nomadRoutes';
+import { cloudLegacyRedirect, isCloudAuthPath, isCloudPortalPath, isLangCloudPath } from './lib/cloudRoutes';
 
 // Arbitrage 12 : /call-center est retiré. Si Netlify n'a pas déjà renvoyé la 301 (aperçu local, navigation interne),
 // on remplace l'adresse avant tout montage de micro-application.
@@ -37,6 +38,17 @@ import { isLangNomadPath, isNomadAuthPath, isNomadPortalPath, nomadLegacyRedirec
   if (nomadTarget) {
     if (nomadTarget.lang) rememberSiteLang(nomadTarget.lang);
     window.history.replaceState(window.history.state, '', nomadTarget.url);
+  }
+}
+
+// Adresses CLOUD Receptionist (24/11/2026), APRÈS les règles NOMAD : anciennes entrées du parcours Receptionist (/telephony, /:lang/telephony,
+// /telephony/cloud/receptionist, /telephony/start?plan=accueil…, /telephony/start sans offre, /auth/signin?product=callcentre&plan=accueil,
+// /:lang/cloud*) remplacées par /cloud* avant tout montage. Voir lib/cloudRoutes.ts.
+{
+  const cloudTarget = cloudLegacyRedirect(window.location);
+  if (cloudTarget) {
+    if (cloudTarget.lang) rememberSiteLang(cloudTarget.lang);
+    window.history.replaceState(window.history.state, '', cloudTarget.url);
   }
 }
 
@@ -145,8 +157,10 @@ registerMicroApps([
         isLegalPath(p) ||
         // Connexion et inscription NOMAD : écrans du module d'inscription.
         isNomadAuthPath(p) ||
-        // /:lang/telephony* et /:lang/nomad* appartiennent à leurs applications (redirigés ci-dessus et dans App.tsx).
-        (getLangFromPath(p) !== null && !isLangTelephonyPath(p) && !isLangNomadPath(p))
+        // Connexion et étape 2 de l'inscription CLOUD Receptionist : écrans du module d'inscription.
+        isCloudAuthPath(p) ||
+        // /:lang/telephony*, /:lang/nomad* et /:lang/cloud* appartiennent à leurs applications (redirigés ci-dessus et dans App.tsx).
+        (getLangFromPath(p) !== null && !isLangTelephonyPath(p) && !isLangNomadPath(p) && !isLangCloudPath(p))
       );
     },
     props: {
@@ -193,9 +207,10 @@ registerMicroApps([
     entry: MF_ENTRIES.callcenter,
     container: '#container-callcenter',
     // /nomad (page de l'offre NOMAD) et /nomad/<écran> (portail NOMAD) aussi, sauf /nomad/connexion et /nomad/inscription
-    // (module d'inscription). Voir lib/nomadRoutes.ts.
+    // (module d'inscription). Voir lib/nomadRoutes.ts. De même /cloud et /cloud/* (CLOUD Receptionist), sauf
+    // /cloud/receptionist/connexion et /cloud/receptionist/inscription/compte. Voir lib/cloudRoutes.ts.
     activeRule: (location: { pathname: string }) =>
-      location.pathname === '/telephony' || location.pathname.startsWith('/telephony/') || isNomadPortalPath(location.pathname),
+      location.pathname === '/telephony' || location.pathname.startsWith('/telephony/') || isNomadPortalPath(location.pathname) || isCloudPortalPath(location.pathname),
     props: {
       sandbox: {
         experimentalStyleIsolation: false,

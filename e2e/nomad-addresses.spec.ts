@@ -117,18 +117,18 @@ test('navigation interne vers une ancienne adresse NOMAD : même redirection', a
   await expect(auth(page)).toBeVisible({ timeout: 20_000 });
 });
 
-test('CLOUD inchangé : /telephony, /telephony/start?plan=accueil et /auth/signin?product=callcentre restent tels quels', async ({ context, page }) => {
+test('CLOUD hors NOMAD : jamais une adresse NOMAD (adresses CLOUD Receptionist du 24/11/2026 : /telephony -> /cloud, voir cloud-addresses.spec.ts)', async ({ context, page }) => {
   await setup(context);
-  for (const [p, app] of [
-    ['/telephony', 'callcenter'],
-    ['/telephony/start?plan=accueil', 'callcenter'],
-    ['/telephony/app/poste', 'callcenter'],
-    ['/auth/signin?product=callcentre', 'auth'],
+  for (const [p, to, app] of [
+    ['/telephony', '/cloud', 'callcenter'],
+    ['/telephony/start?plan=accueil', '/cloud/receptionist/inscription', 'callcenter'],
+    ['/telephony/app/poste', '/telephony/app/poste', 'callcenter'],
+    ['/auth/signin?product=callcentre', '/auth/signin?product=callcentre', 'auth'],
   ] as const) {
     await page.goto(p);
     await expect(page.locator(`#container-${app} [data-stub=${app}]`)).toBeVisible({ timeout: 20_000 });
     await page.waitForTimeout(500);
-    expect(path(page)).toBe(p);
+    expect(path(page)).toBe(to);
   }
 });
 

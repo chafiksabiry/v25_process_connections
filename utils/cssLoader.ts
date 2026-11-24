@@ -18,7 +18,8 @@ const cssModules: CSSModule[] = [
   {
     url: `${MF_ENTRIES.auth.replace(/\/$/, '')}/index.css`,
     // Connexion et inscription NOMAD (/nomad/connexion, /nomad/inscription) : écrans du module d'inscription.
-    routes: ['/auth', '/nomad/connexion', '/nomad/inscription', '/']
+    // Connexion et étape 2 de l'inscription CLOUD Receptionist (/cloud/receptionist/connexion, /cloud/receptionist/inscription/compte) aussi.
+    routes: ['/auth', '/nomad/connexion', '/nomad/inscription', '/cloud/receptionist/connexion', '/cloud/receptionist/inscription/compte', '/']
   },
   {
     url: `${MF_ENTRIES.company.replace(/\/$/, '')}/index.css`,

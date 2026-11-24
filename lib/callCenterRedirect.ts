@@ -2,7 +2,7 @@
  * Arbitrage 12 (18/11/2026) : l'ancienne application `/call-center` est retirée.
  * Toute adresse `/call-center` ou `/call-center/*` part vers l'application `/telephony`.
  *
- * - `/call-center` → `/telephony`
+ * - `/call-center` → `/cloud` (page CLOUD, ancienne adresse `/telephony/` : adresses CLOUD Receptionist du 24/11/2026, sans chaîne de 301)
  * - `/call-center/<rubrique>[/suite]` → `/telephony/app/<rubrique>[/suite]` quand la rubrique existe dans `/telephony`
  * - `/call-center/onboarding` → `/telephony/onboarding`
  * - `/call-center/poste[/suite]` → `/nomad/poste[/suite]` (poste NOMAD, adresses NOMAD du 24/11/2026)
@@ -15,6 +15,8 @@
 
 export const LEGACY_CALL_CENTER_PREFIX = '/call-center';
 export const TELEPHONY_HOME = '/telephony';
+/** Racine `/call-center` : la page CLOUD (`/telephony` y renvoie aussi, voir cloudRoutes.ts). */
+export const CALL_CENTER_HOME = '/cloud';
 export const TELEPHONY_FALLBACK = '/telephony/app/dashboard';
 
 /** Rubriques dont l'ancienne adresse `/call-center/<rubrique>` part vers le portail NOMAD (`/nomad/<rubrique>`). */
@@ -70,7 +72,7 @@ export function isLegacyCallCenterPath(pathname: string): boolean {
 export function mapLegacyCallCenterPath(pathname: string): string | null {
   if (!isLegacyCallCenterPath(pathname)) return null;
   const rest = pathname.slice(LEGACY_CALL_CENTER_PREFIX.length).replace(/^\/+/, '').replace(/\/+$/, '');
-  if (!rest) return TELEPHONY_HOME;
+  if (!rest) return CALL_CENTER_HOME;
   const parts = rest.split('/').filter(Boolean);
   const nomad = NOMAD_LEGACY_SECTIONS[parts[0]];
   if (nomad) return [nomad, ...parts.slice(1)].join('/');
