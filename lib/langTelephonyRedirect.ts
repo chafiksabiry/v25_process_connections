@@ -20,16 +20,17 @@ export const LANG_EXPLICIT_KEY = 'harxLangExplicit';
 
 export interface LangTelephonyTarget {
   lang: SiteLang;
-  /** Chemin sans préfixe de langue, barre finale retirée (`/telephony`, `/telephony/nomad`). */
+  /** Chemin sans préfixe de langue, barre finale retirée (`/telephony`, `/telephony/app`) ; `/nomad` pour la page NOMAD. */
   pathname: string;
 }
 
-/** `/en/telephony/nomad` → `{ lang: 'en', pathname: '/telephony/nomad' }` ; `null` pour toute autre adresse. */
+/** `/en/telephony` → `{ lang: 'en', pathname: '/telephony' }`, `/en/telephony/nomad` → `{ lang: 'en', pathname: '/nomad' }` ; `null` pour toute autre adresse. */
 export function mapLangTelephonyPath(pathname: string): LangTelephonyTarget | null {
   const match = LANG_TELEPHONY_RE.exec(pathname);
   if (!match) return null;
   const rest = match[2].replace(/\/+$/, '') || '/telephony';
-  return { lang: match[1] as SiteLang, pathname: rest };
+  // Page de l'offre NOMAD : adresse NOMAD `/nomad` (24/11/2026), jamais `/telephony/nomad`. Voir lib/nomadRoutes.ts.
+  return { lang: match[1] as SiteLang, pathname: rest === '/telephony/nomad' ? '/nomad' : rest };
 }
 
 export function isLangTelephonyPath(pathname: string): boolean {

@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import {
+  NOMAD_LEGACY_SECTIONS,
   TELEPHONY_APP_SECTIONS,
   isLegacyCallCenterPath,
   legacyCallCenterRedirect,
@@ -22,6 +23,13 @@ describe('mapLegacyCallCenterPath', () => {
     expect(mapLegacyCallCenterPath('/call-center/onboarding')).toBe('/telephony/onboarding');
   });
 
+  it('envoie le poste vers l’adresse NOMAD /nomad/poste (24/11/2026), sous-chemin, requête et ancre gardés', () => {
+    expect(mapLegacyCallCenterPath('/call-center/poste')).toBe('/nomad/poste');
+    expect(mapLegacyCallCenterPath('/call-center/poste/')).toBe('/nomad/poste');
+    expect(mapLegacyCallCenterPath('/call-center/poste/clavier')).toBe('/nomad/poste/clavier');
+    expect(legacyCallCenterRedirect({ pathname: '/call-center/poste', search: '?num=33', hash: '#k' })).toBe('/nomad/poste?num=33#k');
+  });
+
   it('renvoie vers /telephony/app/dashboard quand la rubrique n’existe pas', () => {
     expect(mapLegacyCallCenterPath('/call-center/inconnu')).toBe('/telephony/app/dashboard');
     expect(mapLegacyCallCenterPath('/call-center/app/agents')).toBe('/telephony/app/dashboard');
@@ -39,7 +47,7 @@ describe('mapLegacyCallCenterPath', () => {
     const samples = ['/call-center', '/call-center/x', ...TELEPHONY_APP_SECTIONS.map((s) => `/call-center/${s}/a/b`)];
     for (const p of samples) {
       const t = mapLegacyCallCenterPath(p)!;
-      expect(t.startsWith('/telephony')).toBe(true);
+      expect(t.startsWith('/telephony') || t.startsWith('/nomad/')).toBe(true);
       expect(isLegacyCallCenterPath(t)).toBe(false);
       expect(mapLegacyCallCenterPath(t)).toBeNull();
     }
@@ -89,13 +97,14 @@ function applyNetlify(rules: Rule[], path: string): string | null {
 describe('netlify.toml (redirections 301 côté serveur)', () => {
   const rules = readCallCenterRules();
 
-  it('toutes les règles sont des 301 forcées vers /telephony', () => {
+  it('toutes les règles sont des 301 forcées vers /telephony (ou /nomad/poste pour le poste NOMAD)', () => {
     expect(rules.length).toBeGreaterThan(4);
     for (const r of rules) {
       expect(r.status).toBe(301);
       expect(r.force).toBe(true);
       expect(r.from.startsWith('/call-center')).toBe(true);
-      expect(r.to.startsWith('/telephony')).toBe(true);
+      if (r.from === '/call-center/poste' || r.from === '/call-center/poste/*') expect(r.to.startsWith('/nomad/poste')).toBe(true);
+      else expect(r.to.startsWith('/telephony')).toBe(true);
     }
   });
 
@@ -117,7 +126,8 @@ describe('netlify.toml (redirections 301 côté serveur)', () => {
 
   it('chaque rubrique de /telephony a sa règle', () => {
     for (const s of TELEPHONY_APP_SECTIONS) {
-      expect(rules.some((r) => r.from === `/call-center/${s}` && r.to === `/telephony/app/${s}`), s).toBe(true);
+      const to = NOMAD_LEGACY_SECTIONS[s] ?? `/telephony/app/${s}`;
+      expect(rules.some((r) => r.from === `/call-center/${s}` && r.to === to), s).toBe(true);
     }
   });
 });

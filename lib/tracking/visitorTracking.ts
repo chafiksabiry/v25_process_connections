@@ -1,6 +1,7 @@
 import { GA_MEASUREMENT_ID } from './constants';
 import { trackAdPlatformsPageView } from './conversions';
 import { buildTrackingPath, isNoindexPath, resolvePageMeta, type PageMeta } from './pageMeta';
+import { readCookieBannerLang } from '../cookieBannerI18n';
 
 declare global {
   interface Window {
@@ -69,7 +70,9 @@ export function updatePageHead(meta: PageMeta): void {
 /** Update document title + meta tags only (safe in qiankun child MFEs). */
 export function syncPageHead(path?: string): void {
   const pagePath = path ?? buildTrackingPath();
-  updatePageHead({ ...resolvePageMeta(pagePath), noindex: isNoindexPath(pagePath) });
+  // Langue du site pour ce visiteur (préfixe, choix mémorisé, navigateur) : titre de la page NOMAD en français ou en anglais.
+  const visitorLang = readCookieBannerLang(pagePath.split(/[?#]/)[0] || '/');
+  updatePageHead({ ...resolvePageMeta(pagePath, visitorLang), noindex: isNoindexPath(pagePath) });
 }
 
 /**

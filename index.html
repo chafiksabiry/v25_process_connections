@@ -108,10 +108,15 @@
     </script>
     <!-- Mouseflow — session replay : chargé après consentement « mesure d'audience » (lib/consent.ts ; auto SPA, ne pas appeler newPageView) -->
     <script>window._mfq = window._mfq || [];</script>
-    <!-- Zoho SalesIQ — visitor tracking & live chat (host shell only) -->
+    <!-- Zoho SalesIQ — suivi des visiteurs (host shell only). Bulle de chat retirée (décision du fondateur du 24/11/2026) :
+         le script de suivi reste chargé ; l'API SalesIQ du navigateur masque le bouton flottant et la fenêtre de chat. -->
     <script>
       window.$zoho = window.$zoho || {};
-      $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
+      $zoho.salesiq = $zoho.salesiq || {};
+      $zoho.salesiq.ready = function () {
+        try { $zoho.salesiq.floatbutton.visible('hide'); } catch (e) {}
+        try { $zoho.salesiq.floatwindow.visible('hide'); } catch (e) {}
+      };
       if (!document.getElementById('zsiqscript')) {
         var zsiq = document.createElement('script');
         zsiq.id = 'zsiqscript';

@@ -41,7 +41,8 @@ const path = (page: Page) => {
 
 for (const [from, to, lang] of [
   ['/en/telephony', '/telephony', 'en'],
-  ['/en/telephony/nomad', '/telephony/nomad', 'en'],
+  // Page NOMAD : adresse NOMAD /nomad (24/11/2026).
+  ['/en/telephony/nomad', '/nomad', 'en'],
   ['/fr/telephony', '/telephony', 'fr'],
   ['/es/telephony?situation=tpe', '/telephony?situation=tpe', 'es'],
 ] as const) {
@@ -67,8 +68,8 @@ test('navigation interne vers /en/telephony : même redirection', async ({ conte
     window.history.pushState({}, '', '/en/telephony/nomad');
     window.dispatchEvent(new PopStateEvent('popstate'));
   });
-  await page.waitForURL((u) => u.pathname === '/telephony/nomad', { timeout: 10_000 });
-  expect(path(page)).toBe('/telephony/nomad');
+  await page.waitForURL((u) => u.pathname === '/nomad', { timeout: 10_000 });
+  expect(path(page)).toBe('/nomad');
   expect(await page.evaluate(() => localStorage.getItem('harxSiteLang'))).toBe('en');
 });
 
