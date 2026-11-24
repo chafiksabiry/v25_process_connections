@@ -40,11 +40,14 @@ const path = (page: Page) => {
 };
 
 for (const [from, to, lang] of [
-  ['/en/telephony', '/telephony', 'en'],
+  // Page CLOUD : adresse /cloud (adresses CLOUD Receptionist du 24/11/2026), en un seul saut.
+  ['/en/telephony', '/cloud', 'en'],
   // Page NOMAD : adresse NOMAD /nomad (24/11/2026).
   ['/en/telephony/nomad', '/nomad', 'en'],
-  ['/fr/telephony', '/telephony', 'fr'],
-  ['/es/telephony?situation=tpe', '/telephony?situation=tpe', 'es'],
+  ['/fr/telephony', '/cloud', 'fr'],
+  ['/es/telephony?situation=tpe', '/cloud?situation=tpe', 'es'],
+  // Écrans connectés : toujours sous /telephony (l'offre n'est pas dans l'adresse ; le portail renvoie un compte Receptionist).
+  ['/en/telephony/app/dashboard', '/telephony/app/dashboard', 'en'],
 ] as const) {
   test(`${from} : application Téléphonie sous ${to}, en « ${lang} », sans module d'inscription`, async ({ context, page }) => {
     const requested = await setup(context);

@@ -47,17 +47,17 @@ const path = (page: Page) => {
   return u.pathname + u.search;
 };
 
-test('/call-center sans session : redirigé vers /telephony, sans boucle', async ({ context, page }) => {
+test('/call-center sans session : redirigé vers la page CLOUD /cloud (24/11/2026), sans boucle', async ({ context, page }) => {
   const requested = await setup(context);
   const errors = watchErrors(page);
   await page.goto('/call-center');
   await expect(page.locator('#container-callcenter [data-stub=callcenter]')).toBeVisible({ timeout: 20_000 });
-  expect(path(page)).toBe('/telephony');
+  expect(path(page)).toBe('/cloud');
   expect(requested).not.toContain('company');
   expect(errors.filter((e) => /Maximum update depth/i.test(e))).toEqual([]);
   // L'adresse reste stable (pas de va-et-vient entre deux routes).
   await page.waitForTimeout(1500);
-  expect(path(page)).toBe('/telephony');
+  expect(path(page)).toBe('/cloud');
 });
 
 test('/call-center avec une session simulée : sous-chemin gardé sous /telephony/app', async ({ context, page, baseURL }) => {

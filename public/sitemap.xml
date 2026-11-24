@@ -313,7 +313,12 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://harx.ai/ar/gdpr"/>
   </url>
   <url>
-    <loc>https://harx.ai/telephony</loc>
+    <loc>https://harx.ai/cloud</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://harx.ai/cloud/receptionist</loc>
+    <lastmod>2026-11-24</lastmod>
   </url>
   <url>
     <loc>https://harx.ai/nomad</loc>

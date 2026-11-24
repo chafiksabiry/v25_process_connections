@@ -1,3 +1,6 @@
+import { isCloudReceptionistScreen } from './cloudRoutes';
+import { stripLangPrefix } from './langRoutes';
+
 /**
  * Bouton WhatsApp du support : dans l'application connectée de HARX Téléphonie (/telephony/app/…, avec ou sans préfixe de langue),
  * il est réduit à sa pastille ronde (56 px, comme sur mobile), alignée au-dessus de la bulle de chat Zoho SalesIQ : les deux forment
@@ -11,6 +14,14 @@ const IN_APP_RE = /^\/(?:(?:fr|en|es|ar)\/)?telephony\/app(?:\/|$)/;
  */
 const NOMAD_SCREEN_RE = /^\/(?:(?:fr|en|es|ar)\/)?nomad\/(?!(?:connexion|inscription)(?:\/|$))[^/]+/;
 
+/**
+ * Portail CLOUD Receptionist (adresses CLOUD du 24/11/2026) : écrans /cloud/receptionist/<écran> (mise-en-route, tableau-de-bord, appels…).
+ * La page CLOUD (/cloud), la page de l'offre (/cloud/receptionist), l'inscription et la connexion gardent le libellé.
+ */
+function isCloudScreen(pathname: string): boolean {
+  return isCloudReceptionistScreen(stripLangPrefix(pathname));
+}
+
 export function compactWhatsAppFor(pathname: string): boolean {
-  return IN_APP_RE.test(pathname) || NOMAD_SCREEN_RE.test(pathname);
+  return IN_APP_RE.test(pathname) || NOMAD_SCREEN_RE.test(pathname) || isCloudScreen(pathname);
 }

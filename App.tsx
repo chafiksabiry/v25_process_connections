@@ -10,6 +10,7 @@ import VisitorTracker from './VisitorTracker';
 import { legacyCallCenterRedirect } from './lib/callCenterRedirect';
 import { isLangTelephonyPath, langTelephonyRedirect, rememberLangFromPath, rememberSiteLang } from './lib/langTelephonyRedirect';
 import { isLangNomadPath, isNomadAuthPath, isNomadPortalPath, nomadLegacyRedirect } from './lib/nomadRoutes';
+import { cloudLegacyRedirect, isCloudAuthPath, isCloudPortalPath, isLangCloudPath } from './lib/cloudRoutes';
 import './App.css';
 import Cookies from 'js-cookie';
 import React, { useEffect } from 'react';
@@ -36,13 +37,14 @@ function MicroAppContainerVisibility() {
       pathname.startsWith('/admin') ||
       isLegalPath(pathname) ||
       isNomadAuthPath(pathname) ||
-      (getLangFromPath(pathname) !== null && !isLangTelephonyPath(pathname) && !isLangNomadPath(pathname))
+      isCloudAuthPath(pathname) ||
+      (getLangFromPath(pathname) !== null && !isLangTelephonyPath(pathname) && !isLangNomadPath(pathname) && !isLangCloudPath(pathname))
     ) {
       active.add('container-auth');
     }
     if (pathname.startsWith('/reps')) active.add('container-reps');
     if (pathname.startsWith('/company')) active.add('container-company');
-    if (pathname === '/telephony' || pathname.startsWith('/telephony/') || isNomadPortalPath(pathname)) {
+    if (pathname === '/telephony' || pathname.startsWith('/telephony/') || isNomadPortalPath(pathname) || isCloudPortalPath(pathname)) {
       active.add('container-callcenter');
     }
     if (pathname === '/home') active.add('container-home');
@@ -69,7 +71,7 @@ function SiteLangFromPath() {
 /** /call-center atteint par navigation interne (pushState) : même table que la 301 Netlify. */
 function LegacyCallCenterRedirect() {
   const location = useLocation();
-  const target = legacyCallCenterRedirect(location) ?? '/telephony';
+  const target = legacyCallCenterRedirect(location) ?? '/cloud';
   return <Navigate to={target} replace />;
 }
 
@@ -87,6 +89,19 @@ function LangTelephonyRedirect() {
 function NomadLegacyRedirect() {
   const location = useLocation();
   const target = nomadLegacyRedirect(location);
+  if (!target) return null;
+  if (target.lang) rememberSiteLang(target.lang);
+  return <Navigate to={target.url} replace />;
+}
+
+/**
+ * Ancienne entrée du parcours CLOUD Receptionist atteinte par navigation interne (pushState) : même règle qu'au chargement (main.tsx),
+ * après la règle NOMAD (aucune adresse NOMAD n'est touchée : nomadLegacyRedirect passe d'abord).
+ */
+function CloudLegacyRedirect() {
+  const location = useLocation();
+  if (nomadLegacyRedirect(location)) return null;
+  const target = cloudLegacyRedirect(location);
   if (!target) return null;
   if (target.lang) rememberSiteLang(target.lang);
   return <Navigate to={target.url} replace />;
@@ -116,6 +131,7 @@ const App = () => {
       <MicroAppContainerVisibility />
       <SiteLangFromPath />
       <NomadLegacyRedirect />
+      <CloudLegacyRedirect />
       <Routes>
         <Route path="/auth" element={<Navigate to="/auth/signin" replace />} />
         <Route

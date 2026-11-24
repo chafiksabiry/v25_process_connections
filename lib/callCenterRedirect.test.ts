@@ -10,9 +10,9 @@ import {
 } from './callCenterRedirect';
 
 describe('mapLegacyCallCenterPath', () => {
-  it('envoie /call-center vers /telephony', () => {
-    expect(mapLegacyCallCenterPath('/call-center')).toBe('/telephony');
-    expect(mapLegacyCallCenterPath('/call-center/')).toBe('/telephony');
+  it('envoie /call-center vers la page CLOUD /cloud (adresses CLOUD Receptionist du 24/11/2026, sans chaîne de 301)', () => {
+    expect(mapLegacyCallCenterPath('/call-center')).toBe('/cloud');
+    expect(mapLegacyCallCenterPath('/call-center/')).toBe('/cloud');
   });
 
   it('garde le sous-chemin quand la rubrique existe dans /telephony', () => {
@@ -47,7 +47,7 @@ describe('mapLegacyCallCenterPath', () => {
     const samples = ['/call-center', '/call-center/x', ...TELEPHONY_APP_SECTIONS.map((s) => `/call-center/${s}/a/b`)];
     for (const p of samples) {
       const t = mapLegacyCallCenterPath(p)!;
-      expect(t.startsWith('/telephony') || t.startsWith('/nomad/')).toBe(true);
+      expect(t.startsWith('/telephony') || t.startsWith('/nomad/') || t === '/cloud').toBe(true);
       expect(isLegacyCallCenterPath(t)).toBe(false);
       expect(mapLegacyCallCenterPath(t)).toBeNull();
     }
@@ -97,13 +97,14 @@ function applyNetlify(rules: Rule[], path: string): string | null {
 describe('netlify.toml (redirections 301 côté serveur)', () => {
   const rules = readCallCenterRules();
 
-  it('toutes les règles sont des 301 forcées vers /telephony (ou /nomad/poste pour le poste NOMAD)', () => {
+  it('toutes les règles sont des 301 forcées vers /telephony (ou /nomad/poste pour le poste NOMAD, /cloud pour la racine)', () => {
     expect(rules.length).toBeGreaterThan(4);
     for (const r of rules) {
       expect(r.status).toBe(301);
       expect(r.force).toBe(true);
       expect(r.from.startsWith('/call-center')).toBe(true);
       if (r.from === '/call-center/poste' || r.from === '/call-center/poste/*') expect(r.to.startsWith('/nomad/poste')).toBe(true);
+      else if (r.from === '/call-center' || r.from === '/call-center/') expect(r.to).toBe('/cloud');
       else expect(r.to.startsWith('/telephony')).toBe(true);
     }
   });
