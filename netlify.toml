@@ -34,11 +34,14 @@
 
 # harx.ai/app : lien court de l'app mobile HARX Nomad (QR code du portail, FAQ). Fonction de bord netlify/edge-functions/nomad-app.ts
 # (chemins /app et /app/, déclarés dans la fonction ; elle passe avant les redirections ci-dessous). iPhone/iPad → App Store, Android →
-# Google Play, ordinateur ou store non configuré → page avec les boutons ou « bientôt disponible ». Variables d'environnement Netlify
+# page Google Play + téléchargement direct (APK), ordinateur → page avec le QR code et les choix, rien de configuré pour l’appareil → « pas encore disponible ». Variables d'environnement Netlify
 # (lues à l'exécution, sans redéploiement du code) :
 #   NOMAD_APP_STORE_URL  = https://apps.apple.com/app/id…   (une fois l'app visible sur l'App Store)
 #   NOMAD_PLAY_STORE_URL = https://play.google.com/store/apps/details?id=ai.harx.nomad   (une fois la version Play en production)
-# Vide = store non configuré.
+#   NOMAD_APK_URL        = https://harx.ai/downloads/harx-nomad.apk   (exemple : téléchargement direct Android, adresse définitive à renseigner)
+#   NOMAD_APP_STORE_EXCLUDED_COUNTRIES = AT,BE,BG,CY,CZ,DE,DK,EE,ES,FI,FR,GR,HR,HU,IE,IT,LT,LU,LV,MT,NL,PL,PT,RO,SE,SI,SK
+#                          (proposition tant que l'app iOS n'est pas publiée dans l'UE : App Store ni ouvert ni montré dans ces pays)
+# Vide = store non configuré (bouton masqué, jamais « bientôt »).
 
 # Ancienne adresse du produit : redirection permanente vers /telephony (liens, favoris, moteurs de recherche).
 [[redirects]]
