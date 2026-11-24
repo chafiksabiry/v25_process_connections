@@ -9,7 +9,7 @@ import {
   nomadLegacyRedirect,
 } from './nomadRoutes';
 import { isRegisterPath } from './redirectHop';
-import { isNoindexPath, resolvePageMeta, NOMAD_TITLE } from './tracking/pageMeta';
+import { isNoindexPath, resolvePageMeta, NOMAD_META, NOMAD_TITLE } from './tracking/pageMeta';
 
 // Adresses NOMAD validées par le fondateur (24/11/2026) : tout le parcours NOMAD sous /nomad, jamais sous /telephony.
 
@@ -129,19 +129,39 @@ describe('relais et retour : /nomad/inscription est un écran d’inscription', 
 });
 
 describe('méta et indexation des adresses NOMAD', () => {
-  it('/nomad : titre et canonique propres ; indexable', () => {
-    const meta = resolvePageMeta('/nomad');
-    expect(meta.title).toBe(NOMAD_TITLE);
-    expect(meta.canonical).toBe('https://harx.ai/nomad');
+  it('/nomad : anglais par défaut (langue officielle), canonique https://harx.ai/nomad, indexable, sans hreflang', () => {
+    expect(NOMAD_TITLE).toBe('HARX NOMAD: your phone number, voicemail and calls, anywhere in the world');
+    for (const visitor of [undefined, 'en', 'es', 'ar'] as const) {
+      const meta = resolvePageMeta('/nomad', visitor);
+      expect(meta.title, String(visitor)).toBe(NOMAD_META.en.title);
+      expect(meta.description).toBe(NOMAD_META.en.description);
+      expect(meta.lang).toBe('en');
+      expect(meta.canonical).toBe('https://harx.ai/nomad');
+      expect(meta.alternates).toBeUndefined();
+    }
+    expect(resolvePageMeta('/nomad?pays=CA').canonical).toBe('https://harx.ai/nomad');
     expect(isNoindexPath('/nomad')).toBe(false);
     expect(isNoindexPath('/nomad?pays=CA')).toBe(false);
   });
 
-  it('/nomad/inscription indexable ; connexion et écrans du portail en noindex', () => {
-    expect(isNoindexPath('/nomad/inscription')).toBe(false);
-    for (const p of ['/nomad/connexion', '/nomad/mise-en-route', '/nomad/poste', ...NOMAD_PORTAL_SCREENS.map((s) => `/nomad/${s}`)]) {
+  it('/nomad pour un visiteur francophone : titre et description en français, même canonique', () => {
+    const meta = resolvePageMeta('/nomad', 'fr');
+    expect(meta.title).toBe('HARX NOMAD : votre numéro, votre répondeur et vos appels, partout dans le monde');
+    expect(meta.description).toBe(NOMAD_META.fr.description);
+    expect(meta.lang).toBe('fr');
+    expect(meta.canonical).toBe('https://harx.ai/nomad');
+  });
+
+  it('seule /nomad est indexable : inscription, connexion et écrans du portail en noindex', () => {
+    for (const p of ['/nomad/inscription', '/nomad/inscription?step=email', '/nomad/connexion', '/nomad/mise-en-route', '/nomad/poste', ...NOMAD_PORTAL_SCREENS.map((s) => `/nomad/${s}`)]) {
       expect(isNoindexPath(p), p).toBe(true);
     }
+  });
+
+  it('la langue du visiteur ne change pas les autres pages (CLOUD, TAAS)', () => {
+    expect(resolvePageMeta('/telephony', 'en')).toEqual(resolvePageMeta('/telephony'));
+    expect(resolvePageMeta('/fr/taas', 'en')).toEqual(resolvePageMeta('/fr/taas'));
+    expect(resolvePageMeta('/', 'fr')).toEqual(resolvePageMeta('/'));
   });
 
   it('CLOUD inchangé : /telephony indexable, /telephony/app en noindex', () => {
@@ -178,5 +198,30 @@ describe('netlify.toml : redirections NOMAD côté serveur', () => {
     expect(toml.indexOf('# BEGIN nomad-redirects')).toBeLessThan(toml.indexOf('from = "/*"'));
     expect(toml).toMatch(/from = "\/nomad"\s+to = "\/nomad\/index\.html"\s+status = 200/);
     expect(toml.indexOf('to = "/nomad/index.html"')).toBeLessThan(toml.indexOf('from = "/*"'));
+  });
+});
+
+describe('référencement de /nomad : pré-rendu, sitemap, robots', () => {
+  const read = (rel: string) => readFileSync(fileURLToPath(new URL(rel, import.meta.url)), 'utf8');
+
+  it('le pré-rendu (vite.config.ts) reprend le titre et la description anglais, avec une application (SoftwareApplication) sans prix', () => {
+    const vite = read('../vite.config.ts');
+    expect(vite).toContain(`'${NOMAD_META.en.title}'`);
+    expect(vite).toContain(`'${NOMAD_META.en.description}'`);
+    expect(vite).toMatch(/'@type': 'SoftwareApplication'/);
+    expect(vite).not.toMatch(/'@type': 'Offer'|price:/);
+  });
+
+  it('sitemap : /nomad avec lastmod, sans les écrans non indexables', () => {
+    const xml = read('../public/sitemap.xml');
+    expect(xml).toMatch(/<loc>https:\/\/harx\.ai\/nomad<\/loc>\s*<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/);
+    expect(xml).not.toMatch(/harx\.ai\/nomad\//);
+  });
+
+  it('robots.txt : connexion et écrans du portail exclus ; ni /nomad ni /nomad/inscription (sa balise noindex doit être lue)', () => {
+    const lines = read('../public/robots.txt').split('\n').map((l) => l.trim());
+    for (const p of ['/nomad/connexion', ...NOMAD_PORTAL_SCREENS.map((s) => `/nomad/${s}`)]) expect(lines, p).toContain(`Disallow: ${p}`);
+    expect(lines).not.toContain('Disallow: /nomad');
+    expect(lines).not.toContain('Disallow: /nomad/inscription');
   });
 });

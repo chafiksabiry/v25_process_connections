@@ -1,4 +1,5 @@
 # harx.ai — les sections privées (back office, portails connectés) ne sont pas explorées.
+# NOMAD : /nomad est exploré ; /nomad/inscription aussi, pour que sa balise noindex soit lue (pas de Disallow).
 User-agent: *
 Allow: /
 Disallow: /admin

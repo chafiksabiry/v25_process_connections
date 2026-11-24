@@ -131,3 +131,43 @@ test('CLOUD inchangé : /telephony, /telephony/start?plan=accueil et /auth/signi
     expect(path(page)).toBe(p);
   }
 });
+
+test('/nomad pré-rendu (robots) : méta anglaises, canonique, JSON-LD SoftwareApplication, indexable', async ({ request }) => {
+  // Fichier servi pour /nomad par Netlify (réécriture 200 de netlify.toml) ; l'aperçu Vite ne connaît pas cette réécriture.
+  const html = await (await request.get('/nomad/index.html')).text();
+  expect(html).toContain('<title>HARX NOMAD: your phone number, voicemail and calls, anywhere in the world</title>');
+  expect(html).toContain('<link rel="canonical" href="https://harx.ai/nomad" />');
+  expect(html).toContain('<meta property="og:url" content="https://harx.ai/nomad" />');
+  expect(html).toMatch(/<meta property="og:title" content="HARX NOMAD: your phone number/);
+  expect(html).toContain('"@type":"SoftwareApplication"');
+  expect(html).toContain('<meta name="robots" content="index,follow" />');
+  expect(html).toContain('id="seo-snapshot-nomad" lang="en"');
+});
+
+for (const [locale, title, lang] of [
+  ['en-US', 'HARX NOMAD: your phone number, voicemail and calls, anywhere in the world', 'en'],
+  ['de-DE', 'HARX NOMAD: your phone number, voicemail and calls, anywhere in the world', 'en'],
+  ['fr-FR', 'HARX NOMAD : votre numéro, votre répondeur et vos appels, partout dans le monde', 'fr'],
+] as const) {
+  test.describe(`/nomad pour un navigateur ${locale}`, () => {
+    test.use({ locale });
+    test(`titre « ${lang} », canonique /nomad, indexable`, async ({ context, page }) => {
+      await setup(context);
+      await page.goto('/nomad');
+      await expect(portal(page)).toBeVisible({ timeout: 20_000 });
+      await expect.poll(() => page.title()).toBe(title);
+      expect(await page.locator('link[rel="canonical"]').getAttribute('href')).toBe('https://harx.ai/nomad');
+      expect(await page.locator('meta[name="robots"]').getAttribute('content')).toBe('index,follow');
+      expect(await page.evaluate(() => document.documentElement.lang)).toBe(lang);
+    });
+  });
+}
+
+test('/nomad/inscription et /nomad/connexion : noindex', async ({ context, page }) => {
+  await setup(context);
+  for (const p of ['/nomad/inscription', '/nomad/connexion']) {
+    await page.goto(p);
+    await expect(auth(page)).toBeVisible({ timeout: 20_000 });
+    await expect.poll(() => page.locator('meta[name="robots"]').getAttribute('content')).toBe('noindex,nofollow');
+  }
+});

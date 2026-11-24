@@ -1,6 +1,6 @@
 import { DEFAULT_PAGE_DESCRIPTION, HARX_SITE_URL, HUB_DESCRIPTION_EN, HUB_DESCRIPTION_FR } from './constants';
 import { getLangFromPath, stripLangPrefix, withLangPrefix, type SiteLang } from '../langRoutes';
-import { NOMAD_HOME, NOMAD_REGISTER, isNomadPath } from '../nomadRoutes';
+import { NOMAD_HOME, isNomadPath } from '../nomadRoutes';
 
 export type PageMeta = {
   title: string;
@@ -21,10 +21,26 @@ export const CALLCENTRE_TITLE =
 export const CALLCENTRE_DESCRIPTION =
   'Un numéro français, vos appels entrants et sortants, un répondeur et une IA pour vous assister. Pour les freelances et nomades, les TPE (accueil et secrétariat), les PME et équipes à distance, et les centres d’appels, en Europe, aux États-Unis et en externalisation.';
 
-/** Page de l'offre NOMAD (/nomad, adresses NOMAD du 24/11/2026). Même texte que le pré-rendu de vite.config.ts. */
-export const NOMAD_TITLE = 'HARX NOMAD : un numéro français, un répondeur et vos appels, partout dans le monde';
-export const NOMAD_DESCRIPTION =
-  'Pour les freelances, les nomades qui voyagent tout le temps et ceux qui travaillent en France en vivant à l’étranger (Maroc, Dubaï, Thaïlande…). Un numéro français, un répondeur personnel et un journal d’appels.';
+/**
+ * Page de l'offre NOMAD (/nomad, adresses NOMAD du 24/11/2026). Langue officielle : l'anglais, par défaut (robots, pré-rendu de
+ * vite.config.ts, visiteurs non francophones) ; le français pour un visiteur dont la langue du site est le français. Descriptions :
+ * celles de la page NOMAD de l'application Téléphonie (v25_callcenter_front, src/i18n/waves/nomad-voyageur.ts), dans chaque langue.
+ * Une seule adresse (/nomad) pour les deux langues : pas de hreflang (pas de version préfixée à désigner).
+ */
+export const NOMAD_META: Record<'en' | 'fr', { title: string; description: string }> = {
+  en: {
+    title: 'HARX NOMAD: your phone number, voicemail and calls, anywhere in the world',
+    description:
+      'Travel without losing your number: the number from your country rings in your browser, with no roaming. A voicemail takes the message, AI summarizes it. For business travelers, nomads and freelancers on the road.',
+  },
+  fr: {
+    title: 'HARX NOMAD : votre numéro, votre répondeur et vos appels, partout dans le monde',
+    description:
+      'Voyagez sans perdre votre numéro : le numéro de votre pays sonne dans votre navigateur, sans roaming. Un répondeur prend le message, l’IA le résume. Pour voyageurs d’affaires, nomades et indépendants en déplacement.',
+  },
+};
+export const NOMAD_TITLE = NOMAD_META.en.title;
+export const NOMAD_DESCRIPTION = NOMAD_META.en.description;
 
 const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
   {
@@ -165,6 +181,7 @@ const ROUTE_META: Array<{ test: (path: string) => boolean; meta: PageMeta }> = [
       title: NOMAD_TITLE,
       description: NOMAD_DESCRIPTION,
       canonical: `${HARX_SITE_URL}${NOMAD_HOME}`,
+      lang: 'en',
     },
   },
   {
@@ -231,9 +248,9 @@ const NOINDEX_PREFIXES = [
 
 export function isNoindexPath(rawPath: string): boolean {
   const pathname = normalizeTrackingPath(stripLangPrefix(rawPath.split('?')[0].split('#')[0]));
-  // NOMAD : seules la page de l'offre (/nomad) et l'inscription (/nomad/inscription) sont indexables ; la connexion
-  // (/nomad/connexion) et les écrans du portail (/nomad/mise-en-route, /nomad/poste…) ne le sont pas.
-  if (isNomadPath(pathname)) return pathname !== NOMAD_HOME && pathname !== NOMAD_REGISTER;
+  // NOMAD : seule la page de l'offre (/nomad) est indexable (le référencement se concentre sur elle) ; l'inscription
+  // (/nomad/inscription, formulaire), la connexion (/nomad/connexion) et les écrans du portail (/nomad/poste…) ne le sont pas.
+  if (isNomadPath(pathname)) return pathname !== NOMAD_HOME;
   return NOINDEX_PREFIXES.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`));
 }
 
@@ -282,8 +299,11 @@ const EN_META: Record<string, { title: string; description: string }> = {
   },
 };
 
-/** Métadonnées d'une route, avec gestion du préfixe de langue (/fr/…, /en/…). */
-export function resolvePageMeta(rawPath: string): PageMeta {
+/**
+ * Métadonnées d'une route, avec gestion du préfixe de langue (/fr/…, /en/…). `visitorLang` (langue du site pour ce visiteur, voir
+ * cookieBannerI18n.readCookieBannerLang) ne sert qu'à la page NOMAD : français pour un visiteur francophone, anglais sinon.
+ */
+export function resolvePageMeta(rawPath: string, visitorLang?: SiteLang): PageMeta {
   const full = rawPath || '/';
   const [pathOnly, ...rest] = full.split('?');
   const barePath = pathOnly.split('#')[0] || '/';
@@ -292,6 +312,7 @@ export function resolvePageMeta(rawPath: string): PageMeta {
   const meta = resolveUnprefixedPageMeta(`${stripped}${rest.length ? `?${rest.join('?')}` : ''}`);
   const pathname = normalizeTrackingPath(stripped);
   const lang: SiteLang = urlLang ?? 'fr';
+  if (!urlLang && pathname === NOMAD_HOME && visitorLang === 'fr') return { ...meta, ...NOMAD_META.fr, lang: 'fr' };
 
   if (!LOCALIZED_INDEXABLE_PATHS.includes(pathname)) {
     if (!urlLang) return meta;

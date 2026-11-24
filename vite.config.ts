@@ -24,21 +24,42 @@ const CC_SNAPSHOT = `<div id="container-callcenter" class="harx-mf-active">
       </div>
     </div>`;
 
-/** Page de l'offre NOMAD (/nomad) : mêmes textes que lib/tracking/pageMeta.ts (NOMAD_TITLE, NOMAD_DESCRIPTION). */
-const NOMAD_TITLE = 'HARX NOMAD : un numéro français, un répondeur et vos appels, partout dans le monde';
+/**
+ * Page de l'offre NOMAD (/nomad), en anglais (langue officielle ; le titre français est posé à l'exécution pour un visiteur francophone) :
+ * mêmes textes que lib/tracking/pageMeta.ts (NOMAD_META.en). Le test lib/nomadRoutes.test.ts vérifie qu'ils restent alignés.
+ */
+const NOMAD_TITLE = 'HARX NOMAD: your phone number, voicemail and calls, anywhere in the world';
 const NOMAD_DESC =
-    'Pour les freelances, les nomades qui voyagent tout le temps et ceux qui travaillent en France en vivant à l’étranger (Maroc, Dubaï, Thaïlande…). Un numéro français, un répondeur personnel et un journal d’appels.';
+    'Travel without losing your number: the number from your country rings in your browser, with no roaming. A voicemail takes the message, AI summarizes it. For business travelers, nomads and freelancers on the road.';
 const NOMAD_URL = 'https://harx.ai/nomad';
 
 const NOMAD_SNAPSHOT = `<div id="container-callcenter" class="harx-mf-active">
       <!-- Résumé statique pour les robots ; vidé par qiankun au montage de l'application Téléphonie (page NOMAD). -->
-      <div id="seo-snapshot-nomad" lang="fr" style="max-width:960px;margin:0 auto;padding:48px 24px;font-family:system-ui,sans-serif">
+      <div id="seo-snapshot-nomad" lang="en" style="max-width:960px;margin:0 auto;padding:48px 24px;font-family:system-ui,sans-serif">
         <h1>HARX NOMAD</h1>
         <p>${NOMAD_DESC}</p>
+        <ul>
+          <li>One number that works anywhere in the world</li>
+          <li>No roaming</li>
+          <li>HARX Nomad app for iPhone and Android, and browser</li>
+        </ul>
       </div>
     </div>`;
 
-const jsonLd = (url: string, title: string, desc: string) => JSON.stringify({
+/** Application HARX Nomad (iPhone, Android, navigateur) : pas de prix (non affichés par l'hôte sur cette page). */
+const NOMAD_APP = {
+    '@type': 'SoftwareApplication',
+    '@id': `${NOMAD_URL}#app`,
+    name: 'HARX Nomad',
+    url: NOMAD_URL,
+    description: NOMAD_DESC,
+    applicationCategory: 'CommunicationApplication',
+    operatingSystem: 'iOS, Android, Web',
+    inLanguage: 'en',
+    publisher: { '@id': 'https://harx.ai/#organization' },
+};
+
+const jsonLd = (url: string, title: string, desc: string, lang = 'fr', extra: Record<string, unknown>[] = []) => JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
         {
@@ -62,14 +83,16 @@ const jsonLd = (url: string, title: string, desc: string) => JSON.stringify({
             url,
             name: title,
             description: desc,
-            inLanguage: 'fr',
+            inLanguage: lang,
             isPartOf: { '@id': 'https://harx.ai/#website' },
+            ...(extra.length ? { mainEntity: { '@id': extra[0]['@id'] } } : {}),
         },
+        ...extra,
     ],
 });
 
 const CC_JSONLD = jsonLd(CC_URL, CC_TITLE, CC_DESC);
-const NOMAD_JSONLD = jsonLd(NOMAD_URL, NOMAD_TITLE, NOMAD_DESC);
+const NOMAD_JSONLD = jsonLd(NOMAD_URL, NOMAD_TITLE, NOMAD_DESC, 'en', [NOMAD_APP]);
 
 const escAttr = (s: string) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
