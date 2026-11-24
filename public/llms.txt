@@ -9,6 +9,7 @@ HARX.ai is the home of all HARX offers. TAAS connects companies with independent
 - [Home](https://harx.ai/en): HARX, one platform and several offers
 - [TAAS](https://harx.ai/en/taas): Transaction-as-a-Service, pay for results, not for seats
 - [HARX Telephony](https://harx.ai/telephony): a number from your country, inbound and outbound calls, reception / secretarial and AI
+- [HARX NOMAD](https://harx.ai/nomad): travel without losing your number: the number from your country rings in your browser, with no roaming; a voicemail takes the message, AI summarizes it
 - [Choose your profile](https://harx.ai/en/auth/choice): join HARX as a company or an independent rep
 - [Company sign-up](https://harx.ai/en/auth/register-company): create a company account
 - [Rep sign-up](https://harx.ai/en/auth/register-rep): create a certified HARX rep profile with your CV
@@ -22,4 +23,5 @@ HARX.ai is the home of all HARX offers. TAAS connects companies with independent
 - [Inscription entreprise](https://harx.ai/fr/auth/register-company): créer un compte entreprise
 - [Inscription rep](https://harx.ai/fr/auth/register-rep): créer un profil rep certifié HARX avec son CV
 - [HARX Téléphonie](https://harx.ai/telephony): numéro de votre pays, appels entrants et sortants, accueil / secrétariat et IA pour indépendants, entreprises et équipes
+- [HARX NOMAD](https://harx.ai/nomad): voyagez sans perdre votre numéro : le numéro de votre pays sonne dans votre navigateur, sans roaming ; un répondeur prend le message, l'IA le résume
 - [Confidentialité](https://harx.ai/fr/privacy), [Conditions](https://harx.ai/fr/terms), [Cookies](https://harx.ai/fr/cookies), [RGPD](https://harx.ai/fr/gdpr)

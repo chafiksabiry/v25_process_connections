@@ -122,7 +122,7 @@ export function renderPage(lang: Lang, platform: Platform, links: StoreLinks): s
       `<div data-ipad hidden><p class="lead">${withLogo(links.ios ? t.ready : t.none)}</p></div>`,
     ].join('\n');
   }
-  body += `\n<p class="account">${esc(t.account)}</p>\n<a class="more" href="/telephony/nomad">${withLogo(t.more)}</a>`;
+  body += `\n<p class="account">${esc(t.account)}</p>\n<a class="more" href="/nomad">${withLogo(t.more)}</a>`;
   // iPadOS (UA de bureau) : détecté côté page par les points de contact tactiles.
   const ipadScript = platform === 'desktop'
     ? `<script>(function(){if(!/Macintosh/.test(navigator.userAgent)||!(navigator.maxTouchPoints>1))return;var m=document.querySelector('main'),u=m&&m.getAttribute('data-ios');if(u){location.replace(u);return;}document.querySelectorAll('[data-desktop]').forEach(function(e){e.hidden=true;});var i=document.querySelector('[data-ipad]');if(i)i.hidden=false;})();</script>`

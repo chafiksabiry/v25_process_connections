@@ -13,7 +13,7 @@ import { stripLangPrefix } from './langRoutes';
  */
 export const REDIRECT_HOP_PATHS: readonly string[] = ['/telephony/start'];
 
-/** Clé partagée avec v25_registration_front (src/lib/offerRegister.ts) : `{ "url": "/telephony/nomad?…" }`. */
+/** Clé partagée avec v25_registration_front (src/lib/offerRegister.ts) : `{ "url": "/nomad?…" }`. */
 export const OFFER_RETURN_KEY = 'harx_offer_return';
 /** Relais à sauter au prochain retour (adresse du relais). */
 export const HOP_SKIP_KEY = 'harx_hop_skip';
@@ -28,9 +28,10 @@ export function isRedirectHop(pathname: string): boolean {
   return REDIRECT_HOP_PATHS.includes(cleanPath(pathname));
 }
 
-/** Écrans d'inscription (avec ou sans préfixe de langue) : seuls endroits où la note de retour garde un sens. */
+/** Écrans d'inscription (avec ou sans préfixe de langue), dont l'inscription NOMAD `/nomad/inscription` : seuls endroits où la note de retour garde un sens. */
 export function isRegisterPath(pathname: string): boolean {
-  return /^\/auth\/register(-[a-z-]+)?$/.test(cleanPath(pathname));
+  const p = cleanPath(pathname);
+  return /^\/auth\/register(-[a-z-]+)?$/.test(p) || p === '/nomad/inscription';
 }
 
 /** Adresse locale (chemin + requête + ancre) d'un referrer de même origine, sinon `null`. */

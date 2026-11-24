@@ -17,7 +17,8 @@ interface CSSModule {
 const cssModules: CSSModule[] = [
   {
     url: `${MF_ENTRIES.auth.replace(/\/$/, '')}/index.css`,
-    routes: ['/auth', '/']
+    // Connexion et inscription NOMAD (/nomad/connexion, /nomad/inscription) : écrans du module d'inscription.
+    routes: ['/auth', '/nomad/connexion', '/nomad/inscription', '/']
   },
   {
     url: `${MF_ENTRIES.company.replace(/\/$/, '')}/index.css`,

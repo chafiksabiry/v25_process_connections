@@ -1,4 +1,5 @@
 # harx.ai — les sections privées (back office, portails connectés) ne sont pas explorées.
+# NOMAD : /nomad est exploré ; /nomad/inscription aussi, pour que sa balise noindex soit lue (pas de Disallow).
 User-agent: *
 Allow: /
 Disallow: /admin
@@ -7,6 +8,20 @@ Disallow: /call-center
 Disallow: /telephony/app
 Disallow: /telephony/start
 Disallow: /telephony/onboarding
+Disallow: /nomad/connexion
+Disallow: /nomad/mise-en-route
+Disallow: /nomad/poste
+Disallow: /nomad/appels
+Disallow: /nomad/messages
+Disallow: /nomad/repondeur
+Disallow: /nomad/annonce
+Disallow: /nomad/numero
+Disallow: /nomad/contacts
+Disallow: /nomad/facturation
+Disallow: /nomad/profil
+Disallow: /nomad/application
+Disallow: /nomad/identite
+Disallow: /nomad/faq
 Disallow: /reps
 Disallow: /reporchestrator
 Disallow: /linkedin
